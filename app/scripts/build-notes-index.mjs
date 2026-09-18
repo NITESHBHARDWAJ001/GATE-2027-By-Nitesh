@@ -39,3 +39,23 @@ for (const key of readdirSync(root, { withFileTypes: true }).filter((d) => d.isD
 subjects.sort((a, b) => a.order - b.order)
 writeFileSync(path.join(root, 'index.json'), JSON.stringify(subjects, null, 1))
 console.log(`Notes index: ${subjects.length} subjects, ${subjects.reduce((n, s) => n + s.chapters.length, 0)} chapters`)
+
+// ---- Add notes sections to the search index (kind: 'chapter') ----
+const idxPath = path.resolve(__dirname, '..', 'public', 'data', 'search-index.json')
+if (existsSync(idxPath)) {
+  const idx = JSON.parse(readFileSync(idxPath, 'utf8')).filter((e) => e.k !== 'chapter')
+  for (const subj of subjects) {
+    for (const c of subj.chapters) {
+      const text = readFileSync(path.join(root, subj.key, c.file), 'utf8').replace(/<!--[\s\S]*?-->/g, '')
+      const parts = text.split(/^##\s+/m).slice(1)
+      for (const part of parts) {
+        const nl = part.indexOf(String.fromCharCode(10))
+        const heading = part.slice(0, nl).trim()
+        const body = part.slice(nl + 1).replace(/[`*|>#]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 900)
+        idx.push({ k: 'chapter', s: subj.key, sn: subj.title, p: c.id, tn: c.title, title: heading, text: body })
+      }
+    }
+  }
+  writeFileSync(idxPath, JSON.stringify(idx))
+  console.log(`Search index + notes sections: ${idx.length} entries`)
+}

@@ -7,11 +7,12 @@ const KINDS = [
   { id: 'all', label: 'All' },
   { id: 'topic', label: 'Topics' },
   { id: 'pattern', label: 'Patterns' },
-  { id: 'note', label: 'Notes' },
+  { id: 'chapter', label: 'Study notes' },
+  { id: 'note', label: 'Concept summary' },
   { id: 'pyq', label: 'PYQs' },
 ]
-const KIND_LABEL = { topic: 'Topic', pattern: 'Pattern', note: 'Concept notes', pyq: 'PYQ' }
-const KIND_WEIGHT = { topic: 40, pattern: 25, note: 12, pyq: 8 }
+const KIND_LABEL = { topic: 'Topic', pattern: 'Pattern', note: 'Concept summary', chapter: 'Study notes', pyq: 'PYQ' }
+const KIND_WEIGHT = { topic: 40, chapter: 30, pattern: 25, note: 12, pyq: 8 }
 const MAX_SHOWN = 60
 
 const norm = (s) => String(s ?? '').toLowerCase()
@@ -62,6 +63,7 @@ function Highlight({ text, tokens }) {
 }
 
 function linkFor(e) {
+  if (e.k === 'chapter') return `/notes/${e.s}/${e.p}`
   const base = `/subjects/${e.s}/${e.p}`
   if (e.k === 'topic') return base
   if (e.k === 'note') return `${base}?tab=concepts`
@@ -111,7 +113,7 @@ export default function SearchPage() {
     if (!index || tokens.length === 0) return { results: [], counts: {}, total: 0 }
     const phrase = tokens.join(' ')
     const scored = []
-    const counts = { all: 0, topic: 0, pattern: 0, note: 0, pyq: 0 }
+    const counts = { all: 0, topic: 0, pattern: 0, note: 0, chapter: 0, pyq: 0 }
     for (const e of index) {
       if (subject && e.s !== subject) continue
       if (prio && e.pr !== prio) continue

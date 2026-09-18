@@ -1,0 +1,1 @@
+{ "title": "Databases (DBMS)", "emoji": "🗄️", "order": 3, "description": "ER model, relational algebra, SQL, normalization, transactions, concurrency, indexing and B+ trees with solved examples.", "topicSubjectIds": ["databases"] }

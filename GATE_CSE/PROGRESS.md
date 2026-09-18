@@ -47,3 +47,8 @@ All 54 P4 topics have compact single-pattern notes like P3 (1-2 PYQs each).
 - Every P2 topic now has at least 2 practice questions (answers hand-checked).
 - Still thin: P3/P4 topics (1 practice question, short notes); GA quantitative notes are generic (PYQs not read one by one).
 - 3 misfiled PYQs deliberately unmapped: relations 4.12.14, binary-heap 3.4.1, linked-list 3.10.2.
+
+### In-depth Notes (web app: /notes)
+- Location: GATE_CSE/notes/<subject>/NN-chapter.md (+ _subject.json). Index built by app/scripts/build-notes-index.mjs; chapters render in the app and are searchable.
+- Done: DSA (10), Operating System (9), Databases (10), COA (8) = 37 chapters, ~36k words, Hinglish with worked examples, formula sheets, traps, practice.
+- Not yet: Theory of Computation, Compiler Design, Computer Networks, Digital Logic, Discrete Maths, Engineering Maths, General Aptitude.

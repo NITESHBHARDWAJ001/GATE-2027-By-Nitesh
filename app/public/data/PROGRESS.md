@@ -40,3 +40,10 @@ All 54 P4 topics have compact single-pattern notes like P3 (1-2 PYQs each).
 - About 140 PYQs (~3.7%) were not header-parsed; some stray/misfiled PYQs are deliberately unmapped to patterns.
 - General Aptitude coverage is partial.
 - Answers for some descriptive / old questions are N/A in the source.
+
+### Quality pass (latest)
+- App search rebuilt: index of topics, patterns, concept notes and all PYQs (built by scripts/sync-data.mjs into public/data/search-index.json); filters by type, subject, priority, PYQ year; deep links open the right tab/pattern.
+- Cache Memory: 18 unmapped PYQs now mapped (69/69).
+- Every P2 topic now has at least 2 practice questions (answers hand-checked).
+- Still thin: P3/P4 topics (1 practice question, short notes); GA quantitative notes are generic (PYQs not read one by one).
+- 3 misfiled PYQs deliberately unmapped: relations 4.12.14, binary-heap 3.4.1, linked-list 3.10.2.

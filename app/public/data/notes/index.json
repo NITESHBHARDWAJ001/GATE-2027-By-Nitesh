@@ -1,0 +1,523 @@
+[
+ {
+  "key": "dsa",
+  "order": 1,
+  "title": "DSA: Programming, Data Structures & Algorithms",
+  "emoji": "🧠",
+  "description": "C programming, arrays/linked lists/stack/queue, trees, heaps, hashing, sorting, recurrences, greedy, DP, graph algorithms with solved examples.",
+  "topicSubjectIds": [
+   "programming-and-ds-data-structures",
+   "programming-programming-in-c",
+   "algorithms"
+  ],
+  "chapters": [
+   {
+    "id": "01-c-programming-pointers-recursion",
+    "file": "01-c-programming-pointers-recursion.md",
+    "title": "C Programming for GATE: Pointers, Arrays, Recursion, Output Tracing",
+    "topics": [
+     "programming-programming-in-c/pointers",
+     "programming-programming-in-c/array",
+     "programming-programming-in-c/parameter-passing",
+     "programming-programming-in-c/recursion",
+     "programming-programming-in-c/output",
+     "programming-programming-in-c/programming-in-c"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "02-arrays-linked-lists-stacks-queues",
+    "file": "02-arrays-linked-lists-stacks-queues.md",
+    "title": "Arrays, Linked Lists, Stacks aur Queues",
+    "topics": [
+     "programming-and-ds-data-structures/array",
+     "programming-and-ds-data-structures/linked-list",
+     "programming-and-ds-data-structures/stack",
+     "programming-and-ds-data-structures/queue",
+     "programming-and-ds-data-structures/infix-prefix"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "03-trees-bst-avl",
+    "file": "03-trees-bst-avl.md",
+    "title": "Trees: Binary Tree, Traversals, BST aur AVL",
+    "topics": [
+     "programming-and-ds-data-structures/binary-tree",
+     "programming-and-ds-data-structures/binary-search-tree",
+     "programming-and-ds-data-structures/tree",
+     "programming-and-ds-data-structures/avl-tree",
+     "programming-and-ds-data-structures/tree-traversal"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "04-heaps-hashing",
+    "file": "04-heaps-hashing.md",
+    "title": "Heaps aur Hashing",
+    "topics": [
+     "programming-and-ds-data-structures/binary-heap",
+     "programming-and-ds-data-structures/priority-queue",
+     "programming-and-ds-data-structures/hashing",
+     "algorithms/hashing",
+     "algorithms/linear-probing",
+     "algorithms/double-hashing",
+     "algorithms/heap-sort"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "05-asymptotic-analysis-recurrences",
+    "file": "05-asymptotic-analysis-recurrences.md",
+    "title": "Algorithm Analysis: Asymptotic Notation, Time Complexity aur Recurrences",
+    "topics": [
+     "algorithms/asymptotic-notations",
+     "algorithms/time-complexity",
+     "algorithms/recurrence-relation",
+     "algorithms/space-complexity",
+     "algorithms/computer-science"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "06-sorting-and-searching",
+    "file": "06-sorting-and-searching.md",
+    "title": "Sorting aur Searching",
+    "topics": [
+     "algorithms/sorting",
+     "algorithms/quick-sort",
+     "algorithms/merge-sort",
+     "algorithms/heap-sort",
+     "algorithms/insertion-sort",
+     "algorithms/selection-sort",
+     "algorithms/bubble-sort",
+     "algorithms/searching",
+     "algorithms/binary-search",
+     "algorithms/inversion",
+     "algorithms/merging"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "07-divide-conquer-greedy",
+    "file": "07-divide-conquer-greedy.md",
+    "title": "Divide and Conquer aur Greedy Algorithms",
+    "topics": [
+     "algorithms/algorithm-design-techniques",
+     "algorithms/algorithm-design",
+     "algorithms/greedy-algorithms",
+     "algorithms/huffman-code",
+     "algorithms/prims-algorithm",
+     "algorithms/minimum-spanning-tree",
+     "algorithms/maximum-minimum"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "08-dynamic-programming",
+    "file": "08-dynamic-programming.md",
+    "title": "Dynamic Programming: LCS, Knapsack, Matrix Chain, LIS, Edit Distance",
+    "topics": [
+     "algorithms/dynamic-programming",
+     "algorithms/matrix-chain-ordering"
+    ],
+    "minutes": 4
+   },
+   {
+    "id": "09-graph-algorithms",
+    "file": "09-graph-algorithms.md",
+    "title": "Graph Algorithms: BFS, DFS, Topological Sort, SCC, Shortest Paths",
+    "topics": [
+     "algorithms/graph-search",
+     "algorithms/graph-algorithms",
+     "algorithms/breadth-first-search",
+     "algorithms/depth-first-search",
+     "algorithms/topological-sort",
+     "algorithms/strongly-connected-components",
+     "algorithms/shortest-path",
+     "algorithms/dijkstras-algorithm",
+     "algorithms/bellman-ford",
+     "algorithms/minimum-spanning-tree",
+     "discrete-mathematics-graph-theory/graph-connectivity"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "10-dsa-formula-sheet-and-traps",
+    "file": "10-dsa-formula-sheet-and-traps.md",
+    "title": "DSA: Formula Sheet, Comparison Tables aur GATE Traps",
+    "topics": [
+     "algorithms/sorting",
+     "algorithms/recurrence-relation",
+     "algorithms/time-complexity",
+     "programming-and-ds-data-structures/binary-tree",
+     "programming-and-ds-data-structures/binary-search-tree"
+    ],
+    "minutes": 4
+   }
+  ]
+ },
+ {
+  "key": "operating-system",
+  "order": 2,
+  "title": "Operating System (OS)",
+  "emoji": "🖥️",
+  "description": "Process, scheduling, synchronization, deadlock, memory, virtual memory, file system, disk: full GATE syllabus with solved examples.",
+  "topicSubjectIds": [
+   "operating-system"
+  ],
+  "chapters": [
+   {
+    "id": "01-os-basics-system-calls-interrupts",
+    "file": "01-os-basics-system-calls-interrupts.md",
+    "title": "OS Basics: System Calls, Modes aur Interrupts",
+    "topics": [
+     "operating-system/system-calls",
+     "operating-system/os-protection",
+     "operating-system/interrupts",
+     "operating-system/io-handling"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "02-processes-threads-fork",
+    "file": "02-processes-threads-fork.md",
+    "title": "Processes, Threads, Context Switch aur fork()",
+    "topics": [
+     "operating-system/process",
+     "operating-system/context-switch",
+     "operating-system/threads",
+     "operating-system/fork-system-call",
+     "operating-system/input-output"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "03-cpu-scheduling",
+    "file": "03-cpu-scheduling.md",
+    "title": "CPU Scheduling: Har Algorithm Solved Examples ke Saath",
+    "topics": [
+     "operating-system/process-scheduling",
+     "operating-system/round-robin-scheduling",
+     "operating-system/srtf"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "04-process-synchronization",
+    "file": "04-process-synchronization.md",
+    "title": "Process Synchronization: Critical Section, Semaphores, Classic Problems",
+    "topics": [
+     "operating-system/process-synchronization",
+     "operating-system/semaphore",
+     "operating-system/precedence-graph"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "05-deadlocks",
+    "file": "05-deadlocks.md",
+    "title": "Deadlock: Conditions, RAG, Prevention, Avoidance (Banker's), Detection",
+    "topics": [
+     "operating-system/resource-allocation",
+     "operating-system/deadlock-prevention-avoidance-detection",
+     "operating-system/bankers-algorithm",
+     "operating-system/resource-allocation-graph"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "06-memory-management-paging",
+    "file": "06-memory-management-paging.md",
+    "title": "Memory Management: Contiguous, Paging, Segmentation, TLB",
+    "topics": [
+     "operating-system/memory-management",
+     "operating-system/best-fit",
+     "operating-system/multilevel-paging",
+     "operating-system/translation-lookaside-buffer"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "07-virtual-memory-page-replacement",
+    "file": "07-virtual-memory-page-replacement.md",
+    "title": "Virtual Memory, Demand Paging aur Page Replacement",
+    "topics": [
+     "operating-system/virtual-memory",
+     "operating-system/page-replacement",
+     "operating-system/demand-paging",
+     "operating-system/least-recently-used"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "08-file-system-disk",
+    "file": "08-file-system-disk.md",
+    "title": "File System, Disk Structure aur Disk Scheduling",
+    "topics": [
+     "operating-system/file-system",
+     "operating-system/disk",
+     "operating-system/disk-scheduling",
+     "operating-system/linked-allocation"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "09-os-formula-sheet-and-traps",
+    "file": "09-os-formula-sheet-and-traps.md",
+    "title": "OS: Formula Sheet, Common Traps aur GATE Strategy",
+    "topics": [
+     "operating-system/process-scheduling",
+     "operating-system/process-synchronization",
+     "operating-system/virtual-memory",
+     "operating-system/page-replacement",
+     "operating-system/disk-scheduling"
+    ],
+    "minutes": 4
+   }
+  ]
+ },
+ {
+  "key": "databases",
+  "order": 3,
+  "title": "Databases (DBMS)",
+  "emoji": "🗄️",
+  "description": "ER model, relational algebra, SQL, normalization, transactions, concurrency, indexing and B+ trees with solved examples.",
+  "topicSubjectIds": [
+   "databases"
+  ],
+  "chapters": [
+   {
+    "id": "01-dbms-intro-er-model",
+    "file": "01-dbms-intro-er-model.md",
+    "title": "DBMS Intro aur ER Model",
+    "topics": [
+     "databases/er-diagram",
+     "databases/database-design",
+     "databases/database-schema"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "02-relational-model-keys-integrity",
+    "file": "02-relational-model-keys-integrity.md",
+    "title": "Relational Model, Keys aur Integrity Constraints",
+    "topics": [
+     "databases/relational-model",
+     "databases/candidate-key",
+     "databases/super-key",
+     "databases/referential-integrity"
+    ],
+    "minutes": 4
+   },
+   {
+    "id": "03-relational-algebra-calculus",
+    "file": "03-relational-algebra-calculus.md",
+    "title": "Relational Algebra aur Relational Calculus",
+    "topics": [
+     "databases/relational-algebra",
+     "databases/relational-calculus",
+     "databases/tuple-relational-calculus",
+     "databases/safe-query",
+     "databases/joins",
+     "databases/natural-join"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "04-sql-in-depth",
+    "file": "04-sql-in-depth.md",
+    "title": "SQL in Depth: Queries, Aggregates, Nested Queries, Joins, Constraints",
+    "topics": [
+     "databases/sql",
+     "databases/query"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "05-functional-dependencies-closure-keys",
+    "file": "05-functional-dependencies-closure-keys.md",
+    "title": "Functional Dependencies, Closure, Candidate Keys aur Minimal Cover",
+    "topics": [
+     "databases/functional-dependency",
+     "databases/armstrong-axioms",
+     "databases/candidate-key",
+     "databases/super-key"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "06-normalization-decomposition",
+    "file": "06-normalization-decomposition.md",
+    "title": "Normalization: 1NF se BCNF, Decomposition (Lossless, Dependency Preserving)",
+    "topics": [
+     "databases/database-normalization",
+     "databases/normal-forms",
+     "databases/decomposition",
+     "databases/multivalued-dependency-4nf"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "07-transactions-schedules-serializability",
+    "file": "07-transactions-schedules-serializability.md",
+    "title": "Transactions, ACID, Schedules, Serializability aur Recoverability",
+    "topics": [
+     "databases/transaction-and-concurrency",
+     "databases/conflict-serializable"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "08-concurrency-control-recovery",
+    "file": "08-concurrency-control-recovery.md",
+    "title": "Concurrency Control (Locking, Timestamp) aur Recovery",
+    "topics": [
+     "databases/two-phase-locking-protocol",
+     "databases/timestamp-ordering",
+     "databases/transaction-and-concurrency"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "09-file-organization-indexing-bplus",
+    "file": "09-file-organization-indexing-bplus.md",
+    "title": "File Organization, Indexing aur B / B+ Trees",
+    "topics": [
+     "databases/indexing",
+     "databases/b-tree"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "10-dbms-formula-sheet-and-traps",
+    "file": "10-dbms-formula-sheet-and-traps.md",
+    "title": "DBMS: Formula Sheet, Traps aur GATE Strategy",
+    "topics": [
+     "databases/sql",
+     "databases/database-normalization",
+     "databases/transaction-and-concurrency",
+     "databases/indexing",
+     "databases/b-tree"
+    ],
+    "minutes": 3
+   }
+  ]
+ },
+ {
+  "key": "co-architecture",
+  "order": 4,
+  "title": "Computer Organization & Architecture (COA)",
+  "emoji": "⚙️",
+  "description": "Number representation, ISA, addressing modes, datapath and control, pipelining, cache, virtual memory, I/O, DMA with solved numericals.",
+  "topicSubjectIds": [
+   "co-architecture"
+  ],
+  "chapters": [
+   {
+    "id": "01-number-representation-arithmetic",
+    "file": "01-number-representation-arithmetic.md",
+    "title": "Number Representation, Arithmetic aur IEEE 754",
+    "topics": [
+     "digital-logic/number-representation",
+     "digital-logic/ieee-representation",
+     "digital-logic/booths-algorithm",
+     "digital-logic/fixed-point-representation",
+     "digital-logic/floating-point-representation"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "02-isa-instruction-formats-addressing-modes",
+    "file": "02-isa-instruction-formats-addressing-modes.md",
+    "title": "ISA, Instruction Formats aur Addressing Modes",
+    "topics": [
+     "co-architecture/addressing-modes",
+     "co-architecture/instruction-format",
+     "co-architecture/machine-instruction",
+     "co-architecture/instruction-set-architecture",
+     "co-architecture/cisc-risc-architecture"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "03-cpu-datapath-control-performance",
+    "file": "03-cpu-datapath-control-performance.md",
+    "title": "CPU: Datapath, Control Unit (Hardwired/Microprogrammed) aur Performance",
+    "topics": [
+     "co-architecture/data-path",
+     "co-architecture/control-unit",
+     "co-architecture/instruction-execution",
+     "co-architecture/speedup",
+     "co-architecture/microprogramming"
+    ],
+    "minutes": 4
+   },
+   {
+    "id": "04-pipelining-hazards",
+    "file": "04-pipelining-hazards.md",
+    "title": "Pipelining: Speedup, Hazards, Forwarding aur Branch Handling",
+    "topics": [
+     "co-architecture/pipelining",
+     "co-architecture/data-dependency",
+     "co-architecture/data-hazards",
+     "co-architecture/hazards",
+     "co-architecture/stall"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "05-cache-memory",
+    "file": "05-cache-memory.md",
+    "title": "Cache Memory: Mapping, Address Split, AMAT, Write Policies, Misses",
+    "topics": [
+     "co-architecture/cache-memory",
+     "co-architecture/direct-mapping",
+     "co-architecture/average-memory-access-time",
+     "co-architecture/conflict-misses"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "06-main-memory-virtual-memory-disk",
+    "file": "06-main-memory-virtual-memory-disk.md",
+    "title": "Main Memory, Interleaving, DRAM/ROM, Virtual Memory (COA view) aur Disk",
+    "topics": [
+     "co-architecture/memory-interfacing",
+     "co-architecture/dram",
+     "co-architecture/virtual-memory",
+     "co-architecture/disk",
+     "co-architecture/bit-vector",
+     "digital-logic/rom",
+     "digital-logic/memory-interfacing",
+     "digital-logic/decoder"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "07-io-interrupts-dma",
+    "file": "07-io-interrupts-dma.md",
+    "title": "I/O Organization: Programmed I/O, Interrupts, DMA",
+    "topics": [
+     "co-architecture/dma",
+     "co-architecture/interrupts",
+     "co-architecture/io-handling",
+     "operating-system/dma"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "08-coa-formula-sheet-and-traps",
+    "file": "08-coa-formula-sheet-and-traps.md",
+    "title": "COA: Formula Sheet, Traps aur GATE Strategy",
+    "topics": [
+     "co-architecture/cache-memory",
+     "co-architecture/pipelining",
+     "co-architecture/addressing-modes",
+     "co-architecture/instruction-format"
+    ],
+    "minutes": 4
+   }
+  ]
+ }
+]

@@ -1,6 +1,8 @@
 # Local Claude configuration
 /.claude/
 
+# Vercel configuration
+
 # Filter volume PDFs and related files
 /filter1_volume*/
 /filter1_volume*

@@ -110,7 +110,7 @@ export function NoteChapter() {
       )}
 
       <article className="notes-md mt-4">
-        {text === null ? <div style={{ color: 'var(--text-muted)' }}>Loading chapter…</div> : <ReactMarkdown remarkPlugins={[remarkGfm]}>{text}</ReactMarkdown>}
+        {text === null ? <div style={{ color: 'var(--text-muted)' }}>Loading chapter…</div> : <ReactMarkdown remarkPlugins={[remarkGfm]}>{text.replace(/<!--[\s\S]*?-->/g, '')}</ReactMarkdown>}
       </article>
 
       <div className="mt-10 flex items-stretch justify-between gap-3">
