@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_GRAPH_MATCHING_01",
+  "name": "Graph Matching (PYQ type)",
+  "recognitionClueHinglish": "Graph Matching se related sawal.",
+  "whatShouldComeToMind": [
+   "Perfect matchings in K_2n = (2n)!/(2^n n!); path graph matchings Fibonacci."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Recurrence."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.7.1",
+   "2.7.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Ordered vs unordered pairing."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

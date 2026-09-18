@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.18.1",
+  "localId": "9.18.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "cubes",
+  "topic": "Cubes",
+  "year": 2016,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "05",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "A cube is built using cubic blocks of side one unit. After it is built, one cubic block is removed from every corner of the cube. The resulting surface area of the body (in square units) after the removal is ________. a.                                       b.                                                 c.             d.",
+  "tagsRaw": "gatecse-2016-set1 quantitative-aptitude  geometry         normal  cubes",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 275
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_CUBES_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.18.2",
+  "localId": "9.18.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "cubes",
+  "topic": "Cubes",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "D B",
+  "answerVerified": true,
+  "questionTextRaw": "If is the angle, in degrees, between the longest diagonal of the cube and any one of the edges of the cube, then, A.                                       B.                                                 C.             D.",
+  "tagsRaw": "gatecse-2021-set2 quantitative-aptitude  mensuration      cubes   one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 275
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_CUBES_01"
+ }
+]

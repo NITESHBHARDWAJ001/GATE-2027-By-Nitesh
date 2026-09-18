@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Identical balls distinct bins: C(n+k-1,k-1); binary strings no two adjacent ones.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Balls in Bins / Distributions se related sawal.",
+   "thinkThis": "P3_BALLS_IN_BINS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Identical/distinct confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-combinatory:balls-in-bins",
+ "revisionLevel": "short-form"
+}

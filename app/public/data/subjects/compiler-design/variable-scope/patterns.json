@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P4_VARIABLE_SCOPE_01",
+  "name": "Variable Scope (Static/Dynamic) (PYQ type)",
+  "recognitionClueHinglish": "Variable Scope (Static/Dynamic) se related sawal.",
+  "whatShouldComeToMind": [
+   "Static scope: lexical nesting; dynamic scope: call chain se binding."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Call chain.",
+   "2. Lookup."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.28.1",
+   "2.28.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Scope types mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

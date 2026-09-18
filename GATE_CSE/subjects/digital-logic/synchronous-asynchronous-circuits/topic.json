@@ -1,0 +1,21 @@
+{
+ "topicId": "digital-logic:synchronous-asynchronous-circuits",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Synchronous vs Asynchronous Circuits",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 1991-2003.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  1991,
+  1998,
+  2001,
+  2003
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

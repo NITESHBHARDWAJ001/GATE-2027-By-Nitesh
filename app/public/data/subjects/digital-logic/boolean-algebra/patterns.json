@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "BA_SIMPLIFY_EQUIV_01",
+    "name": "Boolean Expression Simplification / Equivalence Verification",
+    "recognitionClueHinglish": "Ek Boolean expression di hai aur poocha hai simplified form kya hai, ya diye gaye options me se kaunse EQUIVALENT hain (ya NOT equivalent) — is topic ka sabse bada pattern hai (34 me se 17 PYQs).",
+    "whatShouldComeToMind": ["Apply De Morgan's, absorption, consensus laws to simplify directly.", "If algebra gets messy, build a TRUTH TABLE (feasible for ≤4 variables) and compare columns directly — fast and error-proof."],
+    "conceptsRequired": ["De Morgan's, absorption, consensus laws", "Truth-table verification technique"],
+    "generalSolvingApproach": ["1. Try direct algebraic simplification using standard identities.", "2. If unclear or the expression is complex, build the truth table for the original and EACH candidate option, compare row by row.", "3. For 'NOT equivalent' questions, finding even ONE input combination where the outputs differ disproves equivalence."],
+    "formulasUsed": ["deMorgans","xorIdentities","xnorIdentity","absorptionLaw","consensusLaw"],
+    "pyqExamples": ["4.4.2","4.4.12","4.4.14","4.4.15","4.4.16","4.4.18","4.4.19","4.4.20","4.4.21","4.4.22","4.4.25","4.4.26","4.4.27","4.4.28","4.4.31","4.4.33","4.4.34"],
+    "variationsObserved": ["Truth-table given directly, asked which Boolean expression it represents — read off the function from the table's 1-rows (sum of minterms) then simplify.", "XOR/XNOR-heavy expressions — apply the specific XOR/XNOR identities rather than generic AND/OR algebra."],
+    "commonTraps": ["Sign/complement errors when applying De Morgan's across multiple nested levels.", "Assuming visual similarity implies equivalence without verifying via truth table or full algebraic reduction."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "BA_SIMULTANEOUS_EQUATIONS_02",
+    "name": "Solve Simultaneous Boolean Equations",
+    "recognitionClueHinglish": "Multiple Boolean equations di hain (jaise A+B=1, AC=BC, A+C=1) aur poocha hai in sab ko satisfy karne wale variable values kya hain — ye constraint-satisfaction pattern hai.",
+    "whatShouldComeToMind": ["Since variables are only 0/1, just TEST all combinations directly — brute force is fast and reliable for a handful of variables."],
+    "conceptsRequired": ["Direct brute-force testing (feasible since domain is just {0,1} per variable)"],
+    "generalSolvingApproach": ["1. List all 2^k combinations for k unknown Boolean variables.", "2. Test each combination against ALL given equations simultaneously.", "3. Report the combination(s) that satisfy every equation."],
+    "formulasUsed": [],
+    "pyqExamples": ["4.4.5","4.4.8","4.4.13"],
+    "variationsObserved": [],
+    "commonTraps": ["Stopping after finding ONE satisfying combination when the question might expect verification that it's the ONLY one (or asks for all solutions)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "BA_CUSTOM_OPERATOR_03",
+    "name": "Custom-Defined Boolean Operator Evaluation",
+    "recognitionClueHinglish": "Ek NAYA operator (jaise '#') define kiya gaya hai apni custom truth table/rule ke saath, aur poocha hai iss operator ka use karke banaye gaye expression ka value/equivalent form kya hai.",
+    "whatShouldComeToMind": ["Build a truth table for the custom operator FIRST from its given definition — don't try to reason about it abstractly."],
+    "conceptsRequired": ["Truth-table construction from a custom rule"],
+    "generalSolvingApproach": ["1. Construct the custom operator's complete truth table from its definition (all input combinations → output).", "2. Use this table mechanically to evaluate the target expression, substituting step by step.", "3. Compare against standard operators (AND/OR/XOR/etc.) if asked to identify what the custom operator 'really is'."],
+    "formulasUsed": [],
+    "pyqExamples": ["4.4.3","4.4.7","4.4.9","4.4.17","4.4.23"],
+    "variationsObserved": [],
+    "commonTraps": ["Trying to guess the custom operator's behavior from its name/symbol instead of building the truth table from its actual given definition."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "BA_PROPERTIES_LAWS_04",
+    "name": "Boolean Algebra Properties/Laws (commutative, associative, function counting)",
+    "recognitionClueHinglish": "Poocha hai kaunsa operation COMMUTATIVE-but-NOT-associative hai, ya total kitne Boolean functions possible hain n variables se, ya XOR-self-repeat property — ye foundational-properties pattern hai.",
+    "whatShouldComeToMind": ["NAND/NOR: commutative but NOT associative — the classic answer to this exact question type.", "Total n-variable Boolean functions = 2^(2^n).", "XORing repeatedly: track PARITY of repetitions carefully, verify with a small concrete example rather than assuming a pattern."],
+    "conceptsRequired": ["Commutative/associative property testing", "Boolean function counting formula"],
+    "generalSolvingApproach": ["1. For commutative/associative questions: test with 3 concrete values (A,B,C) directly — evaluate (A op B) op C vs A op (B op C) to check associativity.", "2. For counting questions: apply 2^(2^n) directly, or the specific constrained-counting formula if extra conditions apply (like 'neutral' functions).", "3. For repeated-XOR questions: trace through a small concrete example (n=1,2,3 repetitions) to find the actual pattern rather than assuming."],
+    "formulasUsed": ["booleanFunctionCount","neutralFunctionCount"],
+    "pyqExamples": ["4.4.1","4.4.4","4.4.6","4.4.10","4.4.11","4.4.24","4.4.29","4.4.30","4.4.32"],
+    "variationsObserved": ["Majority-function-style definitions (output 1 iff at least k of n inputs are 1) — express as OR-of-AND-terms covering all valid combinations, then simplify/verify properties."],
+    "commonTraps": ["Assuming ALL logic operations are associative — NAND and NOR specifically are not."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  }
+]

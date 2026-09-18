@@ -1,0 +1,54 @@
+{
+ "topicId": "os-page-replacement",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Page Replacement",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "31 PYQs extracted, tested 1993-2025. Direct application of Virtual Memory: what the OS does when a page fault occurs with all frames full.",
+ "pyqCountExtracted": 31,
+ "yearsCovered": [
+  1993,
+  1994,
+  1995,
+  1997,
+  2001,
+  2002,
+  2004,
+  2005,
+  2007,
+  2008,
+  2009,
+  2010,
+  2012,
+  2014,
+  2015,
+  2016,
+  2017,
+  2021,
+  2025
+ ],
+ "prerequisites": [
+  {
+   "topic": "Virtual Memory",
+   "subjectId": "operating-system",
+   "why": "Page faults and frames come from demand paging."
+  }
+ ],
+ "unlocks": [
+  {
+   "topic": "Resource Allocation",
+   "subjectId": "operating-system",
+   "why": "Next OS topic in study order."
+  }
+ ],
+ "crossLinks": [
+  {
+   "subjectId": "co-architecture",
+   "topic": "Cache Memory",
+   "note": "LRU/FIFO replacement trace is identical to cache replacement trace."
+  }
+ ],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

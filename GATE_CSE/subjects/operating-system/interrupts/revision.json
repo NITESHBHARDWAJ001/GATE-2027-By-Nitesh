@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Interrupt cycle, handling steps, priority, OS abstraction vs hardware.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Interrupts (OS View) se related sawal.",
+   "thinkThis": "P3_INTERRUPTS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Interrupt ko ignore hota maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:interrupts",
+ "revisionLevel": "short-form"
+}

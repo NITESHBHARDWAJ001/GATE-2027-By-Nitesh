@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Slotted protocols me success probability, TDM utilization, min frame size.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "MAC Protocols (Slotted, TDM, Ethernet) se related sawal.",
+   "thinkThis": "P3_MAC_PROTOCOL_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Jam signal ignore."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:mac-protocol",
+ "revisionLevel": "short-form"
+}

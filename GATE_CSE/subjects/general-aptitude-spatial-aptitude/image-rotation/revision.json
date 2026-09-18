@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Figure/dice rotation ya transformation ka result.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Rotation and Transformation se related sawal.",
+   "thinkThis": "P3_IMAGE_ROTATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Direction clockwise/anticlockwise."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:image-rotation",
+ "revisionLevel": "short-form"
+}

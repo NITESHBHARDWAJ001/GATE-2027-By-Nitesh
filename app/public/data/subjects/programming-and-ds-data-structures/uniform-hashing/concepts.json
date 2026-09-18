@@ -1,0 +1,22 @@
+{
+ "overview": "Expected probes: unsuccessful 1/(1-alpha), successful (1/alpha) ln(1/(1-alpha)).",
+ "whyItMatters": "1 PYQs extracted (2024-2024); P3 topic.",
+ "coreConcept": "Expected probes: unsuccessful 1/(1-alpha), successful (1/alpha) ln(1/(1-alpha)).",
+ "hinglishExplanation": "Load factor alpha < 1.",
+ "formalDefinition": "Expected probes: unsuccessful 1/(1-alpha), successful (1/alpha) ln(1/(1-alpha)).",
+ "importantProperties": [
+  "Unsuccessful search 1/(1-alpha).",
+  "Successful (1/alpha) ln(1/(1-alpha)).",
+  "Insertion = unsuccessful."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Chaining formula lagana."
+ ],
+ "standardTechniques": [
+  "1. alpha.",
+  "2. Formula."
+ ],
+ "topicId": "programming-and-ds-data-structures:uniform-hashing"
+}

@@ -1,0 +1,21 @@
+{
+ "overview": "Slotted protocols me success probability, TDM utilization, min frame size.",
+ "whyItMatters": "4 PYQs extracted (2004-2015); P3 topic.",
+ "coreConcept": "Slotted protocols me success probability, TDM utilization, min frame size.",
+ "hinglishExplanation": "Slotted: success p(1-p)^(n-1) per host; TDM: slot fixed.",
+ "formalDefinition": "Slotted protocols me success probability, TDM utilization, min frame size.",
+ "importantProperties": [
+  "Min frame = 2 Tp B (Ethernet).",
+  "TDM utilization data/cycle.",
+  "Jamming signal time include."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Jam signal ignore."
+ ],
+ "standardTechniques": [
+  "1. Formula."
+ ],
+ "topicId": "computer-networks:mac-protocol"
+}

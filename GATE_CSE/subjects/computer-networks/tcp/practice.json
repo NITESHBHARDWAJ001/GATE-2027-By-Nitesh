@@ -1,0 +1,42 @@
+{
+ "topicId": "cn-tcp",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TCP-01",
+   "patternId": "TCP_HANDSHAKE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Client SYN seq=500. Server's SYN-ACK acknowledgement number?",
+   "solutionApproach": "SYN consumes one seq: ack = 501.",
+   "answer": "501"
+  },
+  {
+   "practiceId": "AI-TCP-02",
+   "patternId": "TCP_SEQ_WINDOW_CALC_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Link 1 Gbps. Bytes/sec = 125 x 10^6. 32-bit seq wrap time (approx)?",
+   "solutionApproach": "2^32 / 125e6 = 34.4 s.",
+   "answer": "~34.4 s"
+  },
+  {
+   "practiceId": "AI-TCP-03",
+   "patternId": "TCP_CONCEPTS_03",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Does TCP number bytes or segments?",
+   "solutionApproach": "Bytes.",
+   "answer": "Bytes"
+  },
+  {
+   "practiceId": "AI-TCP-04",
+   "patternId": "TCP_SEQ_WINDOW_CALC_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "BDP > 65535 bytes needs window scale. For 1 Gbps what RTT crosses it?",
+   "solutionApproach": "RTT > 65535/125e6 s = 0.52 ms.",
+   "answer": "~0.52 ms"
+  }
+ ]
+}

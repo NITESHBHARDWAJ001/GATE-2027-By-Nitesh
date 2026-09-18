@@ -1,0 +1,33 @@
+[
+ {
+  "patternId": "P3_IO_HANDLING_01",
+  "name": "I/O Handling (Programmed, Interrupt, DMA, Daisy Chain) (PYQ type)",
+  "recognitionClueHinglish": "I/O Handling (Programmed, Interrupt, DMA, Daisy Chain) se related sawal.",
+  "whatShouldComeToMind": [
+   "I/O transfer modes aur daisy-chain priority."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Mode pehchano.",
+   "2. Property match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.16.1",
+   "1.16.2",
+   "1.16.3",
+   "1.16.4",
+   "1.16.5",
+   "1.16.6",
+   "1.16.7",
+   "1.16.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "DMA aur interrupt-driven confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

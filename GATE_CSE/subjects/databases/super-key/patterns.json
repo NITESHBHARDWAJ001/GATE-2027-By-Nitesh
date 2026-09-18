@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_SUPER_KEY_01",
+  "name": "Super Keys (PYQ type)",
+  "recognitionClueHinglish": "Super Keys se related sawal.",
+  "whatShouldComeToMind": [
+   "Superkey = key ka koi superset; count 2^(n-k) (single key)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Keys.",
+   "2. Supersets."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.23.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Multiple keys me double count."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

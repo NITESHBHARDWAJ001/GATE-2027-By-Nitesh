@@ -1,0 +1,18 @@
+{
+ "coreIdea": "BST insertion order, preorder reconstruction, height, leaf-key properties.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Binary Search Tree (Algorithms View) se related sawal.",
+   "thinkThis": "P3_BINARY_SEARCH_TREE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Balanced maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:binary-search-tree",
+ "revisionLevel": "short-form"
+}

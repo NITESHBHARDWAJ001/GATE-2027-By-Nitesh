@@ -1,0 +1,20 @@
+{
+ "overview": "n_a(w), n_b(w) type languages ke properties.",
+ "whyItMatters": "1 PYQs extracted (2006-2006); P4 topic.",
+ "coreConcept": "n_a(w), n_b(w) type languages ke properties.",
+ "hinglishExplanation": "Counting conditions par language ki class decide.",
+ "formalDefinition": "n_a(w), n_b(w) type languages ke properties.",
+ "importantProperties": [
+  "a^n b^n CFL not regular.",
+  "n_a(w)=n_b(w) CFL."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Regular maan lena."
+ ],
+ "standardTechniques": [
+  "1. Memory needed?"
+ ],
+ "topicId": "theory-of-computation:medium"
+}

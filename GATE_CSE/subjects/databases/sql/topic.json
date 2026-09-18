@@ -1,0 +1,50 @@
+{
+ "topicId": "db-sql",
+ "subjectId": "databases",
+ "subject": "Databases",
+ "name": "SQL",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "55 PYQs extracted (joint highest in DBMS), tested 1991-2025 continuously; NAT output-count questions dominate recent years.",
+ "pyqCountExtracted": 55,
+ "yearsCovered": [
+  1991,
+  1993,
+  1998,
+  1999,
+  2000,
+  2001,
+  2003,
+  2004,
+  2005,
+  2006,
+  2007,
+  2009,
+  2010,
+  2011,
+  2012,
+  2014,
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "prerequisites": [
+  {
+   "topic": "Relational Algebra",
+   "subjectId": "databases",
+   "why": "SQL is a declarative form of relational algebra."
+  }
+ ],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

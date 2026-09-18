@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.38.1",
+  "localId": "9.38.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "percentage",
+  "topic": "Percentage",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "8",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Round-trip tickets to a tourist destination are eligible for a discount of                    on the total fare. In addition, groups of or more get a discount of on the total fare. If the one way single person fare is               ,a group of tourists purchasing round-trip tickets will be charged __________",
+  "tagsRaw": "gatecse-2014-set1 quantitative-aptitude easy numerical-answers percentage",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 291
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PERCENTAGE_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.38.2",
+  "localId": "9.38.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "percentage",
+  "topic": "Percentage",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 3,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "8",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "The Gross Domestic Product                                        in Rupees grew at   during      . For international comparison, the                         is compared in US Dollars      after conversion based on the market exchange rate. During the period                                    the exchange rate for the    increased from .  to                   / . India's GDP in USD during the period A. increased by                                                        B. decreased by C. decreased by                                                        D. decreased by",
+  "tagsRaw": "gatecse-2014-set3 quantitative-aptitude normal percentage",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 291
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PERCENTAGE_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.38.3",
+  "localId": "9.38.3",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "percentage",
+  "topic": "Percentage",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "4",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "The number of coins of  ,  , and  denominations that a person has are in the ratio                        . Of the total amount, the percentage of money in  coins is A.                                       B.                        C.                         D.",
+  "tagsRaw": "gatecse-2024-set1 quantitative-aptitude  percentage   one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 291
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PERCENTAGE_01"
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:inversion",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INVERS-01",
+   "patternId": "P3_INVERSION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Array (3,2,1) me inversions?",
+   "solutionApproach": "3 pairs.",
+   "answer": "3"
+  }
+ ]
+}

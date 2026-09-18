@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_PROBABILITY_DISTRIBUTION_01",
+  "name": "Probability Density Functions (PYQ type)",
+  "recognitionClueHinglish": "Probability Density Functions se related sawal.",
+  "whatShouldComeToMind": [
+   "Density se interval probability aur moments."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Integrate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.15.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Density ko probability maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

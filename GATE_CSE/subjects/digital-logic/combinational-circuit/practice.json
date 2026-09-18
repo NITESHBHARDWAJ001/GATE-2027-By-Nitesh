@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:combinational-circuit",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-COMBIN-01",
+   "patternId": "P3_COMBINATIONAL_CIRCUIT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Static hazard kya?",
+   "solutionApproach": "Single input change par glitch.",
+   "answer": "Momentary glitch"
+  }
+ ]
+}

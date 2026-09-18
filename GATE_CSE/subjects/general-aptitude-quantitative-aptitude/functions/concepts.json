@@ -1,0 +1,21 @@
+{
+ "overview": "Function definition se value/composition.",
+ "whyItMatters": "5 PYQs extracted (2015-2023); P3 topic.",
+ "coreConcept": "Function definition se value/composition.",
+ "hinglishExplanation": "f(x) me x replace karke evaluate.",
+ "formalDefinition": "Function definition se value/composition.",
+ "importantProperties": [
+  "Composition f(g(x)).",
+  "Domain-range.",
+  "max/min functions."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Order of composition."
+ ],
+ "standardTechniques": [
+  "1. Substitute."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:functions"
+}

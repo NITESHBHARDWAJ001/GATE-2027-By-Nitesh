@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-spatial-aptitude:image-rotation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-IMAGE--01",
+   "patternId": "P3_IMAGE_ROTATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Dice opposite of 2?",
+   "solutionApproach": "Sum 7.",
+   "answer": "5"
+  }
+ ]
+}

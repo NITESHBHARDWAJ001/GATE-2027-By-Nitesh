@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "co-architecture__1.27.1",
+  "localId": "1.27.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "stall",
+  "topic": "Stall",
+  "year": 2022,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "51",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "1.42:1.45",
+  "answerVerified": true,
+  "questionTextRaw": "A processor operating at                         has a standard stage                     instruction pipeline having a base of one without any pipeline hazards. For a given program that has branch instructions, control hazards incur cycles stall for every branch. A new version of the processor operating at same clock frequency has an additional branch predictor unit                     that completely eliminates stalls for correctly predicted branches. There is neither any savings nor any additional stalls for wrong predictions. There are no structural hazards and data hazards for and If the                                 has a prediction accuracy of         the speed up                                                             obtained by over in executing is _______________.",
+  "tagsRaw": "gatecse-2022 numerical-answers co-and-architecture pipelining stall two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 89
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STALL_01"
+ }
+]

@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_RECURSION_01",
+  "name": "Recursion (Algorithm View) (PYQ type)",
+  "recognitionClueHinglish": "Recursion (Algorithm View) se related sawal.",
+  "whatShouldComeToMind": [
+   "Recursive functions ka trace, number of calls, gcd steps, base cases."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Chhote input trace.",
+   "2. Call tree.",
+   "3. Count / return."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.36.1",
+   "1.36.2",
+   "1.36.3",
+   "1.36.4",
+   "1.36.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Base case galat padhna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

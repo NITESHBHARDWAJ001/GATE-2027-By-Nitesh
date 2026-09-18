@@ -1,0 +1,19 @@
+{
+ "topicId": "programming-programming-in-c:goto",
+ "subjectId": "programming-programming-in-c",
+ "subject": "Programming & DS - Programming in C",
+ "name": "goto Statement",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 1989-1994.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  1989,
+  1994
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

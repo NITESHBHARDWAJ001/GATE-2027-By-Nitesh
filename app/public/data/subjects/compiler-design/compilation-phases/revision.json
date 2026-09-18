@@ -1,0 +1,23 @@
+{
+ "coreIdea": "Front-end (analysis) machine independent; back-end (synthesis) target dependent.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Code snippet me error ka phase.",
+   "thinkThis": "CPH_ERROR_PHASE_01"
+  },
+  {
+   "seeThis": "Match lists, front/back end statements.",
+   "thinkThis": "CPH_MATCH_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Semantic vs syntax.",
+  "Symbol table use."
+ ],
+ "highYieldPyqLessons": [
+  "Direct concept recall; match-the-following common."
+ ],
+ "topicId": "compiler-design:compilation-phases",
+ "revisionLevel": "short-form"
+}

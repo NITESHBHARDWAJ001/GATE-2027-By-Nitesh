@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Divide and conquer sort, T(n)=2T(n/2)+n, O(n log n), stable, O(n) extra space.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Merge Sort se related sawal.",
+   "thinkThis": "P3_MERGE_SORT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Merge cost ko O(1) samajhna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:merge-sort",
+ "revisionLevel": "short-form"
+}

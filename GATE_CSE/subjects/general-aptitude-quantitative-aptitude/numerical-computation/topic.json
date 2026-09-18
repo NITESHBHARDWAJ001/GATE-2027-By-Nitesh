@@ -1,0 +1,20 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:numerical-computation",
+ "subjectId": "general-aptitude-quantitative-aptitude",
+ "subject": "General Aptitude - Quantitative Aptitude",
+ "name": "Numerical Computation",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "7 PYQs extracted, 2014-2026.",
+ "pyqCountExtracted": 7,
+ "yearsCovered": [
+  2014,
+  2017,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_PERCENTAGE_01",
+  "name": "Percentage (PYQ type)",
+  "recognitionClueHinglish": "Percentage se related sawal.",
+  "whatShouldComeToMind": [
+   "Percent change, successive percentages."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Base."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.38.1",
+   "9.38.2",
+   "9.38.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Base change."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

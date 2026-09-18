@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "discrete-mathematics-combinatory__1.6.1",
+  "localId": "1.6.1",
+  "subjectId": "discrete-mathematics-combinatory",
+  "subject": "Discrete Mathematics: Combinatory",
+  "topicSlug": "pigeonhole-principle",
+  "topic": "Pigeonhole Principle",
+  "year": 2000,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1.1",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "The minimum number of cards to be dealt from an arbitrarily shuffled deck of                                  cards to guarantee that three cards are from same suit is A.                                         B.                                    C.                       D.",
+  "tagsRaw": "gatecse-2000 easy pigeonhole-principle        combinatory",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 27
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_PIGEONHOLE_PRINCIPLE_01"
+ },
+ {
+  "pyqId": "discrete-mathematics-combinatory__1.6.2",
+  "localId": "1.6.2",
+  "subjectId": "discrete-mathematics-combinatory",
+  "subject": "Discrete Mathematics: Combinatory",
+  "topicSlug": "pigeonhole-principle",
+  "topic": "Pigeonhole Principle",
+  "year": 2005,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "44",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "What is the minimum number of ordered pairs of non-negative numbers that should be chosen to ensure that there are two pairs                        and                 in the chosen set such that,              and A.                                         B.                                    C.                       D.",
+  "tagsRaw": "gatecse-2005 set-theory&algebra    normal     pigeonhole-principle",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 27
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_PIGEONHOLE_PRINCIPLE_01"
+ }
+]

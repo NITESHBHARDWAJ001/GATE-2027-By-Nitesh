@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "general-aptitude-spatial-aptitude__10.4.1",
+  "localId": "10.4.1",
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "subject": "General Aptitude: Spatial Aptitude",
+  "topicSlug": "image-rotation",
+  "topic": "Image Rotation",
+  "year": 2022,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "5",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "A palindrome is a word that reads the same forwards and backwards. In a game of words, a player has the following two plates painted with letters. From the additional plates given in the options, which one of the combinations of additional plates would allow the player to construct a five-letter palindrome. The player should use all the five plates exactly once. The plates can be rotated in their plane. A. B. C. D.",
+  "tagsRaw": "gatecse-2022 spatial-aptitude  image-rotation  one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 321
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_IMAGE_ROTATION_01"
+ },
+ {
+  "pyqId": "general-aptitude-spatial-aptitude__10.4.2",
+  "localId": "10.4.2",
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "subject": "General Aptitude: Spatial Aptitude",
+  "topicSlug": "image-rotation",
+  "topic": "Image Rotation",
+  "year": 2023,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "10",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Which one of the options best describes the transformation of the -dimensional figure      to , and then to , as shown? A.  A clockwise rotation by about an axis perpendicular to the plane of the figure A reflection along a horizontal line B.  A counter clockwise rotation by about an axis perpendicular to the plane of the figure A reflection along a horizontal line C.  A clockwise rotation by about an axis perpendicular to the plane of the figure A reflection along a vertical line D.  A counter clockwise rotation by                            about an axis perpendicular to the plane of the figure A reflection along a vertical line",
+  "tagsRaw": "gatecse-2023 spatial-aptitude     image-rotation    two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 321
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_IMAGE_ROTATION_01"
+ },
+ {
+  "pyqId": "general-aptitude-spatial-aptitude__10.4.3",
+  "localId": "10.4.3",
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "subject": "General Aptitude: Spatial Aptitude",
+  "topicSlug": "image-rotation",
+  "topic": "Image Rotation",
+  "year": 2024,
+  "examStream": "DS&AI",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Three different views of a dice are shown in the figure below. The piece of paper that can be folded to make this dice is A.                                  B.                         C.                 D.",
+  "tagsRaw": "gate-ds-ai-2024 spatial-aptitude    image-rotation  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 321
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_IMAGE_ROTATION_01"
+ }
+]

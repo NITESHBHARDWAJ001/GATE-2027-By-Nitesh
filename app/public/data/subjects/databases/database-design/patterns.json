@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_DATABASE_DESIGN_01",
+  "name": "Data Independence (PYQ type)",
+  "recognitionClueHinglish": "Data Independence se related sawal.",
+  "whatShouldComeToMind": [
+   "Physical data independence logical se easy achieve."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Levels."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.5.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Ulta bolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

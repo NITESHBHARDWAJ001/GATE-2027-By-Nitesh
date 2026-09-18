@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Pointer traversal se string length jaisi functions.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Programming Output (Pointers/Strings) se related sawal.",
+   "thinkThis": "P3_OUTPUT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Off-by-one."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-and-ds-programming:output",
+ "revisionLevel": "short-form"
+}

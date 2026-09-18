@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "computer-networks__2.27.1",
+  "localId": "2.27.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "pure-aloha",
+  "topic": "Pure Aloha",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "54",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "130 : 140",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a network using the pure                              medium access control protocol, where each frame is of length bits. The channel transmission rate is Mbps (                                          bits per second). The aggregate number of transmissions across all the nodes (including new frame transmissions and retransmitted frames due to collisions) is modelled as a Poisson process with a rate of                                   frames per second. Throughput is defined as the average number of frames successfully transmitted per second. The throughput of the network (rounded to the nearest integer) is ______________",
+  "tagsRaw": "gatecse-2021-set2 computer-networks  mac-protocol  pure-aloha  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 142
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PURE_ALOHA_01"
+ }
+]

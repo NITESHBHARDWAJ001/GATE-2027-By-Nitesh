@@ -1,0 +1,23 @@
+{
+ "coreIdea": "C me sirf call-by-value; pointer pass karke reference jaisa effect.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Swap-type functions aur output values.",
+   "thinkThis": "PP_POINTER_TRACE_01"
+  },
+  {
+   "seeThis": "Modes ka difference, macros, display.",
+   "thinkThis": "PP_MODES_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Macro side effects.",
+  "Pointer copy."
+ ],
+ "highYieldPyqLessons": [
+  "Pointer-copy vs pointee-change is the main trap."
+ ],
+ "topicId": "programming-programming-in-c:parameter-passing",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,23 @@
+{
+ "overview": "Address = tag | index | offset; block ek hi line me map hoti hai.",
+ "whyItMatters": "5 PYQs extracted (2022-2026); P3 topic.",
+ "coreConcept": "Address = tag | index | offset; block ek hi line me map hoti hai.",
+ "hinglishExplanation": "Index = (block number) mod (#lines); tag compare hota hai.",
+ "formalDefinition": "Address = tag | index | offset; block ek hi line me map hoti hai.",
+ "importantProperties": [
+  "Offset = log2(block size).",
+  "Index = log2(#lines).",
+  "Tag = address bits - index - offset.",
+  "Conflict misses same index wale blocks me."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Cache size bytes vs lines confuse."
+ ],
+ "standardTechniques": [
+  "1. Lines = cache/block.",
+  "2. Bits split."
+ ],
+ "topicId": "co-architecture:direct-mapping"
+}

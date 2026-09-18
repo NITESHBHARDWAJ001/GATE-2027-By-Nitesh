@@ -1,0 +1,25 @@
+{
+ "coreIdea": "OGF of a_n is sum a_n x^n; 1/(1-x) = sum x^n.",
+ "mustRememberFormulas": [
+  "geo: 1/(1-x) = sum x^n"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Sequence se GF ya GF se sequence.",
+   "thinkThis": "GF_CLOSED_FORM_01"
+  },
+  {
+   "seeThis": "x^k ka coefficient.",
+   "thinkThis": "GF_COEFF_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Shift.",
+  "Wrong exponent."
+ ],
+ "highYieldPyqLessons": [
+  "Standard series recognition suffices."
+ ],
+ "topicId": "discrete-mathematics-combinatory:generating-functions",
+ "revisionLevel": "short-form"
+}

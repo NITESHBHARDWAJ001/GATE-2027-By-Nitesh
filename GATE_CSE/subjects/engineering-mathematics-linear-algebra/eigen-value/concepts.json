@@ -1,0 +1,46 @@
+{
+ "overview": "Eigenvalue lambda wo scalar hai jiske liye Av = lambda v (v != 0). GATE me: eigenvalues nikaalna (characteristic polynomial), trace/determinant se shortcut, matrix functions (A^2, A+kI, A^-1) ke eigenvalues, aur special matrices (symmetric, projection, triangular) ki properties.",
+ "whyItMatters": "33 PYQs, 1993-2026; 2014 se almost har saal 1-2 sawal (NAT + MCQ).",
+ "coreConcept": "det(A - lambda I) = 0 characteristic equation hai; uske roots eigenvalues hain. Sum of eigenvalues = trace, product = determinant.",
+ "hinglishExplanation": "Eigenvector wo direction hai jo matrix lagne par sirf stretch/shrink hoti hai (ghumti nahi). Poori 2x2 ya 3x3 ka polynomial banane ke bajay pehle trace aur determinant shortcut socho: agar ek eigenvalue diya ho to baaki trace/det se mil jaate hain. Triangular/diagonal matrix me eigenvalues = diagonal entries.",
+ "formalDefinition": "det(A - lambda I) = 0; A v = lambda v.",
+ "importantProperties": [
+  "Sum of eigenvalues = trace(A); product of eigenvalues = det(A).",
+  "Triangular/diagonal matrix ke eigenvalues = diagonal entries.",
+  "A^k ke eigenvalues lambda^k; A + cI ke lambda + c; cA ke c*lambda; A^-1 ke 1/lambda (lambda != 0).",
+  "A aur A^T ke eigenvalues same.",
+  "Singular matrix <=> 0 eigenvalue hai <=> det = 0.",
+  "Symmetric real matrix: eigenvalues real; alag eigenvalues ke eigenvectors orthogonal (dot product 0).",
+  "Positive definite: sab eigenvalues > 0.",
+  "Idempotent/projection matrix (A^2 = A): eigenvalues sirf 0 aur 1.",
+  "Nilpotent (A^k = 0): sab eigenvalues 0.",
+  "Rank-1 matrix uu^T: ek non-zero eigenvalue = u^T u, baaki 0.",
+  "Cayley-Hamilton: matrix apni characteristic equation satisfy karta hai.",
+  "Adjacency matrix of graph symmetric hoti hai, eigenvalues ka sum 0 (trace 0)."
+ ],
+ "formulas": {
+  "trace": "sum(lambda_i) = trace(A)",
+  "det": "prod(lambda_i) = det(A)",
+  "char": "det(A - lambda I) = 0",
+  "shift": "eig(A + cI) = lambda + c",
+  "power": "eig(A^k) = lambda^k",
+  "rank1": "eig(u u^T) = {u^T u, 0, ..., 0}",
+  "2x2": "lambda^2 - trace*lambda + det = 0"
+ },
+ "keyPropertiesAndIdentities": [
+  "Similar matrices ke eigenvalues same.",
+  "Algebraic multiplicity >= geometric multiplicity."
+ ],
+ "commonPitfalls": [
+  "A^-1 ke eigenvalue lena par 0 eigenvalue ke case me invertible hi nahi hota.",
+  "Eigenvalues ka product determinant se sign galat.",
+  "Eigenvector ko normalise karna bhoolna jab unit vector maanga ho."
+ ],
+ "standardTechniques": [
+  "2x2: lambda^2 - tr*lambda + det.",
+  "3x3 me trace + det + ek known eigenvalue.",
+  "Function of matrix: eigenvalues par function lagao.",
+  "Rank-1/projection jaise special structures pehchano."
+ ],
+ "topicId": "em-la-eigen-value"
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P4_STATEMENT_SUFFICIENCY_01",
+  "name": "Statement Sufficiency (PYQ type)",
+  "recognitionClueHinglish": "Statement Sufficiency se related sawal.",
+  "whatShouldComeToMind": [
+   "Data sufficiency: kya diye gaye statements se answer nikal sakta hai."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Alone.",
+   "2. Together."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.13.1",
+   "11.13.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Statement ke bahar assume."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

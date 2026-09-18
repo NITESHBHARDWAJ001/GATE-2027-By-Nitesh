@@ -1,0 +1,23 @@
+{
+ "overview": "Struct layout, padding, pointer to struct, linked nodes, sizeof.",
+ "whyItMatters": "5 PYQs extracted (2000-2021); P3 topic.",
+ "coreConcept": "Struct layout, padding, pointer to struct, linked nodes, sizeof.",
+ "hinglishExplanation": "Struct member alignment se padding.",
+ "formalDefinition": "Struct layout, padding, pointer to struct, linked nodes, sizeof.",
+ "importantProperties": [
+  "sizeof struct >= sum of members (padding).",
+  "-> for pointer access.",
+  "Array of struct pointers.",
+  "Union shares memory."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Padding ignore."
+ ],
+ "standardTechniques": [
+  "1. Layout.",
+  "2. Trace."
+ ],
+ "topicId": "programming-programming-in-c:structure"
+}

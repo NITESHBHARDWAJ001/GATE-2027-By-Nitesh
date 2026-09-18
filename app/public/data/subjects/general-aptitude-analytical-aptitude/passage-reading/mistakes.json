@@ -1,0 +1,16 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude-passage-reading",
+ "schemaNote": "Populated by the app as the user attempts PYQs/practice. Empty template below.",
+ "mistakeCategories": [
+  "conceptual_mistake",
+  "formula_mistake",
+  "calculation_mistake",
+  "pattern_recognition_mistake",
+  "misread_question",
+  "silly_mistake",
+  "time_management_issue",
+  "edge_case_mistake",
+  "wrong_assumption"
+ ],
+ "loggedMistakes": []
+}

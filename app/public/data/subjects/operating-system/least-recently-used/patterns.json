@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_LEAST_RECENTLY_USED_01",
+  "name": "LRU (with Array Access) (PYQ type)",
+  "recognitionClueHinglish": "LRU (with Array Access) se related sawal.",
+  "whatShouldComeToMind": [
+   "Array access pattern se page reference string banakar LRU faults."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Reference string.",
+   "2. LRU."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.15.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Column-major maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

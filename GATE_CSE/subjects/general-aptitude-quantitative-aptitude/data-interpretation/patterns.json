@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_DATA_INTERPRETATION_01",
+  "name": "Data Interpretation (PYQ type)",
+  "recognitionClueHinglish": "Data Interpretation se related sawal.",
+  "whatShouldComeToMind": [
+   "Charts/tables se derived numbers."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Data.",
+   "2. Calculate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.20.2",
+   "9.20.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Units."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

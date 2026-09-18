@@ -1,0 +1,413 @@
+[
+ {
+  "topicSlug": "eigen-value",
+  "name": "Eigen Value",
+  "pyqCountExtracted": 33,
+  "yearsCovered": [
+   1993,
+   2002,
+   2005,
+   2006,
+   2007,
+   2008,
+   2010,
+   2011,
+   2012,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.3.1",
+   "engineering-mathematics-linear-algebra__6.3.2",
+   "engineering-mathematics-linear-algebra__6.3.3",
+   "engineering-mathematics-linear-algebra__6.3.4",
+   "engineering-mathematics-linear-algebra__6.3.5",
+   "engineering-mathematics-linear-algebra__6.3.6",
+   "engineering-mathematics-linear-algebra__6.3.7",
+   "engineering-mathematics-linear-algebra__6.3.8",
+   "engineering-mathematics-linear-algebra__6.3.9",
+   "engineering-mathematics-linear-algebra__6.3.10",
+   "engineering-mathematics-linear-algebra__6.3.11",
+   "engineering-mathematics-linear-algebra__6.3.12",
+   "engineering-mathematics-linear-algebra__6.3.13",
+   "engineering-mathematics-linear-algebra__6.3.14",
+   "engineering-mathematics-linear-algebra__6.3.15",
+   "engineering-mathematics-linear-algebra__6.3.16",
+   "engineering-mathematics-linear-algebra__6.3.17",
+   "engineering-mathematics-linear-algebra__6.3.18",
+   "engineering-mathematics-linear-algebra__6.3.19",
+   "engineering-mathematics-linear-algebra__6.3.20",
+   "engineering-mathematics-linear-algebra__6.3.21",
+   "engineering-mathematics-linear-algebra__6.3.22",
+   "engineering-mathematics-linear-algebra__6.3.23",
+   "engineering-mathematics-linear-algebra__6.3.24",
+   "engineering-mathematics-linear-algebra__6.3.25",
+   "engineering-mathematics-linear-algebra__6.3.26",
+   "engineering-mathematics-linear-algebra__6.3.27",
+   "engineering-mathematics-linear-algebra__6.3.28",
+   "engineering-mathematics-linear-algebra__6.3.29",
+   "engineering-mathematics-linear-algebra__6.3.30",
+   "engineering-mathematics-linear-algebra__6.3.31",
+   "engineering-mathematics-linear-algebra__6.3.32",
+   "engineering-mathematics-linear-algebra__6.3.33"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "33 PYQs extracted, tested in 10 recent GATE cycles (2016+), spans 1993-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "matrix",
+  "name": "Matrix",
+  "pyqCountExtracted": 24,
+  "yearsCovered": [
+   1987,
+   1988,
+   1993,
+   1994,
+   1996,
+   1997,
+   1998,
+   2001,
+   2004,
+   2006,
+   2008,
+   2015,
+   2022,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2022,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.6.1",
+   "engineering-mathematics-linear-algebra__6.6.2",
+   "engineering-mathematics-linear-algebra__6.6.3",
+   "engineering-mathematics-linear-algebra__6.6.4",
+   "engineering-mathematics-linear-algebra__6.6.5",
+   "engineering-mathematics-linear-algebra__6.6.6",
+   "engineering-mathematics-linear-algebra__6.6.7",
+   "engineering-mathematics-linear-algebra__6.6.8",
+   "engineering-mathematics-linear-algebra__6.6.9",
+   "engineering-mathematics-linear-algebra__6.6.10",
+   "engineering-mathematics-linear-algebra__6.6.11",
+   "engineering-mathematics-linear-algebra__6.6.12",
+   "engineering-mathematics-linear-algebra__6.6.13",
+   "engineering-mathematics-linear-algebra__6.6.14",
+   "engineering-mathematics-linear-algebra__6.6.15",
+   "engineering-mathematics-linear-algebra__6.6.16",
+   "engineering-mathematics-linear-algebra__6.6.17",
+   "engineering-mathematics-linear-algebra__6.6.18",
+   "engineering-mathematics-linear-algebra__6.6.19",
+   "engineering-mathematics-linear-algebra__6.6.20",
+   "engineering-mathematics-linear-algebra__6.6.21",
+   "engineering-mathematics-linear-algebra__6.6.22",
+   "engineering-mathematics-linear-algebra__6.6.23",
+   "engineering-mathematics-linear-algebra__6.6.24"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "24 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "system-of-equations",
+  "name": "System of Equations",
+  "pyqCountExtracted": 17,
+  "yearsCovered": [
+   1996,
+   1998,
+   2003,
+   2004,
+   2005,
+   2008,
+   2014,
+   2015,
+   2016,
+   2017,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.13.1",
+   "engineering-mathematics-linear-algebra__6.13.2",
+   "engineering-mathematics-linear-algebra__6.13.3",
+   "engineering-mathematics-linear-algebra__6.13.4",
+   "engineering-mathematics-linear-algebra__6.13.5",
+   "engineering-mathematics-linear-algebra__6.13.6",
+   "engineering-mathematics-linear-algebra__6.13.7",
+   "engineering-mathematics-linear-algebra__6.13.8",
+   "engineering-mathematics-linear-algebra__6.13.9",
+   "engineering-mathematics-linear-algebra__6.13.10",
+   "engineering-mathematics-linear-algebra__6.13.11",
+   "engineering-mathematics-linear-algebra__6.13.12",
+   "engineering-mathematics-linear-algebra__6.13.13",
+   "engineering-mathematics-linear-algebra__6.13.14",
+   "engineering-mathematics-linear-algebra__6.13.15",
+   "engineering-mathematics-linear-algebra__6.13.16",
+   "engineering-mathematics-linear-algebra__6.13.17"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "17 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1996-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "determinant",
+  "name": "Determinant",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   1997,
+   2000,
+   2004,
+   2005,
+   2013,
+   2014,
+   2019,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2019,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.2.1",
+   "engineering-mathematics-linear-algebra__6.2.2",
+   "engineering-mathematics-linear-algebra__6.2.3",
+   "engineering-mathematics-linear-algebra__6.2.4",
+   "engineering-mathematics-linear-algebra__6.2.5",
+   "engineering-mathematics-linear-algebra__6.2.6",
+   "engineering-mathematics-linear-algebra__6.2.7",
+   "engineering-mathematics-linear-algebra__6.2.8",
+   "engineering-mathematics-linear-algebra__6.2.9",
+   "engineering-mathematics-linear-algebra__6.2.10",
+   "engineering-mathematics-linear-algebra__6.2.11",
+   "engineering-mathematics-linear-algebra__6.2.12"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "12 PYQs extracted, 5 recent (2016+) appearances, spans 1997-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "rank-of-matrix",
+  "name": "Rank of Matrix",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1994,
+   1995,
+   1998,
+   2002,
+   2017,
+   2020,
+   2021
+  ],
+  "recentYearsCovered": [
+   2017,
+   2020,
+   2021
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.9.1",
+   "engineering-mathematics-linear-algebra__6.9.2",
+   "engineering-mathematics-linear-algebra__6.9.3",
+   "engineering-mathematics-linear-algebra__6.9.4",
+   "engineering-mathematics-linear-algebra__6.9.5",
+   "engineering-mathematics-linear-algebra__6.9.6",
+   "engineering-mathematics-linear-algebra__6.9.7"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "7 PYQs extracted, 3 recent (2016+) appearances, spans 1994-2021 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "vector-space",
+  "name": "Vector Space",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1995,
+   2007,
+   2014,
+   2017,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.14.1",
+   "engineering-mathematics-linear-algebra__6.14.2",
+   "engineering-mathematics-linear-algebra__6.14.3",
+   "engineering-mathematics-linear-algebra__6.14.4",
+   "engineering-mathematics-linear-algebra__6.14.5",
+   "engineering-mathematics-linear-algebra__6.14.6",
+   "engineering-mathematics-linear-algebra__6.14.7"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "7 PYQs extracted, 4 recent (2016+) appearances, spans 1995-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "lu-decomposition",
+  "name": "Lu Decomposition",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2015,
+   2022,
+   2025
+  ],
+  "recentYearsCovered": [
+   2022,
+   2025
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.5.1",
+   "engineering-mathematics-linear-algebra__6.5.2",
+   "engineering-mathematics-linear-algebra__6.5.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2015-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "orthonormality",
+  "name": "Orthonormality",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.8.1",
+   "engineering-mathematics-linear-algebra__6.8.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "cartesian-coordinates",
+  "name": "Cartesian Coordinates",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2007
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.1.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2007-2007 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "gaussian-elimination",
+  "name": "Gaussian Elimination",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.4.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "multiplicity",
+  "name": "Multiplicity",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.7.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "singular-value-decomposition",
+  "name": "Singular Value Decomposition",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.10.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "subspace",
+  "name": "Subspace",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "engineering-mathematics-linear-algebra__6.12.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ }
+]

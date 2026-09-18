@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "general-aptitude-spatial-aptitude__10.7.1",
+  "localId": "10.7.1",
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "subject": "General Aptitude: Spatial Aptitude",
+  "topicSlug": "patterns-in-three-dimensions",
+  "topic": "Patterns In Three Dimensions",
+  "year": 2023,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "5",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Looking at the surface of a smooth -dimensional object from the outside, which one of the following options is A. The surface of the object must be concave everywhere. B. The surface of the object must be convex everywhere. C. The surface of the object may be concave in some places and convex in other places. D. The object can have edges, but no corners.",
+  "tagsRaw": "gatecse-2023 spatial-aptitude  patterns-in-three-dimensions  one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 325
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PATTERNS_IN_THREE_DIMENS_01"
+ },
+ {
+  "pyqId": "general-aptitude-spatial-aptitude__10.7.2",
+  "localId": "10.7.2",
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "subject": "General Aptitude: Spatial Aptitude",
+  "topicSlug": "patterns-in-three-dimensions",
+  "topic": "Patterns In Three Dimensions",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "A cube is to be cut into pieces of equal size and shape. Here, each cut should be straight and it should not stop till it reaches the other end of the cube. The minimum number of such cuts required is A.                             B.                                      C.                      D.",
+  "tagsRaw": "gatecse-2024-set2 spatial-aptitude  patterns-in-three-dimensions  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 325
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PATTERNS_IN_THREE_DIMENS_01"
+ },
+ {
+  "pyqId": "general-aptitude-spatial-aptitude__10.7.3",
+  "localId": "10.7.3",
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "subject": "General Aptitude: Spatial Aptitude",
+  "topicSlug": "patterns-in-three-dimensions",
+  "topic": "Patterns In Three Dimensions",
+  "year": 2024,
+  "examStream": "DS&AI",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "10",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Visualize two identical right circular cones such that one is inverted over the other and they share a common circular base. If a cutting plane passes through the vertices of the assembled cones, what shape does the outer boundary of the resulting cross-section make? A. A rhombus                        B. A triangle                            C. An ellipse        D. A hexagon",
+  "tagsRaw": "gate-ds-ai-2024 spatial-aptitude    patterns-in-three-dimensions  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 325
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PATTERNS_IN_THREE_DIMENS_01"
+ }
+]

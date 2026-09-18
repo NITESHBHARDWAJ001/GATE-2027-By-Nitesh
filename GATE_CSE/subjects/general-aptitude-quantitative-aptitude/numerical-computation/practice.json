@@ -1,0 +1,24 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:numerical-computation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NUMERI-01",
+   "patternId": "NC_COUNTING_GRAPH_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Knockout with 32 players. Total matches?",
+   "solutionApproach": "n-1.",
+   "answer": "31"
+  },
+  {
+   "practiceId": "AI-NUMERICA-X02",
+   "patternId": "NC_ARITHMETIC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Average of multiples of 5 from 5 to 100?",
+   "solutionApproach": "(5+100)/2.",
+   "answer": "52.5"
+  }
+ ]
+}

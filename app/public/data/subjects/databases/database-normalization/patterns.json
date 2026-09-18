@@ -1,0 +1,209 @@
+[
+ {
+  "patternId": "NORM_NF_DETERMINE_01",
+  "name": "Determine Highest Normal Form",
+  "recognitionClueHinglish": "Relation aur FDs diye hain; poocha hai relation kis normal form me hai ya kaunsi form me nahi hai (55 me se 11).",
+  "whatShouldComeToMind": [
+   "Pehle candidate keys, phir har FD ko BCNF, 3NF, 2NF ke liye check.",
+   "Prime/non-prime pehchano."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Candidate keys nikaalo (closure se).",
+   "2. Prime aur non-prime attributes list karo.",
+   "3. Har FD X->A: X superkey hai? to BCNF ok. Nahi to A prime? to 3NF ok.",
+   "4. Partial dependency (key ke proper subset -> non-prime) ho to 2NF fail.",
+   "5. Sabse upar wali form jo sabhi FDs satisfy kare wahi answer."
+  ],
+  "formulasUsed": [
+   "superkeyTest",
+   "normalFormChain"
+  ],
+  "pyqExamples": [
+   "3.6.9",
+   "3.6.10",
+   "3.6.12",
+   "3.6.21",
+   "3.6.22",
+   "3.6.26",
+   "3.6.36",
+   "3.6.38",
+   "3.6.46",
+   "3.6.51",
+   "3.6.55"
+  ],
+  "variationsObserved": [
+   "Multiple schemas diye hain, har ek ki form alag alag.",
+   "Decomposed relations ki normal form (projection ke FDs se)."
+  ],
+  "commonTraps": [
+   "Sirf ek key se test karna.",
+   "BCNF violation ko 3NF violation samajhna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "NORM_KEYS_02",
+  "name": "Candidate Keys / Superkeys / Counting",
+  "recognitionClueHinglish": "Kaunsi key hai, kaunsa superkey nahi hai, ya superkeys/keys ki count poochhi hai.",
+  "whatShouldComeToMind": [
+   "Closure = all attributes => superkey.",
+   "Minimal superkey = candidate key."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Jo attributes kisi RHS me nahi aate unhe pakdo.",
+   "2. Closure nikaalo; poora R mile to superkey.",
+   "3. Minimality check: koi attribute hata ke bhi closure poora rahe to key nahi.",
+   "4. Count: single key K ho to 2^(n-|K|) superkeys; multiple keys me inclusion-exclusion."
+  ],
+  "formulasUsed": [
+   "superkeyTest",
+   "superkeyCount",
+   "attributeClosure"
+  ],
+  "pyqExamples": [
+   "3.6.13",
+   "3.6.28",
+   "3.6.29",
+   "3.6.30",
+   "3.6.33",
+   "3.6.41",
+   "3.6.50",
+   "3.6.53"
+  ],
+  "variationsObserved": [
+   "Real-world schema (empcode, pincode, street) se FDs khud likhna aur normal form/keys nikaalna.",
+   "Kitni candidate keys hain."
+  ],
+  "commonTraps": [
+   "Superkey ke liye minimality ki zaroorat nahi — candidate key ke liye hai."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "NORM_CLOSURE_FD_03",
+  "name": "Attribute Closure, FD Inference, Armstrong, Minimal Cover",
+  "recognitionClueHinglish": "Poocha hai kaunsi FD implied hai / kaunsi implied nahi hai, ya Armstrong axioms se rule derive karo, ya minimal (irreducible) cover.",
+  "whatShouldComeToMind": [
+   "FD implied hai iff X+ me Y aaye.",
+   "Minimal cover me single-attribute RHS, no extra LHS attribute, no redundant FD."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Given FD ke LHS ka closure nikaalo (dusre FDs ke saath).",
+   "2. RHS closure me hai to implied.",
+   "3. Minimal cover: RHS split, extraneous LHS hatao, redundant FD hatao."
+  ],
+  "formulasUsed": [
+   "attributeClosure"
+  ],
+  "pyqExamples": [
+   "3.6.1",
+   "3.6.2",
+   "3.6.3",
+   "3.6.4",
+   "3.6.5",
+   "3.6.15",
+   "3.6.20",
+   "3.6.24",
+   "3.6.31",
+   "3.6.32",
+   "3.6.35",
+   "3.6.40",
+   "3.6.44",
+   "3.6.45",
+   "3.6.48",
+   "3.6.52"
+  ],
+  "variationsObserved": [
+   "Relation instance diya hai, kaunsi FD satisfy hoti hai — har FD ke liye tuples ki pair check karo.",
+   "'Useful FD' jaisi custom definition (non-empty, non-trivial, etc.)."
+  ],
+  "commonTraps": [
+   "Instance se FD sabit kar dena.",
+   "Trivial FD ki definition (RHS subset of LHS) bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "NORM_DECOMPOSITION_04",
+  "name": "Decomposition: Lossless Join & Dependency Preservation",
+  "recognitionClueHinglish": "Relation ko R1,R2 me todha gaya hai; poocha hai lossless hai, dependency-preserving hai, ya dono.",
+  "whatShouldComeToMind": [
+   "Lossless: common attributes kisi ek part ki key hon.",
+   "Dependency preserving: har FD kisi ek relation me ya derivable ho."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. R1 intersect R2 nikaalo, uska closure dekho: R1 ya R2 ko determine kare to lossless.",
+   "2. Har FD check karo ki kisi decomposed relation me poori aati hai ya closure se recover hoti hai.",
+   "3. BCNF/3NF decomposition me pehle violating FD dhundo."
+  ],
+  "formulasUsed": [
+   "losslessBinary"
+  ],
+  "pyqExamples": [
+   "3.6.8",
+   "3.6.14",
+   "3.6.16",
+   "3.6.17",
+   "3.6.18",
+   "3.6.19",
+   "3.6.34",
+   "3.6.37",
+   "3.6.39",
+   "3.6.54",
+   "3.6.56"
+  ],
+  "variationsObserved": [
+   "Decomposition ke baad redundancy compare karna.",
+   "'Kaunsi decomposition hamesha lossless dependency-preserving nahi ho sakti'."
+  ],
+  "commonTraps": [
+   "Lossless ko dependency-preserving samajhna (alag properties)."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "NORM_CONCEPTUAL_05",
+  "name": "Conceptual Normal-Form Statements",
+  "recognitionClueHinglish": "True/false: kaunsa normal form kis se strict hai, 2 attributes wali relation, all-prime attributes, 1NF properties.",
+  "whatShouldComeToMind": [
+   "Do attributes => BCNF. All prime => 3NF. Single-attribute keys => 2NF."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har statement ko chhote counterexample ya definition se test karo."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.6.6",
+   "3.6.7",
+   "3.6.11",
+   "3.6.23",
+   "3.6.25",
+   "3.6.27",
+   "3.6.42",
+   "3.6.43",
+   "3.6.47"
+  ],
+  "variationsObserved": [
+   "BCNF me lossless+dependency-preserving decomposition ki guarantee nahi (3NF me hai)."
+  ],
+  "commonTraps": [
+   "Ulta implication (3NF => BCNF) likhna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

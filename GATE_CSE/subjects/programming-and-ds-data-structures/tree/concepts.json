@@ -1,0 +1,26 @@
+{
+ "overview": "Rooted/full/complete k-ary tree counts, tree traversals, degree sum, articulation points.",
+ "whyItMatters": "13 PYQs extracted (1990-2021); P2 topic.",
+ "coreConcept": "Full k-ary tree: L = (k-1)I + 1, total nodes n = kI + 1.",
+ "hinglishExplanation": "Tree me edges = n-1 aur sum of degrees = 2(n-1). Full binary tree me leaves = internal + 1. Level-order traversal BFS se (queue).",
+ "formalDefinition": "Full k-ary tree: L = (k-1)I + 1, total nodes n = kI + 1.",
+ "importantProperties": [
+  "Tree with n nodes: n-1 edges; degree sum 2n-2.",
+  "Full k-ary: leaves = (k-1) I + 1.",
+  "Binary tree full: L = I + 1.",
+  "Level-order = BFS.",
+  "Height-balanced trees values in leaves (B+ style).",
+  "Articulation point = removal disconnects graph."
+ ],
+ "formulas": {
+  "kary": "L = (k-1)I + 1"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Complete vs full confuse."
+ ],
+ "standardTechniques": [
+  "Small tree draw."
+ ],
+ "topicId": "programming-and-ds-data-structures:tree"
+}

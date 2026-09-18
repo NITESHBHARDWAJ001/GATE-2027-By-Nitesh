@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "digital-logic__4.34.1",
+  "localId": "4.34.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "shift-registers",
+  "topic": "Shift Registers",
+  "year": 1987,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "13-a                                                            gate. The initial",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "The below figure shows four -type flip-flops connected as a shift register using a state and three subsequent states for three clock pulses are also given. The state                               after the fourth clock pulse is A.                                      B.                                            C.                       D.",
+  "tagsRaw": "gate1987 digital-logic  circuit-output  sequential-circuit  digital-counter  shift-registers",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 359
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_SHIFT_REGISTERS_01"
+ },
+ {
+  "pyqId": "digital-logic__4.34.2",
+  "localId": "4.34.2",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "shift-registers",
+  "topic": "Shift Registers",
+  "year": 1991,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "06,a",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE",
+  "difficultySourceTag": "difficult",
+  "marks": null,
+  "answer": "N/A",
+  "answerVerified": false,
+  "questionTextRaw": "Using flip-flop gates, design a parallel-in/serial-out shift register that shifts data from left to right with the following input lines: i. Clock ii. Three parallel data inputs iii. Serial input iv. Control input                                      .",
+  "tagsRaw": "gate1991 digital-logic  difficult  sequential-circuit  flip-flop     shift-registers  descriptive",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 359
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_SHIFT_REGISTERS_01"
+ }
+]

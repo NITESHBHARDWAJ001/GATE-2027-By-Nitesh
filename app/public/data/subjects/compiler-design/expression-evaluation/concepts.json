@@ -1,0 +1,22 @@
+{
+ "overview": "Bina function calls ke expression ek stack se evaluate; expression tree me minimum registers.",
+ "whyItMatters": "2 PYQs extracted (2002-2014); P4 topic.",
+ "coreConcept": "Bina function calls ke expression ek stack se evaluate; expression tree me minimum registers.",
+ "hinglishExplanation": "Postfix ko stack se evaluate; Sethi-Ullman se registers.",
+ "formalDefinition": "Bina function calls ke expression ek stack se evaluate; expression tree me minimum registers.",
+ "importantProperties": [
+  "Postfix: ek stack.",
+  "Tree me min registers: larger subtree pehle.",
+  "Leaf ko register chahiye."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Do stacks maan lena."
+ ],
+ "standardTechniques": [
+  "1. Postfix.",
+  "2. Stack."
+ ],
+ "topicId": "compiler-design:expression-evaluation"
+}

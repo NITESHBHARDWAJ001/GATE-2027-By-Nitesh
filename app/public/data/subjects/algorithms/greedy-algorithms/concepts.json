@@ -1,0 +1,24 @@
+{
+ "overview": "Activity selection, job sequencing, optimal merge patterns: locally best choice.",
+ "whyItMatters": "5 PYQs extracted (1999-2018); P3 topic.",
+ "coreConcept": "Activity selection, job sequencing, optimal merge patterns: locally best choice.",
+ "hinglishExplanation": "Har step par sabse achha lagne wala choice; correctness exchange argument se.",
+ "formalDefinition": "Activity selection, job sequencing, optimal merge patterns: locally best choice.",
+ "importantProperties": [
+  "Activity selection: earliest finish time first.",
+  "Job sequencing with deadlines: profit descending.",
+  "Optimal merge: sabse chhoti files pehle merge (Huffman-jaisa).",
+  "Greedy kabhi kabhi optimal nahi hota (0/1 knapsack)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Greedy ko har problem par optimal maan lena."
+ ],
+ "standardTechniques": [
+  "1. Sort by greedy key.",
+  "2. Pick if feasible.",
+  "3. Total nikaalo."
+ ],
+ "topicId": "algorithms:greedy-algorithms"
+}

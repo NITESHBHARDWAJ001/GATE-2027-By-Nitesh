@@ -1,0 +1,20 @@
+{
+ "overview": "Dual f^d = complement of f(complement inputs); self-dual: f^d=f.",
+ "whyItMatters": "1 PYQs extracted (2014-2014); P4 topic.",
+ "coreConcept": "Dual f^d = complement of f(complement inputs); self-dual: f^d=f.",
+ "hinglishExplanation": "Self-dual function me f(x') = f(x)'.",
+ "formalDefinition": "Dual f^d = complement of f(complement inputs); self-dual: f^d=f.",
+ "importantProperties": [
+  "Self-dual count n vars: 2^(2^(n-1)).",
+  "Truth table anti-symmetric."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Count formula."
+ ],
+ "standardTechniques": [
+  "1. Half of table free."
+ ],
+ "topicId": "digital-logic:dual-function"
+}

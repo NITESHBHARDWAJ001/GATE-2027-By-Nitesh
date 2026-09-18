@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P4_BIT_STUFFING_01",
+  "name": "Bit Stuffing (PYQ type)",
+  "recognitionClueHinglish": "Bit Stuffing se related sawal.",
+  "whatShouldComeToMind": [
+   "Flag 01111110 ke andar 5 consecutive 1s ke baad 0 stuff."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Scan.",
+   "2. Stuff."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.3.1",
+   "2.3.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Stuffed 0 count me miss."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

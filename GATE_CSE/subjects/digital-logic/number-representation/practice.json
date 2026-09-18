@@ -1,0 +1,42 @@
+{
+  "topicId": "dl-number-representation",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-NR-01",
+      "patternId": "NR_BASE_CONVERSION_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Convert (2A)16 to decimal.",
+      "solutionApproach": "2×16^1 + A(=10)×16^0 = 32+10 = 42.",
+      "answer": "42"
+    },
+    {
+      "practiceId": "AI-NR-02",
+      "patternId": "NR_TWOSCOMP_REPRESENTATION_02",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "What is the 8-bit two's complement representation of -45?",
+      "solutionApproach": "45 in binary (8-bit) = 00101101. Invert: 11010010. Add 1: 11010011.",
+      "answer": "11010011"
+    },
+    {
+      "practiceId": "AI-NR-03",
+      "patternId": "NR_OVERFLOW_03",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "In 4-bit two's complement, add 0111 (+7) and 0001 (+1). Does this overflow?",
+      "solutionApproach": "0111+0001=1000. Carry into sign bit (bit3): from bit2 addition 1+0+carry... let's trace: bit0:1+1=0,carry1. bit1:1+0+1=0,carry1. bit2:1+0+1=0,carry1(carry INTO sign bit=1). bit3(sign):0+0+1=1,carry OUT=0. Carry-in(1)≠carry-out(0) → OVERFLOW. Result 1000=-8, but 7+1=8 which is out of range [-8,7]... wait 8 is out of range since max is 7. Confirmed overflow.",
+      "answer": "Yes, overflow — 7+1=8 exceeds the 4-bit range's max value of 7 (carry-in≠carry-out at sign bit)."
+    },
+    {
+      "practiceId": "AI-NR-04",
+      "patternId": "NR_BIT_PROPERTIES_04",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "How many distinct representations does the value 'zero' have in an 8-bit sign-magnitude system?",
+      "solutionApproach": "Sign-magnitude has TWO zero representations: +0 (00000000) and -0 (10000000).",
+      "answer": "2 (both +0 and -0)"
+    }
+  ]
+}

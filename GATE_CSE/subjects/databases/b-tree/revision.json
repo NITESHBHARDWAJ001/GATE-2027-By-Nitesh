@@ -1,0 +1,39 @@
+{
+ "coreIdea": "Node = 1 block. Order p: p*Pb + (p-1)*K <= B. B+ leaf holds data ptrs and is linked.",
+ "mustRememberFormulas": [
+  "p*Pb + (p-1)*K <= B",
+  "p_leaf*(K+Pr) + Pb <= B",
+  "min children = ceil(p/2)",
+  "max new nodes on insert = height + 1"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "block size, key size, pointer size",
+   "thinkThis": "BT_ORDER_CALC_01"
+  },
+  {
+   "seeThis": "figure + insert/delete",
+   "thinkThis": "BT_INSERT_DELETE_02"
+  },
+  {
+   "seeThis": "height / nodes fetched / range query",
+   "thinkThis": "BT_HEIGHT_ACCESS_03"
+  },
+  {
+   "seeThis": "B vs B+ statements",
+   "thinkThis": "BT_CONCEPT_04"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "No record ptr in B+ internal",
+  "keys = pointers - 1",
+  "root exempt from half-full",
+  "Leaf split copies key up"
+ ],
+ "highYieldPyqLessons": [
+  "Order calculation is the most repeated numeric type (2002-2017).",
+  "Insertion questions from 2007-2026 use figures; note figure text may be missing."
+ ],
+ "topicId": "db-b-tree",
+ "revisionLevel": "short-form"
+}

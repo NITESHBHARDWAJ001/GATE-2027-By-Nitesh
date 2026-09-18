@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:speed-time-distance",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SPEED--01",
+   "patternId": "P3_SPEED_TIME_DISTANCE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "60 km/h 2h?",
+   "solutionApproach": "120.",
+   "answer": "120 km"
+  }
+ ]
+}

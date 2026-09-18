@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Chhoti SQL/algebra queries ka meaning aur output count.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "SQL Query Interpretation se related sawal.",
+   "thinkThis": "P3_QUERY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "NULL ignore."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:query",
+ "revisionLevel": "short-form"
+}

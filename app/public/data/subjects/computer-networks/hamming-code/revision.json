@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Parity bits positions 2^i; syndrome se error position.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Hamming Code se related sawal.",
+   "thinkThis": "P3_HAMMING_CODE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Position count 0 se."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:hamming-code",
+ "revisionLevel": "short-form"
+}

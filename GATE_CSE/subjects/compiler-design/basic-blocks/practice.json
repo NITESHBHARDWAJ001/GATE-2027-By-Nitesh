@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:basic-blocks",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BASIC--01",
+   "patternId": "P3_BASIC_BLOCKS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "3-address code me leaders = 4. Blocks?",
+   "solutionApproach": "Leaders count.",
+   "answer": "4"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Minimum route in a small graph/grid.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Shortest Path (Aptitude) se related sawal.",
+   "thinkThis": "P3_SHORTEST_PATH_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Missed route."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:shortest-path",
+ "revisionLevel": "short-form"
+}

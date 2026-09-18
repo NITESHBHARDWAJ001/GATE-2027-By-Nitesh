@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:ripple-counter-operation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RIPPLE-01",
+   "patternId": "P3_RIPPLE_COUNTER_OPERATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "3-bit ripple counter, clock 8 Hz: last FF freq?",
+   "solutionApproach": "8/8.",
+   "answer": "1 Hz"
+  }
+ ]
+}

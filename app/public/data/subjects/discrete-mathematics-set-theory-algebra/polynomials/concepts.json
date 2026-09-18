@@ -1,0 +1,22 @@
+{
+ "overview": "Roots, degree conditions, base-b quadratic.",
+ "whyItMatters": "4 PYQs extracted (1997-2017); P3 topic.",
+ "coreConcept": "Roots, degree conditions, base-b quadratic.",
+ "hinglishExplanation": "Degree n polynomial ke at most n roots.",
+ "formalDefinition": "Roots, degree conditions, base-b quadratic.",
+ "importantProperties": [
+  "Degree n => n roots (complex).",
+  "Factor theorem.",
+  "Vieta formulas."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Degree bound bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Conditions.",
+  "2. Degree."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:polynomials"
+}

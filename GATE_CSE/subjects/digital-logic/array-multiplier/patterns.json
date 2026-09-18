@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P4_ARRAY_MULTIPLIER_01",
+  "name": "Array Multiplier (PYQ type)",
+  "recognitionClueHinglish": "Array Multiplier se related sawal.",
+  "whatShouldComeToMind": [
+   "n x n multiplier: n^2 AND gates, delay proportional to n."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Partial products."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.2.1",
+   "4.2.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Gate count vs delay."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

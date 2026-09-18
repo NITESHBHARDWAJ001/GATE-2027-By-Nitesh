@@ -1,0 +1,24 @@
+{
+ "overview": "Safe state check: Need = Max - Allocation; work vector se sequence.",
+ "whyItMatters": "2 PYQs extracted (2018-2026); P3 topic.",
+ "coreConcept": "Safe state check: Need = Max - Allocation; work vector se sequence.",
+ "hinglishExplanation": "Koi process jiska Need <= Available ho use complete karo aur allocation Available me jodo.",
+ "formalDefinition": "Safe state check: Need = Max - Allocation; work vector se sequence.",
+ "importantProperties": [
+  "Need = Max - Allocation.",
+  "Safe sequence exist => safe state.",
+  "Unsafe => deadlock ka khatra (zaroori nahi).",
+  "Request grant hypothetically check."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Available update bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Need matrix.",
+  "2. Work.",
+  "3. Sequence."
+ ],
+ "topicId": "operating-system:bankers-algorithm"
+}

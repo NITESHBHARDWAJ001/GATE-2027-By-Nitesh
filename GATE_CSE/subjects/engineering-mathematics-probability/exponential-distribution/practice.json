@@ -1,0 +1,33 @@
+{
+ "topicId": "engineering-mathematics-probability:exponential-distribution",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-EXPONE-01",
+   "patternId": "EXP_TAIL_MEMORYLESS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Mean 2. P(X>2)?",
+   "solutionApproach": "lambda=0.5; e^-1.",
+   "answer": "0.368"
+  },
+  {
+   "practiceId": "AI-EXPONENT-X02",
+   "patternId": "EXP_TAIL_MEMORYLESS_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Exp with mean 5: P(X>5)?",
+   "solutionApproach": "e^-1.",
+   "answer": "0.368"
+  },
+  {
+   "practiceId": "AI-EXPONENT-X03",
+   "patternId": "EXP_TRANSFORMS_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Independent Exp(2), Exp(3): min ~ Exp(?)",
+   "solutionApproach": "Rates add.",
+   "answer": "Exp(5)"
+  }
+ ]
+}

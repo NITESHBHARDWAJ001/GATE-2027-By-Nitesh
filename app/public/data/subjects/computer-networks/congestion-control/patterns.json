@@ -1,0 +1,58 @@
+[
+ {
+  "patternId": "CC_CWND_TRACE_01",
+  "name": "cwnd Evolution / Time / Segments Sent",
+  "recognitionClueHinglish": "Timeout ke baad kitne RTT me window X ya kitna data.",
+  "whatShouldComeToMind": [
+   "Round table."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. ssthresh.",
+   "2. Rounds."
+  ],
+  "formulasUsed": [
+   "ssthresh"
+  ],
+  "pyqExamples": [
+   "2.9.2",
+   "2.9.3",
+   "2.9.5",
+   "2.9.6",
+   "2.9.8",
+   "2.9.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Doubling till ssthresh."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CC_CONCEPT_02",
+  "name": "Congestion Control Concepts",
+  "recognitionClueHinglish": "Slow start property, statements on cwnd.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Phase behaviour."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.9.1",
+   "2.9.4",
+   "2.9.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Exponential vs linear."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

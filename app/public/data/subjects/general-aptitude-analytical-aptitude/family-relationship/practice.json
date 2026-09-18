@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:family-relationship",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-FAMILY-01",
+   "patternId": "P3_FAMILY_RELATIONSHIP_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A brother of B, B daughter of C. A is C's?",
+   "solutionApproach": "Child.",
+   "answer": "Son"
+  }
+ ]
+}

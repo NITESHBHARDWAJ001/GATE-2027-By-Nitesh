@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:shortest-path",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SHORTE-01",
+   "patternId": "P3_SHORTEST_PATH_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Grid 2x2 lattice paths (right/up)?",
+   "solutionApproach": "C(4,2).",
+   "answer": "6"
+  }
+ ]
+}

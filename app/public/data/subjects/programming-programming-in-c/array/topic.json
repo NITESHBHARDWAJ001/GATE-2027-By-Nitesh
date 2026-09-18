@@ -1,0 +1,26 @@
+{
+ "topicId": "programming-programming-in-c:array",
+ "subjectId": "programming-programming-in-c",
+ "subject": "Programming & DS - Programming in C",
+ "name": "Arrays and Pointers in C",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "13 PYQs extracted, 2002-2022.",
+ "pyqCountExtracted": 13,
+ "yearsCovered": [
+  2002,
+  2004,
+  2008,
+  2011,
+  2015,
+  2019,
+  2020,
+  2021,
+  2022
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_BRIDGES_01",
+  "name": "Bridges (Transparent, Spanning Tree) (PYQ type)",
+  "recognitionClueHinglish": "Bridges (Transparent, Spanning Tree) se related sawal.",
+  "whatShouldComeToMind": [
+   "Bridge MAC learn karta hai, spanning tree loops rokta hai; router IP layer."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Layer."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.4.1",
+   "2.4.2",
+   "2.4.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Bridge aur router same maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

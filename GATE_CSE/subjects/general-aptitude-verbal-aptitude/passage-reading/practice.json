@@ -1,0 +1,24 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:passage-reading",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PASSAG-01",
+   "patternId": "PR_INFERENCE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Passage: 'X rose because of Y.' Which is best supported?",
+   "solutionApproach": "Direct evidence.",
+   "answer": "Statement saying X rose due to Y"
+  },
+  {
+   "practiceId": "AI-PASSAGE--X02",
+   "patternId": "PR_INFERENCE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Main idea questions: option must cover?",
+   "solutionApproach": "Whole passage.",
+   "answer": "The passage as a whole"
+  }
+ ]
+}

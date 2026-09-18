@@ -1,0 +1,22 @@
+{
+ "overview": "Reflexivity, augmentation, transitivity aur derived rules (union, decomposition).",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Reflexivity, augmentation, transitivity aur derived rules (union, decomposition).",
+ "hinglishExplanation": "Sound aur complete inference rules FDs ke liye.",
+ "formalDefinition": "Reflexivity, augmentation, transitivity aur derived rules (union, decomposition).",
+ "importantProperties": [
+  "Reflexivity: Y subset X => X->Y.",
+  "Augmentation: X->Y => XZ->YZ.",
+  "Transitivity.",
+  "Union, decomposition, pseudo-transitivity derived."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Decomposition LHS par lagana (galat)."
+ ],
+ "standardTechniques": [
+  "1. Rule choose."
+ ],
+ "topicId": "databases:armstrong-axioms"
+}

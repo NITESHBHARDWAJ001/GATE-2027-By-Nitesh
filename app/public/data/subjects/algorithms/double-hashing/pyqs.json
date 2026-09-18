@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "algorithms__1.15.1",
+  "localId": "1.15.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "double-hashing",
+  "topic": "Double Hashing",
+  "year": 2020,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "23",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "13",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a double hashing scheme in which the primary hash function is                                         , and the secondary hash function is                                                     . Assume that the table size is . Then the address returned by probe in the probe sequence (assume that the probe sequence begins at probe ) for key value is_____________.",
+  "tagsRaw": "gatecse-2020 numerical-answers  algorithms  hashing  one-mark  double-hashing",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 37
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DOUBLE_HASHING_01"
+ },
+ {
+  "pyqId": "algorithms__1.15.2",
+  "localId": "1.15.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "double-hashing",
+  "topic": "Double Hashing",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "55",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "easy",
+  "marks": 2,
+  "answer": "10:10",
+  "answerVerified": true,
+  "questionTextRaw": "In a double hashing scheme,                                                    and                     are the auxiliary hash functions. The size of the hash table is . The hash function for the -th probe in the open address table is                                          . The following keys are inserted in the given order:              . The slot at which key gets stored is ___________ . (Answer in integer)",
+  "tagsRaw": "gatecse2025-set1 algorithms hashing double-hashing numerical-answers easy two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 37
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DOUBLE_HASHING_01"
+ }
+]

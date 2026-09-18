@@ -1,0 +1,21 @@
+{
+ "topicId": "discrete-mathematics-set-theory-algebra:polynomials",
+ "subjectId": "discrete-mathematics-set-theory-algebra",
+ "subject": "Discrete Mathematics - Set Theory & Algebra",
+ "name": "Polynomials",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 1997-2017.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  1997,
+  2000,
+  2014,
+  2017
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

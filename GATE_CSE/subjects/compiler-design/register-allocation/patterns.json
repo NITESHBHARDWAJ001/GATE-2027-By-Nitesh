@@ -1,0 +1,32 @@
+[
+ {
+  "patternId": "P3_REGISTER_ALLOCATION_01",
+  "name": "Register Allocation (PYQ type)",
+  "recognitionClueHinglish": "Register Allocation se related sawal.",
+  "whatShouldComeToMind": [
+   "Minimum registers ek expression/tree ke liye (Sethi-Ullman); interference graph colouring."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Live ranges.",
+   "2. Interference graph.",
+   "3. Colour."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.23.1",
+   "2.23.2",
+   "2.23.3",
+   "2.23.4",
+   "2.23.5",
+   "2.23.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Liveness overlap ignore."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

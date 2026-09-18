@@ -1,0 +1,57 @@
+[
+ {
+  "patternId": "REC_BUILD_01",
+  "name": "Build a Recurrence from a Counting Problem",
+  "recognitionClueHinglish": "Strings/sequences ke liye recurrence.",
+  "whatShouldComeToMind": [
+   "Case on last symbol."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Last symbol.",
+   "2. Cases."
+  ],
+  "formulasUsed": [
+   "noAdjOnes"
+  ],
+  "pyqExamples": [
+   "1.7.2",
+   "1.7.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Base."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "REC_SOLVE_02",
+  "name": "Solve / Evaluate / Prove Properties",
+  "recognitionClueHinglish": "Recurrence ka value, closed form, induction.",
+  "whatShouldComeToMind": [
+   "Characteristic roots."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Compute.",
+   "2. Prove."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.7.1",
+   "1.7.3",
+   "1.7.4",
+   "1.7.5",
+   "1.7.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Arithmetic."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,24 @@
+{
+ "overview": "Control memory width, horizontal vs vertical microinstructions, hardwired vs microprogrammed speed.",
+ "whyItMatters": "12 PYQs extracted (1987-2013); P3 topic.",
+ "coreConcept": "Control memory width, horizontal vs vertical microinstructions, hardwired vs microprogrammed speed.",
+ "hinglishExplanation": "Horizontal: har control signal ka apna bit (wide, fast). Vertical: encoded fields (narrow, slower, decoder chahiye).",
+ "formalDefinition": "Control memory width, horizontal vs vertical microinstructions, hardwired vs microprogrammed speed.",
+ "importantProperties": [
+  "Horizontal width = sum of control signals + next-address bits.",
+  "Vertical: field bits = ceil(log2(options+1)).",
+  "Speed: hardwired > horizontal > vertical.",
+  "Control memory size = #microinstructions x width."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Encoded field me 'none' option bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Har field ke options.",
+  "2. Bits = ceil(log2(n+1)).",
+  "3. Total."
+ ],
+ "topicId": "co-architecture:microprogramming"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Grammar ambiguous jab kisi string ke do parse trees.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Ambiguous Grammars se related sawal.",
+   "thinkThis": "P3_AMBIGUOUS_GRAMMAR_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Useless non-terminals ko ambiguity maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:ambiguous-grammar",
+ "revisionLevel": "short-form"
+}

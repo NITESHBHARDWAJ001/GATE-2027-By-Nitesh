@@ -1,0 +1,23 @@
+{
+ "overview": "Sum-of-minterms, product-of-maxterms, gates combination ka minterm list, prime implicant count, NOR gate count.",
+ "whyItMatters": "10 PYQs extracted (1988-2024); P2 topic.",
+ "coreConcept": "AND of functions = minterm intersection; OR = union; XOR = symmetric difference.",
+ "hinglishExplanation": "Do functions ke minterm sets se circuit output nikalo: AND -> common minterms, OR -> union, XOR -> jo sirf ek me hain. Complement = baaki minterms.",
+ "formalDefinition": "AND of functions = minterm intersection; OR = union; XOR = symmetric difference.",
+ "importantProperties": [
+  "AND: intersection, OR: union, XOR: symmetric difference, NOT: complement.",
+  "SOP canonical = minterms; POS canonical = maxterms.",
+  "Maxterm index = minterm index of complement function.",
+  "Prime implicants = maximal groups in K-map.",
+  "n vars: 2^n minterms."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Minterm/maxterm confuse."
+ ],
+ "standardTechniques": [
+  "Set operations."
+ ],
+ "topicId": "digital-logic:canonical-normal-form"
+}

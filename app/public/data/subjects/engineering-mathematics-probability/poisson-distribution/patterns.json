@@ -1,0 +1,30 @@
+[
+ {
+  "patternId": "P3_POISSON_DISTRIBUTION_01",
+  "name": "Poisson Distribution (PYQ type)",
+  "recognitionClueHinglish": "Poisson Distribution se related sawal.",
+  "whatShouldComeToMind": [
+   "Rare events count; P(k) = e^-lambda lambda^k/k!; mean=variance=lambda."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. lambda.",
+   "2. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.12.1",
+   "7.12.2",
+   "7.12.3",
+   "7.12.4",
+   "7.12.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Rate scaling galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

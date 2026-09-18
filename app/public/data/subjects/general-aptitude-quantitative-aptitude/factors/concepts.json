@@ -1,0 +1,19 @@
+{
+ "overview": "Number of factors, HCF, LCM.",
+ "whyItMatters": "2 PYQs extracted (2013-2018); P3 topic.",
+ "coreConcept": "Number of factors, HCF, LCM.",
+ "hinglishExplanation": "Prime factorization.",
+ "formalDefinition": "Number of factors, HCF, LCM.",
+ "importantProperties": [
+  "d(n)=prod(e+1)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Factors 1 aur n."
+ ],
+ "standardTechniques": [
+  "1. Factorize."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:factors"
+}

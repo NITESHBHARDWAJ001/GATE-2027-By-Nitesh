@@ -1,0 +1,21 @@
+{
+ "overview": "Circular seating constraints.",
+ "whyItMatters": "1 PYQs extracted (2017-2017); P3 topic.",
+ "coreConcept": "Circular seating constraints.",
+ "hinglishExplanation": "Circle draw, fix ek person.",
+ "formalDefinition": "Circular seating constraints.",
+ "importantProperties": [
+  "Circular arrangements (n-1)!.",
+  "Neighbour constraints."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Mirror duplicates."
+ ],
+ "standardTechniques": [
+  "1. Fix.",
+  "2. Constraints."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:round-table-arrangement"
+}

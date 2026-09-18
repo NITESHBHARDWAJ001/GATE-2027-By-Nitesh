@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Average = sum/n; weighted average.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Average se related sawal.",
+   "thinkThis": "P3_AVERAGE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Weights."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:average",
+ "revisionLevel": "short-form"
+}

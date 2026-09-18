@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Var(aX+b)=a^2 Var X; independent sums add.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Variance se related sawal.",
+   "thinkThis": "P3_VARIANCE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Shift add karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-probability:variance",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,33 @@
+{
+ "topicId": "engineering-mathematics-probability:uniform-distribution",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-UNIFOR-01",
+   "patternId": "UNI_GEOMETRIC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "X ~ U[0,1]. P(X > 0.3)?",
+   "solutionApproach": "Length 0.7.",
+   "answer": "0.7"
+  },
+  {
+   "practiceId": "AI-UNIFORM--X02",
+   "patternId": "UNI_GEOMETRIC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "X~U[2,6]. E[X]?",
+   "solutionApproach": "(2+6)/2.",
+   "answer": "4"
+  },
+  {
+   "practiceId": "AI-UNIFORM--X03",
+   "patternId": "UNI_GEOMETRIC_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "X~U[0,1], Y~U[0,1] independent. P(X+Y<=1)?",
+   "solutionApproach": "Triangle area.",
+   "answer": "0.5"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+  "topicId": "cd-syntax-directed-translation",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-SDT-01",
+      "patternId": "SDT_COMPUTE_VALUE_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Grammar: E→E1+T {E.val=E1.val+T.val} | T {E.val=T.val}; T→num {T.val=num.val}. Compute E.val for input '3+4+5'.",
+      "solutionApproach": "Left-associative: parse as (3+4)+5. T.val=3 for first num. E→T gives E.val=3. Then E1+T: E.val=3+4=7. Then E1+T: E.val=7+5=12.",
+      "answer": "12"
+    },
+    {
+      "practiceId": "AI-SDT-02",
+      "patternId": "SDT_CLASSIFY_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A→BC with rules: B.inh = A.inh (inherited, from parent), C.inh = B.syn (inherited, from LEFT sibling B). Is this SDD L-attributed?",
+      "solutionApproach": "B.inh depends on A.inh (parent) — fine. C.inh depends on B.syn (a sibling to its LEFT) — fine, left-dependency allowed. No right-dependencies found. This IS L-attributed.",
+      "answer": "Yes, L-attributed — all inherited attributes depend only on parent or left siblings."
+    },
+    {
+      "practiceId": "AI-SDT-03",
+      "patternId": "SDT_CLASSIFY_02",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A→BC with rule: B.inh = C.syn (B's inherited attribute depends on C, which is to B's RIGHT). Is this L-attributed? Can a bottom-up parser evaluate it?",
+      "solutionApproach": "B.inh depends on C.syn — C is to the RIGHT of B in the production. This violates the L-attributed left-only-dependency rule. NOT L-attributed. Therefore a bottom-up (LR) parser CANNOT evaluate this inherited attribute during normal single-pass parsing.",
+      "answer": "No, not L-attributed (right-dependency) — cannot be evaluated during bottom-up parsing."
+    }
+  ]
+}

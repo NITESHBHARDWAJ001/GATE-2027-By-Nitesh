@@ -1,0 +1,19 @@
+{
+ "topicId": "digital-logic:min-products-of-sum-form",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Minimum Product-of-Sums",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "2 PYQs extracted, 1990-2017.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  1990,
+  2017
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

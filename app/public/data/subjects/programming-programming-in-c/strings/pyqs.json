@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "programming-programming-in-c__5.15.1",
+  "localId": "5.15.1",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "strings",
+  "topic": "Strings",
+  "year": 2004,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "33",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following C program segment: char p[20]; int i; char* s = \"string\"; int length = strlen(s); for(i = 0; i < length; i++) p[i] = s[length-i]; printf(\"%s\", p); The output of the program is: A. gnirts                                                          B. string C. gnirt                                                           D. no output is printed",
+  "tagsRaw": "gatecse-2004 programming programming-in-c strings easy",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 311
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STRINGS_01"
+ },
+ {
+  "pyqId": "programming-programming-in-c__5.15.2",
+  "localId": "5.15.2",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "strings",
+  "topic": "Strings",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following C program: #include <stdio.h> void stringcopy (char *, char *); int main() { char a[30] = \"@#Hello World!\"; stringcopy(a, a+2); printf(\"%s\\n\",a); return 0; } void stringcopy(char *s, char *t) { while (*t) *s++=*t++; } Which one of the following will be the output of the program? A. @#Hello World!                   B. Hello World!                C. ello World!           D. Hello World!d!",
+  "tagsRaw": "gatecse2025-set2 programming-in-c   strings  output  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 311
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STRINGS_01"
+ }
+]

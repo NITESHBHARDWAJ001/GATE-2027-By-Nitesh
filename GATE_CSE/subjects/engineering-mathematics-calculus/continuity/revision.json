@@ -1,0 +1,23 @@
+{
+ "coreIdea": "f continuous at a: lim f(x) = f(a) (left, right, value teeno equal).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Constants jo continuity dete hain.",
+   "thinkThis": "CON_PARAMS_01"
+  },
+  {
+   "seeThis": "Statements about continuity, area functions, IVT.",
+   "thinkThis": "CON_THEOREMS_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Converse.",
+  "One-sided."
+ ],
+ "highYieldPyqLessons": [
+  "Continuity/differentiability statements recur."
+ ],
+ "topicId": "engineering-mathematics-calculus:continuity",
+ "revisionLevel": "short-form"
+}

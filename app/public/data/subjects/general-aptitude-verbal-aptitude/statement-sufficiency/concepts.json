@@ -1,0 +1,22 @@
+{
+ "overview": "Data sufficiency: kya diye gaye statements se answer nikal sakta hai.",
+ "whyItMatters": "2 PYQs extracted (2015-2015); P4 topic.",
+ "coreConcept": "Data sufficiency: kya diye gaye statements se answer nikal sakta hai.",
+ "hinglishExplanation": "Har statement akele aur saath test.",
+ "formalDefinition": "Data sufficiency: kya diye gaye statements se answer nikal sakta hai.",
+ "importantProperties": [
+  "Alone sufficient?",
+  "Together sufficient?",
+  "Neither."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Statement ke bahar assume."
+ ],
+ "standardTechniques": [
+  "1. Alone.",
+  "2. Together."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:statement-sufficiency"
+}

@@ -1,0 +1,18 @@
+{
+ "topicId": "operating-system:round-robin-scheduling",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Round Robin Scheduling",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2022-2022.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2022
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

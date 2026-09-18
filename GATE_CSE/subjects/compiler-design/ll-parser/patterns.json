@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_LL_PARSER_01",
+  "name": "LL(1) Parsers (PYQ type)",
+  "recognitionClueHinglish": "LL(1) Parsers se related sawal.",
+  "whatShouldComeToMind": [
+   "LL(1): no left recursion, left-factored, FIRST/FOLLOW disjoint; no backtracking."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. FIRST/FOLLOW.",
+   "2. Conflicts."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.18.1",
+   "2.18.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "LL parser ko backtracking wala maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

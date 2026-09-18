@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Flag 01111110 ke andar 5 consecutive 1s ke baad 0 stuff.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bit Stuffing se related sawal.",
+   "thinkThis": "P4_BIT_STUFFING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Stuffed 0 count me miss."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:bit-stuffing",
+ "revisionLevel": "short-form"
+}

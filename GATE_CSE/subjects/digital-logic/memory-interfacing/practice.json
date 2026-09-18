@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:memory-interfacing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MEMORY-01",
+   "patternId": "P3_MEMORY_INTERFACING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "1K x 8 chips se 4K x 16?",
+   "solutionApproach": "4 x 2.",
+   "answer": "8 chips"
+  }
+ ]
+}

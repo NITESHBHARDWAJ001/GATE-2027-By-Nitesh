@@ -1,0 +1,22 @@
+{
+ "overview": "Labeled graphs on n vertices: 2^(C(n,2)); cycles in K_n.",
+ "whyItMatters": "3 PYQs extracted (2001-2012); P3 topic.",
+ "coreConcept": "Labeled graphs on n vertices: 2^(C(n,2)); cycles in K_n.",
+ "hinglishExplanation": "Har possible edge ho ya na ho.",
+ "formalDefinition": "Labeled graphs on n vertices: 2^(C(n,2)); cycles in K_n.",
+ "importantProperties": [
+  "Graphs on n labeled vertices: 2^(n(n-1)/2).",
+  "Hamiltonian cycles in K_n: (n-1)!/2.",
+  "At least k edges: sum."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Labeled vs unlabeled."
+ ],
+ "standardTechniques": [
+  "1. Possible edges.",
+  "2. 2^."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:counting"
+}

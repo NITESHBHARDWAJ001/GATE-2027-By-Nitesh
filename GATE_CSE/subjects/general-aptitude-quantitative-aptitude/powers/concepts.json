@@ -1,0 +1,20 @@
+{
+ "overview": "Exponent laws.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Exponent laws.",
+ "hinglishExplanation": "a^m a^n=a^(m+n).",
+ "formalDefinition": "Exponent laws.",
+ "importantProperties": [
+  "a^0=1.",
+  "(a^m)^n=a^(mn)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Negative exponent."
+ ],
+ "standardTechniques": [
+  "1. Laws."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:powers"
+}

@@ -1,0 +1,128 @@
+[
+ {
+  "patternId": "DSK_HEAD_MOVEMENT_01",
+  "name": "Head Movement / Seek Time Computation",
+  "recognitionClueHinglish": "Request queue, head position aur algorithm (FCFS/SSTF/SCAN/LOOK/C-LOOK) diya hai; total seek distance ya time poochha hai (16 me se 9).",
+  "whatShouldComeToMind": [
+   "Pehle servicing order nikaalo, phir distances jodo.",
+   "Direction aur initial head position dhyaan se."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Requests aur head position note karo.",
+   "2. Algorithm ke rule se servicing order likho.",
+   "3. Consecutive |differences| jodo (SCAN me disk end ka detour bhi).",
+   "4. Time = distance x per-cylinder seek time."
+  ],
+  "formulasUsed": [
+   "headMovement"
+  ],
+  "pyqExamples": [
+   "5.8.1",
+   "5.8.2",
+   "5.8.3",
+   "5.8.8",
+   "5.8.9",
+   "5.8.10",
+   "5.8.11",
+   "5.8.13",
+   "5.8.14"
+  ],
+  "variationsObserved": [
+   "Do algorithms ka comparison ('additional distance' by SSTF vs FCFS).",
+   "Request ids ke saath (id, cylinder) format."
+  ],
+  "commonTraps": [
+   "SCAN me end tak jaana bhool jaana.",
+   "Circular jump count karna ya na karna galat lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DSK_ALGO_PROPERTIES_02",
+  "name": "Algorithm Properties (SSTF direction change, throughput)",
+  "recognitionClueHinglish": "Poocha hai kaunsi strategy best throughput degi, ya SSTF me direction kab badalta hai, ya FCFS ko SSTF se badalne ka asar.",
+  "whatShouldComeToMind": [
+   "SSTF throughput achha, starvation possible.",
+   "SSTF me head direction tab badalta hai jab ek side ki requests khatam ho jaayein."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Algorithm ka rule yaad karo.",
+   "2. Chhota concrete example banao aur trace karo."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.8.5",
+   "5.8.7",
+   "5.8.15",
+   "5.8.16"
+  ],
+  "variationsObserved": [
+   "Maximum request-set cardinality jahan direction ek baar hi badle."
+  ],
+  "commonTraps": [
+   "SSTF ko fair samajhna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DSK_ACCESS_TIME_03",
+  "name": "Disk Access Time (RPM, sectors, transfer)",
+  "recognitionClueHinglish": "RPM, sectors per track, tracks aur seek time diye hain; access ya transfer time poochha hai.",
+  "whatShouldComeToMind": [
+   "Access = seek + rotational latency + transfer.",
+   "Average rotational latency = half rotation."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rotation time = 60/RPM.",
+   "2. Latency = half rotation.",
+   "3. Transfer = (sectors to read / sectors per track) x rotation time.",
+   "4. Jodo."
+  ],
+  "formulasUsed": [
+   "rotationLatency",
+   "transferTime",
+   "accessTime"
+  ],
+  "pyqExamples": [
+   "5.8.6",
+   "5.8.12"
+  ],
+  "variationsObserved": [
+   "Platters/cylinders/sectors se address calculation."
+  ],
+  "commonTraps": [
+   "Rotational latency me poori rotation lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DSK_MATCH_04",
+  "name": "Matching / Definitions",
+  "recognitionClueHinglish": "Match the following: scheduling algorithm aur uski property.",
+  "whatShouldComeToMind": [
+   "Direct definition recall."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har algorithm ki definition se match karo."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.8.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

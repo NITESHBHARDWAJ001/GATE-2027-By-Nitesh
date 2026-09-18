@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Poset jisme har pair ka lub aur glb ho; complement, distributive lattices.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Lattices se related sawal.",
+   "thinkThis": "P3_LATTICE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Every poset lattice maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:lattice",
+ "revisionLevel": "short-form"
+}

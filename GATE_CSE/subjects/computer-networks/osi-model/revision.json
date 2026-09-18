@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Layers: physical, data link, network, transport, session, presentation, application.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "OSI Model se related sawal.",
+   "thinkThis": "P3_OSI_MODEL_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Layers ka order."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:osi-model",
+ "revisionLevel": "short-form"
+}

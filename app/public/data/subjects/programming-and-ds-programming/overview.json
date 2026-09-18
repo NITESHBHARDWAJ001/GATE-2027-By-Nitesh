@@ -1,0 +1,16 @@
+{
+ "subjectId": "programming-and-ds-programming",
+ "name": "Programming and DS: Programming",
+ "sourceVolume": "volume2",
+ "sourcePdf": "filter1_volume2 (1).pdf",
+ "totalTopics": 1,
+ "totalPyqsExtracted": 1,
+ "priorityDistribution": {
+  "P1": 0,
+  "P2": 0,
+  "P3": 1,
+  "P4": 0
+ },
+ "p1Topics": [],
+ "processingStatus": "structure_ready_notes_pending"
+}

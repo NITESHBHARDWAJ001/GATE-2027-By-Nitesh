@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_STATISTICS_01",
+  "name": "Statistics (Estimation, Mean/Variance) (PYQ type)",
+  "recognitionClueHinglish": "Statistics (Estimation, Mean/Variance) se related sawal.",
+  "whatShouldComeToMind": [
+   "Sample mean, MLE of bias, covariance of dependent variables."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.18.1",
+   "7.18.2",
+   "7.18.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Independence assume karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

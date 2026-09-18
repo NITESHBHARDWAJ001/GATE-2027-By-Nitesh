@@ -1,0 +1,25 @@
+{
+ "coreIdea": "f(x)=lambda e^{-lambda x}; P(X>x)=e^{-lambda x}; mean 1/lambda.",
+ "mustRememberFormulas": [
+  "tail: e^{-lambda x}",
+  "min: rate l1+l2"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Lifetime probabilities, conditional given survival.",
+   "thinkThis": "EXP_TAIL_MEMORYLESS_01"
+  },
+  {
+   "seeThis": "Min, floor, expected values.",
+   "thinkThis": "EXP_TRANSFORMS_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Mean vs rate."
+ ],
+ "highYieldPyqLessons": [
+  "Rate = 1/mean; use tail formula."
+ ],
+ "topicId": "engineering-mathematics-probability:exponential-distribution",
+ "revisionLevel": "short-form"
+}

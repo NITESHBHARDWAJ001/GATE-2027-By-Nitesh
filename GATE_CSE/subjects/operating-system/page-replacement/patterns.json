@@ -1,0 +1,150 @@
+[
+ {
+  "patternId": "PR_FAULT_SIM_01",
+  "name": "Page Fault Count Simulation (FIFO / LRU / OPT)",
+  "recognitionClueHinglish": "Reference string aur frames diye hain aur page faults ya final frame contents poochi hain — sabse bada pattern (31 me se 14).",
+  "whatShouldComeToMind": [
+   "Table banao, har reference pe hit/fault mark karo.",
+   "FIFO me hit pe order nahi badalta; LRU me hit pe recency badalti hai."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Frames khali se shuru (jab tak alag na bataya ho).",
+   "2. Har reference: page frames me hai to hit, nahi to fault.",
+   "3. Fault pe frames bhare hain to algorithm ke rule se victim choose karo.",
+   "4. Faults gino / frame contents padho."
+  ],
+  "formulasUsed": [
+   "faultCount",
+   "optRule",
+   "lruRule"
+  ],
+  "pyqExamples": [
+   "5.20.1",
+   "5.20.5",
+   "5.20.14",
+   "5.20.15",
+   "5.20.17",
+   "5.20.18",
+   "5.20.19",
+   "5.20.20",
+   "5.20.21",
+   "5.20.22",
+   "5.20.23",
+   "5.20.28",
+   "5.20.29",
+   "5.20.31"
+  ],
+  "variationsObserved": [
+   "Address sequence di hai (page number khud nikaalna: address / page size).",
+   "Modified OPT variant (custom rule) — rule ko sahi padhkar simulate karo.",
+   "Do algorithms (FIFO vs LRU) ki comparison."
+  ],
+  "commonTraps": [
+   "LRU me hit par recency update na karna.",
+   "Address ko page number me convert karna bhool jaana."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "PR_BELADY_PROPERTIES_02",
+  "name": "Belady's Anomaly & Algorithm Properties",
+  "recognitionClueHinglish": "Poocha hai kaunsa algorithm Belady's anomaly dikhata hai, ya frames badhane ka effect, ya OPT/LRU ki definition.",
+  "whatShouldComeToMind": [
+   "Belady's anomaly = FIFO (standard algorithms me).",
+   "LRU aur OPT stack algorithms hain, anomaly nahi."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Algorithm ka naam pehchano.",
+   "2. Stack-algorithm hai to anomaly nahi; FIFO hai to ho sakti hai.",
+   "3. Definition wale options me OPT = future me sabse der baad use, LRU = past me sabse der pehle use."
+  ],
+  "formulasUsed": [
+   "stackProperty",
+   "optRule",
+   "lruRule"
+  ],
+  "pyqExamples": [
+   "5.20.2",
+   "5.20.4",
+   "5.20.9",
+   "5.20.10",
+   "5.20.13",
+   "5.20.16",
+   "5.20.24",
+   "5.20.25"
+  ],
+  "variationsObserved": [
+   "Random replacement ke baare me statement (Belady possible/impossible) — random stack algorithm nahi hai."
+  ],
+  "commonTraps": [
+   "'Frames badhane par faults hamesha ghategi' — FIFO ke liye galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "PR_CONCEPTS_03",
+  "name": "Concepts: Dirty Bit, Locality, Thrashing, Minimum Frames",
+  "recognitionClueHinglish": "Definition/true-false: dirty bit ka kaam, locality of reference, thrashing, minimum frames, RAM badhane ka asar.",
+  "whatShouldComeToMind": [
+   "Dirty bit unnecessary disk writes bachata hai.",
+   "Thrashing = excessive page I/O."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Concept ki standard definition yaad karo.",
+   "2. Har option ko definition se test karo."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.20.6",
+   "5.20.7",
+   "5.20.8",
+   "5.20.11",
+   "5.20.12",
+   "5.20.26"
+  ],
+  "variationsObserved": [
+   "Paging external fragmentation hatati hai par internal fragmentation laati hai (page size se prabhavit)."
+  ],
+  "commonTraps": [
+   "Thrashing ko 'page I/O kam karta hai' likhna — ulta hai."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "PR_MISC_04",
+  "name": "Misc (memory allocation, 3-level page table, EAT with dirty pages)",
+  "recognitionClueHinglish": "Topic tag Page Replacement hai par question allocation ya address translation ka hai.",
+  "whatShouldComeToMind": [
+   "Question ka asli concept pehchano (heap allocation / multilevel table / EAT) aur us topic ki method lagao."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Concept identify karo.",
+   "2. Virtual Memory topic ke patterns (page table size, EAT) reuse karo."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.20.3",
+   "5.20.27",
+   "5.20.30"
+  ],
+  "variationsObserved": [
+   "EAT me dirty page ka extra replace time weighted karna."
+  ],
+  "commonTraps": [
+   "Sab paths ki probability add karna bhool jaana."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ }
+]

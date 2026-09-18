@@ -1,0 +1,42 @@
+{
+  "topicId": "toc-context-free-language",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-CFL-01",
+      "patternId": "CFL_IDENTIFY_GRAMMAR_LANG_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "S → aSb | ε. What language does this grammar generate?",
+      "solutionApproach": "Each application of S→aSb adds one 'a' at front and one 'b' at back, ε terminates. Derive: S→ε(n=0), S→aSb→ab(n=1), S→aSb→aaSbb→aabb(n=2). Pattern: {a^n b^n : n≥0}.",
+      "answer": "{a^n b^n : n≥0}"
+    },
+    {
+      "practiceId": "AI-CFL-02",
+      "patternId": "CFL_CLASSIFY_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is L = {a^i b^j c^k : i=j or j=k} context-free?",
+      "solutionApproach": "Yes — L = L1 ∪ L2 where L1={a^i b^i c^k} (CFL, single stack matches a's and b's, c's are free) and L2={a^i b^j c^j} (CFL, matches b's and c's, a's free). Union of two CFLs is CFL.",
+      "answer": "Yes, context-free — union of two individually-CFL languages (CFL closed under union)."
+    },
+    {
+      "practiceId": "AI-CFL-03",
+      "patternId": "CFL_CLOSURE_03",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "L1={a^n b^n c^m : n,m≥0} and L2={a^m b^n c^n : n,m≥0} are both CFL. Is L1∩L2 necessarily CFL?",
+      "solutionApproach": "No guarantee — L1∩L2 = {a^n b^n c^n : n≥0} which is the CLASSIC non-context-free language (needs matching 3 counts). This demonstrates CFL is NOT closed under intersection.",
+      "answer": "No — L1∩L2 = {a^n b^n c^n} which is NOT context-free, demonstrating CFL's non-closure under intersection."
+    },
+    {
+      "practiceId": "AI-CFL-04",
+      "patternId": "CFL_GRAMMAR_PROPERTY_04",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "S → aS | Sa | a. Is this grammar ambiguous?",
+      "solutionApproach": "Derive 'aa': via S→aS→a(a)[using S→a] gives one tree. Via S→Sa→(a)a[using S→a first] gives a different tree. Two distinct derivations for the same string 'aa' → ambiguous.",
+      "answer": "Yes, ambiguous — string 'aa' has two distinct derivation trees (via S→aS and via S→Sa)."
+    }
+  ]
+}

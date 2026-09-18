@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "operating-system__5.2.1",
+  "localId": "5.2.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "best-fit",
+  "topic": "Best Fit",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "45",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "3:3",
+  "answerVerified": true,
+  "questionTextRaw": "Consider contiguous allocation of physical memory to processes using variable partitioning scheme. Suppose there are holes in the memory of sizes                                                 ,                      , and KB. Assume that no two holes are adjacent. Two processes of size KB and of size KB arrive in that order, and they are allocated memory using the best-fit technique. After allocating space to and , the number of holes of size less than KB is                            . (answer in integer) Note:",
+  "tagsRaw": "gatecse-2026-set2 operating-system  memory-management  best-fit  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 378
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BEST_FIT_01"
+ }
+]

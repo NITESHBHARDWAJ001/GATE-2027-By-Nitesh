@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Conversation me kya necessarily true.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Logical Inference from Conversation se related sawal.",
+   "thinkThis": "P3_LOGICAL_INFERENCE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Assumption jodna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:logical-inference",
+ "revisionLevel": "short-form"
+}

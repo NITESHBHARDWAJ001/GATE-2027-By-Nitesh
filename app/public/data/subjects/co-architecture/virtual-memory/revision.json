@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Virtual address space, page faults, two-level paging time, TLB in pipeline.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Virtual Memory (Architecture View) se related sawal.",
+   "thinkThis": "P3_VIRTUAL_MEMORY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Physical memory ko virtual limit samajhna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:virtual-memory",
+ "revisionLevel": "short-form"
+}

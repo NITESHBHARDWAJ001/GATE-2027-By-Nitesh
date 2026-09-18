@@ -1,0 +1,42 @@
+{
+ "topicId": "theory-of-computation:recursive-and-recursively-enumerable-languages",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RECURS-01",
+   "patternId": "REC_HIERARCHY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "L and L^c both RE. L is?",
+   "solutionApproach": "Recursive.",
+   "answer": "Recursive"
+  },
+  {
+   "practiceId": "AI-RECURS-02",
+   "patternId": "REC_DECIDABILITY_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Is {<M> | L(M) is empty} decidable?",
+   "solutionApproach": "Undecidable (Rice/emptiness).",
+   "answer": "Undecidable"
+  },
+  {
+   "practiceId": "AI-RECURSIV-X03",
+   "patternId": "REC_HIERARCHY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Recursive languages closed under complement?",
+   "solutionApproach": "Yes.",
+   "answer": "Yes"
+  },
+  {
+   "practiceId": "AI-RECURSIV-X04",
+   "patternId": "REC_HIERARCHY_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "RE languages closed under complement?",
+   "solutionApproach": "No.",
+   "answer": "No"
+  }
+ ]
+}

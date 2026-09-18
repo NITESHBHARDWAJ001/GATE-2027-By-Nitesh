@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "operating-system__5.15.1",
+  "localId": "5.15.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "least-recently-used",
+  "topic": "Least Recently Used",
+  "year": 2023,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "47",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "4096",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following two-dimensional array in the programming language, which is stored in row- major order: int D[128][128]; Demand paging is used for allocating memory and each physical page frame holds elements of the array The Least Recently Used                                page-replacement policy is used by the operating system. A total of physical page frames are allocated to a process which executes the following code snippet: for (int i = 0; i < 128; i++) for (int j = 0; j < 128; j++) D[j][i] *= 10; The number of page faults generated during the execution of this code snippet is _______________.",
+  "tagsRaw": "gatecse-2023 operating-system  page-replacement        least-recently-used  page-faults  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 398
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LEAST_RECENTLY_USED_01"
+ }
+]

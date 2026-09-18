@@ -1,0 +1,29 @@
+{
+ "topicId": "em-calc-limits",
+ "subjectId": "engineering-mathematics-calculus",
+ "subject": "Engineering Mathematics - Calculus",
+ "name": "Limits",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "15 PYQs extracted, 1993-2025; regular.",
+ "pyqCountExtracted": 15,
+ "yearsCovered": [
+  1993,
+  1995,
+  2008,
+  2010,
+  2015,
+  2016,
+  2017,
+  2019,
+  2021,
+  2022,
+  2024,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

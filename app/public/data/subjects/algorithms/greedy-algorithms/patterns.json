@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_GREEDY_ALGORITHMS_01",
+  "name": "Greedy Algorithms (PYQ type)",
+  "recognitionClueHinglish": "Greedy Algorithms se related sawal.",
+  "whatShouldComeToMind": [
+   "Activity selection, job sequencing, optimal merge patterns: locally best choice."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sort by greedy key.",
+   "2. Pick if feasible.",
+   "3. Total nikaalo."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.19.1",
+   "1.19.2",
+   "1.19.3",
+   "1.19.4",
+   "1.19.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Greedy ko har problem par optimal maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

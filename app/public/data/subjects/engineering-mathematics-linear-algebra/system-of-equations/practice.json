@@ -1,0 +1,42 @@
+{
+ "topicId": "em-la-system-of-equations",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SOE-01",
+   "patternId": "SOE_RANK_TEST_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "3 unknowns, rank(A)=2=rank([A|b]). Solutions?",
+   "solutionApproach": "Rank < n and consistent.",
+   "answer": "Infinite"
+  },
+  {
+   "practiceId": "AI-SOE-02",
+   "patternId": "SOE_RANK_TEST_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "rank(A)=2, rank([A|b])=3. Solutions?",
+   "solutionApproach": "Inconsistent.",
+   "answer": "None"
+  },
+  {
+   "practiceId": "AI-SOE-03",
+   "patternId": "SOE_PARAM_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "x+y=2, x+ky=3: values of k with no solution?",
+   "solutionApproach": "k=1 gives x+y=2 and x+y=3.",
+   "answer": "k = 1"
+  },
+  {
+   "practiceId": "AI-SOE-04",
+   "patternId": "SOE_RANK_TEST_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Homogeneous 3x3 with det = 0. Non-trivial solution exists?",
+   "solutionApproach": "Yes: rank < 3.",
+   "answer": "Yes"
+  }
+ ]
+}

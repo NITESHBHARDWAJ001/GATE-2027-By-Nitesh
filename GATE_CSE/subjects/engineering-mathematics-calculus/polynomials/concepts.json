@@ -1,0 +1,21 @@
+{
+ "overview": "Degree n polynomial ke n complex roots; real roots ka existence.",
+ "whyItMatters": "2 PYQs extracted (1987-1995); P4 topic.",
+ "coreConcept": "Degree n polynomial ke n complex roots; real roots ka existence.",
+ "hinglishExplanation": "Odd degree me kam se kam ek real root.",
+ "formalDefinition": "Degree n polynomial ke n complex roots; real roots ka existence.",
+ "importantProperties": [
+  "n roots complex.",
+  "Odd degree real root.",
+  "Cube roots of unity: 1, w, w^2, 1+w+w^2=0."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Multiplicity."
+ ],
+ "standardTechniques": [
+  "1. Degree."
+ ],
+ "topicId": "engineering-mathematics-calculus:polynomials"
+}

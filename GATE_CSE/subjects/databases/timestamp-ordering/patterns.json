@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_TIMESTAMP_ORDERING_01",
+  "name": "Timestamp Ordering (PYQ type)",
+  "recognitionClueHinglish": "Timestamp Ordering se related sawal.",
+  "whatShouldComeToMind": [
+   "Lamport timestamps, read/write timestamps, Thomas write rule."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. TS compare."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.24.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Recoverability guarantee maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,39 @@
+{
+ "coreIdea": "Serializable = acyclic precedence graph. Strict ⊂ ACA ⊂ Recoverable. 2PL => CS but may deadlock.",
+ "mustRememberFormulas": [
+  "conflict = different Tx, same item, >=1 write",
+  "n! serial schedules",
+  "Strict ⊂ ACA ⊂ Recoverable",
+  "2PL ⊂ CS"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "schedule table, is it serializable",
+   "thinkThis": "TX_SERIALIZABILITY_01"
+  },
+  {
+   "seeThis": "abort / commit order / rollback",
+   "thinkThis": "TX_RECOVERABILITY_02"
+  },
+  {
+   "seeThis": "2PL / timestamp / locks",
+   "thinkThis": "TX_LOCKING_03"
+  },
+  {
+   "seeThis": "ACID / log / checkpoint",
+   "thinkThis": "TX_ACID_RECOVERY_04"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "RR is not a conflict",
+  "CS != recoverable",
+  "2PL can deadlock",
+  "Timestamp ordering not recoverable by default"
+ ],
+ "highYieldPyqLessons": [
+  "Schedule classification questions recur almost every year.",
+  "Protocol property statements are frequent (2010, 2016, 2019)."
+ ],
+ "topicId": "db-transaction-and-concurrency",
+ "revisionLevel": "short-form"
+}

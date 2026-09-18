@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Moore/Mealy output, state diagram trace.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Finite State Machines (TOC View) se related sawal.",
+   "thinkThis": "P3_FINITE_STATE_MACHINES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Moore/Mealy confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "theory-of-computation:finite-state-machines",
+ "revisionLevel": "short-form"
+}

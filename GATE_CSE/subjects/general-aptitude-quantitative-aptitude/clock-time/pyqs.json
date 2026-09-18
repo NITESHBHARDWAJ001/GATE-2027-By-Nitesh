@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.12.1",
+  "localId": "9.12.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "clock-time",
+  "topic": "Clock Time",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "10",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "At what time between a. m. and a. m. will the minute hand and hour hand of a clock make an angle closest to ? A.     a.m.                              B.               a.m.  C.  a.m.         D.                     a.m.",
+  "tagsRaw": "gatecse-2014-set2 quantitative-aptitude  normal  clock-time",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 268
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_CLOCK_TIME_01"
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_TENSES_01",
+  "name": "Tenses and Conditionals (PYQ type)",
+  "recognitionClueHinglish": "Tenses and Conditionals se related sawal.",
+  "whatShouldComeToMind": [
+   "Conditional (if) sentences aur past perfect."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Condition type."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.16.1",
+   "11.16.2",
+   "11.16.3",
+   "11.16.4",
+   "11.16.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Mixed tenses."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

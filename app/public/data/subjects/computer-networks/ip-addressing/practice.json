@@ -1,0 +1,33 @@
+{
+ "topicId": "computer-networks:ip-addressing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-IP-ADD-01",
+   "patternId": "IPA_COUNT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Usable host addresses in a /20?",
+   "solutionApproach": "2^12-2.",
+   "answer": "4094"
+  },
+  {
+   "practiceId": "AI-IP-ADDRE-X02",
+   "patternId": "IPA_COUNT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Class B default mask?",
+   "solutionApproach": "/16.",
+   "answer": "255.255.0.0"
+  },
+  {
+   "practiceId": "AI-IP-ADDRE-X03",
+   "patternId": "IPA_COUNT_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Hosts in /26?",
+   "solutionApproach": "2^6-2.",
+   "answer": "62"
+  }
+ ]
+}

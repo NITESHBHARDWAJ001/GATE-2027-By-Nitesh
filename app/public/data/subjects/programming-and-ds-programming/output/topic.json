@@ -1,0 +1,18 @@
+{
+ "topicId": "programming-and-ds-programming:output",
+ "subjectId": "programming-and-ds-programming",
+ "subject": "Programming & DS - Programming",
+ "name": "Programming Output (Pointers/Strings)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2024-2024.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

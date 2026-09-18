@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "engineering-mathematics-probability__7.20.1",
+  "localId": "7.20.1",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "variance",
+  "topic": "Variance",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "26",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Let                                       , where is a normal random variable with mean and variance . The variance of is A.                                        B.                                               C.                          D. distribution and",
+  "tagsRaw": "gateda-2025 probability  random-variable  variance      two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 225
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_VARIANCE_01"
+ },
+ {
+  "pyqId": "engineering-mathematics-probability__7.20.2",
+  "localId": "7.20.2",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "variance",
+  "topic": "Variance",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "34",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Let and be two independent random variables.                                                          follows ? follows                                                 distribution. Which of the following options is the variance of A.                                        B.                                               C.                          D.",
+  "tagsRaw": "gateda-2026 probability  random-variable  normal-distribution        variance  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 225
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_VARIANCE_01"
+ }
+]

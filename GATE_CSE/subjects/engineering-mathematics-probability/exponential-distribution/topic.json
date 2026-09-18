@@ -1,0 +1,22 @@
+{
+ "topicId": "engineering-mathematics-probability:exponential-distribution",
+ "subjectId": "engineering-mathematics-probability",
+ "subject": "Engineering Mathematics - Probability",
+ "name": "Exponential Distribution",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 2004-2026.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  2004,
+  2021,
+  2024,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

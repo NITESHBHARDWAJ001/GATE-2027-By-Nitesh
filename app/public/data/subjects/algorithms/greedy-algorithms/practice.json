@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:greedy-algorithms",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-GREEDY-01",
+   "patternId": "P3_GREEDY_ALGORITHMS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Activities (1,3),(2,4),(3,5): max non-overlapping?",
+   "solutionApproach": "Finish time se: (1,3),(3,5).",
+   "answer": "2"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+  "topicId": "toc-minimal-state-automata",
+  "overview": "Ye topic almost ENTIRELY ek hi question-type ke around ghoomta hai: 'given language X, minimum kitne DFA states chahiye?'. 3 variants: seedha compute karna (Myhill-Nerode se), table-filling minimization algorithm apply karna (existing DFA ko minimize karna), aur NFA-vs-minimal-DFA state-count theoretical bounds.",
+  "whyItMatters": "25 PYQs, aur ye skill 'language dekh ke turant states count kar lo' bahut high-ROI hai kyunki almost saare questions ek hi framework (Myhill-Nerode) se solve hote hain.",
+  "coreConcept": "Minimum DFA states = number of DISTINCT 'residual behaviors' the automaton needs to remember. For modular-counting languages (jaise 'divisible by k'), states = k (track remainder). For MULTIPLE independent conditions combined (jaise 'a-count div by 2 AND b-count div by 3'), states = product of individual counts (2×3=6), since automaton needs to track BOTH conditions SIMULTANEOUSLY.",
+  "hinglishExplanation": "Socho automaton ko ek 'remainder tracker' — agar language 'number of a's divisible by 5' check karti hai, to automaton ko sirf itna yaad rakhna hai 'abhi tak kitne a's the, mod 5' — yani 5 possible remainders = 5 states. Agar DO independent cheezein track karni hain (a's mod 2 AND b's mod 3), to automaton ko DONO simultaneously yaad rakhna hoga — jaise ek (x,y) pair state, x∈{0,1}, y∈{0,1,2} — total 2×3=6 combinations = 6 states.",
+  "formalDefinition": "Minimum DFA states for L = number of Myhill-Nerode equivalence classes of L = maximum number of pairwise distinguishable strings (prefixes) reachable.",
+  "importantProperties": [
+    "'Divisible by k' (count of some symbol mod k) needs EXACTLY k states.",
+    "Combining TWO independent modular conditions (mod p AND mod q) needs p×q states (product construction) — UNLESS the conditions aren't truly independent, in which case fewer states might suffice (always verify via distinguishability, don't just multiply blindly).",
+    "'Last k symbols are/have property X' (a sliding-window condition) typically needs 2^k or similar exponential-in-k states, since the automaton must remember the last k symbols exactly.",
+    "Table-filling/partition-refinement minimization algorithm: start with 2 groups (accepting, non-accepting); repeatedly SPLIT any group where two states behave differently on some input symbol (go to different groups); repeat until no more splits — remaining groups = minimal states.",
+    "Minimal DFA for a language is UNIQUE (up to renaming states) — there's only ONE minimal DFA for any given regular language.",
+    "NFA with n states → minimal DFA has AT MOST 2^n states (subset construction upper bound), but could need as few as... there's no simple general LOWER bound guarantee; the relationship is NOT tight in general."
+  ],
+  "formulas": {
+    "modularCountStates": "'divisible by k' needs exactly k states",
+    "combinedModularStates": "'mod p AND mod q' (independent) needs p×q states (product construction)",
+    "slidingWindowStates": "'property of last k symbols' typically needs O(2^k) states (must remember exact last-k-symbol window)",
+    "nfaToDfaUpperBound": "NFA with n states → minimal DFA has at most 2^n states; no simple universal lower bound"
+  },
+  "keyPropertiesAndIdentities": [
+    "When combining conditions with product construction (p×q), ALWAYS double-check no states become UNREACHABLE or EQUIVALENT after combination — sometimes the true minimal count is LESS than p×q if some combined states turn out indistinguishable.",
+    "The minimal DFA is UNIQUE for a given language — this fact is occasionally tested directly as a TRUE/FALSE claim."
+  ],
+  "commonPitfalls": [
+    "Forgetting to verify the product-construction state count is actually MINIMAL (not just an upper bound) — always sanity check for unreachable/equivalent states in the combined automaton.",
+    "Confusing NFA state count with minimal DFA state count — NFA states give an UPPER BOUND via subset construction (2^n), not the exact answer.",
+    "For sliding-window languages, miscounting the exponent — carefully define exactly what 'window' needs to be remembered."
+  ],
+  "standardTechniques": [
+    "For pure modular-counting languages: state count = the modulus (or product of moduli for combined independent conditions).",
+    "For minimization of an EXISTING automaton (table-filling method): start with accepting/non-accepting partition, iteratively refine by checking if any two same-group states transition to DIFFERENT groups on some symbol — split if so, repeat to a fixed point.",
+    "For NFA→minimal-DFA bound questions: recall that 2^n is only an UPPER bound; the actual minimal count requires either doing the subset construction and then minimizing, or direct Myhill-Nerode analysis of the underlying language.",
+    "For sliding-window/last-k-symbols languages: enumerate the possible 'window states' explicitly for small k to verify the state count."
+  ]
+}

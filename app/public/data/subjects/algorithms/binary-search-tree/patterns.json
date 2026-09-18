@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_BINARY_SEARCH_TREE_01",
+  "name": "Binary Search Tree (Algorithms View) (PYQ type)",
+  "recognitionClueHinglish": "Binary Search Tree (Algorithms View) se related sawal.",
+  "whatShouldComeToMind": [
+   "BST insertion order, preorder reconstruction, height, leaf-key properties."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Root pehla preorder element.",
+   "2. Split by root."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.7.1",
+   "1.7.2",
+   "1.7.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Balanced maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

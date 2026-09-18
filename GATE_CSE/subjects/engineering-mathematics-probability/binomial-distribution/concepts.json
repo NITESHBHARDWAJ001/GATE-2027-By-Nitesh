@@ -1,0 +1,23 @@
+{
+ "overview": "n independent Bernoulli trials; P(X=k)=C(n,k)p^k(1-p)^(n-k).",
+ "whyItMatters": "6 PYQs extracted (2002-2007); P3 topic.",
+ "coreConcept": "n independent Bernoulli trials; P(X=k)=C(n,k)p^k(1-p)^(n-k).",
+ "hinglishExplanation": "Mean np, variance np(1-p).",
+ "formalDefinition": "n independent Bernoulli trials; P(X=k)=C(n,k)p^k(1-p)^(n-k).",
+ "importantProperties": [
+  "P(k) = C(n,k) p^k q^(n-k).",
+  "Mean np; var npq.",
+  "At least one head and one tail in n fair tosses: 1 - 2/2^n.",
+  "Coin tosses until two equal: geometric."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Combination bhoolna."
+ ],
+ "standardTechniques": [
+  "1. n,p.",
+  "2. Formula."
+ ],
+ "topicId": "engineering-mathematics-probability:binomial-distribution"
+}

@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "databases__3.13.1",
+  "localId": "3.13.1",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "multivalued-dependency-4nf",
+  "topic": "Multivalued Dependency 4nf",
+  "year": 2007,
+  "examStream": "IT",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "67",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following implications relating to functional and multivalued dependencies given below, which may or may not be correct. i. if             and                     then ii. if          and                 then iii. if iv. if                and                 then and                 then Exactly how many of the above implications are valid? A.                                  B.                                             C.        D.",
+  "tagsRaw": "gateit-2007 databases  database-normalization  multivalued-dependency-4nf  normal",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 209
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_MULTIVALUED_DEPENDENCY_4_01"
+ }
+]

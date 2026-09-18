@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "co-architecture__1.7.1",
+  "localId": "1.7.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "control-unit",
+  "topic": "Control Unit",
+  "year": 1987,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1-vi",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "A microprogrammed control unit A. Is faster than a hard-wired control unit. B. Facilitates easy implementation of new instruction. C. Is useful when very small programs are to be run. D. Usually refers to the control unit of a microprocessor.",
+  "tagsRaw": "gate1987 co-and-architecture     control-unit  microprogramming",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 49
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_CONTROL_UNIT_01"
+ }
+]

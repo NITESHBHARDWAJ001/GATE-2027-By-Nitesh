@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_BINARY_TREE_01",
+  "name": "Binary Tree (Algorithms View) (PYQ type)",
+  "recognitionClueHinglish": "Binary Tree (Algorithms View) se related sawal.",
+  "whatShouldComeToMind": [
+   "Height, node counts, traversals, properties."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Formula.",
+   "2. Check definition."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.8.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Height ka definition."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

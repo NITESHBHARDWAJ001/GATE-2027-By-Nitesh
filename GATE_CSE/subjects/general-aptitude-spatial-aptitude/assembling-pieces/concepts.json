@@ -1,0 +1,19 @@
+{
+ "overview": "Missing piece ki shape.",
+ "whyItMatters": "1 PYQs extracted (2021-2021); P3 topic.",
+ "coreConcept": "Missing piece ki shape.",
+ "hinglishExplanation": "Boundary curves match karo.",
+ "formalDefinition": "Missing piece ki shape.",
+ "importantProperties": [
+  "Complementary edges."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Orientation."
+ ],
+ "standardTechniques": [
+  "1. Match edges."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:assembling-pieces"
+}

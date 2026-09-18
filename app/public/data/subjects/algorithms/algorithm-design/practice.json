@@ -1,0 +1,42 @@
+{
+ "topicId": "algorithms:algorithm-design",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ALGORI-01",
+   "patternId": "AD_ARRAY_TRICKS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Best time to find all leaders of an array?",
+   "solutionApproach": "Right-to-left scan.",
+   "answer": "O(n)"
+  },
+  {
+   "practiceId": "AI-ALGORI-02",
+   "patternId": "AD_DIVIDE_CONQUER_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Max subarray of [-2,1,-3,4,-1,2,1,-5,4]?",
+   "solutionApproach": "4,-1,2,1.",
+   "answer": "6"
+  },
+  {
+   "practiceId": "AI-ALGORITH-X03",
+   "patternId": "AD_ARRAY_TRICKS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Time to find all leaders in array of n?",
+   "solutionApproach": "Right to left.",
+   "answer": "O(n)"
+  },
+  {
+   "practiceId": "AI-ALGORITH-X04",
+   "patternId": "AD_DIVIDE_CONQUER_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Max subarray D&C recurrence?",
+   "solutionApproach": "T(n)=2T(n/2)+O(n).",
+   "answer": "O(n log n)"
+  }
+ ]
+}

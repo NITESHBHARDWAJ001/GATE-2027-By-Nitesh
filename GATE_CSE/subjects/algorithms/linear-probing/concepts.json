@@ -1,0 +1,23 @@
+{
+ "overview": "Open addressing me collision par agla slot (wrap-around).",
+ "whyItMatters": "2 PYQs extracted (2025-2026); P3 topic.",
+ "coreConcept": "Open addressing me collision par agla slot (wrap-around).",
+ "hinglishExplanation": "Insert sequence trace karo: slot busy ho to +1 mod m.",
+ "formalDefinition": "Open addressing me collision par agla slot (wrap-around).",
+ "importantProperties": [
+  "h(k,i)=(h(k)+i) mod m.",
+  "Primary clustering.",
+  "Load factor < 1 zaroori.",
+  "Deletion ke liye tombstone."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Wrap-around bhoolna."
+ ],
+ "standardTechniques": [
+  "1. h(k).",
+  "2. Busy? +1."
+ ],
+ "topicId": "algorithms:linear-probing"
+}

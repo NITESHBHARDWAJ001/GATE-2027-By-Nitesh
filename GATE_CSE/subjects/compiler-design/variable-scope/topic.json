@@ -1,0 +1,18 @@
+{
+ "topicId": "compiler-design:variable-scope",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Variable Scope (Static/Dynamic)",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 1987-1987.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  1987
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

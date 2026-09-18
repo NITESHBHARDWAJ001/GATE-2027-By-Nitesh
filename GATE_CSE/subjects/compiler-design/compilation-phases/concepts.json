@@ -1,0 +1,23 @@
+{
+ "overview": "Lexical, syntax, semantic analysis, intermediate code, optimization, code generation; kaunsa error kis phase me.",
+ "whyItMatters": "13 PYQs extracted (1987-2026); P2 topic.",
+ "coreConcept": "Front-end (analysis) machine independent; back-end (synthesis) target dependent.",
+ "hinglishExplanation": "Har error type kisi ek phase me pakda jaata hai: illegal token (lexical), grammar galat (syntax), type mismatch/undeclared (semantic). Symbol table saare phases me use hoti hai.",
+ "formalDefinition": "Front-end (analysis) machine independent; back-end (synthesis) target dependent.",
+ "importantProperties": [
+  "Phases: lexical -> syntax -> semantic -> ICG -> optimization -> code generation.",
+  "Lexical: tokens; syntax: grammar; semantic: type checking.",
+  "Front-end target independent; back-end target dependent.",
+  "Symbol table sabhi phases access karte hain.",
+  "CFG lexical aur syntax dono specify kar sakta hai."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Undeclared var ko syntax error maan lena."
+ ],
+ "standardTechniques": [
+  "Error ko phase se match."
+ ],
+ "topicId": "compiler-design:compilation-phases"
+}

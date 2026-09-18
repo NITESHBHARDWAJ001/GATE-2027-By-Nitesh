@@ -1,0 +1,42 @@
+{
+  "topicId": "algorithms-minimum-spanning-tree",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-MST-01",
+      "patternId": "MST_COMPUTE_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Edges (with weights): AB=1, AC=4, BC=2, BD=5, CD=3. Find the MST weight using Kruskal's.",
+      "solutionApproach": "Sort: AB(1),BC(2),CD(3),AC(4),BD(5). Add AB(1)✓. Add BC(2)✓ (connects A,B,C). Add CD(3)✓ (connects D). Now 3 edges=n-1=4-1=3, done. Total=1+2+3=6.",
+      "answer": "MST weight = 6 (edges AB, BC, CD)"
+    },
+    {
+      "practiceId": "AI-MST-02",
+      "patternId": "MST_THEORETICAL_PROPERTY_03",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is it TRUE that 'the maximum weight edge in a connected graph is never part of any MST'?",
+      "solutionApproach": "FALSE — if the maximum weight edge is a BRIDGE (the only edge connecting two parts of the graph, not part of any cycle), it MUST be in every spanning tree including the MST, regardless of its weight.",
+      "answer": "FALSE — exception is when the max-weight edge is a bridge."
+    },
+    {
+      "practiceId": "AI-MST-03",
+      "patternId": "MST_WEIGHT_TRANSFORM_06",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A graph with 6 vertices has an MST of weight 50. If every edge weight is increased by 3, what is the new MST weight?",
+      "solutionApproach": "MST edge set unchanged (uniform additive shift preserves relative order). New weight = old weight + (n-1)×3 = 50 + 5×3 = 50+15 = 65.",
+      "answer": "65"
+    },
+    {
+      "practiceId": "AI-MST-04",
+      "patternId": "MST_COUNTING_02",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A triangle graph has edges AB=2, BC=2, CA=3. How many distinct MSTs does it have?",
+      "solutionApproach": "MST needs 2 edges out of 3 (n-1=2 for n=3). The max edge CA=3 in the cycle is excluded (cycle property) UNLESS tied. AB and BC are tied at weight 2 — but since CA=3 is strictly larger, it's always excluded, and AB+BC=4 is the only MST (no tie affects the OUTCOME set since CA is uniquely largest). Only 1 distinct MST: {AB, BC}.",
+      "answer": "1 distinct MST — {AB, BC}, weight 4."
+    }
+  ]
+}

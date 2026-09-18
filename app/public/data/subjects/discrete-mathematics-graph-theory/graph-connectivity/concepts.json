@@ -1,0 +1,45 @@
+{
+  "topicId": "dm-graph-theory-graph-connectivity",
+  "overview": "Graph Connectivity GATE ka sabse bada single Graph-Theory topic hai (40 PYQs). 6 skills: edge-counting formulas (max/min edges given constraints), connectivity structural properties (cut vertices/bridges), spanning-tree counting/properties, adjacency-matrix-based reasoning, special graph structures (Eulerian/Hamiltonian/line graphs), aur basic representation.",
+  "whyItMatters": "Almost har saal 2+ questions. Edge-counting formulas ek 'memorize aur apply' set hai jo turant high accuracy deta hai.",
+  "coreConcept": "Graph = (V,E). Connectivity ke core facts: connected graph ke liye minimum n-1 edges chahiye (tree shape), maximum possible edges C(n,2)=n(n-1)/2 (complete graph). Cut vertex/bridge wo cheezein hain jinhe hata ne se graph disconnect ho jaata hai — ye graph ki 'weak points' hain.",
+  "hinglishExplanation": "Graph connectivity ko ek 'road network' socho — CUT VERTEX ek aisा shehar hai jise hata do to network do (ya zyada) tukdon me toot jaaye (jaise ek bridge-city jo do islands connect karti hai). BRIDGE (cut-edge) ek aisi single road hai jise hata do to bhi wahi hota hai. Spanning tree ka matlab hai 'minimum roads jo sab cities ko connect kar sakein, bina kisi redundant loop ke'.",
+  "formalDefinition": "Connected graph: path exists between every pair of vertices. Cut vertex (articulation point): removing it increases the number of connected components. Bridge: an edge whose removal increases the number of connected components.",
+  "importantProperties": [
+    "Minimum edges for a CONNECTED graph on n vertices = n-1 (a tree — any fewer and it MUST be disconnected).",
+    "Maximum edges for a SIMPLE graph on n vertices (no self-loops/multi-edges) = C(n,2) = n(n-1)/2 (complete graph).",
+    "Maximum edges for a graph with n vertices and k CONNECTED COMPONENTS = C(n-k+1, 2) [put all 'extra' edges into ONE component, keep the rest as single isolated vertices/minimal trees] = (n-k)(n-k+1)/2.",
+    "Maximum edges in a BIPARTITE graph on n vertices = ⌊n²/4⌋ (split into two halves as evenly as possible, connect every pair across).",
+    "A graph with n vertices and n-1 edges that is CONNECTED is necessarily a TREE (acyclic) — and conversely, removing ANY edge from a connected graph with exactly n-1 edges disconnects it (every edge is a bridge in a tree).",
+    "Number of distinct spanning trees of a COMPLETE graph on n labeled vertices = n^(n-2) (Cayley's formula) — a very frequently tested closed form.",
+    "A connected graph has a UNIQUE MST if ALL edge weights are distinct (sufficient condition) OR more precisely if every cut has a unique minimum-weight crossing edge (this is the exact iff condition, distinct-weights is just a stronger sufficient case).",
+    "Adjacency matrix A: (A^k)[i][j] = number of walks of length k from i to j. Trace(A^2)/2 relates to edge count context; Trace(A^3)/6 = number of triangles (3-cycles) in the graph.",
+    "Eulerian circuit exists iff EVERY vertex has EVEN degree (and graph is connected). Hamiltonian cycle existence has no simple degree-based iff characterization (much harder problem in general)."
+  ],
+  "formulas": {
+    "minEdgesConnected": "n - 1",
+    "maxEdgesSimple": "C(n,2) = n(n-1)/2",
+    "maxEdgesKComponents": "C(n-k+1, 2) = (n-k)(n-k+1)/2",
+    "maxEdgesBipartite": "⌊n²/4⌋",
+    "cayleyFormula": "n^(n-2) — number of distinct labeled spanning trees of K_n",
+    "walksViaMatrixPower": "(A^k)[i][j] = number of walks of length k from vertex i to vertex j",
+    "trianglesViaTrace": "Number of triangles = trace(A^3) / 6",
+    "eulerianCircuitCondition": "Connected graph has Eulerian circuit iff every vertex has EVEN degree"
+  },
+  "keyPropertiesAndIdentities": [
+    "Removing a vertex from a graph with c components can result in AT MOST c+deg(v) components typically, and AT LEAST c-1 (if v was itself isolated/non-critical) — the exact bound depends on how many components v was individually connecting; reason case by case rather than a single formula.",
+    "A cut vertex/bridge CANNOT be part of any simple cycle — this is essentially the definition's consequence (if it were in a cycle, there'd be an alternate path around it, so removing it wouldn't disconnect anything)."
+  ],
+  "commonPitfalls": [
+    "Confusing 'maximum edges for k components' with simply k× the single-component max — the optimal strategy concentrates almost ALL edges into ONE component and leaves the rest as isolated single vertices, not evenly distributed.",
+    "Assuming Hamiltonian cycle existence has a simple degree condition like Eulerian circuits do — it does NOT, in general it's a much harder (NP-complete) problem; only specific sufficient conditions (like Dirac's theorem: min degree ≥ n/2) exist.",
+    "Forgetting Cayley's formula is specifically for LABELED complete graphs — a general connected graph's spanning tree count needs the Matrix-Tree theorem (determinant-based), not just n^(n-2).",
+    "Mixing up bipartite max-edges (⌊n²/4⌋) with general simple-graph max-edges (n(n-1)/2) — bipartite graphs have NO edges within either half, a real restriction."
+  ],
+  "standardTechniques": [
+    "For edge-counting questions: identify EXACTLY which constraint applies (simple graph? k components? bipartite? regular of degree d?) and apply the matching formula from the list above.",
+    "For cut-vertex/bridge questions: check if removing the candidate element breaks all paths between some pair of remaining vertices — equivalently, check if it lies on every path between two vertices (not part of any alternate cycle).",
+    "For spanning-tree-count questions on K_n specifically: apply Cayley's formula n^(n-2) directly; for other graphs, this needs the more general Matrix-Tree theorem (rarely required at full depth for GATE, but recognize when Cayley's doesn't apply).",
+    "For adjacency-matrix reasoning: remember A^k counts walks (not necessarily simple paths — can revisit vertices), and use the trace-of-A^3 trick for triangle counting."
+  ]
+}

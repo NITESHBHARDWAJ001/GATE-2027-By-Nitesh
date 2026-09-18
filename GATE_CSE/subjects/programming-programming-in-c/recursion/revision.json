@@ -1,0 +1,27 @@
+{
+  "topicId": "prog-c-recursion",
+  "revisionLevel": "short-form",
+  "coreIdea": "Draw the call tree, resolve base cases first, propagate values back up. Before-recursive-call code prints forward; after-call code prints reversed.",
+  "mustRememberFormulas": [
+    "Linear recursion (1 self-call): ~n+1 total calls",
+    "Doubling recursion (2 self-calls): T(n)=2T(n-1)+1 → exponential ~2^n calls",
+    "Static/global vars inside recursion are SHARED across all calls, not per-call copies"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "recursive function, asked for return value", "thinkThis": "REC_VALUE_TRACE_01"},
+    {"seeThis": "static/global variable modified inside recursion", "thinkThis": "REC_STATIC_COMBO_02"},
+    {"seeThis": "'how many times is the function called', stack depth", "thinkThis": "REC_CALL_COUNT_03"},
+    {"seeThis": "printf before AND after the recursive call, asked for output order", "thinkThis": "REC_PRINT_ORDER_04"},
+    {"seeThis": "blank in recursive code (Towers of Hanoi etc.)", "thinkThis": "REC_FILL_BLANK_05"}
+  ],
+  "commonTrapsQuickList": [
+    "static/global inside recursion = ONE shared value, not fresh per call",
+    "Code after the recursive call prints in REVERSE order",
+    "Total call count ≠ max stack depth — different questions",
+    "Always fully expand the call tree before computing, don't shortcut mentally"
+  ],
+  "highYieldPyqLessons": [
+    "Basic value-tracing (8/19) is the default skill — get the call-tree habit automatic.",
+    "Static+recursion combo (4/19) is consistently the hardest sub-pattern — practice it specifically since it trips up most students."
+  ]
+}

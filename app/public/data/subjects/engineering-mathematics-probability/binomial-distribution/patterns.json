@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_BINOMIAL_DISTRIBUTION_01",
+  "name": "Binomial Distribution (PYQ type)",
+  "recognitionClueHinglish": "Binomial Distribution se related sawal.",
+  "whatShouldComeToMind": [
+   "n independent Bernoulli trials; P(X=k)=C(n,k)p^k(1-p)^(n-k)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. n,p.",
+   "2. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.4.1",
+   "7.4.2",
+   "7.4.3",
+   "7.4.4",
+   "7.4.5",
+   "7.4.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Combination bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

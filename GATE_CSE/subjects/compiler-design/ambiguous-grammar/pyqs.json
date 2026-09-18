@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "compiler-design__2.2.1",
+  "localId": "2.2.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "ambiguous-grammar",
+  "topic": "Ambiguous Grammar",
+  "year": 1987,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1-xii",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "A context-free grammar is ambiguous if: A. The grammar contains useless non-terminals. B. It produces more than one parse tree for some sentence. C. Some production has two non terminals side by side on the right-hand side. D. None of the above.",
+  "tagsRaw": "gate1987 compiler-design  parsing    ambiguous-grammar",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 120
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_AMBIGUOUS_GRAMMAR_01"
+ },
+ {
+  "pyqId": "compiler-design__2.2.2",
+  "localId": "2.2.2",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "ambiguous-grammar",
+  "topic": "Ambiguous Grammar",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "19",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B;C",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following grammars is/are ambiguous? A.                                                                             B. C.                                                                             D.",
+  "tagsRaw": "gatecse-2026-set2 compiler-design ambiguous-grammar multiple-selects one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 120
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_AMBIGUOUS_GRAMMAR_01"
+ }
+]

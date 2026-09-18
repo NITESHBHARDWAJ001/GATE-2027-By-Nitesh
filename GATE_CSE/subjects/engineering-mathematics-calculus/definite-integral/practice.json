@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-calculus:definite-integral",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DEFINI-01",
+   "patternId": "P3_DEFINITE_INTEGRAL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "int_{-1}^{1} x^3 dx?",
+   "solutionApproach": "Odd function.",
+   "answer": "0"
+  }
+ ]
+}

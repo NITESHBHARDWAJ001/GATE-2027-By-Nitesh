@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_DEFINITE_INTEGRAL_01",
+  "name": "Definite Integrals (PYQ type)",
+  "recognitionClueHinglish": "Definite Integrals se related sawal.",
+  "whatShouldComeToMind": [
+   "Limits ke saath value, properties: int_a^b f = int_a^b f(a+b-x)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Symmetry.",
+   "2. Evaluate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.2.1",
+   "5.2.2",
+   "5.2.3",
+   "5.2.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Odd/even check miss."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

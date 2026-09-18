@@ -1,0 +1,18 @@
+{
+ "coreIdea": "ax^2+bx+c=0: roots, discriminant.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Quadratic Equations se related sawal.",
+   "thinkThis": "P3_QUADRATIC_EQUATIONS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Sign errors."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:quadratic-equations",
+ "revisionLevel": "short-form"
+}

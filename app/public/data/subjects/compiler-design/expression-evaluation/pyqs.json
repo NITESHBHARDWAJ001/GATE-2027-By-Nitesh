@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "compiler-design__2.10.1",
+  "localId": "2.10.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "expression-evaluation",
+  "topic": "Expression Evaluation",
+  "year": 2002,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "2.19",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "To evaluate an expression without any embedded function calls A. One stack is enough B. Two stacks are needed C. As many stacks as the height of the expression tree are needed D. A Turing machine is needed in the general case",
+  "tagsRaw": "gatecse-2002 compiler-design expression-evaluation easy",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 130
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_EXPRESSION_EVALUATION_01"
+ },
+ {
+  "pyqId": "compiler-design__2.10.2",
+  "localId": "2.10.2",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "expression-evaluation",
+  "topic": "Expression Evaluation",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "39",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": null,
+  "answerVerified": false,
+  "questionTextRaw": "Consider the expression tree shown. Each leaf represents a numerical value, which can either be or . Over all possible choices of the values at the leaves, the maximum possible value of the expression represented by the tree is ___.",
+  "tagsRaw": "gatecse-2014-set2 compiler-design  normal  expression-evaluation  numerical-answers",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 130
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_EXPRESSION_EVALUATION_01"
+ }
+]

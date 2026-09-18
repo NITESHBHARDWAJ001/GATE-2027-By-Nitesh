@@ -1,0 +1,19 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:pie-chart",
+ "subjectId": "general-aptitude-quantitative-aptitude",
+ "subject": "General Aptitude - Quantitative Aptitude",
+ "name": "Pie Charts",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 2015-2024.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  2015,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

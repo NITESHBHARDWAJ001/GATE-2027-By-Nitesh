@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_ROM_01",
+  "name": "ROM Size (PYQ type)",
+  "recognitionClueHinglish": "ROM Size se related sawal.",
+  "whatShouldComeToMind": [
+   "n x n bit multiplier ke truth table ke liye ROM: 2^(2n) x 2n bits."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Inputs.",
+   "2. Outputs."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.31.1",
+   "4.31.2",
+   "4.31.3",
+   "4.31.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Product bits (2n) miss."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

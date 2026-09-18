@@ -1,0 +1,18 @@
+{
+ "topicId": "algorithms:insertion-sort",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Insertion Sort",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 2003-2003.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2003
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

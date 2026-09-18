@@ -1,0 +1,24 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:logical-reasoning",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LOGICA-01",
+   "patternId": "LR_CONDITIONAL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "'If it rains, the ground is wet.' Ground is dry. Conclusion?",
+   "solutionApproach": "Contrapositive.",
+   "answer": "It did not rain"
+  },
+  {
+   "practiceId": "AI-LOGICAL--X02",
+   "patternId": "LR_CONDITIONAL_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "'All roses are flowers.' Which is necessarily true: all flowers are roses, or some flowers are roses?",
+   "solutionApproach": "Subset relation.",
+   "answer": "Some flowers are roses"
+  }
+ ]
+}

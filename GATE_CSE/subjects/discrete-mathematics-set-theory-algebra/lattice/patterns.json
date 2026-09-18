@@ -1,0 +1,35 @@
+[
+ {
+  "patternId": "P3_LATTICE_01",
+  "name": "Lattices (PYQ type)",
+  "recognitionClueHinglish": "Lattices se related sawal.",
+  "whatShouldComeToMind": [
+   "Poset jisme har pair ka lub aur glb ho; complement, distributive lattices."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Hasse diagram.",
+   "2. lub/glb."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.6.1",
+   "4.6.2",
+   "4.6.3",
+   "4.6.4",
+   "4.6.5",
+   "4.6.6",
+   "4.6.7",
+   "4.6.8",
+   "4.6.9",
+   "4.6.10"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Every poset lattice maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

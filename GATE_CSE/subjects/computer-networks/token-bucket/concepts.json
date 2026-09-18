@@ -1,0 +1,21 @@
+{
+ "overview": "Rate r tokens/s, capacity C; max burst time = C/(M - r).",
+ "whyItMatters": "2 PYQs extracted (2008-2016); P3 topic.",
+ "coreConcept": "Rate r tokens/s, capacity C; max burst time = C/(M - r).",
+ "hinglishExplanation": "Bucket me tokens jama; packet bhejne ke liye token chahiye.",
+ "formalDefinition": "Rate r tokens/s, capacity C; max burst time = C/(M - r).",
+ "importantProperties": [
+  "Burst length S = C/(M - r).",
+  "Bucket full ho to tokens drop.",
+  "Long-term rate = r."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Burst duration me M - r bhoolna."
+ ],
+ "standardTechniques": [
+  "1. C, r, M."
+ ],
+ "topicId": "computer-networks:token-bucket"
+}

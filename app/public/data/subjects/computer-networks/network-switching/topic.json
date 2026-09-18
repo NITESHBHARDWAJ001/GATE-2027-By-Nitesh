@@ -1,0 +1,21 @@
+{
+ "topicId": "computer-networks:network-switching",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "Packet/Circuit Switching",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 2004-2015.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  2004,
+  2005,
+  2014,
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

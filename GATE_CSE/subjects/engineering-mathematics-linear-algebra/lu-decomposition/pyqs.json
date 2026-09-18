@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "engineering-mathematics-linear-algebra__6.5.1",
+  "localId": "6.5.1",
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "subject": "Engineering Mathematics: Linear Algebra",
+  "topicSlug": "lu-decomposition",
+  "topic": "Lu Decomposition",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "18",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "5",
+  "answerVerified": true,
+  "questionTextRaw": "In the LU decomposition of the matrix                                  , if the diagonal elements of  are both , then the lower diagonal entry of is_________________.",
+  "tagsRaw": "gatecse-2015-set1 linear-algebra  lu-decomposition  numerical-answers",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 172
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LU_DECOMPOSITION_01"
+ },
+ {
+  "pyqId": "engineering-mathematics-linear-algebra__6.5.2",
+  "localId": "6.5.2",
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "subject": "Engineering Mathematics: Linear Algebra",
+  "topicSlug": "lu-decomposition",
+  "topic": "Lu Decomposition",
+  "year": 2022,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "35                                                          decomposition.",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Consider solving the following system of simultaneous equations using where and are denoted as Which one of the following is the correct combination of values for                                           and . Suppose has an LU A.                                                                                     B. C.                                                                                     D.",
+  "tagsRaw": "gatecse-2022 linear-algebra  lu-decomposition  matrix  system-of-equations  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 173
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LU_DECOMPOSITION_01"
+ },
+ {
+  "pyqId": "engineering-mathematics-linear-algebra__6.5.3",
+  "localId": "6.5.3",
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "subject": "Engineering Mathematics: Linear Algebra",
+  "topicSlug": "lu-decomposition",
+  "topic": "Lu Decomposition",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "34",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a system of linear equations                                       where                  and decomposition,                   , where Which of the following statement(s) is/are TRUE? A. The system                    can be solved by first solving                                    and then   . B. If is invertible, then both and are invertible. C. If is singular, then at least one of the diagonal elements of is zero. D. If is symmetric, then both and are symmetric.",
+  "tagsRaw": "gatecse2025-set2 linear-algebra  system-of-equations   matrix  lu-decomposition  multiple-selects  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 173
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LU_DECOMPOSITION_01"
+ }
+]

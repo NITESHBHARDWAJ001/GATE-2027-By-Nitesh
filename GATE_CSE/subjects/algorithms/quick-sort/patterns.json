@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "QS_WORST_BEST_INPUT_01",
+    "name": "Best/Worst-Case Input Identification",
+    "recognitionClueHinglish": "Poocha hai kaunsa specific INPUT (jaise already-sorted, reverse-sorted, ya specific arrangement) Quick Sort ko WORST case (ya BEST case) me daalega, given a specific pivot-selection rule.",
+    "whatShouldComeToMind": ["With first-element (or last-element) pivot: already-sorted or reverse-sorted input → guaranteed worst case (every partition is maximally unbalanced).", "Compare T1 (time for one input) vs T2 (time for another) by reasoning about how balanced EACH input's partitions would be under the given pivot rule."],
+    "conceptsRequired": ["Pivot-selection-rule-dependent worst case construction"],
+    "generalSolvingApproach": ["1. Identify exactly which element is used as pivot (first/last/middle/median/random).", "2. For each candidate input, mentally trace the FIRST partition step: does the pivot land near the middle (good) or at an extreme (bad)?", "3. Generalize: if every partition step is similarly unbalanced/balanced for that input, conclude worst/best case."],
+    "formulasUsed": [],
+    "pyqExamples": ["1.34.1","1.34.3","1.34.4","1.34.9"],
+    "variationsObserved": ["Comparing NUMBER OF COMPARISONS (not just time) between two specific input arrangements."],
+    "commonTraps": ["Assuming 'sorted input' is always worst case regardless of pivot rule — it's specifically worst for FIRST/LAST-element pivot; a middle-element or random pivot behaves very differently on sorted input."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "QS_SPLIT_RATIO_COMPLEXITY_02",
+    "name": "Complexity Derivation from a Given Split-Ratio Guarantee",
+    "recognitionClueHinglish": "Poocha hai ki pivot-selection procedure GUARANTEE karta hai split at least 1/k fraction (jaise 'at least one-fifth') ya median-based selection use ho raha hai — poocha hai resulting worst-case complexity kya hai. Ye is topic ka sabse bada pattern hai (15 me se 7 PYQs).",
+    "whatShouldComeToMind": ["ANY fixed-ratio guaranteed split (not just 50-50) still gives Θ(n log n) — set up T(n)=T(kn)+T((1-k)n)+Θ(n) for the given k and recognize this always resolves to n log n.", "If pivot-finding itself costs extra time (like O(n) median-finding), ADD that to the per-level work before analyzing."],
+    "conceptsRequired": ["Recurrence solving for asymmetric-but-fixed splits", "Randomized Quick Sort's expected-case guarantee"],
+    "generalSolvingApproach": ["1. Set up the recurrence T(n) = T(fraction·n) + T((1-fraction)·n) + [partition cost, usually Θ(n), or more if pivot-finding is expensive].", "2. Recognize that ANY fixed fraction still yields Θ(n log n) overall (the recursion depth stays O(log n) regardless of the exact split ratio, as long as it's bounded away from 0).", "3. For randomized quicksort worst-case vs expected-case questions: worst-case is STILL Θ(n²) (bad luck always theoretically possible), expected/average is Θ(n log n) for ANY input."],
+    "formulasUsed": ["balancedSplitRecurrence","medianPivotRecurrence","expectedRandomizedComplexity"],
+    "pyqExamples": ["1.34.5","1.34.6","1.34.7","1.34.8","1.34.10","1.34.11","1.34.14"],
+    "variationsObserved": ["Recurrence relation given directly as MCQ options — match against the correctly-set-up recurrence rather than deriving from scratch.", "'Expected time' framing (recursion with probabilistic pivot position, asked for E[T(n)])."],
+    "commonTraps": ["Answering Θ(n²) for randomized-quicksort's WORST case when the question actually asks for EXPECTED/average case (Θ(n log n)) — or vice versa; read carefully which case is asked.", "Assuming only exact 50-50 splits give n log n."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "QS_PARTITION_TRACE_03",
+    "name": "Partition Function Trace / Comparison Counting",
+    "recognitionClueHinglish": "Actual C code/pseudocode for the PARTITION step diya hai, ya ek specific array diya hai aur poocha hai KITNE SWAPS/comparisons honge ek partition pass me — ye direct simulation pattern hai.",
+    "whatShouldComeToMind": ["Simulate the EXACT partition scheme given (Lomuto: single pointer, swaps as it goes; Hoare: two pointers converging) — different schemes count swaps differently.", "Partition of n elements makes exactly n-1 pivot comparisons, but SWAP count varies by scheme and input."],
+    "conceptsRequired": ["Lomuto/Hoare partition scheme mechanics"],
+    "generalSolvingApproach": ["1. Identify the EXACT partition scheme from the given code (Lomuto vs Hoare — check how pointers move and when swaps trigger).", "2. Simulate it step by step on the given array, tracking pointer positions and swap events.", "3. Report the final pivot position and/or total swap/comparison count as asked."],
+    "formulasUsed": [],
+    "pyqExamples": ["1.34.2","1.34.12","1.34.15"],
+    "variationsObserved": ["Full multi-level recursive trace (not just one partition step) showing all intermediate subfiles."],
+    "commonTraps": ["Assuming all partition schemes behave identically — Lomuto and Hoare give different swap counts and even different final pivot positions on the same input."],
+    "edgeCases": ["Already-sorted input with last-element pivot might require ZERO swaps in some partition schemes if elements are already correctly positioned relative to the pivot — don't assume swaps always happen."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "QS_PROBABILITY_ANALYSIS_04",
+    "name": "Probability-Based Pivot Analysis (Randomized Quick Sort)",
+    "recognitionClueHinglish": "Pivot RANDOMLY (uniformly) choose ho raha hai, aur poocha hai probability ki pivot WORST POSSIBLE position pe end up ho (ya koi aur specific probabilistic outcome) — ye probability pattern hai.",
+    "whatShouldComeToMind": ["'Worst possible location' after partitioning = pivot ends up at position 1 or position n — this happens exactly when the pivot VALUE chosen was the minimum or maximum of the n elements.", "For n distinct elements with uniform random pivot selection: P(pivot is min or max) = 2/n."],
+    "conceptsRequired": ["Basic probability (favorable/total outcomes)", "Uniform random selection"],
+    "generalSolvingApproach": ["1. Identify what specific outcome counts as 'worst' (usually: pivot ends up at an extreme position).", "2. Count how many of the n possible pivot VALUES lead to that outcome (usually exactly 2: min and max).", "3. Compute probability = favorable/total = 2/n (or the specific count relevant to the question)."],
+    "formulasUsed": [],
+    "pyqExamples": ["1.34.13"],
+    "variationsObserved": [],
+    "commonTraps": ["Miscounting 'worst position' as just ONE value (only the max, forgetting the min also causes an equally unbalanced split)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  }
+]

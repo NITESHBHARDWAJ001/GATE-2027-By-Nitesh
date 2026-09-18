@@ -1,0 +1,18 @@
+{
+ "topicId": "programming-programming-in-c:programming-paradigms",
+ "subjectId": "programming-programming-in-c",
+ "subject": "Programming & DS - Programming in C",
+ "name": "Programming Paradigms",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 2004-2004.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2004
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

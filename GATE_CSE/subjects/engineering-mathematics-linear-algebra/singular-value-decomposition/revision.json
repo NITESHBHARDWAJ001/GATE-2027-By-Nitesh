@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Singular values = sqrt of eigenvalues of A^T A; sum of squares = ||A||_F^2.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Singular Value Decomposition se related sawal.",
+   "thinkThis": "P3_SINGULAR_VALUE_DECOMPOSI_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Eigenvalue aur singular value confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:singular-value-decomposition",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:data-hazards",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DATA-H-01",
+   "patternId": "P3_DATA_HAZARDS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "In-order pipeline me kaunsa hazard common?",
+   "solutionApproach": "RAW.",
+   "answer": "RAW"
+  }
+ ]
+}

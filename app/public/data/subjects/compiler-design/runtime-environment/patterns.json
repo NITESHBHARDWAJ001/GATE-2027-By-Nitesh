@@ -1,0 +1,72 @@
+[
+ {
+  "patternId": "RTE_ALLOC_SCOPE_01",
+  "name": "Allocation, Scope and Activation Records",
+  "recognitionClueHinglish": "Heap/stack/static, static vs dynamic scope, display, activation tree.",
+  "whatShouldComeToMind": [
+   "Stack/heap/scope."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Call stack.",
+   "2. Lookup rule."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.24.1",
+   "2.24.2",
+   "2.24.3",
+   "2.24.9",
+   "2.24.10",
+   "2.24.13",
+   "2.24.16",
+   "2.24.17",
+   "2.24.18",
+   "2.24.20",
+   "2.24.21",
+   "2.24.22"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Scope confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "RTE_LINK_LOAD_02",
+  "name": "Linkers, Loaders, Relocation",
+  "recognitionClueHinglish": "Relocation constants, loader residence, dynamic linking, compile vs runtime tasks.",
+  "whatShouldComeToMind": [
+   "Definitions and cumulative sums."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Tasks.",
+   "2. Sum."
+  ],
+  "formulasUsed": [
+   "reloc"
+  ],
+  "pyqExamples": [
+   "2.24.4",
+   "2.24.5",
+   "2.24.6",
+   "2.24.7",
+   "2.24.8",
+   "2.24.11",
+   "2.24.12",
+   "2.24.14",
+   "2.24.15",
+   "2.24.19"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Compile vs run time."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ }
+]

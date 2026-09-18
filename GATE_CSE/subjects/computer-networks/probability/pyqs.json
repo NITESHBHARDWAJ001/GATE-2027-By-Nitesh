@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "computer-networks__2.26.1",
+  "localId": "2.26.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "probability",
+  "topic": "Probability",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "46",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "easy",
+  "marks": 2,
+  "answer": "0.949:0.952",
+  "answerVerified": true,
+  "questionTextRaw": "Suppose a -bit message is transmitted from a source to a destination through a noisy channel. The probability that a bit of the message gets flipped during transmission is . Flipping of each bit is independent of one another. The probability that the message is delivered error-free to the destination is ___________ (rounded off to three decimal places)",
+  "tagsRaw": "gatecse2025-set1 computer-networks probability numerical-answers easy two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 142
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PROBABILITY_01"
+ }
+]

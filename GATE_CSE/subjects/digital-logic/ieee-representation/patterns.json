@@ -1,0 +1,64 @@
+[
+ {
+  "patternId": "IEEE_DECODE_01",
+  "name": "Decode / Encode a Single-Precision Number",
+  "recognitionClueHinglish": "Hex/bit pattern se decimal ya ulta.",
+  "whatShouldComeToMind": [
+   "Field split."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. S,E,F.",
+   "2. Value."
+  ],
+  "formulasUsed": [
+   "value"
+  ],
+  "pyqExamples": [
+   "4.20.1",
+   "4.20.2",
+   "4.20.3",
+   "4.20.4",
+   "4.20.6",
+   "4.20.7",
+   "4.20.13",
+   "4.20.14"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Bias."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "IEEE_COMPARE_OPS_02",
+  "name": "Compare / Add / Multiply Floating Numbers",
+  "recognitionClueHinglish": "Registers me floats; result ya largest number.",
+  "whatShouldComeToMind": [
+   "Field arithmetic."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Decode.",
+   "2. Compute."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.20.5",
+   "4.20.8",
+   "4.20.9",
+   "4.20.10",
+   "4.20.11",
+   "4.20.12"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Sign handling."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

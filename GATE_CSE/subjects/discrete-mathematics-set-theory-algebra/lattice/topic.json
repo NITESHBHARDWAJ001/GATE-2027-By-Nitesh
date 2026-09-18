@@ -1,0 +1,27 @@
+{
+ "topicId": "discrete-mathematics-set-theory-algebra:lattice",
+ "subjectId": "discrete-mathematics-set-theory-algebra",
+ "subject": "Discrete Mathematics - Set Theory & Algebra",
+ "name": "Lattices",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "10 PYQs extracted, 1988-2017.",
+ "pyqCountExtracted": 10,
+ "yearsCovered": [
+  1988,
+  1990,
+  1992,
+  1994,
+  1997,
+  2002,
+  2005,
+  2008,
+  2015,
+  2017
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_ABSOLUTE_VALUE_01",
+  "name": "Absolute Value (PYQ type)",
+  "recognitionClueHinglish": "Absolute Value se related sawal.",
+  "whatShouldComeToMind": [
+   "|x|<a => -a<x<a."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Cases."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.2.1",
+   "9.2.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Two cases."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

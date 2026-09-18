@@ -1,0 +1,19 @@
+{
+ "overview": "Table lookups aur calculations.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Table lookups aur calculations.",
+ "hinglishExplanation": "Rows/columns identify.",
+ "formalDefinition": "Table lookups aur calculations.",
+ "importantProperties": [
+  "Cross reference."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Wrong row."
+ ],
+ "standardTechniques": [
+  "1. Identify."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:tables"
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_PROFIT_LOSS_01",
+  "name": "Profit and Loss (PYQ type)",
+  "recognitionClueHinglish": "Profit and Loss se related sawal.",
+  "whatShouldComeToMind": [
+   "Profit% = (SP-CP)/CP x 100."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. CP, SP."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.45.1",
+   "9.45.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "SP par profit."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Physical data independence logical se easy achieve.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Data Independence se related sawal.",
+   "thinkThis": "P4_DATABASE_DESIGN_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Ulta bolna."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:database-design",
+ "revisionLevel": "short-form"
+}

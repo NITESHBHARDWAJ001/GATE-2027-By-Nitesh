@@ -1,0 +1,69 @@
+{
+ "topicId": "operating-system:disk",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DISK-01",
+   "patternId": "DSK_ACCESS_TIME_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "RPM 6000. Average rotational latency?",
+   "solutionApproach": "Rotation = 10 ms; half = 5 ms.",
+   "answer": "5 ms"
+  },
+  {
+   "practiceId": "AI-DISK-02",
+   "patternId": "DSK_CAPACITY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "4 surfaces, 100 tracks, 50 sectors/track, 512 B. Capacity?",
+   "solutionApproach": "4*100*50*512.",
+   "answer": "10,240,000 bytes"
+  },
+  {
+   "practiceId": "AI-DISK-03",
+   "patternId": "DSK_FS_LAYOUT_03",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Block 1 KB, address 4 B, 10 direct + 1 single indirect. Max file size?",
+   "solutionApproach": "256 pointers/block: (10+256) KB.",
+   "answer": "266 KB"
+  },
+  {
+   "practiceId": "AI-DISK-04",
+   "patternId": "DSK_ACCESS_TIME_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Seek 4 ms, 7200 RPM, 100 sectors/track. Time to read 1 random sector?",
+   "solutionApproach": "4 + 4.17 + 0.083.",
+   "answer": "~8.25 ms"
+  },
+  {
+   "practiceId": "AI-DISK-X05",
+   "patternId": "DSK_CAPACITY_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A disk has 8 surfaces, 200 cylinders, 64 sectors/track, 512 B/sector. Capacity in MB?",
+   "solutionApproach": "8*200*64*512 = 52,428,800 B.",
+   "answer": "50 MB"
+  },
+  {
+   "practiceId": "AI-DISK-X06",
+   "patternId": "DSK_ACCESS_TIME_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Avg seek 6 ms, 6000 RPM, 50 sectors/track. Time to read one random sector (avg)?",
+   "solutionApproach": "Latency 5 ms; transfer 10/50 = 0.2 ms; total 11.2 ms.",
+   "answer": "11.2 ms"
+  },
+  {
+   "practiceId": "AI-DISK-X07",
+   "patternId": "DSK_FS_LAYOUT_03",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Block 2 KB, disk address 4 B, inode 8 direct + 1 single + 1 double indirect. Max file size?",
+   "solutionApproach": "P=512; (8+512+512^2)*2KB = 262,664 * 2 KB.",
+   "answer": "525,328 KB"
+  }
+ ]
+}

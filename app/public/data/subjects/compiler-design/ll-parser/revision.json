@@ -1,0 +1,18 @@
+{
+ "coreIdea": "LL(1): no left recursion, left-factored, FIRST/FOLLOW disjoint; no backtracking.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "LL(1) Parsers se related sawal.",
+   "thinkThis": "P3_LL_PARSER_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "LL parser ko backtracking wala maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:ll-parser",
+ "revisionLevel": "short-form"
+}

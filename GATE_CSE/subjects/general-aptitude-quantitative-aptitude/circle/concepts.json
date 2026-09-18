@@ -1,0 +1,21 @@
+{
+ "overview": "Area pi r^2, circumference 2 pi r.",
+ "whyItMatters": "3 PYQs extracted (2018-2026); P3 topic.",
+ "coreConcept": "Area pi r^2, circumference 2 pi r.",
+ "hinglishExplanation": "Radius se sab.",
+ "formalDefinition": "Area pi r^2, circumference 2 pi r.",
+ "importantProperties": [
+  "Area pi r^2.",
+  "Arc length.",
+  "Chord/tangent."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Diameter vs radius."
+ ],
+ "standardTechniques": [
+  "1. r."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:circle"
+}

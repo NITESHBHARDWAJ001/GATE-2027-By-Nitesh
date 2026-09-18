@@ -1,0 +1,39 @@
+{
+  "topicId": "dm-set-theory-algebra-group-theory",
+  "overview": "Group Theory me GATE do cheezein baar-baar test karta hai: (1) diya gaya (Set, Operation) pair Semigroup/Monoid/Group/Abelian-Group hai ya nahi — ek fixed 4-point checklist se, (2) Lagrange's theorem based subgroup-order questions.",
+  "whyItMatters": "2018 se har saal continuously poocha ja raha hai — bahut recent-active P1 topic. Structure-identification pattern (closure/associative/identity/inverse) ek fixed, mechanical checklist hai — practice se bahut fast ho jaata hai.",
+  "coreConcept": "Algebraic structure = (Set, Binary Operation). GATE 4 levels test karta hai: Semigroup (closure+associative) → Monoid (+identity) → Group (+inverse for every element) → Abelian Group (+commutative). Har level pichle level ka superset hai.",
+  "hinglishExplanation": "Socho ek 'club' hai (the set) aur ek 'rule' hai do members ko combine karne ka (the operation). Closure = combine karne se result bhi club ke andar hi rahe (bahar na chala jaaye). Associative = grouping matter na kare ((a*b)*c = a*(b*c)). Identity = ek 'neutral' member ho jo kisi ko change na kare. Inverse = har member ka ek 'undo partner' ho jo combine karne par neutral de de. Commutative = order matter na kare (a*b = b*a).",
+  "formalDefinition": "(G,*) is a Group if: (1) Closure: a,b∈G ⟹ a*b∈G. (2) Associativity: (a*b)*c = a*(b*c). (3) Identity: ∃e∈G such that a*e=e*a=a ∀a. (4) Inverse: ∀a∈G, ∃a⁻¹∈G such that a*a⁻¹=a⁻¹*a=e. Abelian additionally requires a*b=b*a ∀a,b.",
+  "importantProperties": [
+    "Semigroup = closure + associative only.",
+    "Monoid = Semigroup + identity element.",
+    "Group = Monoid + every element has an inverse.",
+    "Abelian Group = Group + commutative.",
+    "Lagrange's Theorem: order of any SUBGROUP divides the order of the GROUP. This is the single most-tested fact in this topic.",
+    "Every group of prime order p is cyclic and has ONLY two subgroups: {e} and itself (no proper nontrivial subgroups) — direct Lagrange consequence.",
+    "A cyclic group of order n has exactly one subgroup for each divisor of n.",
+    "Identity element and inverses in a group are always UNIQUE."
+  ],
+  "formulas": {
+    "lagrangeTheorem": "|H| divides |G| for any subgroup H of group G.",
+    "cosetPartition": "Left cosets of H in G all have size |H| and partition G — hence |G| = |H| × (number of cosets, i.e. the index [G:H]).",
+    "cyclicGroupSubgroups": "A cyclic group of order n has exactly one subgroup of order d, for every divisor d of n."
+  },
+  "keyPropertiesAndIdentities": [
+    "If a*a = e for every element a (every element is its own inverse), the group MUST be abelian — a classic 'prove abelian' GATE question.",
+    "A group of even order MUST have at least one element of order 2 (i.e., some a≠e with a*a=e) — Cauchy's theorem consequence, tested directly.",
+    "The intersection of two subgroups is always a subgroup; the UNION of two subgroups is generally NOT a subgroup (unless one contains the other)."
+  ],
+  "commonPitfalls": [
+    "Checking closure/associativity but forgetting to verify EVERY element has an inverse WITHIN the set (not just that an inverse formula exists in general).",
+    "Assuming commutativity is required for a 'Group' — it's only required for ABELIAN group, plain groups need not be commutative.",
+    "Assuming a subset that is 'closed' under the operation is automatically a subgroup — it also needs identity and inverses within that subset.",
+    "For 'largest proper subgroup' questions, forgetting that the answer must be the LARGEST divisor of |G| that is STRICTLY less than |G|."
+  ],
+  "standardTechniques": [
+    "For structure-identification: run the 4-point checklist in order (closure → associative → identity → inverse → commutative) and stop as soon as one fails, naming the highest level reached.",
+    "For subgroup-order questions: list ALL divisors of |G|, that's your set of POSSIBLE subgroup orders (Lagrange gives necessary, not sufficient, condition — but GATE mostly tests the necessary-condition direction).",
+    "For 'largest proper subgroup': find the largest divisor of |G| that is strictly less than |G| itself — for |G|=prime, this is always 1 (only trivial subgroup)."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+ "overview": "Contiguous allocation, fragmentation, overlays, working set, variable partitions.",
+ "whyItMatters": "9 PYQs extracted (1992-2020); P3 topic.",
+ "coreConcept": "Contiguous allocation, fragmentation, overlays, working set, variable partitions.",
+ "hinglishExplanation": "Internal fragmentation fixed partitions me, external variable partitions me; compaction se external kam.",
+ "formalDefinition": "Contiguous allocation, fragmentation, overlays, working set, variable partitions.",
+ "importantProperties": [
+  "Fixed partition: internal fragmentation.",
+  "Variable partition: external fragmentation.",
+  "First/best/worst fit placement.",
+  "Working set = pages referenced in last delta references.",
+  "Overlay: partition size = max path of overlay tree."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Internal aur external fragmentation ulta."
+ ],
+ "standardTechniques": [
+  "1. Free list track.",
+  "2. Fit rule apply.",
+  "3. Fragments gino."
+ ],
+ "topicId": "operating-system:memory-management"
+}

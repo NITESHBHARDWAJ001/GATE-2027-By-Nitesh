@@ -1,0 +1,38 @@
+{
+  "topicId": "os-process-scheduling",
+  "overview": "Process Scheduling GATE ka sabse bada OS topic hai (49 PYQs). Core skill EK hi hai baar-baar: given processes (arrival time + burst time), ek SPECIFIC algorithm (FCFS/SJF/SRTF/RR/Priority) simulate karo, aur average WAITING/TURNAROUND time compute karo. Baaki skills: algorithm PROPERTY comparison, process STATE TRANSITIONS, aur performance-metric definitions.",
+  "whyItMatters": "Almost har saal 3-4 questions guaranteed. Ek fixed 4-5 step simulation method se saare algorithm-variants solve ho jaate hain.",
+  "coreConcept": "Turnaround Time = Completion Time − Arrival Time. Waiting Time = Turnaround Time − Burst Time (kitna time process READY queue me wait karta raha, execute hue bina). Algorithms differ SIRF is baat me ki 'ready queue se AGLA kaunsa process choose karein': FCFS=jo pehle aaya, SJF=sabse chhota burst, SRTF=SJF ka preemptive version (naya chhota process aaye to switch), Round Robin=fixed time-quantum ke rounds me, Priority=highest priority pehle.",
+  "hinglishExplanation": "Scheduling simulation ko ek 'Gantt chart banao' socho — ek timeline draw karo, har time-unit pe decide karo kaunsa process CPU pe chal raha hai (algorithm ke rule ke hisaab se), jab process khatam ho jaaye uska completion time note karo. Fir formula se turnaround aur waiting time nikaal lo. Preemptive algorithms (SRTF, preemptive priority) me HAR naye process arrival pe check karna padta hai ki kya CURRENT running process ko ROKO aur naya shuru karo.",
+  "formalDefinition": "Turnaround Time (TAT) = Completion Time − Arrival Time. Waiting Time (WT) = TAT − Burst Time = Completion Time − Arrival Time − Burst Time. Response Time = (time of first CPU allocation) − Arrival Time.",
+  "importantProperties": [
+    "FCFS (First Come First Serve): non-preemptive, simple, but suffers from CONVOY EFFECT (short processes stuck behind one long process).",
+    "SJF (Shortest Job First, non-preemptive): minimizes AVERAGE waiting time among non-preemptive algorithms — theoretically optimal for non-preemptive, but needs to KNOW burst times in advance (often unrealistic) and can cause starvation of long jobs.",
+    "SRTF (Shortest Remaining Time First, preemptive SJF): minimizes average waiting time among ALL algorithms (preemptive included) — the theoretical optimum, but has scheduling overhead (frequent context switches) and can still starve long jobs.",
+    "Round Robin: FAIR (no starvation), good RESPONSE time for interactive/time-shared systems, but average waiting time is usually worse than SJF/SRTF; performance depends heavily on the TIME QUANTUM choice (too small → too much context-switch overhead ≈ processor sharing; too large → degenerates toward FCFS).",
+    "If Round Robin's time quantum EXCEEDS the maximum burst time of any process, RR DEGENERATES to FCFS (never actually gets preempted).",
+    "Priority Scheduling can cause STARVATION for low-priority processes — solved via AGING (gradually increase waiting processes' priority over time).",
+    "FCFS, SJF (non-preemptive), and completed-Priority-non-preemptive do NOT cause starvation issue the same way — actually SJF and Priority (without aging) CAN starve low-priority/long jobs; only FCFS and Round Robin are starvation-free by design."
+  ],
+  "formulas": {
+    "turnaroundTime": "TAT = Completion Time − Arrival Time",
+    "waitingTime": "WT = TAT − Burst Time",
+    "avgMetric": "Average = Σ(metric for each process) / number of processes",
+    "rrDegenerateToFCFS": "If time quantum ≥ max burst time among all processes, Round Robin behaves identically to FCFS"
+  },
+  "keyPropertiesAndIdentities": [
+    "SRTF is PROVABLY optimal (minimum average waiting time) among ALL scheduling algorithms for a given set of arrival/burst times — the strongest theoretical guarantee in this topic.",
+    "Which algorithms CAN cause starvation: SJF (non-preemptive AND preemptive/SRTF), Priority Scheduling (without aging). Which CANNOT: FCFS, Round Robin (bounded wait by design)."
+  ],
+  "commonPitfalls": [
+    "Forgetting to RE-EVALUATE the scheduling decision at every new arrival for PREEMPTIVE algorithms (SRTF, preemptive priority) — a shorter/higher-priority process arriving mid-execution should trigger a context switch.",
+    "Confusing Turnaround Time with Waiting Time (WT = TAT − Burst, easy to drop the burst-time subtraction).",
+    "Applying non-preemptive SJF logic when the question specifies SRTF (preemptive) or vice versa — these give DIFFERENT schedules and different answers.",
+    "Missing tie-breaking rules when multiple processes have equal burst/priority at the same decision point — always check what tie-breaking rule the question specifies (often arrival order or process ID)."
+  ],
+  "standardTechniques": [
+    "For ANY scheduling numerical: (1) list all processes with arrival+burst times, (2) draw a Gantt chart timeline applying the SPECIFIC algorithm's selection rule at each decision point (process completion OR new arrival for preemptive algorithms), (3) compute each process's completion time from the chart, (4) apply TAT=Completion−Arrival and WT=TAT−Burst, (5) average as asked.",
+    "For algorithm-comparison/best-fit-for-scenario questions: match the scenario's stated goal (interactive/fair→RR, minimize avg wait→SJF/SRTF, simplicity→FCFS, importance-based→Priority) to the algorithm's known strength.",
+    "For state-transition-diagram questions: recall the standard 5-state model (New→Ready→Running→{Waiting,Terminated}, Waiting→Ready) and check which direct transitions are VALID (e.g., Waiting→Running directly is INVALID, must go through Ready first)."
+  ]
+}

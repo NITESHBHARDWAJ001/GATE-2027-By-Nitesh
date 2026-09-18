@@ -1,0 +1,19 @@
+{
+ "overview": "Next term pattern.",
+ "whyItMatters": "3 PYQs extracted (2013-2014); P3 topic.",
+ "coreConcept": "Next term pattern.",
+ "hinglishExplanation": "Differences, ratios, squares.",
+ "formalDefinition": "Next term pattern.",
+ "importantProperties": [
+  "AP/GP/squares/primes."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Single pattern."
+ ],
+ "standardTechniques": [
+  "1. Differences."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:number-series"
+}

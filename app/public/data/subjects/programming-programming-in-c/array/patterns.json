@@ -1,0 +1,61 @@
+[
+ {
+  "patternId": "ARR_ADDRESS_01",
+  "name": "Address Calculation / Pointer Arithmetic on Arrays",
+  "recognitionClueHinglish": "Array declaration, base address; address/value of element.",
+  "whatShouldComeToMind": [
+   "Row-major formula."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Formula."
+  ],
+  "formulasUsed": [
+   "rowMajor"
+  ],
+  "pyqExamples": [
+   "5.2.1",
+   "5.2.3",
+   "5.2.4",
+   "5.2.6",
+   "5.2.7",
+   "5.2.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Element size."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "ARR_OUTPUT_02",
+  "name": "Output of Array/String Code",
+  "recognitionClueHinglish": "Trace loops on arrays, strings, transpose bugs.",
+  "whatShouldComeToMind": [
+   "Trace."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Trace values."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.2.2",
+   "5.2.5",
+   "5.2.8",
+   "5.2.10",
+   "5.2.11",
+   "5.2.12",
+   "5.2.13"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Off-by-one."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,26 @@
+{
+ "coreIdea": "Allocation method decide karta hai fragmentation, random access speed aur max file size.",
+ "mustRememberFormulas": [
+  "pointersPerBlock: P = block size / address size",
+  "maxFile: (D + P + P^2 + P^3) x B"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Contiguous/linked/indexed comparison; kaunsa scheme fragmentation-free.",
+   "thinkThis": "FS_ALLOC_01"
+  },
+  {
+   "seeThis": "Inode pointers, block size; max file size ya blocks accessed.",
+   "thinkThis": "FS_INODE_CALC_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Level count.",
+  "Linked = fast random access maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "Inode-size type numericals repeat (2004, 2019)."
+ ],
+ "topicId": "operating-system:file-system",
+ "revisionLevel": "short-form"
+}

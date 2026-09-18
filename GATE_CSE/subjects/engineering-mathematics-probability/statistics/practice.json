@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-probability:statistics",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-STATIS-01",
+   "patternId": "P3_STATISTICS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "7 heads in 10 tosses: MLE of p?",
+   "solutionApproach": "7/10.",
+   "answer": "0.7"
+  }
+ ]
+}

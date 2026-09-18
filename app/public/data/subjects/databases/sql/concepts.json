@@ -1,0 +1,43 @@
+{
+ "overview": "SQL me 4 skills: diye gaye query ka OUTPUT/tuple count nikaalna (sabse bada), query ki SEMANTICS samajhna (kya compute karta hai / equivalent kaunsi), queries LIKHNA, aur NULL/constraints/clauses ki conceptual baatein.",
+ "whyItMatters": "55 PYQs (DBMS me joint highest); recent saal me almost saare NAT-type output-count questions hain.",
+ "coreConcept": "SQL evaluation order (logical): FROM (joins) -> WHERE -> GROUP BY -> HAVING -> SELECT -> DISTINCT -> ORDER BY. Isi order me instance par query chalao to output milta hai.",
+ "hinglishExplanation": "Query ko ek pipeline socho: pehle tables jodo (FROM/JOIN), phir rows filter karo (WHERE), phir groups banao (GROUP BY), phir groups filter karo (HAVING), tab jaake columns chuno (SELECT). Aggregate (COUNT, SUM, AVG, MAX) hamesha groups par lagte hain. NULL ka matlab 'pata nahi' hai, isliye NULL ke saath comparison ka result unknown hota hai, true/false nahi.",
+ "formalDefinition": "A query result is a multiset of tuples; DISTINCT converts it to a set.",
+ "importantProperties": [
+  "SQL duplicates ko automatically nahi hatata; sirf SELECT DISTINCT hatata hai.",
+  "HAVING group-level condition ke liye hai; WHERE group banne se pehle rows filter karta hai. HAVING bina GROUP BY ke pura table ek group maanta hai.",
+  "COUNT(*) NULL rows bhi ginta hai; COUNT(col), SUM, AVG NULL values ko ignore karte hain.",
+  "NULL comparison (=, <, >) ka result UNKNOWN; WHERE sirf TRUE rows rakhta hai. NULL ke liye IS NULL use hota hai.",
+  "x NOT IN (subquery) me subquery me ek bhi NULL ho to result kabhi TRUE nahi hota (koi row nahi milti).",
+  "A.x > ALL (subquery): subquery khali ho to TRUE; > ANY/SOME: khali ho to FALSE.",
+  "Cross product (FROM r, s bina condition) tuples = |r| x |s|. Natural join common columns par equality lagata hai.",
+  "Outer joins me unmatched rows NULL ke saath aati hain (LEFT/RIGHT/FULL).",
+  "Correlated subquery: inner query outer row ke har row par dobara evaluate hoti hai.",
+  "Second-highest jaisi queries: MAX ke against subquery, ya x > ALL / NOT IN pattern."
+ ],
+ "formulas": {
+  "evalOrder": "FROM/JOIN -> WHERE -> GROUP BY -> HAVING -> SELECT -> DISTINCT -> ORDER BY",
+  "crossProductSize": "|r x s| = |r| x |s|",
+  "nullRule": "Any comparison with NULL = UNKNOWN; WHERE keeps only TRUE",
+  "allAnyEmpty": "x > ALL(empty) = TRUE; x > ANY(empty) = FALSE",
+  "aggregateNulls": "COUNT(*) counts rows; COUNT(col)/SUM/AVG skip NULLs"
+ },
+ "keyPropertiesAndIdentities": [
+  "Join ke baad GROUP BY par aggregates duplicate rows se prabhavit hote hain (join multiplicity).",
+  "IN, EXISTS aur JOIN kabhi kabhi same answer dete hain par duplicates aur NULL me farak aata hai."
+ ],
+ "commonPitfalls": [
+  "NOT IN me NULL ka asar bhoolna.",
+  "AVG/SUM me NULL rows ko count karna.",
+  "Join multiplicity (duplicate rows) ignore karna.",
+  "WHERE me aggregate function likhna (allowed nahi, HAVING chahiye).",
+  "GROUP BY me select kiya gaya non-aggregated column group-by list me hona chahiye."
+ ],
+ "standardTechniques": [
+  "Instance par chhote steps me chalao: join table likho, filter lagao, group banao, aggregate nikaalo.",
+  "Subquery ko pehle akele evaluate karo (uncorrelated) ya har outer row ke liye (correlated).",
+  "Equivalent queries me duplicates/NULL ka counter-example khojo."
+ ],
+ "topicId": "db-sql"
+}

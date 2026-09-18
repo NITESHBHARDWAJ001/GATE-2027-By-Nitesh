@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Procedure call par activation record stack par banta hai; recursion ke liye zaroori.",
+ "mustRememberFormulas": [
+  "reloc: cumulative sum of previous module lengths"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Heap/stack/static, static vs dynamic scope, display, activation tree.",
+   "thinkThis": "RTE_ALLOC_SCOPE_01"
+  },
+  {
+   "seeThis": "Relocation constants, loader residence, dynamic linking, compile vs runtime tasks.",
+   "thinkThis": "RTE_LINK_LOAD_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Compile vs run time.",
+  "Scope confuse."
+ ],
+ "highYieldPyqLessons": [
+  "Mostly concept; scope-output questions need call-chain tracing."
+ ],
+ "topicId": "compiler-design:runtime-environment",
+ "revisionLevel": "short-form"
+}

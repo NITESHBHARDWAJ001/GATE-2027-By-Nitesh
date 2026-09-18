@@ -1,0 +1,40 @@
+{
+  "topicId": "dm-set-theory-algebra-set-theory",
+  "overview": "Set Theory Discrete Math ka sabse basic building block hai — GATE khud isse directly kam poochta hai (27 PYQs), lekin iske concepts (power set, inclusion-exclusion, set identities) baaki poore Discrete Math aur DBMS me baar-baar use hote hain. Isliye pehle isko solid karo.",
+  "whyItMatters": "Directly kam weight hai, lekin Relations/Functions/Group Theory sab isi ki foundation par khade hain. Inclusion-Exclusion pattern General Aptitude ke Venn Diagram questions me bhi repeat hota hai — double return on investment.",
+  "coreConcept": "Set = well-defined collection of distinct objects. GATE me 3 cheezein baar-baar test hoti hain: (1) kitne elements/subsets hain — counting, (2) do sets ke operations (union/intersection/complement/symmetric difference) ki identities, (3) proof-style reasoning about finite/infinite sets.",
+  "hinglishExplanation": "Set ko ek 'bag of distinct items' socho — order matter nahi karta, repetition allowed nahi. Power set = us bag ke SAARE possible sub-bags (empty bag se lekar poora bag tak) ka collection — agar bag me n items hain, to 2^n possible sub-bags. Inclusion-Exclusion ek 'double-counting avoid karo' trick hai jab teen groups overlap karte hain.",
+  "formalDefinition": "A set is an unordered collection of distinct elements. Power set P(A) is the set of all subsets of A, |P(A)| = 2^|A|.",
+  "importantProperties": [
+    "|P(A)| = 2^n where n = |A|.",
+    "Number of subsets of size k (from an n-element set) = C(n,k).",
+    "Number of subsets with ODD cardinality = number with EVEN cardinality = 2^(n-1) (for n ≥ 1) — a very common trap/NAT answer.",
+    "A ⊆ B and B ⊆ A ⟺ A = B.",
+    "Symmetric difference A △ B = (A−B) ∪ (B−A) = (A∪B) − (A∩B).",
+    "De Morgan's Laws: (A∪B)' = A'∩B' and (A∩B)' = A'∪B'.",
+    "For infinite sets, a proper subset CAN have the same cardinality as the whole set (e.g., even numbers vs all integers) — finite-set intuition breaks here, classic trap."
+  ],
+  "formulas": {
+    "inclusionExclusion2": "|A∪B| = |A| + |B| − |A∩B|",
+    "inclusionExclusion3": "|A∪B∪C| = |A|+|B|+|C| − |A∩B| − |B∩C| − |A∩C| + |A∩B∩C|",
+    "powerSetSize": "|P(A)| = 2^|A|",
+    "oddCardinalitySubsets": "Number of subsets of odd size = 2^(n-1)",
+    "symmetricDifference": "A △ B = (A ∪ B) − (A ∩ B)"
+  },
+  "keyPropertiesAndIdentities": [
+    "'At least two out of three' word problems ALWAYS reduce to: (pairwise overlaps) − 2×(triple overlap), NOT just adding pairwise overlaps — the classic inclusion-exclusion trap.",
+    "'Exactly two' = pairwise sums − 3×(all three), different from 'at least two'.",
+    "Power-set questions almost always reduce to either 2^n directly, or a constrained-subset count (odd/even size, subsets containing a fixed element, etc.)."
+  ],
+  "commonPitfalls": [
+    "Confusing 'at least two' with 'exactly two' in inclusion-exclusion word problems — these need DIFFERENT formulas.",
+    "Forgetting the +|A∩B∩C| correction term in the 3-set inclusion-exclusion formula (only subtracting pairwise, not adding back the triple).",
+    "Applying finite-set cardinality intuition to infinite sets (e.g., assuming a proper subset must be 'smaller').",
+    "Mixing up ⊆ (subset) with ∈ (element of) when a set itself contains sets as elements (common in power-set property questions)."
+  ],
+  "standardTechniques": [
+    "For word problems: draw a 3-circle Venn diagram, label all 7 regions, and solve for the innermost region first (triple overlap), then work outward.",
+    "For power-set/subset-counting: think 'each element has a binary choice — in or out' — this converts counting problems into 2^n or C(n,k) directly.",
+    "For 'which statement is TRUE' set-identity questions: pick a small concrete example (3-4 element sets) and test each option rather than doing abstract algebra under time pressure."
+  ]
+}

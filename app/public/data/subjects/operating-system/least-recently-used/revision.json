@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Array access pattern se page reference string banakar LRU faults.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "LRU (with Array Access) se related sawal.",
+   "thinkThis": "P3_LEAST_RECENTLY_USED_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Column-major maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:least-recently-used",
+ "revisionLevel": "short-form"
+}

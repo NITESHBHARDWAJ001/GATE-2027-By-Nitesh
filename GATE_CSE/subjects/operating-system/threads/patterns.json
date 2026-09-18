@@ -1,0 +1,82 @@
+[
+ {
+  "patternId": "THR_SHARED_01",
+  "name": "Thread Shared vs Private Resources",
+  "recognitionClueHinglish": "Kya threads share karte hain: heap, stack, PC, registers, file table.",
+  "whatShouldComeToMind": [
+   "Shared: heap/globals/files; private: stack/regs/PC."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har item ko list se match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.31.3",
+   "5.31.5",
+   "5.31.6",
+   "5.31.8",
+   "5.31.10"
+  ],
+  "variationsObserved": [
+   "Message queue/file descriptor shared."
+  ],
+  "commonTraps": [
+   "Stack ko shared maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "THR_USER_KERNEL_02",
+  "name": "User-Level vs Kernel-Level Threads",
+  "recognitionClueHinglish": "Context switch speed, blocking, scheduling.",
+  "whatShouldComeToMind": [
+   "User: fast switch, blocking issue."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Statement ko dono models se check."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.31.1",
+   "5.31.2",
+   "5.31.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Blocking behaviour ulta."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "THR_CODE_03",
+  "name": "Multithreaded Code Result / Race",
+  "recognitionClueHinglish": "Do threads shared variables update karte hain; possible final values.",
+  "whatShouldComeToMind": [
+   "Interleaving enumerate."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Shared vars dhundo.",
+   "2. Interleavings.",
+   "3. Possible outputs."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.31.7",
+   "5.31.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Atomicity assume karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

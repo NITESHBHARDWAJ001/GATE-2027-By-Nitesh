@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Structured, OO, functional, logic paradigms.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Programming Paradigms se related sawal.",
+   "thinkThis": "P4_PROGRAMMING_PARADIGMS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Indentation goal."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:programming-paradigms",
+ "revisionLevel": "short-form"
+}

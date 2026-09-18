@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_CONTROL_UNIT_01",
+  "name": "Control Unit (Hardwired vs Microprogrammed) (PYQ type)",
+  "recognitionClueHinglish": "Control Unit (Hardwired vs Microprogrammed) se related sawal.",
+  "whatShouldComeToMind": [
+   "Microprogrammed easy to modify par slower; hardwired fast."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Speed vs flexibility."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.7.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Microprogrammed ko faster maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

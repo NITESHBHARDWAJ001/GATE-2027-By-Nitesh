@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_LEXICAL_ANALYSIS_01",
+  "name": "Lexical Analysis (PYQ type)",
+  "recognitionClueHinglish": "Lexical Analysis se related sawal.",
+  "whatShouldComeToMind": [
+   "Tokens count, keyword recognition, symbol table."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Split by rules.",
+   "2. Count."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.15.1",
+   "2.15.2",
+   "2.15.3",
+   "2.15.4",
+   "2.15.5",
+   "2.15.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "String ke andar ke chars alag tokens ginna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

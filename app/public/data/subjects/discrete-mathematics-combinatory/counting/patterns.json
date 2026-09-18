@@ -1,0 +1,56 @@
+[
+ {
+  "patternId": "CNT_STRUCTURES_01",
+  "name": "Catalan / Substrings / Structural Counting",
+  "recognitionClueHinglish": "Trees, parenthesisation, substrings.",
+  "whatShouldComeToMind": [
+   "Catalan."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Map to known."
+  ],
+  "formulasUsed": [
+   "catalan"
+  ],
+  "pyqExamples": [
+   "1.3.1",
+   "1.3.2",
+   "1.3.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Empty string."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CNT_CONSTRAINED_02",
+  "name": "Constrained Assignments and Subset Tuples",
+  "recognitionClueHinglish": "Jobs-computers assignment, subset tuples.",
+  "whatShouldComeToMind": [
+   "Principles."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Choices per element."
+  ],
+  "formulasUsed": [
+   "subsetPairs"
+  ],
+  "pyqExamples": [
+   "1.3.4",
+   "1.3.5",
+   "1.3.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Overcount."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "difficult",
+  "aiPracticePossible": true
+ }
+]

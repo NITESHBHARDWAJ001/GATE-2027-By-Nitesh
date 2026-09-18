@@ -1,0 +1,34 @@
+{
+ "coreIdea": "Byte-numbered reliable stream; 3-way handshake; SYN/FIN eat one seq.",
+ "mustRememberFormulas": [
+  "BDP = bandwidth x RTT",
+  "ack = last byte + 1",
+  "2^n/rate >= MSL"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "SYN/ACK/FIN, connection open/close",
+   "thinkThis": "TCP_HANDSHAKE_01"
+  },
+  {
+   "seeThis": "bandwidth, MSL, seq bits, window scale",
+   "thinkThis": "TCP_SEQ_WINDOW_CALC_02"
+  },
+  {
+   "seeThis": "true/false TCP statements",
+   "thinkThis": "TCP_CONCEPTS_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "No min rate guarantee",
+  "+1 for SYN/FIN",
+  "bytes numbered not segments",
+  "SACK exists"
+ ],
+ "highYieldPyqLessons": [
+  "Handshake statements: MSQ in 2021, 2024, 2025.",
+  "Calculation type: 2015, 2022, 2023."
+ ],
+ "topicId": "cn-tcp",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Shift-reduce parsing me stack ka content viable prefix hai.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Viable Prefix se related sawal.",
+   "thinkThis": "P4_VIABLE_PREFIX_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Prefix ko handle se confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:viable-prefix",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,33 @@
+{
+  "topicId": "dl-min-sum-of-products-form",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-SOP-01",
+      "patternId": "SOP_KMAP_MINIMIZE_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "F(A,B,C) = Σm(0,1,2,3,5) — find the minimal SOP.",
+      "solutionApproach": "K-map (3 var): minterms 0,1,2,3 form the entire A'=0 row (4-cell group) → A'. Minterm 5 (A=1,B=0,C=1) pairs with minterm 1 (A=0,B=0,C=1) → group of 2 → B'C. Result: A' + B'C.",
+      "answer": "F = A' + B'C"
+    },
+    {
+      "practiceId": "AI-SOP-02",
+      "patternId": "SOP_INDEPENDENCE_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "If the minimal SOP of a 4-variable function F(A,B,C,D) is 'AB + AC', is F independent of D? Of which other variables (if any)?",
+      "solutionApproach": "D appears in NEITHER term → independent of D. A appears in both terms — depends on A. B and C each appear in one term — depends on both. So F is independent of D only.",
+      "answer": "Independent of D only (depends on A, B, and C)."
+    },
+    {
+      "practiceId": "AI-SOP-03",
+      "patternId": "SOP_KMAP_MINIMIZE_01",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "F(A,B,C,D) = Σm(0,2,8,10) with don't-cares d(1,3). Find the minimal SOP.",
+      "solutionApproach": "Minterms 0,2,8,10 all have B=0,D=0 (check: 0=0000,2=0010,8=1000,10=1010 — B and D are always 0). This forms a 4-cell group → B'D'. Don't-cares 1,3 not needed for this grouping.",
+      "answer": "F = B'D'"
+    }
+  ]
+}

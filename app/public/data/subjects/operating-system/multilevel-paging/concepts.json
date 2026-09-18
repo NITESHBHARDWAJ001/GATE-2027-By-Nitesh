@@ -1,0 +1,23 @@
+{
+ "overview": "Address bits: offset + level indexes; page-table sizes.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Address bits: offset + level indexes; page-table sizes.",
+ "hinglishExplanation": "Page size se offset bits; baaki bits levels me baante; har level ka table ek page me fit.",
+ "formalDefinition": "Address bits: offset + level indexes; page-table sizes.",
+ "importantProperties": [
+  "Offset = log2(page size).",
+  "Entries per page = page size / entry size.",
+  "Index bits = log2(entries per page).",
+  "Levels = ceil(VPN bits / index bits)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "PTE size ka unit."
+ ],
+ "standardTechniques": [
+  "1. Offset.",
+  "2. Index bits."
+ ],
+ "topicId": "operating-system:multilevel-paging"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "theory-of-computation:number-of-states",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NUMBER-01",
+   "patternId": "P3_NUMBER_OF_STATES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "NFA 3 states: max DFA states?",
+   "solutionApproach": "2^3.",
+   "answer": "8"
+  }
+ ]
+}

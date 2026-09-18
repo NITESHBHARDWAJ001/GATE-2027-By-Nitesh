@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:precedence-graph",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PRECED-01",
+   "patternId": "P3_PRECEDENCE_GRAPH_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S1 -> S2, S1 -> S3, dono -> S4: graph?",
+   "solutionApproach": "Series-parallel.",
+   "answer": "Parbegin/parend possible"
+  }
+ ]
+}

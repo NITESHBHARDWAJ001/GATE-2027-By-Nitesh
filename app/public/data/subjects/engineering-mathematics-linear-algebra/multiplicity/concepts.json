@@ -1,0 +1,21 @@
+{
+ "overview": "Algebraic multiplicity <= n; geometric <= algebraic.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Algebraic multiplicity <= n; geometric <= algebraic.",
+ "hinglishExplanation": "n x n matrix ke eigenvalue ki max algebraic multiplicity n.",
+ "formalDefinition": "Algebraic multiplicity <= n; geometric <= algebraic.",
+ "importantProperties": [
+  "Algebraic multiplicity sum = n.",
+  "Geometric <= algebraic.",
+  "Identity: eigenvalue 1 multiplicity n."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Distinct eigenvalue maan lena."
+ ],
+ "standardTechniques": [
+  "1. Characteristic polynomial roots."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:multiplicity"
+}

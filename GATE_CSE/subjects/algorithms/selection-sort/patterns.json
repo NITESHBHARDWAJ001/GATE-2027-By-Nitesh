@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P4_SELECTION_SORT_01",
+  "name": "Selection Sort (PYQ type)",
+  "recognitionClueHinglish": "Selection Sort se related sawal.",
+  "whatShouldComeToMind": [
+   "Har pass me minimum select karke swap; swaps O(n), comparisons O(n^2)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Passes."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.38.1",
+   "1.38.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Swaps ko O(n^2) maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

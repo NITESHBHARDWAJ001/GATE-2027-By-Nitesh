@@ -1,0 +1,33 @@
+{
+ "topicId": "digital-logic:ieee-representation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-IEEE-R-01",
+   "patternId": "IEEE_DECODE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "0x3F800000 in single precision?",
+   "solutionApproach": "s=0, e=127, f=0.",
+   "answer": "1.0"
+  },
+  {
+   "practiceId": "AI-IEEE-REP-X02",
+   "patternId": "IEEE_DECODE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "0xC1200000 as single precision?",
+   "solutionApproach": "Sign 1; exponent 0x82=130 so 2^3; fraction 0x200000 = 0.25 so mantissa 1.25; -1.25*8.",
+   "answer": "-10.0"
+  },
+  {
+   "practiceId": "AI-IEEE-REP-X03",
+   "patternId": "IEEE_DECODE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Exponent bias in single precision?",
+   "solutionApproach": "127.",
+   "answer": "127"
+  }
+ ]
+}

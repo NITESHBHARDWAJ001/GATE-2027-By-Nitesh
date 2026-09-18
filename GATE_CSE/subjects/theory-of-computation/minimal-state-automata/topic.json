@@ -1,0 +1,21 @@
+{
+  "topicId": "toc-minimal-state-automata",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "name": "Minimal State Automata",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "25 PYQs extracted, tested 1987-2023. Direct extension of Finite Automata, almost entirely focused on ONE recurring question type: minimum DFA state count.",
+  "pyqCountExtracted": 25,
+  "yearsCovered": [1987,1997,1998,1999,2001,2002,2006,2007,2010,2011,2015,2016,2017,2018,2019,2023],
+  "prerequisites": [
+    {"topic": "Finite Automata", "subjectId": "theory-of-computation", "why": "Minimization operates on DFAs — needs DFA construction/execution fluency first."},
+    {"topic": "Regular Language", "subjectId": "theory-of-computation", "why": "Myhill-Nerode theorem (the theoretical basis for minimal states) was introduced there."}
+  ],
+  "unlocks": [
+    {"topic": "Regular Expression", "subjectId": "theory-of-computation", "why": "Minimal-state counting for a regex-defined language directly combines both skills."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

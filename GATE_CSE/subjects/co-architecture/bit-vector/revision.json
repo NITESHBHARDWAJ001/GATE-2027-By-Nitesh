@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Free block tracking: 1 bit per block; size = blocks/8 bytes.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bit Vector / Bitmap se related sawal.",
+   "thinkThis": "P3_BIT_VECTOR_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Bytes vs bits."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:bit-vector",
+ "revisionLevel": "short-form"
+}

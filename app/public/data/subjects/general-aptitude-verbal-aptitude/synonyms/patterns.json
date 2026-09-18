@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "SYN_MEANING_01",
+  "name": "Closest Meaning / Non-Synonyms",
+  "recognitionClueHinglish": "Word ka synonym ya non-synonym pair.",
+  "whatShouldComeToMind": [
+   "Vocabulary."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Meaning.",
+   "2. Eliminate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.15.1",
+   "11.15.2",
+   "11.15.3",
+   "11.15.4",
+   "11.15.5",
+   "11.15.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Antonym."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

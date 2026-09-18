@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Sigma* countable; languages (power set) uncountable; RE languages countable.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Countable/Uncountable Sets in TOC se related sawal.",
+   "thinkThis": "P3_COUNTABLE_UNCOUNTABLE_SE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Languages ko countable."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "theory-of-computation:countable-uncountable-set",
+ "revisionLevel": "short-form"
+}

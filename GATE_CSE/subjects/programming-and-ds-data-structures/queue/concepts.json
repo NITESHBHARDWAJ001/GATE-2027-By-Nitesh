@@ -1,0 +1,35 @@
+{
+  "topicId": "ds-queue",
+  "overview": "Queue topic 5 skills test karta hai: circular-queue array implementation, queue-via-stack(s) construction, linked-list-based queue, conceptual FIFO/LIFO theory, aur operation-sequence tracing.",
+  "whyItMatters": "15 PYQs, aur BFS (Graph Search/Algorithms) directly Queue ke FIFO discipline pe based hai.",
+  "coreConcept": "Queue = FIFO (First In, First Out). ENQUEUE peeche (rear) se insert karta hai, DEQUEUE aage (front) se remove karta hai. Jo sabse pehle aaya, wahi sabse pehle jaayega — line/queue ki tarah.",
+  "hinglishExplanation": "Queue ko ek 'ticket line' socho — jo pehle line me lagta hai, uski ticket pehle process hoti hai (FIFO). Stack ('plates ka dher') se ulta hai — wahan LAST wala pehle nikalta tha, yahan FIRST wala pehle nikalta hai. Circular queue ek 'gol ghoomti line' hai — jab array ka end aa jaaye to wraparound karke start se continue karta hai, taaki space waste na ho.",
+  "formalDefinition": "Queue supports ENQUEUE(x) (insert at rear) and DEQUEUE() (remove and return from front), both O(1) with a good implementation, following First-In-First-Out order.",
+  "importantProperties": [
+    "Circular array queue: FRONT and REAR indices wrap around using modulo arithmetic (rear = (rear+1) % capacity).",
+    "Distinguishing FULL from EMPTY in a circular array queue is tricky when front==rear could mean either — common solutions: keep a separate count variable, OR sacrifice one array slot (never fully fill), OR use a full/empty flag.",
+    "A queue can be implemented with exactly TWO stacks: push all enqueues onto stack S1; for dequeue, if S2 is empty, pour all of S1 into S2 (reversing order), then pop from S2 — amortized O(1) per operation even though a single dequeue can be O(n).",
+    "A queue CANNOT be correctly implemented with only ONE stack supporting just push/pop (no extra tricks) — need at least 2 stacks (or 1 stack + an auxiliary operation like REVERSE).",
+    "Linked-list queue: enqueue at TAIL and dequeue at HEAD both O(1) IF you maintain both head and tail pointers — if you only maintain one pointer, one of the two operations becomes O(n)."
+  ],
+  "formulas": {
+    "circularQueueWrap": "next index = (current index + 1) mod capacity",
+    "minStacksForQueue": "Minimum stacks needed to implement a queue = 2",
+    "queueViaStackAmortized": "Queue-via-2-stacks: each element is pushed/popped across S1 and S2 at most a constant number of times → amortized O(1) per enqueue/dequeue"
+  },
+  "keyPropertiesAndIdentities": [
+    "The 'FIFO efficiently supported by STACKS' claim is FALSE — stacks are LIFO, exactly the opposite discipline; this specific false statement has been directly tested (1996).",
+    "Maintaining head+tail pointers for a linked-list queue is what makes BOTH enqueue and dequeue O(1) — with only a head pointer, enqueue degrades to O(n) (must traverse to the end)."
+  ],
+  "commonPitfalls": [
+    "Confusing FIFO (queue) with LIFO (stack) behavior in conceptual TRUE/FALSE statements.",
+    "For circular queue full/empty distinction, not accounting for the ambiguity when front==rear — always check which disambiguation method the question implies (count variable, wasted slot, or flag).",
+    "Assuming a SINGLE stack can implement a queue — minimum 2 are needed for standard push/pop-only stacks.",
+    "For linked-list queue with only a head pointer, assuming enqueue is still O(1) — it's actually O(n) without a tail pointer."
+  ],
+  "standardTechniques": [
+    "For circular queue array-index questions: apply the modulo-wraparound formula directly, and check which full/empty-disambiguation scheme the question uses.",
+    "For queue-via-stack design/trace questions: simulate BOTH stacks explicitly, remembering the 'pour S1 into S2 only when S2 is empty' rule.",
+    "For linked-list queue efficiency questions: check whether BOTH head and tail pointers are maintained before concluding both operations are O(1)."
+  ]
+}

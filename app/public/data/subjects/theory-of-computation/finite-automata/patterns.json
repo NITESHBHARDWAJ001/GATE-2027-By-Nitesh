@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "FA_IDENTIFY_LANGUAGE_01",
+    "name": "Identify the Language Accepted by a Given Automaton",
+    "recognitionClueHinglish": "Ek DFA/NFA ka state diagram diya hai aur poocha hai ye kaunsi LANGUAGE accept karta hai (ya equivalent regular expression kya hai) — is topic ka sabse bada pattern hai (43 me se 13 PYQs).",
+    "whatShouldComeToMind": ["Trace a handful of short strings (empty, single symbol, 2-3 symbols) through the automaton and note accept/reject — look for the PATTERN in what's accepted.", "Check what each state seems to 'remember' (e.g., 'last symbol was 0', 'seen odd number of 1s so far') — state MEANING reveals the language."],
+    "conceptsRequired": ["DFA/NFA execution semantics", "Pattern generalization from examples"],
+    "generalSolvingApproach": ["1. Trace 4-5 short example strings, noting accept/reject for each.", "2. Hypothesize what property distinguishes accepted from rejected strings.", "3. Assign a MEANING to each state ('this state = last char was X', 'this state = count is even', etc.) to confirm the hypothesis structurally, not just from examples.", "4. Express the final answer as a language description or equivalent regex."],
+    "formulasUsed": [],
+    "pyqExamples": ["6.7.13","6.7.15","6.7.18","6.7.20","6.7.25","6.7.29","6.7.30","6.7.31","6.7.33","6.7.35","6.7.36","6.7.38","6.7.42"],
+    "variationsObserved": ["Automaton given as a REGULAR GRAMMAR instead of a state diagram — translate production rules into states/transitions first.", "'If final and non-final states are swapped, what language results' — apply the complement logic (only valid if DFA is complete)."],
+    "commonTraps": ["Testing too few example strings and generalizing prematurely — always verify the hypothesis against at least one string NOT obviously covered by the first few tests."],
+    "edgeCases": ["Empty string acceptance — check if the start state itself is accepting."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "FA_CONSTRUCT_02",
+    "name": "Construct a DFA/NFA for a Given Language",
+    "recognitionClueHinglish": "Ek language description di hai (English ya set-builder notation me) aur poocha hai DFA/NFA construct karo — ye design pattern hai.",
+    "whatShouldComeToMind": ["Identify the MINIMAL state variable the automaton needs to track to decide accept/reject at any point.", "Design states as 'snapshots' of that tracked variable (e.g., for 'ends in 01': track 'last 2 chars seen')."],
+    "conceptsRequired": ["State-design-around-tracked-variable technique"],
+    "generalSolvingApproach": ["1. Determine exactly what INFORMATION the automaton needs to remember to correctly decide membership (this becomes your state space).", "2. Create one state per distinct 'value' of that tracked information.", "3. Define transitions based on how each input symbol updates the tracked information.", "4. Mark accepting states as those where the tracked information indicates the string SHOULD be accepted."],
+    "formulasUsed": [],
+    "pyqExamples": ["6.7.2","6.7.3","6.7.7","6.7.9","6.7.40","6.7.41"],
+    "variationsObserved": ["Construct FROM a given regular expression (Thompson's construction: build NFA piece by piece matching the regex's structure — concatenation, union, star each have standard NFA-combination templates)."],
+    "commonTraps": ["Forgetting to handle ALL input symbols from every state (leaving an incomplete DFA transition table) — for DFA, EVERY state needs a defined transition for EVERY alphabet symbol."],
+    "edgeCases": ["Handling the EMPTY input string correctly (should the start state be accepting or not, depending on the language)."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "FA_EQUIVALENCE_CLOSURE_03",
+    "name": "NFA↔DFA Equivalence & Closure Operations on Automata",
+    "recognitionClueHinglish": "Poocha hai do automata equivalent hain ya nahi, ya ek automaton se COMPLEMENT/PRODUCT/UNION machine banana hai, ya NFA-DFA power comparison ke baare me conceptual TRUE/FALSE — ye is topic ka doosra bada pattern hai (43 me se 13 PYQs).",
+    "whatShouldComeToMind": ["Complement: swap accept/non-accept states, but ONLY on a COMPLETE DFA (add a trap state first if needed).", "Product automaton for L1∩L2 or L1∪L2: build (q1,q2) pair-states, run both machines together.", "NFA and DFA are equally POWERFUL (recognize the same class) — never conclude one can express something the other can't."],
+    "conceptsRequired": ["Complement construction requirements", "Product automaton construction", "NFA-DFA equivalence theorem"],
+    "generalSolvingApproach": ["1. For complement questions, FIRST check/make the DFA complete (add a trap state for any missing transitions), THEN swap accept/reject.", "2. For product-automaton questions, build the paired-state table explicitly, transition both components on each input symbol together.", "3. For NFA-vs-DFA power questions, default to 'equally powerful, NFA just more concise for SOME languages' as the correct framing."],
+    "formulasUsed": ["productAutomatonStates","completeDfaComplement"],
+    "pyqExamples": ["6.7.1","6.7.4","6.7.5","6.7.8","6.7.11","6.7.16","6.7.19","6.7.21","6.7.23","6.7.32","6.7.34","6.7.39","6.7.43"],
+    "variationsObserved": ["'If all NFA states are accepting, is the language Σ*' — check carefully: FALSE in general if some states are UNREACHABLE from the start on certain inputs, or if the NFA can 'get stuck' with no valid transition (unlike a complete DFA)."],
+    "commonTraps": ["Complementing an incomplete DFA by naive accept/reject swap without adding a trap state first — produces a WRONG complement.", "Assuming 'all states accepting' automatically means the language is Σ* — doesn't account for missing transitions or stuck paths in an NFA."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "FA_TRACE_SIMULATE_04",
+    "name": "Trace/Simulate Automaton on a Specific String or Count Accepted Strings",
+    "recognitionClueHinglish": "Ek specific string diya hai aur poocha hai automaton ise ACCEPT karega ya nahi, ya reachable states kya honge, ya length-n ke kitne strings accept honge — ye direct simulation/counting pattern hai.",
+    "whatShouldComeToMind": ["For DFA: follow the UNIQUE path symbol by symbol.", "For NFA: track the SET of all currently-possible states (or check every branching path).", "For 'count strings of length n accepted': use transition-matrix exponentiation (Matrix^n), sum entries from start to all accepting states."],
+    "conceptsRequired": ["Direct simulation", "Matrix-power string counting"],
+    "generalSolvingApproach": ["1. For a specific string: trace step by step, symbol by symbol, from the start state.", "2. For NFA: maintain a SET of possible current states after each symbol (subset-construction-style tracking), check if any is accepting at the end.", "3. For counting length-n accepted strings: build the transition matrix, raise it to the n-th power, sum the (start, accepting-state) entries."],
+    "formulasUsed": ["stringCountViaMatrixPower"],
+    "pyqExamples": ["6.7.6","6.7.10","6.7.12","6.7.14","6.7.17","6.7.22","6.7.24","6.7.26","6.7.27","6.7.28","6.7.37"],
+    "variationsObserved": ["Mealy/Moore machine output-sequence tracing (state machines that PRODUCE output, not just accept/reject) — track both state AND output at each step.", "Extended transition function δ* notation questions — apply the recursive definition (δ*(q,ε)=q, δ*(q,xa)=δ(δ*(q,x),a)) directly."],
+    "commonTraps": ["For NFA tracing, forgetting to track ALL possible current states (just following one arbitrary path can miss a valid accepting path)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  }
+]

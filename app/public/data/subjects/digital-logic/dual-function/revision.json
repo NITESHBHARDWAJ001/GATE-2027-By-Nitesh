@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Dual f^d = complement of f(complement inputs); self-dual: f^d=f.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Self-Dual Functions se related sawal.",
+   "thinkThis": "P4_DUAL_FUNCTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Count formula."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:dual-function",
+ "revisionLevel": "short-form"
+}

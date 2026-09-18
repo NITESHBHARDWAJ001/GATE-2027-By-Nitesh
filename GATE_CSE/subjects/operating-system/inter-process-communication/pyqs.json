@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "operating-system__5.13.1",
+  "localId": "5.13.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "inter-process-communication",
+  "topic": "Inter Process Communication",
+  "year": 1997,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "3.7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "I/O redirection A. implies changing the name of a file B. can be employed to use an existing file as input file for a program C. implies connecting programs through a pipe D. None of the above",
+  "tagsRaw": "gate1997 operating-system  normal      inter-process-communication",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 394
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_INTER_PROCESS_COMMUNICAT_01"
+ }
+]

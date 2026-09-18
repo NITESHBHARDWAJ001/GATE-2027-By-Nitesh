@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:digital-image-processing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DIGITA-01",
+   "patternId": "P3_DIGITAL_IMAGE_PROCESSING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "100x100 8-bit image bytes?",
+   "solutionApproach": "10000.",
+   "answer": "10000"
+  }
+ ]
+}

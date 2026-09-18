@@ -1,0 +1,23 @@
+{
+  "topicId": "dm-set-theory-algebra-set-theory",
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "subject": "Discrete Mathematics: Set Theory & Algebra",
+  "name": "Set Theory",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "27 PYQs extracted, tested from 1993 to 2021 across CSE and IT streams. Lower raw count than Relations/Group Theory but placed FIRST in study order because it's the direct prerequisite for Relations, Functions, and Group Theory — everything else in this subject is built on set notation and set-algebra identities.",
+  "pyqCountExtracted": 27,
+  "yearsCovered": [1993,1994,1995,1996,1998,2000,2001,2004,2005,2006,2008,2014,2015,2016,2017,2021],
+  "prerequisites": [],
+  "unlocks": [
+    {"topic": "Relations", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "A relation is formally defined as a subset of a Cartesian product of sets — needs set notation fluency."},
+    {"topic": "Functions", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "Functions are special relations; domain/codomain/range language directly reuses set vocabulary."},
+    {"topic": "Group Theory", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "A group is a set with a binary operation satisfying closure/associativity/identity/inverse — needs comfort with set-based definitions."},
+    {"topic": "Database Normalization", "subjectId": "databases", "why": "Functional dependency / attribute-closure reasoning in DBMS is set-based (closures, subsets of attributes)."}
+  ],
+  "crossLinks": [
+    {"subjectId": "general-aptitude-quantitative-aptitude", "topic": "Venn Diagram", "note": "Inclusion-Exclusion word problems (persons who eat X, Y, Z) are the same skill tested as a GA question."}
+  ],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

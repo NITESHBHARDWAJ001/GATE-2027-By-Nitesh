@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Height, node counts, traversals, properties.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Binary Tree (Algorithms View) se related sawal.",
+   "thinkThis": "P3_BINARY_TREE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Height ka definition."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:binary-tree",
+ "revisionLevel": "short-form"
+}

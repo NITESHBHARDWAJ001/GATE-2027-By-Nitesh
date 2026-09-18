@@ -1,0 +1,125 @@
+[
+  {
+    "patternId": "SET_INCL_EXCL_01",
+    "name": "Inclusion-Exclusion Word Problems (overlapping groups)",
+    "recognitionClueHinglish": "'Out of N persons, X eat vegetables, Y eat fish, Z eat eggs... how many eat at least two/exactly two/all three' jaise word problems — 3 overlapping groups, counting poocha gaya hai. Ye pattern GA ke Venn Diagram topic me bhi repeat hota hai.",
+    "whatShouldComeToMind": [
+      "Draw a 3-circle Venn diagram immediately, label all 7 regions.",
+      "|A∪B∪C| = |A|+|B|+|C| − pairwise sums + triple overlap",
+      "'At least two' region = (all pairwise overlaps) − 2×(triple overlap). 'Exactly two' = (pairwise overlaps) − 3×(triple overlap)."
+    ],
+    "conceptsRequired": ["Inclusion-Exclusion formula", "Venn diagram region algebra"],
+    "generalSolvingApproach": [
+      "1. List given: |A|, |B|, |C|, and whichever pairwise/triple intersections are given.",
+      "2. Draw the Venn diagram, solve for the CENTER region (all three) first if not given directly.",
+      "3. Fill outward: each pairwise-only region = (pairwise total) − (triple).",
+      "4. Answer 'at least two' = sum of all regions with 2+ overlap; 'exactly two' = sum of pairwise-only regions (excluding center); 'exactly one' = total in one circle minus its overlaps."
+    ],
+    "formulasUsed": ["inclusionExclusion2", "inclusionExclusion3"],
+    "pyqExamples": ["4.13.1","4.13.6","4.13.8","4.13.22","4.13.24","4.13.27"],
+    "variationsObserved": [
+      "Number-theory flavored version: 'how many integers 1-1000 divisible by 2, 3, or 5' — same formula, sets defined by divisibility instead of people.",
+      "Given total + individual group sizes + pairwise overlaps, asked to find the triple-overlap (reverse direction of the formula)."
+    ],
+    "commonTraps": ["'At least two' vs 'exactly two' confusion — always re-read which one is asked before picking the formula variant.", "Forgetting the +|A∩B∩C| term."],
+    "edgeCases": ["2-set version (no triple overlap term) when only two groups given."],
+    "difficultyRangeSourceTagged": "easy to normal",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "SET_POWERSET_02",
+    "name": "Power Set Cardinality & Properties",
+    "recognitionClueHinglish": "Agar 'power set', 'P(A)', ya 'number of subsets' shabd dikhe — chahe seedha count poocha ho ya property TRUE/FALSE poochi ho — ye power-set pattern hai. Isme kabhi seedha 2^n, kabhi constrained subset-counting (odd size, contains a fixed element) hota hai.",
+    "whatShouldComeToMind": [
+      "|P(A)| = 2^|A| — the default starting formula.",
+      "Each element independently 'in or out' of a subset → binary choice model for any constrained counting variant.",
+      "Power-set element itself is a SET (of subsets) — questions about P(P(A)) or membership-vs-subset relations are common traps here."
+    ],
+    "conceptsRequired": ["Power set definition", "Binomial coefficients (for size-k subset counts)"],
+    "generalSolvingApproach": [
+      "1. Identify n = |A|.",
+      "2. If plain power-set size asked: answer = 2^n.",
+      "3. If a constraint is given (odd-size subsets, subsets containing a specific element, subsets NOT containing a specific element): model each element's inclusion as an independent binary choice and count directly, or use 2^(n-1) for the odd/even-size split.",
+      "4. If it's a property/TRUE-FALSE question about power sets, plug in a tiny concrete set (n=2 or 3) and check each option."
+    ],
+    "formulasUsed": ["powerSetSize", "oddCardinalitySubsets"],
+    "pyqExamples": ["4.13.3","4.13.4","4.13.5","4.13.9","4.13.16","4.13.18","4.13.19","4.13.20"],
+    "variationsObserved": [
+      "NAT-style direct computation (2015: cardinality of power set of a given set = 2048 etc.).",
+      "Conceptual TRUE/FALSE about complement-within-power-set behavior — needs De Morgan's + power-set combined."
+    ],
+    "commonTraps": ["Confusing 'element of A' with 'subset of A' — remember ∅ and A itself are always subsets, always counted.", "Off-by-one on odd/even split when n itself changes between sub-parts of a question."],
+    "edgeCases": ["n=0 (empty set): P(∅) = {∅}, size 1, not 0 — classic trap."],
+    "difficultyRangeSourceTagged": "easy to normal",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "SET_ALGEBRA_IDENTITY_03",
+    "name": "Set Algebra Identity Verification (De Morgan's, complements, symmetric difference)",
+    "recognitionClueHinglish": "Question me set operations (∪, ∩, complement, symmetric difference △) ki koi identity di hai aur poocha hai TRUE hai ya nahi — ye pure set-algebra proof/verification pattern hai, mostly conceptual MCQ.",
+    "whatShouldComeToMind": [
+      "De Morgan's Laws are the most-tested identity: (A∪B)' = A'∩B', (A∩B)' = A'∪B'.",
+      "When unsure of an identity abstractly, TEST with a concrete 3-4 element universal set and 2-3 subsets — fastest way to eliminate wrong options under time pressure.",
+      "Symmetric difference is associative and commutative — useful for simplifying chained △ expressions."
+    ],
+    "conceptsRequired": ["De Morgan's Laws", "Distributive laws for sets", "Symmetric difference properties"],
+    "generalSolvingApproach": [
+      "1. Try to recognize a standard identity (De Morgan, distributive, associative) directly.",
+      "2. If the expression is unfamiliar/complex, pick a small concrete universal set U and 2-3 subsets with actual elements, evaluate both sides of the claimed identity numerically.",
+      "3. For 'which of the following is/are TRUE' with Venn-diagram-friendly claims, sketch the diagram rather than algebra-bash."
+    ],
+    "formulasUsed": ["symmetricDifference"],
+    "pyqExamples": ["4.13.7","4.13.13","4.13.14","4.13.26"],
+    "variationsObserved": ["Given |A|, |B| and asking about relationships between |A∩B|, |A∪B|, |A−B| for finite sets (algebraic, not just identity-matching)."],
+    "commonTraps": ["Sign errors when expanding complements of unions/intersections.", "Assuming an identity that holds for numbers (like distributivity) also holds the same way for all set operations without checking."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "SET_FINITE_INFINITE_PROOF_04",
+    "name": "Finite vs Infinite Set Proof-Style Reasoning",
+    "recognitionClueHinglish": "Agar question 'infinite set', 'prove that', ya multi-part descriptive/induction-style hai, ya 'which statement about infinite sets is true' poochta hai — ye abstract proof-reasoning pattern hai, mostly pre-2010 papers me, calculation kam hai, logical reasoning zyada.",
+    "whatShouldComeToMind": [
+      "Finite-set intuition (proper subset is always 'smaller') FAILS for infinite sets — this is the #1 trap source in this pattern.",
+      "For induction-style proofs: base case + inductive step, standard template.",
+      "For 'does there exist a set such that...' statements: try to construct a concrete example or counterexample rather than proving abstractly."
+    ],
+    "conceptsRequired": ["Basic proof techniques (induction, construction, contradiction)", "Cardinality intuition for infinite sets"],
+    "generalSolvingApproach": [
+      "1. If the question asks 'does there exist...', try to CONSTRUCT an example first — often faster than proving impossibility.",
+      "2. If it's an induction proof, write base case explicitly, then assume true for k and prove for k+1.",
+      "3. Watch specifically for any claim that treats infinite sets like finite ones (subset ⟹ smaller cardinality) — that's usually the false option."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.13.2","4.13.10","4.13.11","4.13.12","4.13.17"],
+    "variationsObserved": ["Graph-on-subsets construction (vertices = subsets, edges = symmetric-difference condition) — combines set theory with graph theory language."],
+    "commonTraps": ["Assuming finite-set cardinality rules apply to infinite sets."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  },
+  {
+    "patternId": "SET_EXTREMAL_FAMILY_05",
+    "name": "Extremal Set-Family Cardinality (advanced/Sperner-style)",
+    "recognitionClueHinglish": "Agar question ek collection of subsets define karta hai with a CONSTRAINT (jaise 'no subset contains another', ya 'every pair reacts under some rule') aur poochta hai MAXIMUM possible size/cardinality of such a family — ye advanced extremal combinatorics pattern hai, GATE ka sabse tough set-theory type.",
+    "whatShouldComeToMind": [
+      "This is often a disguised Sperner's-theorem-style question (max antichain in subset lattice = C(n, n/2)).",
+      "Try small n by hand (n=2,3,4) to spot the pattern before generalizing.",
+      "These are typically the hardest/lowest-attempt-rate questions in this topic — budget time accordingly, consider skipping first pass."
+    ],
+    "conceptsRequired": ["Binomial coefficients", "Chain/antichain intuition in the subset lattice"],
+    "generalSolvingApproach": [
+      "1. Restate the constraint precisely (no subset ⊆ another = antichain condition, is the most common).",
+      "2. Test small cases (n=2,3,4) by brute-force enumeration to find the pattern.",
+      "3. Recognize C(n, floor(n/2)) as the go-to answer shape for 'largest antichain' style constraints."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.13.15","4.13.21","4.13.23","4.13.25"],
+    "variationsObserved": ["Framed as chemistry compounds/reactions or as vectors with an abstract binary relation — same underlying extremal-family math under different dressing."],
+    "commonTraps": ["Trying to solve abstractly without testing small cases first — wastes time in the exam."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

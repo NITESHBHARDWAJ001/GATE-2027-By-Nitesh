@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:average",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-AVERAG-01",
+   "patternId": "P3_AVERAGE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Avg of 5 numbers 20: sum?",
+   "solutionApproach": "100.",
+   "answer": "100"
+  }
+ ]
+}

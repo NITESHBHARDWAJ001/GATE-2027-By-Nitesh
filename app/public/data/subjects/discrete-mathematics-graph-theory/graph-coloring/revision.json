@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Bipartite <=> 2-colourable <=> no odd cycle.",
+ "mustRememberFormulas": [
+  "greedy: chi <= Delta + 1"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Graph/cycle/bipartite ka chi.",
+   "thinkThis": "COL_CHROMATIC_01"
+  },
+  {
+   "seeThis": "Planar bound, Delta+1, edge colouring.",
+   "thinkThis": "COL_BOUNDS_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Odd cycle.",
+  "Vertex vs edge."
+ ],
+ "highYieldPyqLessons": [
+  "Figure-based questions may lack figures; use source."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:graph-coloring",
+ "revisionLevel": "short-form"
+}

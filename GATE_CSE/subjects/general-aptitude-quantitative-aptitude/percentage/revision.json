@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Percent change, successive percentages.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Percentage se related sawal.",
+   "thinkThis": "P3_PERCENTAGE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Base change."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:percentage",
+ "revisionLevel": "short-form"
+}

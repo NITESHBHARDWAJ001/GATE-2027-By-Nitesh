@@ -1,0 +1,29 @@
+{
+  "topicId": "algorithms-minimum-spanning-tree",
+  "revisionLevel": "short-form",
+  "coreIdea": "Cut property: min edge crossing any cut is in SOME MST. Cycle property: max edge in any cycle is excluded (unless it's a bridge). Distinct weights → unique MST.",
+  "mustRememberFormulas": [
+    "Kruskal's: O(E log E) (or O(E) if pre-sorted). Prim's: O(E log V) heap, O(V²) array",
+    "Global minimum edge is ALWAYS in every MST",
+    "Uniform weight +c: MST set unchanged, new total = old + (n-1)c",
+    "Non-linear transform (e.g. squaring): MST set NOT guaranteed unchanged"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "weighted graph, asked for MST weight/edges", "thinkThis": "MST_COMPUTE_01"},
+    {"seeThis": "'how many distinct MSTs'", "thinkThis": "MST_COUNTING_02"},
+    {"seeThis": "TRUE/FALSE claim about which edge is always/never in MST", "thinkThis": "MST_THEORETICAL_PROPERTY_03"},
+    {"seeThis": "candidate edge sequence, asked if valid Kruskal's order", "thinkThis": "MST_KRUSKAL_ORDER_VALIDITY_04"},
+    {"seeThis": "complexity of Kruskal's/Prim's asked", "thinkThis": "MST_ALGO_COMPLEXITY_05"},
+    {"seeThis": "all weights transformed (+c, ×c, squared), asked effect on MST", "thinkThis": "MST_WEIGHT_TRANSFORM_06"}
+  ],
+  "commonTrapsQuickList": [
+    "Max-weight edge is NOT always excluded — bridges must stay regardless of weight",
+    "Only the GLOBAL minimum edge is guaranteed in every MST — second-smallest is not",
+    "Distinct weights → MST is unique; repeated weights → possibly multiple MSTs (count ties)",
+    "Linear weight transforms (+c, ×c) preserve MST set; non-linear (squaring) don't guarantee it"
+  ],
+  "highYieldPyqLessons": [
+    "Direct MST computation (15/35) is the bread-and-butter skill — get fast and error-free at Kruskal's with cycle-checking.",
+    "Theoretical property claims (8/35) reward knowing cut/cycle property as PROOFS, not just facts — you can construct counterexamples on the fly for FALSE claims."
+  ]
+}

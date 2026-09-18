@@ -1,0 +1,18 @@
+{
+ "coreIdea": "A = LU: L lower (unit diagonal), U upper; system solve forward/back substitution.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "LU Decomposition se related sawal.",
+   "thinkThis": "P3_LU_DECOMPOSITION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Multipliers ka sign."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:lu-decomposition",
+ "revisionLevel": "short-form"
+}

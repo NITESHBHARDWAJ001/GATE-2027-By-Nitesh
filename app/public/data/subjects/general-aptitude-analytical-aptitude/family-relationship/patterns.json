@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_FAMILY_RELATIONSHIP_01",
+  "name": "Family Relationships (PYQ type)",
+  "recognitionClueHinglish": "Family Relationships se related sawal.",
+  "whatShouldComeToMind": [
+   "Relations se conclusion (sister, uncle, etc.)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Tree.",
+   "2. Relation."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.6.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Gender assume karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

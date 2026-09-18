@@ -1,0 +1,21 @@
+{
+ "overview": "k-colorability: proper colouring exist karta hai ya nahi; greedy bound.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "k-colorability: proper colouring exist karta hai ya nahi; greedy bound.",
+ "hinglishExplanation": "Bipartite = 2-colorable; planar 4-colorable.",
+ "formalDefinition": "k-colorability: proper colouring exist karta hai ya nahi; greedy bound.",
+ "importantProperties": [
+  "2-colourable <=> bipartite.",
+  "Greedy <= Delta + 1.",
+  "3-colouring NP-complete."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Planar ko 3-colourable maan lena."
+ ],
+ "standardTechniques": [
+  "1. Structure."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:graph-algorithms"
+}

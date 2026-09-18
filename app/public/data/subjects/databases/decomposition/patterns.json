@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_DECOMPOSITION_01",
+  "name": "Decomposition (PYQ type)",
+  "recognitionClueHinglish": "Decomposition se related sawal.",
+  "whatShouldComeToMind": [
+   "Lossless join aur dependency preservation; non-preserving par constraint check ke liye join."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Common attrs.",
+   "2. FD projection."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.8.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Lossless aur dependency preserving confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

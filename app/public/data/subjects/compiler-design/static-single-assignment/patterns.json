@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_STATIC_SINGLE_ASSIGNMENT_01",
+  "name": "Static Single Assignment (SSA) (PYQ type)",
+  "recognitionClueHinglish": "Static Single Assignment (SSA) se related sawal.",
+  "whatShouldComeToMind": [
+   "Har variable ek hi baar assign; temporaries/versions ki minimum count."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har assignment ko rename."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.25.1",
+   "2.25.2",
+   "2.25.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Non-SSA ko count karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

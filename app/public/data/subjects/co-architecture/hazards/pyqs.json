@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "co-architecture__1.15.1",
+  "localId": "1.15.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "hazards",
+  "topic": "Hazards",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "50",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "95 : 95",
+  "answerVerified": true,
+  "questionTextRaw": "The EX stage of a pipelined processor performs the memory read operations for LOAD instructions, and the operations for the arithmetic and logic instructions. Let                                          denote the time taken by the EX stage to perform the operation for an instruction. For each instruction type, the values of                            and (the number of instructions of that type in a sequence of instructions for a program P ), are given in the table below. The duration of the pipeline clock cycle is nanosecond. Assume that the latch time for the interstage buffers in the pipeline is negligible. When program is executed, the number of clock cycles for which the pipeline is stalled due to structural hazards in the EX stage is . (answer in integer)",
+  "tagsRaw": "gatecse-2026-set1 numerical-answers  co-and-architecture  pipelining  hazards  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 56
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_HAZARDS_01"
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "discrete-mathematics-set-theory-algebra__4.9.1",
+  "localId": "4.9.1",
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "subject": "Discrete Mathematics: Set Theory & Algebra",
+  "topicSlug": "onto",
+  "topic": "Onto",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "36",
+  "answerVerified": true,
+  "questionTextRaw": "is a function from to , is a function from to , and their composition defined as                        is a mapping from to . If and                       are onto (surjective) functions, which ONE of the following is TRUE about the function ? A. must be an onto (surjective) function. B. must be a one-to-one (injective) function. C. must be a bijective function, that is, both one-to-one and onto. D. is not required to be a one-to-one or onto function.",
+  "tagsRaw": "gatecse2025-set1 set-theory&algebra onto functions one-mark      Partial Order (10)",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 110
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ONTO_01"
+ }
+]

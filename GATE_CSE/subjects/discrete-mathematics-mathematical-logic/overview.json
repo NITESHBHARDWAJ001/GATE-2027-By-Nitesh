@@ -1,0 +1,19 @@
+{
+ "subjectId": "discrete-mathematics-mathematical-logic",
+ "name": "Discrete Mathematics: Mathematical Logic",
+ "sourceVolume": "volume1",
+ "sourcePdf": "filter1_volume1.pdf",
+ "totalTopics": 3,
+ "totalPyqsExtracted": 78,
+ "priorityDistribution": {
+  "P1": 2,
+  "P2": 0,
+  "P3": 1,
+  "P4": 0
+ },
+ "p1Topics": [
+  "First Order Logic",
+  "Propositional Logic"
+ ],
+ "processingStatus": "all_P1_topics_complete (2/2): propositional-logic, first-order-logic"
+}

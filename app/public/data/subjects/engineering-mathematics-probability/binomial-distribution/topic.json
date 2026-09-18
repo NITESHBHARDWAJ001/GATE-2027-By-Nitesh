@@ -1,0 +1,21 @@
+{
+ "topicId": "engineering-mathematics-probability:binomial-distribution",
+ "subjectId": "engineering-mathematics-probability",
+ "subject": "Engineering Mathematics - Probability",
+ "name": "Binomial Distribution",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "6 PYQs extracted, 2002-2007.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  2002,
+  2005,
+  2006,
+  2007
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

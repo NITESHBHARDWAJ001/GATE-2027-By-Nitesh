@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:fragmentation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-FRAGME-01",
+   "patternId": "P3_FRAGMENTATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "MTU 500, header 20: max payload per fragment (multiple of 8)?",
+   "solutionApproach": "480.",
+   "answer": "480"
+  }
+ ]
+}

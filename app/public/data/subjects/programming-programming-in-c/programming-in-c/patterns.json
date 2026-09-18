@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "PC_STATIC_VAR_01",
+    "name": "Static Variable Persistence Across Function Calls",
+    "recognitionClueHinglish": "Code me 'static int ...' dikhe function ke andar, aur wo function multiple baar call ho raha ho (loop se ya recursively) — to static variable ki value CALLS ke beech carry hoti hai, ye sabse pehle check karo.",
+    "whatShouldComeToMind": ["static variable sirf FIRST call pe initialize hota hai.", "Maintain a separate running-value table just for each static variable across all calls."],
+    "conceptsRequired": ["Static storage duration", "Function call sequencing"],
+    "generalSolvingApproach": ["1. Identify every static variable and its initial value.", "2. For each call to the function (in the order they actually happen), update ONLY the static variable's value, carrying it forward.", "3. Track the return value of each individual call separately from the persisting static value."],
+    "formulasUsed": [],
+    "pyqExamples": ["5.11.1","5.11.7","5.11.8","5.11.10","5.11.19"],
+    "variationsObserved": ["Static variable combined with recursion (self-call sees the updated static value from the caller)."],
+    "commonTraps": ["Treating the static variable like a fresh local variable on every call."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PC_OUTPUT_TRACE_02",
+    "name": "General Output Prediction / Dry-Run (loops, arithmetic, pointer-mixed)",
+    "recognitionClueHinglish": "Full C program diya hai (loop, arithmetic, shayad pointer bhi), aur seedha poocha hai 'output kya hoga' — ye sabse bada, sabse 'default' pattern hai is topic ka (29 me se 13 PYQs).",
+    "whatShouldComeToMind": ["Draw a variable-table, update line-by-line.", "Write out first 2-3 loop iterations explicitly before hunting for a shortcut pattern."],
+    "conceptsRequired": ["Operator precedence", "Loop semantics", "Integer/unsigned arithmetic rules"],
+    "generalSolvingApproach": ["1. List all variables with their types and initial values.", "2. Step through the code line by line (or iteration by iteration for loops), updating the table.", "3. Pay special attention to pre/post-increment, integer division/truncation, and unsigned wraparound at each step.", "4. Read off the final printed value(s) at the end."],
+    "formulasUsed": [],
+    "pyqExamples": ["5.11.9","5.11.11","5.11.14","5.11.15","5.11.17","5.11.18","5.11.20","5.11.21","5.11.22","5.11.23","5.11.25","5.11.28","5.11.29"],
+    "variationsObserved": ["Array-of-pointers / 2D-array-like structures.", "Bitwise operations mixed into arithmetic loops (2017 total() example)."],
+    "commonTraps": ["Skipping a loop iteration mentally instead of writing it out.", "Miscounting off-by-one on loop boundary conditions."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PC_COMPILE_TYPE_03",
+    "name": "Compilation / Type-Checking / Language-Property Questions",
+    "recognitionClueHinglish": "Poocha hai 'will this compile', 'what warning/error will occur', ya C language ki koi general property (jaise 'C is context-sensitive') — ye compile-time/meta pattern hai, calculation nahi, knowledge-based.",
+    "whatShouldComeToMind": ["Missing function prototype/declaration → implicit-int assumption or type mismatch warning in older C standards.", "C is officially classified as a context-sensitive language (not context-free) in formal language theory terms — a recurring trivia fact.", "Type mismatches in function calls (passing wrong pointer/int type) cause warnings, not always hard errors, depending on compiler strictness."],
+    "conceptsRequired": ["C compilation model", "Type system basics"],
+    "generalSolvingApproach": ["1. Check for missing/mismatched function prototypes.", "2. Check for type mismatches in arguments/return values.", "3. For 'which will compile' style, mentally compile each candidate program checking syntax + declaration-before-use rules."],
+    "formulasUsed": [],
+    "pyqExamples": ["5.11.2","5.11.3","5.11.4","5.11.12","5.11.24"],
+    "variationsObserved": [],
+    "commonTraps": ["Assuming a type mismatch always causes a hard compile ERROR — in C it's often just a WARNING (program still compiles and runs, possibly with undefined-ish behavior)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": false
+  },
+  {
+    "patternId": "PC_CODE_COMPLETION_04",
+    "name": "Fill-in-the-Blank Code Completion",
+    "recognitionClueHinglish": "Code me blank (____) hai — jaise ek loop condition ya expression missing hai — aur poocha hai sahi option kaunsa fill karega taaki program correctly kaam kare (jaise 'reverse a string', 'find max in array') — ye code-completion pattern hai.",
+    "whatShouldComeToMind": ["Understand the INTENDED algorithm first (reverse string? find max? two-pointer search?) before evaluating options.", "Test each option mentally against a small concrete example (a short string/array) rather than reasoning abstractly."],
+    "conceptsRequired": ["Common algorithm idioms (recursion base case, two-pointer scan, max-finding)"],
+    "generalSolvingApproach": ["1. Figure out what the surrounding code is TRYING to accomplish (read variable names, printf calls for clues).", "2. Test each candidate blank-filling option against a small concrete input by hand.", "3. Eliminate options that break on edge cases (empty input, single element)."],
+    "formulasUsed": [],
+    "pyqExamples": ["5.11.5","5.11.6","5.11.13","5.11.16","5.11.26","5.11.27"],
+    "variationsObserved": ["Recursive base-case blank (e.g., reverse-string-via-recursion needs a getchar()!='\\n' style base case).", "Two-pointer array-scan blank (needs a[a]<=a[b]-style condition)."],
+    "commonTraps": ["Picking an option that works for the SPECIFIC example shown but breaks on edge cases like an empty array/string."],
+    "edgeCases": ["Empty input / single-element input — always mentally test these against the chosen option."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  }
+]

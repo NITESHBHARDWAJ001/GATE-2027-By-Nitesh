@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.59.1",
+  "localId": "9.59.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "work-time",
+  "topic": "Work Time",
+  "year": 2010,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "64",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "skilled workers can build a wall in days; semi-skilled workers can build a wall in days; unskilled workers can build a wall in days. If a team has skilled, semi-skilled and unskilled workers, how long it will take to build the wall? A. days                                  B. days                              C. days        D. days",
+  "tagsRaw": "gatecse-2010 quantitative-aptitude      normal  work-time",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 310
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_WORK_TIME_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.59.2",
+  "localId": "9.59.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "work-time",
+  "topic": "Work Time",
+  "year": 2011,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "64",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "A transporter receives the same number of orders each day. Currently, he has some pending orders (backlog) to be shipped. If he uses trucks, then at the end of the day he can clear all the orders. Alternatively, if he uses only trucks, then all the orders are cleared at the end of the     day. What is the minimum number of trucks required so that there will be no pending order at the end of day? A.                                  B.                       C.            D.",
+  "tagsRaw": "gatecse-2011 quantitative-aptitude  normal  work-time",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 310
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_WORK_TIME_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.59.3",
+  "localId": "9.59.3",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "work-time",
+  "topic": "Work Time",
+  "year": 2013,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "65",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "The current erection cost of a structure is Rs.                  If the labour wages per day increase by of the current wages and the working hours decrease by                  of the current period, then the new cost of erection in Rs. is A.                                  B.                       C.            D.",
+  "tagsRaw": "gatecse-2013 quantitative-aptitude  normal  work-time",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 310
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_WORK_TIME_01"
+ }
+]

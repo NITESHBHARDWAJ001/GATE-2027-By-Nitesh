@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:dma",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DMA-01",
+   "patternId": "P4_DMA_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "DMA 1 cycle per byte, 100 cycles/byte total?",
+   "solutionApproach": "1/100.",
+   "answer": "1%"
+  }
+ ]
+}

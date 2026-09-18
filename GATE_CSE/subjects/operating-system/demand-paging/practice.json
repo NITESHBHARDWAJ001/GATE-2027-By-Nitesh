@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:demand-paging",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DEMAND-01",
+   "patternId": "P3_DEMAND_PAGING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "p=0.01, mem 100ns, fault 10ms. EAT?",
+   "solutionApproach": "0.99*100+0.01*10^7.",
+   "answer": "~100099 ns"
+  }
+ ]
+}

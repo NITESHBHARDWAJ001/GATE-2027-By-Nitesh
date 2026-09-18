@@ -1,0 +1,22 @@
+{
+ "overview": "Heap implementation: insert/delete-min O(log n); stack via priority queue.",
+ "whyItMatters": "2 PYQs extracted (1997-2023); P3 topic.",
+ "coreConcept": "Heap implementation: insert/delete-min O(log n); stack via priority queue.",
+ "hinglishExplanation": "Min-heap ke saath ops O(log n).",
+ "formalDefinition": "Heap implementation: insert/delete-min O(log n); stack via priority queue.",
+ "importantProperties": [
+  "Insert O(log n), extract-min O(log n), find-min O(1).",
+  "Stack: increasing priority.",
+  "Unsorted array insert O(1), extract O(n)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Complexities ulta."
+ ],
+ "standardTechniques": [
+  "1. Implementation.",
+  "2. Cost."
+ ],
+ "topicId": "programming-and-ds-data-structures:priority-queue"
+}

@@ -1,0 +1,26 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:passage-reading",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Passage Reading (Comprehension)",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "13 PYQs extracted, 2010-2025.",
+ "pyqCountExtracted": 13,
+ "yearsCovered": [
+  2010,
+  2011,
+  2013,
+  2014,
+  2015,
+  2016,
+  2017,
+  2022,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

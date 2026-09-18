@@ -1,0 +1,38 @@
+{
+  "topicId": "toc-regular-language",
+  "overview": "Regular Language poore TOC ka foundation hai. 4 skills: ek specific language REGULAR hai ya nahi classify karna, closure properties verify karna (kaunse operations regularity preserve karte hain), minimal DFA ka state-count reason karna, aur pumping-lemma-style proof technique.",
+  "whyItMatters": "35 PYQs, aur 'is this language regular' judgment poore TOC me baar-baar reuse hota hai — FA, RE, CFL sab isi core skill pe based hain.",
+  "coreConcept": "Regular Language = wo language jo koi FINITE AUTOMATON accept kar sake (equivalently: regular expression se describe ho sake). Key INTUITION: agar language ko recognize karne ke liye 'UNBOUNDED MEMORY/COUNTING' chahiye (jaise a^n b^n — n ko yaad rakhna padega, jo FINITE states se nahi ho sakta for ALL n), to wo language regular NAHI hai.",
+  "hinglishExplanation": "Socho DFA ek 'bahut limited memory wala robot' hai — usके paas sirf FINITE states hain, wo kisi cheez ko 'count karke yaad' nahi rakh sakta agar count UNBOUNDED ho sakta hai. a^n b^n check karne ke liye robot ko 'kitne a the' yaad rakhna padega taaki utne hi b match kar sake — lekin n kuch bhi ho sakta hai (infinite possibilities), aur robot ke paas sirf FINITE states hain to distinguish karne ke liye. Isliye a^n b^n regular NAHI hai. Lekin a*b* (koi bhi count a's phir koi bhi count b's, bina match kiye) regular HAI — kyunki count MATCH karne ki zaroorat nahi.",
+  "formalDefinition": "L is regular iff L is accepted by some DFA/NFA, equivalently iff L is described by some regular expression, equivalently iff L has FINITELY MANY equivalence classes under the Myhill-Nerode relation.",
+  "importantProperties": [
+    "Regular languages are CLOSED under: union, intersection, complement, concatenation, Kleene star, reversal, and (for a regular L) any FIXED prefix/suffix/substring extraction that doesn't require unbounded counting.",
+    "Regular languages are NOT necessarily closed under: arbitrary quotient by a NON-regular language, 'half' construction combined with unbounded matching, or operations requiring counting/comparison of unboundedly many positions.",
+    "EVERY FINITE language is regular (trivially — a DFA can just have one state-chain per string, or use the disjunction of all string-matching automata).",
+    "Every SUBSET of a FINITE set is regular (finite sets are always regular) — but NOT every subset of a regular (infinite) set is regular (e.g., a^n b^n is a subset of a*b*, which is regular, but a^n b^n itself is not).",
+    "Intersection of a regular language and a context-free language is ALWAYS context-free (this fact often resolves 'is L1∩L2 regular/CFL' questions when one side is regular).",
+    "Myhill-Nerode theorem: the number of states in the MINIMAL DFA for L equals the number of distinct equivalence classes of the relation 'x~y iff for all z, xz∈L ⟺ yz∈L' — this is the formal tool behind 'is this regular' and 'how many states minimum' questions."
+  ],
+  "formulas": {
+    "closureUnderStandardOps": "Regular languages closed under: ∪, ∩, complement, concatenation, Kleene star, reversal",
+    "regularIntersectCFLisCFL": "Regular ∩ Context-Free = always Context-Free (useful reduction trick)",
+    "myhillNerodeStates": "Minimal DFA state count = number of distinct Myhill-Nerode equivalence classes of L"
+  },
+  "keyPropertiesAndIdentities": [
+    "'Union/complement of two NON-regular languages' can be regular OR non-regular — no guarantee either way (e.g., L and its complement can both be non-regular individually, but sometimes special constructions make one regular).",
+    "To PROVE a language is regular: construct a DFA/NFA or regular expression directly (constructive proof).",
+    "To PROVE a language is NOT regular: use the Pumping Lemma (assume regular, derive contradiction by pumping a sufficiently long string) OR use Myhill-Nerode (find infinitely many pairwise-distinguishable strings, implying infinitely many equivalence classes, hence no finite DFA)."
+  ],
+  "commonPitfalls": [
+    "Assuming ALL subsets of a regular (infinite) language are regular — false; only subsets of FINITE sets are guaranteed regular.",
+    "Assuming intersection/union of two NON-regular languages is always non-regular — not guaranteed either way, check case by case.",
+    "Confusing 'every finite language is regular' (TRUE, always) with 'every regular language is finite' (FALSE — most regular languages, like a*, are infinite).",
+    "Missing the useful shortcut: Regular ∩ CFL = CFL — this resolves many 'classify this intersection' questions instantly without needing Pumping Lemma."
+  ],
+  "standardTechniques": [
+    "For 'is L regular' classification: first try to construct a DFA/regex directly (if it looks finite-state-representable, it likely is). If it seems to need unbounded counting/comparison (like matching counts, palindromes, primes), suspect NON-regular and try Pumping Lemma or Myhill-Nerode distinguishability.",
+    "For closure-property questions: recall the standard closure list (∪,∩,complement,concat,star,reversal all closed) — anything requiring UNBOUNDED matching/counting across the construction is suspect.",
+    "For minimal-DFA-state-count questions: use Myhill-Nerode — find the maximum number of pairwise distinguishable strings (strings x,y are distinguishable if some suffix z makes exactly one of xz,yz in L).",
+    "For Pumping-Lemma proofs: pick a string of length ≥ the pumping length that's clearly IN the language, split it per the lemma's constraints, then show pumping produces a string OUTSIDE the language — deriving the contradiction."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:crc-polynomial",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CRC-PO-01",
+   "patternId": "P3_CRC_POLYNOMIAL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Generator degree 3: kitne zeros append?",
+   "solutionApproach": "r=3.",
+   "answer": "3"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+  "topicId": "algorithms-asymptotic-notations",
+  "overview": "Asymptotic Notations poori Algorithms subject ki 'language' hai — O, Ω, Θ ka istemaal karke hum algorithm ki efficiency describe karte hain. GATE 2 cheezein baar-baar test karta hai: (1) diye gaye functions ko growth-rate ke hisaab se ORDER karna, (2) ek specific O/Ω/Θ CLAIM TRUE hai ya FALSE verify karna.",
+  "whyItMatters": "22 PYQs, aur ye Recurrence Relation + Time Complexity + almost HAR Algorithms topic ka foundation hai. Isse pehle master karo, warna aage sab shaky rahega.",
+  "coreConcept": "Big-O (O) = UPPER bound ('at most this fast-growing'). Big-Omega (Ω) = LOWER bound ('at least this fast-growing'). Big-Theta (Θ) = TIGHT bound (dono, upper aur lower same order). Growth rate compare karne ka sabse reliable tareeka: LIMIT test (f(n)/g(n) as n→∞).",
+  "hinglishExplanation": "Socho growth rate ek 'race' hai jaise n badhta jaata hai. O(g(n)) ka matlab hai 'f, g se FASTER ya SAME speed se nahi badhega' (g ek ceiling hai). Ω(g(n)) ka matlab 'f, g se SLOWER nahi badhega' (g ek floor hai). Θ(g(n)) matlab 'f aur g EXACTLY same rate se badhte hain' (dono bounds match). Comparison ke liye ratio test sabse reliable hai: f(n)/g(n) ki limit nikaalo n→∞ pe — agar 0 aaye to f chhota hai, infinity aaye to f bada hai, constant aaye to same order hain.",
+  "formalDefinition": "f(n)=O(g(n)) if ∃c>0,n0 such that f(n)≤c·g(n) for all n≥n0. f(n)=Ω(g(n)) if ∃c>0,n0 such that f(n)≥c·g(n) for all n≥n0. f(n)=Θ(g(n)) if f(n)=O(g(n)) AND f(n)=Ω(g(n)).",
+  "importantProperties": [
+    "Growth rate hierarchy (slowest to fastest): O(1) < O(log n) < O(√n) < O(n) < O(n log n) < O(n²) < O(n³) < O(2ⁿ) < O(n!) < O(nⁿ).",
+    "Logarithms grow slower than ANY positive power of n: log n = o(n^ε) for any ε>0, regardless of log's base.",
+    "Polynomial growth is always slower than exponential: n^k = o(c^n) for any constants k and c>1.",
+    "Transitivity holds for all three: f=O(g) and g=O(h) ⟹ f=O(h) (same for Ω, Θ).",
+    "f=Θ(g) ⟺ g=Θ(f) (Θ is symmetric) — but O and Ω are NOT symmetric (f=O(g) does not imply g=O(f)).",
+    "Sum rule: O(f)+O(g) = O(max(f,g)) — the faster-growing term dominates, drop lower-order terms and constants.",
+    "Worst-case running time W(n) is ALWAYS ≥ average-case running time A(n) for any algorithm — this is definitionally true, not something to derive per-algorithm."
+  ],
+  "formulas": {
+    "limitTestBigO": "lim(n→∞) f(n)/g(n) = 0 ⟹ f=o(g) (strictly smaller); = constant c>0 ⟹ f=Θ(g); = ∞ ⟹ f=ω(g) (strictly bigger)",
+    "logGrowthRule": "log n = o(n^ε) for any ε>0",
+    "polyVsExpRule": "n^k = o(c^n) for any constants k, c>1",
+    "sortingLowerBound": "Comparison-based sorting worst case lower bound = Ω(n log n)"
+  },
+  "keyPropertiesAndIdentities": [
+    "The 'increasing order of growth' question type is almost ALWAYS solvable by the limit-ratio test between consecutive pairs, even when the functions look intimidating (mixes of log, √, polynomial, exponential terms).",
+    "A statement like 'f(n)=O(g(n)) implies g(n)=O(f(n))' is FALSE in general — this asymmetry is the single most repeated TRUE/FALSE trap in this topic."
+  ],
+  "commonPitfalls": [
+    "Assuming O is symmetric (it's not — only Θ is).",
+    "Forgetting log's BASE doesn't matter for asymptotic comparisons (log_2 n and log_10 n differ only by a constant factor, same Θ class).",
+    "Mixing up which bound (upper/lower/tight) a claim is even making before trying to verify it.",
+    "For worst-case vs average-case: assuming a SPECIFIC inequality direction that isn't definitionally guaranteed (only W(n)≥A(n) is always true; nothing else is guaranteed without more info)."
+  ],
+  "standardTechniques": [
+    "For 'is f=O(g)/Ω(g)/Θ(g)' TRUE/FALSE questions with concrete-looking functions: apply the limit-ratio test f(n)/g(n) as n→∞ — fast and reliable.",
+    "For 'arrange in increasing order' with many functions: don't compare all pairs — instead classify each into the known hierarchy (log/poly/exp buckets) first, then fine-tune within a bucket.",
+    "For properties/identity questions: recall transitivity and Θ's symmetry (but O/Ω's asymmetry) as the two facts tested most."
+  ]
+}

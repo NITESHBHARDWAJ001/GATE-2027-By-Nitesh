@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Idiom/phrase ka closest meaning.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Phrase and Idiom Meaning se related sawal.",
+   "thinkThis": "P3_PHRASE_MEANING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Literal meaning."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:phrase-meaning",
+ "revisionLevel": "short-form"
+}

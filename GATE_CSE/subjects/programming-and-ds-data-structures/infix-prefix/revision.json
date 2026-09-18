@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Conversion with precedence/associativity using stack; postfix evaluation.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Infix, Prefix, Postfix se related sawal.",
+   "thinkThis": "P3_INFIX_PREFIX_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Associativity ignore."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-and-ds-data-structures:infix-prefix",
+ "revisionLevel": "short-form"
+}

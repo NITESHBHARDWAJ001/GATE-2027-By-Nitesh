@@ -1,0 +1,42 @@
+{
+ "topicId": "operating-system:file-system",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-FILE-S-01",
+   "patternId": "FS_INODE_CALC_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Block 4 KB, address 4 B, 12 direct + 1 single indirect. Max file size?",
+   "solutionApproach": "P=1024; (12+1024)*4KB.",
+   "answer": "4144 KB"
+  },
+  {
+   "practiceId": "AI-FILE-S-02",
+   "patternId": "FS_ALLOC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Which scheme has no external fragmentation and supports random access?",
+   "solutionApproach": "Indexed.",
+   "answer": "Indexed"
+  },
+  {
+   "practiceId": "AI-FILE-SYS-X03",
+   "patternId": "FS_ALLOC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Which allocation suffers from external fragmentation?",
+   "solutionApproach": "Contiguous.",
+   "answer": "Contiguous"
+  },
+  {
+   "practiceId": "AI-FILE-SYS-X04",
+   "patternId": "FS_INODE_CALC_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Block 1 KB, pointer 4 B, inode 10 direct + 1 single indirect. Max file size?",
+   "solutionApproach": "P=256; (10+256) KB.",
+   "answer": "266 KB"
+  }
+ ]
+}

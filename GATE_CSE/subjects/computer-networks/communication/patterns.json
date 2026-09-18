@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_COMMUNICATION_01",
+  "name": "Communication Delay (Transmission, Propagation) (PYQ type)",
+  "recognitionClueHinglish": "Communication Delay (Transmission, Propagation) se related sawal.",
+  "whatShouldComeToMind": [
+   "Store-and-forward delays, satellite links, statistical TDM, polling."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Tt, Tp.",
+   "2. Hops."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.8.1",
+   "2.8.2",
+   "2.8.3",
+   "2.8.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Units (bits/bytes, ms/s)."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

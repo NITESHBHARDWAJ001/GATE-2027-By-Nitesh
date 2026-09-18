@@ -1,0 +1,58 @@
+[
+ {
+  "patternId": "CLP_TABLE_01",
+  "name": "Closure Under Operations by Class",
+  "recognitionClueHinglish": "Kaunsi operation kis class me closed.",
+  "whatShouldComeToMind": [
+   "Closure table."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Class.",
+   "2. Operation."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.1.1",
+   "6.1.2",
+   "6.1.3",
+   "6.1.4",
+   "6.1.5",
+   "6.1.6",
+   "6.1.7",
+   "6.1.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "CFL intersection."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CLP_COMBINED_02",
+  "name": "Combined Languages (CFL with Regular, Complements)",
+  "recognitionClueHinglish": "L1 n R, complement of regular, etc.",
+  "whatShouldComeToMind": [
+   "Apply closure."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Types.",
+   "2. Result class."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.1.9",
+   "6.1.10"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Class of result."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,33 @@
+{
+ "topicId": "co-architecture:speedup",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SPEEDU-01",
+   "patternId": "SU_AMDAHL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "50% of time sped up 2x. Overall speedup?",
+   "solutionApproach": "1/(0.5+0.25).",
+   "answer": "1.33"
+  },
+  {
+   "practiceId": "AI-SPEEDUP-X02",
+   "patternId": "SU_AMDAHL_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "80% of time can be sped up 4x. Overall speedup?",
+   "solutionApproach": "1/(0.2+0.2).",
+   "answer": "2.5"
+  },
+  {
+   "practiceId": "AI-SPEEDUP-X03",
+   "patternId": "SU_AMDAHL_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Max speedup if 90% parallelizable?",
+   "solutionApproach": "1/0.1.",
+   "answer": "10"
+  }
+ ]
+}

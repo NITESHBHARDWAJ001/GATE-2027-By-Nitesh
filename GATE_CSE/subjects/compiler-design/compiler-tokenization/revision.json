@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Token definitions se string ke tokens ki count (whitespace/comments chhod kar).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Tokenization se related sawal.",
+   "thinkThis": "P3_COMPILER_TOKENIZATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Comments ko tokens ginna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:compiler-tokenization",
+ "revisionLevel": "short-form"
+}

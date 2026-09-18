@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_DIGITAL_CIRCUITS_01",
+  "name": "Digital Circuit Analysis/Design (PYQ type)",
+  "recognitionClueHinglish": "Digital Circuit Analysis/Design se related sawal.",
+  "whatShouldComeToMind": [
+   "Gate networks se function nikalna, equivalence, XOR equivalences."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Truth table."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.12.1",
+   "4.12.2",
+   "4.12.3",
+   "4.12.4",
+   "4.12.5",
+   "4.12.6",
+   "4.12.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Simplification skip karke guess."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

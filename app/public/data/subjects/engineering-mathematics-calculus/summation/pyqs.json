@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "engineering-mathematics-calculus__5.8.1",
+  "localId": "5.8.1",
+  "subjectId": "engineering-mathematics-calculus",
+  "subject": "Engineering Mathematics: Calculus",
+  "topicSlug": "summation",
+  "topic": "Summation",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "25",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "1:1",
+  "answerVerified": true,
+  "questionTextRaw": "The value of                                           is . (Answer in integer)",
+  "tagsRaw": "gateda-2026 calculus  numerical-answers      one-mark  summation",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 150
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SUMMATION_01"
+ }
+]

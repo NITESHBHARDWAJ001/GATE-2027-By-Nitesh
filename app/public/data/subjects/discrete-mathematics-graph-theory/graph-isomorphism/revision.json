@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Invariants: degree sequence, edges; self-complementary: n = 4k or 4k+1.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Graph Isomorphism and Self-Complementary Graphs se related sawal.",
+   "thinkThis": "P3_GRAPH_ISOMORPHISM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Same degree sequence ko sufficient maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:graph-isomorphism",
+ "revisionLevel": "short-form"
+}

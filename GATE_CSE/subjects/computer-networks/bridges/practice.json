@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:bridges",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BRIDGE-01",
+   "patternId": "P3_BRIDGES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Bridge kis layer par?",
+   "solutionApproach": "Data link.",
+   "answer": "Data link"
+  }
+ ]
+}

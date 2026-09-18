@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "operating-system__5.1.1",
+  "localId": "5.1.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "bankers-algorithm",
+  "topic": "Bankers Algorithm",
+  "year": 2018,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "39",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "In a system, there are three types of resources:                             and . Four processes , , and execute concurrently. At the outset, the processes have declared their maximum resource requirements using a matrix named Max as given below. For example, Max[                                              ] is the maximum number of instances of that would require. The number of instances of the resources allocated to the various processes at any given state is given by a matrix named Allocation. Consider a state of the system with the Allocation matrix as shown below, and in which instances of and instances of are only resources available. From the perspective of deadlock avoidance, which one of the following is true? A. The system is in                 state                                    if one more instance of                        were available B. The system is not in                  state, but would be                 if one more instance of                        were available C. The system is not in                  state, but would be                 if one more instance of                        were available D. The system is not in                  state, but would be",
+  "tagsRaw": "gatecse-2018 operating-system  deadlock-prevention-avoidance-detection  bankers-algorithm  normal  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 377
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BANKERS_ALGORITHM_01"
+ },
+ {
+  "pyqId": "operating-system__5.1.2",
+  "localId": "5.1.2",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "bankers-algorithm",
+  "topic": "Bankers Algorithm",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "19",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A;C",
+  "answerVerified": true,
+  "questionTextRaw": "With respect to deadlocks in an operating system, which of the following statements is/are FALSE? A. Banker's algorithm is used to prevent deadlocks B. Deadlock formation can be prevented by ensuring that the hold and wait condition is not allowed C. An assignment edge in a resource allocation graph is marked from a process to a resource D. A safe state guarantees that all processes can finish without formation of a deadlock",
+  "tagsRaw": "gatecse-2026-set1 operating-system  deadlock-prevention-avoidance-detection  bankers-algorithm  multiple-selects  one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 377
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BANKERS_ALGORITHM_01"
+ }
+]

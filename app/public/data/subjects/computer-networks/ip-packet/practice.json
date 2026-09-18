@@ -1,0 +1,33 @@
+{
+ "topicId": "computer-networks:ip-packet",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-IP-PAC-01",
+   "patternId": "IPK_FRAG_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Datagram 4020 B (20 header), MTU 1500. Fragments?",
+   "solutionApproach": "Payload 4000; 1480/frag: 3.",
+   "answer": "3"
+  },
+  {
+   "practiceId": "AI-IP-PACKE-X02",
+   "patternId": "IPK_FRAG_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Datagram 3020 B (20 hdr) MTU 1020. Fragments?",
+   "solutionApproach": "1000 payload each: 3000/1000.",
+   "answer": "3"
+  },
+  {
+   "practiceId": "AI-IP-PACKE-X03",
+   "patternId": "IPK_HEADER_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Reassembly done at?",
+   "solutionApproach": "Destination.",
+   "answer": "Destination host"
+  }
+ ]
+}

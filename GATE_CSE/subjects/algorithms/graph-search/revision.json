@@ -1,0 +1,27 @@
+{
+  "topicId": "algorithms-graph-search",
+  "revisionLevel": "short-form",
+  "coreIdea": "DFS=deep-first (stack/recursion). BFS=level-by-level (queue), gives shortest path in unweighted graphs. Undirected DFS: only tree+back edges.",
+  "mustRememberFormulas": [
+    "O(V+E) adjacency list; O(V²) adjacency matrix",
+    "Tree edges in forest = n - c (c=connected components)",
+    "Back edge: d[v]<d[u]<f[u]<f[v] (v is ancestor). Forward: d[u]<d[v]<f[v]<f[u] (v is descendant)",
+    "Undirected graph DFS: NO forward/cross edges possible, only tree+back"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "candidate sequences, asked which is valid DFS/BFS order", "thinkThis": "GS_VALID_ORDER_01"},
+    {"seeThis": "classify edges tree/back/forward/cross, or discovery/finish time claim", "thinkThis": "GS_EDGE_CLASSIFICATION_02"},
+    {"seeThis": "'what does BFS tree compute', distance/level claim", "thinkThis": "GS_BFS_SHORTESTPATH_03"},
+    {"seeThis": "complexity given representation, or max recursion depth", "thinkThis": "GS_COMPLEXITY_DEPTH_04"}
+  ],
+  "commonTrapsQuickList": [
+    "DFS tree does NOT give shortest paths — only BFS does",
+    "Undirected graphs: no forward/cross edges in DFS, only tree/back",
+    "Adjacency matrix forces O(V²) regardless of actual sparsity",
+    "BFS gives single-source shortest path, not all-pairs"
+  ],
+  "highYieldPyqLessons": [
+    "Edge classification/structural properties (11/23) is by far the dominant skill — master the discovery/finish-time interval rules cold, and remember the undirected-graph simplification.",
+    "This topic is the direct foundation for MST (Prim's) — the traversal skeleton (visit, mark, explore neighbors) is identical."
+  ]
+}

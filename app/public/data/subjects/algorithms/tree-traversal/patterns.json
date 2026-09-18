@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_TREE_TRAVERSAL_01",
+  "name": "Tree Traversals (PYQ type)",
+  "recognitionClueHinglish": "Tree Traversals se related sawal.",
+  "whatShouldComeToMind": [
+   "Preorder + inorder se tree reconstruct; postorder aur level order."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Root.",
+   "2. Inorder split.",
+   "3. Recurse."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.45.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Pre+post se unique maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

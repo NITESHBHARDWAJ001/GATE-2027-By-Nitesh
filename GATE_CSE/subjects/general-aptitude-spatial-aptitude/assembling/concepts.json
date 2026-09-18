@@ -1,0 +1,19 @@
+{
+ "overview": "Pieces ko jodkar figure.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Pieces ko jodkar figure.",
+ "hinglishExplanation": "Edges/shape match.",
+ "formalDefinition": "Pieces ko jodkar figure.",
+ "importantProperties": [
+  "Rotate/translate allowed."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Reflection allowed nahi."
+ ],
+ "standardTechniques": [
+  "1. Matching edges."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:assembling"
+}

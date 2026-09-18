@@ -1,0 +1,23 @@
+{
+  "topicId": "dm-set-theory-algebra-relations",
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "subject": "Discrete Mathematics: Set Theory & Algebra",
+  "name": "Relations",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "38 PYQs extracted — highest-PYQ topic in this subject, tested from 1987 to 2026 almost continuously. Scheduled right after Set Theory because a relation is formally a subset of a Cartesian product (needs set notation).",
+  "pyqCountExtracted": 38,
+  "yearsCovered": [1987,1989,1992,1994,1995,1996,1997,1998,1999,2000,2001,2002,2004,2005,2006,2007,2009,2010,2015,2016,2020,2021,2025,2026],
+  "prerequisites": [
+    {"topic": "Set Theory", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "A relation R on A is a subset of A×A — needs set/subset comfort."}
+  ],
+  "unlocks": [
+    {"topic": "Functions", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "A function is a relation with extra restrictions (each input maps to exactly one output)."},
+    {"topic": "Partial Order", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "Partial order = reflexive + antisymmetric + transitive relation — direct extension of property-checking."},
+    {"topic": "Lattice", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "Lattices are built on partial-order relations."},
+    {"topic": "Database Normalization", "subjectId": "databases", "why": "Functional dependencies are themselves a kind of relation over attribute sets; closure computation reuses the same reasoning style as transitive closure here."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

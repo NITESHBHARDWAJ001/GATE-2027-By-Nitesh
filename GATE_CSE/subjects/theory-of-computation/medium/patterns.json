@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_MEDIUM_01",
+  "name": "Counting Symbols in Strings (PYQ type)",
+  "recognitionClueHinglish": "Counting Symbols in Strings se related sawal.",
+  "whatShouldComeToMind": [
+   "n_a(w), n_b(w) type languages ke properties."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Memory needed?"
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.10.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Regular maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

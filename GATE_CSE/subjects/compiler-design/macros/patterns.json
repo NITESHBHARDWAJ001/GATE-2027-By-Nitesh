@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_MACROS_01",
+  "name": "Macros and Macro Processor (PYQ type)",
+  "recognitionClueHinglish": "Macros and Macro Processor se related sawal.",
+  "whatShouldComeToMind": [
+   "Macro definition/expansion, pass one expansion, formal vs actual parameters, conditional expansion."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Expand textually."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.19.1",
+   "2.19.2",
+   "2.19.3",
+   "2.19.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Macro ko runtime call maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

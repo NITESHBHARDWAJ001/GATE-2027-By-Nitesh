@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "PTR_ARITHMETIC_TRACE_01",
+    "name": "Pointer Arithmetic / Address & Value Tracing",
+    "recognitionClueHinglish": "Code me pointer arithmetic ho raha hai (p+1, p++, array-of-pointers, pointer-to-pointer) aur poocha hai final value/output kya hoga — is topic ka sabse bada pattern hai (15 me se 6 PYQs).",
+    "whatShouldComeToMind": ["Draw an actual memory diagram: addresses in one row, values in another, pointer arrows connecting them.", "p+k moves k ELEMENTS ahead (type-size scaled), not k bytes.", "Pointer subtraction gives element-count difference, not byte difference."],
+    "conceptsRequired": ["Pointer arithmetic scaling", "Array-pointer equivalence", "Pointer-to-pointer (**)"],
+    "generalSolvingApproach": ["1. Draw the array/variables with their memory addresses (use simple symbolic addresses like 100,104,108... if not given numerically).", "2. Trace each pointer assignment/arithmetic step, updating which address each pointer variable holds.", "3. For dereferences (*p, **pp), look up the value at the currently-held address.", "4. For pointer subtraction, remember the result is in ELEMENT units."],
+    "formulasUsed": ["pointerArithmeticStep","pointerSubtraction"],
+    "pyqExamples": ["5.9.8","5.9.10","5.9.11","5.9.12","5.9.14","5.9.15"],
+    "variationsObserved": ["Array of pointers to different offsets of the same base array (p[] = {a, a+3, a+4,...}) combined with pointer-to-pointer.", "String indexing tricks (2[p] is legal C, equivalent to p[2])."],
+    "commonTraps": ["Doing raw-byte arithmetic instead of type-scaled arithmetic.", "Losing track of which level of indirection (*p vs **pp) is being read/written at each step."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PTR_DANGLING_SAFETY_02",
+    "name": "Dangling Pointer / Memory Safety Identification",
+    "recognitionClueHinglish": "Code me pointer return ho raha hai, ya dereference se pehle initialize nahi kiya gaya, ya swap-without-temp jaisa arithmetic trick hai — poocha hai ye SAFE hai ya crash/undefined-behavior karega.",
+    "whatShouldComeToMind": ["Returning the address of a LOCAL variable = dangling pointer, undefined behavior once function returns.", "Dereferencing an uninitialized pointer (declared but never assigned an address) = undefined behavior, likely crash.", "malloc'd memory is SAFE to return a pointer to (it lives on the heap, survives function return) — contrast with local/stack variables."],
+    "conceptsRequired": ["Stack vs heap lifetime", "Pointer initialization requirements"],
+    "generalSolvingApproach": ["1. For each pointer used, ask: WHERE does the memory it points to live (stack-local, heap/malloc'd, or never-initialized)?", "2. Stack-local returned after function exit → dangling/undefined. Heap (malloc) → safe to return. Uninitialized → undefined before any valid address is assigned.", "3. For arithmetic tricks (like the temp-free swap), manually trace through with concrete values to verify correctness rather than assuming."],
+    "formulasUsed": [],
+    "pyqExamples": ["5.9.2","5.9.6","5.9.9"],
+    "variationsObserved": ["Multiple candidate function implementations, asked which ones are problematic (compare 2-3 versions side by side)."],
+    "commonTraps": ["Assuming any pointer-returning function is automatically dangerous — only LOCAL (stack) address returns are unsafe, malloc'd returns are fine."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PTR_DECLARATION_SYNTAX_03",
+    "name": "Complex Pointer Declaration Syntax Parsing",
+    "recognitionClueHinglish": "Ek confusing declaration diya hai (jaise 'int (*f)(int*)' ya 'int *A[10]' vs 'int (*A)[10]') aur poocha hai iska matlab kya hai — ye pure syntax-reading pattern hai, no execution/tracing needed.",
+    "whatShouldComeToMind": ["Read declarations from the VARIABLE NAME outward, respecting parentheses as the tie-breaker.", "'int *A[10]' = array of 10 pointers-to-int (the [] binds tighter than the bare *). 'int (*A)[10]' = pointer to an array of 10 ints (parentheses force the * to bind first)."],
+    "conceptsRequired": ["C declaration right-left reading rule", "Function pointer syntax"],
+    "generalSolvingApproach": ["1. Find the identifier name.", "2. Apply the 'right-left rule': look right for [] or () immediately after the name first, then look left for *.", "3. Parentheses override this order — whatever is inside () is resolved first.", "4. Build the English description outward: 'A is a[n] ... of ...' step by step."],
+    "formulasUsed": [],
+    "pyqExamples": ["5.9.1","5.9.3","5.9.5"],
+    "variationsObserved": ["Function-pointer declarations combined with pointer-argument types (int (*f)(int*))."],
+    "commonTraps": ["Reading left-to-right naively without respecting the right-left rule and parentheses."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PTR_PASS_BY_REF_04",
+    "name": "Pass-by-Reference via Pointer Parameters",
+    "recognitionClueHinglish": "Function pointer parameter leta hai (int *y) aur uske through caller ka variable modify karta hai — poocha hai final value of the caller's variable kya hoga. Same skill jo Parameter Passing topic me bhi tested hoti hai.",
+    "whatShouldComeToMind": ["Passing &x to a function lets that function's *param = ... directly modify x in the caller.", "Trace carefully WHICH variable's address is being passed at each call site, especially with multiple pointer variables/reassignments."],
+    "conceptsRequired": ["Pass-by-value vs pass-by-pointer semantics"],
+    "generalSolvingApproach": ["1. At each function call, identify exactly which variable's ADDRESS is being passed.", "2. Inside the function, track *param assignments as directly modifying that original variable.", "3. After the function returns, read the caller variable's now-updated value."],
+    "formulasUsed": [],
+    "pyqExamples": ["5.9.4","5.9.7","5.9.13"],
+    "variationsObserved": ["Chained function calls (P calls Q, both modifying shared/global state via pointers) — combines with the general Programming-In-C static/global tracing skill."],
+    "commonTraps": ["Treating a pointer parameter like a normal by-value parameter (assuming caller's variable is unaffected)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  }
+]

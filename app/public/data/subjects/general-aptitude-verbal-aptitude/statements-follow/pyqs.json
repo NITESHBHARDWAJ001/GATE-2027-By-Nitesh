@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-verbal-aptitude__11.14.1",
+  "localId": "11.14.1",
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "subject": "General Aptitude: Verbal Aptitude",
+  "topicSlug": "statements-follow",
+  "topic": "Statements Follow",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "8",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "The given statement is followed by some courses of action. Assuming the statement to be true, decide the correct option. Statement: There has been a significant drop in the water level in the lakes supplying water to the city. Course of action: I. The water supply authority should impose a partial cut in supply to tackle the situation. II. The government should appeal to all the residents through mass media for minimal use of water. III. The government should ban the water supply in lower areas. A. Statements I and II follow.                                       B. Statements I and III follow. C. Statements II and III follow.                                     D. All the statements follow.",
+  "tagsRaw": "gatecse-2015-set1 verbal-aptitude normal statements-follow  Synonyms (13)",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 361
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_STATEMENTS_FOLLOW_01"
+ }
+]

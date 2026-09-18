@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_AREA_01",
+  "name": "Area and Mensuration (PYQ type)",
+  "recognitionClueHinglish": "Area and Mensuration se related sawal.",
+  "whatShouldComeToMind": [
+   "Area of rectangle, triangle, circle."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Shape."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.5.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Units."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

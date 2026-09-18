@@ -1,0 +1,18 @@
+{
+ "coreIdea": "n x n multiplier: n^2 AND gates, delay proportional to n.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Array Multiplier se related sawal.",
+   "thinkThis": "P4_ARRAY_MULTIPLIER_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Gate count vs delay."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:array-multiplier",
+ "revisionLevel": "short-form"
+}

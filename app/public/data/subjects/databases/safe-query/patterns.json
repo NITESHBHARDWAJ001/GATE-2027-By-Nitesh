@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_SAFE_QUERY_01",
+  "name": "Safe Queries (PYQ type)",
+  "recognitionClueHinglish": "Safe Queries se related sawal.",
+  "whatShouldComeToMind": [
+   "Calculus expression jo finite result de."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Range restrict."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.22.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Negation ko safe maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

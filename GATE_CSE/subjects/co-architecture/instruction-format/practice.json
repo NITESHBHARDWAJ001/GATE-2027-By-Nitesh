@@ -1,0 +1,33 @@
+{
+ "topicId": "co-architecture:instruction-format",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INSTRU-01",
+   "patternId": "IF_FIELD_SIZE_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "32 registers, 16-bit instr, opcode 5, two regs. Immediate bits?",
+   "solutionApproach": "16-5-10.",
+   "answer": "1"
+  },
+  {
+   "practiceId": "AI-INSTRU-02",
+   "patternId": "IF_EXPAND_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "12-bit instr, 4-bit opcode: 15 used at level 1, 4-bit next-level. Extra instructions?",
+   "solutionApproach": "1 free x 2^4.",
+   "answer": "16"
+  },
+  {
+   "practiceId": "AI-INSTRUCT-X03",
+   "patternId": "IF_FIELD_SIZE_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "16-bit instr, 4-bit opcode, one register field of 4 bits, rest immediate. Immediate bits?",
+   "solutionApproach": "16-4-4.",
+   "answer": "8"
+  }
+ ]
+}

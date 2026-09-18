@@ -1,0 +1,15 @@
+{
+ "topicId": "theory-of-computation:non-determinism",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NON-DE-01",
+   "patternId": "P3_NON_DETERMINISM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "NPDA vs DPDA equal power?",
+   "solutionApproach": "Nahi.",
+   "answer": "Nahi"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_FRACTIONS_01",
+  "name": "Fractions (PYQ type)",
+  "recognitionClueHinglish": "Fractions se related sawal.",
+  "whatShouldComeToMind": [
+   "Addition, comparison, simplification."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. LCD."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.23.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Denominator add karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

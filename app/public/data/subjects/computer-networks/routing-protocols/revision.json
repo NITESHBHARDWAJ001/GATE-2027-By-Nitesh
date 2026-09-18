@@ -1,0 +1,18 @@
+{
+ "coreIdea": "RIP, OSPF, BGP, EIGRP ke type: DV/LS/path vector, IGP/EGP.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Routing Protocols Names se related sawal.",
+   "thinkThis": "P3_ROUTING_PROTOCOLS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "OSPF ko DV maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:routing-protocols",
+ "revisionLevel": "short-form"
+}

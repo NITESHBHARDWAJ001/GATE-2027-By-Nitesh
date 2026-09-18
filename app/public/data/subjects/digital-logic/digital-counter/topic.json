@@ -1,0 +1,18 @@
+{
+  "topicId": "dl-digital-counter",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "name": "Digital Counter",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "17 PYQs extracted, tested 1987-2026. Sequential-circuit application of Boolean Algebra, using flip-flops to build counting circuits.",
+  "pyqCountExtracted": 17,
+  "yearsCovered": [1987,1990,1991,1992,1994,2002,2011,2014,2015,2016,2017,2021,2023,2026],
+  "prerequisites": [
+    {"topic": "Boolean Algebra", "subjectId": "digital-logic", "why": "Next-state logic for counters is a Boolean expression over flip-flop states."}
+  ],
+  "unlocks": [],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "patternId": "ETH_CALC_01",
+  "name": "Cable Length / Frame Size / Time",
+  "recognitionClueHinglish": "Bandwidth, frame size; max length ya min frame.",
+  "whatShouldComeToMind": [
+   "Tt = 2Tp."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Tt.",
+   "2. Length."
+  ],
+  "formulasUsed": [
+   "maxLen"
+  ],
+  "pyqExamples": [
+   "2.13.2",
+   "2.13.6",
+   "2.13.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Round trip."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "ETH_CONCEPT_02",
+  "name": "Ethernet Concepts / Path Through Switches",
+  "recognitionClueHinglish": "Statements, frames across segments.",
+  "whatShouldComeToMind": [
+   "Facts."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Fact."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.13.3",
+   "2.13.4",
+   "2.13.5",
+   "2.13.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Checksum layers."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_TRANSLATION_LOOKASIDE_BU_01",
+  "name": "TLB (PYQ type)",
+  "recognitionClueHinglish": "TLB se related sawal.",
+  "whatShouldComeToMind": [
+   "Page table cache; TLB reach = entries x page size; EAT with hit ratio."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Hit ratio.",
+   "2. EAT."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.32.1",
+   "5.32.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Reach ko address space samajhna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

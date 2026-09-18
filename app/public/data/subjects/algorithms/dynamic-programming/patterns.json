@@ -1,0 +1,63 @@
+[
+ {
+  "patternId": "DP_TABLE_01",
+  "name": "Fill/Evaluate DP Table (LCS, LIS, subset-sum, shortcuts)",
+  "recognitionClueHinglish": "DP ka result nikaalna.",
+  "whatShouldComeToMind": [
+   "Recurrence."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Recurrence.",
+   "2. Base.",
+   "3. Fill."
+  ],
+  "formulasUsed": [
+   "lcs",
+   "subset"
+  ],
+  "pyqExamples": [
+   "1.16.1",
+   "1.16.2",
+   "1.16.3",
+   "1.16.4",
+   "1.16.5",
+   "1.16.6",
+   "1.16.7",
+   "1.16.8"
+  ],
+  "variationsObserved": [
+   "LCS length and count."
+  ],
+  "commonTraps": [
+   "Off-by-one."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DP_CONCEPT_02",
+  "name": "Recognize DP / Table Interpretation",
+  "recognitionClueHinglish": "Kaunsa paradigm; table entries ka meaning.",
+  "whatShouldComeToMind": [
+   "Optimal substructure."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Paradigm pehchano."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.16.9",
+   "1.16.10"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Greedy vs DP."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

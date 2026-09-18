@@ -1,0 +1,18 @@
+{
+ "topicId": "databases:safe-query",
+ "subjectId": "databases",
+ "subject": "Databases",
+ "name": "Safe Queries",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2017-2017.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2017
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

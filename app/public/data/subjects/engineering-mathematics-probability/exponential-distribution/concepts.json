@@ -1,0 +1,26 @@
+{
+ "overview": "Memoryless property, mean 1/lambda, min of independent exponentials, conditional probabilities.",
+ "whyItMatters": "6 PYQs extracted (2004-2026); P2 topic.",
+ "coreConcept": "f(x)=lambda e^{-lambda x}; P(X>x)=e^{-lambda x}; mean 1/lambda.",
+ "hinglishExplanation": "Memoryless: P(X>s+t | X>s) = P(X>t). Min of independent exponentials exponential with rate sum. Median = ln2/lambda.",
+ "formalDefinition": "f(x)=lambda e^{-lambda x}; P(X>x)=e^{-lambda x}; mean 1/lambda.",
+ "importantProperties": [
+  "Mean 1/lambda, var 1/lambda^2.",
+  "P(X>x)=e^{-lambda x}.",
+  "Memoryless.",
+  "Min(X,Y) ~ Exp(l1+l2).",
+  "Median ln2/lambda."
+ ],
+ "formulas": {
+  "tail": "e^{-lambda x}",
+  "min": "rate l1+l2"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Rate vs mean confuse."
+ ],
+ "standardTechniques": [
+  "Tail probability se."
+ ],
+ "topicId": "engineering-mathematics-probability:exponential-distribution"
+}

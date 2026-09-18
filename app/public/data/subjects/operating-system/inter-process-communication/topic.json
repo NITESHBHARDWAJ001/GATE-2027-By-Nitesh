@@ -1,0 +1,18 @@
+{
+ "topicId": "operating-system:inter-process-communication",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "IPC and I/O Redirection",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 1997-1997.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  1997
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

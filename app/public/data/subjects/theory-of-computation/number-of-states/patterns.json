@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_NUMBER_OF_STATES_01",
+  "name": "Number of States in Automata (PYQ type)",
+  "recognitionClueHinglish": "Number of States in Automata se related sawal.",
+  "whatShouldComeToMind": [
+   "Min DFA states; NFA to DFA blow-up; modular-product automata."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Classes."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.13.1",
+   "6.13.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Min DFA aur NFA states confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

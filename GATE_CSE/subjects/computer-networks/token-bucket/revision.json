@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Rate r tokens/s, capacity C; max burst time = C/(M - r).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Token Bucket se related sawal.",
+   "thinkThis": "P3_TOKEN_BUCKET_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Burst duration me M - r bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:token-bucket",
+ "revisionLevel": "short-form"
+}

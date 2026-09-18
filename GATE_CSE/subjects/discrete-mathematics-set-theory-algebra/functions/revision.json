@@ -1,0 +1,28 @@
+{
+  "topicId": "dm-set-theory-algebra-functions",
+  "revisionLevel": "short-form",
+  "coreIdea": "f:A→B, every input exactly one output. Injective=no-clash, Surjective=every-output-covered, Bijective=both. Counting formulas + composition rules are the two high-yield skills.",
+  "mustRememberFormulas": [
+    "Total functions = n^m",
+    "One-one = P(n,m) = n!/(n-m)! (needs m≤n)",
+    "Onto = Σ(-1)^k C(n,k)(n-k)^m (needs m≥n)",
+    "Bijections = n! (needs m=n)",
+    "Boolean functions of n variables = 2^(2^n)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "'how many functions/one-one/onto/bijective' between finite sets", "thinkThis": "FUNC_COUNTING_01"},
+    {"seeThis": "specific function formula given, asked injective/surjective, or g∘f composition question", "thinkThis": "FUNC_PROPERTY_PROOF_02"},
+    {"seeThis": "f(A), f⁻¹(B) notation combined with ∪/∩", "thinkThis": "FUNC_IMAGE_PREIMAGE_03"},
+    {"seeThis": "equivalence classes induced by a function, or matrices/subsets framed as functions", "thinkThis": "FUNC_QUOTIENT_ADVANCED_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Equal-finite-size shortcut (one-one⟺onto) does NOT apply to infinite sets",
+    "f(A∩B) ⊆ f(A)∩f(B), NOT necessarily equal (equality needs injective f)",
+    "Preimage f⁻¹ distributes over ∪ AND ∩ always — forward image only over ∪",
+    "g∘f onto ⟹ g onto (not f); g∘f one-one ⟹ f one-one (not g)"
+  ],
+  "highYieldPyqLessons": [
+    "Counting pattern is the biggest cluster (14/30) — drill n^m, P(n,m), and the onto inclusion-exclusion sum until automatic.",
+    "The asymmetric composition rule (which function is guaranteed one-one/onto) is a favorite exact-wording trap — memorize the direction, don't re-derive under time pressure."
+  ]
+}

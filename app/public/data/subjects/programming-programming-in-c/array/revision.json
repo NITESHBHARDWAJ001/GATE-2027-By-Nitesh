@@ -1,0 +1,25 @@
+{
+ "coreIdea": "a[i] = *(a+i); 2D row-major: a[i][j] at base + (i*cols + j)*size.",
+ "mustRememberFormulas": [
+  "rowMajor: base + (i*cols + j)*size"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Array declaration, base address; address/value of element.",
+   "thinkThis": "ARR_ADDRESS_01"
+  },
+  {
+   "seeThis": "Trace loops on arrays, strings, transpose bugs.",
+   "thinkThis": "ARR_OUTPUT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Element size.",
+  "Off-by-one."
+ ],
+ "highYieldPyqLessons": [
+  "Trace carefully; C semantics decide."
+ ],
+ "topicId": "programming-programming-in-c:array",
+ "revisionLevel": "short-form"
+}

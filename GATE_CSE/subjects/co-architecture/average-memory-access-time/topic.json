@@ -1,0 +1,19 @@
+{
+ "topicId": "co-architecture:average-memory-access-time",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "Average Memory Access Time",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 1992-2025.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  1992,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

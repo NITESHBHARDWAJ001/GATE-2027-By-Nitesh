@@ -1,0 +1,21 @@
+{
+  "topicId": "toc-context-free-language",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "name": "Context Free Language",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "35 PYQs extracted, tested 1987-2026 continuously. Next rung up the Chomsky hierarchy after Regular Language.",
+  "pyqCountExtracted": 35,
+  "yearsCovered": [1987,1992,1995,1996,1999,2000,2001,2003,2005,2006,2007,2009,2015,2016,2017,2019,2021,2022,2023,2025,2026],
+  "prerequisites": [
+    {"topic": "Regular Language", "subjectId": "theory-of-computation", "why": "CFL strictly contains Regular languages — needs the regular/non-regular judgment as a baseline."}
+  ],
+  "unlocks": [
+    {"topic": "Pushdown Automata", "subjectId": "theory-of-computation", "why": "PDA is the recognizing machine for exactly CFLs, same relationship as FA↔Regular."},
+    {"topic": "Grammar", "subjectId": "compiler-design", "why": "CFG (context-free grammar) is the direct foundation for parsing in Compiler Design."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

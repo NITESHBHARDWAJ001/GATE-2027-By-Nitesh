@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.9.1",
+  "localId": "8.9.1",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "number-relations",
+  "topic": "Number Relations",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "10",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A                                   D",
+  "answerVerified": true,
+  "questionTextRaw": "In the  array shown below, each cell of the first three rows has either a cross                  or a number. The number in a cell represents the count of the immediate neighboring cells (left, right, top, bottom, diagonals) NOT having a cross ( ). Given that the last row has no crosses , the sum of the four numbers to be filled in the last row is A.                                     B.                              C.                    D.",
+  "tagsRaw": "gatecse-2024-set2 analytical-aptitude  number-relations     two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 245
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NUMBER_RELATIONS_01"
+ }
+]

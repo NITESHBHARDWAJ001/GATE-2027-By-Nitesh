@@ -1,0 +1,29 @@
+{
+  "topicId": "algorithms-asymptotic-notations",
+  "revisionLevel": "short-form",
+  "coreIdea": "O=upper bound, Ω=lower bound, Θ=tight bound. Use limit-ratio test f(n)/g(n) as n→∞ to compare. Hierarchy: log < poly < exponential < factorial.",
+  "mustRememberFormulas": [
+    "lim f/g = 0 → f=o(g); = const → f=Θ(g); = ∞ → f=ω(g)",
+    "log n = o(n^ε) for any ε>0",
+    "n^k = o(c^n) for any k, c>1",
+    "Comparison sorting lower bound = Ω(n log n)",
+    "W(n) ≥ A(n) always (worst ≥ average)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "multiple functions, 'increasing order' asked", "thinkThis": "ASYM_ORDERING_01"},
+    {"seeThis": "'is f=O(g)/Ω(g)/Θ(g) true?' for specific functions", "thinkThis": "ASYM_TRUEFALSE_CLAIM_02"},
+    {"seeThis": "general property/rule about notation itself (not specific functions)", "thinkThis": "ASYM_PROPERTIES_03"},
+    {"seeThis": "W(n) vs A(n), or sorting lower bound mentioned", "thinkThis": "ASYM_WORSTAVG_LOWERBOUND_04"},
+    {"seeThis": "pseudocode with loops, complexity not yet given", "thinkThis": "ASYM_CODE_DERIVE_05"}
+  ],
+  "commonTrapsQuickList": [
+    "O and Ω are NOT symmetric (only Θ is)",
+    "f=O(g) ⟺ g=Ω(f) (this direction IS always true — don't confuse with the false 'g=O(f)' claim)",
+    "log's base doesn't matter for asymptotic comparison",
+    "Only W(n)≥A(n) is universally guaranteed — no other fixed ratio exists"
+  ],
+  "highYieldPyqLessons": [
+    "TRUE/FALSE claim verification (9/22) and ordering (7/22) together are ~73% of this topic — the limit-ratio test solves both.",
+    "n^(log n) vs (log n)^n type comparisons recur — always take logs of both sides first when exponents themselves contain n or log n."
+  ]
+}

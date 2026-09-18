@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-and-ds-data-structures:avl-tree",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-AVL-TR-01",
+   "patternId": "P3_AVL_TREE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Min nodes in AVL of height 2 (root height 0)?",
+   "solutionApproach": "N(0)=1,N(1)=2,N(2)=4.",
+   "answer": "4"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_CIRCLE_01",
+  "name": "Circle (PYQ type)",
+  "recognitionClueHinglish": "Circle se related sawal.",
+  "whatShouldComeToMind": [
+   "Area pi r^2, circumference 2 pi r."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. r."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.11.1",
+   "9.11.2",
+   "9.11.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Diameter vs radius."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

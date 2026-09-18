@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_NUMBER_SERIES_01",
+  "name": "Number Series (PYQ type)",
+  "recognitionClueHinglish": "Number Series se related sawal.",
+  "whatShouldComeToMind": [
+   "Next term pattern."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Differences."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.34.1",
+   "9.34.2",
+   "9.34.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Single pattern."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

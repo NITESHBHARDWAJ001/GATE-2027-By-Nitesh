@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Area, similarity, Pythagoras.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Triangles se related sawal.",
+   "thinkThis": "P3_TRIANGLES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Height vs side."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:triangles",
+ "revisionLevel": "short-form"
+}

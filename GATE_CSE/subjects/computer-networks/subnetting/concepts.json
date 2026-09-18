@@ -1,0 +1,42 @@
+{
+ "overview": "IP address = network part + host part. Subnet mask/CIDR prefix batata hai kitne bits network ke hain. GATE me 4 kaam: same network check, hosts/subnets count, CIDR block allocation/aggregation, aur routing table me longest prefix match.",
+ "whyItMatters": "21 PYQs, 2003-2025 me lagatar; routing-table aur mask calculation har 2-3 saal me aata hai.",
+ "coreConcept": "Network address = IP AND mask. Do addresses same network me hain agar dono ka (IP AND mask) barabar ho. Forwarding me longest matching prefix jeetta hai.",
+ "hinglishExplanation": "Mask me jitne 1 bits hain wo network hain, baaki 0 bits host hain. Host bits h ho to total addresses 2^h, usable hosts 2^h - 2 (all-0 = network address, all-1 = broadcast). Subnet banane par host bits me se kuch bits network me chale jaate hain.",
+ "formalDefinition": "For prefix /n: host bits = 32 - n; addresses per block = 2^(32-n); usable hosts = 2^(32-n) - 2.",
+ "importantProperties": [
+  "Network id = IP AND mask; broadcast = network id OR (NOT mask).",
+  "Usable hosts = 2^h - 2 (network + broadcast address chhodkar).",
+  "Subnets = 2^s jahan s = borrowed bits (GATE me kabhi all-0/all-1 subnet bhi allowed maani jaati hai; question ke hisaab se).",
+  "Class A /8, Class B /16, Class C /24.",
+  "CIDR block ka size power of 2 hona chahiye aur start address block-size ke multiple par align hona chahiye.",
+  "Longest prefix match: routing table me sabse bada matching prefix wali entry chuni jaati hai; default route 0.0.0.0/0.",
+  "Aggregation: kai prefix ko ek chhote prefix (bada block) me jod sakte ho jab wo contiguous aur aligned hon.",
+  "Variable-length subnets: bade requirement wale ko pehle allocate karo.",
+  "Same subnet ke hosts ko router ki zaroorat nahi; alag subnet me default gateway chahiye.",
+  "Mask 255.255.255.192 = /26, .224 = /27, .240 = /28, .248 = /29."
+ ],
+ "formulas": {
+  "networkId": "IP AND mask",
+  "broadcast": "networkId OR (NOT mask)",
+  "usableHosts": "2^(32-n) - 2",
+  "subnetCount": "2^(borrowed bits)",
+  "blockSize": "256 - (last non-255 mask octet)"
+ },
+ "keyPropertiesAndIdentities": [
+  "Mask octet values: 128,192,224,240,248,252,254,255 => block sizes 128,64,32,16,8,4,2,1.",
+  "Prefix /n me last non-255 octet ka block size = 2^(8 - (n mod 8))."
+ ],
+ "commonPitfalls": [
+  "-2 lagana bhool jaana (ya galat jagah lagana).",
+  "Longest prefix ki jagah pehli matching entry le lena.",
+  "Binary conversion me galti.",
+  "Broadcast ko host address maan lena."
+ ],
+ "standardTechniques": [
+  "Interesting octet lo: block size = 256 - mask octet; address kis block me hai nikaalo.",
+  "Routing: har prefix ke saath destination AND karo, matching ko compare karo, longest prefix chuno.",
+  "Variable subnet allocation: size ko next power of 2 par round up karo."
+ ],
+ "topicId": "cn-subnetting"
+}

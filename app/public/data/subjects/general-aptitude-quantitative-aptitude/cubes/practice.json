@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:cubes",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CUBES-01",
+   "patternId": "P3_CUBES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Cube side 3 volume?",
+   "solutionApproach": "27.",
+   "answer": "27"
+  }
+ ]
+}

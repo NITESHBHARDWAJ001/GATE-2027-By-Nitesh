@@ -1,0 +1,33 @@
+{
+ "topicId": "discrete-mathematics-combinatory:recurrence-relation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RECURR-01",
+   "patternId": "REC_BUILD_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Number of 3-bit strings with no two consecutive 1s?",
+   "solutionApproach": "a1=2, a2=3, a3=a2+a1.",
+   "answer": "5"
+  },
+  {
+   "practiceId": "AI-RECURREN-X02",
+   "patternId": "REC_SOLVE_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "a_n = a_{n-1} + a_{n-2}, a_1=1, a_2=2. a_6?",
+   "solutionApproach": "1,2,3,5,8,13.",
+   "answer": "13"
+  },
+  {
+   "practiceId": "AI-RECURREN-X03",
+   "patternId": "REC_BUILD_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Number of 4-bit strings with no two consecutive 1s?",
+   "solutionApproach": "a1=2,a2=3,a3=5,a4=8.",
+   "answer": "8"
+  }
+ ]
+}

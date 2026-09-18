@@ -1,0 +1,23 @@
+{
+ "overview": "AMAT = hit time + miss rate x miss penalty; multi-level cache.",
+ "whyItMatters": "3 PYQs extracted (1992-2025); P3 topic.",
+ "coreConcept": "AMAT = hit time + miss rate x miss penalty; multi-level cache.",
+ "hinglishExplanation": "Multi-level: AMAT = H1 + m1*(H2 + m2*Mem).",
+ "formalDefinition": "AMAT = hit time + miss rate x miss penalty; multi-level cache.",
+ "importantProperties": [
+  "AMAT = h + m x penalty.",
+  "Two-level: T = H1 + m1(H2 + m2 M).",
+  "Global vs local miss rate.",
+  "Simultaneous vs hierarchical access formula."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Local aur global miss rate mix."
+ ],
+ "standardTechniques": [
+  "1. Levels.",
+  "2. Nested formula."
+ ],
+ "topicId": "co-architecture:average-memory-access-time"
+}

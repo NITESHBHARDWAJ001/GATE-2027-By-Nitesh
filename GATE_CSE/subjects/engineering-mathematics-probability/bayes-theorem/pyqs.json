@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "engineering-mathematics-probability__7.1.1",
+  "localId": "7.1.1",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "bayes-theorem",
+  "topic": "Bayes Theorem",
+  "year": 2018,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "44",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "0.60 :",
+  "answerVerified": true,
+  "questionTextRaw": "Consider Guwahati,          and Delhi whose temperatures can be classified as high , medium and low . Let denote the probability that Guwahati has high temperature. Similarly,         and denotes the probability of Guwahati having medium and low temperatures respectively. Similarly, we use and            for Delhi. The following table gives the conditional probabilities for Delhi's temperature given Guwahati's temperature. Consider the first row in the table above. The first entry denotes that if Guwahati has high temperature                              then the probability of Delhi also having a high temperature                                         is   i.e.,                            . Similarly, the next two entries are                                                                                      . Similarly for the other rows. If it is known that                                                    , and                         , then the probability (correct to two decimal places) that Guwahati has high temperature given that Delhi has high temperature is ________.",
+  "tagsRaw": "gatecse-2018 probability  bayes-theorem  conditional-probability  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 200
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BAYES_THEOREM_01"
+ },
+ {
+  "pyqId": "engineering-mathematics-probability__7.1.2",
+  "localId": "7.1.2",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "bayes-theorem",
+  "topic": "Bayes Theorem",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "54",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "0.04 : 0.04",
+  "answerVerified": true,
+  "questionTextRaw": "A sender transmits a signal, which can be one of the two kinds: and with probabilities and respectively, to a receiver . In the graph below, the weight of edge                                 is the probability of receiving when is transmitted, where . For example, the probability that the received signal is given the transmitted signal was , is . If the received signal is                     the probability that the transmitted signal was (rounded to decimal places) is __________.",
+  "tagsRaw": "gatecse-2021-set1 probability  bayes-theorem  conditional-probability  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 200
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BAYES_THEOREM_01"
+ },
+ {
+  "pyqId": "engineering-mathematics-probability__7.1.3",
+  "localId": "7.1.3",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "bayes-theorem",
+  "topic": "Bayes Theorem",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "21",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "0.25:0.25",
+  "answerVerified": true,
+  "questionTextRaw": "There are three boxes containing white balls and black balls. Box - contains black and white balls. Box- contains black and white balls. Box - contains black and white balls. In a random experiment, one of these boxes is selected, where the probability of choosing Box- is , Box-2 is , and Box- is . A ball is drawn at random from the selected box. Given that the ball drawn is white, the probability that it is drawn from Box- is ____________ (Round off to two decimal places)",
+  "tagsRaw": "gateda-2025 probability   bayes-theorem  numerical-answers  one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 200
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BAYES_THEOREM_01"
+ }
+]

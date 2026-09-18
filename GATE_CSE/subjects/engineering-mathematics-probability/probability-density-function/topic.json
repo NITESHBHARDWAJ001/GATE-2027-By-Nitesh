@@ -1,0 +1,18 @@
+{
+ "topicId": "engineering-mathematics-probability:probability-density-function",
+ "subjectId": "engineering-mathematics-probability",
+ "subject": "Engineering Mathematics - Probability",
+ "name": "PDF-based Probability",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2003-2003.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2003
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

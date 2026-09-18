@@ -1,0 +1,40 @@
+{
+ "topicId": "os-virtual-memory",
+ "revisionLevel": "short-form",
+ "coreIdea": "VA=[page no|offset]. Page table size = 2^(page bits) x PTE. Multilevel: per-level bits = log2(page/PTE). EAT = weighted path times.",
+ "mustRememberFormulas": [
+  "offset=log2(page size)",
+  "PT size=2^(VA-offset) x PTE size",
+  "bits/level=log2(page size/PTE size)",
+  "EAT=(1-p)*mem+p*fault",
+  "tlb tag=VA-offset-log2(sets)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "VA/PA/page/PTE sizes, table size or levels",
+   "thinkThis": "VM_PAGETABLE_SIZE_01"
+  },
+  {
+   "seeThis": "hit ratio + TLB/mem/fault times, EAT",
+   "thinkThis": "VM_EAT_02"
+  },
+  {
+   "seeThis": "TLB entries/ways, tag or size",
+   "thinkThis": "VM_TLB_STRUCTURE_03"
+  },
+  {
+   "seeThis": "true/false about virtual memory / MMU",
+   "thinkThis": "VM_CONCEPT_04"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Include valid/dirty bits in PTE size when told",
+  "TLB miss with k-level table = k+1 memory accesses",
+  "Unit consistency (ms/ns)",
+  "Multilevel saves memory, not time"
+ ],
+ "highYieldPyqLessons": [
+  "Page-table-size/multilevel is ~40% of the topic and NAT-heavy since 2013.",
+  "Same address-split skill as Cache Memory."
+ ]
+}

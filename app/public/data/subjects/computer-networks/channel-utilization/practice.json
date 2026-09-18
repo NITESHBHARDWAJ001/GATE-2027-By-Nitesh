@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:channel-utilization",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CHANNE-01",
+   "patternId": "P3_CHANNEL_UTILIZATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Tt=1, Tp=4: U?",
+   "solutionApproach": "1/9.",
+   "answer": "11.1%"
+  }
+ ]
+}

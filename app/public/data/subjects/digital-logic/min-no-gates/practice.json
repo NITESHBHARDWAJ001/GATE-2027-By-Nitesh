@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:min-no-gates",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MIN-NO-01",
+   "patternId": "P3_MIN_NO_GATES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A+B ke liye NAND gates?",
+   "solutionApproach": "NOT(A) NAND NOT(B).",
+   "answer": "3 NAND"
+  }
+ ]
+}

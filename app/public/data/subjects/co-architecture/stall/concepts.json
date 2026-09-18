@@ -1,0 +1,22 @@
+{
+ "overview": "Effective CPI = 1 + stall cycles per instruction; execution time.",
+ "whyItMatters": "1 PYQs extracted (2022-2022); P3 topic.",
+ "coreConcept": "Effective CPI = 1 + stall cycles per instruction; execution time.",
+ "hinglishExplanation": "Base CPI 1 + hazards ki stall fraction.",
+ "formalDefinition": "Effective CPI = 1 + stall cycles per instruction; execution time.",
+ "importantProperties": [
+  "CPI = 1 + fraction x stalls.",
+  "Time = N x CPI / f.",
+  "Speedup = stages / CPI."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Stall per hazard vs per instruction."
+ ],
+ "standardTechniques": [
+  "1. CPI.",
+  "2. Time."
+ ],
+ "topicId": "co-architecture:stall"
+}

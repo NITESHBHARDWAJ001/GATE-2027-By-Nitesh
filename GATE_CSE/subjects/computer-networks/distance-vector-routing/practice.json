@@ -1,0 +1,24 @@
+{
+ "topicId": "computer-networks:distance-vector-routing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DISTAN-01",
+   "patternId": "DV_UPDATE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A-B cost 2, B-C cost 3. A's distance to C via B?",
+   "solutionApproach": "2+3.",
+   "answer": "5"
+  },
+  {
+   "practiceId": "AI-DISTANCE-X02",
+   "patternId": "DV_CONCEPT_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Count-to-infinity: DV or LS?",
+   "solutionApproach": "DV.",
+   "answer": "Distance vector"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "overview": "IPv4 header fields, TTL, fragmentation (MTU, offset, MF), NAT header changes.",
+ "whyItMatters": "12 PYQs extracted (2004-2024); P2 topic.",
+ "coreConcept": "MTU se bada datagram fragments me toota hai; offset 8-byte units me hota hai.",
+ "hinglishExplanation": "Data payload = MTU - header. Har fragment ka payload 8 ka multiple (last chhodkar). Fragment offset = start byte / 8. Reassembly sirf destination par. TTL har hop par kam hota hai.",
+ "formalDefinition": "MTU se bada datagram fragments me toota hai; offset 8-byte units me hota hai.",
+ "importantProperties": [
+  "Fragment payload = floor((MTU - hdr)/8)*8.",
+  "Offset = byte start / 8.",
+  "MF = 1 except last.",
+  "Reassembly destination par.",
+  "Router TTL aur checksum badalta hai.",
+  "NAT: source IP/port aur checksum badalta hai.",
+  "TTL loops ko rokta hai."
+ ],
+ "formulas": {
+  "fragPayload": "floor((MTU-H)/8)*8",
+  "offset": "start/8"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Header size subtract bhoolna.",
+  "Offset ko bytes me dena."
+ ],
+ "standardTechniques": [
+  "Fragment table."
+ ],
+ "topicId": "computer-networks:ip-packet"
+}

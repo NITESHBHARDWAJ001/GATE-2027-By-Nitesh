@@ -1,0 +1,20 @@
+{
+ "overview": "Single input change par output glitch; redundant term se remove.",
+ "whyItMatters": "1 PYQs extracted (2006-2006); P4 topic.",
+ "coreConcept": "Single input change par output glitch; redundant term se remove.",
+ "hinglishExplanation": "K-map me adjacent groups ke beech gap = static-1 hazard.",
+ "formalDefinition": "Single input change par output glitch; redundant term se remove.",
+ "importantProperties": [
+  "Add consensus term.",
+  "Hazard-free SOP me overlapping groups."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Hazard aur race confuse."
+ ],
+ "standardTechniques": [
+  "1. Adjacent groups."
+ ],
+ "topicId": "digital-logic:static-hazard"
+}

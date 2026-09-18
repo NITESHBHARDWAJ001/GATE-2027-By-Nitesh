@@ -1,0 +1,30 @@
+[
+ {
+  "patternId": "P3_FRAGMENTATION_01",
+  "name": "IP Fragmentation (Multi-Network) (PYQ type)",
+  "recognitionClueHinglish": "IP Fragmentation (Multi-Network) se related sawal.",
+  "whatShouldComeToMind": [
+   "MTU boundaries par fragments; total header overhead; offset/MF."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Payload per fragment.",
+   "2. Count."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.14.1",
+   "2.14.2",
+   "2.14.3",
+   "2.14.4",
+   "2.14.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Header count ek hi maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

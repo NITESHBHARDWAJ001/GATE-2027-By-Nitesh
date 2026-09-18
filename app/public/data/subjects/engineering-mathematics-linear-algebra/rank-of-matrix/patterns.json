@@ -1,0 +1,54 @@
+[
+ {
+  "patternId": "RNK_COMPUTE_01",
+  "name": "Rank of a Given Matrix / Parameter",
+  "recognitionClueHinglish": "Matrix ya parameterised matrix ka rank.",
+  "whatShouldComeToMind": [
+   "Echelon."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Reduce.",
+   "2. Count."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.9.1",
+   "6.9.2",
+   "6.9.3",
+   "6.9.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Parameter."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "RNK_PROPERTIES_02",
+  "name": "Rank of Products and Solution Spaces",
+  "recognitionClueHinglish": "Rank of AB, relation with det/solutions.",
+  "whatShouldComeToMind": [
+   "Rank inequalities."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Apply."
+  ],
+  "formulasUsed": [
+   "rankNullity"
+  ],
+  "pyqExamples": [
+   "6.9.5",
+   "6.9.6",
+   "6.9.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

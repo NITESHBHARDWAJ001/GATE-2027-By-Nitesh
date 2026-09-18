@@ -1,0 +1,19 @@
+{
+ "overview": "Percent change, successive percentages.",
+ "whyItMatters": "3 PYQs extracted (2014-2024); P3 topic.",
+ "coreConcept": "Percent change, successive percentages.",
+ "hinglishExplanation": "x% of y = xy/100.",
+ "formalDefinition": "Percent change, successive percentages.",
+ "importantProperties": [
+  "Successive: (1+a)(1+b)-1."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Base change."
+ ],
+ "standardTechniques": [
+  "1. Base."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:percentage"
+}

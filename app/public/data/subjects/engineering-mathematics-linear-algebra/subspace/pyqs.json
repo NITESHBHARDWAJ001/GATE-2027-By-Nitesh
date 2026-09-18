@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "engineering-mathematics-linear-algebra__6.12.1",
+  "localId": "6.12.1",
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "subject": "Engineering Mathematics: Linear Algebra",
+  "topicSlug": "subspace",
+  "topic": "Subspace",
+  "year": 2024,
+  "examStream": "DS&AI",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "37",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A;C",
+  "answerVerified": true,
+  "questionTextRaw": "Select all choices that are subspaces of . Note: denotes the set of real numbers. A. B. C. D.",
+  "tagsRaw": "gate-ds-ai-2024 linear-algebra  vector-space  subspace  multiple-selects  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 181
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SUBSPACE_01"
+ }
+]

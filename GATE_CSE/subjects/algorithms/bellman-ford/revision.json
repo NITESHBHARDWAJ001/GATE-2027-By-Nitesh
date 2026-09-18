@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Negative edge weights ke saath single-source shortest path; O(VE).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bellman-Ford Algorithm se related sawal.",
+   "thinkThis": "P4_BELLMAN_FORD_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Dijkstra jaisa greedy maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:bellman-ford",
+ "revisionLevel": "short-form"
+}

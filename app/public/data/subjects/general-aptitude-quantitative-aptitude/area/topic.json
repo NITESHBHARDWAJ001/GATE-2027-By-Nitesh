@@ -1,0 +1,18 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:area",
+ "subjectId": "general-aptitude-quantitative-aptitude",
+ "subject": "General Aptitude - Quantitative Aptitude",
+ "name": "Area and Mensuration",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2025-2025.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

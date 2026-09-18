@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Variable live: aage kahin use ho aur beech me redefine na ho; backward dataflow.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Live Variable Analysis se related sawal.",
+   "thinkThis": "P3_LIVE_VARIABLE_ANALYSIS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Forward direction lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:live-variable-analysis",
+ "revisionLevel": "short-form"
+}

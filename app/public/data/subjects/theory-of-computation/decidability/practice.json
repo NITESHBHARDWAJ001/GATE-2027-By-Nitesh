@@ -1,0 +1,42 @@
+{
+  "topicId": "toc-decidability",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-DEC-01",
+      "patternId": "DEC_CLASSIFY_PROBLEM_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is 'given a DFA D, is L(D) empty?' decidable?",
+      "solutionApproach": "Yes — check if any accepting state is reachable from the start state via BFS/DFS on the DFA's transition graph. This is a simple, always-halting algorithm.",
+      "answer": "Decidable — reachability check on the DFA graph."
+    },
+    {
+      "practiceId": "AI-DEC-02",
+      "patternId": "DEC_CLASSIFY_PROBLEM_01",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is 'given a Turing machine M, is L(M) empty?' decidable?",
+      "solutionApproach": "No — 'is L(M) empty' is a non-trivial semantic property of the TM's language. By Rice's Theorem, this is undecidable.",
+      "answer": "Undecidable — by Rice's Theorem (non-trivial semantic property of a TM's language)."
+    },
+    {
+      "practiceId": "AI-DEC-03",
+      "patternId": "DEC_RECURSIVE_RE_THEORY_03",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "If both L and complement(L) are known to be Recursively Enumerable, what can you conclude about L?",
+      "solutionApproach": "By the theorem, L is Recursive (decidable) — this is exactly the iff condition.",
+      "answer": "L is Recursive (decidable)."
+    },
+    {
+      "practiceId": "AI-DEC-04",
+      "patternId": "DEC_REDUCTION_PROOF_02",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Sketch a reduction-based proof that 'given TM M, does M halt on ALL inputs?' is undecidable.",
+      "solutionApproach": "Assume decidable via decider D. Given an arbitrary (TM T, input w) instance of the Halting Problem, construct TM M' that: ignores its own input, simulates T on w, and halts if/when T halts on w (loops forever otherwise). M' halts on ALL inputs iff T halts on w. Run D on M' — this decides whether T halts on w, solving the Halting Problem. Contradiction, since Halting Problem is undecidable.",
+      "answer": "Reduction from Halting Problem via constructing M' that halts-on-all-inputs iff the original (T,w) halts — contradiction proves undecidability."
+    }
+  ]
+}

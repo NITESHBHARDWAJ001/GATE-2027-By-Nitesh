@@ -1,0 +1,19 @@
+{
+ "topicId": "digital-logic:shift-registers",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Shift Registers",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 1987-1991.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  1987,
+  1991
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

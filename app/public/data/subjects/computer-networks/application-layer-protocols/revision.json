@@ -1,0 +1,23 @@
+{
+ "coreIdea": "Application layer PDU = message; protocols apne ports/transport (TCP/UDP) par chalte hain.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "SMTP/POP/IMAP/FTP/HTTP/DNS.",
+   "thinkThis": "APP_PROTO_CONCEPT_01"
+  },
+  {
+   "seeThis": "Kitne RTT/steps me page load ya name resolve.",
+   "thinkThis": "APP_TIMING_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Iterative count.",
+  "Stateful/stateless."
+ ],
+ "highYieldPyqLessons": [
+  "Mostly recall; RTT counting NAT occasionally."
+ ],
+ "topicId": "computer-networks:application-layer-protocols",
+ "revisionLevel": "short-form"
+}

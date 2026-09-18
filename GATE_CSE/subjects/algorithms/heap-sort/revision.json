@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Build heap O(n), n extract-max O(n log n); in-place, unstable.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Heap Sort se related sawal.",
+   "thinkThis": "P3_HEAP_SORT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Build-heap ko O(n log n) maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:heap-sort",
+ "revisionLevel": "short-form"
+}

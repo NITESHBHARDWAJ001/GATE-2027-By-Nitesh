@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "co-architecture__1.6.1",
+  "localId": "1.6.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "conflict-misses",
+  "topic": "Conflict Misses",
+  "year": 2017,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "51",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "76",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a -way set associative cache with blocks and uses                                        replacement. Initially the cache is empty. Conflict misses are those misses which occur due to the contention of multiple blocks for the same cache set. Compulsory misses occur due to first time access to the block. The following sequence of access to memory blocks : is repeated times. The number of conflict misses experienced by the cache is _________ .",
+  "tagsRaw": "gatecse-2017-set1 co-and-architecture  cache-memory   conflict-misses  normal  numerical-answers",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 49
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_CONFLICT_MISSES_01"
+ }
+]

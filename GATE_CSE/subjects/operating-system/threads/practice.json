@@ -1,0 +1,42 @@
+{
+ "topicId": "operating-system:threads",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-THREAD-01",
+   "patternId": "THR_SHARED_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Do threads of the same process share their stack?",
+   "solutionApproach": "No, stack is private.",
+   "answer": "No"
+  },
+  {
+   "practiceId": "AI-THREAD-02",
+   "patternId": "THR_USER_KERNEL_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "One user-level thread does a blocking system call. Effect?",
+   "solutionApproach": "Kernel sees one process, all threads block.",
+   "answer": "All threads of the process block"
+  },
+  {
+   "practiceId": "AI-THREADS-X03",
+   "patternId": "THR_SHARED_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Threads of one process: which is private, heap or stack?",
+   "solutionApproach": "Stack private.",
+   "answer": "Stack"
+  },
+  {
+   "practiceId": "AI-THREADS-X04",
+   "patternId": "THR_CODE_03",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Two threads each execute x = x + 1 once on shared x=0 without locks. Possible final values?",
+   "solutionApproach": "Lost update possible.",
+   "answer": "1 or 2"
+  }
+ ]
+}

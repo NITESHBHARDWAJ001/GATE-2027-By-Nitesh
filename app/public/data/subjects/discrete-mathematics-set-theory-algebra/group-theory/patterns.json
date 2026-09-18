@@ -1,0 +1,121 @@
+[
+  {
+    "patternId": "GRP_STRUCTURE_ID_01",
+    "name": "Structure Identification (Semigroup / Monoid / Group / Abelian Group / Ring)",
+    "recognitionClueHinglish": "Ek (Set, Operation) pair diya hai (jaise matrices under multiplication, integers mod n, strings under concatenation) aur poocha hai ye Semigroup/Monoid/Group/Abelian Group hai ya nahi, ya kaunsa statement TRUE hai — ye is topic ka sabse bada pattern hai (33 me se 14 PYQs).",
+    "whatShouldComeToMind": [
+      "Run the checklist IN ORDER: Closure? → Associative? → Identity exists? → Every element has inverse? → Commutative (for Abelian)?",
+      "Stop at the first failure and name the highest level reached (e.g., 'closure+associative but no identity → Semigroup only').",
+      "For matrix/modular-arithmetic sets, the most common failure point is INVERSE (e.g., 0 has no multiplicative inverse, singular matrices aren't invertible)."
+    ],
+    "conceptsRequired": ["Semigroup/Monoid/Group/Abelian definitions", "Modular arithmetic basics", "Matrix invertibility"],
+    "generalSolvingApproach": [
+      "1. Write down the set and the operation precisely.",
+      "2. Closure: does combining two elements of the set always stay in the set?",
+      "3. Associativity: almost always holds for standard operations (+, ×, matrix mult, concatenation) — usually safe to assume true unless the operation is custom-defined.",
+      "4. Identity: does a neutral element exist WITHIN the set?",
+      "5. Inverse: does EVERY element (not just some) have an inverse within the set?",
+      "6. If all four hold, check commutativity for Abelian classification."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.4.5","4.4.6","4.4.8","4.4.9","4.4.10","4.4.13","4.4.14","4.4.15","4.4.17","4.4.18","4.4.19","4.4.23","4.4.31","4.4.32"],
+    "variationsObserved": [
+      "Custom-defined operator (not standard +/×) — must verify associativity explicitly rather than assuming it, since custom operators can fail associativity.",
+      "Incomplete operation table given, asked to complete it consistent with group axioms.",
+      "'Which statement is FALSE' framing — test each option against the checklist rather than assuming."
+    ],
+    "commonTraps": [
+      "Custom operators: NOT assuming associativity holds without checking — this is the #1 trap in recent (2023-2024) MSQ questions.",
+      "0 under multiplication, or singular matrices — always fail the inverse check.",
+      "Non-empty string concatenation set WITHOUT the empty string — fails identity (no neutral element) unless empty string is included."
+    ],
+    "edgeCases": ["Empty set trivially fails (no identity possible)."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "GRP_LAGRANGE_SUBGROUP_02",
+    "name": "Lagrange's Theorem / Subgroup Order Questions",
+    "recognitionClueHinglish": "|G| ka order diya hai aur subgroup ka possible/largest/exact order poocha hai, ya coset-based proof poocha hai — ye Lagrange's Theorem application pattern hai.",
+    "whatShouldComeToMind": [
+      "|H| must divide |G| — first list all divisors of |G|.",
+      "'Largest PROPER subgroup' = largest divisor of |G| that is strictly less than |G|.",
+      "For |G| = prime number, the ONLY possible subgroup orders are 1 and |G| itself (no proper nontrivial subgroup)."
+    ],
+    "conceptsRequired": ["Lagrange's Theorem", "Coset partition idea", "Divisors/factorization"],
+    "generalSolvingApproach": [
+      "1. Factorize |G| to list all its divisors — these are ALL the theoretically possible subgroup orders.",
+      "2. If 'largest proper subgroup' is asked: pick the largest divisor strictly less than |G|.",
+      "3. If a constraint is given (e.g., 'size of H is at least k'), filter the divisor list by that constraint and pick accordingly.",
+      "4. For proof-style coset questions: remember cosets of H partition G into equal-size blocks of size |H|, hence |G|=|H|×(number of cosets)."
+    ],
+    "formulasUsed": ["lagrangeTheorem", "cosetPartition"],
+    "pyqExamples": ["4.4.12","4.4.24","4.4.25","4.4.26","4.4.28","4.4.29"],
+    "variationsObserved": ["NAT-style direct numeric answer (2018, 2020, 2014 papers) instead of MCQ.", "Combined with cyclic-group reasoning (is H necessarily cyclic given |G| and |H|)."],
+    "commonTraps": ["Forgetting 'PROPER' means excluding G itself.", "Assuming every divisor of |G| is GUARANTEED to have an actual subgroup of that order — Lagrange only gives a NECESSARY condition, not sufficient (though GATE questions are usually built so the necessary-condition answer is correct)."],
+    "edgeCases": ["|G| prime ⟹ only subgroups are {e} and G."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "GRP_PROPERTY_PROOF_03",
+    "name": "Group Property Proofs (abelian conditions, even-order element, equivalence relations on groups)",
+    "recognitionClueHinglish": "Descriptive/proof-style question: 'show that G is abelian if...', 'show that a group of even order has an element of order 2', ya ek relation define hoti hai on group elements aur poocha hai equivalence relation hai ya nahi — ye proof-reasoning pattern hai.",
+    "whatShouldComeToMind": [
+      "'a*a=e for all a ⟹ abelian' — standard proof: expand (a*b)*(a*b)=e, manipulate using inverses to get a*b=b*a.",
+      "Even-order group has an element of order 2: pair up elements with their inverses (a and a⁻¹); elements NOT self-paired come in pairs, so an odd leftover count forces at least one self-inverse non-identity element.",
+      "For 'is this relation an equivalence relation on G' questions, run the standard Reflexive/Symmetric/Transitive check (reuse the Relations topic's pattern)."
+    ],
+    "conceptsRequired": ["Group axioms", "Basic proof technique", "Relations property-checking (cross-link)"],
+    "generalSolvingApproach": [
+      "1. Identify exactly what needs to be shown (abelian? subgroup? equivalence relation?).",
+      "2. Use group axioms (existence of inverse, associativity, identity) as your only allowed tools — don't assume commutativity unless proving/given.",
+      "3. For 'does there exist an element with property X' questions, use counting/pairing arguments (like the even-order pairing trick) rather than brute-force search."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.4.1","4.4.3","4.4.4","4.4.7","4.4.11","4.4.21","4.4.27","4.4.30"],
+    "variationsObserved": ["Multi-part descriptive proofs (pre-2005) building up a bigger result step by step (e.g., leading to Lagrange's theorem itself)."],
+    "commonTraps": ["Assuming a property (like commutativity) that hasn't been proven or given.", "Missing the pairing/counting trick for even-order existence proofs and trying exhaustive case analysis instead."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "GRP_CYCLIC_GENERATOR_04",
+    "name": "Cyclic Groups, Generators & Operation Tables",
+    "recognitionClueHinglish": "'Generators of a cyclic group', 'complete the operation table', ya 'number of non-isomorphic abelian groups of order n' poocha hai — ye cyclic-group-structure pattern hai.",
+    "whatShouldComeToMind": [
+      "An element g generates the whole cyclic group of order n iff gcd(g's index, n) = 1 — count of generators = φ(n) (Euler's totient).",
+      "Number of non-isomorphic abelian groups of order n = number of ways to write n's prime factorization exponents as partitions (fundamental theorem of finite abelian groups).",
+      "Operation tables must be LATIN SQUARES (each row/column is a permutation of the group elements) — use this to fill missing entries."
+    ],
+    "conceptsRequired": ["Cyclic groups", "Euler's totient function φ(n)", "Latin square property of group tables"],
+    "generalSolvingApproach": [
+      "1. For generator-counting: find n = |G|, compute φ(n), that's the count of generators (for a cyclic group).",
+      "2. For incomplete table completion: use the Latin-square constraint — each row and column must contain every group element exactly once.",
+      "3. For 'how many self-inverse elements' (a=a⁻¹): solve a*a=e directly within the given group structure."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.4.16","4.4.20","4.4.22","4.4.33"],
+    "variationsObserved": [],
+    "commonTraps": ["Forgetting operation tables must be Latin squares — missing entries can often be deduced by elimination alone.", "Confusing 'order of an element' (smallest k with a^k=e) with 'order of the group'."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "GRP_MISC_05",
+    "name": "Misc (matching-type / non-standard formats)",
+    "recognitionClueHinglish": "Old-style 'match the following' or other non-standard descriptive format — rare, low-value, just read carefully.",
+    "whatShouldComeToMind": ["No fixed method — read carefully, apply relevant definitions directly."],
+    "conceptsRequired": [],
+    "generalSolvingApproach": [],
+    "formulasUsed": [],
+    "pyqExamples": ["4.4.2"],
+    "variationsObserved": [],
+    "commonTraps": [],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": false
+  }
+]

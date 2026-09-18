@@ -1,0 +1,25 @@
+{
+ "overview": "SR latch, JK/T/D flip-flops, characteristic tables, number of states in sequential circuit.",
+ "whyItMatters": "7 PYQs extracted (2001-2025); P2 topic.",
+ "coreConcept": "Latch level-sensitive, flip-flop edge-triggered.",
+ "hinglishExplanation": "NAND SR latch me S=R=0 (active-low) invalid/forbidden. Sequential circuit ke states ki count me sirf reachable/distinct states gino.",
+ "formalDefinition": "Latch level-sensitive, flip-flop edge-triggered.",
+ "importantProperties": [
+  "NAND latch S'R': 11 hold, 00 invalid.",
+  "JK: 11 toggle.",
+  "T=1 toggle.",
+  "n flip-flops <= 2^n states.",
+  "Oscillation feedback me race se."
+ ],
+ "formulas": {
+  "JK": "Q+ = JQ' + K'Q"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Reachable vs all states."
+ ],
+ "standardTechniques": [
+  "State diagram."
+ ],
+ "topicId": "digital-logic:flip-flop"
+}

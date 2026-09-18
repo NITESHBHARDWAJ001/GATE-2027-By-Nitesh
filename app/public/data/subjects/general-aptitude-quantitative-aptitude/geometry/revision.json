@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Angles, triangles, circles ki basic properties.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Geometry se related sawal.",
+   "thinkThis": "P3_GEOMETRY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Diagram misread."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:geometry",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_REDUCTION_01",
+  "name": "Boolean Reduction (PYQ type)",
+  "recognitionClueHinglish": "Boolean Reduction se related sawal.",
+  "whatShouldComeToMind": [
+   "Expression simplify aur equivalent expressions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Laws apply."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.32.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Consensus term miss."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

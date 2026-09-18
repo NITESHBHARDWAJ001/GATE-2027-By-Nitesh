@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Sentence completion via grammar rules.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "English Grammar (Articles, Prepositions, Tenses mixed) se related sawal.",
+   "thinkThis": "P3_ENGLISH_GRAMMAR_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Idiom ko literal."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:english-grammar",
+ "revisionLevel": "short-form"
+}

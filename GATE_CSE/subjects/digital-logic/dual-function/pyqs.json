@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "digital-logic__4.14.1",
+  "localId": "4.14.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "dual-function",
+  "topic": "Dual Function",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "The dual of a Boolean function                                                                , written as is the same expression as that of . The number of self-dual functions with with and swapped. is said to be self-dual if Boolean variables is A.                                          B.                                   C.                    D.",
+  "tagsRaw": "gatecse-2014-set2 digital-logic  normal     dual-function  boolean-algebra",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 323
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_DUAL_FUNCTION_01"
+ }
+]

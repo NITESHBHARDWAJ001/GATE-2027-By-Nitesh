@@ -1,0 +1,34 @@
+{
+ "topicId": "em-prob-expectation",
+ "subjectId": "engineering-mathematics-probability",
+ "subject": "Engineering Mathematics - Probability",
+ "name": "Expectation",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "15 PYQs extracted, 1999-2026; regular.",
+ "pyqCountExtracted": 15,
+ "yearsCovered": [
+  1999,
+  2004,
+  2006,
+  2011,
+  2013,
+  2014,
+  2017,
+  2021,
+  2024,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [
+  {
+   "topic": "Probability",
+   "subjectId": "engineering-mathematics-probability",
+   "why": "Foundations."
+  }
+ ],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

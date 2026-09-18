@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:tables",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TABLES-01",
+   "patternId": "P3_TABLES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Table lookup step?",
+   "solutionApproach": "Row-col intersect.",
+   "answer": "Intersection"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "break na ho to fall-through.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Switch-Case in C se related sawal.",
+   "thinkThis": "P4_SWITCH_CASE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "break bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:switch-case",
+ "revisionLevel": "short-form"
+}

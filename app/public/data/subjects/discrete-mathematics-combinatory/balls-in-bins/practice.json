@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-combinatory:balls-in-bins",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BALLS--01",
+   "patternId": "P3_BALLS_IN_BINS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "5 identical balls, 3 bins?",
+   "solutionApproach": "C(7,2).",
+   "answer": "21"
+  }
+ ]
+}

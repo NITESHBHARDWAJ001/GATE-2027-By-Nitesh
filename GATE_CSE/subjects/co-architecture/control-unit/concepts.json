@@ -1,0 +1,21 @@
+{
+ "overview": "Microprogrammed easy to modify par slower; hardwired fast.",
+ "whyItMatters": "1 PYQs extracted (1987-1987); P4 topic.",
+ "coreConcept": "Microprogrammed easy to modify par slower; hardwired fast.",
+ "hinglishExplanation": "Hardwired logic gates se, microprogrammed control memory se.",
+ "formalDefinition": "Microprogrammed easy to modify par slower; hardwired fast.",
+ "importantProperties": [
+  "Hardwired faster.",
+  "Microprogrammed flexible, easy design.",
+  "RISC usually hardwired."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Microprogrammed ko faster maan lena."
+ ],
+ "standardTechniques": [
+  "1. Speed vs flexibility."
+ ],
+ "topicId": "co-architecture:control-unit"
+}

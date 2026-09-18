@@ -1,0 +1,20 @@
+{
+ "topicId": "compiler-design:static-single-assignment",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Static Single Assignment (SSA)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 2015-2017.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  2015,
+  2016,
+  2017
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,22 @@
+{
+ "overview": "Base case + inductive step.",
+ "whyItMatters": "2 PYQs extracted (1995-2000); P4 topic.",
+ "coreConcept": "Base case + inductive step.",
+ "hinglishExplanation": "P(k) true maan kar P(k+1) prove.",
+ "formalDefinition": "Base case + inductive step.",
+ "importantProperties": [
+  "Base case.",
+  "Inductive hypothesis.",
+  "Strong induction variant."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Base case skip."
+ ],
+ "standardTechniques": [
+  "1. Base.",
+  "2. Step."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:mathematical-induction"
+}

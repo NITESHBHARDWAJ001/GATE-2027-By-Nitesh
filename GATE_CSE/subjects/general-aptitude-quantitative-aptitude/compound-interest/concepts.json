@@ -1,0 +1,19 @@
+{
+ "overview": "A = P(1+r/n)^(nt).",
+ "whyItMatters": "1 PYQs extracted (2024-2024); P3 topic.",
+ "coreConcept": "A = P(1+r/n)^(nt).",
+ "hinglishExplanation": "Interest pe interest.",
+ "formalDefinition": "A = P(1+r/n)^(nt).",
+ "importantProperties": [
+  "CI - SI for 2 years = P(r/100)^2."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Compounding period."
+ ],
+ "standardTechniques": [
+  "1. P, r, t."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:compound-interest"
+}

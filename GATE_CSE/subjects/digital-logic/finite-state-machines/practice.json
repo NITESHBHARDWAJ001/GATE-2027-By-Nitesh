@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:finite-state-machines",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-FINITE-01",
+   "patternId": "P3_FINITE_STATE_MACHINES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Serial adder ke liye states?",
+   "solutionApproach": "Carry 0/1.",
+   "answer": "2"
+  }
+ ]
+}

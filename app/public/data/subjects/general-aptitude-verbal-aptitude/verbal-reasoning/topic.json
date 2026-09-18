@@ -1,0 +1,25 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:verbal-reasoning",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Verbal Reasoning (Logical Inference from Text)",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "11 PYQs extracted, 2012-2021.",
+ "pyqCountExtracted": 11,
+ "yearsCovered": [
+  2012,
+  2014,
+  2015,
+  2016,
+  2017,
+  2019,
+  2020,
+  2021
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

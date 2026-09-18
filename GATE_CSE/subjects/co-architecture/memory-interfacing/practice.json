@@ -1,0 +1,33 @@
+{
+ "topicId": "co-architecture:memory-interfacing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MEMORY-01",
+   "patternId": "MI_ADDR_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "64 KB word-addressable, word = 2 B. Address bits?",
+   "solutionApproach": "32K locations.",
+   "answer": "15"
+  },
+  {
+   "practiceId": "AI-MEMORY-I-X02",
+   "patternId": "MI_ADDR_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "1 MB byte-addressable memory: address bits?",
+   "solutionApproach": "2^20.",
+   "answer": "20"
+  },
+  {
+   "practiceId": "AI-MEMORY-I-X03",
+   "patternId": "MI_INTERLEAVE_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Low-order interleaving: consecutive words go to?",
+   "solutionApproach": "Consecutive banks.",
+   "answer": "Different banks"
+  }
+ ]
+}

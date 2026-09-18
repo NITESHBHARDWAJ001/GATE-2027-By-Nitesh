@@ -1,0 +1,33 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:vector-space",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-VECTOR-01",
+   "patternId": "VS_DIMENSION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "U,W 3-dim subspaces of R^4. Min dim of U n W?",
+   "solutionApproach": "3+3-4.",
+   "answer": "2"
+  },
+  {
+   "practiceId": "AI-VECTOR-S-X02",
+   "patternId": "VS_DIMENSION_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Basis size of subspace {x in R^3: x1+x2+x3=0}?",
+   "solutionApproach": "Dimension 2.",
+   "answer": "2"
+  },
+  {
+   "practiceId": "AI-VECTOR-S-X03",
+   "patternId": "VS_GEOMETRY_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Are (1,0),(0,1),(1,1) independent in R^2?",
+   "solutionApproach": "3 vectors in 2-dim.",
+   "answer": "No"
+  }
+ ]
+}

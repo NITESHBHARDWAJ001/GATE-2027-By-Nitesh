@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:least-recently-used",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LEAST--01",
+   "patternId": "P3_LEAST_RECENTLY_USED_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Page 4 KB, int 4 B: ek page me kitne ints?",
+   "solutionApproach": "4096/4.",
+   "answer": "1024"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:singular-value-decomposition",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SINGUL-01",
+   "patternId": "P3_SINGULAR_VALUE_DECOMPOSI_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A^T A trace 25: sum sigma^2?",
+   "solutionApproach": "Trace.",
+   "answer": "25"
+  }
+ ]
+}

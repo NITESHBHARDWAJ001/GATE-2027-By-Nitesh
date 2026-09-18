@@ -1,0 +1,19 @@
+{
+ "topicId": "computer-networks:bridges",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "Bridges (Transparent, Spanning Tree)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 2004-2006.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  2004,
+  2006
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

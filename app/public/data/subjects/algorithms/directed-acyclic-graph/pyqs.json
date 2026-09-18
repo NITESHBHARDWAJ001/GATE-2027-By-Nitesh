@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "algorithms__1.14.1",
+  "localId": "1.14.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "directed-acyclic-graph",
+  "topic": "Directed Acyclic Graph",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "55",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "929 : 929",
+  "answerVerified": true,
+  "questionTextRaw": "In a directed acyclic graph with a source vertex , the                                                of a directed path is defined to be the product of the weights of the edges on the path. Further, for a vertex other than , the quality-score of is defined to be the maximum among the quality-scores of all the paths from to . The quality-score of is assumed to be . The sum of the quality-scores of all vertices on the graph shown above is _______",
+  "tagsRaw": "gatecse-2021-set2 algorithms  graph-algorithms  directed-acyclic-graph  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 37
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DIRECTED_ACYCLIC_GRAPH_01"
+ },
+ {
+  "pyqId": "algorithms__1.14.2",
+  "localId": "1.14.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "directed-acyclic-graph",
+  "topic": "Directed Acyclic Graph",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "27",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Let be a weighted directed acyclic graph with edges and vertices. Given and a source vertex in , which one of the following options gives the worst case time complexity of the fastest algorithm to find the lengths of shortest paths from to all vertices that are reachable from in A.                                                                      B. C.                                                                                 D.",
+  "tagsRaw": "gatecse-2026-set2 algorithms shortest-path directed-acyclic-graph time-complexity two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 37
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DIRECTED_ACYCLIC_GRAPH_01"
+ }
+]

@@ -1,0 +1,32 @@
+[
+ {
+  "patternId": "IND_TEST_01",
+  "name": "Independence Test / Union of Independent Events",
+  "recognitionClueHinglish": "Events ka independence ya at-least-one probability.",
+  "whatShouldComeToMind": [
+   "Product rule."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Compute P(A),P(B),P(AnB)."
+  ],
+  "formulasUsed": [
+   "union"
+  ],
+  "pyqExamples": [
+   "7.10.1",
+   "7.10.2",
+   "7.10.3",
+   "7.10.4",
+   "7.10.5",
+   "7.10.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Exclusive vs independent."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ }
+]

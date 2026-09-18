@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.5.1",
+  "localId": "9.5.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "area",
+  "topic": "Area",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "2006 A",
+  "answerVerified": true,
+  "questionTextRaw": "In the diagram, the lines QR and ST are parallel to each other. The shortest distance between these two lines is half the shortest distance between the point P and line QR. What is the ratio of the area of the triangle PST to the area of the trapezium SQRT? Note: The figure shown is representative. A.                                       B.                               C.                  D.",
+  "tagsRaw": "gatecse2025-set1 quantitative-aptitude geometry area two-marks  Arithmetic Series (3)",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 267
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_AREA_01"
+ }
+]

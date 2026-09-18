@@ -1,0 +1,33 @@
+{
+ "topicId": "os-disk-scheduling",
+ "revisionLevel": "short-form",
+ "coreIdea": "Servicing order nikaalo, phir consecutive distances jodo. SCAN end tak, LOOK last request tak, C-* ek direction.",
+ "mustRememberFormulas": [
+  "total = sum |consecutive cylinders|",
+  "avg rotational latency = half rotation = 30/RPM s",
+  "access = seek + latency + transfer"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "queue + head position + algorithm, total seek",
+   "thinkThis": "DSK_HEAD_MOVEMENT_01"
+  },
+  {
+   "seeThis": "SSTF direction/throughput/starvation claim",
+   "thinkThis": "DSK_ALGO_PROPERTIES_02"
+  },
+  {
+   "seeThis": "RPM, sectors per track, access time",
+   "thinkThis": "DSK_ACCESS_TIME_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "SCAN goes to disk end, LOOK does not",
+  "Check whether circular return jump is counted",
+  "Initial direction matters",
+  "SSTF can starve"
+ ],
+ "highYieldPyqLessons": [
+  "Head-movement simulation (9/16) is pure arithmetic: write the order first, then add."
+ ]
+}

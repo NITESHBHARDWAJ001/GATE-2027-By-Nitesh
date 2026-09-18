@@ -1,0 +1,25 @@
+{
+  "topicId": "cd-syntax-directed-translation",
+  "revisionLevel": "short-form",
+  "coreIdea": "Synthesized = child→parent (bottom-up). Inherited = parent/left-sibling→current (top-down/left-to-right). S-attributed ⊊ L-attributed. Bottom-up parsing evaluates inherited attrs ONLY if L-attributed.",
+  "mustRememberFormulas": [
+    "S-attributed ⊊ L-attributed (S-attributed is always also L-attributed)",
+    "Bottom-up (LR) parsing can evaluate inherited attributes IFF SDD is L-attributed",
+    "S-attributed SDDs always evaluable bottom-up at reduce time"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "SDT rules + specific input, asked for final value/output", "thinkThis": "SDT_COMPUTE_VALUE_01"},
+    {"seeThis": "'is this SDD S-attributed/L-attributed', or bottom-up-evaluability asked", "thinkThis": "SDT_CLASSIFY_02"},
+    {"seeThis": "asked to write semantic rules for a task (type propagation, code gen)", "thinkThis": "SDT_DESIGN_03"}
+  ],
+  "commonTrapsQuickList": [
+    "Inherited attribute depending on LEFT sibling/parent = fine for L-attributed; RIGHT dependency = NOT L-attributed",
+    "Evaluate attributes in actual DEPENDENCY order, not blindly bottom-up-then-top-down",
+    "Embedded semantic actions fire mid-production, not just at production end",
+    "Cannot rewrite the grammar when designing SDT rules — work within the given structure"
+  ],
+  "highYieldPyqLessons": [
+    "Value-computation (10/19) rewards careful parse-tree building and dependency-respecting evaluation — never guess the order.",
+    "This topic closes out Compiler Design's P1 set — combined with Grammar and LR Parser, it covers the full front-end-to-semantics pipeline."
+  ]
+}

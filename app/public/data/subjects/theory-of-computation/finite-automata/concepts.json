@@ -1,0 +1,39 @@
+{
+  "topicId": "toc-finite-automata",
+  "overview": "Finite Automata TOC ka sabse bada topic hai (43 PYQs). 4 skills: diya gaya automaton (state diagram) se LANGUAGE identify karna, ek language ke liye automaton CONSTRUCT karna, NFA/DFA equivalence aur closure-operations-on-automata (complement/product/union machine), aur ek specific string pe automaton ko TRACE karna.",
+  "dataLimitationNote": "IMPORTANT: Is corpus me bahut saare Finite Automata PYQs original state-diagram IMAGES pe depend karte hain, jo PDF text-extraction me lost ho gaye (blank aa rahe hain). Isliye neeche diye gaye pattern descriptions GENERAL/METHOD-LEVEL hain (kaise solve karna hai), specific PYQ ke exact diagram reconstruct nahi kiya gaya hai. Practice karte waqt actual PDF page dekhkar diagram verify karo.",
+  "whyItMatters": "43 PYQs, GATE ka single sabse zyada tested TOC topic. 'Automaton dekh ke language pehchano' aur 'language ke liye automaton banao' — dono directions equally important hain.",
+  "coreConcept": "DFA = (Q, Σ, δ, q0, F) — states, alphabet, transition function (EXACTLY one transition per state-symbol pair), start state, final states. NFA relaxes δ to allow MULTIPLE (or zero) transitions per state-symbol pair, plus ε-transitions. DFA aur NFA EXACTLY same power rakhte hain (recognize same class: regular languages) — NFA sirf DESIGN me easier hota hai, DFA EXECUTION me deterministic/simpler hota hai.",
+  "hinglishExplanation": "DFA ko ek 'strict robot' socho — har state pe, har input symbol ke liye EXACTLY ek hi agla step hota hai, koi confusion nahi. NFA ek 'confused robot' hai jo ek hi state-symbol pe MULTIPLE options try kar sakta hai (parallel universes me), aur agar KOI BHI path accept state pe pahunche to NFA accept karta hai. Subset construction NFA ko DFA me convert karta hai — har DFA state NFA ke 'possible current states ka SET' represent karta hai.",
+  "formalDefinition": "DFA: δ:Q×Σ→Q (total function). NFA: δ:Q×(Σ∪{ε})→P(Q) (can go to a SET of states, including ε-moves with no input consumed).",
+  "importantProperties": [
+    "Subset Construction (NFA→DFA): each DFA state = a SET of NFA states (the 'possible current states'). Start state = ε-closure of NFA's start. DFA accepting states = any subset containing at least one NFA accepting state.",
+    "Product Automaton construction: for L(M1)∩L(M2) or L(M1)∪L(M2), build states as PAIRS (q1,q2) from M1×M2, running both machines in parallel; accepting condition differs (AND for intersection, OR for union).",
+    "Complement of a DFA's language: SWAP accepting and non-accepting states (works ONLY for a COMPLETE DFA — one with a transition defined for every state-symbol pair, including a 'dead/trap' state if needed).",
+    "To trace an automaton on a string: start at q0, follow transitions symbol by symbol, check if final state is accepting at the end (DFA); for NFA, track the SET of all possible current states (or check if ANY path reaches acceptance).",
+    "Number of strings of length n accepted by a DFA can be computed via the ADJACENCY-MATRIX-POWER technique: (transition matrix)^n gives path counts between states, sum over (start,accepting) pairs."
+  ],
+  "formulas": {
+    "subsetConstructionBound": "NFA with n states → DFA with AT MOST 2^n states (via subset construction); minimal DFA may need fewer",
+    "productAutomatonStates": "|Q1| × |Q2| states for the product automaton (used for intersection/union of two DFAs)",
+    "completeDfaComplement": "Complement = swap final/non-final states, ONLY valid on a COMPLETE DFA (add a trap state first if the given DFA is partial)",
+    "stringCountViaMatrixPower": "Number of length-n strings accepted = sum over accepting states f of (TransitionMatrix^n)[start][f]"
+  },
+  "keyPropertiesAndIdentities": [
+    "Complementing an INCOMPLETE DFA by just swapping accept/reject states is a classic TRAP — missing transitions (implicit reject) must first be made explicit with a trap state, or the 'complement' will be wrong.",
+    "ε-NFA, NFA, and DFA are all EQUIVALENT in power (same language class: regular) — differences are only in convenience of construction vs execution, never in what they CAN express."
+  ],
+  "commonPitfalls": [
+    "Forgetting to complete a partial DFA (add trap/dead state) before complementing it — leads to an incorrect complement language.",
+    "Confusing NFA's 'accept if SOME path accepts' semantics with DFA's single deterministic path — when tracing NFAs, must consider ALL possible paths, not just one.",
+    "Assuming NFA needs fewer states 'because it's more powerful' — NFA and DFA recognize the exact SAME class of languages (regular), NFA is just more CONCISE in representation for some languages, not more powerful.",
+    "For string-counting questions, forgetting to use matrix exponentiation and instead trying to enumerate all strings by hand for large n."
+  ],
+  "standardTechniques": [
+    "For 'identify the language' questions: trace a few SHORT example strings through the automaton, observe what property gets accepted vs rejected, then generalize to a language description or regex.",
+    "For 'construct an automaton' questions: identify the KEY STATE VARIABLE the automaton needs to track (e.g., 'have I seen two consecutive 1s yet?', 'is the count of a's even?') — design states around that state variable directly.",
+    "For NFA-DFA conversion: apply subset construction mechanically — start from ε-closure(start), and for each new subset-state, compute transitions to other subsets.",
+    "For product-automaton (intersection/union) questions: build the (q1,q2) pair-state table directly, transitioning both components together.",
+    "For string-tracing questions on a SPECIFIC input: just walk through the automaton step by step, don't try to shortcut."
+  ]
+}

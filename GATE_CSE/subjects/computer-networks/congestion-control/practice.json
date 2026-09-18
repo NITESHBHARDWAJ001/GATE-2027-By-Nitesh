@@ -1,0 +1,33 @@
+{
+ "topicId": "computer-networks:congestion-control",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CONGES-01",
+   "patternId": "CC_CWND_TRACE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "cwnd=16 MSS, timeout. ssthresh and cwnd?",
+   "solutionApproach": "8, 1.",
+   "answer": "ssthresh=8, cwnd=1"
+  },
+  {
+   "practiceId": "AI-CONGESTI-X02",
+   "patternId": "CC_CWND_TRACE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "ssthresh=16 MSS, cwnd=1 slow start. cwnd after 4 RTT?",
+   "solutionApproach": "1,2,4,8,16.",
+   "answer": "16 MSS"
+  },
+  {
+   "practiceId": "AI-CONGESTI-X03",
+   "patternId": "CC_CWND_TRACE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "cwnd=32, timeout. New ssthresh?",
+   "solutionApproach": "32/2.",
+   "answer": "16"
+  }
+ ]
+}

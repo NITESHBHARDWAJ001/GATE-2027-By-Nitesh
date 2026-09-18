@@ -1,0 +1,42 @@
+{
+ "topicId": "operating-system:fork-system-call",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-FORK-S-01",
+   "patternId": "FRK_COUNT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "for(i=0;i<4;i++) fork(); new processes?",
+   "solutionApproach": "2^4 - 1.",
+   "answer": "15"
+  },
+  {
+   "practiceId": "AI-FORK-S-02",
+   "patternId": "FRK_COUNT_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "for(i=0;i<6;i++) if(i%2==0) fork(); total processes?",
+   "solutionApproach": "3 effective forks: 2^3.",
+   "answer": "8"
+  },
+  {
+   "practiceId": "AI-FORK-SYS-X03",
+   "patternId": "FRK_COUNT_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Program: fork(); fork(); printf(\"A\"); How many A are printed?",
+   "solutionApproach": "2 forks -> 4 processes.",
+   "answer": "4"
+  },
+  {
+   "practiceId": "AI-FORK-SYS-X04",
+   "patternId": "FRK_COUNT_01",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "if(fork()==0){fork();} printf(\"B\"); Number of B printed?",
+   "solutionApproach": "Parent, child, grandchild.",
+   "answer": "3"
+  }
+ ]
+}

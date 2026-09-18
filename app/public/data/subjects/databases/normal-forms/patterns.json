@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_NORMAL_FORMS_01",
+  "name": "Normal Forms (with ER Mapping) (PYQ type)",
+  "recognitionClueHinglish": "Normal Forms (with ER Mapping) se related sawal.",
+  "whatShouldComeToMind": [
+   "1NF..BCNF conditions; ER se relational schema ki normal form."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. FDs.",
+   "2. Keys.",
+   "3. Check."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.15.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "3NF aur BCNF confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

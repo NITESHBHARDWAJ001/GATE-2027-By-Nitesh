@@ -1,0 +1,60 @@
+[
+ {
+  "patternId": "AD_ARRAY_TRICKS_01",
+  "name": "Efficient Array Algorithms",
+  "recognitionClueHinglish": "Leader, span, shift, subarray code analysis.",
+  "whatShouldComeToMind": [
+   "Linear scan / reversal."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Track kya.",
+   "2. Single pass."
+  ],
+  "formulasUsed": [
+   "leader"
+  ],
+  "pyqExamples": [
+   "1.1.2",
+   "1.1.3",
+   "1.1.4",
+   "1.1.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "O(n^2) approach."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "AD_DIVIDE_CONQUER_02",
+  "name": "D&C / DP-style Design Problems",
+  "recognitionClueHinglish": "Max subarray, rod cutting, weighing coins, DFS tree arrays.",
+  "whatShouldComeToMind": [
+   "Split and combine."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Recurrence.",
+   "2. Compute."
+  ],
+  "formulasUsed": [
+   "maxSub"
+  ],
+  "pyqExamples": [
+   "1.1.1",
+   "1.1.5",
+   "1.1.6",
+   "1.1.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Crossing part miss."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ }
+]

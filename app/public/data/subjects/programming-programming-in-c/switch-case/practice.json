@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-programming-in-c:switch-case",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SWITCH-01",
+   "patternId": "P4_SWITCH_CASE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "case 1: a; case 2: b; break; input 1?",
+   "solutionApproach": "a then b.",
+   "answer": "Both execute"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Jump targets baad me fill karna; truelist/falselist.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Backpatching se related sawal.",
+   "thinkThis": "P3_BACKPATCHING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Backpatching ko two-pass maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:backpatching",
+ "revisionLevel": "short-form"
+}

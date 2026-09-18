@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_AVERAGE_MEMORY_ACCESS_TI_01",
+  "name": "Average Memory Access Time (PYQ type)",
+  "recognitionClueHinglish": "Average Memory Access Time se related sawal.",
+  "whatShouldComeToMind": [
+   "AMAT = hit time + miss rate x miss penalty; multi-level cache."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Levels.",
+   "2. Nested formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.2.1",
+   "1.2.2",
+   "1.2.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Local aur global miss rate mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,25 @@
+{
+ "coreIdea": "P(A|B) = P(A n B)/P(B); Bayes: P(A|B) = P(B|A)P(A)/P(B).",
+ "mustRememberFormulas": [
+  "bayes: P(A|B)=P(B|A)P(A)/P(B)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Box selection, disease test, weather.",
+   "thinkThis": "CPR_BAYES_01"
+  },
+  {
+   "seeThis": "Given at least one head; without replacement; identity statements.",
+   "thinkThis": "CPR_GIVEN_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Prior.",
+  "Wrong denominator."
+ ],
+ "highYieldPyqLessons": [
+  "Bayes with test-accuracy appears in 2026."
+ ],
+ "topicId": "engineering-mathematics-probability:conditional-probability",
+ "revisionLevel": "short-form"
+}

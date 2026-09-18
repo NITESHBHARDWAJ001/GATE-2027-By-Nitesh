@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Range aur resolution: n bits, f fraction bits: step 2^-f, max 2^(n-f) - 2^-f.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Fixed Point Representation se related sawal.",
+   "thinkThis": "P3_FIXED_POINT_REPRESENTATI_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Signed vs unsigned."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:fixed-point-representation",
+ "revisionLevel": "short-form"
+}

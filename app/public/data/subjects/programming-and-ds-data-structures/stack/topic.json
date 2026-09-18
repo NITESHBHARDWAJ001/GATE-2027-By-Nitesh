@@ -1,0 +1,20 @@
+{
+  "topicId": "ds-stack",
+  "subjectId": "programming-and-ds-data-structures",
+  "subject": "Programming and DS: Data Structures",
+  "name": "Stack",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "19 PYQs extracted, tested 1989-2025 continuously including the new DA stream. First Data Structures topic in study order (simplest DS, prerequisite for parsing/recursion tracing topics).",
+  "pyqCountExtracted": 19,
+  "yearsCovered": [1989,1991,1994,1995,2000,2003,2004,2014,2015,2021,2023,2024,2025],
+  "prerequisites": [],
+  "unlocks": [
+    {"topic": "Queue", "subjectId": "programming-and-ds-data-structures", "why": "Queue is often introduced/implemented in contrast to Stack (FIFO vs LIFO); many PYQs combine both."},
+    {"topic": "Grammar", "subjectId": "compiler-design", "why": "Parsing (LR/LL) is fundamentally stack-based."},
+    {"topic": "Recursion", "subjectId": "programming-programming-in-c", "why": "Function call mechanics use an implicit call stack — same LIFO reasoning."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

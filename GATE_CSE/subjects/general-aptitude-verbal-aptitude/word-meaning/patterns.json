@@ -1,0 +1,30 @@
+[
+ {
+  "patternId": "P3_WORD_MEANING_01",
+  "name": "Word Meaning and Usage (PYQ type)",
+  "recognitionClueHinglish": "Word Meaning and Usage se related sawal.",
+  "whatShouldComeToMind": [
+   "Correct usage, match, odd one."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Meaning.",
+   "2. Context."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.18.1",
+   "11.18.2",
+   "11.18.3",
+   "11.18.4",
+   "11.18.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Similar words confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

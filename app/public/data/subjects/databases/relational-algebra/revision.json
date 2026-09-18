@@ -1,0 +1,39 @@
+{
+ "coreIdea": "sigma filter, pi column + dedupe, join = x + condition, division = 'for all', minus = 'never'.",
+ "mustRememberFormulas": [
+  "0 <= |R join S| <= |R||S|",
+  "FK join size = |R|",
+  "R n S = R - (R - S)",
+  "R/S = pi_A(R) - pi_A((pi_A(R) x S) - R)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "instance + algebra, count tuples",
+   "thinkThis": "RA_EVAL_01"
+  },
+  {
+   "seeThis": "'all / every' in question",
+   "thinkThis": "RA_DIVISION_02"
+  },
+  {
+   "seeThis": "write / explain query",
+   "thinkThis": "RA_WRITE_QUERY_03"
+  },
+  {
+   "seeThis": "equivalent / expressible / max-min size",
+   "thinkThis": "RA_EQUIV_EXPRESSIVE_04"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Duplicates removed in pi",
+  "Natural join w/o common attrs = cross product",
+  "Minus is not symmetric",
+  "No recursion in basic algebra"
+ ],
+ "highYieldPyqLessons": [
+  "Division-style 'own all' questions recur (2014, 2022, 2024, 2025).",
+  "Recent NAT questions: evaluate step by step on the small instance."
+ ],
+ "topicId": "db-relational-algebra",
+ "revisionLevel": "short-form"
+}

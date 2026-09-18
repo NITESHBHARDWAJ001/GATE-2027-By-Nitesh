@@ -1,0 +1,27 @@
+{
+ "overview": "Activation records, static vs dynamic scope, heap vs stack, display, linkers/loaders/relocation.",
+ "whyItMatters": "22 PYQs extracted (1988-2023); P2 topic.",
+ "coreConcept": "Procedure call par activation record stack par banta hai; recursion ke liye zaroori.",
+ "hinglishExplanation": "Static (lexical) scope me name resolution code ke structure se, dynamic scope me call chain se. Heap allocation dynamic data structures ke liye chahiye. Linker relocation constants module lengths ke cumulative sum se milte hain.",
+ "formalDefinition": "Procedure call par activation record stack par banta hai; recursion ke liye zaroori.",
+ "importantProperties": [
+  "Recursion ke liye static allocation kaafi nahi (stack chahiye).",
+  "Heap dynamic data structures / unknown size arrays.",
+  "Static scope: lexical nesting; dynamic scope: call chain.",
+  "Display = pointers to activation records for non-local access.",
+  "Loader hamesha memory me; linker relocation constants.",
+  "Activation tree ke calls preorder traversal.",
+  "Dynamic linking: library search path security issue."
+ ],
+ "formulas": {
+  "reloc": "cumulative sum of previous module lengths"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Static aur dynamic scope me output confuse."
+ ],
+ "standardTechniques": [
+  "Call stack draw."
+ ],
+ "topicId": "compiler-design:runtime-environment"
+}

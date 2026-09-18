@@ -1,0 +1,23 @@
+{
+ "overview": "ARP/RARP address resolution, UDP vs TCP usage, protocol matching, multiple connections.",
+ "whyItMatters": "11 PYQs extracted (2005-2024); P2 topic.",
+ "coreConcept": "ARP IP se MAC nikaalta hai (broadcast request, unicast reply).",
+ "hinglishExplanation": "DNS name->IP. ARP IP->MAC same subnet me. UDP DNS/TFTP/DHCP; TCP HTTP/SMTP/Telnet. FTP multiple connections use karta hai (control + data).",
+ "formalDefinition": "ARP IP se MAC nikaalta hai (broadcast request, unicast reply).",
+ "importantProperties": [
+  "ARP request broadcast, reply unicast.",
+  "DNS UDP par (mostly).",
+  "HTTP/SMTP/Telnet TCP par.",
+  "FTP: separate control and data connections.",
+  "Protocols jo address resolve karte hain: ARP, RARP, DNS."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "ARP ko DNS samajhna."
+ ],
+ "standardTechniques": [
+  "Protocol-layer table."
+ ],
+ "topicId": "computer-networks:network-protocols"
+}

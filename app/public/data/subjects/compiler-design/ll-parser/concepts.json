@@ -1,0 +1,22 @@
+{
+ "overview": "LL(1): no left recursion, left-factored, FIRST/FOLLOW disjoint; no backtracking.",
+ "whyItMatters": "2 PYQs extracted (2024-2026); P3 topic.",
+ "coreConcept": "LL(1): no left recursion, left-factored, FIRST/FOLLOW disjoint; no backtracking.",
+ "hinglishExplanation": "Predictive parser table se decide karta hai, backtracking nahi.",
+ "formalDefinition": "LL(1): no left recursion, left-factored, FIRST/FOLLOW disjoint; no backtracking.",
+ "importantProperties": [
+  "LL(1) grammar ambiguous nahi.",
+  "Left recursion/common prefix nahi.",
+  "Table conflict => not LL(1)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "LL parser ko backtracking wala maan lena."
+ ],
+ "standardTechniques": [
+  "1. FIRST/FOLLOW.",
+  "2. Conflicts."
+ ],
+ "topicId": "compiler-design:ll-parser"
+}

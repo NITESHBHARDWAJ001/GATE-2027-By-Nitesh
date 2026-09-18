@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_UNIFORM_HASHING_01",
+  "name": "Simple Uniform Hashing (PYQ type)",
+  "recognitionClueHinglish": "Simple Uniform Hashing se related sawal.",
+  "whatShouldComeToMind": [
+   "Har key har slot me equally likely; collision probabilities."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. p=1/m.",
+   "2. Linearity."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.46.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Independence assume karna jab nahi."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,33 @@
+{
+  "topicId": "ds-queue",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-Q-01",
+      "patternId": "QUEUE_VIA_STACK_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Using the standard two-stack queue design (S1 for enqueue, S2 for dequeue), trace: enqueue(1), enqueue(2), dequeue(), enqueue(3), dequeue(), dequeue(). What values are dequeued, in order?",
+      "solutionApproach": "S1=[1,2] after two enqueues. dequeue(): S2 empty, pour S1→S2: S2=[2,1] (2 on top... wait, pouring reverses: pop 2 from S1 push to S2, pop 1 from S1 push to S2 → S2 bottom-to-top = [2,1], top=1). Pop S2 → returns 1. enqueue(3): S1=[3]. dequeue(): S2=[2] (not empty), pop→2. dequeue(): S2 empty, pour S1(=[3])→S2=[3], pop→3.",
+      "answer": "Dequeued in order: 1, 2, 3 (correct FIFO order)."
+    },
+    {
+      "practiceId": "AI-Q-02",
+      "patternId": "QUEUE_CIRCULAR_ARRAY_02",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A circular queue has capacity 5 (indices 0-4). front=2, rear=4. After one more enqueue, what is the new rear index?",
+      "solutionApproach": "new rear = (4+1) mod 5 = 0.",
+      "answer": "0"
+    },
+    {
+      "practiceId": "AI-Q-03",
+      "patternId": "QUEUE_LINKEDLIST_03",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A queue is implemented as a CIRCULAR singly linked list with only ONE external pointer, to the REAR node. Can both enqueue and dequeue be done in O(1)?",
+      "solutionApproach": "Yes — rear->next gives the front node directly (circular structure). Enqueue: insert after rear, update rear. Dequeue: remove rear->next (the front), update rear->next to skip it. Both O(1) despite only one external pointer.",
+      "answer": "Yes, both O(1) — the classic 'single rear pointer, circular list' trick."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_PROGRAMMING_CONSTRUCTS_01",
+  "name": "Programming Constructs (PYQ type)",
+  "recognitionClueHinglish": "Programming Constructs se related sawal.",
+  "whatShouldComeToMind": [
+   "Assignment + bounded for loops se kya compute ho sakta hai."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Loop type."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.10.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Terminating ko complete maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_OSI_MODEL_01",
+  "name": "OSI Model (PYQ type)",
+  "recognitionClueHinglish": "OSI Model se related sawal.",
+  "whatShouldComeToMind": [
+   "Layers: physical, data link, network, transport, session, presentation, application."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Function to layer."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.25.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Layers ka order."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

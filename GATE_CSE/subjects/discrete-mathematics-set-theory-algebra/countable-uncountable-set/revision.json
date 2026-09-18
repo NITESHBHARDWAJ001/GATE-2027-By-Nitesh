@@ -1,0 +1,18 @@
+{
+ "coreIdea": "N, Z, Q countable; R, power set of N uncountable; subset of countable countable.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Countable and Uncountable Sets se related sawal.",
+   "thinkThis": "P3_COUNTABLE_UNCOUNTABLE_SE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Q ko uncountable maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:countable-uncountable-set",
+ "revisionLevel": "short-form"
+}

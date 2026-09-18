@@ -1,0 +1,33 @@
+{
+ "topicId": "discrete-mathematics-graph-theory:graph-coloring",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-GRAPH--01",
+   "patternId": "COL_CHROMATIC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Chromatic number of C5?",
+   "solutionApproach": "Odd cycle.",
+   "answer": "3"
+  },
+  {
+   "practiceId": "AI-GRAPH-CO-X02",
+   "patternId": "COL_CHROMATIC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Chromatic number of K5?",
+   "solutionApproach": "n.",
+   "answer": "5"
+  },
+  {
+   "practiceId": "AI-GRAPH-CO-X03",
+   "patternId": "COL_CHROMATIC_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Chromatic number of any bipartite graph with an edge?",
+   "solutionApproach": "Two colours.",
+   "answer": "2"
+  }
+ ]
+}

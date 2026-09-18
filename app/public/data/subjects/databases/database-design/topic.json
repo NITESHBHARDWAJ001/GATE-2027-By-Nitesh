@@ -1,0 +1,18 @@
+{
+ "topicId": "databases:database-design",
+ "subjectId": "databases",
+ "subject": "Databases",
+ "name": "Data Independence",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 1994-1994.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  1994
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

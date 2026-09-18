@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:round-robin-scheduling",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ROUND--01",
+   "patternId": "P3_ROUND_ROBIN_SCHEDULING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "P1 burst 5, q=2. Kitni baar run?",
+   "solutionApproach": "2,2,1.",
+   "answer": "3 baar"
+  }
+ ]
+}

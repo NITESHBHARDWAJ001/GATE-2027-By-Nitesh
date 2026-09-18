@@ -1,0 +1,27 @@
+{
+ "overview": "Foreign key constraint aur insert/delete/update ke actions (cascade, set null, restrict).",
+ "whyItMatters": "6 PYQs extracted (1997-2026); P2 topic.",
+ "coreConcept": "Foreign key value ya to NULL hoti hai ya referenced primary key me maujood.",
+ "hinglishExplanation": "Child (referencing) table me insert par parent me key honi chahiye; parent (referenced) se delete par ya reject, ya cascade se child rows bhi delete. ON DELETE CASCADE me chain me tuples hat sakte hain, count nikaalne ke liye chain follow karo.",
+ "formalDefinition": "Foreign key value ya to NULL hoti hai ya referenced primary key me maujood.",
+ "importantProperties": [
+  "Insert in referencing table: parent key exist karni chahiye.",
+  "Delete from referenced table: violation ya cascade/set null.",
+  "Foreign key NULL ho sakta hai (agar allowed).",
+  "Ek relation me multiple foreign keys ho sakte hain.",
+  "Foreign key candidate key ko bhi refer kar sakti hai.",
+  "Cascade chain me transitive deletions."
+ ],
+ "formulas": {
+  "fk": "FK value in {NULL} U PK values"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Cascade chain ko ek level tak hi lena.",
+  "Violating operations ulta pehchanna."
+ ],
+ "standardTechniques": [
+  "Dependencies ka graph banao; deletion ka closure nikaalo."
+ ],
+ "topicId": "databases:referential-integrity"
+}

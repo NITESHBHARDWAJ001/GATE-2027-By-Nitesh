@@ -1,0 +1,26 @@
+{
+ "overview": "Handshaking lemma, graphic sequences, minimum/maximum degree bounds, distinct degrees.",
+ "whyItMatters": "13 PYQs extracted (1987-2026); P2 topic.",
+ "coreConcept": "Sum of degrees = 2|E|; odd-degree vertices ki count even.",
+ "hinglishExplanation": "Sequence graphic hai ya nahi: sum even ho aur Erdos-Gallai / Havel-Hakimi pass ho. Simple graph me do vertices same degree hote hain (pigeonhole).",
+ "formalDefinition": "Sum of degrees = 2|E|; odd-degree vertices ki count even.",
+ "importantProperties": [
+  "Sum of degrees = 2E.",
+  "Odd-degree vertices even in number.",
+  "Simple graph with n>=2 vertices me kam se kam do same degree.",
+  "Tree: E = n-1; kam se kam 2 leaves.",
+  "Havel-Hakimi for graphic sequences.",
+  "Max edges n(n-1)/2."
+ ],
+ "formulas": {
+  "handshake": "sum deg = 2E"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Loops/multi-edges assume."
+ ],
+ "standardTechniques": [
+  "Handshake lemma pehle."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:degree-of-graph"
+}

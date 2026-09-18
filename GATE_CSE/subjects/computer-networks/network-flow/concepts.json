@@ -1,0 +1,22 @@
+{
+ "overview": "Bytes over links, headers overhead, on-off traffic sources, handshake protocol.",
+ "whyItMatters": "4 PYQs extracted (1992-2017); P3 topic.",
+ "coreConcept": "Bytes over links, headers overhead, on-off traffic sources, handshake protocol.",
+ "hinglishExplanation": "Effective throughput payload/(payload+header) x rate.",
+ "formalDefinition": "Bytes over links, headers overhead, on-off traffic sources, handshake protocol.",
+ "importantProperties": [
+  "Header overhead subtract.",
+  "On-off sources: average = p x rate.",
+  "Segmentation over MTU."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Overhead ignore."
+ ],
+ "standardTechniques": [
+  "1. Overheads.",
+  "2. Rate."
+ ],
+ "topicId": "computer-networks:network-flow"
+}

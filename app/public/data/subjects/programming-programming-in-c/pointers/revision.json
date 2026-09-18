@@ -1,0 +1,26 @@
+{
+  "topicId": "prog-c-pointers",
+  "revisionLevel": "short-form",
+  "coreIdea": "Pointer = holds an address. * = dereference (get value there). p+k = k elements ahead (type-scaled). Array name decays to pointer: a[i]≡*(a+i).",
+  "mustRememberFormulas": [
+    "p+k points to address(p) + k*sizeof(*p)",
+    "q-p = element count difference, not byte difference",
+    "int *A[10] = array of pointers; int (*A)[10] = pointer to array (parentheses matter)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "pointer arithmetic / array-of-pointers code, asked for output", "thinkThis": "PTR_ARITHMETIC_TRACE_01"},
+    {"seeThis": "function returns a pointer, or pointer used before init", "thinkThis": "PTR_DANGLING_SAFETY_02"},
+    {"seeThis": "confusing declaration with * and [] and () mixed", "thinkThis": "PTR_DECLARATION_SYNTAX_03"},
+    {"seeThis": "function takes a pointer param, modifies caller's variable", "thinkThis": "PTR_PASS_BY_REF_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Pointer arithmetic is TYPE-scaled, not raw bytes",
+    "Returning address of a LOCAL variable = dangling pointer (undefined behavior)",
+    "malloc'd memory is safe to return a pointer to; stack-local is not",
+    "Read declarations right-to-left around parentheses, not left-to-right"
+  ],
+  "highYieldPyqLessons": [
+    "Arithmetic-tracing (6/15) needs an actual memory diagram every time — never do it purely in your head.",
+    "2022 onward this topic tests multi-step pointer reassignment chains — practice tracing 4-5 sequential pointer operations, not just single-step ones."
+  ]
+}

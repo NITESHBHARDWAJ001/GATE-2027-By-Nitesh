@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_PIE_CHART_01",
+  "name": "Pie Charts (PYQ type)",
+  "recognitionClueHinglish": "Pie Charts se related sawal.",
+  "whatShouldComeToMind": [
+   "Sector angle=(fraction)x360."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Fraction."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.40.1",
+   "9.40.2",
+   "9.40.3",
+   "9.40.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Angle vs percent."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

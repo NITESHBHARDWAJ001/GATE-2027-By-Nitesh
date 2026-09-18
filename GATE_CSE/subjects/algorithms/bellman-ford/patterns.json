@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P4_BELLMAN_FORD_01",
+  "name": "Bellman-Ford Algorithm (PYQ type)",
+  "recognitionClueHinglish": "Bellman-Ford Algorithm se related sawal.",
+  "whatShouldComeToMind": [
+   "Negative edge weights ke saath single-source shortest path; O(VE)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. dist init.",
+   "2. V-1 relax passes.",
+   "3. Cycle check."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Dijkstra jaisa greedy maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

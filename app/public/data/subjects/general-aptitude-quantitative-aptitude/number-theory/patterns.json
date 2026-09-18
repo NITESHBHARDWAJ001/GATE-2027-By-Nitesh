@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_NUMBER_THEORY_01",
+  "name": "Number Theory (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Number Theory (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "Primes, gcd, remainders."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Factor."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.36.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Rule."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

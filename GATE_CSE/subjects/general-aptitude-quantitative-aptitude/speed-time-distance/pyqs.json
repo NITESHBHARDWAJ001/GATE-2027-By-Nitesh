@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.51.1",
+  "localId": "9.51.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "speed-time-distance",
+  "topic": "Speed Time Distance",
+  "year": 2013,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "64",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "A tourist covers half of his journey by train at                                            , half of the remainder by bus at  and the rest by cycle at                    . The average speed of the tourist in                       during his entire journey is A.                                  B.                                                  C.         D.",
+  "tagsRaw": "gatecse-2013 quantitative-aptitude easy speed-time-distance",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 303
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SPEED_TIME_DISTANCE_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.51.2",
+  "localId": "9.51.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "speed-time-distance",
+  "topic": "Speed Time Distance",
+  "year": 2019,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Two cars at the same time from the same location and go in the same direction. The speed of the first car is km/h and the speed of the second car is km/h. The number of hours it takes for the distance between the two cars to be km is _____. A.                                  B.                                                  C.         D. , where (time) is in",
+  "tagsRaw": "gatecse-2019 general-aptitude  quantitative-aptitude     speed-time-distance  one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 303
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SPEED_TIME_DISTANCE_01"
+ }
+]

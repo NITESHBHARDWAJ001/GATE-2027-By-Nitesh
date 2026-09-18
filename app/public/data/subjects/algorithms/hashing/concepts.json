@@ -1,0 +1,25 @@
+{
+ "overview": "Hash table collision handling: chaining, linear probing; worst-case complexity; adversary and universal hashing.",
+ "whyItMatters": "6 PYQs extracted (1989-2026); P2 topic.",
+ "coreConcept": "Average O(1), worst O(n) (sab keys same bucket me).",
+ "hinglishExplanation": "Chaining me insert O(1) (at head), search worst O(n). Linear probing me clustering hoti hai. Adversary ho to fixed hash function par sab keys same slot me daal sakta hai, isliye randomised/universal hashing.",
+ "formalDefinition": "Average O(1), worst O(n) (sab keys same bucket me).",
+ "importantProperties": [
+  "Load factor alpha = n/m.",
+  "Chaining: expected search 1+alpha.",
+  "Linear probing: h(k,i)=(h(k)+i) mod m.",
+  "Worst case n keys insert with chaining O(n) (list end tak) ya O(1) per insert head.",
+  "Universal hashing adversary se bachata hai."
+ ],
+ "formulas": {
+  "alpha": "n/m"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Probing me wrap-around bhoolna."
+ ],
+ "standardTechniques": [
+  "Table draw karo."
+ ],
+ "topicId": "algorithms:hashing"
+}

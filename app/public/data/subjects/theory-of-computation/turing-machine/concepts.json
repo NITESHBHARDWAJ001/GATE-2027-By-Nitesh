@@ -1,0 +1,21 @@
+{
+ "overview": "Halting, equivalences; TM variants equal power.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Halting, equivalences; TM variants equal power.",
+ "hinglishExplanation": "TM recursive/RE languages accept karti hai.",
+ "formalDefinition": "Halting, equivalences; TM variants equal power.",
+ "importantProperties": [
+  "Multi-tape = single-tape (power).",
+  "Halting undecidable.",
+  "Decider always halts."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Multi-tape zyada powerful."
+ ],
+ "standardTechniques": [
+  "1. Model."
+ ],
+ "topicId": "theory-of-computation:turing-machine"
+}

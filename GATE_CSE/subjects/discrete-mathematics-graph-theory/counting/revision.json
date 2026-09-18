@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Labeled graphs on n vertices: 2^(C(n,2)); cycles in K_n.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Counting Graphs and Cycles se related sawal.",
+   "thinkThis": "P3_COUNTING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Labeled vs unlabeled."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:counting",
+ "revisionLevel": "short-form"
+}

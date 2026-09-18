@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_POLYNOMIALS_01",
+  "name": "Polynomials (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Polynomials (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "Roots, degree, factor theorem."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Factor."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.41.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Multiplicity."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,23 @@
+{
+ "overview": "FD implication, decomposition, attribute closure.",
+ "whyItMatters": "3 PYQs extracted (2025-2026); P3 topic.",
+ "coreConcept": "FD implication, decomposition, attribute closure.",
+ "hinglishExplanation": "X -> Y means X ki value se Y unique. Closure X+ me saare determined attributes.",
+ "formalDefinition": "FD implication, decomposition, attribute closure.",
+ "importantProperties": [
+  "Reflexive, augmentation, transitivity.",
+  "X+ closure algorithm.",
+  "Trivial FD: Y subset X.",
+  "Decomposition lossless check via FDs."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "FD ko instance se prove maan lena."
+ ],
+ "standardTechniques": [
+  "1. Closure nikalo.",
+  "2. Y in X+?"
+ ],
+ "topicId": "databases:functional-dependency"
+}

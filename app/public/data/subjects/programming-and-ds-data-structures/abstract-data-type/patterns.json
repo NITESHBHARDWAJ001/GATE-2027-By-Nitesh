@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_ABSTRACT_DATA_TYPE_01",
+  "name": "Abstract Data Type (PYQ type)",
+  "recognitionClueHinglish": "Abstract Data Type se related sawal.",
+  "whatShouldComeToMind": [
+   "ADT: data + operations, implementation hidden."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Definition."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.2.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Class se confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

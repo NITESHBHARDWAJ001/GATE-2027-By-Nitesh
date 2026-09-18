@@ -1,0 +1,42 @@
+{
+ "topicId": "cn-subnetting",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SN-01",
+   "patternId": "SN_HOST_SUBNET_COUNT_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Usable hosts in a /27 subnet?",
+   "solutionApproach": "Host bits = 5; 2^5 - 2.",
+   "answer": "30"
+  },
+  {
+   "practiceId": "AI-SN-02",
+   "patternId": "SN_SAME_NETWORK_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Mask 255.255.255.240: are 192.168.1.17 and 192.168.1.30 in the same subnet?",
+   "solutionApproach": "Block size 16: both in 16-31.",
+   "answer": "Yes"
+  },
+  {
+   "practiceId": "AI-SN-03",
+   "patternId": "SN_ROUTING_LPM_04",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Table: 10.0.0.0/8 -> if0, 10.1.0.0/16 -> if1, 0.0.0.0/0 -> if2. Dest 10.1.5.9?",
+   "solutionApproach": "Both /8 and /16 match; longest is /16.",
+   "answer": "if1"
+  },
+  {
+   "practiceId": "AI-SN-04",
+   "patternId": "SN_CIDR_ALLOCATION_03",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Block 200.10.0.0/24 must be split into hosts needs 100, 50, 20. Prefixes?",
+   "solutionApproach": "128 -> /25, 64 -> /26, 32 -> /27.",
+   "answer": "/25, /26, /27"
+  }
+ ]
+}

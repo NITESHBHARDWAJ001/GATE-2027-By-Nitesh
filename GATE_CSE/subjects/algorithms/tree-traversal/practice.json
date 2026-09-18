@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:tree-traversal",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TREE-T-01",
+   "patternId": "P3_TREE_TRAVERSAL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Pre: A B C, In: B A C. Root aur right child?",
+   "solutionApproach": "Root A; C right.",
+   "answer": "A, C"
+  }
+ ]
+}

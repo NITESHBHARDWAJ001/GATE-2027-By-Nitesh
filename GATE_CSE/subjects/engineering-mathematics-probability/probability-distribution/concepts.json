@@ -1,0 +1,21 @@
+{
+ "overview": "Density se interval probability aur moments.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Density se interval probability aur moments.",
+ "hinglishExplanation": "Density ka area = probability.",
+ "formalDefinition": "Density se interval probability aur moments.",
+ "importantProperties": [
+  "Total area 1.",
+  "CDF integral of PDF.",
+  "P(X in [a,b]) = F(b)-F(a)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Density ko probability maan lena."
+ ],
+ "standardTechniques": [
+  "1. Integrate."
+ ],
+ "topicId": "engineering-mathematics-probability:probability-distribution"
+}

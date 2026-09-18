@@ -1,0 +1,18 @@
+{
+ "coreIdea": "RPM se rotational latency; seek + latency + transfer.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Disk Access Time se related sawal.",
+   "thinkThis": "P3_DISK_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Latency me half bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:disk",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,42 @@
+{
+  "topicId": "algorithms-identify-function",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-IF-01",
+      "patternId": "IF_RECURSIVE_MATH_IDENTIFY_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "int f(int a, int b) { if(b==0) return a; return f(b, a%b); }  What does this compute?",
+      "solutionApproach": "Recognize the shape: recursive with modulo, swapping arguments — this is the Euclidean algorithm using MODULO instead of subtraction (a faster GCD variant).",
+      "answer": "GCD(a,b) — Euclidean algorithm (modulo version)."
+    },
+    {
+      "practiceId": "AI-IF-02",
+      "patternId": "IF_EXACT_TRACE_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "int f(int n) { if(n<=1) return 1; return n*f(n-1); }  What is f(5)?",
+      "solutionApproach": "This is factorial. f(5)=5*4*3*2*1=120.",
+      "answer": "120 (factorial of 5)"
+    },
+    {
+      "practiceId": "AI-IF-03",
+      "patternId": "IF_ARRAY_TRANSFORM_IDENTIFY_04",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Array [1,2,3,4,5,6,7]. reverse(arr,0,2); reverse(arr,3,6); reverse(arr,0,6);  What's the result, and what operation does this perform in general?",
+      "solutionApproach": "reverse(0,2): [3,2,1,4,5,6,7]. reverse(3,6): [3,2,1,7,6,5,4]. reverse(0,6) [full array]: [4,5,6,7,1,2,3]. This is the 'rotate by k' trick — rotated left by 3 positions.",
+      "answer": "[4,5,6,7,1,2,3] — left-rotation by 3 positions (k+1=3, the first reversal's range)."
+    },
+    {
+      "practiceId": "AI-IF-04",
+      "patternId": "IF_RECURSIVE_MATH_IDENTIFY_01",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "void f(int n) { if(n>0) { f(n/2); printf(\"%d\", n%2); } }  What does calling f(n) print?",
+      "solutionApproach": "Recursive call happens BEFORE the print → prints most-significant-bit first. This prints n's binary representation, MSB to LSB.",
+      "answer": "The binary representation of n (most significant bit first)."
+    }
+  ]
+}

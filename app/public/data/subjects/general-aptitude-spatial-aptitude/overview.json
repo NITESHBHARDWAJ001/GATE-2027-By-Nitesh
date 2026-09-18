@@ -1,0 +1,16 @@
+{
+ "subjectId": "general-aptitude-spatial-aptitude",
+ "name": "General Aptitude: Spatial Aptitude",
+ "sourceVolume": "volume1",
+ "sourcePdf": "filter1_volume1.pdf",
+ "totalTopics": 8,
+ "totalPyqsExtracted": 19,
+ "priorityDistribution": {
+  "P1": 0,
+  "P2": 0,
+  "P3": 8,
+  "P4": 0
+ },
+ "p1Topics": [],
+ "processingStatus": "structure_ready_notes_pending"
+}

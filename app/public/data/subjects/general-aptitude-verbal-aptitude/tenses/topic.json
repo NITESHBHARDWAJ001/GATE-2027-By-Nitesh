@@ -1,0 +1,21 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:tenses",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Tenses and Conditionals",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "5 PYQs extracted, 2013-2025.",
+ "pyqCountExtracted": 5,
+ "yearsCovered": [
+  2013,
+  2014,
+  2017,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

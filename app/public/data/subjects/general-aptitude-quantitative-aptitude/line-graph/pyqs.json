@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.27.1",
+  "localId": "9.27.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "line-graph",
+  "topic": "Line Graph",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "140",
+  "answerVerified": true,
+  "questionTextRaw": "The ratio of male to female students in a college for five years is plotted in the following line graph. If the number of female students doubled in                                       , by what percent did the number of male students increase in ?",
+  "tagsRaw": "gatecse-2014-set2 quantitative-aptitude  data-interpretation  numerical-answers        normal  line-graph",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 282
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LINE_GRAPH_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.27.2",
+  "localId": "9.27.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "line-graph",
+  "topic": "Line Graph",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 3,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "The ratio of male to female students in a college for five years is plotted in the following line graph. If the number of female students in                 and                           is equal, what is the ratio of male students in  to male students in  ? A.                                       B.                                            C.                  D.",
+  "tagsRaw": "gatecse-2014-set3 quantitative-aptitude  data-interpretation  normal       line-graph",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 282
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LINE_GRAPH_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.27.3",
+  "localId": "9.27.3",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "line-graph",
+  "topic": "Line Graph",
+  "year": 2016,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "10",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE_OR_UNVERIFIED",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": null,
+  "answerVerified": false,
+  "questionTextRaw": "A.                                                                                        B. C.                                                                                        D.",
+  "tagsRaw": "gatecse-2016-set2 quantitative-aptitude data-interpretation normal line-graph",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 282
+  },
+  "formulaExtractionNote": null,
+  "patternId": "P3_LINE_GRAPH_01"
+ }
+]

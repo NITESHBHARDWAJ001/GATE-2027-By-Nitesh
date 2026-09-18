@@ -1,0 +1,22 @@
+{
+ "topicId": "engineering-mathematics-probability:poisson-distribution",
+ "subjectId": "engineering-mathematics-probability",
+ "subject": "Engineering Mathematics - Probability",
+ "name": "Poisson Distribution",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "5 PYQs extracted, 1989-2026.",
+ "pyqCountExtracted": 5,
+ "yearsCovered": [
+  1989,
+  2007,
+  2013,
+  2017,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

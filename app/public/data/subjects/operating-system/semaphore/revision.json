@@ -1,0 +1,31 @@
+{
+ "coreIdea": "wait(s): s--, block if negative (or wait till s>0). signal(s): s++, wake a waiting process.",
+ "mustRememberFormulas": [
+  "finalValue: init - waits + signals",
+  "mutex: init 1; wait; CS; signal"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Initial value + kuch P/V operations; resulting value.",
+   "thinkThis": "SEM_VALUE_01"
+  },
+  {
+   "seeThis": "Threads/processes ka pseudocode aur semaphores; output, value of shared variable, deadlock.",
+   "thinkThis": "SEM_SYNC_CODE_02"
+  },
+  {
+   "seeThis": "Atomicity, wait/signal definitions, wake up.",
+   "thinkThis": "SEM_CONCEPT_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "-",
+  "Blocked P ko count karna.",
+  "Interleaving miss karna."
+ ],
+ "highYieldPyqLessons": [
+  "Code-tracing questions from 2020 onward; check mutual exclusion and deadlock both."
+ ],
+ "topicId": "operating-system:semaphore",
+ "revisionLevel": "short-form"
+}

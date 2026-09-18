@@ -1,0 +1,22 @@
+{
+ "topicId": "programming-programming-in-c:identify-function",
+ "subjectId": "programming-programming-in-c",
+ "subject": "Programming & DS - Programming in C",
+ "name": "Identify the Function (C Snippets)",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 1995-2019.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  1995,
+  1998,
+  2004,
+  2017,
+  2019
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

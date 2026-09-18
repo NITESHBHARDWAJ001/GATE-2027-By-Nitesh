@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_IO_HANDLING_01",
+  "name": "I/O Handling and Spooling (PYQ type)",
+  "recognitionClueHinglish": "I/O Handling and Spooling se related sawal.",
+  "whatShouldComeToMind": [
+   "Spooled devices, interrupt/I/O privilege, device controllers."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Kya device shared/buffered?"
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.11.1",
+   "5.11.2",
+   "5.11.3",
+   "5.11.4",
+   "5.11.5",
+   "5.11.6",
+   "5.11.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Terminal ko spooled maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

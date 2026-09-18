@@ -1,0 +1,21 @@
+{
+ "overview": "Propagation delay se glitch/hazard; display encodings.",
+ "whyItMatters": "2 PYQs extracted (2022-2024); P3 topic.",
+ "coreConcept": "Propagation delay se glitch/hazard; display encodings.",
+ "hinglishExplanation": "Static hazard tab jab do paths ka delay alag ho.",
+ "formalDefinition": "Propagation delay se glitch/hazard; display encodings.",
+ "importantProperties": [
+  "Output sirf current inputs par depend.",
+  "Delays se transient glitches.",
+  "Hazard removal redundant term."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Delay ignore."
+ ],
+ "standardTechniques": [
+  "1. Paths delays."
+ ],
+ "topicId": "digital-logic:combinational-circuit"
+}

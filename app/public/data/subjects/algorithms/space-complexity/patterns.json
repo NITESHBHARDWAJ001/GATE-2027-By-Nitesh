@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_SPACE_COMPLEXITY_01",
+  "name": "Space Complexity of Recursive Functions (PYQ type)",
+  "recognitionClueHinglish": "Space Complexity of Recursive Functions se related sawal.",
+  "whatShouldComeToMind": [
+   "Recursion depth = stack space."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Depth."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.41.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Time aur space mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

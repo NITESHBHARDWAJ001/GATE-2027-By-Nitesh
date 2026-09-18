@@ -1,0 +1,21 @@
+{
+ "overview": "Sample mean, MLE of bias, covariance of dependent variables.",
+ "whyItMatters": "3 PYQs extracted (2021-2026); P3 topic.",
+ "coreConcept": "Sample mean, MLE of bias, covariance of dependent variables.",
+ "hinglishExplanation": "MLE of head probability = heads/tosses.",
+ "formalDefinition": "Sample mean, MLE of bias, covariance of dependent variables.",
+ "importantProperties": [
+  "Sample mean unbiased.",
+  "Var(X+Y)=VarX+VarY+2Cov.",
+  "MLE for Bernoulli p = fraction of heads."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Independence assume karna."
+ ],
+ "standardTechniques": [
+  "1. Formula."
+ ],
+ "topicId": "engineering-mathematics-probability:statistics"
+}

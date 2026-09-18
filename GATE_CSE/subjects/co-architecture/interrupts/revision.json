@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Interrupt device ko CPU ka dhyan khinchne deta hai; polling me CPU baar-baar puchta hai.",
+ "mustRememberFormulas": [
+  "cpuFraction: overhead / byte-transfer time"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Vectored, daisy chain, ISR, enable.",
+   "thinkThis": "INT_CONCEPT_01"
+  },
+  {
+   "seeThis": "Data rate, overhead; CPU utilization ya polling interval.",
+   "thinkThis": "INT_OVERHEAD_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Unit conversion.",
+  "Vector vs non-vector."
+ ],
+ "highYieldPyqLessons": [
+  "Concept statements + one numeric per few years."
+ ],
+ "topicId": "co-architecture:interrupts",
+ "revisionLevel": "short-form"
+}

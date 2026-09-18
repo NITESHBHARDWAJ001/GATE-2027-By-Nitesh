@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_CISC_RISC_ARCHITECTURE_01",
+  "name": "CISC vs RISC (PYQ type)",
+  "recognitionClueHinglish": "CISC vs RISC se related sawal.",
+  "whatShouldComeToMind": [
+   "RISC: fixed length, load-store, more registers, hardwired control; CISC: complex instructions, variable length, microcode."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Feature match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.4.1",
+   "1.4.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "RISC ko microprogrammed maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,22 @@
+{
+  "topicId": "prog-c-programming-in-c",
+  "revisionLevel": "short-form",
+  "coreIdea": "Dry-run C code line by line with a variable table. Static variables persist across calls. Watch pre/post-increment, integer division, unsigned wraparound.",
+  "mustRememberFormulas": [],
+  "patternRecognitionTable": [
+    {"seeThis": "static variable inside a repeatedly-called function", "thinkThis": "PC_STATIC_VAR_01"},
+    {"seeThis": "full program, 'what is the output'", "thinkThis": "PC_OUTPUT_TRACE_02"},
+    {"seeThis": "'will this compile', 'what warning/error'", "thinkThis": "PC_COMPILE_TYPE_03"},
+    {"seeThis": "blank in code, pick correct expression/condition", "thinkThis": "PC_CODE_COMPLETION_04"}
+  ],
+  "commonTrapsQuickList": [
+    "static variables do NOT re-initialize on every call",
+    "pre-increment (++i) vs post-increment (i++) — order of use vs increment differs",
+    "unsigned subtraction wraps around instead of going negative",
+    "loop condition checked BEFORE every iteration including the first"
+  ],
+  "highYieldPyqLessons": [
+    "General output-tracing (13/29) is the default — build the variable-table habit until it's automatic and error-free.",
+    "Never do more than 1 loop iteration 'in your head' — write it out, GATE traps are specifically designed to break mental shortcuts."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Passage me diye percentages/data se calculation aur inference.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Passage-Based Reasoning (Numbers) se related sawal.",
+   "thinkThis": "P3_PASSAGE_READING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Base galat."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:passage-reading",
+ "revisionLevel": "short-form"
+}

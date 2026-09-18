@@ -1,0 +1,22 @@
+{
+ "overview": "Regular languages me p; non-regularity proof; pumping length options.",
+ "whyItMatters": "2 PYQs extracted (2005-2019); P3 topic.",
+ "coreConcept": "Regular languages me p; non-regularity proof; pumping length options.",
+ "hinglishExplanation": "|w| >= p => w = xyz, |xy|<=p, y != eps, xy^i z in L.",
+ "formalDefinition": "Regular languages me p; non-regularity proof; pumping length options.",
+ "importantProperties": [
+  "Pumping length any p' >= p also valid.",
+  "Proof by contradiction.",
+  "Finite language pumping length > longest string."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Pumping lemma converse maan lena."
+ ],
+ "standardTechniques": [
+  "1. Choose w.",
+  "2. Pump."
+ ],
+ "topicId": "theory-of-computation:pumping-lemma"
+}

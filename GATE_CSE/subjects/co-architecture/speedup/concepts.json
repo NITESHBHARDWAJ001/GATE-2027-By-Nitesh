@@ -1,0 +1,24 @@
+{
+ "overview": "Amdahl's law aur pipeline speedup: enhancement ka overall speedup.",
+ "whyItMatters": "6 PYQs extracted (2004-2026); P2 topic.",
+ "coreConcept": "Speedup = 1 / ((1 - f) + f/s), f = enhanced fraction, s = local speedup.",
+ "hinglishExplanation": "Jitna hissa (f) improve hota hai, overall speedup usse limited rehta hai. Pipeline speedup = non-pipelined time / pipelined time. Parallel code fraction se cores ka speedup.",
+ "formalDefinition": "Speedup = 1 / ((1 - f) + f/s), f = enhanced fraction, s = local speedup.",
+ "importantProperties": [
+  "Amdahl: 1/((1-f)+f/s).",
+  "Max speedup as s->inf: 1/(1-f).",
+  "Pipeline speedup <= number of stages.",
+  "Speedup = old time / new time."
+ ],
+ "formulas": {
+  "amdahl": "1/((1-f)+f/s)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "f ko time ke fraction ki jagah instruction fraction lena."
+ ],
+ "standardTechniques": [
+  "Old/new time table."
+ ],
+ "topicId": "co-architecture:speedup"
+}

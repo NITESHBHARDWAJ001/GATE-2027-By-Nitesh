@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:direction-sense",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DIRECT-01",
+   "patternId": "P3_DIRECTION_SENSE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "3 km North phir 4 km East. Displacement?",
+   "solutionApproach": "sqrt(9+16).",
+   "answer": "5 km"
+  }
+ ]
+}

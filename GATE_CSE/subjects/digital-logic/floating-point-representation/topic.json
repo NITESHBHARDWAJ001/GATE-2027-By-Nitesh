@@ -1,0 +1,23 @@
+{
+ "topicId": "digital-logic:floating-point-representation",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Floating Point (Excess Exponent)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "8 PYQs extracted, 1987-2005.",
+ "pyqCountExtracted": 8,
+ "yearsCovered": [
+  1987,
+  1989,
+  1990,
+  1997,
+  2003,
+  2005
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

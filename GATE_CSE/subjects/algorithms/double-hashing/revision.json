@@ -1,0 +1,18 @@
+{
+ "coreIdea": "h(k,i) = (h1(k) + i*h2(k)) mod m; h2 nonzero aur m ke saath coprime.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Double Hashing se related sawal.",
+   "thinkThis": "P3_DOUBLE_HASHING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "h2 = 0 ya m ka factor."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:double-hashing",
+ "revisionLevel": "short-form"
+}

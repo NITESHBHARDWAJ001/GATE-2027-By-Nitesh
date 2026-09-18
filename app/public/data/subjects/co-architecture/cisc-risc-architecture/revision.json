@@ -1,0 +1,18 @@
+{
+ "coreIdea": "RISC: fixed length, load-store, more registers, hardwired control; CISC: complex instructions, variable length, microcode.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "CISC vs RISC se related sawal.",
+   "thinkThis": "P3_CISC_RISC_ARCHITECTURE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "RISC ko microprogrammed maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:cisc-risc-architecture",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,35 @@
+[
+ {
+  "patternId": "P3_PARTIAL_ORDER_01",
+  "name": "Partial Orders and Hasse Diagrams (PYQ type)",
+  "recognitionClueHinglish": "Partial Orders and Hasse Diagrams se related sawal.",
+  "whatShouldComeToMind": [
+   "Reflexive, antisymmetric, transitive; Hasse edges, chains, antichains."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Covers.",
+   "2. Count."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.10.1",
+   "4.10.2",
+   "4.10.3",
+   "4.10.4",
+   "4.10.5",
+   "4.10.6",
+   "4.10.7",
+   "4.10.8",
+   "4.10.9",
+   "4.10.10"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Strict order ko partial (reflexive) maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

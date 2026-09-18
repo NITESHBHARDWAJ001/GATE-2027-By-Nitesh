@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Statement ke baad kaunsa action logically follow karta hai.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Courses of Action (Statements Follow) se related sawal.",
+   "thinkThis": "P4_STATEMENTS_FOLLOW_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Personal opinion."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:statements-follow",
+ "revisionLevel": "short-form"
+}

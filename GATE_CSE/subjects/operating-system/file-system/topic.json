@@ -1,0 +1,24 @@
+{
+ "topicId": "operating-system:file-system",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "File System",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "7 PYQs extracted, 2002-2022.",
+ "pyqCountExtracted": 7,
+ "yearsCovered": [
+  2002,
+  2004,
+  2008,
+  2017,
+  2019,
+  2021,
+  2022
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

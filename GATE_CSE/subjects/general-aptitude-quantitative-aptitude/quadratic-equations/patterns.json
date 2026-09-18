@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_QUADRATIC_EQUATIONS_01",
+  "name": "Quadratic Equations (PYQ type)",
+  "recognitionClueHinglish": "Quadratic Equations se related sawal.",
+  "whatShouldComeToMind": [
+   "ax^2+bx+c=0: roots, discriminant."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. D.",
+   "2. Roots."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.46.1",
+   "9.46.2",
+   "9.46.3",
+   "9.46.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Sign errors."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

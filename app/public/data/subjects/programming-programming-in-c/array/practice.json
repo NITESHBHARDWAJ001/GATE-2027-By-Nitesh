@@ -1,0 +1,33 @@
+{
+ "topicId": "programming-programming-in-c:array",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ARRAY-01",
+   "patternId": "ARR_ADDRESS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "int a[3][4], base 1000, int=4 B. Address of a[2][1]?",
+   "solutionApproach": "(2*4+1)*4.",
+   "answer": "1036"
+  },
+  {
+   "practiceId": "AI-ARRAY-X02",
+   "patternId": "ARR_OUTPUT_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "int a[5]={1,2,3,4,5}; int *p=a+1; printf(\"%d\", *(p+2)); ?",
+   "solutionApproach": "a[3].",
+   "answer": "4"
+  },
+  {
+   "practiceId": "AI-ARRAY-X03",
+   "patternId": "ARR_ADDRESS_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "char s[]=\"abc\"; sizeof(s)?",
+   "solutionApproach": "Includes null.",
+   "answer": "4"
+  }
+ ]
+}

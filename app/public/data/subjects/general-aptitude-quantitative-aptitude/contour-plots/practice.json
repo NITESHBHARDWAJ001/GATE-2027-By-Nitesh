@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:contour-plots",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CONTOU-01",
+   "patternId": "P3_CONTOUR_PLOTS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Close contour lines mean?",
+   "solutionApproach": "Steep.",
+   "answer": "Steep slope"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "overview": "Roots, degree, factor theorem.",
+ "whyItMatters": "1 PYQs extracted (2016-2016); P3 topic.",
+ "coreConcept": "Roots, degree, factor theorem.",
+ "hinglishExplanation": "f(a)=0 => (x-a) factor.",
+ "formalDefinition": "Roots, degree, factor theorem.",
+ "importantProperties": [
+  "Degree n has n roots.",
+  "Vieta."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Multiplicity."
+ ],
+ "standardTechniques": [
+  "1. Factor."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:polynomials"
+}

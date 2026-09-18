@@ -1,0 +1,24 @@
+{
+ "coreIdea": "Ek frame bhejo, ack ka wait karo.",
+ "mustRememberFormulas": [
+  "eff: Tt/(Tt+2Tp)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bit rate, delay, frame size; efficiency.",
+   "thinkThis": "SAW_EFF_01"
+  },
+  {
+   "seeThis": "Scenario analysis.",
+   "thinkThis": "SAW_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Ack Tt."
+ ],
+ "highYieldPyqLessons": [
+  "Basic building block for sliding window."
+ ],
+ "topicId": "computer-networks:stop-and-wait",
+ "revisionLevel": "short-form"
+}

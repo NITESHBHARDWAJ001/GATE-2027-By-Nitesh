@@ -1,0 +1,22 @@
+{
+ "overview": "Subspace: zero vector, addition aur scalar multiplication ke under closed.",
+ "whyItMatters": "1 PYQs extracted (2024-2024); P3 topic.",
+ "coreConcept": "Subspace: zero vector, addition aur scalar multiplication ke under closed.",
+ "hinglishExplanation": "Check: 0 in S, u+v in S, cu in S.",
+ "formalDefinition": "Subspace: zero vector, addition aur scalar multiplication ke under closed.",
+ "importantProperties": [
+  "Solution set of Ax=0 subspace.",
+  "Affine plane (Ax=b, b != 0) subspace nahi.",
+  "Union of subspaces generally nahi."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "0 vector check bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Closure.",
+  "2. Zero."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:subspace"
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_IMAGE_ROTATION_01",
+  "name": "Rotation and Transformation (PYQ type)",
+  "recognitionClueHinglish": "Rotation and Transformation se related sawal.",
+  "whatShouldComeToMind": [
+   "Figure/dice rotation ya transformation ka result."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rotate step by step."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "10.4.1",
+   "10.4.2",
+   "10.4.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Direction clockwise/anticlockwise."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

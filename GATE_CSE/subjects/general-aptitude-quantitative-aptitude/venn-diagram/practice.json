@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:venn-diagram",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-VENN-D-01",
+   "patternId": "P3_VENN_DIAGRAM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "|A|=20,|B|=15,|AnB|=5. |AuB|?",
+   "solutionApproach": "20+15-5.",
+   "answer": "30"
+  }
+ ]
+}

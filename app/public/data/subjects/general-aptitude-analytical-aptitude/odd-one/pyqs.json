@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.10.1",
+  "localId": "8.10.1",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "odd-one",
+  "topic": "Odd One",
+  "year": 2016,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "04",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Pick the odd one from the following options. A.                                     B.                              C.                    D.",
+  "tagsRaw": "gatecse-2016-set2 analytical-aptitude  odd-one      normal",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 245
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ODD_ONE_01"
+ }
+]

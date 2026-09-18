@@ -1,0 +1,65 @@
+[
+ {
+  "patternId": "DEG_PROOFS_01",
+  "name": "Handshake Lemma and Parity Proofs",
+  "recognitionClueHinglish": "Prove odd-degree vertices even, distinct degrees impossible.",
+  "whatShouldComeToMind": [
+   "Handshake."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sum.",
+   "2. Parity."
+  ],
+  "formulasUsed": [
+   "handshake"
+  ],
+  "pyqExamples": [
+   "2.2.1",
+   "2.2.2",
+   "2.2.3",
+   "2.2.10"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Multigraph."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DEG_SEQUENCE_02",
+  "name": "Graphic Sequences and Degree Bounds",
+  "recognitionClueHinglish": "Kaunsi sequence graph ho sakti hai; min/max degree/edges.",
+  "whatShouldComeToMind": [
+   "Havel-Hakimi; bounds."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sum even.",
+   "2. Test."
+  ],
+  "formulasUsed": [
+   "handshake"
+  ],
+  "pyqExamples": [
+   "2.2.4",
+   "2.2.5",
+   "2.2.6",
+   "2.2.7",
+   "2.2.8",
+   "2.2.9",
+   "2.2.11",
+   "2.2.12",
+   "2.2.13"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Sequence sorted."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

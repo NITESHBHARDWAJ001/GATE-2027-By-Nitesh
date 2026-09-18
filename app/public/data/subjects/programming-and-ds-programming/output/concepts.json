@@ -1,0 +1,21 @@
+{
+ "overview": "Pointer traversal se string length jaisi functions.",
+ "whyItMatters": "1 PYQs extracted (2024-2024); P3 topic.",
+ "coreConcept": "Pointer traversal se string length jaisi functions.",
+ "hinglishExplanation": "while(*b) b++ ke baad b-a = length.",
+ "formalDefinition": "Pointer traversal se string length jaisi functions.",
+ "importantProperties": [
+  "Pointer difference = elements.",
+  "Null terminator par stop.",
+  "Trace."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Off-by-one."
+ ],
+ "standardTechniques": [
+  "1. Trace."
+ ],
+ "topicId": "programming-and-ds-programming:output"
+}

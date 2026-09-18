@@ -1,0 +1,19 @@
+{
+ "topicId": "programming-programming-in-c:strings",
+ "subjectId": "programming-programming-in-c",
+ "subject": "Programming & DS - Programming in C",
+ "name": "Strings in C",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "2 PYQs extracted, 2004-2025.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2004,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

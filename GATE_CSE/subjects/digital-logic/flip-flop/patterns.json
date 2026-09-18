@@ -1,0 +1,55 @@
+[
+ {
+  "patternId": "FF_LATCH_CONCEPT_01",
+  "name": "Latch / Flip-Flop Behaviour",
+  "recognitionClueHinglish": "SR latch, oscillation, edge behaviour.",
+  "whatShouldComeToMind": [
+   "Characteristic table."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Table."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.17.2",
+   "4.17.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Invalid state."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "FF_STATES_02",
+  "name": "State Count / Sequence of Flip-Flop Circuits",
+  "recognitionClueHinglish": "Connected FFs; distinct states or sequence.",
+  "whatShouldComeToMind": [
+   "State trace."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Trace all initial states."
+  ],
+  "formulasUsed": [
+   "JK"
+  ],
+  "pyqExamples": [
+   "4.17.1",
+   "4.17.3",
+   "4.17.4",
+   "4.17.5",
+   "4.17.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Unreachable."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

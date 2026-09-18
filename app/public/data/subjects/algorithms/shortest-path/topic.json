@@ -1,0 +1,22 @@
+{
+ "topicId": "algorithms:shortest-path",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Shortest Path Algorithms",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "8 PYQs extracted, 2002-2025.",
+ "pyqCountExtracted": 8,
+ "yearsCovered": [
+  2002,
+  2003,
+  2007,
+  2020,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

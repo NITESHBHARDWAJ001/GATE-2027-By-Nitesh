@@ -1,0 +1,21 @@
+{
+ "overview": "Chhoti SQL/algebra queries ka meaning aur output count.",
+ "whyItMatters": "3 PYQs extracted (1997-2026); P3 topic.",
+ "coreConcept": "Chhoti SQL/algebra queries ka meaning aur output count.",
+ "hinglishExplanation": "Query ko pipeline: FROM -> WHERE -> GROUP BY -> SELECT.",
+ "formalDefinition": "Chhoti SQL/algebra queries ka meaning aur output count.",
+ "importantProperties": [
+  "Duplicates SQL me rehte hain.",
+  "NULL comparison unknown.",
+  "GROUP BY per-group aggregates."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "NULL ignore."
+ ],
+ "standardTechniques": [
+  "1. Evaluate step by step."
+ ],
+ "topicId": "databases:query"
+}

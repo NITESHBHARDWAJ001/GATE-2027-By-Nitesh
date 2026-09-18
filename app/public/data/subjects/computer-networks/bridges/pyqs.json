@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "computer-networks__2.4.1",
+  "localId": "2.4.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "bridges",
+  "topic": "Bridges",
+  "year": 2004,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "16",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following is NOT true with respect to a transparent bridge and a router? A. Both bridge and router selectively forward data packets B. A bridge uses IP addresses while a router uses MAC addresses C. A bridge builds up its routing table by inspecting incoming packets D. A router can connect between a LAN and a WAN",
+  "tagsRaw": "gatecse-2004 computer-networks  bridges  normal",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 111
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BRIDGES_01"
+ },
+ {
+  "pyqId": "computer-networks__2.4.2",
+  "localId": "2.4.2",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "bridges",
+  "topic": "Bridges",
+  "year": 2006,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "82",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the diagram shown below where a number of LANs are connected by (transparent) bridges. In order to avoid packets looping through circuits in the graph, the bridges organize themselves in a spanning tree. First, the root bridge is identified as the bridge with the least serial number. Next, the root sends out (one or more) data units to enable the setting up of the spanning tree of shortest paths from the root bridge to each bridge. Each bridge identifies a port (the root port) through which it will forward frames to the root bridge. Port conflicts are always resolved in favour of the port with the lower index value. When there is a possibility of multiple bridges forwarding to the same LAN (but not through the root port), ties are broken as follows: bridges closest to the root get preference and between such bridges, the one with the lowest serial number is preferred. For the given connection of LANs by bridges, which one of the following choices represents the depth first traversal of the spanning tree of bridges? A.                                             B. C.                                             D.",
+  "tagsRaw": "gatecse-2006 computer-networks bridges normal",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 111
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BRIDGES_01"
+ },
+ {
+  "pyqId": "computer-networks__2.4.3",
+  "localId": "2.4.3",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "bridges",
+  "topic": "Bridges",
+  "year": 2006,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "83",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the diagram shown below where a number of LANs are connected by (transparent) bridges. In order to avoid packets looping through circuits in the graph, the bridges organize themselves in a spanning tree. First, the root bridge is identified as the bridge with the least serial number. Next, the root sends out (one or more) data units to enable the setting up of the spanning tree of shortest paths from the root bridge to each bridge. Each bridge identifies a port (the root port) through which it will forward frames to the root bridge. Port conflicts are always resolved in favour of the port with the lower index value. When there is a possibility of multiple bridges forwarding to the same LAN (but not through the root port), ties are broken as follows: bridges closest to the root get preference and between such bridges, the one with the lowest serial number is preferred. Consider the spanning tree                     for the given connection of LANs by bridges, that represents the depth first traversal of the spanning tree of bridges. Let host send out a broadcast ping packet. Which of the following options represents the correct forwarding table on ? a. b. c. d.",
+  "tagsRaw": "gatecse-2006 computer-networks  bridges  normal",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 111
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BRIDGES_01"
+ }
+]

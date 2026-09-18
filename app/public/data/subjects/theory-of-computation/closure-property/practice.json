@@ -1,0 +1,42 @@
+{
+ "topicId": "theory-of-computation:closure-property",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CLOSUR-01",
+   "patternId": "CLP_TABLE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Are CFLs closed under intersection?",
+   "solutionApproach": "No.",
+   "answer": "No"
+  },
+  {
+   "practiceId": "AI-CLOSUR-02",
+   "patternId": "CLP_COMBINED_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "L CFL, R regular. L n R is?",
+   "solutionApproach": "CFL.",
+   "answer": "Context-free"
+  },
+  {
+   "practiceId": "AI-CLOSURE--X03",
+   "patternId": "CLP_TABLE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Regular languages closed under intersection?",
+   "solutionApproach": "Yes.",
+   "answer": "Yes"
+  },
+  {
+   "practiceId": "AI-CLOSURE--X04",
+   "patternId": "CLP_COMBINED_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "L1 CFL, L2 CFL. Is L1 ∩ L2 always CFL?",
+   "solutionApproach": "No.",
+   "answer": "No"
+  }
+ ]
+}

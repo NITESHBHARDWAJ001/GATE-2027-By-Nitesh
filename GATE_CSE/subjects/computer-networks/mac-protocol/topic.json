@@ -1,0 +1,20 @@
+{
+ "topicId": "computer-networks:mac-protocol",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "MAC Protocols (Slotted, TDM, Ethernet)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 2004-2015.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  2004,
+  2005,
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

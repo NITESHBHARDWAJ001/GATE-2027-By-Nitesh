@@ -1,0 +1,22 @@
+{
+ "overview": "Page fault, page table bits, replacement, effective access time.",
+ "whyItMatters": "3 PYQs extracted (2022-2025); P3 topic.",
+ "coreConcept": "Page fault, page table bits, replacement, effective access time.",
+ "hinglishExplanation": "Page memory me tabhi laao jab reference ho; fault par disk se read.",
+ "formalDefinition": "Page fault, page table bits, replacement, effective access time.",
+ "importantProperties": [
+  "EAT = (1-p) mem + p fault_time.",
+  "Page table size = pages x entry size.",
+  "Frames fixed, replacement policy se faults.",
+  "Virtual address bits -> pages."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Fault rate probability p ka use."
+ ],
+ "standardTechniques": [
+  "1. Reference string trace."
+ ],
+ "topicId": "operating-system:demand-paging"
+}

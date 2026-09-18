@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:bit-stuffing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BIT-ST-01",
+   "patternId": "P4_BIT_STUFFING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Data 0111111 stuffed?",
+   "solutionApproach": "Five 1s ke baad 0.",
+   "answer": "011111011"
+  }
+ ]
+}

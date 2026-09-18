@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Points, lines, collinearity, area via determinant.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Coordinate Geometry se related sawal.",
+   "thinkThis": "P4_CARTESIAN_COORDINATES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Collinearity."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:cartesian-coordinates",
+ "revisionLevel": "short-form"
+}

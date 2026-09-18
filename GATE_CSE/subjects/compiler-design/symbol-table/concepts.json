@@ -1,0 +1,21 @@
+{
+ "overview": "Identifiers ke attributes; scope management, sabhi phases use karte hain.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Identifiers ke attributes; scope management, sabhi phases use karte hain.",
+ "hinglishExplanation": "Symbol table lexical/syntax/semantic phases me use hoti hai; memory allocation ki responsibility nahi.",
+ "formalDefinition": "Identifiers ke attributes; scope management, sabhi phases use karte hain.",
+ "importantProperties": [
+  "Attributes: type, scope, address.",
+  "Hash table implementation.",
+  "Errors detect karna semantic analyzer ka kaam."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Symbol table ko code generation tak limited maan lena."
+ ],
+ "standardTechniques": [
+  "1. Statement check."
+ ],
+ "topicId": "compiler-design:symbol-table"
+}

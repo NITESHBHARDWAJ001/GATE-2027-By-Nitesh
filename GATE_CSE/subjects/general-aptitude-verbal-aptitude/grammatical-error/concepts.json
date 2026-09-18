@@ -1,0 +1,21 @@
+{
+ "overview": "Sahi/galat sentence.",
+ "whyItMatters": "4 PYQs extracted (2012-2016); P3 topic.",
+ "coreConcept": "Sahi/galat sentence.",
+ "hinglishExplanation": "Agreement, tense, preposition check.",
+ "formalDefinition": "Sahi/galat sentence.",
+ "importantProperties": [
+  "Subject-verb agreement.",
+  "Pronoun case.",
+  "Redundancy."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Correct sentence ko galat."
+ ],
+ "standardTechniques": [
+  "1. Each option."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:grammatical-error"
+}

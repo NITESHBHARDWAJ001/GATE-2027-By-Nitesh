@@ -1,0 +1,22 @@
+{
+ "overview": "PDF integrate to 1 se constant; mean/probability.",
+ "whyItMatters": "1 PYQs extracted (2016-2016); P3 topic.",
+ "coreConcept": "PDF integrate to 1 se constant; mean/probability.",
+ "hinglishExplanation": "int f = 1 normalization.",
+ "formalDefinition": "PDF integrate to 1 se constant; mean/probability.",
+ "importantProperties": [
+  "Normalization.",
+  "P(a<X<b) = int_a^b f.",
+  "E[X] = int x f."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Limits."
+ ],
+ "standardTechniques": [
+  "1. Normalize.",
+  "2. Integrate."
+ ],
+ "topicId": "engineering-mathematics-probability:continuous-distribution"
+}

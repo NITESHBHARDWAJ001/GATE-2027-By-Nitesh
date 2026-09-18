@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "engineering-mathematics-calculus__5.7.1",
+  "localId": "5.7.1",
+  "subjectId": "engineering-mathematics-calculus",
+  "subject": "Engineering Mathematics: Calculus",
+  "topicSlug": "polynomials",
+  "topic": "Polynomials",
+  "year": 1987,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1-xxii",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "The equation                                                                              has A. All complex roots                                                  B. At least one real root C. Four pairs of imaginary roots                                      D. None of the above",
+  "tagsRaw": "gate1987 calculus polynomials",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 150
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_POLYNOMIALS_01"
+ },
+ {
+  "pyqId": "engineering-mathematics-calculus__5.7.2",
+  "localId": "5.7.2",
+  "subjectId": "engineering-mathematics-calculus",
+  "subject": "Engineering Mathematics: Calculus",
+  "topicSlug": "polynomials",
+  "topic": "Polynomials",
+  "year": 1995,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "2.8",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "If the cube roots of unity are and , then the roots of the following equation are A.                                                                      B. C.                                                                      D.",
+  "tagsRaw": "gate1995 calculus normal polynomials                         Summation (1)",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 150
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_POLYNOMIALS_01"
+ }
+]

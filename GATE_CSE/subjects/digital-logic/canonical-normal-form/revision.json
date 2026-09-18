@@ -1,0 +1,22 @@
+{
+ "coreIdea": "AND of functions = minterm intersection; OR = union; XOR = symmetric difference.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "F1,F2,F3 minterms; combined circuit ka minterm list.",
+   "thinkThis": "CNF_MINTERM_OPS_01"
+  },
+  {
+   "seeThis": "Prime implicants ya NOR gates count.",
+   "thinkThis": "CNF_COUNTS_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "XOR."
+ ],
+ "highYieldPyqLessons": [
+  "Set-operation viewpoint solves these quickly."
+ ],
+ "topicId": "digital-logic:canonical-normal-form",
+ "revisionLevel": "short-form"
+}

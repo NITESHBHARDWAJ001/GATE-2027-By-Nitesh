@@ -1,0 +1,26 @@
+{
+ "overview": "BFS/DFS, topological order, MST cut property, adjacency-list complexity, sink detection, algorithm-complexity matching.",
+ "whyItMatters": "11 PYQs extracted (1994-2026); P2 topic.",
+ "coreConcept": "Graph algorithms ki time complexity representation (matrix vs list) par depend karti hai. Cut property MST ke liye key hai.",
+ "hinglishExplanation": "Adjacency matrix me sink jaisi cheez O(V) me mil sakti hai (matrix scan smartly). Cut property: kisi bhi cut me lightest edge MST me hoti hai (distinct weights). Topological order sirf DAG me.",
+ "formalDefinition": "Graph algorithms ki time complexity representation (matrix vs list) par depend karti hai. Cut property MST ke liye key hai.",
+ "importantProperties": [
+  "BFS/DFS: O(V+E) list, O(V^2) matrix.",
+  "Topological order exists iff DAG.",
+  "Cut property: cut ka minimum edge MST me.",
+  "Sink in adjacency matrix: O(V) checks.",
+  "Adjacency list undirected me har edge ke do entries.",
+  "Distinct weights => unique MST."
+ ],
+ "formulas": {
+  "bfsdfs": "O(V+E)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Matrix vs list complexity mix."
+ ],
+ "standardTechniques": [
+  "Property ko chhoti graph par test karo."
+ ],
+ "topicId": "algorithms:graph-algorithms"
+}

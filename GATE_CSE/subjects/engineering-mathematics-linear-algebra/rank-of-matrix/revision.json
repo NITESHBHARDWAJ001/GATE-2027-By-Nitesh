@@ -1,0 +1,24 @@
+{
+ "coreIdea": "Rank = non-zero rows in echelon form.",
+ "mustRememberFormulas": [
+  "rankNullity: rank + nullity = n"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Matrix ya parameterised matrix ka rank.",
+   "thinkThis": "RNK_COMPUTE_01"
+  },
+  {
+   "seeThis": "Rank of AB, relation with det/solutions.",
+   "thinkThis": "RNK_PROPERTIES_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Parameter."
+ ],
+ "highYieldPyqLessons": [
+  "Matrices are often blank in extraction; verify with the source."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:rank-of-matrix",
+ "revisionLevel": "short-form"
+}

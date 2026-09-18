@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:abstract-syntax-tree",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ABSTRA-01",
+   "patternId": "P4_ABSTRACT_SYNTAX_TREE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Loop CFG me kya banata hai?",
+   "solutionApproach": "Back edge.",
+   "answer": "Cycle"
+  }
+ ]
+}

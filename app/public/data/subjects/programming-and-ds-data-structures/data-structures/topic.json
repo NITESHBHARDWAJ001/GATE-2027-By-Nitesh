@@ -1,0 +1,21 @@
+{
+ "topicId": "programming-and-ds-data-structures:data-structures",
+ "subjectId": "programming-and-ds-data-structures",
+ "subject": "Programming & DS - Data Structures",
+ "name": "Data Structures (Graphs Representations & Matching)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 1997-2024.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  1997,
+  2014,
+  2016,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

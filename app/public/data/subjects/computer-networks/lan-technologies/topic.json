@@ -1,0 +1,24 @@
+{
+ "topicId": "computer-networks:lan-technologies",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "LAN Technologies (CSMA/CD, Token Ring, Slotted)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "7 PYQs extracted, 2003-2019.",
+ "pyqCountExtracted": 7,
+ "yearsCovered": [
+  2003,
+  2004,
+  2005,
+  2006,
+  2007,
+  2014,
+  2019
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

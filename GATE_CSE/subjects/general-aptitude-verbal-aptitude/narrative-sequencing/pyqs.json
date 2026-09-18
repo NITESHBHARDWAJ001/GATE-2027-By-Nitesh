@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-verbal-aptitude__11.8.1",
+  "localId": "11.8.1",
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "subject": "General Aptitude: Verbal Aptitude",
+  "topicSlug": "narrative-sequencing",
+  "topic": "Narrative Sequencing",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Column-I has statements made by Shanthala; and, Column-II has responses given by Kanishk. Identify the option that has the correct match between Column-I and Column-II. A. B. C. D.",
+  "tagsRaw": "gateda-2025 verbal-aptitude   narrative-sequencing  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 354
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NARRATIVE_SEQUENCING_01"
+ }
+]

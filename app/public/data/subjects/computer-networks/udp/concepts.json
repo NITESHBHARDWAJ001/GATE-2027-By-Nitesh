@@ -1,0 +1,22 @@
+{
+ "overview": "UDP connectionless; real-time multimedia UDP, file TCP, email TCP.",
+ "whyItMatters": "4 PYQs extracted (2005-2017); P3 topic.",
+ "coreConcept": "UDP connectionless; real-time multimedia UDP, file TCP, email TCP.",
+ "hinglishExplanation": "UDP me handshake nahi, datagrams alag paths se ja sakte hain.",
+ "formalDefinition": "UDP connectionless; real-time multimedia UDP, file TCP, email TCP.",
+ "importantProperties": [
+  "UDP: connectionless, unreliable, low overhead.",
+  "Real-time multimedia UDP/RTP.",
+  "Connected UDP socket default peer.",
+  "Port numbers process identify."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "UDP ko reliable maan lena."
+ ],
+ "standardTechniques": [
+  "1. Requirement."
+ ],
+ "topicId": "computer-networks:udp"
+}

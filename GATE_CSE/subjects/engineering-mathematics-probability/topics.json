@@ -1,0 +1,549 @@
+[
+ {
+  "topicSlug": "probability",
+  "name": "Probability",
+  "pyqCountExtracted": 31,
+  "yearsCovered": [
+   1995,
+   1996,
+   1997,
+   1998,
+   2001,
+   2004,
+   2005,
+   2008,
+   2010,
+   2011,
+   2014,
+   2016,
+   2018,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2018,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.13.1",
+   "engineering-mathematics-probability__7.13.2",
+   "engineering-mathematics-probability__7.13.3",
+   "engineering-mathematics-probability__7.13.4",
+   "engineering-mathematics-probability__7.13.5",
+   "engineering-mathematics-probability__7.13.6",
+   "engineering-mathematics-probability__7.13.7",
+   "engineering-mathematics-probability__7.13.8",
+   "engineering-mathematics-probability__7.13.9",
+   "engineering-mathematics-probability__7.13.10",
+   "engineering-mathematics-probability__7.13.11",
+   "engineering-mathematics-probability__7.13.12",
+   "engineering-mathematics-probability__7.13.13",
+   "engineering-mathematics-probability__7.13.14",
+   "engineering-mathematics-probability__7.13.15",
+   "engineering-mathematics-probability__7.13.16",
+   "engineering-mathematics-probability__7.13.17",
+   "engineering-mathematics-probability__7.13.18",
+   "engineering-mathematics-probability__7.13.19",
+   "engineering-mathematics-probability__7.13.20",
+   "engineering-mathematics-probability__7.13.21",
+   "engineering-mathematics-probability__7.13.22",
+   "engineering-mathematics-probability__7.13.23",
+   "engineering-mathematics-probability__7.13.24",
+   "engineering-mathematics-probability__7.13.25",
+   "engineering-mathematics-probability__7.13.26",
+   "engineering-mathematics-probability__7.13.27",
+   "engineering-mathematics-probability__7.13.28",
+   "engineering-mathematics-probability__7.13.29",
+   "engineering-mathematics-probability__7.13.30",
+   "engineering-mathematics-probability__7.13.31"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "31 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1995-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "expectation",
+  "name": "Expectation",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [
+   1999,
+   2004,
+   2006,
+   2011,
+   2013,
+   2014,
+   2017,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.8.1",
+   "engineering-mathematics-probability__7.8.2",
+   "engineering-mathematics-probability__7.8.3",
+   "engineering-mathematics-probability__7.8.4",
+   "engineering-mathematics-probability__7.8.5",
+   "engineering-mathematics-probability__7.8.6",
+   "engineering-mathematics-probability__7.8.7",
+   "engineering-mathematics-probability__7.8.8",
+   "engineering-mathematics-probability__7.8.9",
+   "engineering-mathematics-probability__7.8.10",
+   "engineering-mathematics-probability__7.8.11",
+   "engineering-mathematics-probability__7.8.12",
+   "engineering-mathematics-probability__7.8.13",
+   "engineering-mathematics-probability__7.8.14",
+   "engineering-mathematics-probability__7.8.15"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "15 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1999-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "conditional-probability",
+  "name": "Conditional Probability",
+  "pyqCountExtracted": 14,
+  "yearsCovered": [
+   1994,
+   2003,
+   2005,
+   2006,
+   2008,
+   2009,
+   2011,
+   2012,
+   2016,
+   2017,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.6.1",
+   "engineering-mathematics-probability__7.6.2",
+   "engineering-mathematics-probability__7.6.3",
+   "engineering-mathematics-probability__7.6.4",
+   "engineering-mathematics-probability__7.6.5",
+   "engineering-mathematics-probability__7.6.6",
+   "engineering-mathematics-probability__7.6.7",
+   "engineering-mathematics-probability__7.6.8",
+   "engineering-mathematics-probability__7.6.9",
+   "engineering-mathematics-probability__7.6.10",
+   "engineering-mathematics-probability__7.6.11",
+   "engineering-mathematics-probability__7.6.12",
+   "engineering-mathematics-probability__7.6.13",
+   "engineering-mathematics-probability__7.6.14"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "14 PYQs extracted, 4 recent (2016+) appearances, spans 1994-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "uniform-distribution",
+  "name": "Uniform Distribution",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   1998,
+   2004,
+   2007,
+   2014,
+   2019,
+   2020,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2019,
+   2020,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.19.1",
+   "engineering-mathematics-probability__7.19.2",
+   "engineering-mathematics-probability__7.19.3",
+   "engineering-mathematics-probability__7.19.4",
+   "engineering-mathematics-probability__7.19.5",
+   "engineering-mathematics-probability__7.19.6",
+   "engineering-mathematics-probability__7.19.7",
+   "engineering-mathematics-probability__7.19.8",
+   "engineering-mathematics-probability__7.19.9",
+   "engineering-mathematics-probability__7.19.10",
+   "engineering-mathematics-probability__7.19.11"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "11 PYQs extracted, 5 recent (2016+) appearances, spans 1998-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "random-variable",
+  "name": "Random Variable",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   2005,
+   2011,
+   2012,
+   2015,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.16.1",
+   "engineering-mathematics-probability__7.16.2",
+   "engineering-mathematics-probability__7.16.3",
+   "engineering-mathematics-probability__7.16.4",
+   "engineering-mathematics-probability__7.16.5",
+   "engineering-mathematics-probability__7.16.6",
+   "engineering-mathematics-probability__7.16.7",
+   "engineering-mathematics-probability__7.16.8",
+   "engineering-mathematics-probability__7.16.9",
+   "engineering-mathematics-probability__7.16.10"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "10 PYQs extracted, 3 recent (2016+) appearances, spans 2005-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "binomial-distribution",
+  "name": "Binomial Distribution",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2002,
+   2005,
+   2006,
+   2007
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.4.1",
+   "engineering-mathematics-probability__7.4.2",
+   "engineering-mathematics-probability__7.4.3",
+   "engineering-mathematics-probability__7.4.4",
+   "engineering-mathematics-probability__7.4.5",
+   "engineering-mathematics-probability__7.4.6"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, spans 2002-2007 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "exponential-distribution",
+  "name": "Exponential Distribution",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2004,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.9.1",
+   "engineering-mathematics-probability__7.9.2",
+   "engineering-mathematics-probability__7.9.3",
+   "engineering-mathematics-probability__7.9.4",
+   "engineering-mathematics-probability__7.9.5",
+   "engineering-mathematics-probability__7.9.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 4 recent (2016+) appearances, spans 2004-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "independent-events",
+  "name": "Independent Events",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1994,
+   1999,
+   2000,
+   2023,
+   2024,
+   2025
+  ],
+  "recentYearsCovered": [
+   2023,
+   2024,
+   2025
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.10.1",
+   "engineering-mathematics-probability__7.10.2",
+   "engineering-mathematics-probability__7.10.3",
+   "engineering-mathematics-probability__7.10.4",
+   "engineering-mathematics-probability__7.10.5",
+   "engineering-mathematics-probability__7.10.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 3 recent (2016+) appearances, spans 1994-2025 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "poisson-distribution",
+  "name": "Poisson Distribution",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   1989,
+   2007,
+   2013,
+   2017,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.12.1",
+   "engineering-mathematics-probability__7.12.2",
+   "engineering-mathematics-probability__7.12.3",
+   "engineering-mathematics-probability__7.12.4",
+   "engineering-mathematics-probability__7.12.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 1989-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "normal-distribution",
+  "name": "Normal Distribution",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2008,
+   2017,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.11.1",
+   "engineering-mathematics-probability__7.11.2",
+   "engineering-mathematics-probability__7.11.3",
+   "engineering-mathematics-probability__7.11.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2008-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "bayes-theorem",
+  "name": "Bayes Theorem",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2018,
+   2021,
+   2025
+  ],
+  "recentYearsCovered": [
+   2018,
+   2021,
+   2025
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.1.1",
+   "engineering-mathematics-probability__7.1.2",
+   "engineering-mathematics-probability__7.1.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2018-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "statistics",
+  "name": "Statistics",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2021,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2021,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.18.1",
+   "engineering-mathematics-probability__7.18.2",
+   "engineering-mathematics-probability__7.18.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2021-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "bayesian-network",
+  "name": "Bayesian Network",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.2.1",
+   "engineering-mathematics-probability__7.2.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "bernoulli-distribution",
+  "name": "Bernoulli Distribution",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.3.1",
+   "engineering-mathematics-probability__7.3.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "variance",
+  "name": "Variance",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.20.1",
+   "engineering-mathematics-probability__7.20.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "chi-square-distribution",
+  "name": "Chi Square Distribution",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.5.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "continuous-distribution",
+  "name": "Continuous Distribution",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2016
+  ],
+  "recentYearsCovered": [
+   2016
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.7.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2016-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "probability-density-function",
+  "name": "Probability Density Function",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2003
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.14.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2003-2003 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "probability-distribution",
+  "name": "Probability Distribution",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.15.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "square-invariant",
+  "name": "Square Invariant",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "engineering-mathematics-probability__7.17.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ }
+]

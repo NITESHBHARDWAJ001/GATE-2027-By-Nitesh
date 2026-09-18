@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Variable partitions me sabse chhota hole jo request fit kare.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Best Fit Allocation se related sawal.",
+   "thinkThis": "P3_BEST_FIT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Fit rules mix."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:best-fit",
+ "revisionLevel": "short-form"
+}

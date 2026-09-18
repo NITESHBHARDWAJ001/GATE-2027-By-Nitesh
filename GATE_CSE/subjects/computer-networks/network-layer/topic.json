@@ -1,0 +1,23 @@
+{
+ "topicId": "computer-networks:network-layer",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "Network Layer Concepts",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 2003-2026.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  2003,
+  2004,
+  2013,
+  2014,
+  2018,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

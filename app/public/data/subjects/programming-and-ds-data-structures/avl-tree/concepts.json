@@ -1,0 +1,23 @@
+{
+ "overview": "Balance factor in {-1,0,1}; min nodes N(h)=N(h-1)+N(h-2)+1; max height ~1.44 log n.",
+ "whyItMatters": "6 PYQs extracted (1988-2020); P3 topic.",
+ "coreConcept": "Balance factor in {-1,0,1}; min nodes N(h)=N(h-1)+N(h-2)+1; max height ~1.44 log n.",
+ "hinglishExplanation": "Rotations insertion/deletion ke baad.",
+ "formalDefinition": "Balance factor in {-1,0,1}; min nodes N(h)=N(h-1)+N(h-2)+1; max height ~1.44 log n.",
+ "importantProperties": [
+  "Balance factor = h(left)-h(right).",
+  "N(h) = N(h-1)+N(h-2)+1, N(0)=1,N(1)=2.",
+  "Height O(log n).",
+  "Rotations LL, RR, LR, RL."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Height definition (edges/nodes)."
+ ],
+ "standardTechniques": [
+  "1. Balance factors.",
+  "2. Rotate."
+ ],
+ "topicId": "programming-and-ds-data-structures:avl-tree"
+}

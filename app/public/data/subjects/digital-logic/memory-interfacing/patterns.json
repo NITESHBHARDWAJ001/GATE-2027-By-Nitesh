@@ -1,0 +1,30 @@
+[
+ {
+  "patternId": "P3_MEMORY_INTERFACING_01",
+  "name": "Memory Chips and Decoders (PYQ type)",
+  "recognitionClueHinglish": "Memory Chips and Decoders se related sawal.",
+  "whatShouldComeToMind": [
+   "RAM chips count, decoder tree, DRAM rows/columns."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Depth chips.",
+   "2. Width chips."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.23.1",
+   "4.23.2",
+   "4.23.3",
+   "4.23.4",
+   "4.23.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Width aur depth dono expand."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

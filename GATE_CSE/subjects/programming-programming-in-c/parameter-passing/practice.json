@@ -1,0 +1,33 @@
+{
+ "topicId": "programming-programming-in-c:parameter-passing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PARAME-01",
+   "patternId": "PP_POINTER_TRACE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "void f(int *p){p=NULL;} caller p unaffected?",
+   "solutionApproach": "Pointer copy.",
+   "answer": "Unaffected"
+  },
+  {
+   "practiceId": "AI-PARAMETE-X02",
+   "patternId": "PP_POINTER_TRACE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "void f(int x){x=5;} int a=1; f(a); printf a?",
+   "solutionApproach": "Call by value.",
+   "answer": "1"
+  },
+  {
+   "practiceId": "AI-PARAMETE-X03",
+   "patternId": "PP_POINTER_TRACE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "void g(int *p){*p=5;} int a=1; g(&a); a?",
+   "solutionApproach": "Pointer.",
+   "answer": "5"
+  }
+ ]
+}

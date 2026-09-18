@@ -1,0 +1,19 @@
+{
+ "overview": "Scale, shortest route on maps.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Scale, shortest route on maps.",
+ "hinglishExplanation": "Scale = map distance/actual.",
+ "formalDefinition": "Scale, shortest route on maps.",
+ "importantProperties": [
+  "Scale conversion."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Units."
+ ],
+ "standardTechniques": [
+  "1. Scale."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:maps"
+}

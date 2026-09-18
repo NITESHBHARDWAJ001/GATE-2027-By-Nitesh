@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Array representation, parent/children indices, min-heap properties, max element location.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Binary Heap (Algorithms View) se related sawal.",
+   "thinkThis": "P3_BINARY_HEAP_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "0-based vs 1-based index."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:binary-heap",
+ "revisionLevel": "short-form"
+}

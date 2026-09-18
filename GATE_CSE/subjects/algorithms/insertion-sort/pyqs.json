@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "algorithms__1.24.1",
+  "localId": "1.24.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "insertion-sort",
+  "topic": "Insertion Sort",
+  "year": 2003,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "22",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "The usual                implementation of Insertion Sort to sort an array uses linear search to identify the position where an element is to be inserted into the already sorted part of the array. If, instead, we use binary search to identify the position, the worst case running time will A. remain                                                                      B. become C. become                                                                      D. become",
+  "tagsRaw": "gatecse-2003 algorithms sorting time-complexity normal insertion-sort",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 64
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_INSERTION_SORT_01"
+ },
+ {
+  "pyqId": "algorithms__1.24.2",
+  "localId": "1.24.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "insertion-sort",
+  "topic": "Insertion Sort",
+  "year": 2003,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "62",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "In a permutation                    , of distinct integers, an inversion is a pair                such that  and What would be the worst case time complexity of the Insertion Sort algorithm, if the inputs are restricted to permutations of                     with at most inversions? A.                                  B.                                     C.                     D.",
+  "tagsRaw": "gatecse-2003 algorithms  sorting    normal  insertion-sort",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 64
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_INSERTION_SORT_01"
+ }
+]

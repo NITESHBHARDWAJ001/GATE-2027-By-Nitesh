@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:coding-decoding",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CODING-01",
+   "patternId": "P3_CODING_DECODING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A->B, B->C shift. CAT?",
+   "solutionApproach": "+1.",
+   "answer": "DBU"
+  }
+ ]
+}

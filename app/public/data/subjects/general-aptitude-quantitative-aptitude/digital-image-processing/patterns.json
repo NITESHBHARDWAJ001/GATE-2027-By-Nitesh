@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_DIGITAL_IMAGE_PROCESSING_01",
+  "name": "Digital Image Processing (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Digital Image Processing (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "Pixels, resolution, image matrices."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Dimensions."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.21.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Bytes/bits."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

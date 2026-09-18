@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_COMPILER_TOKENIZATION_01",
+  "name": "Tokenization (PYQ type)",
+  "recognitionClueHinglish": "Tokenization se related sawal.",
+  "whatShouldComeToMind": [
+   "Token definitions se string ke tokens ki count (whitespace/comments chhod kar)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Scan left to right."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.8.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Comments ko tokens ginna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

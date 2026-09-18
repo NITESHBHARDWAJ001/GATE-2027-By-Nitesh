@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:breadth-first-search",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BREADT-01",
+   "patternId": "P3_BREADTH_FIRST_SEARCH_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "BFS ki complexity adjacency list par?",
+   "solutionApproach": "Har vertex/edge ek baar.",
+   "answer": "O(V+E)"
+  }
+ ]
+}

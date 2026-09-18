@@ -1,0 +1,21 @@
+{
+ "overview": "Angles, triangles, circles ki basic properties.",
+ "whyItMatters": "5 PYQs extracted (2014-2025); P3 topic.",
+ "coreConcept": "Angles, triangles, circles ki basic properties.",
+ "hinglishExplanation": "Angle sum, similar triangles.",
+ "formalDefinition": "Angles, triangles, circles ki basic properties.",
+ "importantProperties": [
+  "Triangle angle sum 180.",
+  "Pythagoras.",
+  "Similar triangle ratios."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Diagram misread."
+ ],
+ "standardTechniques": [
+  "1. Draw."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:geometry"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Propagation delay se glitch/hazard; display encodings.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Combinational Circuits (Glitches) se related sawal.",
+   "thinkThis": "P3_COMBINATIONAL_CIRCUIT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Delay ignore."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:combinational-circuit",
+ "revisionLevel": "short-form"
+}

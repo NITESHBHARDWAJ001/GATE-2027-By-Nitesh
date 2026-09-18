@@ -1,0 +1,25 @@
+{
+ "overview": "P(A|B), total probability, Bayes theorem, sequential experiments without replacement.",
+ "whyItMatters": "14 PYQs extracted (1994-2026); P2 topic.",
+ "coreConcept": "P(A|B) = P(A n B)/P(B); Bayes: P(A|B) = P(B|A)P(A)/P(B).",
+ "hinglishExplanation": "Given information sample space ko chhota karti hai. Multi-stage me tree diagram; posterior ke liye Bayes.",
+ "formalDefinition": "P(A|B) = P(A n B)/P(B); Bayes: P(A|B) = P(B|A)P(A)/P(B).",
+ "importantProperties": [
+  "P(A|B)=P(AnB)/P(B).",
+  "Total probability: sum P(B|Ai)P(Ai).",
+  "Bayes.",
+  "Without replacement: conditional probabilities badalti hain.",
+  "Independent: P(A|B)=P(A)."
+ ],
+ "formulas": {
+  "bayes": "P(A|B)=P(B|A)P(A)/P(B)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "P(A|B) vs P(B|A) ulta."
+ ],
+ "standardTechniques": [
+  "Tree diagram."
+ ],
+ "topicId": "engineering-mathematics-probability:conditional-probability"
+}

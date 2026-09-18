@@ -1,0 +1,158 @@
+[
+  {
+    "patternId": "REL_PROPERTY_CHECK_01",
+    "name": "Property-Checking of a Given Relation (reflexive/symmetric/antisymmetric/transitive/order-type)",
+    "recognitionClueHinglish": "Sabse common pattern: relation R ek formula ya condition se define hai (jaise 'aRb iff a-b is even' ya 'aRb iff a divides b'), aur poocha hai kaunse properties satisfy hoti hain, ya R Partial Order/Total Order/Equivalence Relation hai ya nahi. Ye is topic ka #1 pattern hai (38 me se 16 PYQs).",
+    "whatShouldComeToMind": [
+      "Test with 2-3 CONCRETE small elements first — don't reason purely abstractly under time pressure.",
+      "Reflexive: does (a,a) hold for every a? Check the SAME element against itself.",
+      "Symmetric: if (a,b) holds, does (b,a) also always hold?",
+      "Antisymmetric: if (a,b) and (b,a) both hold, MUST a=b?",
+      "Transitive: if (a,b) and (b,c) hold, does (a,c) also hold — try to find a 3-element counterexample chain."
+    ],
+    "conceptsRequired": ["Reflexive/Symmetric/Antisymmetric/Transitive definitions", "Equivalence Relation / Partial Order / Total Order definitions"],
+    "generalSolvingApproach": [
+      "1. Write down the relation's defining condition precisely.",
+      "2. Reflexivity: substitute a=b, check if condition holds for all a — if the domain has an element where it fails (e.g., a=0 for division-based relations), reflexivity fails.",
+      "3. Symmetry: assume (a,b) holds, algebraically check if (b,a) must also hold.",
+      "4. Antisymmetry: assume (a,b) and (b,a) both hold, derive whether a=b is forced.",
+      "5. Transitivity: assume (a,b),(b,c) hold, check if (a,c) follows — actively TRY to construct a counterexample (this is faster than proving transitivity holds).",
+      "6. Combine: Reflexive+Symmetric+Transitive = Equivalence; Reflexive+Antisymmetric+Transitive = Partial Order; Partial Order + every pair comparable = Total Order."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.12.6","4.12.7","4.12.8","4.12.16","4.12.20","4.12.21","4.12.22","4.12.27","4.12.29","4.12.31","4.12.32","4.12.33","4.12.35","4.12.36","4.12.37","4.12.38"],
+    "variationsObserved": [
+      "Relation defined by a divisibility/GCD/product-is-perfect-square condition on integers.",
+      "Relation defined on ordered pairs (a,b) with a compound condition (e.g., a+d = b+c style).",
+      "'Circular' relation definition (aRb and bRc ⟹ cRa) — a less common 5th property, test the same way as transitivity."
+    ],
+    "commonTraps": [
+      "Checking reflexivity/symmetry only for the example pairs GIVEN in the relation's listing, instead of the general defining rule.",
+      "Assuming antisymmetric is the 'opposite' of symmetric — a relation can be neither.",
+      "For divisibility-style relations, forgetting to check behavior at 0 or negative numbers if the domain includes them."
+    ],
+    "edgeCases": ["Relations defined on ordered pairs of integers (not integers themselves) — treat each ordered pair as a single 'element' of the domain being related."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "REL_COUNTING_02",
+    "name": "Counting Relations (binary / reflexive / equivalence relation counts)",
+    "recognitionClueHinglish": "Agar poocha hai 'how many binary relations', 'how many reflexive relations', 'number of equivalence relations', ya 'largest/smallest equivalence relation size' on an n-element set — ye pure counting pattern hai, formula-driven.",
+    "whatShouldComeToMind": [
+      "Total pairs possible in A×A = n². Total binary relations = 2^(n²) (each pair independently in/out).",
+      "Reflexive relations: n diagonal pairs are FORCED in, remaining n²−n pairs are free → 2^(n²−n).",
+      "Equivalence relation COUNT (not size) = Bell number B(n) — GATE rarely expects you to compute Bell numbers directly for large n, usually asks for small n or asks about LARGEST/SMALLEST equivalence relation SIZE instead (which has simple closed forms)."
+    ],
+    "conceptsRequired": ["Binary relation = subset of A×A", "Basic combinatorics (2^k counting)"],
+    "generalSolvingApproach": [
+      "1. Identify n = |A|, and compute |A×A| = n².",
+      "2. If NO constraint: answer = 2^(n²).",
+      "3. If reflexivity required: subtract the n forced diagonal pairs from the exponent → 2^(n²−n).",
+      "4. If symmetry required: pairs come in (a,b)/(b,a) mirror groups except diagonal — count = 2^(n(n+1)/2).",
+      "5. If asked for LARGEST/SMALLEST equivalence relation size (not count): largest = n² (one class = whole set), smallest = n (identity relation, each element its own class)."
+    ],
+    "formulasUsed": ["totalBinaryRelations", "reflexiveRelationsCount", "symmetricRelationsCount", "largestEquivalenceRelationSize", "smallestEquivalenceRelationSize"],
+    "pyqExamples": ["4.12.2","4.12.3","4.12.11","4.12.12","4.12.17","4.12.23","4.12.28","4.12.30","4.12.34"],
+    "variationsObserved": [
+      "Probability variant (2020): pick a random relation from all 2^(n²), find probability it's reflexive = 2^(n²−n) / 2^(n²) = 2^(−n).",
+      "Comparing relation-count formula to function-count formula (n^n) for the same set — asked which grows faster."
+    ],
+    "commonTraps": ["Confusing 'number of equivalence RELATIONS' (Bell number, hard) with 'size of the LARGEST equivalence relation' (n², easy) — read the question very carefully.", "Off-by-one in the exponent for reflexive-relation counting."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "REL_COMBINATION_03",
+    "name": "Equivalence Relation Combination (does R∪S / R∩S stay an equivalence relation?)",
+    "recognitionClueHinglish": "Do (ya zyada) equivalence relations R aur S diye hain, aur poocha hai R∪S ya R∩S bhi equivalence relation hoga ya nahi — ye combination-pattern hai, chhota but recurring cluster.",
+    "whatShouldComeToMind": [
+      "INTERSECTION of equivalence relations is ALWAYS an equivalence relation — safe to answer TRUE without much checking.",
+      "UNION of equivalence relations is USUALLY NOT an equivalence relation — transitivity is the property that typically breaks.",
+      "To disprove union-is-equivalence: construct a tiny 3-element counterexample where R and S individually partition differently."
+    ],
+    "conceptsRequired": ["Equivalence relation definition", "Set operations on relations (relations are themselves sets of pairs)"],
+    "generalSolvingApproach": [
+      "1. Recall the safe defaults: intersection preserves all three properties (reflexive/symmetric/transitive independently hold under intersection); union preserves reflexive and symmetric but usually breaks transitive.",
+      "2. If a specific TRUE/FALSE claim about union is made, construct a 3-element counterexample: pick A={1,2,3}, R = {(1,1),(2,2),(3,3),(1,2),(2,1)}, S = {(1,1),(2,2),(3,3),(2,3),(3,2)} — R∪S contains (1,2) and (2,3) but not (1,3), breaking transitivity."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.12.1","4.12.13","4.12.18","4.12.25"],
+    "variationsObserved": ["Poset/lattice framing (least-upper-bound, greatest-lower-bound existing) combined with combination-of-relations reasoning."],
+    "commonTraps": ["Assuming union behaves the same as intersection (it doesn't)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "REL_TRANSITIVE_CLOSURE_04",
+    "name": "Transitive Closure Computation",
+    "recognitionClueHinglish": "'Transitive closure of R', 'reflexive-transitive closure', ya digraph diya hai aur smallest m,n poocha hai jahan path exist kare — ye closure-computation pattern hai.",
+    "whatShouldComeToMind": [
+      "Transitive closure = keep adding (a,c) whenever (a,b) and (b,c) are present, until no more can be added.",
+      "Equivalent to: is there a PATH from a to c in the relation's directed graph? — transitive closure = reachability.",
+      "Standard algorithm: Warshall's algorithm, O(n³) — this is also the source of the time-complexity PYQ in this cluster."
+    ],
+    "conceptsRequired": ["Directed graph reachability", "Warshall's algorithm idea"],
+    "generalSolvingApproach": [
+      "1. Draw the relation as a directed graph (nodes = elements, edges = related pairs).",
+      "2. Transitive closure = add an edge (a,c) for every pair of nodes a,c connected by ANY path (of length ≥1).",
+      "3. For small explicit relations, do this by direct path-tracing rather than running full Warshall's by hand.",
+      "4. For 'reflexive transitive closure', additionally add all self-loops (a,a)."
+    ],
+    "formulasUsed": ["transitiveClosureComplexity"],
+    "pyqExamples": ["4.12.4","4.12.15","4.12.24","4.12.26"],
+    "variationsObserved": ["Digraph given, asked for smallest exponents m,n such that R^m = R^n (relation power / cycle-detection framing)."],
+    "commonTraps": ["Stopping after only ONE pass of adding transitive pairs instead of iterating until no changes occur (closure needs to reach a fixed point)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "REL_EQUIV_CLASSES_05",
+    "name": "Equivalence Classes / Partition Construction",
+    "recognitionClueHinglish": "'Find the equivalence classes', ya 'how many equivalence classes' poocha hai for a specific relation (jaise mod-n congruence) — ye partition-construction pattern hai.",
+    "whatShouldComeToMind": [
+      "Every equivalence relation partitions the domain into disjoint equivalence classes.",
+      "For mod-n congruence, the equivalence classes are exactly the n residue classes {0,1,...,n-1}.",
+      "Pick one representative element, find everything related to it — that's one class; repeat with an unpicked element until domain exhausted."
+    ],
+    "conceptsRequired": ["Equivalence relation → partition correspondence"],
+    "generalSolvingApproach": [
+      "1. Verify (or accept as given) that the relation is an equivalence relation.",
+      "2. Start with any unvisited element x, collect all y such that xRy — that's one equivalence class.",
+      "3. Repeat with the next unvisited element until all elements are classified.",
+      "4. Count classes / describe them as asked."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.12.5","4.12.9"],
+    "variationsObserved": ["Equivalence classes defined via function-equality (f~g iff f(0)=g(0)) rather than numeric congruence."],
+    "commonTraps": ["Double-counting an element into two different classes — classes must be disjoint by definition."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "REL_PROOF_REASONING_06",
+    "name": "Proof-Style Reasoning About Relations (flawed-proof spotting, existence claims)",
+    "recognitionClueHinglish": "Descriptive/older-style question jisme ek 'proof' diya gaya hai (jaise 'symmetric+transitive implies reflexive') aur poocha hai flaw kahan hai, ya general existence-style claim prove/disprove karna hai — ye abstract-reasoning pattern hai, mostly pre-2005.",
+    "whatShouldComeToMind": [
+      "The classic flawed proof 'symmetric+transitive ⟹ reflexive': it assumes for every x there EXISTS some y with xRy — but if x has NO related element at all, the proof never gets to apply symmetry/transitivity for that x. Isolated elements are the counterexample.",
+      "For general existence claims, try to construct a small explicit example before attempting a general proof."
+    ],
+    "conceptsRequired": ["Relation property definitions", "Basic proof/counterexample technique"],
+    "generalSolvingApproach": [
+      "1. Identify exactly which universal claim ('for all x...') the flawed proof implicitly relies on.",
+      "2. Find an element for which that assumption fails (e.g., an element with NO outgoing related pairs at all).",
+      "3. Construct the smallest possible counterexample relation to make the flaw concrete."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.12.10","4.12.19"],
+    "variationsObserved": [],
+    "commonTraps": ["Accepting the flawed proof at face value without checking the 'for all x' assumption."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

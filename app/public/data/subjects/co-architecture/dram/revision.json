@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Row/column addressing, chip select logic, refresh.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "DRAM Chip Organization se related sawal.",
+   "thinkThis": "P3_DRAM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Address ko non-multiplexed maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:dram",
+ "revisionLevel": "short-form"
+}

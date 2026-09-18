@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_DEPTH_FIRST_SEARCH_01",
+  "name": "Depth First Search (PYQ type)",
+  "recognitionClueHinglish": "Depth First Search se related sawal.",
+  "whatShouldComeToMind": [
+   "DFS traversal, discovery/finish times, edge classification, adjacency-list order."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Start vertex.",
+   "2. Recursive visit.",
+   "3. Time stamps."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.12.1",
+   "1.12.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Order of neighbours ignore karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

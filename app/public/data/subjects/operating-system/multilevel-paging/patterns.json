@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_MULTILEVEL_PAGING_01",
+  "name": "Multilevel Paging (PYQ type)",
+  "recognitionClueHinglish": "Multilevel Paging se related sawal.",
+  "whatShouldComeToMind": [
+   "Address bits: offset + level indexes; page-table sizes."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Offset.",
+   "2. Index bits."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.18.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "PTE size ka unit."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

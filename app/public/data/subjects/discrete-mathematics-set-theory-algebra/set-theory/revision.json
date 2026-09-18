@@ -1,0 +1,28 @@
+{
+  "topicId": "dm-set-theory-algebra-set-theory",
+  "revisionLevel": "short-form",
+  "coreIdea": "Set = distinct-element collection. GATE tests: counting (power set/inclusion-exclusion), identities (De Morgan etc.), and finite-vs-infinite proof reasoning.",
+  "mustRememberFormulas": [
+    "|A∪B∪C| = |A|+|B|+|C| − pairwise sums + triple overlap",
+    "|P(A)| = 2^n",
+    "odd-size subset count = 2^(n-1)",
+    "Max antichain in subset lattice = C(n, floor(n/2)) (Sperner's theorem)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "overlapping groups word problem (persons/items in 2-3 categories)", "thinkThis": "SET_INCL_EXCL_01"},
+    {"seeThis": "'power set' / 'number of subsets' mentioned", "thinkThis": "SET_POWERSET_02"},
+    {"seeThis": "set-operation identity (∪,∩,complement,△) TRUE/FALSE", "thinkThis": "SET_ALGEBRA_IDENTITY_03"},
+    {"seeThis": "'infinite set' / descriptive proof / induction", "thinkThis": "SET_FINITE_INFINITE_PROOF_04"},
+    {"seeThis": "'maximum family of subsets such that...' constraint", "thinkThis": "SET_EXTREMAL_FAMILY_05"}
+  ],
+  "commonTrapsQuickList": [
+    "'At least two' ≠ 'exactly two' — different formula",
+    "P(∅) has 1 element (∅ itself), not 0",
+    "Finite-set 'subset is smaller' intuition fails for infinite sets",
+    "Always add back the triple-overlap term in 3-set inclusion-exclusion"
+  ],
+  "highYieldPyqLessons": [
+    "Power-set pattern is the single biggest cluster (8/27 PYQs) — drill 2^n and odd/even-split cold.",
+    "Inclusion-exclusion word problems reappear verbatim-style in General Aptitude's Venn Diagram topic — one skill, two scoring opportunities."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+ "overview": "Divide-and-conquer recurrences ko Master theorem se solve karo.",
+ "whyItMatters": "1 PYQs extracted (?-?); P4 topic.",
+ "coreConcept": "Divide-and-conquer recurrences ko Master theorem se solve karo.",
+ "hinglishExplanation": "T(n)=aT(n/b)+f(n): n^(log_b a) vs f(n) compare.",
+ "formalDefinition": "Divide-and-conquer recurrences ko Master theorem se solve karo.",
+ "importantProperties": [
+  "Case 1: f smaller: n^(log_b a).",
+  "Case 2: equal: n^(log_b a) log n.",
+  "Case 3: f larger: f(n)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Regularity condition."
+ ],
+ "standardTechniques": [
+  "1. a,b,f.",
+  "2. Compare."
+ ],
+ "topicId": "algorithms:computer-science"
+}

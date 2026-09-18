@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Minute hand 6 deg/min, hour hand 0.5 deg/min.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Clock Problems se related sawal.",
+   "thinkThis": "P4_CLOCK_TIME_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Reflex angle."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:clock-time",
+ "revisionLevel": "short-form"
+}

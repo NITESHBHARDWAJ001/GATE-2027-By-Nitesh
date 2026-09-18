@@ -1,0 +1,41 @@
+{
+  "topicId": "algorithms-identify-function",
+  "overview": "Is topic ka core hai: code diya hai (recursive ya iterative), aur poocha hai 'ye ALGORITHM/FUNCTION kya COMPUTE karta hai' — chahe ek GENERAL formula ke roop me (jaise GCD, x^n), ya ek SPECIFIC input ke liye exact numeric value, ya ek array-transformation ke roop me (jaise reverse, transpose).",
+  "whyItMatters": "38 PYQs, highest in Algorithms after MST. Ye Recursion aur Programming-In-C ka 'applied' version hai — same tracing skill, but goal ab 'pattern PEHCHANO' hai, sirf trace karna nahi.",
+  "coreConcept": "5 recurring 'code shapes' GATE me baar-baar aate hain — inhe SHAPE se pehchano: (1) subtraction-loop = GCD (Euclidean algorithm), (2) divide-by-2 loop/recursion = binary representation ya log-related, (3) recursive doubling (x*x, n/2) = fast exponentiation, (4) accumulator + recursive sum = digit-sum/series, (5) two-array/index swap pattern = reverse/transpose/merge.",
+  "hinglishExplanation": "Is topic ko 'code ka DNA pehchano' socho. Har baar poora trace karne ki zaroorat nahi — agar code shape 'while(m!=n) if(m>n) m-=n else n-=m' dikhe, turant pehchano 'ye GCD hai' (Euclidean subtraction method) bina step-by-step trace kiye. Yehi 'pattern recognition over brute-force tracing' is topic ki asli skill hai.",
+  "formalDefinition": "Given code C, determine the mathematical function f such that C(x) = f(x) for all valid x, OR compute C(specific_input) exactly.",
+  "importantProperties": [
+    "'while(m!=n){if(m>n)m-=n;else n-=m;} return n' = GCD via repeated subtraction (Euclidean algorithm).",
+    "'while(m!=n){if(m>n)m-=n;else n-=m;}' variant with different combine = could also be testing coprimality or another number-theoretic property — always verify with a small concrete example (like m=12,n=18) rather than assuming.",
+    "Recursive f(x,n) that does 'if n odd: value*=x; value*=f(x*x, n/2)' = fast exponentiation (x^n) via repeated squaring, O(log n).",
+    "Recursive f(n) = f(n/2) then print(n%2) = converts n to its BINARY representation (prints bits from most-significant to least-significant, since the recursive call happens BEFORE the print).",
+    "f(n) summing digit-by-digit via n%10 and n/10 (recursively or iteratively) = digit-sum or digit-processing function.",
+    "'reverse(s,1,k); reverse(s,k+1,n); reverse(s,1,n)' (three reversals) = ROTATES the array by k positions (a classic 'rotate via 3 reversals' trick).",
+    "Nested loop swapping A[i][j] with A[j][i] = matrix TRANSPOSE.",
+    "Merging two sorted arrays via a while-loop comparing a[i] vs b[j] = standard merge-step (as in Merge Sort).",
+    "count[128] array indexed by character, incremented for string 1 and decremented for string 2, checking all zero = ANAGRAM check."
+  ],
+  "formulas": {
+    "gcdSubtractionShape": "while(m!=n){if(m>n)m-=n;else n-=m;} → computes GCD(m,n)",
+    "fastExpShape": "f(x,n): if n odd, value*=x; value*=f(x*x,n/2) → computes x^n in O(log n)",
+    "binaryConversionShape": "f(n): if n>1, f(n/2); print(n%2) → prints binary representation of n (call before print = MSB first)",
+    "threeReversalRotate": "reverse(s,1,k); reverse(s,k+1,n); reverse(s,1,n) → rotates array left by k positions",
+    "matrixTransposeShape": "for i,j: swap A[i][j] and A[j][i] (careful about double-swap-back if i,j both ranges 1..n without i<j guard)"
+  },
+  "keyPropertiesAndIdentities": [
+    "The ORDER of a recursive call relative to a print/output statement determines MSB-first vs LSB-first output (same insight as the Recursion topic's print-order pattern) — this shows up constantly in binary-conversion-style code.",
+    "Any code with 'value *= something; value *= f(reduced_input)' recursive multiplicative structure is very likely computing a PRODUCT/POWER-related function — look for repeated squaring or factorial-like patterns."
+  ],
+  "commonPitfalls": [
+    "Trying to brute-force trace EVERY step for a general 'what does this compute' question instead of recognizing the shape — wastes huge time for no benefit since the answer is a general formula, not one number.",
+    "Missing that a subtraction-loop pattern could be doing something OTHER than GCD (verify with concrete small numbers rather than pattern-matching blindly).",
+    "Getting confused about MSB-vs-LSB order in binary-conversion-style recursive code — always check whether the print happens BEFORE or AFTER the recursive call."
+  ],
+  "standardTechniques": [
+    "STEP 1 for 'what does this function compute' questions: try to recognize a KNOWN shape (GCD, power, binary conversion, digit-sum, reversal/rotation, transpose, merge, anagram-check) from the structure alone.",
+    "STEP 2 if no shape is recognized: run the code on 2-3 SMALL concrete inputs by hand, compute the outputs, then guess-and-verify a closed-form formula matching those outputs.",
+    "For 'exact output for THIS specific input' questions (not general formula): just do a careful, explicit trace — this is really the Recursion/Programming-In-C code-tracing skill applied directly, no shortcut needed.",
+    "For array/structure-transformation questions: draw the actual array/matrix and trace the index operations explicitly, watching especially for double-swaps or off-by-one range errors."
+  ]
+}

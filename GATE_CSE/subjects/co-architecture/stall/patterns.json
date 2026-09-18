@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_STALL_01",
+  "name": "Pipeline Stalls and CPI (PYQ type)",
+  "recognitionClueHinglish": "Pipeline Stalls and CPI se related sawal.",
+  "whatShouldComeToMind": [
+   "Effective CPI = 1 + stall cycles per instruction; execution time."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. CPI.",
+   "2. Time."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.27.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Stall per hazard vs per instruction."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

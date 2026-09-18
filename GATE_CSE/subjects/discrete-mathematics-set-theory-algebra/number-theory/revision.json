@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Divisors count = product of (e_i+1); gcd conditions.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Number Theory (Divisors, GCD) se related sawal.",
+   "thinkThis": "P3_NUMBER_THEORY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Factorization me galti."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:number-theory",
+ "revisionLevel": "short-form"
+}

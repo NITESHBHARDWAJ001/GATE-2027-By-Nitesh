@@ -1,0 +1,200 @@
+[
+  {
+    "subjectId": "discrete-mathematics-combinatory",
+    "chapterNumber": 1,
+    "name": "Discrete Mathematics: Combinatory",
+    "sourceVolume": "volume1",
+    "pyqCountSource": 51,
+    "topicCount": 8,
+    "topicPyqSum": 51
+  },
+  {
+    "subjectId": "discrete-mathematics-graph-theory",
+    "chapterNumber": 2,
+    "name": "Discrete Mathematics: Graph Theory",
+    "sourceVolume": "volume1",
+    "pyqCountSource": 88,
+    "topicCount": 9,
+    "topicPyqSum": 88
+  },
+  {
+    "subjectId": "discrete-mathematics-mathematical-logic",
+    "chapterNumber": 3,
+    "name": "Discrete Mathematics: Mathematical Logic",
+    "sourceVolume": "volume1",
+    "pyqCountSource": 78,
+    "topicCount": 3,
+    "topicPyqSum": 78
+  },
+  {
+    "subjectId": "discrete-mathematics-set-theory-algebra",
+    "chapterNumber": 4,
+    "name": "Discrete Mathematics: Set Theory & Algebra",
+    "sourceVolume": "volume1",
+    "pyqCountSource": 173,
+    "topicCount": 13,
+    "topicPyqSum": 173
+  },
+  {
+    "subjectId": "engineering-mathematics-calculus",
+    "chapterNumber": 5,
+    "name": "Engineering Mathematics: Calculus",
+    "sourceVolume": "volume1",
+    "pyqCountSource": 69,
+    "topicCount": 8,
+    "topicPyqSum": 69
+  },
+  {
+    "subjectId": "engineering-mathematics-linear-algebra",
+    "chapterNumber": 6,
+    "name": "Engineering Mathematics: Linear Algebra",
+    "sourceVolume": "volume1",
+    "pyqCountSource": 112,
+    "topicCount": 14,
+    "topicPyqSum": 112
+  },
+  {
+    "subjectId": "engineering-mathematics-probability",
+    "chapterNumber": 7,
+    "name": "Engineering Mathematics: Probability",
+    "sourceVolume": "volume1",
+    "pyqCountSource": 125,
+    "topicCount": 20,
+    "topicPyqSum": 125
+  },
+  {
+    "subjectId": "general-aptitude-analytical-aptitude",
+    "chapterNumber": 8,
+    "name": "General Aptitude: Analytical Aptitude",
+    "sourceVolume": "volume1",
+    "pyqCountSource": 48,
+    "topicCount": 15,
+    "topicPyqSum": 48
+  },
+  {
+    "subjectId": "general-aptitude-quantitative-aptitude",
+    "chapterNumber": 9,
+    "name": "General Aptitude: Quantitative Aptitude",
+    "sourceVolume": "volume1",
+    "pyqCountSource": 197,
+    "topicCount": 59,
+    "topicPyqSum": 197
+  },
+  {
+    "subjectId": "general-aptitude-spatial-aptitude",
+    "chapterNumber": 10,
+    "name": "General Aptitude: Spatial Aptitude",
+    "sourceVolume": "volume1",
+    "pyqCountSource": 19,
+    "topicCount": 7,
+    "topicPyqSum": 18
+  },
+  {
+    "subjectId": "general-aptitude-verbal-aptitude",
+    "chapterNumber": 11,
+    "name": "General Aptitude: Verbal Aptitude",
+    "sourceVolume": "volume1",
+    "pyqCountSource": 165,
+    "topicCount": 19,
+    "topicPyqSum": 165
+  },
+  {
+    "subjectId": "algorithms",
+    "chapterNumber": 1,
+    "name": "Algorithms",
+    "sourceVolume": "volume2",
+    "pyqCountSource": 358,
+    "topicCount": 46,
+    "topicPyqSum": 358
+  },
+  {
+    "subjectId": "compiler-design",
+    "chapterNumber": 2,
+    "name": "Compiler Design",
+    "sourceVolume": "volume2",
+    "pyqCountSource": 242,
+    "topicCount": 29,
+    "topicPyqSum": 242
+  },
+  {
+    "subjectId": "programming-and-ds-data-structures",
+    "chapterNumber": 3,
+    "name": "Programming and DS: Data Structures",
+    "sourceVolume": "volume2",
+    "pyqCountSource": 238,
+    "topicCount": 17,
+    "topicPyqSum": 238
+  },
+  {
+    "subjectId": "programming-and-ds-programming",
+    "chapterNumber": 4,
+    "name": "Programming and DS: Programming",
+    "sourceVolume": "volume2",
+    "pyqCountSource": 1,
+    "topicCount": 1,
+    "topicPyqSum": 1
+  },
+  {
+    "subjectId": "programming-programming-in-c",
+    "chapterNumber": 5,
+    "name": "Programming: Programming in C",
+    "sourceVolume": "volume2",
+    "pyqCountSource": 131,
+    "topicCount": 20,
+    "topicPyqSum": 131
+  },
+  {
+    "subjectId": "theory-of-computation",
+    "chapterNumber": 6,
+    "name": "Theory of Computation",
+    "sourceVolume": "volume2",
+    "pyqCountSource": 293,
+    "topicCount": 21,
+    "topicPyqSum": 293
+  },
+  {
+    "subjectId": "co-architecture",
+    "chapterNumber": 1,
+    "name": "CO & Architecture",
+    "sourceVolume": "volume3",
+    "pyqCountSource": 251,
+    "topicCount": 28,
+    "topicPyqSum": 251
+  },
+  {
+    "subjectId": "computer-networks",
+    "chapterNumber": 2,
+    "name": "Computer Networks",
+    "sourceVolume": "volume3",
+    "pyqCountSource": 226,
+    "topicCount": 38,
+    "topicPyqSum": 226
+  },
+  {
+    "subjectId": "databases",
+    "chapterNumber": 3,
+    "name": "Databases",
+    "sourceVolume": "volume3",
+    "pyqCountSource": 302,
+    "topicCount": 27,
+    "topicPyqSum": 302
+  },
+  {
+    "subjectId": "digital-logic",
+    "chapterNumber": 4,
+    "name": "Digital Logic",
+    "sourceVolume": "volume3",
+    "pyqCountSource": 313,
+    "topicCount": 36,
+    "topicPyqSum": 313
+  },
+  {
+    "subjectId": "operating-system",
+    "chapterNumber": 5,
+    "name": "Operating System",
+    "sourceVolume": "volume3",
+    "pyqCountSource": 343,
+    "topicCount": 33,
+    "topicPyqSum": 343
+  }
+]

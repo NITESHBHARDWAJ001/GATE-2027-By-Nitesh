@@ -1,0 +1,39 @@
+{
+ "coreIdea": "Disk access time = seek time + rotational latency + transfer time. Capacity = surfaces x tracks x sectors x sector size.",
+ "mustRememberFormulas": [
+  "capacity: surfaces x tracks x spt x sector bytes",
+  "avgRotLatency: 0.5 x (60/RPM) s",
+  "accessTime: seek + rotational latency + transfer",
+  "sectorAddress: ((c*H)+h)*spt + s"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Tracks, surfaces, sectors, bytes diye; capacity ya cylinders ya sector address.",
+   "thinkThis": "DSK_CAPACITY_01"
+  },
+  {
+   "seeThis": "Seek, RPM, sector size diye; file/records read karne ka total time.",
+   "thinkThis": "DSK_ACCESS_TIME_02"
+  },
+  {
+   "seeThis": "Inode direct/indirect pointers se max file size, FAT overhead, free list bits, block-size choice.",
+   "thinkThis": "DSK_FS_LAYOUT_03"
+  },
+  {
+   "seeThis": "Direct concept/definition wale sawal.",
+   "thinkThis": "DSK_CONCEPT_04"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Address size vs block size confuse.",
+  "Har record ke liye seek maan lena.",
+  "Options me subtle wording.",
+  "Sectors overhead bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "Disk access numericals: 1997, 2015, 2024. Formula reuse is strong.",
+  "Inode max-size problems recur (2004, 2012, 2019)."
+ ],
+ "topicId": "operating-system:disk",
+ "revisionLevel": "short-form"
+}

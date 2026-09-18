@@ -1,0 +1,24 @@
+{
+ "topicId": "programming-programming-in-c:loop-invariants",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LOOP-I-01",
+   "patternId": "LI_INVARIANT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "q=0,r=x; while(r>=y){r-=y;q++;}. Invariant?",
+   "solutionApproach": "x = q*y + r.",
+   "answer": "x = q*y + r"
+  },
+  {
+   "practiceId": "AI-LOOP-INV-X02",
+   "patternId": "LI_INVARIANT_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "s=0;i=0; while(i<n){s+=i;i++;} Invariant before each test?",
+   "solutionApproach": "s = i(i-1)/2.",
+   "answer": "s = 0+1+...+(i-1)"
+  }
+ ]
+}

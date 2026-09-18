@@ -1,0 +1,21 @@
+{
+ "overview": "RIP, OSPF, BGP, EIGRP ke type: DV/LS/path vector, IGP/EGP.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "RIP, OSPF, BGP, EIGRP ke type: DV/LS/path vector, IGP/EGP.",
+ "hinglishExplanation": "RIP distance vector, OSPF link state, BGP path vector (inter-AS).",
+ "formalDefinition": "RIP, OSPF, BGP, EIGRP ke type: DV/LS/path vector, IGP/EGP.",
+ "importantProperties": [
+  "RIP: DV, hop count.",
+  "OSPF: LS.",
+  "BGP: EGP, path vector."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "OSPF ko DV maan lena."
+ ],
+ "standardTechniques": [
+  "1. Match."
+ ],
+ "topicId": "computer-networks:routing-protocols"
+}

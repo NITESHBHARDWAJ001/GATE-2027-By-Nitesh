@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P4_SHIFT_REGISTERS_01",
+  "name": "Shift Registers (PYQ type)",
+  "recognitionClueHinglish": "Shift Registers se related sawal.",
+  "whatShouldComeToMind": [
+   "D flip-flops chain: data har clock par ek position shift."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Clock trace."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.34.1",
+   "4.34.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Direction."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

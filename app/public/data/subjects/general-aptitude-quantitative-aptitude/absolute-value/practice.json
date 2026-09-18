@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:absolute-value",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ABSOLU-01",
+   "patternId": "P3_ABSOLUTE_VALUE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "|x-2|<3 range?",
+   "solutionApproach": "-1<x<5.",
+   "answer": "(-1,5)"
+  }
+ ]
+}

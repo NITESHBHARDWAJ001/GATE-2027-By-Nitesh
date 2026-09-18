@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_DATA_COMMUNICATION_01",
+  "name": "Data Communication Basics (PYQ type)",
+  "recognitionClueHinglish": "Data Communication Basics se related sawal.",
+  "whatShouldComeToMind": [
+   "Link-layer protocol design, bandwidth-delay, lossless links."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Kya loss hai?"
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.10.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Lossless me retransmission maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

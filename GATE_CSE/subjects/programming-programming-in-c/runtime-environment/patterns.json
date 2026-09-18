@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_RUNTIME_ENVIRONMENT_01",
+  "name": "C Runtime: Stack, Heap, Static (PYQ type)",
+  "recognitionClueHinglish": "C Runtime: Stack, Heap, Static se related sawal.",
+  "whatShouldComeToMind": [
+   "Heap me malloc'd data; stack me locals; static/global data segment."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Storage class."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.14.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Static ko heap."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

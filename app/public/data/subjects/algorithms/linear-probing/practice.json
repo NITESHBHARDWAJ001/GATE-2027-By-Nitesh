@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:linear-probing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LINEAR-01",
+   "patternId": "P3_LINEAR_PROBING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "m=5, h=k mod 5, insert 5,10: slots?",
+   "solutionApproach": "5->0, 10->0 busy->1.",
+   "answer": "0 and 1"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Set-associative cache me same set ke blocks ki competition se misses.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Conflict Misses se related sawal.",
+   "thinkThis": "P3_CONFLICT_MISSES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Compulsory ko conflict ginna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:conflict-misses",
+ "revisionLevel": "short-form"
+}

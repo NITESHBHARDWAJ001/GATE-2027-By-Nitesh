@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Underlined parts me se galat.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Incorrect Sentence Part se related sawal.",
+   "thinkThis": "P4_INCORRECT_SENTENCE_PART_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Sahi part ko galat."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:incorrect-sentence-part",
+ "revisionLevel": "short-form"
+}

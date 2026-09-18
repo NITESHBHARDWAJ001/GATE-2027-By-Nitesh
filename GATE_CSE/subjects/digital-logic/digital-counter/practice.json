@@ -1,0 +1,33 @@
+{
+  "topicId": "dl-digital-counter",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-DC-01",
+      "patternId": "DC_MINFF_DESIGN_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "What is the minimum number of flip-flops for a mod-100 counter?",
+      "solutionApproach": "⌈log2(100)⌉ = ⌈6.64⌉ = 7.",
+      "answer": "7 flip-flops"
+    },
+    {
+      "practiceId": "AI-DC-02",
+      "patternId": "DC_MINFF_DESIGN_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A Johnson counter is built with 5 flip-flops. How many distinct states does it cycle through?",
+      "solutionApproach": "Johnson counter: 2n states = 2×5=10.",
+      "answer": "10 states"
+    },
+    {
+      "practiceId": "AI-DC-03",
+      "patternId": "DC_TIMING_FREQ_03",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A counter's critical path has flip-flop propagation delay 5ns, one AND gate delay 2ns, and setup time 1ns. What's the max clock frequency?",
+      "solutionApproach": "Total critical path delay = 5+2+1=8ns. Max frequency = 1/8ns = 125 MHz.",
+      "answer": "125 MHz"
+    }
+  ]
+}

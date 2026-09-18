@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Min DFA states; NFA to DFA blow-up; modular-product automata.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Number of States in Automata se related sawal.",
+   "thinkThis": "P3_NUMBER_OF_STATES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Min DFA aur NFA states confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "theory-of-computation:number-of-states",
+ "revisionLevel": "short-form"
+}

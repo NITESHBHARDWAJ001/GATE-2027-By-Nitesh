@@ -1,0 +1,26 @@
+{
+ "coreIdea": "MTU se bada datagram fragments me toota hai; offset 8-byte units me hota hai.",
+ "mustRememberFormulas": [
+  "fragPayload: floor((MTU-H)/8)*8",
+  "offset: start/8"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Datagram size, MTU; fragments/offset/size.",
+   "thinkThis": "IPK_FRAG_01"
+  },
+  {
+   "seeThis": "Kaunse fields router modify karta hai; TTL purpose.",
+   "thinkThis": "IPK_HEADER_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "8-byte rule.",
+  "Checksum modified."
+ ],
+ "highYieldPyqLessons": [
+  "Fragmentation NAT type and header-field MSQ both recur."
+ ],
+ "topicId": "computer-networks:ip-packet",
+ "revisionLevel": "short-form"
+}

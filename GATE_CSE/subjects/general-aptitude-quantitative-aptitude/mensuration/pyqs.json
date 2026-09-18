@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.31.1",
+  "localId": "9.31.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "mensuration",
+  "topic": "Mensuration",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "5",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "A rectangle has a length and a width                               where             . If the width,  is increased by    , which one of the following statements is correct for all values of and A. Perimeter increases by                       .                                B. Length of the diagonals increases by . C. Area increases by                     . D. The rectangle becomes a square.",
+  "tagsRaw": "gateda-2025 quantitative-aptitude mensuration one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 286
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_MENSURATION_01"
+ }
+]

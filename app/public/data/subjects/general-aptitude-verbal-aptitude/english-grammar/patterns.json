@@ -1,0 +1,30 @@
+[
+ {
+  "patternId": "P3_ENGLISH_GRAMMAR_01",
+  "name": "English Grammar (Articles, Prepositions, Tenses mixed) (PYQ type)",
+  "recognitionClueHinglish": "English Grammar (Articles, Prepositions, Tenses mixed) se related sawal.",
+  "whatShouldComeToMind": [
+   "Sentence completion via grammar rules."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rule.",
+   "2. Fit."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.4.1",
+   "11.4.2",
+   "11.4.3",
+   "11.4.4",
+   "11.4.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Idiom ko literal."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

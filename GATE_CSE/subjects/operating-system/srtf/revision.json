@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Preemptive shortest job first: arrival par remaining time compare.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "SRTF Scheduling se related sawal.",
+   "thinkThis": "P3_SRTF_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Remaining time ki jagah burst compare."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:srtf",
+ "revisionLevel": "short-form"
+}

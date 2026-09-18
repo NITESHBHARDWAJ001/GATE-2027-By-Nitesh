@@ -1,0 +1,64 @@
+[
+ {
+  "patternId": "RT_PROTOCOLS_01",
+  "name": "Routing Protocol Statements",
+  "recognitionClueHinglish": "RIP/OSPF/BGP, DV vs LS, router functionality.",
+  "whatShouldComeToMind": [
+   "Protocol properties."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Protocol.",
+   "2. Property."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.28.1",
+   "2.28.2",
+   "2.28.3",
+   "2.28.5",
+   "2.28.6",
+   "2.28.7",
+   "2.28.11",
+   "2.28.12",
+   "2.28.14"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "DV/LS confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "RT_FORWARD_CALC_02",
+  "name": "Forwarding Table / Path Transfer Time",
+  "recognitionClueHinglish": "CIDR entries lookup; file transfer time via routers.",
+  "whatShouldComeToMind": [
+   "LPM; delays."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. LPM.",
+   "2. Time."
+  ],
+  "formulasUsed": [
+   "pathTime"
+  ],
+  "pyqExamples": [
+   "2.28.4",
+   "2.28.8",
+   "2.28.9",
+   "2.28.10",
+   "2.28.13"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Pipelining."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

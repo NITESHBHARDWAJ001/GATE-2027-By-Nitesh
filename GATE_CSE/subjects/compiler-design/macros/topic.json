@@ -1,0 +1,21 @@
+{
+ "topicId": "compiler-design:macros",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Macros and Macro Processor",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 1992-1997.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  1992,
+  1995,
+  1996,
+  1997
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

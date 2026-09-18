@@ -1,0 +1,22 @@
+{
+ "overview": "Function calls, static/global variables, argument evaluation order.",
+ "whyItMatters": "2 PYQs extracted (2015-2024); P3 topic.",
+ "coreConcept": "Function calls, static/global variables, argument evaluation order.",
+ "hinglishExplanation": "C me argument evaluation order unspecified; question me assumption di hoti hai.",
+ "formalDefinition": "Function calls, static/global variables, argument evaluation order.",
+ "importantProperties": [
+  "Static retains value.",
+  "Global shared.",
+  "Argument evaluation order assume as given."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Order assume nahi karna."
+ ],
+ "standardTechniques": [
+  "1. Order.",
+  "2. Trace."
+ ],
+ "topicId": "programming-programming-in-c:functions"
+}

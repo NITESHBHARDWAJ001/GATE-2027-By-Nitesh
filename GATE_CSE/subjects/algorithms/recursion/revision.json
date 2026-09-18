@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Recursive functions ka trace, number of calls, gcd steps, base cases.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Recursion (Algorithm View) se related sawal.",
+   "thinkThis": "P3_RECURSION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Base case galat padhna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:recursion",
+ "revisionLevel": "short-form"
+}

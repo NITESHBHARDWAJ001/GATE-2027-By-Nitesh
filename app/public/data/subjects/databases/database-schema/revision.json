@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Schema vs instance, DDL/DML, levels of abstraction matching.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Database Schema and Concepts se related sawal.",
+   "thinkThis": "P3_DATABASE_SCHEMA_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Schema aur instance confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:database-schema",
+ "revisionLevel": "short-form"
+}

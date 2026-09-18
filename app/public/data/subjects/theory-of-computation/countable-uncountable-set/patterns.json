@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_COUNTABLE_UNCOUNTABLE_SE_01",
+  "name": "Countable/Uncountable Sets in TOC (PYQ type)",
+  "recognitionClueHinglish": "Countable/Uncountable Sets in TOC se related sawal.",
+  "whatShouldComeToMind": [
+   "Sigma* countable; languages (power set) uncountable; RE languages countable."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Enumerate?"
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.4.1",
+   "6.4.2",
+   "6.4.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Languages ko countable."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

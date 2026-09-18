@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_COST_MARKET_PRICE_01",
+  "name": "Cost Price and Market Price (PYQ type)",
+  "recognitionClueHinglish": "Cost Price and Market Price se related sawal.",
+  "whatShouldComeToMind": [
+   "Marked price, discount, selling price."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. MP, CP."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.17.1",
+   "9.17.2",
+   "9.17.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Base confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

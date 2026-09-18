@@ -1,0 +1,25 @@
+{
+ "overview": "IPv4 classes, network/host counts, address blocks in CIDR, IP options, protocol field.",
+ "whyItMatters": "8 PYQs extracted (2003-2026); P2 topic.",
+ "coreConcept": "Class A /8, B /16, C /24; usable hosts 2^h - 2.",
+ "hinglishExplanation": "Address range ko exactly represent karne wala prefix: start block-size ke multiple par aur size power of 2. Record route option max 9 addresses (option field 40 bytes).",
+ "formalDefinition": "Class A /8, B /16, C /24; usable hosts 2^h - 2.",
+ "importantProperties": [
+  "Class A: 126 networks; B: 2^14; C: 2^21.",
+  "Hosts = 2^h - 2.",
+  "Range to prefix: size power of 2, aligned.",
+  "Record route: 9 addresses max.",
+  "Protocol field TCP=6, UDP=17, ICMP=1."
+ ],
+ "formulas": {
+  "hosts": "2^h - 2"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "-2 bhoolna."
+ ],
+ "standardTechniques": [
+  "Block size aur alignment."
+ ],
+ "topicId": "computer-networks:ip-addressing"
+}

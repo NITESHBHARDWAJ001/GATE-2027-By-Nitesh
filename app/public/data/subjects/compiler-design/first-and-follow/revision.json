@@ -1,0 +1,22 @@
+{
+ "coreIdea": "FIRST(A) = A se shuru hone wale strings ke pehle terminals; FOLLOW(A) = A ke turant baad aane wale terminals.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Grammar diya; sets ya unke sizes.",
+   "thinkThis": "FF_COMPUTE_01"
+  },
+  {
+   "seeThis": "Top-down parsing ke rules par true/false.",
+   "thinkThis": "FF_RULES_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Nullable."
+ ],
+ "highYieldPyqLessons": [
+  "Sets are often blank in extraction; verify with the source."
+ ],
+ "topicId": "compiler-design:first-and-follow",
+ "revisionLevel": "short-form"
+}

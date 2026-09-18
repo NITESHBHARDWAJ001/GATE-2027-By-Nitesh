@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Simple optimization: AM-GM, quadratic vertex.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Maxima/Minima (Aptitude) se related sawal.",
+   "thinkThis": "P3_MAXIMA_MINIMA_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Range restrict."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:maxima-minima",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_FUNCTIONS_01",
+  "name": "Functions (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Functions (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "Function definition se value/composition."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Substitute."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.24.1",
+   "9.24.2",
+   "9.24.3",
+   "9.24.4",
+   "9.24.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Order of composition."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

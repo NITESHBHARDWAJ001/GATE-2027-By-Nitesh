@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_ASSEMBLING_01",
+  "name": "Assembling Puzzle Pieces (PYQ type)",
+  "recognitionClueHinglish": "Assembling Puzzle Pieces se related sawal.",
+  "whatShouldComeToMind": [
+   "Pieces ko jodkar figure."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Matching edges."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "10.2.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Reflection allowed nahi."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

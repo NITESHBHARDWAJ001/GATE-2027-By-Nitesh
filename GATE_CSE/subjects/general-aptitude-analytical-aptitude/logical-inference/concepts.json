@@ -1,0 +1,21 @@
+{
+ "overview": "Conversation me kya necessarily true.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Conversation me kya necessarily true.",
+ "hinglishExplanation": "Statement ka literal meaning; extra assumption nahi.",
+ "formalDefinition": "Conversation me kya necessarily true.",
+ "importantProperties": [
+  "Conditional statements.",
+  "Necessarily true vs possibly true."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Assumption jodna."
+ ],
+ "standardTechniques": [
+  "1. Literal.",
+  "2. Options check."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:logical-inference"
+}

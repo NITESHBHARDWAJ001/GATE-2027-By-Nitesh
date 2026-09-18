@@ -1,0 +1,18 @@
+{
+ "coreIdea": "FD set se candidate keys nikalna; superkeys ki count.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Candidate Keys se related sawal.",
+   "thinkThis": "P3_CANDIDATE_KEY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Instance se key conclude karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:candidate-key",
+ "revisionLevel": "short-form"
+}

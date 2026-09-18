@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Expression simplify aur equivalent expressions.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Boolean Reduction se related sawal.",
+   "thinkThis": "P3_REDUCTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Consensus term miss."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:reduction",
+ "revisionLevel": "short-form"
+}

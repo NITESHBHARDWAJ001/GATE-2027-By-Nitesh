@@ -1,0 +1,20 @@
+{
+ "overview": "Bar chart se data read/percent.",
+ "whyItMatters": "4 PYQs extracted (2015-2025); P3 topic.",
+ "coreConcept": "Bar chart se data read/percent.",
+ "hinglishExplanation": "Axis scale dekho.",
+ "formalDefinition": "Bar chart se data read/percent.",
+ "importantProperties": [
+  "Percent change=(new-old)/old."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Scale."
+ ],
+ "standardTechniques": [
+  "1. Values.",
+  "2. Calculate."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:bar-graph"
+}

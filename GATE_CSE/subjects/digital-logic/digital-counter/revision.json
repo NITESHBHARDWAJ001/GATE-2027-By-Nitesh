@@ -1,0 +1,27 @@
+{
+  "topicId": "dl-digital-counter",
+  "revisionLevel": "short-form",
+  "coreIdea": "Min FFs for mod-N = ⌈log2(N)⌉. Johnson counter: n FFs → 2n states. Ring counter: n FFs → n states. Max freq = 1/(critical path delay+setup).",
+  "mustRememberFormulas": [
+    "Mod-N counter: ⌈log2(N)⌉ flip-flops",
+    "Johnson counter: n flip-flops → 2n states",
+    "Ring counter: n flip-flops → n states",
+    "Max clock frequency = 1/(critical path propagation delay + setup time)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "'minimum flip-flops for mod-N' or custom sequence design", "thinkThis": "DC_MINFF_DESIGN_01"},
+    {"seeThis": "circuit given, asked next states/counting sequence", "thinkThis": "DC_STATE_TRACE_02"},
+    {"seeThis": "propagation delays given, asked max clock frequency", "thinkThis": "DC_TIMING_FREQ_03"},
+    {"seeThis": "counter+decoder combo, asked equivalent circuit behavior", "thinkThis": "DC_EQUIVALENCE_CONCEPTUAL_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Johnson/ring counters have DIFFERENT state-count formulas than standard log2(N) binary counters",
+    "Critical path for max-frequency must include combinational logic between FF stages, not just FF delay alone",
+    "Saturating counters have special boundary behavior — verify hold-vs-wrap explicitly",
+    "Different flip-flop types (D/JK/T) in one circuit need their own excitation tables applied correctly"
+  ],
+  "highYieldPyqLessons": [
+    "State-sequence tracing (7/17) is the biggest sub-skill — practice building next-state tables from circuit logic carefully.",
+    "This topic completes the sequential-circuit application of Boolean Algebra — pairs naturally with Circuit Output (P2) for full digital-circuit coverage."
+  ]
+}

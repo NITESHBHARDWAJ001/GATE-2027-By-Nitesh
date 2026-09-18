@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:srtf",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SRTF-01",
+   "patternId": "P3_SRTF_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "P1 burst 8 at t=0; P2 burst 4 at t=1. Preempt?",
+   "solutionApproach": "Remaining P1=7 > 4.",
+   "answer": "Haan"
+  }
+ ]
+}

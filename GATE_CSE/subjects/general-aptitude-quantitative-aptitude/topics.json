@@ -1,0 +1,1050 @@
+[
+ {
+  "topicSlug": "probability",
+  "name": "Probability",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   2015,
+   2017,
+   2018,
+   2021,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2018,
+   2021,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.44.1",
+   "general-aptitude-quantitative-aptitude__9.44.2",
+   "general-aptitude-quantitative-aptitude__9.44.3",
+   "general-aptitude-quantitative-aptitude__9.44.4",
+   "general-aptitude-quantitative-aptitude__9.44.5",
+   "general-aptitude-quantitative-aptitude__9.44.6",
+   "general-aptitude-quantitative-aptitude__9.44.7",
+   "general-aptitude-quantitative-aptitude__9.44.8",
+   "general-aptitude-quantitative-aptitude__9.44.9",
+   "general-aptitude-quantitative-aptitude__9.44.10",
+   "general-aptitude-quantitative-aptitude__9.44.11",
+   "general-aptitude-quantitative-aptitude__9.44.12"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "12 PYQs extracted, 7 recent (2016+) appearances, spans 2015-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "numerical-computation",
+  "name": "Numerical Computation",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   2014,
+   2017,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.37.1",
+   "general-aptitude-quantitative-aptitude__9.37.2",
+   "general-aptitude-quantitative-aptitude__9.37.3",
+   "general-aptitude-quantitative-aptitude__9.37.4",
+   "general-aptitude-quantitative-aptitude__9.37.5",
+   "general-aptitude-quantitative-aptitude__9.37.6",
+   "general-aptitude-quantitative-aptitude__9.37.7"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "7 PYQs extracted, 2 recent (2016+) appearances, spans 2014-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "functions",
+  "name": "Functions",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2015,
+   2023
+  ],
+  "recentYearsCovered": [
+   2023
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.24.1",
+   "general-aptitude-quantitative-aptitude__9.24.2",
+   "general-aptitude-quantitative-aptitude__9.24.3",
+   "general-aptitude-quantitative-aptitude__9.24.4",
+   "general-aptitude-quantitative-aptitude__9.24.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 2015-2023 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "geometry",
+  "name": "Geometry",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2014,
+   2024,
+   2025
+  ],
+  "recentYearsCovered": [
+   2024,
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.25.1",
+   "general-aptitude-quantitative-aptitude__9.25.2",
+   "general-aptitude-quantitative-aptitude__9.25.3",
+   "general-aptitude-quantitative-aptitude__9.25.4",
+   "general-aptitude-quantitative-aptitude__9.25.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 2014-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "logarithms",
+  "name": "Logarithms",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2011,
+   2018,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2018,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.28.1",
+   "general-aptitude-quantitative-aptitude__9.28.2",
+   "general-aptitude-quantitative-aptitude__9.28.3",
+   "general-aptitude-quantitative-aptitude__9.28.4",
+   "general-aptitude-quantitative-aptitude__9.28.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 2011-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "ratio-proportion",
+  "name": "Ratio Proportion",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2016,
+   2018,
+   2021,
+   2024
+  ],
+  "recentYearsCovered": [
+   2016,
+   2018,
+   2021,
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.48.1",
+   "general-aptitude-quantitative-aptitude__9.48.2",
+   "general-aptitude-quantitative-aptitude__9.48.3",
+   "general-aptitude-quantitative-aptitude__9.48.4",
+   "general-aptitude-quantitative-aptitude__9.48.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 2016-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "venn-diagram",
+  "name": "Venn Diagram",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2010,
+   2016,
+   2019,
+   2024
+  ],
+  "recentYearsCovered": [
+   2016,
+   2019,
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.57.1",
+   "general-aptitude-quantitative-aptitude__9.57.2",
+   "general-aptitude-quantitative-aptitude__9.57.3",
+   "general-aptitude-quantitative-aptitude__9.57.4",
+   "general-aptitude-quantitative-aptitude__9.57.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 2010-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "bar-graph",
+  "name": "Bar Graph",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2015,
+   2020,
+   2021,
+   2025
+  ],
+  "recentYearsCovered": [
+   2020,
+   2021,
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.8.1",
+   "general-aptitude-quantitative-aptitude__9.8.2",
+   "general-aptitude-quantitative-aptitude__9.8.3",
+   "general-aptitude-quantitative-aptitude__9.8.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2015-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "permutation-and-combination",
+  "name": "Permutation and Combination",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.39.1",
+   "general-aptitude-quantitative-aptitude__9.39.2",
+   "general-aptitude-quantitative-aptitude__9.39.3",
+   "general-aptitude-quantitative-aptitude__9.39.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2024-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "pie-chart",
+  "name": "Pie Chart",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2015,
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.40.1",
+   "general-aptitude-quantitative-aptitude__9.40.2",
+   "general-aptitude-quantitative-aptitude__9.40.3",
+   "general-aptitude-quantitative-aptitude__9.40.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2015-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "quadratic-equations",
+  "name": "Quadratic Equations",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2014,
+   2016,
+   2021,
+   2022
+  ],
+  "recentYearsCovered": [
+   2016,
+   2021,
+   2022
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.46.1",
+   "general-aptitude-quantitative-aptitude__9.46.2",
+   "general-aptitude-quantitative-aptitude__9.46.3",
+   "general-aptitude-quantitative-aptitude__9.46.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2014-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "sequence-series",
+  "name": "Sequence Series",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2012,
+   2018,
+   2023,
+   2024
+  ],
+  "recentYearsCovered": [
+   2018,
+   2023,
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.49.1",
+   "general-aptitude-quantitative-aptitude__9.49.2",
+   "general-aptitude-quantitative-aptitude__9.49.3",
+   "general-aptitude-quantitative-aptitude__9.49.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2012-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "tabular-data",
+  "name": "Tabular Data",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2014,
+   2015,
+   2016
+  ],
+  "recentYearsCovered": [
+   2016
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.55.1",
+   "general-aptitude-quantitative-aptitude__9.55.2",
+   "general-aptitude-quantitative-aptitude__9.55.3",
+   "general-aptitude-quantitative-aptitude__9.55.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2014-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "circle",
+  "name": "Circle",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2018,
+   2020,
+   2026
+  ],
+  "recentYearsCovered": [
+   2018,
+   2020,
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.11.1",
+   "general-aptitude-quantitative-aptitude__9.11.2",
+   "general-aptitude-quantitative-aptitude__9.11.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2018-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "combinatory",
+  "name": "Combinatory",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2010,
+   2016,
+   2017
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.13.1",
+   "general-aptitude-quantitative-aptitude__9.13.2",
+   "general-aptitude-quantitative-aptitude__9.13.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2010-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "cost-market-price",
+  "name": "Cost Market Price",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2011,
+   2012,
+   2019
+  ],
+  "recentYearsCovered": [
+   2019
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.17.1",
+   "general-aptitude-quantitative-aptitude__9.17.2",
+   "general-aptitude-quantitative-aptitude__9.17.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2011-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "line-graph",
+  "name": "Line Graph",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2014,
+   2016
+  ],
+  "recentYearsCovered": [
+   2016
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.27.1",
+   "general-aptitude-quantitative-aptitude__9.27.2",
+   "general-aptitude-quantitative-aptitude__9.27.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2014-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "number-series",
+  "name": "Number Series",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2013,
+   2014
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.34.1",
+   "general-aptitude-quantitative-aptitude__9.34.2",
+   "general-aptitude-quantitative-aptitude__9.34.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2013-2014 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "number-system",
+  "name": "Number System",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2014,
+   2017,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.35.1",
+   "general-aptitude-quantitative-aptitude__9.35.2",
+   "general-aptitude-quantitative-aptitude__9.35.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2014-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "percentage",
+  "name": "Percentage",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2014,
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.38.1",
+   "general-aptitude-quantitative-aptitude__9.38.2",
+   "general-aptitude-quantitative-aptitude__9.38.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2014-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "triangles",
+  "name": "Triangles",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2015,
+   2018,
+   2022
+  ],
+  "recentYearsCovered": [
+   2018,
+   2022
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.56.1",
+   "general-aptitude-quantitative-aptitude__9.56.2",
+   "general-aptitude-quantitative-aptitude__9.56.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2015-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "work-time",
+  "name": "Work Time",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2010,
+   2011,
+   2013
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.59.1",
+   "general-aptitude-quantitative-aptitude__9.59.2",
+   "general-aptitude-quantitative-aptitude__9.59.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2010-2013 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "absolute-value",
+  "name": "Absolute Value",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2014,
+   2017
+  ],
+  "recentYearsCovered": [
+   2017
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.2.1",
+   "general-aptitude-quantitative-aptitude__9.2.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2014-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "arithmetic-series",
+  "name": "Arithmetic Series",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2013,
+   2015
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.6.1",
+   "general-aptitude-quantitative-aptitude__9.6.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 2013-2015 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "cartesian-coordinates",
+  "name": "Cartesian Coordinates",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2020,
+   2022
+  ],
+  "recentYearsCovered": [
+   2020,
+   2022
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.10.1",
+   "general-aptitude-quantitative-aptitude__9.10.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2020-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "contour-plots",
+  "name": "Contour Plots",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2017
+  ],
+  "recentYearsCovered": [
+   2017
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.16.1",
+   "general-aptitude-quantitative-aptitude__9.16.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2017-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "cubes",
+  "name": "Cubes",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2016,
+   2021
+  ],
+  "recentYearsCovered": [
+   2016,
+   2021
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.18.1",
+   "general-aptitude-quantitative-aptitude__9.18.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2016-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "data-interpretation",
+  "name": "Data Interpretation",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.20.2",
+   "general-aptitude-quantitative-aptitude__9.20.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "factors",
+  "name": "Factors",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2013,
+   2018
+  ],
+  "recentYearsCovered": [
+   2018
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.22.1",
+   "general-aptitude-quantitative-aptitude__9.22.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2013-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "maxima-minima",
+  "name": "Maxima Minima",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2012,
+   2017
+  ],
+  "recentYearsCovered": [
+   2017
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.30.1",
+   "general-aptitude-quantitative-aptitude__9.30.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2012-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "profit-loss",
+  "name": "Profit Loss",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2021,
+   2024
+  ],
+  "recentYearsCovered": [
+   2021,
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.45.1",
+   "general-aptitude-quantitative-aptitude__9.45.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2021-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "speed-time-distance",
+  "name": "Speed Time Distance",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2013,
+   2019
+  ],
+  "recentYearsCovered": [
+   2019
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.51.1",
+   "general-aptitude-quantitative-aptitude__9.51.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2013-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "statistics",
+  "name": "Statistics",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2012,
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.52.1",
+   "general-aptitude-quantitative-aptitude__9.52.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2012-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "alligation-mixture",
+  "name": "Alligation Mixture",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2011
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.4.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2011-2011 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "area",
+  "name": "Area",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.5.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "average",
+  "name": "Average",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.7.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "bayes-theorem",
+  "name": "Bayes Theorem",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2012
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.9.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2012-2012 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "clock-time",
+  "name": "Clock Time",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2014
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.12.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2014-2014 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "compound-interest",
+  "name": "Compound Interest",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.14.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "digital-image-processing",
+  "name": "Digital Image Processing",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.21.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "fractions",
+  "name": "Fractions",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2018
+  ],
+  "recentYearsCovered": [
+   2018
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.23.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2018-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "graph-coloring",
+  "name": "Graph Coloring",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.26.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "maps",
+  "name": "Maps",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.29.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "mensuration",
+  "name": "Mensuration",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.31.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "number-representation",
+  "name": "Number Representation",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.33.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "number-theory",
+  "name": "Number Theory",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.36.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "polynomials",
+  "name": "Polynomials",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2016
+  ],
+  "recentYearsCovered": [
+   2016
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.41.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2016-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "powers",
+  "name": "Powers",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.42.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "prime-numbers",
+  "name": "Prime Numbers",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.43.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "shortest-path",
+  "name": "Shortest Path",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2020
+  ],
+  "recentYearsCovered": [
+   2020
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.50.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2020-2020 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "tables",
+  "name": "Tables",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.54.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "volume",
+  "name": "Volume",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2021
+  ],
+  "recentYearsCovered": [
+   2021
+  ],
+  "pyqIds": [
+   "general-aptitude-quantitative-aptitude__9.58.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2021-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ }
+]

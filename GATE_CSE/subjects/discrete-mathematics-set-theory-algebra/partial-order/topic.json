@@ -1,0 +1,26 @@
+{
+ "topicId": "discrete-mathematics-set-theory-algebra:partial-order",
+ "subjectId": "discrete-mathematics-set-theory-algebra",
+ "subject": "Discrete Mathematics - Set Theory & Algebra",
+ "name": "Partial Orders and Hasse Diagrams",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "10 PYQs extracted, 1991-2024.",
+ "pyqCountExtracted": 10,
+ "yearsCovered": [
+  1991,
+  1993,
+  1996,
+  1997,
+  1998,
+  2003,
+  2004,
+  2007,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

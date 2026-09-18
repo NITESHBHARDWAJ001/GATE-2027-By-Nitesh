@@ -1,0 +1,91 @@
+[
+ {
+  "patternId": "SEM_VALUE_01",
+  "name": "Final Value of Counting Semaphore",
+  "recognitionClueHinglish": "Initial value + kuch P/V operations; resulting value.",
+  "whatShouldComeToMind": [
+   "init - P + V."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Counts gino.",
+   "2. Formula."
+  ],
+  "formulasUsed": [
+   "finalValue"
+  ],
+  "pyqExamples": [
+   "5.28.2",
+   "5.28.3",
+   "5.28.5"
+  ],
+  "variationsObserved": [
+   "Blocked operations."
+  ],
+  "commonTraps": [
+   "Blocked P ko count karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SEM_SYNC_CODE_02",
+  "name": "Concurrent Code with Semaphores (Output / Mutual Exclusion / Deadlock)",
+  "recognitionClueHinglish": "Threads/processes ka pseudocode aur semaphores; output, value of shared variable, deadlock.",
+  "whatShouldComeToMind": [
+   "Trace interleavings."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Semaphore initial values.",
+   "2. Har process ka wait/signal sequence.",
+   "3. Feasible order / deadlock dhundo."
+  ],
+  "formulasUsed": [
+   "mutex"
+  ],
+  "pyqExamples": [
+   "5.28.6",
+   "5.28.7",
+   "5.28.8",
+   "5.28.9",
+   "5.28.10",
+   "5.28.11"
+  ],
+  "variationsObserved": [
+   "Ordering with 0-initialized semaphore.",
+   "Monitor via semaphores."
+  ],
+  "commonTraps": [
+   "Interleaving miss karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SEM_CONCEPT_03",
+  "name": "Semaphore Implementation Concepts",
+  "recognitionClueHinglish": "Atomicity, wait/signal definitions, wake up.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Definition padho."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.28.1",
+   "5.28.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "-"
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

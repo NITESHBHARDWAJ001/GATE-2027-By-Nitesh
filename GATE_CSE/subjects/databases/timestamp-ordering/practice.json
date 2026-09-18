@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:timestamp-ordering",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TIMEST-01",
+   "patternId": "P3_TIMESTAMP_ORDERING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Timestamp ordering deadlock-free hai?",
+   "solutionApproach": "Waiting nahi.",
+   "answer": "Haan"
+  }
+ ]
+}

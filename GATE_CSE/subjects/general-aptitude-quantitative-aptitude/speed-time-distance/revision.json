@@ -1,0 +1,18 @@
+{
+ "coreIdea": "d = s x t; average speed = total d / total t.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Speed, Time, Distance se related sawal.",
+   "thinkThis": "P3_SPEED_TIME_DISTANCE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Average of speeds."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:speed-time-distance",
+ "revisionLevel": "short-form"
+}

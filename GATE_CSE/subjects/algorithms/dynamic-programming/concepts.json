@@ -1,0 +1,28 @@
+{
+ "overview": "Overlapping subproblems + optimal substructure. LCS, LIS, subset-sum, matrix-chain/rod-cutting, recurrence table.",
+ "whyItMatters": "10 PYQs extracted (2008-2026); P2 topic.",
+ "coreConcept": "Subproblem define karo, recurrence likho, table bharo (bottom-up).",
+ "hinglishExplanation": "DP me bade problem ko chhote overlapping subproblems me todte hain aur answers table me store karte hain. LCS: match par diagonal +1, warna max(up, left). Subset-sum: T[i][s] = T[i-1][s] or T[i-1][s-a_i].",
+ "formalDefinition": "Subproblem define karo, recurrence likho, table bharo (bottom-up).",
+ "importantProperties": [
+  "LCS: T[i][j]=T[i-1][j-1]+1 if match else max(T[i-1][j],T[i][j-1]).",
+  "LIS in O(n^2) DP, O(n log n) with patience.",
+  "Subset-sum: O(nS) pseudo-polynomial.",
+  "Floyd-Warshall = DP.",
+  "Recurrence + base case pehle.",
+  "Time = (states) x (transition cost)."
+ ],
+ "formulas": {
+  "lcs": "match: +1 diag; else max(up,left)",
+  "subset": "T[i][s] = T[i-1][s] or T[i-1][s-a_i]"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Base case galat.",
+  "Contiguous vs subsequence confuse."
+ ],
+ "standardTechniques": [
+  "Table draw karo."
+ ],
+ "topicId": "algorithms:dynamic-programming"
+}

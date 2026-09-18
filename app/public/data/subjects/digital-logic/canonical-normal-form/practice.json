@@ -1,0 +1,33 @@
+{
+ "topicId": "digital-logic:canonical-normal-form",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CANONI-01",
+   "patternId": "CNF_MINTERM_OPS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "F1=m(1,2,3), F2=m(2,3,4). F1 AND F2?",
+   "solutionApproach": "Common.",
+   "answer": "m(2,3)"
+  },
+  {
+   "practiceId": "AI-CANONICA-X02",
+   "patternId": "CNF_MINTERM_OPS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "F1=m(1,2), F2=m(2,3). F1 OR F2?",
+   "solutionApproach": "Union.",
+   "answer": "m(1,2,3)"
+  },
+  {
+   "practiceId": "AI-CANONICA-X03",
+   "patternId": "CNF_MINTERM_OPS_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "F1=m(1,2,3), F2=m(2,3,4). F1 XOR F2?",
+   "solutionApproach": "Symmetric difference.",
+   "answer": "m(1,4)"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "compiler-design__2.25.1",
+  "localId": "2.25.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "static-single-assignment",
+  "topic": "Static Single Assignment",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "55",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "8",
+  "answerVerified": true,
+  "questionTextRaw": "The least number of temporary variables required to create a three-address code in static single assignment form for the expression                                                                 is__________________.",
+  "tagsRaw": "gatecse-2015-set1 compiler-design  intermediate-code  normal  numerical-answers  static-single-assignment",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 179
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STATIC_SINGLE_ASSIGNMENT_01"
+ },
+ {
+  "pyqId": "compiler-design__2.25.2",
+  "localId": "2.25.2",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "static-single-assignment",
+  "topic": "Static Single Assignment",
+  "year": 2016,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "19",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "10",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following code segment. x = u - t; y = x * v; x = y + w; y = t - z; y = x * y; The minimum number of total variables required to convert the above code segment to static single assignment form is __________.",
+  "tagsRaw": "gatecse-2016-set1 compiler-design  static-single-assignment  normal  numerical-answers",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 179
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STATIC_SINGLE_ASSIGNMENT_01"
+ },
+ {
+  "pyqId": "compiler-design__2.25.3",
+  "localId": "2.25.3",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "static-single-assignment",
+  "topic": "Static Single Assignment",
+  "year": 2017,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "12",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following intermediate program in three address code p=a-b q=p*c p=u*v q=p+q Which one of the following corresponds to a static single assignment form of the above code? A. p1 = a - b                      B. p3 = a - b                                 C. p1 = a - b             D. p1 = a - b q1 = p1 * c                        q4 = p3 * c                                   q1 = p2 * c               q1 = p * c p1 = u * v                         p4 = u * v                                    p3 = u * v                p2 = u * v q1 = p1 + q1                       q5 = p4 + q4                                  q2 = p4 + q3              q2 = p + q",
+  "tagsRaw": "gatecse-2017-set1 compiler-design  intermediate-code  normal  static-single-assignment",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 179
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STATIC_SINGLE_ASSIGNMENT_01"
+ }
+]

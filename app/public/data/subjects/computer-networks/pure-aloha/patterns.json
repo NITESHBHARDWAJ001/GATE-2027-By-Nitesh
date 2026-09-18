@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_PURE_ALOHA_01",
+  "name": "Pure ALOHA (PYQ type)",
+  "recognitionClueHinglish": "Pure ALOHA se related sawal.",
+  "whatShouldComeToMind": [
+   "Throughput S = G e^(-2G), max 0.184 at G=0.5; vulnerable period 2T."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. G.",
+   "2. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.27.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Slotted formula lagana."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

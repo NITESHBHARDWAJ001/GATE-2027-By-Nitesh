@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:direct-mapping",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DIRECT-01",
+   "patternId": "P3_DIRECT_MAPPING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "32-bit address, 16 KB cache, 64 B block. Tag bits?",
+   "solutionApproach": "offset 6, index 8.",
+   "answer": "18"
+  }
+ ]
+}

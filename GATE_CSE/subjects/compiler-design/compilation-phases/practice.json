@@ -1,0 +1,33 @@
+{
+ "topicId": "compiler-design:compilation-phases",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-COMPIL-01",
+   "patternId": "CPH_ERROR_PHASE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Undeclared variable used: which phase?",
+   "solutionApproach": "Semantic.",
+   "answer": "Semantic analysis"
+  },
+  {
+   "practiceId": "AI-COMPILAT-X02",
+   "patternId": "CPH_ERROR_PHASE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Type mismatch error: phase?",
+   "solutionApproach": "Semantic.",
+   "answer": "Semantic analysis"
+  },
+  {
+   "practiceId": "AI-COMPILAT-X03",
+   "patternId": "CPH_ERROR_PHASE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Illegal character in source: phase?",
+   "solutionApproach": "Lexical.",
+   "answer": "Lexical analysis"
+  }
+ ]
+}

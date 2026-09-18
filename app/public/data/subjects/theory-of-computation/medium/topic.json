@@ -1,0 +1,18 @@
+{
+ "topicId": "theory-of-computation:medium",
+ "subjectId": "theory-of-computation",
+ "subject": "Theory of Computation",
+ "name": "Counting Symbols in Strings",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2006-2006.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2006
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_MAXIMUM_MINIMUM_01",
+  "name": "Finding Max and Min Together (PYQ type)",
+  "recognitionClueHinglish": "Finding Max and Min Together se related sawal.",
+  "whatShouldComeToMind": [
+   "Max aur min ek saath: ceil(3n/2)-2 comparisons."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Pair compare."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.28.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "2n-2 ko optimal maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

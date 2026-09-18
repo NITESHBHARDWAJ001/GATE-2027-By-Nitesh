@@ -1,0 +1,23 @@
+{
+ "overview": "Page table cache; TLB reach = entries x page size; EAT with hit ratio.",
+ "whyItMatters": "2 PYQs extracted (2022-2026); P3 topic.",
+ "coreConcept": "Page table cache; TLB reach = entries x page size; EAT with hit ratio.",
+ "hinglishExplanation": "TLB associative parallel search karta hai; hit par extra memory access nahi.",
+ "formalDefinition": "Page table cache; TLB reach = entries x page size; EAT with hit ratio.",
+ "importantProperties": [
+  "TLB reach = entries x page size.",
+  "EAT = h(t + m) + (1-h)(t + 2m).",
+  "Context switch par TLB flush (ASID na ho to).",
+  "Fully associative search parallel."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Reach ko address space samajhna."
+ ],
+ "standardTechniques": [
+  "1. Hit ratio.",
+  "2. EAT."
+ ],
+ "topicId": "operating-system:translation-lookaside-buffer"
+}

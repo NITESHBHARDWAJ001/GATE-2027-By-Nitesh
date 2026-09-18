@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Graph representation choice, edge counting, matching structures to operations.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Data Structures (Graphs Representations & Matching) se related sawal.",
+   "thinkThis": "P3_DATA_STRUCTURES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Sparse par matrix."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-and-ds-data-structures:data-structures",
+ "revisionLevel": "short-form"
+}

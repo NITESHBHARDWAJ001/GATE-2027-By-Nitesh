@@ -1,0 +1,23 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:synonyms",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Synonyms",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 2010-2026.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  2010,
+  2011,
+  2012,
+  2013,
+  2017,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

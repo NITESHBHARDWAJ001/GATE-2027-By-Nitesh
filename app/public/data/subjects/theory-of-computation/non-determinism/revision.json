@@ -1,0 +1,18 @@
+{
+ "coreIdea": "NFA=DFA power; NPDA > DPDA; NTM = DTM; conversions.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Non-Determinism se related sawal.",
+   "thinkThis": "P3_NON_DETERMINISM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "PDA me equal maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "theory-of-computation:non-determinism",
+ "revisionLevel": "short-form"
+}

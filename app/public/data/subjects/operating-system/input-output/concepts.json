@@ -1,0 +1,21 @@
+{
+ "overview": "Multiprogramming me I/O par process blocked, CPU dusre ko.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Multiprogramming me I/O par process blocked, CPU dusre ko.",
+ "hinglishExplanation": "I/O par process blocked hota hai aur CPU doosre ready process ko milta hai.",
+ "formalDefinition": "Multiprogramming me I/O par process blocked, CPU dusre ko.",
+ "importantProperties": [
+  "Blocked state I/O wait.",
+  "CPU utilization multiprogramming se badhti hai.",
+  "fork/exec kaise behave."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Blocked aur ready confuse."
+ ],
+ "standardTechniques": [
+  "1. State transitions."
+ ],
+ "topicId": "operating-system:input-output"
+}

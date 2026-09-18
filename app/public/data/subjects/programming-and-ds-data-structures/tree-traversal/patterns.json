@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_TREE_TRAVERSAL_01",
+  "name": "Tree Traversals (Data Structure View) (PYQ type)",
+  "recognitionClueHinglish": "Tree Traversals (Data Structure View) se related sawal.",
+  "whatShouldComeToMind": [
+   "Inorder/preorder/postorder match; unique reconstruction."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Root.",
+   "2. Split."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.16.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Order confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

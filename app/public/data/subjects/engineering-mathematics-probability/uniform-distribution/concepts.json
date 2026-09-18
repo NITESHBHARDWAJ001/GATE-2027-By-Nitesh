@@ -1,0 +1,26 @@
+{
+ "overview": "Continuous uniform random variables, meeting problem, broken stick, random permutations symmetry.",
+ "whyItMatters": "11 PYQs extracted (1998-2026); P2 topic.",
+ "coreConcept": "Uniform[a,b]: pdf 1/(b-a); probability = length/area ratio.",
+ "hinglishExplanation": "Continuous uniform me probability = favourable length ya area / total. Two-variable uniform me square/area diagram. Random permutation me symmetry se P(A before B) = 1/2.",
+ "formalDefinition": "Uniform[a,b]: pdf 1/(b-a); probability = length/area ratio.",
+ "importantProperties": [
+  "Uniform[a,b]: mean (a+b)/2, var (b-a)^2/12.",
+  "Geometric probability = favourable area / total area.",
+  "Meeting problem: |x-y| <= t: 1-(1-t)^2.",
+  "Random permutation: P(i before j)=1/2.",
+  "Broken stick: E[shorter] = 1/4."
+ ],
+ "formulas": {
+  "mean": "(a+b)/2",
+  "var": "(b-a)^2/12"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Length/area normalise."
+ ],
+ "standardTechniques": [
+  "Diagram draw."
+ ],
+ "topicId": "engineering-mathematics-probability:uniform-distribution"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-probability:binomial-distribution",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BINOMI-01",
+   "patternId": "P3_BINOMIAL_DISTRIBUTION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "4 fair coins: P(exactly 2 heads)?",
+   "solutionApproach": "C(4,2)/16.",
+   "answer": "3/8"
+  }
+ ]
+}

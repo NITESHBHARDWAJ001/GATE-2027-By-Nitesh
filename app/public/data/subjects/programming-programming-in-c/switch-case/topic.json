@@ -1,0 +1,19 @@
+{
+ "topicId": "programming-programming-in-c:switch-case",
+ "subjectId": "programming-programming-in-c",
+ "subject": "Programming & DS - Programming in C",
+ "name": "Switch-Case in C",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 2012-2015.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2012,
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "operating-system__5.21.1",
+  "localId": "5.21.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "precedence-graph",
+  "topic": "Precedence Graph",
+  "year": 1989,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "11b",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "N/A",
+  "answerVerified": false,
+  "questionTextRaw": "Consider the following precedence graph                                   of processes where a node denotes a process and a directed edge from node to node implies; that must complete before commences. Implement the graph using FORK and JOIN constructs. The actual computation done by a process may be indicated by a comment line.",
+  "tagsRaw": "gate1989 descriptive operating-system precedence-graph process-synchronization",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 406
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PRECEDENCE_GRAPH_01"
+ },
+ {
+  "pyqId": "operating-system__5.21.2",
+  "localId": "5.21.2",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "precedence-graph",
+  "topic": "Precedence Graph",
+  "year": 1991,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "01-xii",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE_OR_UNVERIFIED",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "N/A",
+  "answerVerified": false,
+  "questionTextRaw": "A given set of processes can be implemented by using only parbegin/parend statement, if the precedence graph of these processes is ______",
+  "tagsRaw": "gate1991 operating-system  normal  precedence-graph  fill-in-the-blanks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 406
+  },
+  "formulaExtractionNote": null,
+  "patternId": "P3_PRECEDENCE_GRAPH_01"
+ },
+ {
+  "pyqId": "operating-system__5.21.3",
+  "localId": "5.21.3",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "precedence-graph",
+  "topic": "Precedence Graph",
+  "year": 1992,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "12-a",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "N/A",
+  "answerVerified": false,
+  "questionTextRaw": "Draw the precedence graph for the concurrent program given below S1 parbegin begin S2:S4 end; begin S3; parbegin S5; begin S6:S8 end parend end; S7 parend; S9",
+  "tagsRaw": "gate1992 operating-system  normal  concurrency  precedence-graph  descriptive",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 406
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PRECEDENCE_GRAPH_01"
+ }
+]

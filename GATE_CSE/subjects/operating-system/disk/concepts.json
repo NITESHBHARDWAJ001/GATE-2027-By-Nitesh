@@ -1,0 +1,36 @@
+{
+ "overview": "Disk ki geometry (surfaces, tracks, sectors), capacity, access time = seek + rotational latency + transfer, aur file-system numerics (inode, FAT, block size trade-off).",
+ "whyItMatters": "30 PYQs extracted (1990-2024); P2 topic.",
+ "coreConcept": "Disk access time = seek time + rotational latency + transfer time. Capacity = surfaces x tracks x sectors x sector size.",
+ "hinglishExplanation": "Disk ek ghoomti hui plate hai. Head ko sahi track par le jaana (seek), plate ke ghoomne ka wait (rotation, average aadha chakkar) aur data padhna (transfer). Numerical me sab units (ms, bytes, RPM) ek jaise karo. Bade block size se throughput badhta hai par space waste (internal fragmentation) badhta hai.",
+ "formalDefinition": "Disk access time = seek time + rotational latency + transfer time. Capacity = surfaces x tracks x sectors x sector size.",
+ "importantProperties": [
+  "Capacity = surfaces x cylinders(tracks) x sectors/track x bytes/sector.",
+  "Rotational latency (average) = half rotation time = 0.5 x 60/RPM.",
+  "Transfer time for one sector = rotation time / sectors per track.",
+  "Ek track padhne me ek full rotation lagta hai.",
+  "Sector address (c,h,s) se linear sector number: ((c x heads) + h) x spt + s.",
+  "RAID: fault tolerance aur/ya speed.",
+  "Bade block size: better throughput, poorer space utilization.",
+  "Free space: bit map ya free list.",
+  "Swap space process data ke liye."
+ ],
+ "formulas": {
+  "capacity": "surfaces x tracks x spt x sector bytes",
+  "avgRotLatency": "0.5 x (60/RPM) s",
+  "accessTime": "seek + rotational latency + transfer",
+  "sectorAddress": "((c*H)+h)*spt + s"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "RPM se time nikalne me units (60/RPM seconds).",
+  "Average latency me aadha rotation bhoolna.",
+  "Cylinders ka count surfaces se confuse."
+ ],
+ "standardTechniques": [
+  "Ek line me sab parameters likho.",
+  "Total time = seeks + rotations + transfers step by step.",
+  "Capacity/size questions me units ek karo."
+ ],
+ "topicId": "operating-system:disk"
+}

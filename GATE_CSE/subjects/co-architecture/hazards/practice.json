@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:hazards",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-HAZARD-01",
+   "patternId": "P3_HAZARDS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Structural hazard kya hai?",
+   "solutionApproach": "Same resource do stages ko.",
+   "answer": "Resource conflict"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "EX me memory read wale load instructions ke stall; structural aur control hazards.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Pipeline Hazards (Structural/Control) se related sawal.",
+   "thinkThis": "P3_HAZARDS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Stalls ki count off-by-one."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:hazards",
+ "revisionLevel": "short-form"
+}

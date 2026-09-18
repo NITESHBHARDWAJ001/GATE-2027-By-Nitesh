@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Rare events count; P(k) = e^-lambda lambda^k/k!; mean=variance=lambda.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Poisson Distribution se related sawal.",
+   "thinkThis": "P3_POISSON_DISTRIBUTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Rate scaling galat."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-probability:poisson-distribution",
+ "revisionLevel": "short-form"
+}

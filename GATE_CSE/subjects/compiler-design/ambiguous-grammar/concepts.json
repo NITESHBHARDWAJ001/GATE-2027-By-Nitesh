@@ -1,0 +1,21 @@
+{
+ "overview": "Grammar ambiguous jab kisi string ke do parse trees.",
+ "whyItMatters": "2 PYQs extracted (1987-2026); P3 topic.",
+ "coreConcept": "Grammar ambiguous jab kisi string ke do parse trees.",
+ "hinglishExplanation": "Ek string ke do leftmost derivations = ambiguity.",
+ "formalDefinition": "Grammar ambiguous jab kisi string ke do parse trees.",
+ "importantProperties": [
+  "Ambiguous: >1 parse tree.",
+  "Aise grammar LL/LR nahi.",
+  "E -> E+E | id classic ambiguous."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Useless non-terminals ko ambiguity maan lena."
+ ],
+ "standardTechniques": [
+  "1. Same string dono tarah derive."
+ ],
+ "topicId": "compiler-design:ambiguous-grammar"
+}

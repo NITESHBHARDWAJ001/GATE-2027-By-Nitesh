@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:data-communication",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DATA-C-01",
+   "patternId": "P3_DATA_COMMUNICATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "BDP 1 Gbps x 10 ms?",
+   "solutionApproach": "10^9*0.01.",
+   "answer": "10^7 bits"
+  }
+ ]
+}

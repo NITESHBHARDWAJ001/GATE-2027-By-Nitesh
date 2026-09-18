@@ -1,0 +1,30 @@
+{
+ "overview": "Schedule diya hai; conflict serializable hai ya nahi, kaun se schedules equivalent, aur kitne serializable schedules possible.",
+ "whyItMatters": "12 PYQs extracted (2007-2025); P2 topic.",
+ "coreConcept": "Schedule conflict serializable hai iff precedence graph acyclic hai.",
+ "hinglishExplanation": "Har item par conflicting pairs (RW, WR, WW alag transactions) dhundo aur earlier op wale transaction se later wale ki taraf edge banao. Cycle nahi to serializable, aur topological order equivalent serial schedule hota hai.",
+ "formalDefinition": "Schedule conflict serializable hai iff precedence graph acyclic hai.",
+ "importantProperties": [
+  "Conflict = alag transactions, same item, kam se kam ek write.",
+  "Precedence graph acyclic <=> conflict serializable.",
+  "Topological sort = equivalent serial order(s).",
+  "Conflict serializable recoverable hone ki guarantee nahi.",
+  "n transactions ke liye n! serial schedules.",
+  "Conflict equivalent schedules me conflicting pairs ka relative order same."
+ ],
+ "formulas": {
+  "test": "precedence graph acyclic",
+  "serial": "n! serial schedules"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "RR ko conflict maan lena.",
+  "Edge direction ulta.",
+  "Recoverability aur serializability mix."
+ ],
+ "standardTechniques": [
+  "Item ke hisaab se columns alag karke pairs list karo.",
+  "Graph banao, cycle check."
+ ],
+ "topicId": "databases:conflict-serializable"
+}

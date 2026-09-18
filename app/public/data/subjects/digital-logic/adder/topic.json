@@ -1,0 +1,25 @@
+{
+ "topicId": "digital-logic:adder",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Adders",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "9 PYQs extracted, 1988-2016.",
+ "pyqCountExtracted": 9,
+ "yearsCovered": [
+  1988,
+  1990,
+  1997,
+  1999,
+  2003,
+  2004,
+  2015,
+  2016
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

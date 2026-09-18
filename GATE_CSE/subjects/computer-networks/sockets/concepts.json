@@ -1,0 +1,22 @@
+{
+ "overview": "Server order: socket, bind, listen, accept; connect sends SYN; listen active->passive.",
+ "whyItMatters": "4 PYQs extracted (2008-2015); P3 topic.",
+ "coreConcept": "Server order: socket, bind, listen, accept; connect sends SYN; listen active->passive.",
+ "hinglishExplanation": "Server sequence: socket -> bind -> listen -> accept.",
+ "formalDefinition": "Server order: socket, bind, listen, accept; connect sends SYN; listen active->passive.",
+ "importantProperties": [
+  "Client connect() SYN bhejta hai.",
+  "listen() active ko passive banata hai.",
+  "accept() blocking connection ke liye.",
+  "Backlog queue."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Order galat."
+ ],
+ "standardTechniques": [
+  "1. Server sequence."
+ ],
+ "topicId": "computer-networks:sockets"
+}

@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "operating-system__5.26.1",
+  "localId": "5.26.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "resource-allocation-graph",
+  "topic": "Resource Allocation Graph",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "38",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "C;D",
+  "answerVerified": true,
+  "questionTextRaw": "consists of all active processes in an operating system. consists of single instances of distinct types of resources in the system. The resource allocation graph has the following assignment and claim edges. Assignment edges:                                                                          (the assignment edge              means resource is assigned to process , and so on for others) Claim edges:                                                                                    (the claim edge              means process is waiting for resource , and so on for others) Which of the following statement(s) is/are CORRECT? A. Aborting  makes the system deadlock free. B. Aborting  makes the system deadlock free. C. Aborting  makes the system deadlock free. D. Aborting  and makes the system deadlock free.",
+  "tagsRaw": "gatecse2025-set2 operating-system  resource-allocation-graph  multiple-selects  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 450
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_RESOURCE_ALLOCATION_GRAP_01"
+ }
+]

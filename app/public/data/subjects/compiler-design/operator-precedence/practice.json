@@ -1,0 +1,33 @@
+{
+ "topicId": "compiler-design:operator-precedence",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-OPERAT-01",
+   "patternId": "OP_EVAL_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "+ lower than *, both left assoc: 2+3*4?",
+   "solutionApproach": "3*4 first.",
+   "answer": "14"
+  },
+  {
+   "practiceId": "AI-OPERATOR-X02",
+   "patternId": "OP_EVAL_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "+ higher than *, both left assoc. 2*3+4?",
+   "solutionApproach": "3+4 first: 2*7.",
+   "answer": "14"
+  },
+  {
+   "practiceId": "AI-OPERATOR-X03",
+   "patternId": "OP_EVAL_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "^ right assoc: 2^3^2 (if ^ is right assoc)?",
+   "solutionApproach": "2^(9)=512.",
+   "answer": "512"
+  }
+ ]
+}

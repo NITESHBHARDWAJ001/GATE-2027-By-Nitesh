@@ -1,0 +1,24 @@
+{
+ "topicId": "engineering-mathematics-calculus:continuity",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CONTIN-01",
+   "patternId": "CON_THEOREMS_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "f continuous on [0,1], f(0)=-1, f(1)=2. Root exists?",
+   "solutionApproach": "IVT.",
+   "answer": "Yes"
+  },
+  {
+   "practiceId": "AI-CONTINUI-X02",
+   "patternId": "CON_PARAMS_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "f(x)=(x^2-4)/(x-2), x!=2; f(2)=k. Continuous at 2 for k?",
+   "solutionApproach": "Limit 4.",
+   "answer": "4"
+  }
+ ]
+}

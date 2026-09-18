@@ -1,0 +1,23 @@
+{
+ "overview": "BST insertion order, preorder reconstruction, height, leaf-key properties.",
+ "whyItMatters": "3 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "BST insertion order, preorder reconstruction, height, leaf-key properties.",
+ "hinglishExplanation": "Inorder sorted; preorder me pehla root, phir chhote, phir bade elements.",
+ "formalDefinition": "BST insertion order, preorder reconstruction, height, leaf-key properties.",
+ "importantProperties": [
+  "Preorder se BST unique reconstruct.",
+  "Sorted insertion order skewed tree deta hai (height n-1).",
+  "Search/insert average O(log n), worst O(n).",
+  "Inorder traversal ascending."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Balanced maan lena."
+ ],
+ "standardTechniques": [
+  "1. Root pehla preorder element.",
+  "2. Split by root."
+ ],
+ "topicId": "algorithms:binary-search-tree"
+}

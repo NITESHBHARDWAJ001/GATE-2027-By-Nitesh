@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Calculus expression jo finite result de.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Safe Queries se related sawal.",
+   "thinkThis": "P3_SAFE_QUERY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Negation ko safe maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:safe-query",
+ "revisionLevel": "short-form"
+}

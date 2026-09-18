@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "engineering-mathematics-probability__7.5.1",
+  "localId": "7.5.1",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "chi-square-distribution",
+  "topic": "Chi Square Distribution",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "43",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": "normal",
+  "marks": 2,
+  "answer": "A;B;C",
+  "answerVerified": true,
+  "questionTextRaw": "Let                               be independent random variables. Each of the random variables follows distribution. Define                    . Which of the following statements is/are correct? A.                    follows Chi-square distribution with degrees of freedom. B.                            follows Chi-square distribution with                                          degrees of freedom. C.                        follows exponential distribution with mean . D.   follows Chi-square distribution with degrees of freedom.",
+  "tagsRaw": "gateda-2026 random-variable   normal-distribution  chi-square-distribution  multiple-selects  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 204
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_CHI_SQUARE_DISTRIBUTION_01"
+ }
+]

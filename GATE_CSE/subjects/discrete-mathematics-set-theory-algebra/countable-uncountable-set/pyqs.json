@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "discrete-mathematics-set-theory-algebra__4.2.1",
+  "localId": "4.2.1",
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "subject": "Discrete Mathematics: Set Theory & Algebra",
+  "topicSlug": "countable-uncountable-set",
+  "topic": "Countable Uncountable Set",
+  "year": 1994,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "3.9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "True",
+  "answerVerified": true,
+  "questionTextRaw": "Every subset of a countable set is countable. State whether the above statement is true or false with reason.",
+  "tagsRaw": "gate1994 set-theory&algebra  normal     set-theory   countable-uncountable-set  true-false",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 92
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COUNTABLE_UNCOUNTABLE_SE_01"
+ },
+ {
+  "pyqId": "discrete-mathematics-set-theory-algebra__4.2.2",
+  "localId": "4.2.2",
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "subject": "Discrete Mathematics: Set Theory & Algebra",
+  "topicSlug": "countable-uncountable-set",
+  "topic": "Countable Uncountable Set",
+  "year": 2018,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "27",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": 2,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Let be the set of natural numbers. Consider the following sets, Set of Rational numbers (positive and negative) Set of functions from                           to Set of functions from to Set of finite subsets of Which of the above sets are countable? A. and only                             B. and only                             C.          and only  D.          and only",
+  "tagsRaw": "gatecse-2018 set-theory&algebra  countable-uncountable-set  normal  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 92
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COUNTABLE_UNCOUNTABLE_SE_01"
+ }
+]

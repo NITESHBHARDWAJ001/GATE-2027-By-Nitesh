@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "operating-system__5.18.1",
+  "localId": "5.18.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "multilevel-paging",
+  "topic": "Multilevel Paging",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "48",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "11:11",
+  "answerVerified": true,
+  "questionTextRaw": "A computer system supports a logical address space of bytes. It uses two-level hierarchical paging with a page size of                bytes. A logical address is divided into a -bit index to the outer page table, an offset within the page of the inner page table, and an offset within the desired page. Each entry of the inner page table uses eight bytes. All the pages in the system have the same size. The value of is _________. (Answer in integer)",
+  "tagsRaw": "gatecse2025-set2 operating-system  paging  multilevel-paging  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 399
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_MULTILEVEL_PAGING_01"
+ }
+]

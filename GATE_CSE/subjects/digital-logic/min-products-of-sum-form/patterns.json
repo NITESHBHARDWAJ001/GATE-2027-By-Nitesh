@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_MIN_PRODUCTS_OF_SUM_FORM_01",
+  "name": "Minimum Product-of-Sums (PYQ type)",
+  "recognitionClueHinglish": "Minimum Product-of-Sums se related sawal.",
+  "whatShouldComeToMind": [
+   "0s ko group karke complement: POS form."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. 0s.",
+   "2. Groups."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.25.1",
+   "4.25.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "1s group karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

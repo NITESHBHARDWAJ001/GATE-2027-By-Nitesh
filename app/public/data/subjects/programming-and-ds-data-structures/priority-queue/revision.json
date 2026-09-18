@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Heap implementation: insert/delete-min O(log n); stack via priority queue.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Priority Queue se related sawal.",
+   "thinkThis": "P3_PRIORITY_QUEUE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Complexities ulta."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-and-ds-data-structures:priority-queue",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,23 @@
+{
+ "subjectId": "databases",
+ "name": "Databases",
+ "sourceVolume": "volume3",
+ "sourcePdf": "filter1_volume3 (1).pdf",
+ "totalTopics": 27,
+ "totalPyqsExtracted": 298,
+ "priorityDistribution": {
+  "P1": 6,
+  "P2": 3,
+  "P3": 16,
+  "P4": 2
+ },
+ "p1Topics": [
+  "B Tree",
+  "Database Normalization",
+  "Indexing",
+  "Relational Algebra",
+  "SQL",
+  "Transaction and Concurrency"
+ ],
+ "processingStatus": "all_P1_topics_complete (6/6)"
+}

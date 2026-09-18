@@ -1,0 +1,23 @@
+{
+ "overview": "Divide and conquer sort, T(n)=2T(n/2)+n, O(n log n), stable, O(n) extra space.",
+ "whyItMatters": "4 PYQs extracted (1999-2026); P3 topic.",
+ "coreConcept": "Divide and conquer sort, T(n)=2T(n/2)+n, O(n log n), stable, O(n) extra space.",
+ "hinglishExplanation": "Array ko half karo, dono sort, phir merge. Worst/avg/best sab O(n log n).",
+ "formalDefinition": "Divide and conquer sort, T(n)=2T(n/2)+n, O(n log n), stable, O(n) extra space.",
+ "importantProperties": [
+  "Recurrence T(n)=2T(n/2)+O(n).",
+  "Merge me comparisons <= n-1.",
+  "Stable sort.",
+  "Strings sorting me comparison cost string length se multiply."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Merge cost ko O(1) samajhna."
+ ],
+ "standardTechniques": [
+  "1. Levels = log n.",
+  "2. Har level O(n)."
+ ],
+ "topicId": "algorithms:merge-sort"
+}

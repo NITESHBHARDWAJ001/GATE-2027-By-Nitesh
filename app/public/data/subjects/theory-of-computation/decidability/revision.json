@@ -1,0 +1,27 @@
+{
+  "topicId": "toc-decidability",
+  "revisionLevel": "short-form",
+  "coreIdea": "Decidable = algorithm always halts with correct answer. Rice's Theorem: any non-trivial semantic property of a TM's LANGUAGE is undecidable. DFA questions usually decidable; CFG/TM semantic questions usually undecidable.",
+  "mustRememberFormulas": [
+    "Rice's Theorem: non-trivial property of L(M) → undecidable, for arbitrary TM M",
+    "L Recursive ⟺ L and complement(L) both RE",
+    "Decidable: DFA/PDA/CFG membership, emptiness, finiteness, DFA equivalence",
+    "Undecidable: CFG ambiguity, CFG equivalence, CFG universality (=Σ*), CFL∩CFL emptiness, TM halting (any form)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "list of decision problems, asked which are decidable/undecidable", "thinkThis": "DEC_CLASSIFY_PROBLEM_01"},
+    {"seeThis": "'prove X is undecidable by reduction'", "thinkThis": "DEC_REDUCTION_PROOF_02"},
+    {"seeThis": "Recursive/RE closure or NP-decidability relationship claim", "thinkThis": "DEC_RECURSIVE_RE_THEORY_03"},
+    {"seeThis": "define Halting Problem, or trace a specific small TM", "thinkThis": "DEC_TM_BASICS_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Rice's Theorem applies to LANGUAGE (semantic) properties, NOT structural/syntactic ones (like state count)",
+    "DFA questions ≈ always decidable; the SAME question about a CFG or TM is often undecidable",
+    "NP ⊆ Decidable — NP is about efficiency, not decidability itself",
+    "Reduce FROM the known-undecidable problem TO the target, not the reverse"
+  ],
+  "highYieldPyqLessons": [
+    "Problem classification (17/30) is the dominant skill — build fluency with the decidable/undecidable list across DFA/CFG/TM, and internalize Rice's Theorem as the single most powerful shortcut.",
+    "This is the natural TOC capstone — every prior topic (Regular, FA, CFL, PDA, Identify Class) feeds directly into recognizing WHY a given problem is or isn't decidable."
+  ]
+}

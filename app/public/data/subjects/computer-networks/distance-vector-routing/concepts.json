@@ -1,0 +1,24 @@
+{
+ "overview": "Bellman-Ford routing tables, updates, count-to-infinity, convergence.",
+ "whyItMatters": "8 PYQs extracted (2005-2022); P2 topic.",
+ "coreConcept": "D(x,y) = min over neighbours v of c(x,v) + D(v,y).",
+ "hinglishExplanation": "Har router neighbours ke vectors se apna table update karta hai. Link cost badle to naye vectors exchange hote hain; bad news slow (count to infinity).",
+ "formalDefinition": "D(x,y) = min over neighbours v of c(x,v) + D(v,y).",
+ "importantProperties": [
+  "Bellman-Ford update.",
+  "Count-to-infinity DV ki problem.",
+  "Split horizon/poison reverse mitigation.",
+  "Convergence: kitne rounds."
+ ],
+ "formulas": {
+  "bf": "D(x,y)=min_v c(x,v)+D(v,y)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Cost double count."
+ ],
+ "standardTechniques": [
+  "Table update rounds."
+ ],
+ "topicId": "computer-networks:distance-vector-routing"
+}

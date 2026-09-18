@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-probability:continuous-distribution",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CONTIN-01",
+   "patternId": "P3_CONTINUOUS_DISTRIBUTION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "f(x)=c on [0,2]: c?",
+   "solutionApproach": "2c=1.",
+   "answer": "0.5"
+  }
+ ]
+}

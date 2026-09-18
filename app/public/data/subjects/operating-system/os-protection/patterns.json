@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_OS_PROTECTION_01",
+  "name": "OS Protection and System Calls (Mode) (PYQ type)",
+  "recognitionClueHinglish": "OS Protection and System Calls (Mode) se related sawal.",
+  "whatShouldComeToMind": [
+   "User/kernel mode, mode switch via trap/software interrupt, signals."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Kaun trap deta hai."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.19.1",
+   "5.19.2",
+   "5.19.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "User instruction se mode change maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

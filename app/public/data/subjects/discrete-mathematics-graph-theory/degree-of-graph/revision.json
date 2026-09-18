@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Sum of degrees = 2|E|; odd-degree vertices ki count even.",
+ "mustRememberFormulas": [
+  "handshake: sum deg = 2E"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Prove odd-degree vertices even, distinct degrees impossible.",
+   "thinkThis": "DEG_PROOFS_01"
+  },
+  {
+   "seeThis": "Kaunsi sequence graph ho sakti hai; min/max degree/edges.",
+   "thinkThis": "DEG_SEQUENCE_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Multigraph.",
+  "Sequence sorted."
+ ],
+ "highYieldPyqLessons": [
+  "Handshake-based reasoning."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:degree-of-graph",
+ "revisionLevel": "short-form"
+}

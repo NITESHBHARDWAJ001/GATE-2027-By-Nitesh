@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_GRAPH_ISOMORPHISM_01",
+  "name": "Graph Isomorphism and Self-Complementary Graphs (PYQ type)",
+  "recognitionClueHinglish": "Graph Isomorphism and Self-Complementary Graphs se related sawal.",
+  "whatShouldComeToMind": [
+   "Invariants: degree sequence, edges; self-complementary: n = 4k or 4k+1."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Invariants."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.6.1",
+   "2.6.2",
+   "2.6.3",
+   "2.6.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Same degree sequence ko sufficient maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "ADT: data + operations, implementation hidden.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Abstract Data Type se related sawal.",
+   "thinkThis": "P4_ABSTRACT_DATA_TYPE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Class se confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-and-ds-data-structures:abstract-data-type",
+ "revisionLevel": "short-form"
+}

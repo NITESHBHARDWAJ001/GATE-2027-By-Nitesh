@@ -1,0 +1,42 @@
+{
+  "topicId": "algorithms-asymptotic-notations",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-ASYM-01",
+      "patternId": "ASYM_ORDERING_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Arrange in increasing order: n², n log n, 2ⁿ, log n, n.",
+      "solutionApproach": "Bucket classification: log < poly (by degree) < exponential. log n < n < n log n < n² < 2ⁿ.",
+      "answer": "log n < n < n log n < n² < 2ⁿ"
+    },
+    {
+      "practiceId": "AI-ASYM-02",
+      "patternId": "ASYM_ORDERING_01",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Which grows faster: n^(log n) or (log n)^n?",
+      "solutionApproach": "Take log of both: log(n^(log n)) = (log n)². log((log n)^n) = n·log(log n). Compare (log n)² vs n·log(log n) — as n→∞, n grows far faster than (log n), so n·log(log n) dominates (log n)². Hence (log n)^n grows faster.",
+      "answer": "(log n)^n grows faster than n^(log n)."
+    },
+    {
+      "practiceId": "AI-ASYM-03",
+      "patternId": "ASYM_TRUEFALSE_CLAIM_02",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is it TRUE that f(n)=O(g(n)) implies g(n)=Ω(f(n))?",
+      "solutionApproach": "f=O(g) means f(n)≤c·g(n) eventually, which directly rearranges to g(n)≥(1/c)·f(n) eventually — exactly the definition of g=Ω(f). TRUE (this one, unlike O⟹reverse-O, actually IS always true).",
+      "answer": "TRUE — f=O(g) and g=Ω(f) are the SAME statement viewed from two sides."
+    },
+    {
+      "practiceId": "AI-ASYM-04",
+      "patternId": "ASYM_CODE_DERIVE_05",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "for(i=1;i<n;i=i*2){ for(j=0;j<n;j++){ /* O(1) work */ } }  What is the overall time complexity?",
+      "solutionApproach": "Outer loop: i doubles each time from 1 to n → runs O(log n) times. Inner loop: runs O(n) times, independent of outer. Nested → multiply: O(n log n).",
+      "answer": "O(n log n)"
+    }
+  ]
+}

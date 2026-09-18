@@ -1,0 +1,22 @@
+{
+ "overview": "Fold ke baad cut ka unfolded pattern ya layers/area.",
+ "whyItMatters": "5 PYQs extracted (2021-2025); P3 topic.",
+ "coreConcept": "Fold ke baad cut ka unfolded pattern ya layers/area.",
+ "hinglishExplanation": "Har fold ke saath symmetry axis; unfold reverse order.",
+ "formalDefinition": "Fold ke baad cut ka unfolded pattern ya layers/area.",
+ "importantProperties": [
+  "Fold n baar: 2^n layers.",
+  "Cut mirror across fold lines.",
+  "Area halves har fold."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Unfold order."
+ ],
+ "standardTechniques": [
+  "1. Fold steps.",
+  "2. Reverse."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:paper-folding"
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_ASSEMBLING_PIECES_01",
+  "name": "Jigsaw Pieces (PYQ type)",
+  "recognitionClueHinglish": "Jigsaw Pieces se related sawal.",
+  "whatShouldComeToMind": [
+   "Missing piece ki shape."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Match edges."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "10.3.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Orientation."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

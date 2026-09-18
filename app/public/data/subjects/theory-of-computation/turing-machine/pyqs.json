@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "theory-of-computation__6.21.1",
+  "localId": "6.21.1",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "turing-machine",
+  "topic": "Turing Machine",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Which one of the following statements is equivalent to the following assertion? Turing machine decides the language A. Turing machine                  halts on all input strings in  and rejects all input strings in B. Turing machine                  accepts all input strings in C. Turing machine                  rejects all input strings in D. Turing machine                  accepts all input strings in",
+  "tagsRaw": "gatecse-2026-set2 theory-of-computation  turing-machine  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 401
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_TURING_MACHINE_01"
+ }
+]

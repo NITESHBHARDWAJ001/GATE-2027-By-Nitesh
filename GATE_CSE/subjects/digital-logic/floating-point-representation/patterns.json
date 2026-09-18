@@ -1,0 +1,33 @@
+[
+ {
+  "patternId": "P3_FLOATING_POINT_REPRESENT_01",
+  "name": "Floating Point (Excess Exponent) (PYQ type)",
+  "recognitionClueHinglish": "Floating Point (Excess Exponent) se related sawal.",
+  "whatShouldComeToMind": [
+   "Excess-k exponent, normalized mantissa, range/precision trade-off."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Fields.",
+   "2. Decode."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.18.1",
+   "4.18.2",
+   "4.18.3",
+   "4.18.4",
+   "4.18.5",
+   "4.18.6",
+   "4.18.7",
+   "4.18.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Bias subtract bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

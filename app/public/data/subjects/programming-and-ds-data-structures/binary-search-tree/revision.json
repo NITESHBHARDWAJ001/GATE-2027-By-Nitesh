@@ -1,0 +1,29 @@
+{
+  "topicId": "ds-binary-search-tree",
+  "revisionLevel": "short-form",
+  "coreIdea": "left<root<right at every node. Inorder=sorted. Operations are O(h) — O(log n) if balanced, O(n) worst-case (skewed).",
+  "mustRememberFormulas": [
+    "Search/Insert/Delete: O(h), O(log n) balanced, O(n) worst-case",
+    "Distinct BSTs with n keys = Catalan number C(n)",
+    "Sorted-order insertion → fully skewed tree, height n-1",
+    "Range query reporting k elements: O(h+k)",
+    "Preorder→Postorder BST trick: partition by value (root vs <root vs >root), no inorder needed"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "sequence of numbers to insert into empty BST", "thinkThis": "BST_INSERTION_TRACE_01"},
+    {"seeThis": "candidate 'examined nodes' sequence, asked if valid search path", "thinkThis": "BST_SEARCH_PATH_VALIDITY_02"},
+    {"seeThis": "preorder given asked for postorder (or inorder-validity check)", "thinkThis": "BST_TRAVERSAL_PROPERTY_03"},
+    {"seeThis": "'how many distinct BSTs' asked", "thinkThis": "BST_COUNTING_04"},
+    {"seeThis": "worst-case complexity of BST operation asked", "thinkThis": "BST_OPERATION_COMPLEXITY_05"}
+  ],
+  "commonTrapsQuickList": [
+    "BST complexity is O(log n) ONLY if balanced is stated/guaranteed — else assume worst-case O(n)",
+    "Preorder+Postorder-only trick for BST works BECAUSE of the ordering property — general trees need inorder too",
+    "Search-path validity needs the FULL cumulative range check, not just pairwise ordering",
+    "Distinct BST count = Catalan number, not n! or 2^n"
+  ],
+  "highYieldPyqLessons": [
+    "Insertion-trace (10/36) and operation-complexity (10/36) together are ~56% of this topic — practice both the mechanical build AND the balanced-vs-skewed judgment call.",
+    "'Inorder = sorted' is the single most reused BST fact across every pattern in this topic — internalize it completely."
+  ]
+}

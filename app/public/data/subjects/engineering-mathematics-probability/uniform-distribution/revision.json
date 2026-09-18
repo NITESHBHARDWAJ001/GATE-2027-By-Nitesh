@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Uniform[a,b]: pdf 1/(b-a); probability = length/area ratio.",
+ "mustRememberFormulas": [
+  "mean: (a+b)/2",
+  "var: (b-a)^2/12"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Meeting, stick, points in rectangle.",
+   "thinkThis": "UNI_GEOMETRIC_01"
+  },
+  {
+   "seeThis": "Random strings, permutations, vectors.",
+   "thinkThis": "UNI_DISCRETE_SYMMETRY_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Region setup."
+ ],
+ "highYieldPyqLessons": [
+  "Region-area methods recur."
+ ],
+ "topicId": "engineering-mathematics-probability:uniform-distribution",
+ "revisionLevel": "short-form"
+}

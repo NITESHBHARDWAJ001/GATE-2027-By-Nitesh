@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Synchronous clock se; races/hazards se bachna; counter design.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Synchronous vs Asynchronous Circuits se related sawal.",
+   "thinkThis": "P3_SYNCHRONOUS_ASYNCHRONOUS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Async ko safer maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:synchronous-asynchronous-circuits",
+ "revisionLevel": "short-form"
+}

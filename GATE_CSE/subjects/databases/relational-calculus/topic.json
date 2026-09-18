@@ -1,0 +1,28 @@
+{
+ "topicId": "databases:relational-calculus",
+ "subjectId": "databases",
+ "subject": "Databases",
+ "name": "Relational Calculus",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "13 PYQs extracted, 1993-2013.",
+ "pyqCountExtracted": 13,
+ "yearsCovered": [
+  1993,
+  1998,
+  1999,
+  2001,
+  2002,
+  2004,
+  2006,
+  2007,
+  2008,
+  2009,
+  2013
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,20 @@
+{
+ "topicId": "computer-networks:fragmentation",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "IP Fragmentation (Multi-Network)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "5 PYQs extracted, 2004-2025.",
+ "pyqCountExtracted": 5,
+ "yearsCovered": [
+  2004,
+  2013,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

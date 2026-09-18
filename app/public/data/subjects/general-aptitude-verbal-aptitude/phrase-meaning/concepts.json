@@ -1,0 +1,20 @@
+{
+ "overview": "Idiom/phrase ka closest meaning.",
+ "whyItMatters": "5 PYQs extracted (2014-2016); P3 topic.",
+ "coreConcept": "Idiom/phrase ka closest meaning.",
+ "hinglishExplanation": "Context se guess.",
+ "formalDefinition": "Idiom/phrase ka closest meaning.",
+ "importantProperties": [
+  "'The buck stops here' = responsibility accept.",
+  "Idioms figurative."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Literal meaning."
+ ],
+ "standardTechniques": [
+  "1. Context."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:phrase-meaning"
+}

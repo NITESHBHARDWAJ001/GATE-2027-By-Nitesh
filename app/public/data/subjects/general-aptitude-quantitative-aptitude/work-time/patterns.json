@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_WORK_TIME_01",
+  "name": "Work and Time (PYQ type)",
+  "recognitionClueHinglish": "Work and Time se related sawal.",
+  "whatShouldComeToMind": [
+   "Rate = 1/time; combined rate add."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rates."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.59.1",
+   "9.59.2",
+   "9.59.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Rates add karna time nahi."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

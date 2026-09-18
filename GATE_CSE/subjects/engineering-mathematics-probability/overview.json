@@ -1,0 +1,19 @@
+{
+ "subjectId": "engineering-mathematics-probability",
+ "name": "Engineering Mathematics: Probability",
+ "sourceVolume": "volume1",
+ "sourcePdf": "filter1_volume1.pdf",
+ "totalTopics": 20,
+ "totalPyqsExtracted": 125,
+ "priorityDistribution": {
+  "P1": 2,
+  "P2": 5,
+  "P3": 12,
+  "P4": 1
+ },
+ "p1Topics": [
+  "Expectation",
+  "Probability"
+ ],
+ "processingStatus": "all_P1_topics_complete (2/2)"
+}

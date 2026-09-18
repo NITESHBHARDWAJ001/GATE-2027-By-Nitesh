@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Right/left linear grammar = regular language; Myhill-Nerode classes.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Regular Grammars se related sawal.",
+   "thinkThis": "P3_REGULAR_GRAMMAR_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Mixed linear grammar regular maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "theory-of-computation:regular-grammar",
+ "revisionLevel": "short-form"
+}

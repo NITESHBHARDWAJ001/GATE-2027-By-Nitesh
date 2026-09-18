@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_NETWORK_FLOW_01",
+  "name": "Flow and Throughput (Segments, Links, On-Off Sources) (PYQ type)",
+  "recognitionClueHinglish": "Flow and Throughput (Segments, Links, On-Off Sources) se related sawal.",
+  "whatShouldComeToMind": [
+   "Bytes over links, headers overhead, on-off traffic sources, handshake protocol."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Overheads.",
+   "2. Rate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.21.1",
+   "2.21.2",
+   "2.21.3",
+   "2.21.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Overhead ignore."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

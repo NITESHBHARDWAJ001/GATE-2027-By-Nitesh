@@ -1,0 +1,28 @@
+{
+  "topicId": "ds-queue",
+  "revisionLevel": "short-form",
+  "coreIdea": "FIFO. Minimum 2 stacks to implement a queue. Circular array wraps via mod. Linked-list queue needs BOTH head and tail pointers for O(1) both ways.",
+  "mustRememberFormulas": [
+    "next index = (current+1) mod capacity",
+    "Minimum stacks for queue = 2",
+    "Queue via 2 stacks: pour S1→S2 only when S2 is empty (amortized O(1))",
+    "front==rear is ambiguous (full vs empty) — needs count/flag/wasted-slot"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "queue built from stack(s)", "thinkThis": "QUEUE_VIA_STACK_01"},
+    {"seeThis": "array-based circular queue, front/rear indices", "thinkThis": "QUEUE_CIRCULAR_ARRAY_02"},
+    {"seeThis": "linked-list queue, head/tail pointer question", "thinkThis": "QUEUE_LINKEDLIST_03"},
+    {"seeThis": "FIFO/LIFO TRUE-FALSE statement, or design-a-DS question", "thinkThis": "QUEUE_CONCEPTUAL_04"},
+    {"seeThis": "sequence of enqueue/dequeue/deque-ops, asked for result", "thinkThis": "QUEUE_SEQUENCE_TRACE_05"}
+  ],
+  "commonTrapsQuickList": [
+    "FIFO = Queue, NOT Stack — don't mislabel",
+    "Pour S1→S2 only when S2 is empty (not every dequeue)",
+    "1 stack alone can't implement a queue — need 2",
+    "Single-pointer linked list queue is O(n) for one op UNLESS it's circular-with-rear-pointer (then both O(1))"
+  ],
+  "highYieldPyqLessons": [
+    "Queue-via-stack design (5/15) is the dominant skill — the S1/S2 'pour only when empty' rule is the single most important fact.",
+    "Recent years (2022+) combine stack AND queue in the same question — practice tracking two structures simultaneously."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+ "overview": "Instruction bits ko opcode, register, address fields me baantna; expanding opcode se max instructions.",
+ "whyItMatters": "11 PYQs extracted (1988-2026); P2 topic.",
+ "coreConcept": "Total bits = opcode + operand fields. Expanding opcode me unused opcode patterns ko next level ki instructions ke liye reuse karte hain.",
+ "hinglishExplanation": "Instruction length fix ho to fields ka sum = length. Expanding opcode me pehle level ke unused codes ko aage expand karo: free = total - used; next level = free x 2^(extra bits).",
+ "formalDefinition": "Total bits = opcode + operand fields. Expanding opcode me unused opcode patterns ko next level ki instructions ke liye reuse karte hain.",
+ "importantProperties": [
+  "Instruction bits = opcode + register fields + address/immediate.",
+  "Register field bits = log2(#registers).",
+  "Expanding opcode: free opcodes x 2^k next level.",
+  "Immediate range = 2^bits.",
+  "Byte-addressable memory me address bits = log2(memory size).",
+  "Load-store: memory sirf load/store se."
+ ],
+ "formulas": {
+  "regBits": "log2(R)",
+  "expand": "next = (2^b - used) * 2^k"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Register bits galat (log2).",
+  "Free opcodes ka multiply."
+ ],
+ "standardTechniques": [
+  "Field diagram banao."
+ ],
+ "topicId": "co-architecture:instruction-format"
+}

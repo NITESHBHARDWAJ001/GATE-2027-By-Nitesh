@@ -1,0 +1,19 @@
+{
+ "overview": "Trend reading, growth rate.",
+ "whyItMatters": "3 PYQs extracted (2014-2016); P3 topic.",
+ "coreConcept": "Trend reading, growth rate.",
+ "hinglishExplanation": "Points/scale se values.",
+ "formalDefinition": "Trend reading, growth rate.",
+ "importantProperties": [
+  "Percent growth."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Scale."
+ ],
+ "standardTechniques": [
+  "1. Points."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:line-graph"
+}

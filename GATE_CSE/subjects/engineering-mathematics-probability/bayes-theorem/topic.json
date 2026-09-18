@@ -1,0 +1,20 @@
+{
+ "topicId": "engineering-mathematics-probability:bayes-theorem",
+ "subjectId": "engineering-mathematics-probability",
+ "subject": "Engineering Mathematics - Probability",
+ "name": "Bayes Theorem",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 2018-2025.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  2018,
+  2021,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

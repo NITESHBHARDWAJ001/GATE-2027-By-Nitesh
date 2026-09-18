@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "databases__3.15.1",
+  "localId": "3.15.1",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "normal-forms",
+  "topic": "Normal Forms",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "51                                                 ) and (        . Let      ), where,",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "are the attributes of            be a multi- Consider an model with the entities (                                              and , respectively. are the attributes of , and valued attribute. and are the primary keys of Let   be a many-to-many relationship between and . Participation of both and in                                           is total. The minimum number of relations required to convert the model into relational model (assuming there is no other functional dependency) where each relation is in third normal form ( ) is                                 . (Answer in integer)",
+  "tagsRaw": "gateda-2026 databases   er-diagram  normal-forms  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 219
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NORMAL_FORMS_01"
+ }
+]

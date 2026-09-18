@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_ROUTING_PROTOCOLS_01",
+  "name": "Routing Protocols Names (PYQ type)",
+  "recognitionClueHinglish": "Routing Protocols Names se related sawal.",
+  "whatShouldComeToMind": [
+   "RIP, OSPF, BGP, EIGRP ke type: DV/LS/path vector, IGP/EGP."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.29.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "OSPF ko DV maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

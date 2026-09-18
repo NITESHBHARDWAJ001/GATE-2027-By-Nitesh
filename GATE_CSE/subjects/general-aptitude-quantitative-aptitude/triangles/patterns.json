@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_TRIANGLES_01",
+  "name": "Triangles (PYQ type)",
+  "recognitionClueHinglish": "Triangles se related sawal.",
+  "whatShouldComeToMind": [
+   "Area, similarity, Pythagoras."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Type."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.56.1",
+   "9.56.2",
+   "9.56.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Height vs side."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

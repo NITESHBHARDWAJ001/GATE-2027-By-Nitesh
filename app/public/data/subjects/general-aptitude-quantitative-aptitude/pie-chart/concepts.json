@@ -1,0 +1,20 @@
+{
+ "overview": "Sector angle=(fraction)x360.",
+ "whyItMatters": "4 PYQs extracted (2015-2024); P3 topic.",
+ "coreConcept": "Sector angle=(fraction)x360.",
+ "hinglishExplanation": "Percentage angle se.",
+ "formalDefinition": "Sector angle=(fraction)x360.",
+ "importantProperties": [
+  "Total 360 degrees.",
+  "Percent = angle/360."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Angle vs percent."
+ ],
+ "standardTechniques": [
+  "1. Fraction."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:pie-chart"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-set-theory-algebra:mathematical-induction",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MATHEM-01",
+   "patternId": "P4_MATHEMATICAL_INDUCTION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Induction ke do steps?",
+   "solutionApproach": "Base, step.",
+   "answer": "Base + inductive step"
+  }
+ ]
+}

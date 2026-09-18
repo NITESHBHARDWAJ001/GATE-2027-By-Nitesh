@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-spatial-aptitude:assembling",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ASSEMB-01",
+   "patternId": "P3_ASSEMBLING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Puzzle approach?",
+   "solutionApproach": "Corners first.",
+   "answer": "Corner/edge matching"
+  }
+ ]
+}

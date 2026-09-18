@@ -1,0 +1,21 @@
+{
+ "overview": "Two-pass assembler: pass 1 symbol table/location counter, pass 2 object code.",
+ "whyItMatters": "9 PYQs extracted (1992-1996); P3 topic.",
+ "coreConcept": "Two-pass assembler: pass 1 symbol table/location counter, pass 2 object code.",
+ "hinglishExplanation": "Forward reference resolve karne ke liye do passes.",
+ "formalDefinition": "Two-pass assembler: pass 1 symbol table/location counter, pass 2 object code.",
+ "importantProperties": [
+  "Pass1: symbol table, LC, literals.",
+  "Pass2: object code generation.",
+  "Location counter next address track karta hai."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Object code pass 1 me maan lena."
+ ],
+ "standardTechniques": [
+  "1. Activity ko pass se match."
+ ],
+ "topicId": "compiler-design:assembler"
+}

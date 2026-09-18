@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Latch level-sensitive, flip-flop edge-triggered.",
+ "mustRememberFormulas": [
+  "JK: Q+ = JQ' + K'Q"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "SR latch, oscillation, edge behaviour.",
+   "thinkThis": "FF_LATCH_CONCEPT_01"
+  },
+  {
+   "seeThis": "Connected FFs; distinct states or sequence.",
+   "thinkThis": "FF_STATES_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Invalid state.",
+  "Unreachable."
+ ],
+ "highYieldPyqLessons": [
+  "State counting NAT recurs."
+ ],
+ "topicId": "digital-logic:flip-flop",
+ "revisionLevel": "short-form"
+}

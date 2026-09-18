@@ -1,0 +1,292 @@
+[
+ {
+  "patternId": "CACHE_ADDR_SPLIT_01",
+  "name": "Address Field Decomposition (Tag / Set-Index / Offset)",
+  "recognitionClueHinglish": "Agar question me diya hai: cache size, block size, associativity (direct-mapped / k-way / fully-associative), aur total address width (ya main memory size) — aur poocha hai TAG/SET/INDEX/WORD/OFFSET field me kitne bits hain — to ye is pattern ka sabse classic question hai. Yehi single sabse-zyada-repeat-hone-wala GATE cache pattern hai.",
+  "whatShouldComeToMind": [
+   "Step 1: Offset bits = log2(block size)",
+   "Step 2: #lines = cache size / block size; #sets = #lines / associativity",
+   "Step 3: Set/index bits = log2(#sets) (0 if fully associative, since there's only 1 'set')",
+   "Step 4: Tag bits = total address bits − offset bits − index bits",
+   "Sanity check: tag + index + offset MUST equal total address width."
+  ],
+  "conceptsRequired": [
+   "Number Representation (log2)",
+   "Direct/Set/Fully-Associative mapping"
+  ],
+  "generalSolvingApproach": [
+   "1. Note down: total address bits (A), cache size (C), block size (B), associativity (k) — convert everything to consistent units (bytes or words) first, this is where most silly mistakes happen.",
+   "2. offset = log2(B)",
+   "3. number of lines = C / B",
+   "4. number of sets = (number of lines) / k   [k=1 for direct-mapped, k=∞/1-set for fully-associative]",
+   "5. index/set bits = log2(number of sets)",
+   "6. tag bits = A − offset − index",
+   "7. Double-check with the identity tag+index+offset = A."
+  ],
+  "formulasUsed": [
+   "addressSplitDirectMapped",
+   "addressSplitSetAssociative",
+   "addressSplitFullyAssociative"
+  ],
+  "pyqExamples": [
+   "1.5.6",
+   "1.5.9",
+   "1.5.14",
+   "1.5.19",
+   "1.5.29",
+   "1.5.36",
+   "1.5.40",
+   "1.5.46",
+   "1.5.47",
+   "1.5.51",
+   "1.5.52",
+   "1.5.53",
+   "1.5.57",
+   "1.5.60",
+   "1.5.68",
+   "1.5.69",
+   "1.5.2",
+   "1.5.3",
+   "1.5.11",
+   "1.5.15",
+   "1.5.16",
+   "1.5.32",
+   "1.5.39",
+   "1.5.43",
+   "1.5.48",
+   "1.5.49",
+   "1.5.50"
+  ],
+  "variationsObserved": [
+   "Given main memory size instead of address width directly (need log2(memory size) first).",
+   "Byte-addressable vs word-addressable memory — changes what the 'offset' actually measures.",
+   "Question gives TAG bits and asks you to back-solve for associativity or cache size (reverse direction of the same formula).",
+   "2D array traversal wrapped around this (see pattern 04) where the array's memory layout feeds into the address split."
+  ],
+  "commonTraps": [
+   "Not converting KB/MB consistently (1K = 2^10, not 1000, in this context).",
+   "Treating 'number of lines' as 'number of sets' directly for a set-associative cache.",
+   "Forgetting the extra bits needed for byte-offset within a word when block size is given in words but memory is byte-addressable."
+  ],
+  "edgeCases": [
+   "Fully-associative: index bits = 0 always, tag = A − offset.",
+   "Direct-mapped: associativity k = 1, so #sets = #lines."
+  ],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CACHE_AMAT_HIERARCHY_02",
+  "name": "AMAT / Multi-Level Cache Hierarchy Access Time",
+  "recognitionClueHinglish": "Agar question me L1/L2 (ya cache + main memory) ke hit rates aur access times diye hain aur 'average access time' ya 'effective access time' poocha hai — ye AMAT pattern hai. Do-level se teen-level tak ho sakta hai.",
+  "whatShouldComeToMind": [
+   "AMAT = Hit time + Miss rate × Miss penalty",
+   "Miss penalty at level i = AMAT of level (i+1) — recursion chalti hai neeche tak",
+   "Draw the hit/miss tree before plugging into the formula."
+  ],
+  "conceptsRequired": [
+   "Weighted average / probability basics",
+   "Recursive substitution"
+  ],
+  "generalSolvingApproach": [
+   "1. Identify the number of levels (L1, L2, ..., main memory).",
+   "2. Start from the LAST level (main memory access time is just its own access time — no 'miss' beyond it).",
+   "3. Compute AMAT of the second-to-last level using: hit_time + miss_rate × (AMAT of next level).",
+   "4. Work backward level by level until you reach L1's AMAT — that's the final answer.",
+   "5. If the question instead gives 'local miss rate' vs 'global miss rate', clarify which one is used in the formula — local miss rate is what plugs directly into this recursive formula."
+  ],
+  "formulasUsed": [
+   "AMAT",
+   "effectiveCPI"
+  ],
+  "pyqExamples": [
+   "1.5.7",
+   "1.5.27",
+   "1.5.28",
+   "1.5.38",
+   "1.5.42",
+   "1.5.44",
+   "1.5.45",
+   "1.5.62",
+   "1.5.65",
+   "1.5.66",
+   "1.5.4",
+   "1.5.8",
+   "1.5.37",
+   "1.5.41",
+   "1.5.56",
+   "1.5.59"
+  ],
+  "variationsObserved": [
+   "Asked as 'effective CPI impact' instead of raw time (multiply the miss-penalty-in-time term by clock frequency to convert to cycles, then fold into CPI).",
+   "Given bandwidth + latency instead of a flat access time (compute time = latency + size/bandwidth first).",
+   "Speedup-style framing: 'by what factor does adding this cache improve performance' — same AMAT machinery, just take the ratio of before/after."
+  ],
+  "commonTraps": [
+   "Using GLOBAL miss rate at an inner level when the formula needs LOCAL miss rate (or vice versa) — always check which one the question defines.",
+   "Forgetting to add hit_time even when miss_rate is being processed — hit time is paid on EVERY access, hit or miss.",
+   "Unit mismatch: mixing ns and clock cycles without converting via clock frequency."
+  ],
+  "edgeCases": [
+   "Single-level cache is just AMAT = hit_time + miss_rate × miss_penalty with miss_penalty given directly (no further recursion)."
+  ],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CACHE_LRU_TRACE_03",
+  "name": "Replacement-Policy Trace (LRU/FIFO block-reference simulation)",
+  "recognitionClueHinglish": "Agar question me memory-block references ki ek sequence di hai (jaise '0,1,2,3,0,4,...') aur poocha hai ki kaunsa block cache me RAHEGA ya kitne MISSES honge, given a replacement policy (mostly LRU) — ye simulation/trace pattern hai. Isme formula nahi, step-by-step haath se trace karna padta hai.",
+  "whatShouldComeToMind": [
+   "Draw a table: one row per reference, columns = cache lines/sets.",
+   "On every reference: is the block already present? HIT (update recency) else MISS (evict per policy, insert new block).",
+   "For set-associative, only worry about the ONE set that block maps to — reduce the problem to a smaller direct/fully-associative trace within that set."
+  ],
+  "conceptsRequired": [
+   "Set-associative mapping (which set a block belongs to)",
+   "LRU/FIFO bookkeeping"
+  ],
+  "generalSolvingApproach": [
+   "1. If set-associative, first compute which SET each referenced block maps to (block number mod number-of-sets).",
+   "2. Group the reference sequence by set — only references to the SAME set interact with each other.",
+   "3. Within one set, simulate LRU: maintain an ordered list (most-recent to least-recent); on hit, move block to front; on miss with full set, evict the back (least-recent) and insert new block at front.",
+   "4. Count misses / read off final cache contents as asked."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.5.13",
+   "1.5.26",
+   "1.5.33",
+   "1.5.63",
+   "1.5.64",
+   "1.5.67"
+  ],
+  "variationsObserved": [
+   "FIFO instead of LRU (evict oldest-INSERTED, not oldest-USED — different from LRU when there are repeated hits).",
+   "Question asks 'which block will NOT be in the cache' instead of the miss count — same trace, different final read-off."
+  ],
+  "commonTraps": [
+   "Mixing FIFO and LRU behavior — FIFO ignores hits for eviction order, LRU doesn't.",
+   "Forgetting that different sets are INDEPENDENT — a reference to set 2 does not affect set 0's LRU order."
+  ],
+  "edgeCases": [
+   "Fully-associative cache = the whole cache is one set, so the trace applies to all blocks directly."
+  ],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CACHE_LOOP_LOCALITY_04",
+  "name": "Loop/Array Traversal Cache-Performance Analysis (row-major vs column-major, code-segment comparison)",
+  "recognitionClueHinglish": "Agar question me C code diya hai jisme nested for-loop se 2D array traverse ho raha hai (do versions P1 aur P2, jaise i-then-j vs j-then-i order), aur poocha hai kaunsa version zyada cache-friendly hai ya kitne hits/misses honge — ye locality-of-reference application hai, address-split pattern ke sath combine hota hai.",
+  "whatShouldComeToMind": [
+   "C arrays are stored ROW-MAJOR — traversing row-by-row (i outer, j inner) accesses consecutive memory addresses → good spatial locality.",
+   "Traversing column-by-column (j outer, i inner) jumps by (row-size) addresses each step → poor spatial locality → more misses.",
+   "Combine with Pattern 01: figure out how many array elements fit in one cache block, that tells you how many consecutive accesses are 'free' (hits) before the next miss."
+  ],
+  "conceptsRequired": [
+   "Row-major storage order",
+   "Pattern 01 (address split, to know block size in elements)"
+  ],
+  "generalSolvingApproach": [
+   "1. Determine array storage order (row-major, given as default for C unless stated otherwise) and element size.",
+   "2. Compute how many array elements fit per cache block = block size / element size.",
+   "3. For the GOOD traversal order (matches storage order): every (elements-per-block)-th access is a miss, rest are hits.",
+   "4. For the BAD traversal order (against storage order): almost every access is a miss (each element lands in a different block)."
+  ],
+  "formulasUsed": [
+   "addressSplitDirectMapped"
+  ],
+  "pyqExamples": [
+   "1.5.12",
+   "1.5.17",
+   "1.5.18",
+   "1.5.20",
+   "1.5.21",
+   "1.5.23",
+   "1.5.24",
+   "1.5.25",
+   "1.5.30",
+   "1.5.31"
+  ],
+  "variationsObserved": [
+   "Two-loop comparison (P1 vs P2) asking which has fewer misses, vs a single-loop version asking for the exact miss count.",
+   "Combined with direct-mapped index-conflict: even the 'good' row-major order can thrash if the row length causes different rows to map to the SAME cache line."
+  ],
+  "commonTraps": [
+   "Assuming row-major traversal is ALWAYS all-hits-after-first — if the array is large enough that consecutive rows alias to the same cache set/line, you get conflict misses even in the 'good' order.",
+   "Forgetting array indexing starts at 0 when computing addresses."
+  ],
+  "edgeCases": [
+   "Array size much larger than cache — every new row may evict the previous one before reuse, changing the analysis."
+  ],
+  "difficultyRangeSourceTagged": "difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CACHE_CONCEPTUAL_POLICY_05",
+  "name": "Write Policy / Inclusion Property / Coherence — Conceptual (True-False / MSQ style)",
+  "recognitionClueHinglish": "Agar question me numerical calculation nahi hai, balki statements diye hain about write-through/write-back, dirty bit, inclusion property, ya cache coherence, aur poocha hai kaunse statements TRUE hain — ye conceptual/MSQ pattern hai, GATE 2020 ke baad ye zyada common ho gaya hai.",
+  "whatShouldComeToMind": [
+   "Write-through: every write goes to memory immediately → simpler, more bus traffic, no dirty bit needed.",
+   "Write-back: write stays in cache, dirty bit set, flushed to memory only on eviction → less bus traffic, needs dirty bit + write-back on evict.",
+   "Inclusion property: L2 ⊇ L1 (everything in L1 also in L2) is needed for cache-coherence protocols to only need to snoop L2."
+  ],
+  "conceptsRequired": [
+   "Write-through vs write-back",
+   "Dirty bit",
+   "Multi-level inclusion"
+  ],
+  "generalSolvingApproach": [
+   "1. For each statement, mentally classify it under one of: write-policy behavior, replacement-policy behavior, or inclusion/coherence behavior.",
+   "2. Check it against the definitions above — most traps are simple reversals (swapping write-through and write-back behavior).",
+   "3. For MSQ, evaluate each option independently — don't assume the count of correct options."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.5.22",
+   "1.5.34",
+   "1.5.35",
+   "1.5.54",
+   "1.5.55",
+   "1.5.58",
+   "1.5.61"
+  ],
+  "variationsObserved": [
+   "Combined with TLB/MMU (virtual vs physical addressed cache) — cross-links to Virtual Memory topic.",
+   "Combined with multiprocessor cache-coherence framing."
+  ],
+  "commonTraps": [
+   "Swapping write-through/write-back properties.",
+   "Assuming inclusion is automatic — it must be actively maintained by the replacement policy."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CACHE_INTRO_CONCEPTUAL_06",
+  "name": "Basic Definition / Principle of Locality (rare now, mostly pre-2000 descriptive)",
+  "recognitionClueHinglish": "'What is cache memory', 'principle of locality justifies use of ___' jaise seedhe definitional questions — GATE ke bahut purane papers (1987-1995) me the, ab MCQ/NAT era me lagbhag nahi aate directly, lekin concept clarity ke liye zaroori hai.",
+  "whatShouldComeToMind": [
+   "Cache = small fast memory exploiting locality of reference to reduce AMAT."
+  ],
+  "conceptsRequired": [
+   "Core Concept section above"
+  ],
+  "generalSolvingApproach": [
+   "Direct recall — no calculation needed."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.5.1",
+   "1.5.5",
+   "1.5.10"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": false
+ }
+]

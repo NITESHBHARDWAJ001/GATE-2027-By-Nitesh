@@ -1,0 +1,19 @@
+{
+ "topicId": "discrete-mathematics-combinatory:pigeonhole-principle",
+ "subjectId": "discrete-mathematics-combinatory",
+ "subject": "Discrete Mathematics - Combinatory",
+ "name": "Pigeonhole Principle",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 2000-2005.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2000,
+  2005
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

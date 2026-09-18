@@ -1,0 +1,23 @@
+{
+ "topicId": "co-architecture:dma",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "DMA (Direct Memory Access)",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "8 PYQs extracted, 2004-2024.",
+ "pyqCountExtracted": 8,
+ "yearsCovered": [
+  2004,
+  2005,
+  2016,
+  2021,
+  2022,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

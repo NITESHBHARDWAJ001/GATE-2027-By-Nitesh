@@ -1,0 +1,18 @@
+{
+ "topicId": "compiler-design:viable-prefix",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Viable Prefix",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2015-2015.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

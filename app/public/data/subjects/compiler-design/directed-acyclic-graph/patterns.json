@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_DIRECTED_ACYCLIC_GRAPH_01",
+  "name": "DAG of a Basic Block (PYQ type)",
+  "recognitionClueHinglish": "DAG of a Basic Block se related sawal.",
+  "whatShouldComeToMind": [
+   "Common subexpression share; minimum nodes/edges."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Value numbering."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.9.1",
+   "2.9.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Redefinition ke baad CSE maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

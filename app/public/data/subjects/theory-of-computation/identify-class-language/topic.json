@@ -1,0 +1,21 @@
+{
+  "topicId": "toc-identify-class-language",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "name": "Identify Class Language",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "31 PYQs extracted, tested 1987-2023 continuously. This is the CAPSTONE TOC topic — classifying languages into the Chomsky hierarchy (Regular/DCFL/CFL/CSL/Recursive/RE/not-RE), integrating Regular Language + CFL + Decidability skills.",
+  "pyqCountExtracted": 31,
+  "yearsCovered": [1987,1988,1991,1994,1999,2000,2002,2004,2005,2006,2007,2008,2009,2010,2011,2013,2014,2017,2018,2020,2021,2022,2023],
+  "prerequisites": [
+    {"topic": "Regular Language", "subjectId": "theory-of-computation", "why": "Need the regular/non-regular judgment as the base classification skill."},
+    {"topic": "Context Free Language", "subjectId": "theory-of-computation", "why": "Need the CFL/non-CFL judgment as the next classification level."}
+  ],
+  "unlocks": [
+    {"topic": "Decidability", "subjectId": "theory-of-computation", "why": "The recursive/recursively-enumerable/not-RE boundary is fully developed in Decidability; this topic previews it via classification questions."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

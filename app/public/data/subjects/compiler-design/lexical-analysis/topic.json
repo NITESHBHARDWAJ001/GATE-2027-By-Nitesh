@@ -1,0 +1,22 @@
+{
+ "topicId": "compiler-design:lexical-analysis",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Lexical Analysis",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "6 PYQs extracted, 1987-2018.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  1987,
+  2000,
+  2010,
+  2011,
+  2018
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,27 @@
+{
+  "topicId": "toc-finite-automata",
+  "revisionLevel": "short-form",
+  "coreIdea": "DFA=one transition per state-symbol. NFA=multiple/zero+ε allowed. Equally powerful (both = regular languages). Trace short strings to identify language; design around a tracked state-variable to construct.",
+  "mustRememberFormulas": [
+    "NFA n states → DFA ≤2^n states (subset construction)",
+    "Product automaton (intersection/union): |Q1|×|Q2| states",
+    "Complement = swap accept/reject, ONLY on a COMPLETE DFA (add trap state first)",
+    "Count length-n accepted strings = sum of (TransitionMatrix^n)[start][accepting states]"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "state diagram given, asked what language it accepts", "thinkThis": "FA_IDENTIFY_LANGUAGE_01"},
+    {"seeThis": "language description given, asked to construct DFA/NFA", "thinkThis": "FA_CONSTRUCT_02"},
+    {"seeThis": "complement/product/union of automata, or NFA-vs-DFA power claim", "thinkThis": "FA_EQUIVALENCE_CLOSURE_03"},
+    {"seeThis": "specific string given, accept/reject or reachable-states or count-of-length-n asked", "thinkThis": "FA_TRACE_SIMULATE_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Complementing an INCOMPLETE DFA without adding a trap state first gives the wrong answer",
+    "NFA and DFA are EQUALLY powerful — NFA is more concise, never more expressive",
+    "For NFA tracing, track the full SET of possible states, not just one path",
+    "Testing too few example strings before generalizing the accepted language"
+  ],
+  "highYieldPyqLessons": [
+    "Identify-the-language (13/43) and equivalence/closure-operations (13/43) are tied as the biggest sub-skills — together over 60% of the topic.",
+    "Source PDFs lost most state-diagram images in text extraction for this topic — when studying actual PYQs, always cross-check the original PDF page rather than relying solely on extracted text."
+  ]
+}

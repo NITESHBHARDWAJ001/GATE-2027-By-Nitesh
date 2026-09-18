@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "algorithms__1.28.1",
+  "localId": "1.28.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "maximum-minimum",
+  "topic": "Maximum Minimum",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "39                                                               numbers is",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "147.1 : 148.1",
+  "answerVerified": true,
+  "questionTextRaw": "The minimum number of comparisons required to find the minimum and the maximum of ________",
+  "tagsRaw": "gatecse-2014-set1 algorithms  numerical-answers  normal  maximum-minimum        sorting",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 70
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_MAXIMUM_MINIMUM_01"
+ }
+]

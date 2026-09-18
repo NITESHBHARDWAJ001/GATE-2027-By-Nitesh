@@ -1,0 +1,18 @@
+{
+ "topicId": "computer-networks:pure-aloha",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "Pure ALOHA",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2021-2021.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2021
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,1006 @@
+[
+ {
+  "topicSlug": "subnetting",
+  "name": "Subnetting",
+  "pyqCountExtracted": 21,
+  "yearsCovered": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2010,
+   2012,
+   2015,
+   2019,
+   2020,
+   2022,
+   2023,
+   2025
+  ],
+  "recentYearsCovered": [
+   2019,
+   2020,
+   2022,
+   2023,
+   2025
+  ],
+  "pyqIds": [
+   "computer-networks__2.34.1",
+   "computer-networks__2.34.2",
+   "computer-networks__2.34.3",
+   "computer-networks__2.34.4",
+   "computer-networks__2.34.5",
+   "computer-networks__2.34.6",
+   "computer-networks__2.34.7",
+   "computer-networks__2.34.8",
+   "computer-networks__2.34.9",
+   "computer-networks__2.34.10",
+   "computer-networks__2.34.11",
+   "computer-networks__2.34.12",
+   "computer-networks__2.34.13",
+   "computer-networks__2.34.14",
+   "computer-networks__2.34.15",
+   "computer-networks__2.34.16",
+   "computer-networks__2.34.17",
+   "computer-networks__2.34.18",
+   "computer-networks__2.34.19",
+   "computer-networks__2.34.20",
+   "computer-networks__2.34.21"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "21 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 2003-2025 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "tcp",
+  "name": "TCP",
+  "pyqCountExtracted": 20,
+  "yearsCovered": [
+   2004,
+   2007,
+   2008,
+   2009,
+   2012,
+   2015,
+   2016,
+   2017,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "computer-networks__2.35.1",
+   "computer-networks__2.35.2",
+   "computer-networks__2.35.3",
+   "computer-networks__2.35.4",
+   "computer-networks__2.35.5",
+   "computer-networks__2.35.6",
+   "computer-networks__2.35.7",
+   "computer-networks__2.35.8",
+   "computer-networks__2.35.9",
+   "computer-networks__2.35.10",
+   "computer-networks__2.35.11",
+   "computer-networks__2.35.12",
+   "computer-networks__2.35.13",
+   "computer-networks__2.35.14",
+   "computer-networks__2.35.15",
+   "computer-networks__2.35.16",
+   "computer-networks__2.35.17",
+   "computer-networks__2.35.18",
+   "computer-networks__2.35.19",
+   "computer-networks__2.35.20"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "20 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 2004-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "sliding-window",
+  "name": "Sliding Window",
+  "pyqCountExtracted": 16,
+  "yearsCovered": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2014,
+   2015,
+   2016,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2026
+  ],
+  "pyqIds": [
+   "computer-networks__2.30.1",
+   "computer-networks__2.30.2",
+   "computer-networks__2.30.3",
+   "computer-networks__2.30.4",
+   "computer-networks__2.30.5",
+   "computer-networks__2.30.6",
+   "computer-networks__2.30.7",
+   "computer-networks__2.30.8",
+   "computer-networks__2.30.9",
+   "computer-networks__2.30.10",
+   "computer-networks__2.30.11",
+   "computer-networks__2.30.12",
+   "computer-networks__2.30.13",
+   "computer-networks__2.30.14",
+   "computer-networks__2.30.15",
+   "computer-networks__2.30.16"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "16 PYQs extracted (high historical frequency), spans 2003-2026, but only 2 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "topicSlug": "routing",
+  "name": "Routing",
+  "pyqCountExtracted": 14,
+  "yearsCovered": [
+   2005,
+   2007,
+   2008,
+   2014,
+   2017,
+   2020,
+   2023,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2020,
+   2023,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "computer-networks__2.28.1",
+   "computer-networks__2.28.2",
+   "computer-networks__2.28.3",
+   "computer-networks__2.28.4",
+   "computer-networks__2.28.5",
+   "computer-networks__2.28.6",
+   "computer-networks__2.28.7",
+   "computer-networks__2.28.8",
+   "computer-networks__2.28.9",
+   "computer-networks__2.28.10",
+   "computer-networks__2.28.11",
+   "computer-networks__2.28.12",
+   "computer-networks__2.28.13",
+   "computer-networks__2.28.14"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "14 PYQs extracted, 5 recent (2016+) appearances, spans 2005-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "application-layer-protocols",
+  "name": "Application Layer Protocols",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   2005,
+   2006,
+   2008,
+   2011,
+   2012,
+   2016,
+   2019,
+   2020,
+   2022,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2019,
+   2020,
+   2022,
+   2026
+  ],
+  "pyqIds": [
+   "computer-networks__2.1.1",
+   "computer-networks__2.1.2",
+   "computer-networks__2.1.3",
+   "computer-networks__2.1.4",
+   "computer-networks__2.1.5",
+   "computer-networks__2.1.6",
+   "computer-networks__2.1.7",
+   "computer-networks__2.1.8",
+   "computer-networks__2.1.9",
+   "computer-networks__2.1.10",
+   "computer-networks__2.1.11",
+   "computer-networks__2.1.12",
+   "computer-networks__2.1.13"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "13 PYQs extracted, 5 recent (2016+) appearances, spans 2005-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "ip-packet",
+  "name": "IP Packet",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   2004,
+   2006,
+   2010,
+   2014,
+   2015,
+   2016,
+   2024
+  ],
+  "recentYearsCovered": [
+   2016,
+   2024
+  ],
+  "pyqIds": [
+   "computer-networks__2.17.1",
+   "computer-networks__2.17.2",
+   "computer-networks__2.17.3",
+   "computer-networks__2.17.4",
+   "computer-networks__2.17.5",
+   "computer-networks__2.17.6",
+   "computer-networks__2.17.7",
+   "computer-networks__2.17.8",
+   "computer-networks__2.17.9",
+   "computer-networks__2.17.10",
+   "computer-networks__2.17.11",
+   "computer-networks__2.17.12"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "12 PYQs extracted, 2 recent (2016+) appearances, spans 2004-2024 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "network-protocols",
+  "name": "Network Protocols",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   2005,
+   2007,
+   2008,
+   2015,
+   2016,
+   2019,
+   2021,
+   2024
+  ],
+  "recentYearsCovered": [
+   2016,
+   2019,
+   2021,
+   2024
+  ],
+  "pyqIds": [
+   "computer-networks__2.23.1",
+   "computer-networks__2.23.2",
+   "computer-networks__2.23.3",
+   "computer-networks__2.23.4",
+   "computer-networks__2.23.5",
+   "computer-networks__2.23.6",
+   "computer-networks__2.23.7",
+   "computer-networks__2.23.8",
+   "computer-networks__2.23.9",
+   "computer-networks__2.23.10",
+   "computer-networks__2.23.11"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "11 PYQs extracted, 4 recent (2016+) appearances, spans 2005-2024 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "congestion-control",
+  "name": "Congestion Control",
+  "pyqCountExtracted": 9,
+  "yearsCovered": [
+   2005,
+   2008,
+   2012,
+   2014,
+   2018,
+   2020,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2018,
+   2020,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "computer-networks__2.9.1",
+   "computer-networks__2.9.2",
+   "computer-networks__2.9.3",
+   "computer-networks__2.9.4",
+   "computer-networks__2.9.5",
+   "computer-networks__2.9.6",
+   "computer-networks__2.9.7",
+   "computer-networks__2.9.8",
+   "computer-networks__2.9.9"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "9 PYQs extracted, 4 recent (2016+) appearances, spans 2005-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "distance-vector-routing",
+  "name": "Distance Vector Routing",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2005,
+   2007,
+   2010,
+   2011,
+   2021,
+   2022
+  ],
+  "recentYearsCovered": [
+   2021,
+   2022
+  ],
+  "pyqIds": [
+   "computer-networks__2.11.1",
+   "computer-networks__2.11.2",
+   "computer-networks__2.11.3",
+   "computer-networks__2.11.4",
+   "computer-networks__2.11.5",
+   "computer-networks__2.11.6",
+   "computer-networks__2.11.7",
+   "computer-networks__2.11.8"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "8 PYQs extracted, 2 recent (2016+) appearances, spans 2005-2022 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "error-detection",
+  "name": "Error Detection",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1987,
+   1992,
+   1995,
+   2005,
+   2007,
+   2008,
+   2009,
+   2017
+  ],
+  "recentYearsCovered": [
+   2017
+  ],
+  "pyqIds": [
+   "computer-networks__2.12.1",
+   "computer-networks__2.12.2",
+   "computer-networks__2.12.3",
+   "computer-networks__2.12.4",
+   "computer-networks__2.12.5",
+   "computer-networks__2.12.6",
+   "computer-networks__2.12.7",
+   "computer-networks__2.12.8"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "8 PYQs extracted, spans 1987-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "ip-addressing",
+  "name": "IP Addressing",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2003,
+   2012,
+   2017,
+   2018,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2018,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "computer-networks__2.16.1",
+   "computer-networks__2.16.2",
+   "computer-networks__2.16.3",
+   "computer-networks__2.16.4",
+   "computer-networks__2.16.5",
+   "computer-networks__2.16.6",
+   "computer-networks__2.16.7",
+   "computer-networks__2.16.8"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "8 PYQs extracted, 6 recent (2016+) appearances, spans 2003-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "ethernet",
+  "name": "Ethernet",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   2004,
+   2006,
+   2013,
+   2016,
+   2022,
+   2024
+  ],
+  "recentYearsCovered": [
+   2016,
+   2022,
+   2024
+  ],
+  "pyqIds": [
+   "computer-networks__2.13.1",
+   "computer-networks__2.13.2",
+   "computer-networks__2.13.3",
+   "computer-networks__2.13.4",
+   "computer-networks__2.13.5",
+   "computer-networks__2.13.6",
+   "computer-networks__2.13.7"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "7 PYQs extracted, 3 recent (2016+) appearances, spans 2004-2024 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "lan-technologies",
+  "name": "LAN Technologies",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2014,
+   2019
+  ],
+  "recentYearsCovered": [
+   2019
+  ],
+  "pyqIds": [
+   "computer-networks__2.19.1",
+   "computer-networks__2.19.2",
+   "computer-networks__2.19.3",
+   "computer-networks__2.19.4",
+   "computer-networks__2.19.5",
+   "computer-networks__2.19.6",
+   "computer-networks__2.19.7"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "7 PYQs extracted, spans 2003-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "csma-cd",
+  "name": "CSMA CD",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2005,
+   2008,
+   2015,
+   2016,
+   2018
+  ],
+  "recentYearsCovered": [
+   2016,
+   2018
+  ],
+  "pyqIds": [
+   "computer-networks__2.6.1",
+   "computer-networks__2.6.2",
+   "computer-networks__2.6.3",
+   "computer-networks__2.6.4",
+   "computer-networks__2.6.5",
+   "computer-networks__2.6.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 2005-2018 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "network-layer",
+  "name": "Network Layer",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2003,
+   2004,
+   2013,
+   2014,
+   2018,
+   2026
+  ],
+  "recentYearsCovered": [
+   2018,
+   2026
+  ],
+  "pyqIds": [
+   "computer-networks__2.22.1",
+   "computer-networks__2.22.2",
+   "computer-networks__2.22.3",
+   "computer-networks__2.22.4",
+   "computer-networks__2.22.5",
+   "computer-networks__2.22.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 2003-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "stop-and-wait",
+  "name": "Stop and Wait",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2005,
+   2006,
+   2015,
+   2016,
+   2017,
+   2023
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2023
+  ],
+  "pyqIds": [
+   "computer-networks__2.33.1",
+   "computer-networks__2.33.2",
+   "computer-networks__2.33.3",
+   "computer-networks__2.33.4",
+   "computer-networks__2.33.5",
+   "computer-networks__2.33.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 3 recent (2016+) appearances, spans 2005-2023 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "crc-polynomial",
+  "name": "CRC Polynomial",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2005,
+   2007,
+   2017,
+   2021,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2021,
+   2026
+  ],
+  "pyqIds": [
+   "computer-networks__2.5.1",
+   "computer-networks__2.5.2",
+   "computer-networks__2.5.3",
+   "computer-networks__2.5.4",
+   "computer-networks__2.5.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 2005-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "fragmentation",
+  "name": "Fragmentation",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2004,
+   2013,
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "computer-networks__2.14.1",
+   "computer-networks__2.14.2",
+   "computer-networks__2.14.3",
+   "computer-networks__2.14.4",
+   "computer-networks__2.14.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 2004-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "communication",
+  "name": "Communication",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2007,
+   2012,
+   2022
+  ],
+  "recentYearsCovered": [
+   2022
+  ],
+  "pyqIds": [
+   "computer-networks__2.8.1",
+   "computer-networks__2.8.2",
+   "computer-networks__2.8.3",
+   "computer-networks__2.8.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2007-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "mac-protocol",
+  "name": "MAC Protocol",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2004,
+   2005,
+   2015
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "computer-networks__2.20.1",
+   "computer-networks__2.20.2",
+   "computer-networks__2.20.3",
+   "computer-networks__2.20.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2004-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "network-flow",
+  "name": "Network Flow",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1992,
+   2004,
+   2006,
+   2017
+  ],
+  "recentYearsCovered": [
+   2017
+  ],
+  "pyqIds": [
+   "computer-networks__2.21.1",
+   "computer-networks__2.21.2",
+   "computer-networks__2.21.3",
+   "computer-networks__2.21.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 1992-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "network-switching",
+  "name": "Network Switching",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2004,
+   2005,
+   2014,
+   2015
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "computer-networks__2.24.1",
+   "computer-networks__2.24.2",
+   "computer-networks__2.24.3",
+   "computer-networks__2.24.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2004-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "sockets",
+  "name": "Sockets",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2008,
+   2014,
+   2015
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "computer-networks__2.32.1",
+   "computer-networks__2.32.2",
+   "computer-networks__2.32.3",
+   "computer-networks__2.32.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2008-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "udp",
+  "name": "UDP",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2005,
+   2006,
+   2013,
+   2017
+  ],
+  "recentYearsCovered": [
+   2017
+  ],
+  "pyqIds": [
+   "computer-networks__2.37.1",
+   "computer-networks__2.37.2",
+   "computer-networks__2.37.3",
+   "computer-networks__2.37.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2005-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "bridges",
+  "name": "Bridges",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2004,
+   2006
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "computer-networks__2.4.1",
+   "computer-networks__2.4.2",
+   "computer-networks__2.4.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2004-2006 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "bit-stuffing",
+  "name": "Bit Stuffing",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2004,
+   2014
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "computer-networks__2.3.1",
+   "computer-networks__2.3.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 2004-2014 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "hamming-code",
+  "name": "Hamming Code",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1994,
+   2021
+  ],
+  "recentYearsCovered": [
+   2021
+  ],
+  "pyqIds": [
+   "computer-networks__2.15.1",
+   "computer-networks__2.15.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 1994-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "token-bucket",
+  "name": "Token Bucket",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2008,
+   2016
+  ],
+  "recentYearsCovered": [
+   2016
+  ],
+  "pyqIds": [
+   "computer-networks__2.36.1",
+   "computer-networks__2.36.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2008-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "wrap-around-time",
+  "name": "Wrap Around Time",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2014,
+   2018
+  ],
+  "recentYearsCovered": [
+   2018
+  ],
+  "pyqIds": [
+   "computer-networks__2.38.1",
+   "computer-networks__2.38.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2014-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "arp",
+  "name": "Arp",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "computer-networks__2.2.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "channel-utilization",
+  "name": "Channel Utilization",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "computer-networks__2.7.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "data-communication",
+  "name": "Data Communication",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "computer-networks__2.10.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "icmp",
+  "name": "Icmp",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2005
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "computer-networks__2.18.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2005-2005 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "osi-model",
+  "name": "Osi Model",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "computer-networks__2.25.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "probability",
+  "name": "Probability",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "computer-networks__2.26.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "pure-aloha",
+  "name": "Pure Aloha",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2021
+  ],
+  "recentYearsCovered": [
+   2021
+  ],
+  "pyqIds": [
+   "computer-networks__2.27.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2021-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "routing-protocols",
+  "name": "Routing Protocols",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "computer-networks__2.29.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "slotted-aloha",
+  "name": "Slotted Aloha",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2015
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "computer-networks__2.31.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2015-2015 — long-tail topic, revision-only unless it's a known prerequisite."
+ }
+]

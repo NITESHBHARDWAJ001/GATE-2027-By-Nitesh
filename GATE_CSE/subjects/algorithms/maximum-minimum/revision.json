@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Max aur min ek saath: ceil(3n/2)-2 comparisons.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Finding Max and Min Together se related sawal.",
+   "thinkThis": "P4_MAXIMUM_MINIMUM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "2n-2 ko optimal maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:maximum-minimum",
+ "revisionLevel": "short-form"
+}

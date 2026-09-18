@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:resource-allocation-graph",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RESOUR-01",
+   "patternId": "P3_RESOURCE_ALLOCATION_GRAP_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Cycle with single-instance resources?",
+   "solutionApproach": "Deadlock.",
+   "answer": "Deadlock"
+  }
+ ]
+}

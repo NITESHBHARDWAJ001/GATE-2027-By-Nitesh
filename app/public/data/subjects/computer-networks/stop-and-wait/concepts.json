@@ -1,0 +1,24 @@
+{
+ "overview": "Utilization = Tt / (Tt + 2 Tp); throughput, error probability effect.",
+ "whyItMatters": "6 PYQs extracted (2005-2023); P2 topic.",
+ "coreConcept": "Ek frame bhejo, ack ka wait karo.",
+ "hinglishExplanation": "Efficiency = Tt / (Tt + 2Tp) (ack transmission time ignore). Frame error probability p ho to expected transmissions 1/(1-p).",
+ "formalDefinition": "Ek frame bhejo, ack ka wait karo.",
+ "importantProperties": [
+  "U = Tt/(Tt+2Tp).",
+  "Throughput = U x bandwidth.",
+  "Expected transmissions = 1/(1-p).",
+  "Ack time ko include karo agar diya ho."
+ ],
+ "formulas": {
+  "eff": "Tt/(Tt+2Tp)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Ack time include."
+ ],
+ "standardTechniques": [
+  "Timeline draw."
+ ],
+ "topicId": "computer-networks:stop-and-wait"
+}

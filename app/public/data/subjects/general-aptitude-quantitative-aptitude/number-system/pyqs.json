@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.35.1",
+  "localId": "9.35.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "number-system",
+  "topic": "Number System",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 3,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "10",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the equation:                                              , where  stands for to the base . Find . A.                                       B.                                         C.         D.",
+  "tagsRaw": "gatecse-2014-set3 quantitative-aptitude  number-system       normal  digital-logic",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 286
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NUMBER_SYSTEM_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.35.2",
+  "localId": "9.35.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "number-system",
+  "topic": "Number System",
+  "year": 2017,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "8",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "is a digit number starting with the digit followed by the digit . Then the number              will have A. digits                                B. digits                                  C. digits  D. digits",
+  "tagsRaw": "gatecse-2017-set2 quantitative-aptitude  number-system",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 286
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NUMBER_SYSTEM_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.35.3",
+  "localId": "9.35.3",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "number-system",
+  "topic": "Number System",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": ", and are distinct single-digit whole numbers taking values from to .                  is a two-digit is a two-digit number with being in the units place and in the tens place. Similarly, number. It is known that  and are consecutive numbers and                                                  , with     being a three- digit number. The value of is A.                                       B.                                         C.         D.",
+  "tagsRaw": "gateda-2026 quantitative-aptitude  two-marks  number-system",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 286
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NUMBER_SYSTEM_01"
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Level-by-level traversal, unweighted shortest path, queue.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Breadth First Search se related sawal.",
+   "thinkThis": "P3_BREADTH_FIRST_SEARCH_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Weighted graph par BFS se shortest path."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:breadth-first-search",
+ "revisionLevel": "short-form"
+}

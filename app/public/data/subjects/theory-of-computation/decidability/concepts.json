@@ -1,0 +1,37 @@
+{
+  "topicId": "toc-decidability",
+  "overview": "Decidability TOC ka final topic hai — 'kaunse problems ALGORITHM se solve ho sakte hain (always halting, correct answer), aur kaunse NAHI'. 4 skills: ek problem DECIDABLE hai ya nahi classify karna (memorized decidable/undecidable list), reduction-based proof likhna, Recursive-vs-RE theory, aur basic Turing Machine definitions.",
+  "whyItMatters": "30 PYQs, aur ye ek bahut 'memorize the list' topic hai — decidable/undecidable problems ka fixed set baar-baar reappear hota hai.",
+  "coreConcept": "DECIDABLE (Recursive) = algorithm exists jo HAMESHA halt karta hai, correct YES/NO deta hai. UNDECIDABLE = koi bhi aisa algorithm EXIST nahi karta (Halting Problem is the FOUNDATIONAL undecidable problem — sab kuch usी se REDUCE hota hai). Golden RULE OF THUMB: agar problem 'Turing machine ke BEHAVIOR ke baare me KUCH BHI non-trivial poochta hai' (jaise 'does it halt', 'does it accept empty language', 'is its language regular'), Rice's Theorem ke through ye UNDECIDABLE hai.",
+  "hinglishExplanation": "Decidability ko ek 'kya iska pakka jawab pata karne ka tareeka hai' test socho. Halting Problem ('kya ye program kabhi rukega') PROVEN undecidable hai — ye foundational fact hai. Baaki saare undecidability proofs isi se REDUCE karte hain: 'agar mai iss NAYE problem ko solve kar saku, to mai Halting Problem bhi solve kar sakta hoon — lekin Halting Problem solve NAHI ho sakta, isliye ye naya problem bhi solve nahi ho sakta.'",
+  "formalDefinition": "A language L is DECIDABLE (Recursive) if there's a TM that halts on every input, accepting iff input∈L. UNDECIDABLE means no such TM exists (though L might still be Recursively Enumerable — an algorithm exists that halts and accepts if input∈L, but may loop forever if not).",
+  "importantProperties": [
+    "RICE'S THEOREM (the single most powerful tool here): ANY non-trivial property of the LANGUAGE a Turing machine recognizes (not about the machine's structure/code, but about L(M) itself) is UNDECIDABLE. Examples of undecidable-by-Rice's: 'is L(M) empty?', 'is L(M) regular?', 'is L(M) finite?', 'does L(M) contain a specific string?', 'is L(M)=Σ*?'.",
+    "DECIDABLE problems about FINITE AUTOMATA / regular languages / CFGs (structural, not about arbitrary TMs): membership (given DFA/CFG and string, is it accepted?), emptiness (is L(M) empty for a DFA/PDA?), finiteness (is L(M) finite for a DFA/PDA?), equivalence of two DFAs (are they the same language?).",
+    "UNDECIDABLE problems specifically about CFGs: ambiguity of a CFG, equivalence of two CFGs, whether a CFG generates Σ* (universality), whether the intersection of two CFLs is empty, whether a CFG is regular/ambiguous/inherently-ambiguous.",
+    "UNDECIDABLE problems about Turing machines (via Rice's Theorem or direct Halting-Problem reduction): does TM halt on input w? Does TM halt on ALL inputs? Is L(TM) empty/finite/regular/=Σ*? Do two TMs accept the same language?",
+    "L is Recursive IFF both L and complement(L) are Recursively Enumerable (a foundational theorem, useful for PROVING recursiveness by showing both directions RE)."
+  ],
+  "formulas": {
+    "ricesTheorem": "Any non-trivial semantic property of L(M) (for TM M) is undecidable",
+    "recursiveIffBothRE": "L is Recursive ⟺ both L and complement(L) are Recursively Enumerable",
+    "decidableAboutFAandCFG": "Membership, emptiness, finiteness DECIDABLE for DFA/PDA/CFG (structural questions about the machine/grammar, not about arbitrary TM behavior)",
+    "undecidableAboutCFG": "Ambiguity, equivalence, universality (=Σ*), intersection-emptiness UNDECIDABLE for CFGs"
+  },
+  "keyPropertiesAndIdentities": [
+    "The critical distinction: questions about DFA/regular languages are almost always DECIDABLE (finite automata are simple enough to fully analyze algorithmically); the SAME-SHAPED questions about CFGs or Turing machines are usually UNDECIDABLE (once you have a stack or unbounded tape, the analysis becomes as hard as the Halting Problem).",
+    "'Does TM M halt on ALL inputs' is undecidable (even harder than 'halts on ONE specific input', which is already undecidable) — both reduce from/to the Halting Problem."
+  ],
+  "commonPitfalls": [
+    "Applying Rice's Theorem to a question about the machine's STRUCTURE/CODE rather than its LANGUAGE — Rice's Theorem specifically applies to semantic (language) properties, not syntactic ones (like 'does the TM have exactly 5 states', which IS trivially decidable by just counting).",
+    "Confusing decidability questions about DFAs/regular languages (usually decidable) with the SAME question about CFGs or TMs (usually undecidable) — the machine model matters enormously.",
+    "Forgetting that 'undecidable' doesn't mean 'no algorithm at all' — many undecidable problems ARE Recursively Enumerable (a semi-algorithm exists that says YES correctly but may loop on NO).",
+    "Assuming reduction direction — to prove problem X undecidable, reduce FROM a known undecidable problem TO X (show 'if X were decidable, I could decide the known-undecidable problem too')."
+  ],
+  "standardTechniques": [
+    "For classification questions: first check if it's about a DFA/regular-language (likely decidable) or a CFG/TM (check against the memorized undecidable list, or apply Rice's Theorem if it's a semantic property of a TM's language).",
+    "For reduction-based proofs: assume (for contradiction) the target problem IS decidable, show how you could use that decider to build a decider for the KNOWN undecidable Halting Problem (or another known-undecidable problem), deriving a contradiction.",
+    "For Recursive-vs-RE questions: use the 'L is Recursive iff both L and complement(L) are RE' theorem as the key tool.",
+    "When in doubt on an unfamiliar-looking problem: ask 'is this asking something about a TM's LANGUAGE (semantic)?' — if yes, strongly suspect undecidable via Rice's Theorem."
+  ]
+}

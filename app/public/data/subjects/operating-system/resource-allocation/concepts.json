@@ -1,0 +1,40 @@
+{
+ "topicId": "os-resource-allocation",
+ "overview": "Resource Allocation = Deadlock. 4 skills: minimum resources jisse deadlock kabhi na ho (formula), Banker's algorithm se safe state check, allocation graph/scenario me deadlock detect karna, aur prevention/avoidance theory.",
+ "whyItMatters": "27 PYQs; min-resources formula aur Banker's safe-sequence dono fully mechanical hain.",
+ "coreConcept": "Deadlock = processes ka ek group jahan har process us resource ka wait kar raha hai jo doosre ke paas hai. Chaar Coffman conditions ek saath hone chahiye: Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait. Koi ek tod do to deadlock nahi (prevention).",
+ "hinglishExplanation": "Do log darwaze pe: A ne left key li hai, B ne right key, dono ko doosri key chahiye. Koi peeche nahi hat sakta, koi aage nahi badh sakta — yehi deadlock. Banker's algorithm bank manager jaisa hai: loan tabhi deta hai jab guarantee ho ki sab clients ka kaam kabhi na kabhi poora ho sakta hai (safe state).",
+ "formalDefinition": "Safe state: ek sequence exists jisme har process apni max need poori karke finish ho sake. Unsafe state deadlock ki guarantee nahi, sirf possibility hai.",
+ "importantProperties": [
+  "Deadlock-free guarantee: n processes, har ek ko max k units chahiye, total R units: R >= n(k-1)+1 hone par deadlock kabhi nahi hoga.",
+  "Isliye maximum n for deadlock-free = floor((R-1)/(k-1)).",
+  "Different max demands (k1..kn): deadlock-free ke liye R >= sum(ki-1)+1.",
+  "Banker's algorithm: Need = Max - Allocation; Work = Available; koi bhi process jiska Need <= Work ho, use finish karo aur Work += Allocation; sab finish ho gaye to safe.",
+  "Resource allocation graph me har resource ka single instance ho to cycle = deadlock; multiple instances me cycle sirf necessary hai, sufficient nahi.",
+  "Circular wait deadlock ke liye necessary hai. Resource ordering (numbered resources, sirf badhte order me request) circular wait tod deta hai — valid prevention.",
+  "Deadlock prevention requests ko rok kar conditions todta hai; avoidance (Banker's) safe state ke basis par grant karta hai — safe state ki jaanch avoidance ka kaam hai, prevention ka nahi.",
+  "Sab resources release karke hi nayi request karne wali policy me deadlock nahi hoga, par starvation ho sakta hai."
+ ],
+ "formulas": {
+  "deadlockFreeMinR": "R >= n*(k-1) + 1 (each process max k units)",
+  "maxProcesses": "n_max = floor((R-1)/(k-1))",
+  "bankerNeed": "Need = Max - Allocation",
+  "safeSequenceRule": "Pick process with Need <= Work; Work = Work + Allocation; repeat until all finish",
+  "coffman": "Mutual exclusion + Hold and wait + No preemption + Circular wait"
+ },
+ "keyPropertiesAndIdentities": [
+  "Worst case sochne ka tareeka: har process ko (k-1) units de do; ab ek aur unit bache to koi ek process finish ho jaayega.",
+  "Multi-instance RAG me cycle hone par bhi deadlock na ho sakta hai."
+ ],
+ "commonPitfalls": [
+  "Formula me k ki jagah k-1 use karna bhool jaana (R >= n(k-1)+1).",
+  "Unsafe state ko deadlock samajhna.",
+  "Banker's me Need ki jagah Max compare kar dena.",
+  "'Deadlock hai' aur 'deadlock ho sakta hai' me farak na karna."
+ ],
+ "standardTechniques": [
+  "Min-resources: worst-case allocation (k-1 each) socho aur +1 karo.",
+  "Banker's: Need matrix banao, Work vector maintain karo, step-by-step processes finish karo.",
+  "Graph/scenario: pehle single-instance ya multi-instance dekho, phir wait-for cycle dhundo."
+ ]
+}

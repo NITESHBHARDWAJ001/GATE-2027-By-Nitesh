@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:combinatory",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-COMBIN-01",
+   "patternId": "P3_COMBINATORY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "3 shirts, 2 pants combos?",
+   "solutionApproach": "3*2.",
+   "answer": "6"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "overview": "Dice, coins, socks, bags, and children-gender problems; independent events; combinations.",
+ "whyItMatters": "12 PYQs extracted (2015-2026); P2 topic.",
+ "coreConcept": "Probability = favourable/total; independent events multiply; 'at least' complement.",
+ "hinglishExplanation": "Yeh Engineering Maths probability ka easy version hai. Dice/coins ke fair outcomes, without-replacement draws me nCr ya sequential probabilities, aur binomial jaise combos.",
+ "formalDefinition": "Probability = favourable/total; independent events multiply; 'at least' complement.",
+ "importantProperties": [
+  "Favourable/total.",
+  "Independent multiply; exclusive add.",
+  "At least one = 1 - none.",
+  "Without replacement: nCr ratio.",
+  "Repeated independent trials binomial.",
+  "Family of 3 children: 8 equally likely outcomes."
+ ],
+ "formulas": {
+  "complement": "1 - P(none)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Ordered vs unordered."
+ ],
+ "standardTechniques": [
+  "Sample space list."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:probability"
+}

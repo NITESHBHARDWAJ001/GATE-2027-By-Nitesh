@@ -1,0 +1,226 @@
+[
+ {
+  "topicSlug": "combinatory",
+  "name": "Combinatory",
+  "pyqCountExtracted": 18,
+  "yearsCovered": [
+   1990,
+   1991,
+   1998,
+   1999,
+   2001,
+   2003,
+   2004,
+   2005,
+   2007,
+   2008,
+   2014,
+   2015,
+   2019,
+   2020,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2019,
+   2020,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "discrete-mathematics-combinatory__1.2.1",
+   "discrete-mathematics-combinatory__1.2.2",
+   "discrete-mathematics-combinatory__1.2.3",
+   "discrete-mathematics-combinatory__1.2.4",
+   "discrete-mathematics-combinatory__1.2.5",
+   "discrete-mathematics-combinatory__1.2.6",
+   "discrete-mathematics-combinatory__1.2.7",
+   "discrete-mathematics-combinatory__1.2.8",
+   "discrete-mathematics-combinatory__1.2.9",
+   "discrete-mathematics-combinatory__1.2.10",
+   "discrete-mathematics-combinatory__1.2.11",
+   "discrete-mathematics-combinatory__1.2.12",
+   "discrete-mathematics-combinatory__1.2.13",
+   "discrete-mathematics-combinatory__1.2.14",
+   "discrete-mathematics-combinatory__1.2.15",
+   "discrete-mathematics-combinatory__1.2.16",
+   "discrete-mathematics-combinatory__1.2.17",
+   "discrete-mathematics-combinatory__1.2.18"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "18 PYQs extracted, tested in 4 recent GATE cycles (2016+), spans 1990-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "recurrence-relation",
+  "name": "Recurrence Relation",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1996,
+   2004,
+   2007,
+   2016,
+   2022,
+   2023
+  ],
+  "recentYearsCovered": [
+   2016,
+   2022,
+   2023
+  ],
+  "pyqIds": [
+   "discrete-mathematics-combinatory__1.7.1",
+   "discrete-mathematics-combinatory__1.7.2",
+   "discrete-mathematics-combinatory__1.7.3",
+   "discrete-mathematics-combinatory__1.7.4",
+   "discrete-mathematics-combinatory__1.7.5",
+   "discrete-mathematics-combinatory__1.7.6",
+   "discrete-mathematics-combinatory__1.7.7"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "7 PYQs extracted, 3 recent (2016+) appearances, spans 1996-2023 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "balls-in-bins",
+  "name": "Balls In Bins",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1999,
+   2000,
+   2002,
+   2003,
+   2004,
+   2022
+  ],
+  "recentYearsCovered": [
+   2022
+  ],
+  "pyqIds": [
+   "discrete-mathematics-combinatory__1.1.1",
+   "discrete-mathematics-combinatory__1.1.2",
+   "discrete-mathematics-combinatory__1.1.3",
+   "discrete-mathematics-combinatory__1.1.4",
+   "discrete-mathematics-combinatory__1.1.5",
+   "discrete-mathematics-combinatory__1.1.6"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, spans 1999-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "counting",
+  "name": "Counting",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1990,
+   1991,
+   1994,
+   2021,
+   2023
+  ],
+  "recentYearsCovered": [
+   2021,
+   2023
+  ],
+  "pyqIds": [
+   "discrete-mathematics-combinatory__1.3.1",
+   "discrete-mathematics-combinatory__1.3.2",
+   "discrete-mathematics-combinatory__1.3.3",
+   "discrete-mathematics-combinatory__1.3.4",
+   "discrete-mathematics-combinatory__1.3.5",
+   "discrete-mathematics-combinatory__1.3.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 1990-2023 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "generating-functions",
+  "name": "Generating Functions",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1987,
+   2005,
+   2016,
+   2017,
+   2018,
+   2022
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2018,
+   2022
+  ],
+  "pyqIds": [
+   "discrete-mathematics-combinatory__1.4.1",
+   "discrete-mathematics-combinatory__1.4.2",
+   "discrete-mathematics-combinatory__1.4.3",
+   "discrete-mathematics-combinatory__1.4.4",
+   "discrete-mathematics-combinatory__1.4.5",
+   "discrete-mathematics-combinatory__1.4.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 4 recent (2016+) appearances, spans 1987-2022 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "summation",
+  "name": "Summation",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1989,
+   1994,
+   2008,
+   2015
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "discrete-mathematics-combinatory__1.8.1",
+   "discrete-mathematics-combinatory__1.8.2",
+   "discrete-mathematics-combinatory__1.8.3",
+   "discrete-mathematics-combinatory__1.8.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 1989-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "modular-arithmetic",
+  "name": "Modular Arithmetic",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2016,
+   2019
+  ],
+  "recentYearsCovered": [
+   2016,
+   2019
+  ],
+  "pyqIds": [
+   "discrete-mathematics-combinatory__1.5.1",
+   "discrete-mathematics-combinatory__1.5.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2016-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "pigeonhole-principle",
+  "name": "Pigeonhole Principle",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2000,
+   2005
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "discrete-mathematics-combinatory__1.6.1",
+   "discrete-mathematics-combinatory__1.6.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 2000-2005 — long-tail topic, revision-only unless it's a known prerequisite."
+ }
+]

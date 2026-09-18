@@ -1,0 +1,23 @@
+{
+ "overview": "1D/2D arrays, triangular matrix compact storage, linear-time algorithms.",
+ "whyItMatters": "13 PYQs extracted (1993-2021); P3 topic.",
+ "coreConcept": "1D/2D arrays, triangular matrix compact storage, linear-time algorithms.",
+ "hinglishExplanation": "Lower triangular n x n compact: index(i,j)=i(i-1)/2 + j.",
+ "formalDefinition": "1D/2D arrays, triangular matrix compact storage, linear-time algorithms.",
+ "importantProperties": [
+  "Row-major address = base + (i*cols+j)*w.",
+  "Lower triangular size n(n+1)/2.",
+  "Sorted array duplicates removal/search linear.",
+  "Two-pointer techniques."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Index base (0/1)."
+ ],
+ "standardTechniques": [
+  "1. Formula.",
+  "2. Base."
+ ],
+ "topicId": "programming-and-ds-data-structures:array"
+}

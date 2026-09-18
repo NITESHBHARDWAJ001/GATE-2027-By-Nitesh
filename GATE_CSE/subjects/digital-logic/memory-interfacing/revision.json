@@ -1,0 +1,18 @@
+{
+ "coreIdea": "RAM chips count, decoder tree, DRAM rows/columns.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Memory Chips and Decoders se related sawal.",
+   "thinkThis": "P3_MEMORY_INTERFACING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Width aur depth dono expand."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:memory-interfacing",
+ "revisionLevel": "short-form"
+}

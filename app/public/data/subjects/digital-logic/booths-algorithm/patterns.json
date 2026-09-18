@@ -1,0 +1,32 @@
+[
+ {
+  "patternId": "P3_BOOTHS_ALGORITHM_01",
+  "name": "Booth's Algorithm (PYQ type)",
+  "recognitionClueHinglish": "Booth's Algorithm se related sawal.",
+  "whatShouldComeToMind": [
+   "Signed multiplication; multiplier bits pairs se add/sub; worst case alternating 0101."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Recode.",
+   "2. Add/sub shifts."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.5.1",
+   "4.5.2",
+   "4.5.3",
+   "4.5.4",
+   "4.5.5",
+   "4.5.6",
+   "4.5.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Arithmetic right shift bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Minimum registers ek expression/tree ke liye (Sethi-Ullman); interference graph colouring.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Register Allocation se related sawal.",
+   "thinkThis": "P3_REGISTER_ALLOCATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Liveness overlap ignore."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:register-allocation",
+ "revisionLevel": "short-form"
+}

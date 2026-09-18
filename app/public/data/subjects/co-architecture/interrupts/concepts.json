@@ -1,0 +1,25 @@
+{
+ "overview": "Vectored/non-vectored interrupts, priority (daisy chain), polling vs interrupt overhead, ISR handling.",
+ "whyItMatters": "10 PYQs extracted (1987-2026); P2 topic.",
+ "coreConcept": "Interrupt device ko CPU ka dhyan khinchne deta hai; polling me CPU baar-baar puchta hai.",
+ "hinglishExplanation": "Vectored interrupt me device khud ISR address (vector) deta hai, isliye tez. Non-vectored me CPU ko address dhundna padta hai. Interrupt overhead vs byte transfer time compare karke % CPU time nikalte hain.",
+ "formalDefinition": "Interrupt device ko CPU ka dhyan khinchne deta hai; polling me CPU baar-baar puchta hai.",
+ "importantProperties": [
+  "Vectored: device vector supply karta hai; non-vectored: fixed/searched address.",
+  "Daisy chain priority assign karta hai.",
+  "ISR current instruction complete hone ke baad start hota hai.",
+  "CPU interrupt enable hone par hi process karta hai.",
+  "CPU time fraction = overhead / (byte time)."
+ ],
+ "formulas": {
+  "cpuFraction": "overhead / byte-transfer time"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Polling interval ko time se confuse."
+ ],
+ "standardTechniques": [
+  "Timeline banao."
+ ],
+ "topicId": "co-architecture:interrupts"
+}

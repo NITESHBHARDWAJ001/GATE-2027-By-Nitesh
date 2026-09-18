@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_INTERRUPTS_01",
+  "name": "Interrupts (OS View) (PYQ type)",
+  "recognitionClueHinglish": "Interrupts (OS View) se related sawal.",
+  "whatShouldComeToMind": [
+   "Interrupt cycle, handling steps, priority, OS abstraction vs hardware."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sequence likho.",
+   "2. Overhead time."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.14.1",
+   "5.14.2",
+   "5.14.3",
+   "5.14.4",
+   "5.14.5",
+   "5.14.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Interrupt ko ignore hota maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,23 @@
+{
+ "subjectId": "programming-and-ds-data-structures",
+ "name": "Programming and DS: Data Structures",
+ "sourceVolume": "volume2",
+ "sourcePdf": "filter1_volume2 (1).pdf",
+ "totalTopics": 17,
+ "totalPyqsExtracted": 238,
+ "priorityDistribution": {
+  "P1": 6,
+  "P2": 2,
+  "P3": 8,
+  "P4": 1
+ },
+ "p1Topics": [
+  "Binary Heap",
+  "Binary Search Tree",
+  "Binary Tree",
+  "Linked List",
+  "Queue",
+  "Stack"
+ ],
+ "processingStatus": "all_P1_topics_complete (6/6): stack, queue, linked-list, binary-tree, binary-search-tree, binary-heap"
+}

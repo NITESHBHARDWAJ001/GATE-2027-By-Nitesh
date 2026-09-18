@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.13.1",
+  "localId": "9.13.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "combinatory",
+  "topic": "Combinatory",
+  "year": 2010,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "65",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Given digits                                              how many distinct digit numbers greater than  can be formed? A.                                       B.                     C.               D.",
+  "tagsRaw": "gatecse-2010 quantitative-aptitude  combinatory  normal",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 268
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COMBINATORY_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.13.2",
+  "localId": "9.13.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "combinatory",
+  "topic": "Combinatory",
+  "year": 2016,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "09",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "In a   rectangle grid shown below, each cell is rectangle. How many rectangles can be observed in the grid? A.                                       B.                     C.               D.",
+  "tagsRaw": "gatecse-2016-set2 quantitative-aptitude  normal  combinatory",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 268
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COMBINATORY_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.13.3",
+  "localId": "9.13.3",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "combinatory",
+  "topic": "Combinatory",
+  "year": 2017,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "8 B",
+  "answerVerified": true,
+  "questionTextRaw": "Arun, Gulab, Neel and Shweta must choose one shirt each from a pile of four shirts coloured red, pink, blue and white respectively. Arun dislikes the colour red and Shweta dislikes the colour white. Gulab and Neel like all the colours. In how many different ways can they choose the shirts so that no one has a shirt with a colour he or she dislikes? A.                                       B.                     C.               D.",
+  "tagsRaw": "gatecse-2017-set1 combinatory      quantitative-aptitude",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 268
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COMBINATORY_01"
+ }
+]

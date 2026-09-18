@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_LITTLE_ENDIAN_BIG_ENDIAN_01",
+  "name": "Endianness (PYQ type)",
+  "recognitionClueHinglish": "Endianness se related sawal.",
+  "whatShouldComeToMind": [
+   "Little endian LSB pehle low address par; byte reversal se value."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Bytes likho.",
+   "2. Reverse."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.22.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Bit vs byte reversal."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

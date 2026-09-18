@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Time quantum, ready queue FIFO, preempted process queue ke end me.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Round Robin Scheduling se related sawal.",
+   "thinkThis": "P3_ROUND_ROBIN_SCHEDULING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Tie-break convention."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:round-robin-scheduling",
+ "revisionLevel": "short-form"
+}

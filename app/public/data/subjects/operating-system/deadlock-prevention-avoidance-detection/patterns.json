@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_DEADLOCK_PREVENTION_AVOI_01",
+  "name": "Deadlock Prevention/Avoidance/Detection (PYQ type)",
+  "recognitionClueHinglish": "Deadlock Prevention/Avoidance/Detection se related sawal.",
+  "whatShouldComeToMind": [
+   "Max instances, safe state, resource ordering, wait-die/wound-wait."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Worst case har ko k-1.",
+   "2. +1."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.5.1",
+   "5.5.2",
+   "5.5.3",
+   "5.5.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "+1 bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

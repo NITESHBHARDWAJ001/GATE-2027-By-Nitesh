@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_BANKERS_ALGORITHM_01",
+  "name": "Banker's Algorithm (PYQ type)",
+  "recognitionClueHinglish": "Banker's Algorithm se related sawal.",
+  "whatShouldComeToMind": [
+   "Safe state check: Need = Max - Allocation; work vector se sequence."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Need matrix.",
+   "2. Work.",
+   "3. Sequence."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.1.1",
+   "5.1.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Available update bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

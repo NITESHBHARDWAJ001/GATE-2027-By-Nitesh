@@ -1,0 +1,64 @@
+[
+ {
+  "patternId": "IPK_FRAG_01",
+  "name": "Fragmentation Counting / Offset Calculation",
+  "recognitionClueHinglish": "Datagram size, MTU; fragments/offset/size.",
+  "whatShouldComeToMind": [
+   "Fragment formulas."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Payload.",
+   "2. Fragments.",
+   "3. Offset."
+  ],
+  "formulasUsed": [
+   "fragPayload",
+   "offset"
+  ],
+  "pyqExamples": [
+   "2.17.4",
+   "2.17.6",
+   "2.17.7",
+   "2.17.9",
+   "2.17.3",
+   "2.17.10"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "8-byte rule."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "IPK_HEADER_02",
+  "name": "Header Fields, TTL, NAT",
+  "recognitionClueHinglish": "Kaunse fields router modify karta hai; TTL purpose.",
+  "whatShouldComeToMind": [
+   "Header facts."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Field.",
+   "2. Modify?"
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.17.1",
+   "2.17.2",
+   "2.17.5",
+   "2.17.8",
+   "2.17.11",
+   "2.17.12"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Checksum modified."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

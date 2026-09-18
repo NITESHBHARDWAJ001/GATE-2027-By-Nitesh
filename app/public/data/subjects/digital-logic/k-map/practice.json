@@ -1,0 +1,33 @@
+{
+ "topicId": "digital-logic:k-map",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-K-MAP-01",
+   "patternId": "KM_SOP_POS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "F = sum m(0,1,2,3) for 3 vars A,B,C (A is MSB). Minimal?",
+   "solutionApproach": "Cells with A=0.",
+   "answer": "A'"
+  },
+  {
+   "practiceId": "AI-K-MAP-X02",
+   "patternId": "KM_SOP_POS_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "F=Σm(0,2,4,6) over A,B,C (A MSB). Minimal SOP?",
+   "solutionApproach": "C=0 cells.",
+   "answer": "C'"
+  },
+  {
+   "practiceId": "AI-K-MAP-X03",
+   "patternId": "KM_SOP_POS_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "F=Σm(1,3,5,7). Minimal SOP?",
+   "solutionApproach": "C=1.",
+   "answer": "C"
+  }
+ ]
+}

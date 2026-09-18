@@ -1,0 +1,39 @@
+{
+  "topicId": "toc-regular-expression",
+  "overview": "Regular Expression, Finite Automata ka ALGEBRAIC twin hai — same power (regular languages), different notation. 4 skills: English/language-description ko REGEX me translate karna, RE↔FA conversion, do regexes EQUIVALENT hain ya nahi verify karna, aur membership/counting questions.",
+  "whyItMatters": "29 PYQs. RE identities (like algebra rules) ek baar clear ho jaayein to equivalence-checking questions bahut fast solve hote hain.",
+  "coreConcept": "Regex building blocks: concatenation (ab = a followed by b), union/alternation (a|b = a OR b), Kleene star (a* = zero or more a's), Kleene plus (a+ = one or more a's, = aa*). Har regex ek regular language describe karta hai, aur har regular language kisi regex se describe ho sakta hai (Kleene's theorem).",
+  "hinglishExplanation": "Regex ko ek 'pattern-building language' socho, jaise algebra ki tarah RULES follow karta hai. * (star) ka matlab 'is cheez ko 0 ya zyada baar repeat karo'. | (ya +) ka matlab 'in mein se koi ek choose karo'. Concatenation ka matlab 'ek ke baad doosra'. In teeno operations se KOI BHI regular language build ho sakti hai.",
+  "formalDefinition": "Regex over Σ: base cases ∅, ε, a (a∈Σ); inductive: if r,s are regexes, so are (r|s) [union], (rs) [concatenation], (r*) [Kleene star].",
+  "importantProperties": [
+    "KEY IDENTITIES (memorize): (r*)* = r* (star of star is just star). r*r* = r* (concatenation of two stars is just star). εr = rε = r (epsilon is concatenation identity). ∅r = r∅ = ∅ (empty-set kills concatenation). ∅* = ε (star of empty set is just epsilon, the empty string). ε* = ε.",
+    "(a|b)* = a*(ba*)* = (a*b*)* — MULTIPLE regex forms can represent the SAME language; don't assume syntactic difference means different languages.",
+    "r+ = rr* = r*r (one-or-more is NOT the same as r*, which allows ZERO occurrences too — r+ requires at least one).",
+    "(a|b)* generates ALL strings over {a,b} (Σ*) — the 'anything goes' pattern.",
+    "To find a regex for 'strings NOT containing substring X': often easier to think in terms of the COMPLEMENT structure — describe what CAN appear between/around avoiding X, rather than trying to negate the regex algebraically (regex has no native negation operator)."
+  ],
+  "formulas": {
+    "starIdempotent": "(r*)* = r*",
+    "starConcatSelf": "r*r* = r*",
+    "epsilonIdentity": "εr = rε = r",
+    "emptySetAnnihilator": "∅r = r∅ = ∅",
+    "starOfEmptySet": "∅* = ε",
+    "plusVsStar": "r+ = rr* = r*r  (requires ≥1 occurrence, unlike r* which allows 0)"
+  },
+  "keyPropertiesAndIdentities": [
+    "Regex has NO native complement/negation or intersection operator — to reason about 'NOT containing X' or 'L1 AND L2', usually need to go via the equivalent automaton (construct FA, complement/intersect there, convert back) rather than pure regex algebra.",
+    "For counting strings matching a regex up to length n: enumerate systematically by length, or convert to automaton and count paths (reuse the Finite Automata topic's matrix-power counting technique)."
+  ],
+  "commonPitfalls": [
+    "Confusing r+ (one or more) with r* (zero or more) — a very common off-by-one-occurrence trap.",
+    "Trying to directly 'negate' a regex algebraically — there's no native complement operator; must go through the automaton.",
+    "Assuming syntactically different regexes must represent different languages — many equivalent forms exist for the same language, always verify via example strings or automaton equivalence if unsure.",
+    "Missing that ∅* = ε (NOT ∅) — the star of the empty language is the language containing just the empty string (zero repetitions of nothing is still a valid 'zero occurrences')."
+  ],
+  "standardTechniques": [
+    "For translating a language description to regex: break the description into independent SUB-PATTERNS first, then combine with concatenation/union/star as appropriate.",
+    "For RE↔FA conversion: use Thompson's construction (regex→NFA, piece by piece) or state elimination method (FA→regex, removing states one at a time while updating edge labels with regex expressions).",
+    "For equivalence-checking between two regexes: test several concrete strings against both (does each string match both regexes identically?), or convert both to minimal DFAs and check if the DFAs are structurally identical.",
+    "For membership/counting questions: expand small cases explicitly, or convert to automaton and use direct enumeration/matrix-power counting for larger cases."
+  ]
+}

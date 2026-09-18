@@ -1,0 +1,20 @@
+{
+ "overview": "Recursion depth = stack space.",
+ "whyItMatters": "1 PYQs extracted (2005-2005); P4 topic.",
+ "coreConcept": "Recursion depth = stack space.",
+ "hinglishExplanation": "Recursive call chain ki depth O(n) space.",
+ "formalDefinition": "Recursion depth = stack space.",
+ "importantProperties": [
+  "Space = max recursion depth + local vars.",
+  "Tail recursion optimization compiler par depend."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Time aur space mix."
+ ],
+ "standardTechniques": [
+  "1. Depth."
+ ],
+ "topicId": "algorithms:space-complexity"
+}

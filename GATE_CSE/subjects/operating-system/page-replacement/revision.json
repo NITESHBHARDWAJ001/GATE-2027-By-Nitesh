@@ -1,0 +1,34 @@
+{
+ "topicId": "os-page-replacement",
+ "revisionLevel": "short-form",
+ "coreIdea": "Fault pe victim choose karo: FIFO=oldest loaded, LRU=least recently used, OPT=farthest future use. Belady's anomaly only FIFO.",
+ "mustRememberFormulas": [
+  "faults = number of misses",
+  "OPT = fewest faults possible",
+  "LRU/OPT are stack algorithms (no Belady)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "reference string + frames, count faults",
+   "thinkThis": "PR_FAULT_SIM_01"
+  },
+  {
+   "seeThis": "Belady's anomaly / frames badhane ka effect",
+   "thinkThis": "PR_BELADY_PROPERTIES_02"
+  },
+  {
+   "seeThis": "dirty bit / thrashing / locality",
+   "thinkThis": "PR_CONCEPTS_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "FIFO hit par order nahi badalta",
+  "LRU hit par recency update",
+  "Address se page number nikaalo (address/page size)",
+  "Thrashing = excess page I/O"
+ ],
+ "highYieldPyqLessons": [
+  "Simulation (14/31) mechanical hai: table banao, shortcuts mat lo.",
+  "Belady's anomaly ka answer hamesha FIFO."
+ ]
+}

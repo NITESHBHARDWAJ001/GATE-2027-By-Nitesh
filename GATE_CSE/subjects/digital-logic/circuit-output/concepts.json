@@ -1,0 +1,33 @@
+{
+ "overview": "Diye gaye combinational aur sequential circuit ka output/function/state sequence nikaalna.",
+ "whyItMatters": "40 PYQs extracted (1987-2025); P2 topic.",
+ "coreConcept": "Combinational: gate-by-gate Boolean expression; sequential: flip-flop next-state equations se state trace.",
+ "hinglishExplanation": "Combinational me har gate ka output likhkar simplify karo ya truth table banao. Sequential me pehle flip-flop ke input equations, phir initial state se clock-by-clock next state. Fault detection me faulty aur fault-free output alag karne wala input dhundo.",
+ "formalDefinition": "Combinational: gate-by-gate Boolean expression; sequential: flip-flop next-state equations se state trace.",
+ "importantProperties": [
+  "Combinational: output = function(inputs), koi memory nahi.",
+  "D FF: Q+ = D; T FF: Q+ = Q xor T; JK: Q+ = JQ' + K'Q.",
+  "Synchronous clock par sab FF ek saath update.",
+  "Shift register/counter: state sequence trace se pehchano.",
+  "Stuck-at fault detect karne ke liye input jo fault-free aur faulty output me farak de.",
+  "Setup/hold time timing diagrams me.",
+  "Steady state wale sawal me feedback equation solve."
+ ],
+ "formulas": {
+  "JK": "Q+ = JQ' + K'Q",
+  "T": "Q+ = Q xor T",
+  "D": "Q+ = D"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Old state se next state nikalne ki jagah naye se mix.",
+  "Asynchronous vs synchronous update confuse.",
+  "Diagram ki labelling padhne me galti."
+ ],
+ "standardTechniques": [
+  "Har gate ka output label karo.",
+  "Sequential: table (present state, input, next state).",
+  "Combinational: truth table."
+ ],
+ "topicId": "digital-logic:circuit-output"
+}

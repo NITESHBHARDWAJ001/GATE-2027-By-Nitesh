@@ -1,0 +1,22 @@
+{
+ "topicId": "algorithms:huffman-code",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Huffman Coding",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 1989-2021.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  1989,
+  2006,
+  2007,
+  2017,
+  2021
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Exponent laws.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Powers and Exponents se related sawal.",
+   "thinkThis": "P3_POWERS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Negative exponent."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:powers",
+ "revisionLevel": "short-form"
+}

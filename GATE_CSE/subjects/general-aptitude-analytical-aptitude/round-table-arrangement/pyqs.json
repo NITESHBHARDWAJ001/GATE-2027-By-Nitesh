@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.12.1",
+  "localId": "8.12.1",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "round-table-arrangement",
+  "topic": "Round Table Arrangement",
+  "year": 2017,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "A                                   C",
+  "answerVerified": true,
+  "questionTextRaw": "Six people are seated around a circular table. There are at least two men and two women. There are at least three right-handed persons. Every woman has a left-handed person to her immediate right. None of the women are right-handed. The number of women at the table is A.                                                                               B. C.                                                                               D. Cannot be determined",
+  "tagsRaw": "gatecse-2017-set1 analytical-aptitude round-table-arrangement",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 246
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ROUND_TABLE_ARRANGEMENT_01"
+ }
+]

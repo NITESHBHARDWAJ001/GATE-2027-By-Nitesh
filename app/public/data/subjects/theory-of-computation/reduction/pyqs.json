@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "theory-of-computation__6.17.1",
+  "localId": "6.17.1",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "reduction",
+  "topic": "Reduction",
+  "year": 2005,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "45",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider three decision problems ,                                   and . It is known that is decidable and is undecidable. Which one of the following is TRUE? A. is decidable if is reducible to B. is undecidable if is reducible to C. is undecidable if is reducible to D. is decidable if is reducible to 's complement",
+  "tagsRaw": "gatecse-2005 theory-of-computation  decidability        normal  reduction",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 384
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_REDUCTION_01"
+ },
+ {
+  "pyqId": "theory-of-computation__6.17.2",
+  "localId": "6.17.2",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "reduction",
+  "topic": "Reduction",
+  "year": 2016,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "44",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Let be a recursive language and be a recursively enumerable but not recursive language. Let and be two languages such that reduces to , and reduces to (reduction means the standard many- one reduction). Which one of the following statements is TRUE? A. can be recursively enumerable and is recursive. B. can be recursive and is recursively enumerable. C. is not recursively enumerable and is recursive. D. is not recursively enumerable and is not recursive.",
+  "tagsRaw": "gatecse-2016-set1 theory-of-computation easy recursive-and-recursively-enumerable-languages reduction",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 384
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_REDUCTION_01"
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "topicId": "digital-logic:prime-implicants",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Prime Implicants",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 1997-2004.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  1997,
+  2004
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,24 @@
+{
+ "overview": "Regular/CFL/DCFL/recursive/RE languages ki closure under union, intersection, complement, concatenation, Kleene star.",
+ "whyItMatters": "10 PYQs extracted (1989-2026); P2 topic.",
+ "coreConcept": "Closure table yaad rakho: Regular sab me closed; CFL union/concat/star me closed, intersection/complement me nahi.",
+ "hinglishExplanation": "CFL intersection regular language ke saath CFL hi rehta hai. DCFL complement me closed. RE complement me closed nahi. Recursive complement me closed.",
+ "formalDefinition": "Closure table yaad rakho: Regular sab me closed; CFL union/concat/star me closed, intersection/complement me nahi.",
+ "importantProperties": [
+  "Regular: closed under all standard operations.",
+  "CFL: union, concatenation, Kleene star, reversal; NOT intersection, complement.",
+  "CFL n Regular = CFL.",
+  "DCFL: complement closed; union/intersection not.",
+  "Recursive: union, intersection, complement.",
+  "RE: union, intersection, concatenation, star; not complement."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "CFL intersection closed maan lena."
+ ],
+ "standardTechniques": [
+  "Table yaad karke apply."
+ ],
+ "topicId": "theory-of-computation:closure-property"
+}

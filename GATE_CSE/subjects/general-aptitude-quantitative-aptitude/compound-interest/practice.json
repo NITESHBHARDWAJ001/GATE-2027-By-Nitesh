@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:compound-interest",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-COMPOU-01",
+   "patternId": "P3_COMPOUND_INTEREST_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "P=100, 10%, 2 yrs CI?",
+   "solutionApproach": "121-100.",
+   "answer": "21"
+  }
+ ]
+}

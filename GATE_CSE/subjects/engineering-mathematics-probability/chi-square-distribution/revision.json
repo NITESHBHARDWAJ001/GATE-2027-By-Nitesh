@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Sum of squares of k independent N(0,1): mean k, variance 2k.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Chi-Square Distribution se related sawal.",
+   "thinkThis": "P3_CHI_SQUARE_DISTRIBUTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Variance 2k bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-probability:chi-square-distribution",
+ "revisionLevel": "short-form"
+}

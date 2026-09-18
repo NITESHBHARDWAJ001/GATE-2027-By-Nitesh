@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.7.1",
+  "localId": "8.7.1",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "logical-inference",
+  "topic": "Logical Inference",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Based only on the conversation below, identify the logically correct inference: \"Even if I had known that you were in the hospital, I would not have gone there to see you\", Ramya told Josephine. A. Ramya knew that Josephine was in the hospital. B. Ramya did not know that Josephine was in the hospital. C. Ramya and Josephine were once close friends; but now, they are not. D. Josephine was in the hospital due to an injury to her leg.",
+  "tagsRaw": "gatecse2025-set2 analytical-aptitude  logical-inference  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 240
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LOGICAL_INFERENCE_01"
+ }
+]

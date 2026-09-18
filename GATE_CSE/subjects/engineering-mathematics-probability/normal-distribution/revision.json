@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Mean/variance, standardization Z=(X-mu)/sigma, transformations like max(X,0).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Normal Distribution se related sawal.",
+   "thinkThis": "P3_NORMAL_DISTRIBUTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Variance vs SD."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-probability:normal-distribution",
+ "revisionLevel": "short-form"
+}

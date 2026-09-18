@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.13.1",
+  "localId": "8.13.1",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "seating-arrangement",
+  "topic": "Seating Arrangement",
+  "year": 2017,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE_OR_UNVERIFIED",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": null,
+  "answerVerified": false,
+  "questionTextRaw": "Rahul, Murali, Srinivas and Arul are seated around a square table. Rahul is sitting to the left of Murali. Srinivas is sitting to the right of Arul. Which of the following pairs are seated opposite each other? A. Rahul and Murali                    B. Srinivas and Arul                        C. Srinvas and Murali        D. Srinivas and Rahul",
+  "tagsRaw": "gatecse-2017-set1 analytical-aptitude  logical-reasoning  seating-arrangement",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 246
+  },
+  "formulaExtractionNote": null,
+  "patternId": "P3_SEATING_ARRANGEMENT_01"
+ }
+]

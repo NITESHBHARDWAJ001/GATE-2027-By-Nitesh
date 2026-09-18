@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-verbal-aptitude__11.11.1",
+  "localId": "11.11.1",
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "subject": "General Aptitude: Verbal Aptitude",
+  "topicSlug": "prepositions",
+  "topic": "Prepositions",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "'My friend and I parted __ the door__ the cabin that I had rented __ the night.' Choose the option with the correct sequence of words to fill the blanks. A. at; of; for                B. for; at; of                              C. of; for; in              D. in; of; for",
+  "tagsRaw": "gateda-2026 verbal-aptitude  fill-in-the-blanks  two-marks  prepositions",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 361
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PREPOSITIONS_01"
+ }
+]

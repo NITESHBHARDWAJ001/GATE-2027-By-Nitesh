@@ -1,0 +1,24 @@
+{
+ "topicId": "computer-networks:network-protocols",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NETWOR-01",
+   "patternId": "NP_TRANSPORT_USAGE_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "DNS normally uses TCP or UDP?",
+   "solutionApproach": "UDP.",
+   "answer": "UDP"
+  },
+  {
+   "practiceId": "AI-NETWORK--X02",
+   "patternId": "NP_TRANSPORT_USAGE_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "ARP reply is unicast or broadcast?",
+   "solutionApproach": "Unicast.",
+   "answer": "Unicast"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "topicId": "prog-c-pointers",
+  "overview": "Pointers topic 4 skills test karta hai: (1) pointer arithmetic se address/value dry-run karna, (2) dangling/unsafe pointer identify karna, (3) complex pointer declarations padhna, (4) function parameters ke through pass-by-reference samajhna.",
+  "whyItMatters": "15 PYQs, aur Linked List + Array (Data Structures) dono isi pointer-comfort par depend karte hain. 2022 ke baad har saal poocha ja raha hai.",
+  "coreConcept": "Pointer ek variable hai jo kisi DUSRE variable ka MEMORY ADDRESS store karta hai. & = 'address of' (address nikalo), * = 'value at address' (dereference, wahan ki value nikalo). Array naam khud ek pointer ki tarah behave karta hai (a[i] aur *(a+i) same cheez hain).",
+  "hinglishExplanation": "Pointer ko ek 'ghar ka address likha hua chit' socho — khud us cheez ko nahi rakhta, sirf uska ADDRESS rakhta hai. *p karna matlab 'us address pe jaake dekho kya rakha hai' (jaise chit lekar us ghar jaana). p+1 karna matlab 'agle ghar ka address' — lekin 'agla ghar' kitna door hai ye depend karta hai kis TYPE ka pointer hai (int* toh 4 bytes aage, double* toh 8 bytes aage — pointer arithmetic hamesha TYPE-SIZE ke multiples me hoti hai, raw bytes me nahi).",
+  "formalDefinition": "A pointer variable p of type T* holds the memory address of a T-typed object. p+k points k*sizeof(T) bytes ahead of p (not k raw bytes).",
+  "importantProperties": [
+    "Array name 'a' decays to a pointer to its first element: a[i] ≡ *(a+i), and (&a[0]+i) ≡ (a+i).",
+    "Pointer subtraction (q-p) gives the number of ELEMENTS between them, not bytes — automatically divided by sizeof(type).",
+    "int *A[10] declares an ARRAY of 10 int-pointers; int (*A)[10] declares a POINTER to an array of 10 ints — these are VERY different, parentheses placement matters.",
+    "Returning the address of a LOCAL variable from a function is undefined behavior (the local variable's storage is gone once the function returns) — the #1 dangling-pointer trap.",
+    "A pointer to a pointer (int **pp) is used when a function needs to modify what a POINTER points to (not just the value it points to) — common in linked-list insertion functions.",
+    "Passing a pointer to a function lets the function modify the CALLER's variable directly (pass-by-reference emulation in C)."
+  ],
+  "formulas": {
+    "pointerArithmeticStep": "p+k points to address(p) + k*sizeof(*p)",
+    "pointerSubtraction": "q-p = (address(q)-address(p)) / sizeof(*p)  — gives element count, not byte count"
+  },
+  "keyPropertiesAndIdentities": [
+    "*p = *p - *q; *q = *p + *q; *p = *q - *p; — this XOR-swap-style arithmetic sequence correctly swaps two int values WITHOUT a temp variable (a classic GATE code snippet to recognize).",
+    "Uninitialized pointer dereference (int *p; *p = 10;) is undefined behavior / likely segfault — the pointer doesn't point anywhere valid yet."
+  ],
+  "commonPitfalls": [
+    "Treating pointer arithmetic as raw byte arithmetic instead of type-size-scaled arithmetic.",
+    "Confusing 'array of pointers' (T *A[n]) with 'pointer to array' (T (*A)[n]) — read declarations right-to-left around the parentheses.",
+    "Returning the address of a local (stack) variable — undefined behavior, a classic dangling pointer trap.",
+    "Forgetting that passing a pointer lets a function modify the CALLER's data — under-using or over-assuming this in trace questions."
+  ],
+  "standardTechniques": [
+    "For pointer arithmetic tracing: draw an actual memory diagram with addresses and values side by side — don't try to track it purely symbolically.",
+    "For complex declarations: read from the variable name OUTWARD, respecting parentheses (e.g., 'int (*f)(int*)' — f is a pointer TO a function taking int* and returning int).",
+    "For dangling-pointer identification: ask 'does the memory this pointer refers to still exist when it's used?' — local stack variables die at function return; malloc'd/heap memory persists until freed."
+  ]
+}

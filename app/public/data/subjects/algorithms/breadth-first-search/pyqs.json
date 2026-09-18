@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "algorithms__1.9.1",
+  "localId": "1.9.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "breadth-first-search",
+  "topic": "Breadth First Search",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "33",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Let          be an undirected and unweighted graph with vertices. Let                             denote the number of edges in a shortest path between vertices and in . Let the maximum value of                                      such that         , be . Let be any breadth-first-search tree of . Which ONE of the given options is CORRECT for every such graph ? A. The height of is exactly .                                                    B. The height of is exactly . C. The height of is at least .                                                   D. The height of is at least .",
+  "tagsRaw": "gatecse2025-set1 algorithms breadth-first-search shortest-path two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 35
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BREADTH_FIRST_SEARCH_01"
+ },
+ {
+  "pyqId": "algorithms__1.9.2",
+  "localId": "1.9.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "breadth-first-search",
+  "topic": "Breadth First Search",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "30",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a directed graph                                    , where is the finite set of vertices and is the set of directed edges between the vertices.                       may contain cycles but there is no self-loop. Further, may not be strongly connected. Let be the graph obtained by reversing the directions of all the edges in without changing the set of vertices. Assume that Breadth First Search (BFS) or Depth First Search (DFS) from any given vertex of a graph visits only the reachable vertices from in that graph. Which of the following statements must always be true, regardless of the structure of A. If is a reachable vertex in the BFS of from , then is also a reachable vertex in the DFS of from . B. In , the BFS traversal from will visit exactly the same set of vertices as the DFS from in . C. The order of vertices visited in the BFS of                                   from is the reverse of the order of vertices visited in the DFS of from . D. If is a reachable vertex in the DFS of from , then is also a reachable vertex in the BFS of from .",
+  "tagsRaw": "gateda-2026 algorithms graph-algorithms breadth-first-search depth-first-search two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 35
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BREADTH_FIRST_SEARCH_01"
+ },
+ {
+  "pyqId": "algorithms__1.9.3",
+  "localId": "1.9.3",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "breadth-first-search",
+  "topic": "Breadth First Search",
+  "year": 2024,
+  "examStream": "DS&AI",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "34",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a state space where the start state is number . The successor function for the state numbered returns two states numbered                       and                 . Assume that the states in the unexpanded state list are expanded in the ascending order of numbers and the previously expanded states are not added to the unexpanded state list. Which ONE of the following statements about breadth-first search (BFS) and depth-first search (DFS) is true, when reaching the goal state number ? A. BFS expands more states than DFS. B. DFS expands more states than BFS. C. Both BFS and DFS expand equal number of states. D. Both BFS and DFS do not reach the goal state number .",
+  "tagsRaw": "gate-ds-ai-2024 algorithms  breadth-first-search  depth-first-search  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 35
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BREADTH_FIRST_SEARCH_01"
+ }
+]

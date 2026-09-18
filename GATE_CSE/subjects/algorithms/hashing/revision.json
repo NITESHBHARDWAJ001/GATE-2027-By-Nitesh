@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Average O(1), worst O(n) (sab keys same bucket me).",
+ "mustRememberFormulas": [
+  "alpha: n/m"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Keys insert karke final table ya chain length.",
+   "thinkThis": "HSH_SIMULATE_01"
+  },
+  {
+   "seeThis": "Worst case, malicious keys, multilevel hashing.",
+   "thinkThis": "HSH_ANALYSIS_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Average vs worst.",
+  "Wrap-around."
+ ],
+ "highYieldPyqLessons": [
+  "Both simulation and worst-case analysis recur."
+ ],
+ "topicId": "algorithms:hashing",
+ "revisionLevel": "short-form"
+}

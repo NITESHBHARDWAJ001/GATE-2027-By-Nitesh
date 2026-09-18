@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.6.1",
+  "localId": "9.6.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "arithmetic-series",
+  "topic": "Arithmetic Series",
+  "year": 2013,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "58",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "What will be the maximum sum of                                        ? A.                                       B.                               C.                  D.",
+  "tagsRaw": "gatecse-2013 quantitative-aptitude easy arithmetic-series",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 267
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_ARITHMETIC_SERIES_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.6.2",
+  "localId": "9.6.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "arithmetic-series",
+  "topic": "Arithmetic Series",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "If the list of letters , , , , is an arithmetic sequence, which of the following are also in arithmetic sequence? I. II. III. A. I only                                B. I and II                      C. II and III       D. I and III is",
+  "tagsRaw": "gatecse-2015-set2 quantitative-aptitude  normal  arithmetic-series",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 267
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_ARITHMETIC_SERIES_01"
+ }
+]

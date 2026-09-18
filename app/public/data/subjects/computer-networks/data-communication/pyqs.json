@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "computer-networks__2.10.1",
+  "localId": "2.10.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "data-communication",
+  "topic": "Data Communication",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "55",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "30:30",
+  "answerVerified": true,
+  "questionTextRaw": "It is necessary to design a link-layer protocol between two hosts that are directly connected over a lossless link of length                 kilometers. Assume that the link bandwidth is bits per second and that the propagation delay in the link is nanoseconds per meter. Every transmitted data byte is assigned a unique sequence number. Let be the minimum number of bits needed for the sequence number field in the protocol header such that i. the sequence numbers do not wrap around before seconds, and ii. the maximum utilization of the link is achieved. The value of is                      . (answer in integer)",
+  "tagsRaw": "gatecse-2026-set2 computer-networks  data-communication    numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 111
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DATA_COMMUNICATION_01"
+ }
+]

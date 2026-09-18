@@ -1,0 +1,19 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:cartesian-coordinates",
+ "subjectId": "general-aptitude-quantitative-aptitude",
+ "subject": "General Aptitude - Quantitative Aptitude",
+ "name": "Cartesian Coordinates",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "2 PYQs extracted, 2020-2022.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2020,
+  2022
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

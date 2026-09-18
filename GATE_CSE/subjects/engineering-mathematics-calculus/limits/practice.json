@@ -1,0 +1,42 @@
+{
+ "topicId": "em-calc-limits",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LIM-01",
+   "patternId": "LIM_INDETERMINATE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "lim x->0 (sin 3x)/x?",
+   "solutionApproach": "3 * (sin 3x)/(3x) -> 3.",
+   "answer": "3"
+  },
+  {
+   "practiceId": "AI-LIM-02",
+   "patternId": "LIM_INDETERMINATE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "lim x->inf (1 + 2/x)^x?",
+   "solutionApproach": "e^2.",
+   "answer": "e^2"
+  },
+  {
+   "practiceId": "AI-LIM-03",
+   "patternId": "LIM_EXISTENCE_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "lim x->0 x sin(1/x)?",
+   "solutionApproach": "Bounded times vanishing: 0.",
+   "answer": "0"
+  },
+  {
+   "practiceId": "AI-LIM-04",
+   "patternId": "LIM_INDETERMINATE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "lim x->0 (e^x - 1)/x?",
+   "solutionApproach": "Standard limit.",
+   "answer": "1"
+  }
+ ]
+}

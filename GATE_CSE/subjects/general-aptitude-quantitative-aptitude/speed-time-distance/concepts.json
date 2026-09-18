@@ -1,0 +1,20 @@
+{
+ "overview": "d = s x t; average speed = total d / total t.",
+ "whyItMatters": "2 PYQs extracted (2013-2019); P3 topic.",
+ "coreConcept": "d = s x t; average speed = total d / total t.",
+ "hinglishExplanation": "Units consistent.",
+ "formalDefinition": "d = s x t; average speed = total d / total t.",
+ "importantProperties": [
+  "Relative speed.",
+  "Average speed harmonic for equal distances."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Average of speeds."
+ ],
+ "standardTechniques": [
+  "1. Total d, t."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:speed-time-distance"
+}

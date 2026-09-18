@@ -1,0 +1,21 @@
+{
+ "overview": "Layers: physical, data link, network, transport, session, presentation, application.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Layers: physical, data link, network, transport, session, presentation, application.",
+ "hinglishExplanation": "Har layer ka function fixed.",
+ "formalDefinition": "Layers: physical, data link, network, transport, session, presentation, application.",
+ "importantProperties": [
+  "Physical bits; DL frames; network packets; transport segments.",
+  "Presentation encryption/compression.",
+  "Session dialog control."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Layers ka order."
+ ],
+ "standardTechniques": [
+  "1. Function to layer."
+ ],
+ "topicId": "computer-networks:osi-model"
+}

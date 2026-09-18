@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "algorithms__1.27.1",
+  "localId": "1.27.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "matrix-chain-ordering",
+  "topic": "Matrix Chain Ordering",
+  "year": 2011,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "38",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Four Matrices                              and of dimensions                                         and        respectively can be multiplied in several ways with different number of total scalar multiplications. For example when multiplied as                                                 , the total number of scalar multiplications is                         . When multiplied as , the total number of scalar multiplications is                      . If                                                 and                    , then the minimum number of scalar multiplications needed is A.                                     B.                                         C.                       D.",
+  "tagsRaw": "gatecse-2011 algorithms  dynamic-programming     normal  matrix-chain-ordering",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 70
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_MATRIX_CHAIN_ORDERING_01"
+ },
+ {
+  "pyqId": "algorithms__1.27.2",
+  "localId": "1.27.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "matrix-chain-ordering",
+  "topic": "Matrix Chain Ordering",
+  "year": 2016,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "38",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "1500",
+  "answerVerified": true,
+  "questionTextRaw": "Let                      and be four matrices of dimensions                                                and       , respectively. using the basic The minimum number of scalar multiplications required to find the product matrix multiplication method is _________.",
+  "tagsRaw": "gatecse-2016-set2 dynamic-programming  algorithms  matrix-chain-ordering  normal  numerical-answers",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 70
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_MATRIX_CHAIN_ORDERING_01"
+ },
+ {
+  "pyqId": "algorithms__1.27.3",
+  "localId": "1.27.3",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "matrix-chain-ordering",
+  "topic": "Matrix Chain Ordering",
+  "year": 2018,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "31",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Assume that multiplying a matrix of dimension                                            with another matrix of dimension         requires scalar multiplications. Computing the product of matrices                                                 can be done by parenthesizing in different ways. Define                                        as an explicitly computed pair for a given paranthesization if they are directly multiplied. For example, in the matrix multiplication chain                                                               using parenthesization                                                                and          are only explicitly computed pairs. Consider a matrix multiplication chain                                            , where matrices              and are of dimensions and                    , respectively. In the parenthesization of                        that minimizes the total number of scalar multiplications, the explicitly computed pairs is/are A.    and                     only                                                       B.  only C.    only                                                                               D.  and     only",
+  "tagsRaw": "gatecse-2018 algorithms dynamic-programming two-marks matrix-chain-ordering",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 70
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_MATRIX_CHAIN_ORDERING_01"
+ }
+]

@@ -1,0 +1,22 @@
+{
+ "overview": "Counter/sequence kab wrap: 2^n / rate.",
+ "whyItMatters": "2 PYQs extracted (2014-2018); P3 topic.",
+ "coreConcept": "Counter/sequence kab wrap: 2^n / rate.",
+ "hinglishExplanation": "Bits n, rate R: time = 2^n/R.",
+ "formalDefinition": "Counter/sequence kab wrap: 2^n / rate.",
+ "importantProperties": [
+  "Wrap time = 2^n / rate.",
+  "Bytes/sec unit karo.",
+  "MSL se compare."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Bits vs bytes."
+ ],
+ "standardTechniques": [
+  "1. Rate.",
+  "2. 2^n / rate."
+ ],
+ "topicId": "computer-networks:wrap-around-time"
+}

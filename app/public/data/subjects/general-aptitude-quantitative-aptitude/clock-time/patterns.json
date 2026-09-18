@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_CLOCK_TIME_01",
+  "name": "Clock Problems (PYQ type)",
+  "recognitionClueHinglish": "Clock Problems se related sawal.",
+  "whatShouldComeToMind": [
+   "Minute hand 6 deg/min, hour hand 0.5 deg/min."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.12.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Reflex angle."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

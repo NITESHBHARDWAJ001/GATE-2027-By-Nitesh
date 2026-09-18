@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:static-single-assignment",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-STATIC-01",
+   "patternId": "P3_STATIC_SINGLE_ASSIGNMENT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "x=a; x=x+1; y=x me SSA versions of x?",
+   "solutionApproach": "x1,x2.",
+   "answer": "2"
+  }
+ ]
+}

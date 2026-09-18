@@ -1,0 +1,36 @@
+{
+  "topicId": "dl-digital-counter",
+  "overview": "Digital Counter 4 skills test karta hai: minimum flip-flops chahiye ek mod-N counter ke liye (design), given circuit ka STATE SEQUENCE trace karna, timing/max-frequency analysis (propagation delay se), aur counter equivalence/conceptual combos.",
+  "whyItMatters": "17 PYQs. Flip-flop-count formula ek fixed, mechanical calculation hai — high accuracy achievable.",
+  "coreConcept": "Counter = flip-flops ka collection jo ek fixed SEQUENCE of states cycle karta hai (clock pulse pe). Mod-N counter N distinct states cycle karta hai, isliye minimum flip-flops = ⌈log2(N)⌉ (N states ko represent karne ke liye). Special counters: Johnson counter (n flip-flops se 2n states, shift register with inverted feedback), Ring counter.",
+  "hinglishExplanation": "Counter ko ek 'clock ke saath ginti karne wala circuit' socho — har clock pulse pe agli state me jaata hai. Mod-N counter matlab N tak gin ke wapis 0 pe aa jaata hai (jaise ghadi ki seconds hand 0-59 gin ke wapis 0). Flip-flops ki minimum count nikalne ke liye socho 'kitne DISTINCT states store karne hain' — n flip-flops se 2^n states store ho sakti hain, isliye N states ke liye ⌈log2(N)⌉ flip-flops chahiye.",
+  "formalDefinition": "Mod-N counter cycles through N distinct states. Minimum flip-flops = ⌈log2(N)⌉. Max operating frequency = 1/(propagation delay of critical path + setup time).",
+  "importantProperties": [
+    "Minimum flip-flops for mod-N counter = ⌈log2(N)⌉ (need enough bit-combinations to represent N distinct states).",
+    "Johnson counter (twisted-ring counter) with n flip-flops produces a UNIQUE cycle of 2n states (not 2^n) — each state formed by shifting and complementing the fed-back bit.",
+    "Ring counter with n flip-flops produces exactly n states (one bit 'walks' around the ring).",
+    "Max clock frequency = 1 / (critical path propagation delay + flip-flop setup time) — identify the LONGEST combinational path between clocked elements as the critical path.",
+    "'Not more than one flip-flop changes between consecutive states' describes a GRAY CODE counter — a specific design requirement distinct from standard binary counting."
+  ],
+  "formulas": {
+    "minFlipFlopsModN": "⌈log2(N)⌉ for a mod-N counter",
+    "johnsonCounterStates": "n flip-flops → 2n distinct states (Johnson/twisted-ring counter)",
+    "ringCounterStates": "n flip-flops → n distinct states (ring counter)",
+    "maxClockFrequency": "1 / (critical path propagation delay + setup time)"
+  },
+  "keyPropertiesAndIdentities": [
+    "A mod-N counter followed by (or combined with) a decoder of matching bit-width can produce specific PATTERN-recognition circuits (like recognizing every Nth pulse) — reason about the combined behavior by tracing the counter's cycle through the decoder's output mapping.",
+    "Gray code counters (only 1 bit changes per transition) are used specifically to avoid glitches/hazards in asynchronous read circuits — a design-motivation fact worth knowing."
+  ],
+  "commonPitfalls": [
+    "Using ⌈log2(N)⌉ for a Johnson/ring counter's flip-flop count — those specialized counters have DIFFERENT state-count formulas (2n and n respectively, not log-based).",
+    "Miscounting the critical path for max-frequency questions — must trace the LONGEST delay chain between clock edges, including any combinational logic (AND gates etc.) between flip-flop stages, not just the flip-flop delay alone.",
+    "Confusing mod-N counter design (binary counting 0 to N-1) with a specific NON-binary counting sequence (like Gray code or an arbitrary custom sequence) — the flip-flop count formula still applies (⌈log2(N)⌉ for N states), but next-state LOGIC design differs significantly."
+  ],
+  "standardTechniques": [
+    "For flip-flop-count questions: identify N (the modulus/number of distinct states) and apply ⌈log2(N)⌉ directly, UNLESS it's specifically a Johnson or ring counter (use their special formulas instead).",
+    "For state-sequence-trace questions: build the next-state table from the given circuit's logic, trace step by step from the initial state.",
+    "For max-frequency questions: identify the critical (longest) combinational path between clocked stages, sum its propagation delays plus setup time, invert for max frequency.",
+    "For counter-equivalence questions: trace the counter's full cycle and see how it interacts with any attached decoder/combinational logic, to determine the OVERALL equivalent behavior."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Tokens count, keyword recognition, symbol table.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Lexical Analysis se related sawal.",
+   "thinkThis": "P3_LEXICAL_ANALYSIS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "String ke andar ke chars alag tokens ginna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:lexical-analysis",
+ "revisionLevel": "short-form"
+}

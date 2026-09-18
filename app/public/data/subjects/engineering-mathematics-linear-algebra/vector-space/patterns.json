@@ -1,0 +1,55 @@
+[
+ {
+  "patternId": "VS_DIMENSION_01",
+  "name": "Dimension / Basis / Subspace Intersection",
+  "recognitionClueHinglish": "Subspaces ke dimension se min intersection.",
+  "whatShouldComeToMind": [
+   "Dimension formula."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Formula."
+  ],
+  "formulasUsed": [
+   "dimSum"
+  ],
+  "pyqExamples": [
+   "6.14.2",
+   "6.14.3",
+   "6.14.5",
+   "6.14.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Max dimension bound."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "VS_GEOMETRY_02",
+  "name": "Perpendicular Vectors / Angles / Projection",
+  "recognitionClueHinglish": "Perpendicular unit vector, angle bisector, projection statements.",
+  "whatShouldComeToMind": [
+   "Dot/cross product."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Dot=0."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.14.1",
+   "6.14.4",
+   "6.14.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Normalize."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

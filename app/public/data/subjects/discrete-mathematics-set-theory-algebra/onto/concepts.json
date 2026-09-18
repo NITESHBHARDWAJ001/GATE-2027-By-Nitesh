@@ -1,0 +1,21 @@
+{
+ "overview": "gof onto => g onto; gof one-one => f one-one.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "gof onto => g onto; gof one-one => f one-one.",
+ "hinglishExplanation": "Composition properties ka partial converse.",
+ "formalDefinition": "gof onto => g onto; gof one-one => f one-one.",
+ "importantProperties": [
+  "gof onto => g onto.",
+  "gof one-one => f one-one.",
+  "Onto: range = codomain."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Converse maan lena."
+ ],
+ "standardTechniques": [
+  "1. Composition rule."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:onto"
+}

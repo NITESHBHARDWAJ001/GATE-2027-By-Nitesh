@@ -1,0 +1,20 @@
+{
+ "overview": "Binary/decimal conversions.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Binary/decimal conversions.",
+ "hinglishExplanation": "Place value.",
+ "formalDefinition": "Binary/decimal conversions.",
+ "importantProperties": [
+  "Binary to decimal.",
+  "Bits count."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Bit order."
+ ],
+ "standardTechniques": [
+  "1. Place values."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:number-representation"
+}

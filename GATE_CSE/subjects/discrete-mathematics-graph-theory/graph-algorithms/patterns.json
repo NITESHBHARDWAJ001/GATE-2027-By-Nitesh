@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_GRAPH_ALGORITHMS_01",
+  "name": "Graph Algorithms (Colorability) (PYQ type)",
+  "recognitionClueHinglish": "Graph Algorithms (Colorability) se related sawal.",
+  "whatShouldComeToMind": [
+   "k-colorability: proper colouring exist karta hai ya nahi; greedy bound."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Structure."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.3.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Planar ko 3-colourable maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

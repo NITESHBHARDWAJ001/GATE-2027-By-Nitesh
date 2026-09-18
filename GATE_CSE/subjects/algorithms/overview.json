@@ -1,0 +1,25 @@
+{
+ "subjectId": "algorithms",
+ "name": "Algorithms",
+ "sourceVolume": "volume2",
+ "sourcePdf": "filter1_volume2 (1).pdf",
+ "totalTopics": 46,
+ "totalPyqsExtracted": 358,
+ "priorityDistribution": {
+  "P1": 8,
+  "P2": 7,
+  "P3": 22,
+  "P4": 9
+ },
+ "p1Topics": [
+  "Asymptotic Notations",
+  "Graph Search",
+  "Identify Function",
+  "Minimum Spanning Tree",
+  "Quick Sort",
+  "Recurrence Relation",
+  "Sorting",
+  "Time Complexity"
+ ],
+ "processingStatus": "all_P1_topics_complete (8/8): asymptotic-notations, recurrence-relation, time-complexity, sorting, quick-sort, graph-search, minimum-spanning-tree, identify-function"
+}

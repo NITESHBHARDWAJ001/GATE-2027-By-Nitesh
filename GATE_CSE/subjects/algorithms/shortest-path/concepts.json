@@ -1,0 +1,27 @@
+{
+ "overview": "Dijkstra, Bellman-Ford, BFS on unweighted graphs, all-pairs; effect of edge-weight changes.",
+ "whyItMatters": "8 PYQs extracted (2002-2025); P2 topic.",
+ "coreConcept": "Non-negative weights: Dijkstra; negative weights: Bellman-Ford; unweighted: BFS.",
+ "hinglishExplanation": "Dijkstra greedy hai aur negative edges par fail hota hai. Sabhi edges me constant add karne se shortest path badal sakta hai (kam edges wale paths favour hote hain), par MST nahi badalta.",
+ "formalDefinition": "Non-negative weights: Dijkstra; negative weights: Bellman-Ford; unweighted: BFS.",
+ "importantProperties": [
+  "BFS unweighted shortest path O(V+E).",
+  "Dijkstra O((V+E) log V) heap.",
+  "Bellman-Ford O(VE), negative edges/cycles.",
+  "Floyd-Warshall O(V^3).",
+  "Constant add: shortest path badal sakta hai; MST same.",
+  "Reweighting (potential) se negative weights hata sakte hain (Johnson)."
+ ],
+ "formulas": {
+  "dijkstra": "O((V+E) log V)",
+  "bf": "O(VE)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Negative edges par Dijkstra."
+ ],
+ "standardTechniques": [
+  "Relaxation trace."
+ ],
+ "topicId": "algorithms:shortest-path"
+}

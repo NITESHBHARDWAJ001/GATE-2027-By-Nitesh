@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P4_GOTO_01",
+  "name": "goto Statement (PYQ type)",
+  "recognitionClueHinglish": "goto Statement se related sawal.",
+  "whatShouldComeToMind": [
+   "Unrestricted goto program structure aur verification mushkil banata."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Readability."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.4.1",
+   "5.4.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Performance argument."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,16 @@
+{
+ "subjectId": "general-aptitude-analytical-aptitude",
+ "name": "General Aptitude: Analytical Aptitude",
+ "sourceVolume": "volume1",
+ "sourcePdf": "filter1_volume1.pdf",
+ "totalTopics": 15,
+ "totalPyqsExtracted": 37,
+ "priorityDistribution": {
+  "P1": 0,
+  "P2": 1,
+  "P3": 13,
+  "P4": 1
+ },
+ "p1Topics": [],
+ "processingStatus": "structure_ready_notes_pending"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:interrupts",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INTERR-01",
+   "patternId": "P3_INTERRUPTS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Interrupt cycle 1 ms me 1 baar, ISR 100us. CPU fraction?",
+   "solutionApproach": "0.1/1.",
+   "answer": "10%"
+  }
+ ]
+}

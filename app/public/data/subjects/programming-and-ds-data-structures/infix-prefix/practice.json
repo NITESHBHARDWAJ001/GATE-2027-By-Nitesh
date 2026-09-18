@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-and-ds-data-structures:infix-prefix",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INFIX--01",
+   "patternId": "P3_INFIX_PREFIX_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Infix a+b*c postfix?",
+   "solutionApproach": "b*c pehle.",
+   "answer": "abc*+"
+  }
+ ]
+}

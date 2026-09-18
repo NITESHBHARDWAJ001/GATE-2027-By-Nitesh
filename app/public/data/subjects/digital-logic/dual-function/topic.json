@@ -1,0 +1,18 @@
+{
+ "topicId": "digital-logic:dual-function",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Self-Dual Functions",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2014-2014.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2014
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

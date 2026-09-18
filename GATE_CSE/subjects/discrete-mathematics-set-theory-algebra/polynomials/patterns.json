@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_POLYNOMIALS_01",
+  "name": "Polynomials (PYQ type)",
+  "recognitionClueHinglish": "Polynomials se related sawal.",
+  "whatShouldComeToMind": [
+   "Roots, degree conditions, base-b quadratic."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Conditions.",
+   "2. Degree."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.11.1",
+   "4.11.2",
+   "4.11.3",
+   "4.11.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Degree bound bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

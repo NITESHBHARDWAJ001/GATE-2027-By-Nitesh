@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Posterior = likelihood x prior / evidence; box/signal problems.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bayes Theorem se related sawal.",
+   "thinkThis": "P3_BAYES_THEOREM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "P(A|B) aur P(B|A) ulta."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-probability:bayes-theorem",
+ "revisionLevel": "short-form"
+}

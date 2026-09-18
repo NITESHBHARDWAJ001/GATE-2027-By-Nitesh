@@ -1,0 +1,24 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:synonyms",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SYNONY-01",
+   "patternId": "SYN_MEANING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Closest to 'Nadir'?",
+   "solutionApproach": "Lowest point.",
+   "answer": "Lowest"
+  },
+  {
+   "practiceId": "AI-SYNONYMS-X02",
+   "patternId": "SYN_MEANING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Closest to 'Mitigate'?",
+   "solutionApproach": "Reduce.",
+   "answer": "Alleviate"
+  }
+ ]
+}

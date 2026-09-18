@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P4_MATHEMATICAL_INDUCTION_01",
+  "name": "Mathematical Induction (PYQ type)",
+  "recognitionClueHinglish": "Mathematical Induction se related sawal.",
+  "whatShouldComeToMind": [
+   "Base case + inductive step."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Base.",
+   "2. Step."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.7.1",
+   "4.7.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Base case skip."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

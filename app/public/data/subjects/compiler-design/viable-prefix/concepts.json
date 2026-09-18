@@ -1,0 +1,20 @@
+{
+ "overview": "Shift-reduce parsing me stack ka content viable prefix hai.",
+ "whyItMatters": "1 PYQs extracted (2015-2015); P4 topic.",
+ "coreConcept": "Shift-reduce parsing me stack ka content viable prefix hai.",
+ "hinglishExplanation": "Viable prefix = right-sentential form ka prefix jo handle ke right end se aage nahi.",
+ "formalDefinition": "Shift-reduce parsing me stack ka content viable prefix hai.",
+ "importantProperties": [
+  "Stack hamesha viable prefix.",
+  "Parser errors viable prefix ke bahar."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Prefix ko handle se confuse."
+ ],
+ "standardTechniques": [
+  "1. Stack content."
+ ],
+ "topicId": "compiler-design:viable-prefix"
+}

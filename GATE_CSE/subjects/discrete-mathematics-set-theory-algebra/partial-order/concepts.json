@@ -1,0 +1,23 @@
+{
+ "overview": "Reflexive, antisymmetric, transitive; Hasse edges, chains, antichains.",
+ "whyItMatters": "10 PYQs extracted (1991-2024); P3 topic.",
+ "coreConcept": "Reflexive, antisymmetric, transitive; Hasse edges, chains, antichains.",
+ "hinglishExplanation": "Hasse diagram me sirf covering relations.",
+ "formalDefinition": "Reflexive, antisymmetric, transitive; Hasse edges, chains, antichains.",
+ "importantProperties": [
+  "Poset: reflexive+antisymmetric+transitive.",
+  "Chain, antichain (Dilworth).",
+  "Total orders count topological orders.",
+  "Divisibility poset Hasse edges."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Strict order ko partial (reflexive) maan lena."
+ ],
+ "standardTechniques": [
+  "1. Covers.",
+  "2. Count."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:partial-order"
+}

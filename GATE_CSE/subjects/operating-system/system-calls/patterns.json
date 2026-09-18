@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_SYSTEM_CALLS_01",
+  "name": "System Calls (PYQ type)",
+  "recognitionClueHinglish": "System Calls se related sawal.",
+  "whatShouldComeToMind": [
+   "Kaun si library functions hamesha system call karte hain."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Kya kernel service chahiye?"
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.30.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Har library function ko system call maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

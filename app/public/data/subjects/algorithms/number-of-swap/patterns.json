@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_NUMBER_OF_SWAP_01",
+  "name": "Number of Swaps (Sorting) (PYQ type)",
+  "recognitionClueHinglish": "Number of Swaps (Sorting) se related sawal.",
+  "whatShouldComeToMind": [
+   "Bubble sort jaise loops me swaps ka count; worst case n(n-1)/2."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Inversions count.",
+   "2. Loop trace."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.32.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Comparisons aur swaps mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

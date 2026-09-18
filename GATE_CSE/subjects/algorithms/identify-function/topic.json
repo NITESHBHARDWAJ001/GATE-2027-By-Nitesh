@@ -1,0 +1,19 @@
+{
+  "topicId": "algorithms-identify-function",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "name": "Identify Function",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "38 PYQs extracted, tested 1989-2021 continuously — highest-PYQ topic in the Algorithms subject after MST. Last topic in the DS+Algorithms study-order track, synthesizing Recursion + Programming-In-C code-tracing skills.",
+  "pyqCountExtracted": 38,
+  "yearsCovered": [1989,1990,1991,1993,1994,1995,1998,1999,2000,2003,2004,2005,2006,2009,2010,2011,2013,2014,2015,2019,2020,2021],
+  "prerequisites": [
+    {"topic": "Recursion", "subjectId": "programming-programming-in-c", "why": "Most 'identify the function' PYQs are recursive code — needs call-tree tracing fluency."},
+    {"topic": "Programming In C", "subjectId": "programming-programming-in-c", "why": "Non-recursive code-tracing skill for the iterative/array-transformation variants."}
+  ],
+  "unlocks": [],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

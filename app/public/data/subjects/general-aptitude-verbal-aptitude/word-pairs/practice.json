@@ -1,0 +1,24 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:word-pairs",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-WORD-P-01",
+   "patternId": "WP_ANALOGY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Author : Book :: Composer : ?",
+   "solutionApproach": "Creator-product.",
+   "answer": "Symphony"
+  },
+  {
+   "practiceId": "AI-WORD-PAI-X02",
+   "patternId": "WP_ANALOGY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Hot : Scalding :: Cold : ?",
+   "solutionApproach": "Intensity.",
+   "answer": "Freezing"
+  }
+ ]
+}

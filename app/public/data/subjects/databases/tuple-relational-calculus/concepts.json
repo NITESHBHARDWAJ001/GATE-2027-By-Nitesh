@@ -1,0 +1,23 @@
+{
+ "overview": "TRC expressions ke tuple counts, meaning, safe/unsafe.",
+ "whyItMatters": "3 PYQs extracted (2025-2026); P3 topic.",
+ "coreConcept": "TRC expressions ke tuple counts, meaning, safe/unsafe.",
+ "hinglishExplanation": "{t | exists s (R(s) and s.A = t.A)} : projection ka calculus form.",
+ "formalDefinition": "TRC expressions ke tuple counts, meaning, safe/unsafe.",
+ "importantProperties": [
+  "Free variable result me.",
+  "exists/for-all quantifiers.",
+  "Safe expression: finite domain.",
+  "TRC = safe algebra ki power."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Quantifier scope."
+ ],
+ "standardTechniques": [
+  "1. Free variable.",
+  "2. Evaluate on instance."
+ ],
+ "topicId": "databases:tuple-relational-calculus"
+}

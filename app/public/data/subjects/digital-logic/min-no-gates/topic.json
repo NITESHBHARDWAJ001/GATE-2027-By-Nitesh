@@ -1,0 +1,22 @@
+{
+ "topicId": "digital-logic:min-no-gates",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Minimum Number of Gates",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "6 PYQs extracted, 1995-2017.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  1995,
+  2000,
+  2004,
+  2009,
+  2017
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

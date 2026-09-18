@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "engineering-mathematics-linear-algebra__6.10.1",
+  "localId": "6.10.1",
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "subject": "Engineering Mathematics: Linear Algebra",
+  "topicSlug": "singular-value-decomposition",
+  "topic": "Singular Value Decomposition",
+  "year": 2024,
+  "examStream": "DS&AI",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "51",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Let               , and let                                             be the singular values of the matrix    (where is the . transpose of ). The value of                                    is",
+  "tagsRaw": "gate-ds-ai-2024 linear-algebra    singular-value-decomposition  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 180
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SINGULAR_VALUE_DECOMPOSI_01"
+ }
+]

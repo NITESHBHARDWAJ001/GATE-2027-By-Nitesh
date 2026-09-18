@@ -1,0 +1,33 @@
+{
+  "topicId": "os-process-synchronization",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-SYNC-01",
+      "patternId": "SYNC_CLASSIC_PROBLEMS_02",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "In the standard producer-consumer solution, what happens if 'empty' and 'full' semaphore roles are swapped in the producer's code (producer waits on 'full' instead of 'empty')?",
+      "solutionApproach": "Producer would wait on 'full' which starts at 0 — producer blocks immediately since no items exist yet to signal 'full' was ever incremented meaningfully in this broken order. This deadlocks the system from the start (producer can never proceed, so consumer never gets signaled either).",
+      "answer": "Deadlock from the start — producer waits on a semaphore (full=0) that only IT should be incrementing, but never gets to."
+    },
+    {
+      "practiceId": "AI-SYNC-02",
+      "patternId": "SYNC_TRACE_OUTPUT_03",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Two processes P1, P2 both execute: x = x + 1 (unprotected, no semaphore) on shared variable x initialized to 0. Assuming each process's read-modify-write is NOT atomic (read x, add 1, write x — 3 separate steps), how many distinct final values of x are possible?",
+      "solutionApproach": "Without synchronization, interleaving can cause a LOST UPDATE: both read x=0 before either writes, both compute 1, both write 1 — final x=1 (lost update). Or fully serialized: x=2 (correct). So possible values: 1 or 2 — 2 distinct values.",
+      "answer": "2 distinct values (1 due to lost update, or 2 if properly serialized)."
+    },
+    {
+      "practiceId": "AI-SYNC-03",
+      "patternId": "SYNC_CONCEPTUAL_06",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "What is a race condition?",
+      "solutionApproach": "A situation where the final outcome of concurrent execution depends on the relative timing/order (speed) of the processes involved, rather than being deterministic.",
+      "answer": "Outcome depends on the relative timing/speed of concurrent processes — not deterministic."
+    }
+  ]
+}

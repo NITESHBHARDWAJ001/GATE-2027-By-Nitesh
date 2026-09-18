@@ -1,0 +1,24 @@
+{
+ "topicId": "digital-logic:functional-completeness",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Functional Completeness",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "7 PYQs extracted, 1989-2015.",
+ "pyqCountExtracted": 7,
+ "yearsCovered": [
+  1989,
+  1992,
+  1993,
+  1998,
+  1999,
+  2008,
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,41 @@
+{
+  "topicId": "co-architecture-cache-memory",
+  "overview": "Cache memory GATE ka sabse zyada baar poocha gaya single topic hai (is corpus me 69 PYQs — sabse highest). Har saal kam se kam ek question guaranteed hai. Isliye ye topic P1 hai aur ismein deep numerical practice zaroori hai.",
+  "whyItMatters": "CO&Architecture me akela sabse bada scoring topic hai. Isके numericals thoda lambe hote hain but ek fixed 4-5 step method se solve ho jaate hain — ek baar method clear ho gaya to accuracy bahut high rehti hai. Virtual Memory (OS) ka bhi almost same reasoning hai, so ye topic karne se do subjects cover hote hain.",
+  "coreConcept": "Cache ek chhota, fast memory hai jo CPU aur main memory ke beech baithta hai. Idea simple hai: 'Principle of Locality' — agar CPU ne abhi kisi address X ko access kiya hai, to (a) wo address phir se jaldi access hoga (temporal locality), aur (b) uske paas-paas ke addresses bhi jaldi access honge (spatial locality). Isliye jab CPU X maangta hai, cache sirf X nahi, X ka pura 'block' la ke rakh leta hai.",
+  "hinglishExplanation": "Socho cache ek chhota sa drawer hai tumhari table par, aur main memory poore ghar ki almirah. Har baar almirah tak jaana slow hai. Jo cheez tum baar baar use karte ho (ya jo cheez ek saath use hoti hai, jaise ek hi shelf ki cheezein), wo tum apne table ke drawer me rakh lete ho. Cache memory yahi karta hai — recently/nearby accessed data ko fast memory me copy rakh leta hai taaki agli baar almirah tak na jaana pade.",
+  "formalDefinition": "Cache is a small, fast memory that stores copies of frequently/recently accessed main-memory blocks, reducing average memory access time by exploiting temporal and spatial locality of reference.",
+  "importantProperties": [
+    "Cache is divided into 'lines' or 'blocks'; main memory is divided into blocks of the same size.",
+    "Mapping function decides WHERE a main-memory block can go in the cache: Direct-Mapped (exactly 1 place), Fully Associative (anywhere), k-way Set-Associative (any of k places within one set).",
+    "Every cache line carries a Valid bit (is the line holding real data?) and, for writable caches, a Dirty/Modified bit (has this line been written to since it was loaded?).",
+    "Write policy: Write-Through (write goes to cache AND main memory immediately — simple, more memory traffic) vs Write-Back (write only to cache, marked dirty, flushed to memory only on eviction — faster, needs dirty bit).",
+    "Replacement policy (needed only when Fully/Set-Associative, since Direct-Mapped has no choice): LRU, FIFO, Random, Optimal.",
+    "Inclusion property (multi-level cache): if L2 is inclusive of L1, everything in L1 must also be in L2."
+  ],
+  "formulas": {
+    "addressSplitDirectMapped": "Address = [ TAG | LINE/SET index | WORD/BLOCK offset ]. #offset bits = log2(block size in words/bytes). #index bits = log2(number of lines). #tag bits = total address bits − index bits − offset bits.",
+    "addressSplitSetAssociative": "Address = [ TAG | SET index | WORD offset ]. #set bits = log2(number of sets) = log2(number of lines / associativity k). Everything else same as direct-mapped, just index now selects a SET not a single line.",
+    "addressSplitFullyAssociative": "Address = [ TAG | WORD offset ] — no set/index field at all, since a block can go anywhere; the entire remaining address (after offset) is the tag, compared against every line in parallel.",
+    "AMAT": "Average Memory Access Time = Hit time + Miss rate × Miss penalty. For multi-level: AMAT = HitTime_L1 + MissRate_L1 × (HitTime_L2 + MissRate_L2 × (... × MissPenalty_MainMemory))",
+    "effectiveCPI": "Effective CPI = Base CPI + (memory accesses per instruction) × (miss rate) × (miss penalty in cycles) — used in speedup/CPI-impact numericals.",
+    "totalCacheSize": "Cache size = number of lines × block size (data only; tag/valid/dirty bits are usually NOT counted in 'cache size' unless question explicitly says 'tag memory size' or 'total bits including tag')."
+  },
+  "keyPropertiesAndIdentities": [
+    "#tag bits + #index(set) bits + #offset bits = total address width — this identity is the single most useful sanity check for every address-split question.",
+    "Higher associativity → fewer conflict misses but more hardware (comparators) and slightly higher hit time.",
+    "Bigger block size → better spatial locality exploitation up to a point, but too big wastes bandwidth on unused data and increases miss penalty (more data to fetch per miss)."
+  ],
+  "commonPitfalls": [
+    "Confusing 'number of lines' with 'number of sets' — in a k-way set-associative cache, #sets = #lines / k, and the SET index field is computed from #sets, not #lines directly.",
+    "Forgetting byte-addressability: if block size is given in WORDS but address is byte-addressable, offset bits must account for both word offset AND byte-within-word offset.",
+    "Mixing up which quantity is 'given' vs 'asked' in AMAT chains — always write the formula first, then substitute.",
+    "In LRU-trace questions, forgetting that a HIT also updates recency order (not just misses).",
+    "Assuming direct-mapped cache needs a replacement policy — it doesn't, there's only one possible line per block."
+  ],
+  "standardTechniques": [
+    "For ANY address-split question: first find block size → offset bits, then #sets → set/index bits, then tag bits = total − offset − index. Draw the 3-field box every time, don't do it in your head.",
+    "For AMAT/hierarchy questions: draw the tree of hit/miss paths level by level before writing one formula.",
+    "For LRU-trace questions: maintain a simple table, one row per access, and cross out the least-recently-used entry on every miss with a full set."
+  ]
+}

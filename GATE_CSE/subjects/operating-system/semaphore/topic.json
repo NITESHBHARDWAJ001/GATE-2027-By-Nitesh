@@ -1,0 +1,28 @@
+{
+ "topicId": "operating-system:semaphore",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Semaphores",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "11 PYQs extracted, 1990-2026.",
+ "pyqCountExtracted": 11,
+ "yearsCovered": [
+  1990,
+  1992,
+  1998,
+  2006,
+  2008,
+  2016,
+  2020,
+  2021,
+  2022,
+  2023,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,20 @@
+{
+ "overview": "Primality, count of primes, prime factors.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Primality, count of primes, prime factors.",
+ "hinglishExplanation": "Only divisible by 1 and self.",
+ "formalDefinition": "Primality, count of primes, prime factors.",
+ "importantProperties": [
+  "2 only even prime.",
+  "Check up to sqrt(n)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "1 ko prime."
+ ],
+ "standardTechniques": [
+  "1. Test."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:prime-numbers"
+}

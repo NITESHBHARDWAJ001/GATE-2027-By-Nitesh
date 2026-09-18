@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_WRAP_AROUND_TIME_01",
+  "name": "Sequence/Timestamp Wrap-Around Time (PYQ type)",
+  "recognitionClueHinglish": "Sequence/Timestamp Wrap-Around Time se related sawal.",
+  "whatShouldComeToMind": [
+   "Counter/sequence kab wrap: 2^n / rate."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rate.",
+   "2. 2^n / rate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.38.1",
+   "2.38.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Bits vs bytes."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

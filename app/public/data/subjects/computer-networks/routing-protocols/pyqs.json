@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "computer-networks__2.29.1",
+  "localId": "2.29.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "routing-protocols",
+  "topic": "Routing Protocols",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the routing protocols given in List I and the names given in List II: For matching of items in List I with those in List II, which ONE of the following options is CORRECT? A. (i) - (a) and (ii) - (b)                                         B. (i) - (a) and (ii) - (a) C. (i) - (b) and (ii) - (a)                                         D. (i) - (b) and (ii) - (b)",
+  "tagsRaw": "gatecse2025-set2 computer-networks match-the-following routing-protocols easy one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 142
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ROUTING_PROTOCOLS_01"
+ }
+]

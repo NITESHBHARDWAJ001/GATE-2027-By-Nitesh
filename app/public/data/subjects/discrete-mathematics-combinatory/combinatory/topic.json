@@ -1,0 +1,33 @@
+{
+ "topicId": "dm-combinatory",
+ "subjectId": "discrete-mathematics-combinatory",
+ "subject": "Discrete Mathematics - Combinatory",
+ "name": "Combinatorics",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "18 PYQs extracted, 1990-2026; regular.",
+ "pyqCountExtracted": 18,
+ "yearsCovered": [
+  1990,
+  1991,
+  1998,
+  1999,
+  2001,
+  2003,
+  2004,
+  2005,
+  2007,
+  2008,
+  2014,
+  2015,
+  2019,
+  2020,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

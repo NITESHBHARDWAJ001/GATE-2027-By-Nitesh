@@ -1,0 +1,22 @@
+{
+ "overview": "Spooled devices, interrupt/I/O privilege, device controllers.",
+ "whyItMatters": "7 PYQs extracted (1996-2018); P3 topic.",
+ "coreConcept": "Spooled devices, interrupt/I/O privilege, device controllers.",
+ "hinglishExplanation": "Spooling: slow device ke output ko disk par buffer karke baad me print; printer spooled device hai.",
+ "formalDefinition": "Spooled devices, interrupt/I/O privilege, device controllers.",
+ "importantProperties": [
+  "Spooled: line printer (shared non-interactive).",
+  "User programs I/O instruction seedha nahi chalate (privileged).",
+  "Interrupt request/grant line se priority.",
+  "I/O wait me process blocked."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Terminal ko spooled maan lena."
+ ],
+ "standardTechniques": [
+  "1. Kya device shared/buffered?"
+ ],
+ "topicId": "operating-system:io-handling"
+}

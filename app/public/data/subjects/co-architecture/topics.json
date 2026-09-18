@@ -1,0 +1,876 @@
+[
+ {
+  "topicSlug": "cache-memory",
+  "name": "Cache Memory",
+  "pyqCountExtracted": 69,
+  "yearsCovered": [
+   1987,
+   1989,
+   1990,
+   1993,
+   1995,
+   1996,
+   1998,
+   1999,
+   2001,
+   2002,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "co-architecture__1.5.1",
+   "co-architecture__1.5.2",
+   "co-architecture__1.5.3",
+   "co-architecture__1.5.4",
+   "co-architecture__1.5.5",
+   "co-architecture__1.5.6",
+   "co-architecture__1.5.7",
+   "co-architecture__1.5.8",
+   "co-architecture__1.5.9",
+   "co-architecture__1.5.10",
+   "co-architecture__1.5.11",
+   "co-architecture__1.5.12",
+   "co-architecture__1.5.13",
+   "co-architecture__1.5.14",
+   "co-architecture__1.5.15",
+   "co-architecture__1.5.16",
+   "co-architecture__1.5.17",
+   "co-architecture__1.5.18",
+   "co-architecture__1.5.19",
+   "co-architecture__1.5.20",
+   "co-architecture__1.5.21",
+   "co-architecture__1.5.22",
+   "co-architecture__1.5.23",
+   "co-architecture__1.5.24",
+   "co-architecture__1.5.25",
+   "co-architecture__1.5.26",
+   "co-architecture__1.5.27",
+   "co-architecture__1.5.28",
+   "co-architecture__1.5.29",
+   "co-architecture__1.5.30",
+   "co-architecture__1.5.31",
+   "co-architecture__1.5.32",
+   "co-architecture__1.5.33",
+   "co-architecture__1.5.34",
+   "co-architecture__1.5.35",
+   "co-architecture__1.5.36",
+   "co-architecture__1.5.37",
+   "co-architecture__1.5.38",
+   "co-architecture__1.5.39",
+   "co-architecture__1.5.40",
+   "co-architecture__1.5.41",
+   "co-architecture__1.5.42",
+   "co-architecture__1.5.43",
+   "co-architecture__1.5.44",
+   "co-architecture__1.5.45",
+   "co-architecture__1.5.46",
+   "co-architecture__1.5.47",
+   "co-architecture__1.5.48",
+   "co-architecture__1.5.49",
+   "co-architecture__1.5.50",
+   "co-architecture__1.5.51",
+   "co-architecture__1.5.52",
+   "co-architecture__1.5.53",
+   "co-architecture__1.5.54",
+   "co-architecture__1.5.55",
+   "co-architecture__1.5.56",
+   "co-architecture__1.5.57",
+   "co-architecture__1.5.58",
+   "co-architecture__1.5.59",
+   "co-architecture__1.5.60",
+   "co-architecture__1.5.61",
+   "co-architecture__1.5.62",
+   "co-architecture__1.5.63",
+   "co-architecture__1.5.64",
+   "co-architecture__1.5.65",
+   "co-architecture__1.5.66",
+   "co-architecture__1.5.67",
+   "co-architecture__1.5.68",
+   "co-architecture__1.5.69"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "69 PYQs extracted, tested in 10 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "pipelining",
+  "name": "Pipelining",
+  "pyqCountExtracted": 39,
+  "yearsCovered": [
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2020,
+   2021,
+   2023,
+   2024,
+   2025
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2018,
+   2020,
+   2021,
+   2023,
+   2024,
+   2025
+  ],
+  "pyqIds": [
+   "co-architecture__1.24.1",
+   "co-architecture__1.24.2",
+   "co-architecture__1.24.3",
+   "co-architecture__1.24.4",
+   "co-architecture__1.24.5",
+   "co-architecture__1.24.6",
+   "co-architecture__1.24.7",
+   "co-architecture__1.24.8",
+   "co-architecture__1.24.9",
+   "co-architecture__1.24.10",
+   "co-architecture__1.24.11",
+   "co-architecture__1.24.12",
+   "co-architecture__1.24.13",
+   "co-architecture__1.24.14",
+   "co-architecture__1.24.15",
+   "co-architecture__1.24.16",
+   "co-architecture__1.24.17",
+   "co-architecture__1.24.18",
+   "co-architecture__1.24.19",
+   "co-architecture__1.24.20",
+   "co-architecture__1.24.21",
+   "co-architecture__1.24.22",
+   "co-architecture__1.24.23",
+   "co-architecture__1.24.24",
+   "co-architecture__1.24.25",
+   "co-architecture__1.24.26",
+   "co-architecture__1.24.27",
+   "co-architecture__1.24.28",
+   "co-architecture__1.24.29",
+   "co-architecture__1.24.30",
+   "co-architecture__1.24.31",
+   "co-architecture__1.24.32",
+   "co-architecture__1.24.33",
+   "co-architecture__1.24.34",
+   "co-architecture__1.24.35",
+   "co-architecture__1.24.36",
+   "co-architecture__1.24.37",
+   "co-architecture__1.24.38",
+   "co-architecture__1.24.39"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "39 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 1999-2025 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "machine-instruction",
+  "name": "Machine Instruction",
+  "pyqCountExtracted": 21,
+  "yearsCovered": [
+   1988,
+   1994,
+   1999,
+   2003,
+   2004,
+   2006,
+   2007,
+   2008,
+   2015,
+   2016,
+   2021,
+   2023,
+   2025
+  ],
+  "recentYearsCovered": [
+   2016,
+   2021,
+   2023,
+   2025
+  ],
+  "pyqIds": [
+   "co-architecture__1.21.1",
+   "co-architecture__1.21.2",
+   "co-architecture__1.21.3",
+   "co-architecture__1.21.4",
+   "co-architecture__1.21.5",
+   "co-architecture__1.21.6",
+   "co-architecture__1.21.7",
+   "co-architecture__1.21.8",
+   "co-architecture__1.21.9",
+   "co-architecture__1.21.10",
+   "co-architecture__1.21.11",
+   "co-architecture__1.21.12",
+   "co-architecture__1.21.13",
+   "co-architecture__1.21.14",
+   "co-architecture__1.21.15",
+   "co-architecture__1.21.16",
+   "co-architecture__1.21.17",
+   "co-architecture__1.21.18",
+   "co-architecture__1.21.19",
+   "co-architecture__1.21.20",
+   "co-architecture__1.21.21"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "21 PYQs extracted, tested in 4 recent GATE cycles (2016+), spans 1988-2025 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "addressing-modes",
+  "name": "Addressing Modes",
+  "pyqCountExtracted": 19,
+  "yearsCovered": [
+   1987,
+   1988,
+   1989,
+   1993,
+   1996,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2004,
+   2005,
+   2006,
+   2008,
+   2011,
+   2017,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2026
+  ],
+  "pyqIds": [
+   "co-architecture__1.1.1",
+   "co-architecture__1.1.2",
+   "co-architecture__1.1.3",
+   "co-architecture__1.1.4",
+   "co-architecture__1.1.5",
+   "co-architecture__1.1.6",
+   "co-architecture__1.1.7",
+   "co-architecture__1.1.8",
+   "co-architecture__1.1.9",
+   "co-architecture__1.1.10",
+   "co-architecture__1.1.11",
+   "co-architecture__1.1.12",
+   "co-architecture__1.1.13",
+   "co-architecture__1.1.14",
+   "co-architecture__1.1.15",
+   "co-architecture__1.1.16",
+   "co-architecture__1.1.17",
+   "co-architecture__1.1.18",
+   "co-architecture__1.1.19"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "19 PYQs extracted (high historical frequency), spans 1987-2026, but only 2 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "topicSlug": "microprogramming",
+  "name": "Microprogramming",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   1987,
+   1996,
+   1997,
+   1999,
+   2002,
+   2004,
+   2005,
+   2006,
+   2008,
+   2013
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "co-architecture__1.23.1",
+   "co-architecture__1.23.2",
+   "co-architecture__1.23.3",
+   "co-architecture__1.23.4",
+   "co-architecture__1.23.5",
+   "co-architecture__1.23.6",
+   "co-architecture__1.23.7",
+   "co-architecture__1.23.8",
+   "co-architecture__1.23.9",
+   "co-architecture__1.23.10",
+   "co-architecture__1.23.11",
+   "co-architecture__1.23.12"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "12 PYQs extracted, spans 1987-2013 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "instruction-format",
+  "name": "Instruction Format",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   1988,
+   1992,
+   1994,
+   2014,
+   2016,
+   2018,
+   2020,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2018,
+   2020,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "co-architecture__1.18.1",
+   "co-architecture__1.18.2",
+   "co-architecture__1.18.3",
+   "co-architecture__1.18.4",
+   "co-architecture__1.18.5",
+   "co-architecture__1.18.6",
+   "co-architecture__1.18.7",
+   "co-architecture__1.18.8",
+   "co-architecture__1.18.9",
+   "co-architecture__1.18.10",
+   "co-architecture__1.18.11"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "11 PYQs extracted, 5 recent (2016+) appearances, spans 1988-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "interrupts",
+  "name": "Interrupts",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   1987,
+   1995,
+   1998,
+   2002,
+   2005,
+   2009,
+   2020,
+   2023,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2020,
+   2023,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "co-architecture__1.20.1",
+   "co-architecture__1.20.2",
+   "co-architecture__1.20.3",
+   "co-architecture__1.20.4",
+   "co-architecture__1.20.5",
+   "co-architecture__1.20.6",
+   "co-architecture__1.20.7",
+   "co-architecture__1.20.8",
+   "co-architecture__1.20.9",
+   "co-architecture__1.20.10"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "10 PYQs extracted, 4 recent (2016+) appearances, spans 1987-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "dma",
+  "name": "DMA",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2004,
+   2005,
+   2016,
+   2021,
+   2022,
+   2024
+  ],
+  "recentYearsCovered": [
+   2016,
+   2021,
+   2022,
+   2024
+  ],
+  "pyqIds": [
+   "co-architecture__1.8.1",
+   "co-architecture__1.8.2",
+   "co-architecture__1.8.3",
+   "co-architecture__1.8.4",
+   "co-architecture__1.8.5",
+   "co-architecture__1.8.6",
+   "co-architecture__1.8.7",
+   "co-architecture__1.8.8"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "8 PYQs extracted, 4 recent (2016+) appearances, spans 2004-2024 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "io-handling",
+  "name": "IO Handling",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1987,
+   1990,
+   1996,
+   1997,
+   2008,
+   2011
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "co-architecture__1.16.1",
+   "co-architecture__1.16.2",
+   "co-architecture__1.16.3",
+   "co-architecture__1.16.4",
+   "co-architecture__1.16.5",
+   "co-architecture__1.16.6",
+   "co-architecture__1.16.7",
+   "co-architecture__1.16.8"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "8 PYQs extracted, spans 1987-2011 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "data-path",
+  "name": "Data Path",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1990,
+   2001,
+   2005,
+   2016,
+   2020,
+   2025
+  ],
+  "recentYearsCovered": [
+   2016,
+   2020,
+   2025
+  ],
+  "pyqIds": [
+   "co-architecture__1.12.1",
+   "co-architecture__1.12.2",
+   "co-architecture__1.12.3",
+   "co-architecture__1.12.4",
+   "co-architecture__1.12.5",
+   "co-architecture__1.12.6",
+   "co-architecture__1.12.7"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "7 PYQs extracted, 3 recent (2016+) appearances, spans 1990-2025 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "instruction-execution",
+  "name": "Instruction Execution",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1990,
+   1992,
+   1995,
+   2002,
+   2006,
+   2017,
+   2025
+  ],
+  "recentYearsCovered": [
+   2017,
+   2025
+  ],
+  "pyqIds": [
+   "co-architecture__1.17.1",
+   "co-architecture__1.17.2",
+   "co-architecture__1.17.3",
+   "co-architecture__1.17.4",
+   "co-architecture__1.17.5",
+   "co-architecture__1.17.6",
+   "co-architecture__1.17.7"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "7 PYQs extracted, 2 recent (2016+) appearances, spans 1990-2025 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "memory-interfacing",
+  "name": "Memory Interfacing",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1990,
+   1991,
+   2006,
+   2016,
+   2018,
+   2023
+  ],
+  "recentYearsCovered": [
+   2016,
+   2018,
+   2023
+  ],
+  "pyqIds": [
+   "co-architecture__1.22.1",
+   "co-architecture__1.22.2",
+   "co-architecture__1.22.3",
+   "co-architecture__1.22.4",
+   "co-architecture__1.22.5",
+   "co-architecture__1.22.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 3 recent (2016+) appearances, spans 1990-2023 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "speedup",
+  "name": "Speedup",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2004,
+   2007,
+   2014,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "co-architecture__1.26.1",
+   "co-architecture__1.26.2",
+   "co-architecture__1.26.3",
+   "co-architecture__1.26.4",
+   "co-architecture__1.26.5",
+   "co-architecture__1.26.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 2004-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "direct-mapping",
+  "name": "Direct Mapping",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2022,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2022,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "co-architecture__1.13.1",
+   "co-architecture__1.13.2",
+   "co-architecture__1.13.3",
+   "co-architecture__1.13.4",
+   "co-architecture__1.13.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 2022-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "data-dependency",
+  "name": "Data Dependency",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2005,
+   2007,
+   2008,
+   2015
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "co-architecture__1.10.1",
+   "co-architecture__1.10.2",
+   "co-architecture__1.10.3",
+   "co-architecture__1.10.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2005-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "average-memory-access-time",
+  "name": "Average Memory Access Time",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1992,
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "co-architecture__1.2.1",
+   "co-architecture__1.2.2",
+   "co-architecture__1.2.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 1992-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "virtual-memory",
+  "name": "Virtual Memory",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1991,
+   2004,
+   2008
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "co-architecture__1.28.1",
+   "co-architecture__1.28.2",
+   "co-architecture__1.28.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 1991-2008 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "cisc-risc-architecture",
+  "name": "CISC RISC Architecture",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1999,
+   2018
+  ],
+  "recentYearsCovered": [
+   2018
+  ],
+  "pyqIds": [
+   "co-architecture__1.4.1",
+   "co-architecture__1.4.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 1999-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "runtime-environment",
+  "name": "Runtime Environment",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2001,
+   2008
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "co-architecture__1.25.1",
+   "co-architecture__1.25.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 2001-2008 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "bit-vector",
+  "name": "Bit Vector",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "co-architecture__1.3.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "conflict-misses",
+  "name": "Conflict Misses",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2017
+  ],
+  "recentYearsCovered": [
+   2017
+  ],
+  "pyqIds": [
+   "co-architecture__1.6.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2017-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "control-unit",
+  "name": "Control Unit",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   1987
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "co-architecture__1.7.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 1987-1987 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "dram",
+  "name": "DRAM",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2019
+  ],
+  "recentYearsCovered": [
+   2019
+  ],
+  "pyqIds": [
+   "co-architecture__1.9.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2019-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "data-hazards",
+  "name": "Data Hazards",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "co-architecture__1.11.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "disk",
+  "name": "Disk",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "co-architecture__1.14.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "hazards",
+  "name": "Hazards",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "co-architecture__1.15.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "instruction-set-architecture",
+  "name": "Instruction Set Architecture",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "co-architecture__1.19.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "stall",
+  "name": "Stall",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2022
+  ],
+  "recentYearsCovered": [
+   2022
+  ],
+  "pyqIds": [
+   "co-architecture__1.27.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2022-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ }
+]

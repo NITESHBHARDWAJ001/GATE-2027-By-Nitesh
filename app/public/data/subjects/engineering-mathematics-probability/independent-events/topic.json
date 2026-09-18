@@ -1,0 +1,23 @@
+{
+ "topicId": "engineering-mathematics-probability:independent-events",
+ "subjectId": "engineering-mathematics-probability",
+ "subject": "Engineering Mathematics - Probability",
+ "name": "Independent Events",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 1994-2025.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  1994,
+  1999,
+  2000,
+  2023,
+  2024,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

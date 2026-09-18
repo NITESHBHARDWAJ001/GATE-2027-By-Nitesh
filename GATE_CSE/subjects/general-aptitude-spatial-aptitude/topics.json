@@ -1,0 +1,163 @@
+[
+ {
+  "topicSlug": "paper-folding",
+  "name": "Paper Folding",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2021,
+   2024,
+   2025
+  ],
+  "recentYearsCovered": [
+   2021,
+   2024,
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-spatial-aptitude__10.6.1",
+   "general-aptitude-spatial-aptitude__10.6.2",
+   "general-aptitude-spatial-aptitude__10.6.3",
+   "general-aptitude-spatial-aptitude__10.6.4",
+   "general-aptitude-spatial-aptitude__10.6.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 2021-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "patterns-in-two-dimensions",
+  "name": "Patterns In Two Dimensions",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2021,
+   2022,
+   2026
+  ],
+  "recentYearsCovered": [
+   2021,
+   2022,
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-spatial-aptitude__10.8.1",
+   "general-aptitude-spatial-aptitude__10.8.2",
+   "general-aptitude-spatial-aptitude__10.8.3",
+   "general-aptitude-spatial-aptitude__10.8.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2021-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "image-rotation",
+  "name": "Image Rotation",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2022,
+   2023,
+   2024
+  ],
+  "recentYearsCovered": [
+   2022,
+   2023,
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-spatial-aptitude__10.4.1",
+   "general-aptitude-spatial-aptitude__10.4.2",
+   "general-aptitude-spatial-aptitude__10.4.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2022-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "patterns-in-three-dimensions",
+  "name": "Patterns In Three Dimensions",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2023,
+   2024
+  ],
+  "recentYearsCovered": [
+   2023,
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-spatial-aptitude__10.7.1",
+   "general-aptitude-spatial-aptitude__10.7.2",
+   "general-aptitude-spatial-aptitude__10.7.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2023-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "3d-structure",
+  "name": "3d Structure",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-spatial-aptitude__10.1.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "assembling",
+  "name": "Assembling",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-spatial-aptitude__10.2.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "assembling-pieces",
+  "name": "Assembling Pieces",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2021
+  ],
+  "recentYearsCovered": [
+   2021
+  ],
+  "pyqIds": [
+   "general-aptitude-spatial-aptitude__10.3.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2021-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "mirror-image",
+  "name": "Mirror Image",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-spatial-aptitude__10.5.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ }
+]

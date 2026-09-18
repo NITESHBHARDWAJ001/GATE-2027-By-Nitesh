@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-combinatory:modular-arithmetic",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MODULA-01",
+   "patternId": "P3_MODULAR_ARITHMETIC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "2^10 mod 7?",
+   "solutionApproach": "2^3=1 mod 7; 2^10=2^1.",
+   "answer": "2"
+  }
+ ]
+}

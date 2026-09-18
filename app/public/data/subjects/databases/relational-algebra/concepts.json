@@ -1,0 +1,43 @@
+{
+ "overview": "Relational algebra ek procedural query language hai: select (sigma), project (pi), union, difference, cross product, rename, aur derived operators join, division. GATE me 4 kaam aate hain: expression ka output/tuple count, expression ka matlab, equivalence/optimization, aur 'for all' wali queries (division).",
+ "whyItMatters": "33 PYQs; 2014 se lagatar aaya hai (NAT tuple count + division-type MCQ).",
+ "coreConcept": "Relations SETS hain (duplicates nahi). Har operator ek relation leta hai aur relation deta hai, isliye expressions ko nest kar sakte hain.",
+ "hinglishExplanation": "sigma rows filter karta hai, pi columns chunta hai (aur duplicates hata deta hai). Join = cross product + condition. Division 'for all' ke liye hai: R / S un values ko deta hai jo S ki HAR row ke saath R me aati hain. 'Kabhi nahi mila' wale sawal difference (minus) se hote hain.",
+ "formalDefinition": "sigma_c(R), pi_A(R), R U S, R - S, R x S, rho, R join_c S = sigma_c(R x S), R / S = pi_X(R) - pi_X((pi_X(R) x S) - R).",
+ "importantProperties": [
+  "Union/intersection/difference ke liye relations union-compatible hone chahiye (same arity, same domains).",
+  "Projection duplicates hata deta hai, isliye output size <= input size.",
+  "|R x S| = |R| x |S|.",
+  "Natural join: common attributes par equality, common columns ek baar. Common attribute na ho to cross product.",
+  "Join size: minimum 0 (koi match nahi), maximum |R| x |S| (jab join attribute ki value sab me same ho). Foreign key join me exactly |R| jitne (referencing side).",
+  "Selection commutative hai; sigma_{c1 and c2} = sigma_c1(sigma_c2). Selection ko join ke neeche push karna optimization hai.",
+  "Projection ko selection ke saath sirf tab swap kar sakte ho jab selection ke attributes projected hon.",
+  "Division: R(A,B) / S(B) = A values jo S ke sab B ke saath hain.",
+  "Outer joins me unmatched rows NULL ke saath aati hain; left outer join >= inner join size.",
+  "Basic algebra me recursion/transitive closure express NAHI ho sakta (e.g., path of any length)."
+ ],
+ "formulas": {
+  "joinSize": "0 <= |R join S| <= |R| x |S|",
+  "fkJoin": "FK -> PK join: |R join S| = |R| (no nulls)",
+  "division": "R/S = pi_A(R) - pi_A((pi_A(R) x S) - R)",
+  "intersection": "R n S = R - (R - S)",
+  "selectCascade": "sigma_{c1 ^ c2}(R) = sigma_c1(sigma_c2(R))"
+ },
+ "keyPropertiesAndIdentities": [
+  "R n S = R - (R - S).",
+  "Join = selection on cross product.",
+  "Selection push-down: sigma_c(R join S) = sigma_c(R) join S jab c sirf R ke attributes par ho."
+ ],
+ "commonPitfalls": [
+  "Division vs difference confuse karna.",
+  "Projection ke baad duplicates ka hat jaana bhool jaana.",
+  "Natural join me common attribute na hone par cross product ban jaana.",
+  "Set difference me order ka dhyaan (R - S != S - R)."
+ ],
+ "standardTechniques": [
+  "Tuples ki table banao aur operator ek ek karke chalao.",
+  "'Every / all' dekhe to division ya double negation (NOT EXISTS ...).",
+  "'Not / never' dekhe to difference use karo."
+ ],
+ "topicId": "db-relational-algebra"
+}

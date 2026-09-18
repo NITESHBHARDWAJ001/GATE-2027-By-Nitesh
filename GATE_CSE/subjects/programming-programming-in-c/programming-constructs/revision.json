@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Assignment + bounded for loops se kya compute ho sakta hai.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Programming Constructs se related sawal.",
+   "thinkThis": "P4_PROGRAMMING_CONSTRUCTS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Terminating ko complete maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:programming-constructs",
+ "revisionLevel": "short-form"
+}

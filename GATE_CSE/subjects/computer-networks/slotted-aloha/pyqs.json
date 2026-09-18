@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "computer-networks__2.31.1",
+  "localId": "2.31.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "slotted-aloha",
+  "topic": "Slotted Aloha",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "29",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "0.4404",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a LAN with four nodes                                        and . Time is divided into fixed-size slots, and a node can begin its transmission only at the beginning of a slot. A collision is said to have occurred if more than one node transmits in the same slot. The probabilities of generation of a frame in a time slot by                          and are and respectively. The probability of sending a frame in the first slot without any collision by any of these four stations is__________________.",
+  "tagsRaw": "gatecse-2015-set1 computer-networks  normal    numerical-answers  slotted-aloha",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 150
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_SLOTTED_ALOHA_01"
+ }
+]

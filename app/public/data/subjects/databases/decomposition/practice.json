@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:decomposition",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DECOMP-01",
+   "patternId": "P3_DECOMPOSITION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "R(A,B,C), A->B decomposed (A,B),(A,C). Lossless?",
+   "solutionApproach": "A key of R1.",
+   "answer": "Haan"
+  }
+ ]
+}

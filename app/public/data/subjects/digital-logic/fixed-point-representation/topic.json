@@ -1,0 +1,19 @@
+{
+ "topicId": "digital-logic:fixed-point-representation",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Fixed Point Representation",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "2 PYQs extracted, 2017-2018.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2017,
+  2018
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-graph-theory:counting",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-COUNTI-01",
+   "patternId": "P3_COUNTING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Labeled graphs on 3 vertices?",
+   "solutionApproach": "2^3.",
+   "answer": "8"
+  }
+ ]
+}

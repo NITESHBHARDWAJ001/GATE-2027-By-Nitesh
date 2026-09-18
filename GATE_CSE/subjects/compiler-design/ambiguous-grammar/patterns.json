@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_AMBIGUOUS_GRAMMAR_01",
+  "name": "Ambiguous Grammars (PYQ type)",
+  "recognitionClueHinglish": "Ambiguous Grammars se related sawal.",
+  "whatShouldComeToMind": [
+   "Grammar ambiguous jab kisi string ke do parse trees."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Same string dono tarah derive."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.2.1",
+   "2.2.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Useless non-terminals ko ambiguity maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

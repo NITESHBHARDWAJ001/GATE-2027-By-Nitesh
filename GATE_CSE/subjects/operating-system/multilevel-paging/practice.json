@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:multilevel-paging",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MULTIL-01",
+   "patternId": "P3_MULTILEVEL_PAGING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "32-bit VA, 4 KB pages, 4 B PTE: VPN bits & index bits/level?",
+   "solutionApproach": "VPN 20, entries 1024.",
+   "answer": "20, 10 (2 levels)"
+  }
+ ]
+}

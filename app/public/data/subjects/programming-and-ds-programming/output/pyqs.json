@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "programming-and-ds-programming__4.1.1",
+  "localId": "4.1.1",
+  "subjectId": "programming-and-ds-programming",
+  "subject": "Programming and DS: Programming",
+  "topicSlug": "output",
+  "topic": "Output",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "23",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A;B;D",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following function definition. int fX(char *a) { char *b = a; while (*b) b++; return b - a; } Which of the following statements is/are TRUE? A. The function call fX(\"abcd\") will always return a value B. Assuming a character array c is declared as char c[]= \"abcd\" in main (), the function call fX(c) will always return a value C. The code of the function will not compile D. Assuming a character pointer c is declared as char *c=\"abcd\" in main (), the function call fX(c) will always return a value",
+  "tagsRaw": "gatecse-2024-set2 programming  programming-in-c  multiple-selects  output  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 265
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_OUTPUT_01"
+ }
+]

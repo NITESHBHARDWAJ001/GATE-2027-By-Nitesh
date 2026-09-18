@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Grid me pattern (cross/circle counts) se relation.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Number/Grid Relations se related sawal.",
+   "thinkThis": "P3_NUMBER_RELATIONS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Figure data missing in text."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:number-relations",
+ "revisionLevel": "short-form"
+}

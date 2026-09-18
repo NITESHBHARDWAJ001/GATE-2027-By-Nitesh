@@ -1,0 +1,21 @@
+{
+ "overview": "Polygons, tile patterns, area division.",
+ "whyItMatters": "4 PYQs extracted (2021-2026); P3 topic.",
+ "coreConcept": "Polygons, tile patterns, area division.",
+ "hinglishExplanation": "Symmetry, area equality aur convexity properties.",
+ "formalDefinition": "Polygons, tile patterns, area division.",
+ "importantProperties": [
+  "Convex polygon: line segment inside.",
+  "Tiling: no gaps/overlap."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Figure text me missing."
+ ],
+ "standardTechniques": [
+  "1. Pattern.",
+  "2. Symmetry."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:patterns-in-two-dimensions"
+}

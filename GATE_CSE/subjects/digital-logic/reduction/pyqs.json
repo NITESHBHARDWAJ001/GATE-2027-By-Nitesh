@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "digital-logic__4.32.1",
+  "localId": "4.32.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "reduction",
+  "topic": "Reduction",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "11",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A;C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following Boolean expression of a function : Which of the following expressions is/are equivalent to ? A.                                                                                     B. C.                                                                                     D.",
+  "tagsRaw": "gatecse-2026-set1 digital-logic boolean-algebra reduction multiple-selects one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 359
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_REDUCTION_01"
+ }
+]

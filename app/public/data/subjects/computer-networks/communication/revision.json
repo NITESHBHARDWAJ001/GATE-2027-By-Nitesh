@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Store-and-forward delays, satellite links, statistical TDM, polling.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Communication Delay (Transmission, Propagation) se related sawal.",
+   "thinkThis": "P3_COMMUNICATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Units (bits/bytes, ms/s)."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:communication",
+ "revisionLevel": "short-form"
+}

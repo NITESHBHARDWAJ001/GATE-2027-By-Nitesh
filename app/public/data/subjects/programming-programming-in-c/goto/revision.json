@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Unrestricted goto program structure aur verification mushkil banata.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "goto Statement se related sawal.",
+   "thinkThis": "P4_GOTO_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Performance argument."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:goto",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,24 @@
+{
+ "coreIdea": "Class A /8, B /16, C /24; usable hosts 2^h - 2.",
+ "mustRememberFormulas": [
+  "hosts: 2^h - 2"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Class ya mask; number of networks/hosts.",
+   "thinkThis": "IPA_COUNT_01"
+  },
+  {
+   "seeThis": "Multiple IPs, prefix of range, DNS lookup steps.",
+   "thinkThis": "IPA_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "-2."
+ ],
+ "highYieldPyqLessons": [
+  "Mask arithmetic; see also Subnetting."
+ ],
+ "topicId": "computer-networks:ip-addressing",
+ "revisionLevel": "short-form"
+}

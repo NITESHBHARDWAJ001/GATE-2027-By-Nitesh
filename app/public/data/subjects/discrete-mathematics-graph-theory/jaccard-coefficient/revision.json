@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Two sets ka |A n B| / |A u B|; spanning tree edge-sets ke liye.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Jaccard Coefficient on Spanning Trees se related sawal.",
+   "thinkThis": "P3_JACCARD_COEFFICIENT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Union me double count."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:jaccard-coefficient",
+ "revisionLevel": "short-form"
+}

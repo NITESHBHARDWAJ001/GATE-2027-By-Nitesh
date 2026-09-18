@@ -1,0 +1,42 @@
+{
+  "topicId": "prog-c-pointers",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-PTR-01",
+      "patternId": "PTR_ARITHMETIC_TRACE_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "int a[] = {10,20,30,40}; int *p = a; p = p + 2; printf(\"%d\", *p);  What is printed?",
+      "solutionApproach": "p starts at a[0]. p+2 moves 2 ints ahead → points to a[2]=30.",
+      "answer": "30"
+    },
+    {
+      "practiceId": "AI-PTR-02",
+      "patternId": "PTR_DANGLING_SAFETY_02",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "int* makeIt() { int x = 42; return &x; }  Is it safe to dereference the pointer returned by makeIt()?",
+      "solutionApproach": "x is a local (stack) variable — its storage is deallocated once makeIt() returns. The returned pointer is dangling. Undefined behavior to dereference it.",
+      "answer": "No — dangling pointer, x's stack storage no longer exists after return."
+    },
+    {
+      "practiceId": "AI-PTR-03",
+      "patternId": "PTR_DECLARATION_SYNTAX_03",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "What does 'char *(*f[10])(int)' declare?",
+      "solutionApproach": "Right-left rule: f is an array[10] of (pointer to (function(int) returning (pointer to char))). So: f is an array of 10 pointers to functions, each taking an int and returning a char*.",
+      "answer": "f is an array of 10 pointers to functions that take an int argument and return a char*."
+    },
+    {
+      "practiceId": "AI-PTR-04",
+      "patternId": "PTR_PASS_BY_REF_04",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "void inc(int *p) { (*p)++; } int main() { int x=5; inc(&x); inc(&x); printf(\"%d\",x); }  What is printed?",
+      "solutionApproach": "Each inc(&x) call increments x directly via the pointer. Starting at 5, two increments → 7.",
+      "answer": "7"
+    }
+  ]
+}

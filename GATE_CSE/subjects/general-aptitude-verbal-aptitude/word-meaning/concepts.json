@@ -1,0 +1,21 @@
+{
+ "overview": "Correct usage, match, odd one.",
+ "whyItMatters": "5 PYQs extracted (2014-2020); P3 topic.",
+ "coreConcept": "Correct usage, match, odd one.",
+ "hinglishExplanation": "Word ka context aur nuance.",
+ "formalDefinition": "Correct usage, match, odd one.",
+ "importantProperties": [
+  "Paraphrase = rewording.",
+  "Synonym vs odd word."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Similar words confuse."
+ ],
+ "standardTechniques": [
+  "1. Meaning.",
+  "2. Context."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:word-meaning"
+}

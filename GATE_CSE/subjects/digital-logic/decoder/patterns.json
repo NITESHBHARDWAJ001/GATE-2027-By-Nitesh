@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_DECODER_01",
+  "name": "Decoders (PYQ type)",
+  "recognitionClueHinglish": "Decoders se related sawal.",
+  "whatShouldComeToMind": [
+   "n-to-2^n; larger decoder from smaller with enable."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. n.",
+   "2. 2^n."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.11.1",
+   "4.11.2",
+   "4.11.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Input aur output lines ulta."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

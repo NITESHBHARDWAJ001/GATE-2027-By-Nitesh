@@ -1,0 +1,25 @@
+{
+ "overview": "Derivative rules, differentiability at a point, piecewise functions, polynomials degree, numerical derivative.",
+ "whyItMatters": "11 PYQs extracted (1996-2026); P2 topic.",
+ "coreConcept": "Differentiable => continuous (converse false). Piecewise function me junction par left = right derivative chahiye.",
+ "hinglishExplanation": "Piecewise function ke parameters ke liye continuity aur derivative dono equations lagao. |x| jaise corner par differentiable nahi. Product/quotient/chain rules.",
+ "formalDefinition": "Differentiable => continuous (converse false). Piecewise function me junction par left = right derivative chahiye.",
+ "importantProperties": [
+  "Differentiable => continuous.",
+  "Piecewise junction: value aur derivative match.",
+  "Degree of f' = n-1 (nonconstant polynomial).",
+  "Second derivative approx: (f(x+h)-2f(x)+f(x-h))/h^2.",
+  "Sum/product of differentiable functions differentiable."
+ ],
+ "formulas": {
+  "secondDeriv": "(f(x+h)-2f(x)+f(x-h))/h^2"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Continuity aur differentiability confuse."
+ ],
+ "standardTechniques": [
+  "Junction equations."
+ ],
+ "topicId": "engineering-mathematics-calculus:differentiation"
+}

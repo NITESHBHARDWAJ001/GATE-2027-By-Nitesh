@@ -1,0 +1,22 @@
+{
+ "topicId": "algorithms:searching",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Searching (Linear, Binary, Bitonic)",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "8 PYQs extracted, 1996-2025.",
+ "pyqCountExtracted": 8,
+ "yearsCovered": [
+  1996,
+  2002,
+  2008,
+  2017,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

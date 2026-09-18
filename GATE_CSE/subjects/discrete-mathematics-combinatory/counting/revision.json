@@ -1,0 +1,26 @@
+{
+ "coreIdea": "Counting = multiplication/addition principle + bijection with known objects.",
+ "mustRememberFormulas": [
+  "catalan: C(2n,n)/(n+1)",
+  "subsetPairs: 3^n"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Trees, parenthesisation, substrings.",
+   "thinkThis": "CNT_STRUCTURES_01"
+  },
+  {
+   "seeThis": "Jobs-computers assignment, subset tuples.",
+   "thinkThis": "CNT_CONSTRAINED_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Empty string.",
+  "Overcount."
+ ],
+ "highYieldPyqLessons": [
+  "Element-wise choice counting."
+ ],
+ "topicId": "discrete-mathematics-combinatory:counting",
+ "revisionLevel": "short-form"
+}

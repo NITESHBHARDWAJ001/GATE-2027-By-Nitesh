@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Tuple/domain relational calculus expressions; algebra ke equivalent; safe expressions.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Relational Calculus se related sawal.",
+   "thinkThis": "P3_RELATIONAL_CALCULUS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Unsafe expression ko valid maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:relational-calculus",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,140 @@
+[
+ {
+  "patternId": "DSK_CAPACITY_01",
+  "name": "Capacity / Geometry / Address Calculation",
+  "recognitionClueHinglish": "Tracks, surfaces, sectors, bytes diye; capacity ya cylinders ya sector address.",
+  "whatShouldComeToMind": [
+   "Multiplication of geometry."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Parameters likho.",
+   "2. Multiply / divide.",
+   "3. Units check."
+  ],
+  "formulasUsed": [
+   "capacity",
+   "sectorAddress"
+  ],
+  "pyqExamples": [
+   "5.7.1",
+   "5.7.2",
+   "5.7.4",
+   "5.7.15",
+   "5.7.17",
+   "5.7.18",
+   "5.7.21",
+   "5.7.25",
+   "5.7.28",
+   "5.7.29"
+  ],
+  "variationsObserved": [
+   "Unformatted vs formatted capacity."
+  ],
+  "commonTraps": [
+   "Sectors overhead bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DSK_ACCESS_TIME_02",
+  "name": "Access / Read Time of a File or Records",
+  "recognitionClueHinglish": "Seek, RPM, sector size diye; file/records read karne ka total time.",
+  "whatShouldComeToMind": [
+   "seek + latency + transfer."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Ek access ka time.",
+   "2. Kitni accesses (sequential vs random).",
+   "3. Total."
+  ],
+  "formulasUsed": [
+   "avgRotLatency",
+   "accessTime"
+  ],
+  "pyqExamples": [
+   "5.7.6",
+   "5.7.19",
+   "5.7.23",
+   "5.7.24",
+   "5.7.26",
+   "5.7.30"
+  ],
+  "variationsObserved": [
+   "Sequential file me sirf ek baar seek."
+  ],
+  "commonTraps": [
+   "Har record ke liye seek maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DSK_FS_LAYOUT_03",
+  "name": "File-System Layout Numerics (inode, FAT, free list, block size)",
+  "recognitionClueHinglish": "Inode direct/indirect pointers se max file size, FAT overhead, free list bits, block-size choice.",
+  "whatShouldComeToMind": [
+   "Pointers per block = block size / address size."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Pointers per block.",
+   "2. Direct + single + double + triple sum.",
+   "3. Multiply block size."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.7.5",
+   "5.7.8",
+   "5.7.9",
+   "5.7.12",
+   "5.7.13",
+   "5.7.20",
+   "5.7.22",
+   "5.7.27"
+  ],
+  "variationsObserved": [
+   "Max file size given address size."
+  ],
+  "commonTraps": [
+   "Address size vs block size confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DSK_CONCEPT_04",
+  "name": "Disk Concepts (RAID, device driver, formatting, root dir, swap)",
+  "recognitionClueHinglish": "Direct concept/definition wale sawal.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Definition yaad."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.7.3",
+   "5.7.7",
+   "5.7.10",
+   "5.7.11",
+   "5.7.14",
+   "5.7.16"
+  ],
+  "variationsObserved": [
+   "Seek latency non-linear."
+  ],
+  "commonTraps": [
+   "Options me subtle wording."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

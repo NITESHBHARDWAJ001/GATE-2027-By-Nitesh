@@ -1,0 +1,20 @@
+{
+ "overview": "ADT: data + operations, implementation hidden.",
+ "whyItMatters": "1 PYQs extracted (2005-2005); P4 topic.",
+ "coreConcept": "ADT: data + operations, implementation hidden.",
+ "hinglishExplanation": "Interface alag, implementation alag.",
+ "formalDefinition": "ADT: data + operations, implementation hidden.",
+ "importantProperties": [
+  "ADT abstract class nahi.",
+  "Data hiding."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Class se confuse."
+ ],
+ "standardTechniques": [
+  "1. Definition."
+ ],
+ "topicId": "programming-and-ds-data-structures:abstract-data-type"
+}

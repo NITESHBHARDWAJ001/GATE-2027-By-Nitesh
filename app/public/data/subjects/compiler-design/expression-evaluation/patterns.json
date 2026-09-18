@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P4_EXPRESSION_EVALUATION_01",
+  "name": "Expression Evaluation and Stacks (PYQ type)",
+  "recognitionClueHinglish": "Expression Evaluation and Stacks se related sawal.",
+  "whatShouldComeToMind": [
+   "Bina function calls ke expression ek stack se evaluate; expression tree me minimum registers."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Postfix.",
+   "2. Stack."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.10.1",
+   "2.10.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Do stacks maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

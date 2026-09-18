@@ -1,0 +1,33 @@
+{
+  "topicId": "cd-lr-parser",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-LR-01",
+      "patternId": "LR_POWER_COMPARISON_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "If a grammar has NO shift-reduce conflict under Canonical LR(1), can LALR(1) (built by merging states) introduce one?",
+      "solutionApproach": "No — merging states with the same LR(0) core never introduces a NEW shift-reduce conflict. It can only potentially introduce a new reduce-reduce conflict (since merged lookaheads can create ambiguity between which reduce to apply).",
+      "answer": "No — LALR merging never creates new shift-reduce conflicts, only possibly new reduce-reduce conflicts."
+    },
+    {
+      "practiceId": "AI-LR-02",
+      "patternId": "LR_POWER_COMPARISON_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Which is generally true: SLR(1) parser has MORE states than LALR(1), or the SAME number?",
+      "solutionApproach": "SAME number — both SLR(1) and LALR(1) are built on the underlying LR(0) automaton's state structure; they differ only in HOW lookaheads are computed/assigned for reduce decisions, not in the number of states.",
+      "answer": "Same number of states (both based on the LR(0) automaton)."
+    },
+    {
+      "practiceId": "AI-LR-03",
+      "patternId": "LR_TRACE_03",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "An LR parser is parsing input. Is it constructing a leftmost or rightmost derivation, and in what direction (forward or reverse)?",
+      "solutionApproach": "LR parsers construct the RIGHTMOST derivation, but trace it in REVERSE (starting from the input string and working back toward the start symbol via reductions).",
+      "answer": "Rightmost derivation, traced in reverse."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+ "coreIdea": "Effective address (EA) = operand ka address, mode ke rule se banta hai.",
+ "mustRememberFormulas": [
+  "indexed: EA = A + Xi",
+  "relative: EA = PC + offset"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Position independent / relocation / array / struct / stack ke liye mode.",
+   "thinkThis": "AM_CONCEPT_01"
+  },
+  {
+   "seeThis": "Instruction format aur register/memory values; final EA ya result.",
+   "thinkThis": "AM_EA_CALC_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "PC increment.",
+  "Relative vs indexed."
+ ],
+ "highYieldPyqLessons": [
+  "Concept matching repeats since 1987; relative = PIC."
+ ],
+ "topicId": "co-architecture:addressing-modes",
+ "revisionLevel": "short-form"
+}

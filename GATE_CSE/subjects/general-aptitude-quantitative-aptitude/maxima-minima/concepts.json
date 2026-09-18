@@ -1,0 +1,20 @@
+{
+ "overview": "Simple optimization: AM-GM, quadratic vertex.",
+ "whyItMatters": "2 PYQs extracted (2012-2017); P3 topic.",
+ "coreConcept": "Simple optimization: AM-GM, quadratic vertex.",
+ "hinglishExplanation": "Vertex x=-b/2a.",
+ "formalDefinition": "Simple optimization: AM-GM, quadratic vertex.",
+ "importantProperties": [
+  "Quadratic extremum at vertex.",
+  "AM>=GM."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Range restrict."
+ ],
+ "standardTechniques": [
+  "1. Vertex."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:maxima-minima"
+}

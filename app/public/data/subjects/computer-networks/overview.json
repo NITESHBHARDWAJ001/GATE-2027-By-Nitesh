@@ -1,0 +1,19 @@
+{
+ "subjectId": "computer-networks",
+ "name": "Computer Networks",
+ "sourceVolume": "volume3",
+ "sourcePdf": "filter1_volume3 (1).pdf",
+ "totalTopics": 38,
+ "totalPyqsExtracted": 226,
+ "priorityDistribution": {
+  "P1": 2,
+  "P2": 12,
+  "P3": 21,
+  "P4": 3
+ },
+ "p1Topics": [
+  "Subnetting",
+  "TCP"
+ ],
+ "processingStatus": "all_P1_topics_complete (2/2)"
+}

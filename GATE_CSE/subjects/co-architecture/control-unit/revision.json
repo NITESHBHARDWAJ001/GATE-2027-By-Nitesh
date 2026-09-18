@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Microprogrammed easy to modify par slower; hardwired fast.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Control Unit (Hardwired vs Microprogrammed) se related sawal.",
+   "thinkThis": "P4_CONTROL_UNIT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Microprogrammed ko faster maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:control-unit",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,149 @@
+[
+ {
+  "patternId": "PR_COUNTING_01",
+  "name": "Classical Probability by Counting (dice, coins, cards, balls)",
+  "recognitionClueHinglish": "Fair dice/coins/cards/balls; favourable / total nikaalna.",
+  "whatShouldComeToMind": [
+   "Favourable over total; complement for 'at least'."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Total outcomes.",
+   "2. Favourable outcomes (combinations/permutations).",
+   "3. Ratio ya 1 - complement."
+  ],
+  "formulasUsed": [
+   "atLeastOne"
+  ],
+  "pyqExamples": [
+   "7.13.1",
+   "7.13.2",
+   "7.13.3",
+   "7.13.4",
+   "7.13.6",
+   "7.13.7",
+   "7.13.8",
+   "7.13.10",
+   "7.13.11",
+   "7.13.12",
+   "7.13.14",
+   "7.13.20",
+   "7.13.23",
+   "7.13.24",
+   "7.13.25",
+   "7.13.28",
+   "7.13.29",
+   "7.13.31"
+  ],
+  "variationsObserved": [
+   "Divisor / digit / birthday style counting."
+  ],
+  "commonTraps": [
+   "Ordered vs unordered mixing."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "PR_CONDITIONAL_BAYES_02",
+  "name": "Conditional Probability, Total Probability and Bayes",
+  "recognitionClueHinglish": "'Given that' / 'known that' / multiple sources (coins, machines) aur posterior.",
+  "whatShouldComeToMind": [
+   "Reduced sample space or Bayes."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Partition events.",
+   "2. Total probability.",
+   "3. Bayes for posterior."
+  ],
+  "formulasUsed": [
+   "conditional",
+   "bayes",
+   "total"
+  ],
+  "pyqExamples": [
+   "7.13.9",
+   "7.13.13",
+   "7.13.18",
+   "7.13.21",
+   "7.13.22",
+   "7.13.27"
+  ],
+  "variationsObserved": [
+   "Fake vs regular coin.",
+   "Polya urn."
+  ],
+  "commonTraps": [
+   "Wrong conditioning denominator."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "PR_SET_LAWS_03",
+  "name": "Event Algebra: Union, Independence, Mutual Exclusivity",
+  "recognitionClueHinglish": "Do events ke P(A), P(B), P(A u B) diye; missing probability ya truth of statements.",
+  "whatShouldComeToMind": [
+   "Inclusion-exclusion."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Union formula lagao.",
+   "2. Independence check.",
+   "3. Bounds (max/min) ke liye extreme cases."
+  ],
+  "formulasUsed": [
+   "union",
+   "indep"
+  ],
+  "pyqExamples": [
+   "7.13.5",
+   "7.13.15",
+   "7.13.19",
+   "7.13.26",
+   "7.13.30"
+  ],
+  "variationsObserved": [
+   "Maximum value under constraints."
+  ],
+  "commonTraps": [
+   "Exclusive = independent maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "PR_REPEATED_SEQ_04",
+  "name": "Repeated Trials / Sequential Experiments",
+  "recognitionClueHinglish": "Experiment tab tak repeat jab tak result na aaye; final probability geometric series se.",
+  "whatShouldComeToMind": [
+   "Geometric series / recursion."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Ek round me success probability.",
+   "2. Repeat probability.",
+   "3. p / (1 - q) type sum."
+  ],
+  "formulasUsed": [
+   "total"
+  ],
+  "pyqExamples": [
+   "7.13.16",
+   "7.13.17"
+  ],
+  "variationsObserved": [
+   "Tie par re-roll."
+  ],
+  "commonTraps": [
+   "Recursion ki base-case galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

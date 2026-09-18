@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Ages ke constraints se ordering.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Age Relations se related sawal.",
+   "thinkThis": "P4_AGE_RELATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Extra assumption."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:age-relation",
+ "revisionLevel": "short-form"
+}

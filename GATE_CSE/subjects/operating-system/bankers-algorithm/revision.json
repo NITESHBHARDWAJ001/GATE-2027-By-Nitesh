@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Safe state check: Need = Max - Allocation; work vector se sequence.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Banker's Algorithm se related sawal.",
+   "thinkThis": "P3_BANKERS_ALGORITHM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Available update bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:bankers-algorithm",
+ "revisionLevel": "short-form"
+}

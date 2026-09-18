@@ -1,0 +1,18 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:compound-interest",
+ "subjectId": "general-aptitude-quantitative-aptitude",
+ "subject": "General Aptitude - Quantitative Aptitude",
+ "name": "Compound Interest",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2024-2024.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:dual-function",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DUAL-F-01",
+   "patternId": "P4_DUAL_FUNCTION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Self-dual functions of 2 variables?",
+   "solutionApproach": "2^(2).",
+   "answer": "4"
+  }
+ ]
+}

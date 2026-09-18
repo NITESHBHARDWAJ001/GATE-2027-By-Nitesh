@@ -1,0 +1,22 @@
+{
+  "topicId": "algorithms-time-complexity",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "name": "Time Complexity",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "31 PYQs extracted, tested 1988-2026. Third and final Foundations-track Algorithms topic — applies Asymptotic Notations + Recurrence Relation to concrete code and algorithmic problems.",
+  "pyqCountExtracted": 31,
+  "yearsCovered": [1988,1989,1993,1999,2000,2003,2004,2006,2007,2008,2010,2014,2015,2017,2019,2024,2026],
+  "prerequisites": [
+    {"topic": "Asymptotic Notations", "subjectId": "algorithms", "why": "Time complexity answers are expressed/compared in O/Ω/Θ."},
+    {"topic": "Recurrence Relation", "subjectId": "algorithms", "why": "Recursive algorithms' time complexity is found by setting up and solving a recurrence."}
+  ],
+  "unlocks": [
+    {"topic": "Sorting", "subjectId": "algorithms", "why": "Sorting algorithm complexity analysis directly uses loop-counting and comparison-bound techniques."},
+    {"topic": "Graph Search", "subjectId": "algorithms", "why": "BFS/DFS complexity analysis is a direct application of loop/edge-counting technique."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

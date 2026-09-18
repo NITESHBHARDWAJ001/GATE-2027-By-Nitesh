@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "programming-programming-in-c__5.14.1",
+  "localId": "5.14.1",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "runtime-environment",
+  "topic": "Runtime Environment",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "In C runtime environment, which one of the following is stored in heap? A. A static variable declared inside a function B. An array of integers declared inside a function C. A dynamically allocated array of integers created using malloc() function call D. Return address of a function",
+  "tagsRaw": "gatecse-2026-set2 programming-in-c  runtime-environment  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 311
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_RUNTIME_ENVIRONMENT_01"
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "digital-logic__4.9.1",
+  "localId": "4.9.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "combinational-circuit",
+  "topic": "Combinational Circuit",
+  "year": 2022,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "30",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a digital display system                  shown in the figure that displays the contents of register A code word is used to load a word in either from or from                           is a   word memory segment and is a word register file. Based on the value of mode bit                       selects an input word to load in and interface with the corresponding bits in the code word to choose the addressed word. Which one of the following represents the functionality of          and A. is  multiplexer                                 is                     multiplexer     is  multiplexer B. is    decoder C. is    decoder                                   is                     decoder         is  encoder D. is de-multiplexer                              is                     decoder         is  multiplexer is                     de-multiplexer  is  multiplexer",
+  "tagsRaw": "gatecse-2022 digital-logic  combinational-circuit  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 308
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COMBINATIONAL_CIRCUIT_01"
+ },
+ {
+  "pyqId": "digital-logic__4.9.2",
+  "localId": "4.9.2",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "combinational-circuit",
+  "topic": "Combinational Circuit",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "18",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A;C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the circuit shown below where the gates may have propagation delays. Assume that all signal transitions occur instantaneously and that wires have no delays. Which of the following statements about the circuit is/are CORRECT? A. With no propagation delays, the output is always logic Zero                                transitions from logic Zero to logic B. With no propagation delays, the output is always logic One                                 transitions from logic One to logic C. With propagation delays, the output can have a transient logic One after One D. With propagation delays, the output can have a transient logic Zero after Zero",
+  "tagsRaw": "gatecse-2024-set1 multiple-selects  digital-logic  combinational-circuit  one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 308
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COMBINATIONAL_CIRCUIT_01"
+ }
+]

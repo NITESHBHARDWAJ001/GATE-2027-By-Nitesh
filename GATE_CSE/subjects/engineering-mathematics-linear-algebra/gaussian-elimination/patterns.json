@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_GAUSSIAN_ELIMINATION_01",
+  "name": "Gaussian Elimination Cost (PYQ type)",
+  "recognitionClueHinglish": "Gaussian Elimination Cost se related sawal.",
+  "whatShouldComeToMind": [
+   "Operations count ~ n^3/3 multiplications."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sum over columns."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.4.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "n^2 maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "patternId": "GQP_COUNTING_01",
+  "name": "Counting-Based Aptitude Probability",
+  "recognitionClueHinglish": "Dice, socks, chocolates, digits; favourable/total.",
+  "whatShouldComeToMind": [
+   "nCr / product."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Total.",
+   "2. Favourable."
+  ],
+  "formulasUsed": [
+   "complement"
+  ],
+  "pyqExamples": [
+   "9.44.1",
+   "9.44.2",
+   "9.44.3",
+   "9.44.4",
+   "9.44.6",
+   "9.44.7",
+   "9.44.8",
+   "9.44.9",
+   "9.44.10",
+   "9.44.12"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Ordered vs unordered."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "GQP_REPEATED_02",
+  "name": "Repeated Independent Trials",
+  "recognitionClueHinglish": "Die rolled many times, sunny/cloudy days.",
+  "whatShouldComeToMind": [
+   "Binomial."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Per-trial p.",
+   "2. Combination."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.44.5",
+   "9.44.11"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Ordering of outcomes."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

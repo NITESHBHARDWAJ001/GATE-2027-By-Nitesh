@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:cisc-risc-architecture",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CISC-R-01",
+   "patternId": "P3_CISC_RISC_ARCHITECTURE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "RISC me arithmetic memory operands se hota hai?",
+   "solutionApproach": "Nahi, load/store.",
+   "answer": "Nahi"
+  }
+ ]
+}

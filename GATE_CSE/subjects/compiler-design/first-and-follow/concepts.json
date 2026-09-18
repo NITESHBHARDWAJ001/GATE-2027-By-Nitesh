@@ -1,0 +1,24 @@
+{
+ "overview": "Grammar ke FIRST/FOLLOW sets nikalna; LL(1) table ke liye.",
+ "whyItMatters": "6 PYQs extracted (1992-2025); P2 topic.",
+ "coreConcept": "FIRST(A) = A se shuru hone wale strings ke pehle terminals; FOLLOW(A) = A ke turant baad aane wale terminals.",
+ "hinglishExplanation": "FIRST: production ka pehla symbol; epsilon ho to agla bhi. FOLLOW: start symbol me $; A -> aBb me FIRST(b) B ke FOLLOW me; B end me ho to FOLLOW(A) B ke FOLLOW me.",
+ "formalDefinition": "FIRST(A) = A se shuru hone wale strings ke pehle terminals; FOLLOW(A) = A ke turant baad aane wale terminals.",
+ "importantProperties": [
+  "FOLLOW(S) me $.",
+  "A -> aBb: FIRST(b)-{eps} in FOLLOW(B).",
+  "A -> aB ya b nullable: FOLLOW(A) in FOLLOW(B).",
+  "FOLLOW me epsilon nahi hota.",
+  "FIRST epsilon sirf nullable ke liye."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "FOLLOW me epsilon.",
+  "Nullable chain miss."
+ ],
+ "standardTechniques": [
+  "Iterate till no change."
+ ],
+ "topicId": "compiler-design:first-and-follow"
+}

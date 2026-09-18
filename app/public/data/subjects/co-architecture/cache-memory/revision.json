@@ -1,0 +1,28 @@
+{
+  "topicId": "co-architecture-cache-memory",
+  "revisionLevel": "short-form (use for Revision 1/2/3/Final passes, not first-time learning)",
+  "coreIdea": "Cache = small fast memory exploiting locality of reference. Reduces AMAT.",
+  "mustRememberFormulas": [
+    "tag bits + index/set bits + offset bits = total address bits (ALWAYS check this)",
+    "offset = log2(block size)",
+    "#sets = #lines / associativity; index = log2(#sets)",
+    "AMAT = hit time + miss rate × miss penalty (recurse for multi-level, work from last level backward)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "cache size + block size + associativity + address width, asked for TAG/SET/WORD bits", "thinkThis": "CACHE_ADDR_SPLIT_01"},
+    {"seeThis": "multi-level hit rates + access times, asked for average access time", "thinkThis": "CACHE_AMAT_HIERARCHY_02"},
+    {"seeThis": "sequence of block references + replacement policy, asked what's in cache / miss count", "thinkThis": "CACHE_LRU_TRACE_03"},
+    {"seeThis": "C code with nested loop over 2D array, asked which order is cache-friendly", "thinkThis": "CACHE_LOOP_LOCALITY_04"},
+    {"seeThis": "TRUE/FALSE statements about write-through/write-back/inclusion, no numbers", "thinkThis": "CACHE_CONCEPTUAL_POLICY_05"}
+  ],
+  "commonTrapsQuickList": [
+    "#lines ≠ #sets when associativity > 1",
+    "Local vs global miss rate — check which one the question defines before using AMAT recursion",
+    "Inclusion property direction: L1 ⊆ L2, not the reverse",
+    "KB/MB = powers of 2 (2^10, 2^20), not 1000/1000000, unless question says otherwise"
+  ],
+  "highYieldPyqLessons": [
+    "Address-split questions are ~25% of all Cache Memory PYQs — this is the single highest-ROI sub-skill to drill.",
+    "Post-2014 questions increasingly combine two patterns in one question (e.g., address-split + AMAT, or loop-locality + address-split) — practice combining, not just isolated patterns."
+  ]
+}

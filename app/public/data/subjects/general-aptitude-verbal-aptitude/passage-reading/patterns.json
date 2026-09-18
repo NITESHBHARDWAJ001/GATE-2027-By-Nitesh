@@ -1,0 +1,60 @@
+[
+ {
+  "patternId": "PR_INFERENCE_01",
+  "name": "Inference / Best Supported Statement",
+  "recognitionClueHinglish": "Passage se kaunsi baat follow karti hai.",
+  "whatShouldComeToMind": [
+   "Evidence."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Evidence.",
+   "2. Match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.9.1",
+   "11.9.2",
+   "11.9.4",
+   "11.9.5",
+   "11.9.6",
+   "11.9.7",
+   "11.9.8",
+   "11.9.10",
+   "11.9.12"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Extreme words."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "PR_MAIN_IDEA_TONE_02",
+  "name": "Main Idea / Moral / Tone",
+  "recognitionClueHinglish": "Passage ka central idea ya lesson.",
+  "whatShouldComeToMind": [
+   "Summarise."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. One-line summary."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.9.3",
+   "11.9.9",
+   "11.9.11",
+   "11.9.13"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Too narrow."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_CONTEXT_FREE_GRAMMAR_01",
+  "name": "Context-Free Grammars (PYQ type)",
+  "recognitionClueHinglish": "Context-Free Grammars se related sawal.",
+  "whatShouldComeToMind": [
+   "Derivations, language generated, ambiguity, string membership."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Derive strings.",
+   "2. Guess language."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.2.1",
+   "6.2.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Language galat identify."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

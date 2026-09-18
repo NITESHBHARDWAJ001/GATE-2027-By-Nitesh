@@ -1,0 +1,35 @@
+[
+ {
+  "patternId": "P3_MEMORY_MANAGEMENT_01",
+  "name": "Memory Management (PYQ type)",
+  "recognitionClueHinglish": "Memory Management se related sawal.",
+  "whatShouldComeToMind": [
+   "Contiguous allocation, fragmentation, overlays, working set, variable partitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Free list track.",
+   "2. Fit rule apply.",
+   "3. Fragments gino."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.17.1",
+   "5.17.2",
+   "5.17.3",
+   "5.17.4",
+   "5.17.5",
+   "5.17.6",
+   "5.17.7",
+   "5.17.8",
+   "5.17.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Internal aur external fragmentation ulta."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

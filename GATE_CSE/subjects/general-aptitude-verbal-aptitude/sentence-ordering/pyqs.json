@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-verbal-aptitude__11.12.1",
+  "localId": "11.12.1",
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "subject": "General Aptitude: Verbal Aptitude",
+  "topicSlug": "sentence-ordering",
+  "topic": "Sentence Ordering",
+  "year": 2023,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "8",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Which one of the following sentence sequences creates a coherent narrative? i. Once on the terrace, on her way to her small room in the corner, she notices the man right away. ii. She begins to pant by the time she has climbed all the stairs. iii. Mina has bought vegetables and rice at the market, so her bags are heavy. iv. He was leaning against the parapet, watching the traffic below. A. (i), (ii), (iv), (iii)                                                  B. (ii), (iii), (i), (iv) C. (iv), (ii), (i), (iii)                                                  D. (iii), (ii), (i), (iv)",
+  "tagsRaw": "gatecse-2023 verbal-aptitude sentence-ordering two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 361
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SENTENCE_ORDERING_01"
+ },
+ {
+  "pyqId": "general-aptitude-verbal-aptitude__11.12.2",
+  "localId": "11.12.2",
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "subject": "General Aptitude: Verbal Aptitude",
+  "topicSlug": "sentence-ordering",
+  "topic": "Sentence Ordering",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Sequence the following sentences in a coherent passage. : This fortuitous geological event generated a colossal amount of energy and heat that resulted in the rocks rising to an average height of                          across the contact zone. : Thus, the geophysicists tend to think of the Himalayas as an active geological event rather than as a static geological feature. : The natural process of the cooling of this massive edifice absorbed large quantities of atmospheric carbon dioxide, altering the earth's atmosphere and making it better suited for life. : Many millennia ago, a breakaway chunk of bedrock from the Antarctic Plate collided with the massive Eurasian Plate. A.                                 B.                               C.                         D.",
+  "tagsRaw": "gatecse-2024-set2 verbal-aptitude  sentence-ordering  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 361
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SENTENCE_ORDERING_01"
+ }
+]

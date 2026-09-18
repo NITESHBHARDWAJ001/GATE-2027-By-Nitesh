@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-and-ds-data-structures:abstract-data-type",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ABSTRA-01",
+   "patternId": "P4_ABSTRACT_DATA_TYPE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "ADT kya define karta?",
+   "solutionApproach": "Operations.",
+   "answer": "Data + operations"
+  }
+ ]
+}

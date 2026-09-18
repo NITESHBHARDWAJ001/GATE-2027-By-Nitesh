@@ -1,0 +1,23 @@
+{
+ "overview": "Interrupt cycle, handling steps, priority, OS abstraction vs hardware.",
+ "whyItMatters": "6 PYQs extracted (1993-2011); P3 topic.",
+ "coreConcept": "Interrupt cycle, handling steps, priority, OS abstraction vs hardware.",
+ "hinglishExplanation": "Interrupt par current instruction complete, state save, ISR chale, phir return.",
+ "formalDefinition": "Interrupt cycle, handling steps, priority, OS abstraction vs hardware.",
+ "importantProperties": [
+  "Interrupt state save karta hai.",
+  "Fast devices ko higher priority.",
+  "Interrupt overhead vs rate calculation.",
+  "Timer, device, power failure interrupts."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Interrupt ko ignore hota maan lena."
+ ],
+ "standardTechniques": [
+  "1. Sequence likho.",
+  "2. Overhead time."
+ ],
+ "topicId": "operating-system:interrupts"
+}

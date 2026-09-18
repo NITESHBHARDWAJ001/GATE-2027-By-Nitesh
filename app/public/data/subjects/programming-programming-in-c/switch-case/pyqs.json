@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "programming-programming-in-c__5.17.1",
+  "localId": "5.17.1",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "switch-case",
+  "topic": "Switch Case",
+  "year": 2012,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "X",
+  "answerVerified": true,
+  "questionTextRaw": "What will be the output of the following C program segment? char inChar = 'A'; switch ( inChar ) { case 'A' : printf (\"Choice A \\ n\"); case 'B' : case 'C' : printf (\"Choice B\"); case 'D' : case 'E' : default : printf (\"No Choice\"); } A. No Choice                                                             B. Choice A C. Choice A                                                              D. Program gives no output as it is Choice B No Choice                                                       erroneous",
+  "tagsRaw": "gatecse-2012 programming easy programming-in-c switch-case marks-to-all",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 311
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_SWITCH_CASE_01"
+ },
+ {
+  "pyqId": "programming-programming-in-c__5.17.2",
+  "localId": "5.17.2",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "switch-case",
+  "topic": "Switch Case",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 3,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "48",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "10",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following C program: #include<stdio.h> int main() { int i, j, k = 0; j=2 * 3 / 4 + 2.0 / 5 + 8 / 5; k-=--j; for (i=0; i<5; i++) { switch(i+k) { case 1: case 2: printf(\"\\n%d\", i+k); case 3: printf(\"\\n%d\", i+k); default: printf(\"\\n%d\", i+k); } } return 0; } The number of times printf statement is executed is _______.",
+  "tagsRaw": "gatecse-2015-set3 programming  programming-in-c  switch-case  normal  numerical-answers",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 311
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_SWITCH_CASE_01"
+ }
+]

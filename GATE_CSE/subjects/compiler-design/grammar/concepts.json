@@ -1,0 +1,40 @@
+{
+  "topicId": "cd-grammar",
+  "overview": "Compiler Design ka Grammar topic CFG ko PARSING lens se dekhta hai. 5 skills: ambiguity detect/prove karna, grammar transform karna (left-recursion removal, ε-production removal), parser-class determine karna (LL/LR/SLR/LALR), grammar se language identify karna, aur structural properties (operator grammar, cycles) check karna.",
+  "whyItMatters": "47 PYQs, sabse bada Compiler Design topic. LR Parser aur SDT dono isi foundation pe hain.",
+  "coreConcept": "Grammar ambiguous hai agar KISI string ke DO alag parse trees (ya do alag leftmost derivations) hain. Left recursion (A→Aα) predictive/top-down (LL) parsing ke liye PROBLEMATIC hai (infinite loop) — isliye remove karna padta hai. LL(1) = top-down, 1 lookahead se deterministic parse. LR(1)/SLR/LALR = bottom-up, shift-reduce parsing.",
+  "hinglishExplanation": "Ambiguous grammar ko socho ek 'confusing sentence' jaisa — jaise English me 'I saw the man with the telescope' do alag matlab de sakta hai (maine telescope se dekha, YA us aadmi ke paas telescope tha). Grammar me bhi, agar EK hi string ko DO tareeke se build (parse) kar sakte ho, to grammar ambiguous hai — compiler confuse ho jaayega ki kaunsa matlab lena hai. Left recursion ek 'infinite mirror' jaisa hai — agar A apne aapko IMMEDIATELY (bina kuch consume kiye) reference karta hai, top-down parser hamesha usi rule ko try karta rahega, kabhi aage nahi badhega.",
+  "formalDefinition": "A grammar G is ambiguous if some string w∈L(G) has two distinct parse trees (equivalently, two distinct leftmost derivations). Left-recursive: a rule A→Aα exists (direct) or A⇒+Aα (indirect).",
+  "importantProperties": [
+    "LL(1) requires: NO left recursion, NO ambiguity, and for each non-terminal, its alternative productions' FIRST sets (and FOLLOW, if nullable) must be disjoint.",
+    "Every LL(1) grammar is unambiguous, but NOT every unambiguous grammar is LL(1) (LL(1) is a strict subset — some unambiguous grammars still need more lookahead or are inherently non-LL).",
+    "Ambiguous grammars can NEVER be LR(k) for any k — LR parsing fundamentally requires unambiguous grammars.",
+    "SLR(1) ⊊ LALR(1) ⊊ LR(1) — every SLR(1) grammar is LALR(1), every LALR(1) is LR(1), but not conversely (LALR/LR are strictly more powerful, can handle more grammars).",
+    "Left recursion removal: A→Aα|β becomes A→βA', A'→αA'|ε (standard transformation, doesn't change the generated language).",
+    "A grammar with both left AND right recursion for the same non-terminal — CANNOT determine ambiguity from this fact alone (insufficient information; some such grammars are ambiguous, some aren't).",
+    "'Cycles' in a grammar (A⇒+A, deriving itself with no terminals consumed) make it IMPOSSIBLE to be unambiguous in a useful sense — actually cycles specifically break the grammar's usability for deterministic parsing entirely.",
+    "Chomsky Normal Form (CNF): every production is A→BC or A→a (B,C non-terminals, a terminal). A derivation of a string of length n in CNF takes EXACTLY 2n-1 steps (for n≥1)."
+  ],
+  "formulas": {
+    "cnfDerivationSteps": "String of length n (n≥1) in CNF grammar: exactly 2n-1 derivation steps",
+    "leftRecursionRemoval": "A→Aα|β  becomes  A→βA', A'→αA'|ε",
+    "parserHierarchy": "SLR(1) ⊊ LALR(1) ⊊ LR(1); LL(1) ⟹ unambiguous (but not all unambiguous grammars are LL(1))",
+    "ambiguousNeverLRk": "Ambiguous grammar ⟹ NOT LR(k) for any k"
+  },
+  "keyPropertiesAndIdentities": [
+    "Every regular grammar (right-linear) is ALSO LL(1)-compatible in structure generally, but the FALSE claim 'every regular grammar IS automatically LL(1)' needs case-by-case verification — right-linear structure helps but doesn't guarantee LL(1) by itself without checking FIRST/FOLLOW disjointness.",
+    "Every regular SET does have SOME LR(1) grammar (regular ⊆ LR(1)-parseable languages, since regular ⊆ deterministic CFL and DCFL = exactly the LR(1) languages)."
+  ],
+  "commonPitfalls": [
+    "Confusing 'grammar is ambiguous' with 'language is inherently ambiguous' — the SAME language might have both an ambiguous AND an unambiguous grammar (disambiguation is often possible); only some languages are INHERENTLY ambiguous (every grammar for them is ambiguous).",
+    "Assuming left+right recursion together automatically means ambiguous — insufficient information without further analysis.",
+    "Forgetting operator-grammar restrictions: NO ε-productions, and NO two adjacent non-terminals on any RHS (must have a terminal between any two non-terminals) — both violate operator-grammar rules.",
+    "Miscounting CNF derivation steps — it's 2n-1, not n or 2n."
+  ],
+  "standardTechniques": [
+    "For ambiguity detection: try to find TWO different leftmost derivations (or parse trees) for the SAME specific string — the classic dangling-else example is the canonical template to recognize.",
+    "For grammar transformation: apply the standard left-recursion-removal formula mechanically; for ε-production removal, first find all NULLABLE non-terminals, then add alternative productions skipping each nullable occurrence.",
+    "For parser-class determination: compute FIRST/FOLLOW sets, check LL(1) table for conflicts (multiple entries in one cell = not LL(1)); for LR-family, construct the item sets and check for shift-reduce/reduce-reduce conflicts.",
+    "For 'what language does this grammar generate': derive a few short strings, look for the pattern, match against given options by testing each option's example strings for derivability."
+  ]
+}

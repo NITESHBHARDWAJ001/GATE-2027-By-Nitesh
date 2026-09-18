@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Growing aur shrinking phase; conflict serializability; deadlock possible.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Two-Phase Locking se related sawal.",
+   "thinkThis": "P3_TWO_PHASE_LOCKING_PROTOC_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "2PL = serial samajhna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:two-phase-locking-protocol",
+ "revisionLevel": "short-form"
+}

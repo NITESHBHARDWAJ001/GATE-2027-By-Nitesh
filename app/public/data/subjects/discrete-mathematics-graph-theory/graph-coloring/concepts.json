@@ -1,0 +1,25 @@
+{
+ "overview": "Chromatic number, bipartite, planar (4 colours), edge colouring, greedy bounds.",
+ "whyItMatters": "11 PYQs extracted (2002-2024); P2 topic.",
+ "coreConcept": "Bipartite <=> 2-colourable <=> no odd cycle.",
+ "hinglishExplanation": "Cycle even => 2, odd => 3. Complete graph K_n => n. Planar => at most 4. Greedy colouring at most max degree + 1. Edge chromatic number (Vizing) Delta ya Delta+1.",
+ "formalDefinition": "Bipartite <=> 2-colourable <=> no odd cycle.",
+ "importantProperties": [
+  "Chi(K_n)=n; chi(C_odd)=3; chi(bipartite)=2.",
+  "Planar graph: 4 colours suffice.",
+  "Greedy: chi <= Delta+1.",
+  "Vizing: edge chi in {Delta, Delta+1}.",
+  "Chi >= clique size."
+ ],
+ "formulas": {
+  "greedy": "chi <= Delta + 1"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Planar = 3 colours maan lena."
+ ],
+ "standardTechniques": [
+  "Clique + odd cycle check."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:graph-coloring"
+}

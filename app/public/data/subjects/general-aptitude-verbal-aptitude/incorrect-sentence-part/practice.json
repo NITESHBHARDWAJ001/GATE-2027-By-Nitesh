@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:incorrect-sentence-part",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INCORR-01",
+   "patternId": "P4_INCORRECT_SENTENCE_PART_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "'He go to school' galat part?",
+   "solutionApproach": "go.",
+   "answer": "go"
+  }
+ ]
+}

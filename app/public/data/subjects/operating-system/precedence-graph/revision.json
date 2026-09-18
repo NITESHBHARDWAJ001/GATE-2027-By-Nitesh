@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Concurrent statements ka precedence graph; parbegin/parend se kaun sa graph express ho sakta hai.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Precedence Graph and Parbegin/Parend se related sawal.",
+   "thinkThis": "P3_PRECEDENCE_GRAPH_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Har DAG ko parbegin se express karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:precedence-graph",
+ "revisionLevel": "short-form"
+}

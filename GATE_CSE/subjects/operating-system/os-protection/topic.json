@@ -1,0 +1,20 @@
+{
+ "topicId": "operating-system:os-protection",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "OS Protection and System Calls (Mode)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 1999-2005.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  1999,
+  2001,
+  2005
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

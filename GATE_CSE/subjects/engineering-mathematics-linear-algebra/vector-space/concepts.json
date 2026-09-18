@@ -1,0 +1,26 @@
+{
+ "overview": "Linear independence, basis, dimension, subspace intersection/sum, projection, angles.",
+ "whyItMatters": "7 PYQs extracted (1995-2026); P2 topic.",
+ "coreConcept": "dim(U + W) = dim U + dim W - dim(U n W).",
+ "hinglishExplanation": "Basis = linearly independent + spanning; dimension basis ke size ke barabar. Subspaces ki dimension formula se intersection ka minimum dimension milta hai. Projection matrix P^2 = P.",
+ "formalDefinition": "dim(U + W) = dim U + dim W - dim(U n W).",
+ "importantProperties": [
+  "Basis size = dimension.",
+  "dim(U+W) = dimU + dimW - dim(U n W).",
+  "n+1 vectors in R^n dependent.",
+  "Projection P^2=P, symmetric.",
+  "Unit vector perpendicular via cross product / dot product 0.",
+  "Orthogonal vectors dot product 0."
+ ],
+ "formulas": {
+  "dimSum": "dim(U+W) = dimU + dimW - dim(UnW)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Subspace ko subset maan lena."
+ ],
+ "standardTechniques": [
+  "Dimension formula."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:vector-space"
+}

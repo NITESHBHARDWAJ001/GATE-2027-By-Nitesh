@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "databases__3.23.1",
+  "localId": "3.23.1",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "super-key",
+  "topic": "Super Key",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "55",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "6 : 6",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a relational database schema with a relation                                         . If             and    are the only . (answer in two candidate keys of the relation , then the number of superkeys of relation is integer)",
+  "tagsRaw": "gatecse-2026-set1 numerical-answers  databases    super-key   two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 257
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SUPER_KEY_01"
+ }
+]

@@ -1,0 +1,40 @@
+{
+  "topicId": "ds-binary-heap",
+  "overview": "Binary Heap 6+ skills test karta hai: heap-validity check, build-heap/heapify, insertion trace, deletion trace, min/max-finding complexity, array-index formulas (including k-ary generalization), aur structural counting/properties.",
+  "whyItMatters": "30 PYQs, aur Heap Sort + Prim's/Dijkstra's priority queue dono isi structure pe based hain.",
+  "coreConcept": "Binary Heap = Complete Binary Tree + HEAP PROPERTY: Max-Heap me har parent ≥ dono children; Min-Heap me har parent ≤ dono children. NOTE: BST jaisa left<right ordering NAHI hai — sirf parent-child relationship matter karta hai, siblings ke beech koi order guarantee nahi.",
+  "hinglishExplanation": "Heap ko ek 'office hierarchy' socho jahan sirf ye rule hai: boss (parent) apne dono direct reports (children) se senior/bada hona chahiye (max-heap) — lekin do siblings ke beech koi comparison rule nahi hai (ek sibling dusre se bada ya chhota ho sakta hai, koi restriction nahi). Isi wajah se ROOT hamesha max (ya min) hota hai — O(1) me mil jaata hai — lekin doosra sabse bada element root ke DO CHILDREN me se koi ek hoga (guaranteed), teesra sabse bada dhundhna already tricky ho jaata hai.",
+  "formalDefinition": "Max-Heap: for every node v with parent p, value(p) ≥ value(v). Min-Heap: value(p) ≤ value(v). Always a COMPLETE binary tree (filled left to right), stored efficiently in an array.",
+  "importantProperties": [
+    "Root = max (max-heap) or min (min-heap), found in O(1).",
+    "Finding the MINIMUM in a max-heap (or MAXIMUM in a min-heap) requires checking ALL LEAF nodes — there are ⌈n/2⌉ leaves, so this takes Θ(n) in the worst case (can't be done faster since the min/max could be any leaf).",
+    "Insert: place new element at the next available leaf position (maintaining completeness), then 'bubble up' (swap with parent while parent violates heap property) — O(log n).",
+    "Delete (extract root): move the LAST element to the root position, then 'bubble/sift down' (swap with the larger/smaller child while heap property violated) — O(log n).",
+    "Build-Heap (heapify an arbitrary array): call sift-down starting from the LAST INTERNAL node up to the root (NOT top-down insert-one-by-one) — this bottom-up approach achieves O(n) TOTAL, not O(n log n).",
+    "Second-largest element in a max-heap is ALWAYS one of the root's two children (since anything not a direct child of root has some ancestor smaller than one of root's children, by heap property transitivity).",
+    "For a d-ary heap (d children per node, not just 2): parent(i) = ⌊(i-2)/d⌋+1 or similar (1-indexed formulas shift with d); height reduces to O(log_d n), but each sift-down step costs O(d) comparisons — trade-off between height and per-level work."
+  ],
+  "formulas": {
+    "insertComplexity": "O(log n) — bubble up along a root-to-leaf path",
+    "deleteComplexity": "O(log n) — sift down along a root-to-leaf path",
+    "buildHeapComplexity": "O(n) TOTAL using bottom-up sift-down from last internal node to root (NOT O(n log n))",
+    "findOppositeExtremeComplexity": "Θ(n) — must check all ⌈n/2⌉ leaves in the worst case for min-in-max-heap or max-in-min-heap",
+    "dAryHeapHeight": "O(log_d n) height, but O(d) work per level during sift-down/up (trade-off)"
+  },
+  "keyPropertiesAndIdentities": [
+    "Build-Heap is O(n), NOT O(n log n) — this is a classic 'looks like it should be n log n but isn't' GATE trap; the proof relies on most nodes being near the bottom (doing very little sift-down work), summing to a geometric-series-bounded O(n) total.",
+    "A max-heap array is NOT necessarily sorted, and NOT the same as a BST — checking 'is this a valid max-heap' only needs the parent≥children check at every position, nothing about left-vs-right ordering."
+  ],
+  "commonPitfalls": [
+    "Confusing Binary Heap's array-storage/heap-property with BST's ordering property — heaps have NO left<right guarantee, only parent-child.",
+    "Assuming finding the min-in-a-max-heap is O(1) or O(log n) — it's Θ(n), must check all leaves.",
+    "Assuming Build-Heap (heapify) is O(n log n) — the correct bottom-up analysis gives O(n).",
+    "Confusing 'minimum number of SWAPS/interchanges to make an array a valid heap' with a full heapify run count — these numeric-answer questions need the EXACT count from the specific sift-down process, not just the asymptotic bound."
+  ],
+  "standardTechniques": [
+    "For heap-validity checking: verify parent≥children (max) or parent≤children (min) at EVERY internal node position using the array-index parent/child formulas — a single violation disqualifies the array.",
+    "For insert/delete trace questions: explicitly perform bubble-up or sift-down step by step, comparing with parent/children at each step.",
+    "For build-heap/min-interchanges questions: start sift-down from the LAST INTERNAL NODE (index ⌊n/2⌋ in 1-indexed) and work backward to the root, counting actual swaps performed.",
+    "For min/max-of-opposite-extreme questions: default to Θ(n) (must scan leaves) unless the question gives extra structure to exploit."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+ "coreIdea": "Problem ke structure se technique chuno: D&C (split-merge), greedy, DP, ya simple linear scan.",
+ "mustRememberFormulas": [
+  "leader: scan right-to-left O(n)",
+  "maxSub: max(L, R, crossing)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Leader, span, shift, subarray code analysis.",
+   "thinkThis": "AD_ARRAY_TRICKS_01"
+  },
+  {
+   "seeThis": "Max subarray, rod cutting, weighing coins, DFS tree arrays.",
+   "thinkThis": "AD_DIVIDE_CONQUER_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Crossing part miss.",
+  "O(n^2) approach."
+ ],
+ "highYieldPyqLessons": [
+  "Design problems are varied; identify the invariant."
+ ],
+ "topicId": "algorithms:algorithm-design",
+ "revisionLevel": "short-form"
+}

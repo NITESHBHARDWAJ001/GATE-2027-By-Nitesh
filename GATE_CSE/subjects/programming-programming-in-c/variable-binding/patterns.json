@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_VARIABLE_BINDING_01",
+  "name": "Variable Binding and Scope (PYQ type)",
+  "recognitionClueHinglish": "Variable Binding and Scope se related sawal.",
+  "whatShouldComeToMind": [
+   "Static vs dynamic binding se output."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Call chain."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.20.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Scope mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

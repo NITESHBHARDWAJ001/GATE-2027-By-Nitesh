@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Lamport timestamps, read/write timestamps, Thomas write rule.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Timestamp Ordering se related sawal.",
+   "thinkThis": "P3_TIMESTAMP_ORDERING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Recoverability guarantee maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:timestamp-ordering",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,27 @@
+{
+  "topicId": "dl-number-representation",
+  "revisionLevel": "short-form",
+  "coreIdea": "Positional value = Σ digit×base^pos. Two's complement: invert+add1, range -2^(n-1) to 2^(n-1)-1 (asymmetric). Overflow only possible with SAME-sign addition, rule = carry-in≠carry-out at sign bit.",
+  "mustRememberFormulas": [
+    "n-bit two's complement range: -2^(n-1) to 2^(n-1)-1",
+    "n-bit sign-magnitude range: -(2^(n-1)-1) to 2^(n-1)-1, TWO zero representations",
+    "Overflow ⟺ carry-into-sign-bit ≠ carry-out-of-sign-bit",
+    "Opposite-sign addition NEVER overflows"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "convert number between bases, or unknown-base equation", "thinkThis": "NR_BASE_CONVERSION_01"},
+    {"seeThis": "'2's complement representation of X' or 'decode this bit pattern' or range asked", "thinkThis": "NR_TWOSCOMP_REPRESENTATION_02"},
+    {"seeThis": "addition/subtraction, asked if overflow occurs", "thinkThis": "NR_OVERFLOW_03"},
+    {"seeThis": "bit-counting, zero-representation count, floating-point precision", "thinkThis": "NR_BIT_PROPERTIES_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Two's complement range is ASYMMETRIC — one more negative value than positive",
+    "Overflow needs carry-IN vs carry-OUT comparison at sign bit, not just 'any carry'",
+    "Opposite-sign operands can never cause overflow",
+    "Sign-extend (replicate sign bit) when widening negative numbers, don't zero-pad"
+  ],
+  "highYieldPyqLessons": [
+    "Base conversion (18/57) is the single biggest sub-skill — purely mechanical, get it to 100% accuracy fast.",
+    "This is the 2nd-highest-PYQ topic in the ENTIRE corpus — disproportionately high-value for time invested given how formulaic it is."
+  ]
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_BINARY_HEAP_01",
+  "name": "Binary Heap (Algorithms View) (PYQ type)",
+  "recognitionClueHinglish": "Binary Heap (Algorithms View) se related sawal.",
+  "whatShouldComeToMind": [
+   "Array representation, parent/children indices, min-heap properties, max element location."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Index formula.",
+   "2. Leaves range."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.5.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "0-based vs 1-based index."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

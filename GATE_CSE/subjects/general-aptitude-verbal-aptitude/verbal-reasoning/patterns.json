@@ -1,0 +1,56 @@
+[
+ {
+  "patternId": "VR_INFERENCE_01",
+  "name": "What Logically Follows / Assumption",
+  "recognitionClueHinglish": "Passage/statement; logical conclusion.",
+  "whatShouldComeToMind": [
+   "Deduction."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Premises.",
+   "2. Check option."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.17.1",
+   "11.17.2",
+   "11.17.3",
+   "11.17.4",
+   "11.17.5",
+   "11.17.7",
+   "11.17.8",
+   "11.17.9",
+   "11.17.10",
+   "11.17.11"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Over-generalisation."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "VR_PUZZLE_02",
+  "name": "Truth/Lie Puzzle",
+  "recognitionClueHinglish": "Criminals ke statements.",
+  "whatShouldComeToMind": [
+   "Case table."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Assume truth-teller."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.17.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

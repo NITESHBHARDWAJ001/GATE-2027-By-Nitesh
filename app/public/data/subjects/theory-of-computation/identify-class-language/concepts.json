@@ -1,0 +1,36 @@
+{
+  "topicId": "toc-identify-class-language",
+  "overview": "Ye TOC ka CAPSTONE topic hai — ek language di gayi hai, poocha hai wo Chomsky hierarchy me KAHAN fit hoti hai: Regular ⊂ DCFL ⊂ CFL ⊂ CSL ⊂ Recursive ⊂ Recursively Enumerable ⊂ (everything). 4 skills: direct single-language classification, set-operation-combined languages ki classification, cross-class closure properties, aur machine-model equivalence proofs.",
+  "whyItMatters": "31 PYQs. Ye Regular Language + CFL + Decidability teeno topics ka INTEGRATION hai — agar wo teeno solid hain to ye topic bahut fast solve hota hai.",
+  "coreConcept": "Chomsky Hierarchy (strict containment, each level STRICTLY bigger): REGULAR ⊂ DCFL ⊂ CFL ⊂ CONTEXT-SENSITIVE ⊂ RECURSIVE ⊂ RECURSIVELY ENUMERABLE ⊂ (all languages). Classification ka general approach: PEHLE check karo regular hai ya nahi (finite-state test), phir CFL hai ya nahi (single-stack matching test), phir agar dono nahi to RECURSIVE/RE/undecidable ki taraf jao (Decidability topic ke tools use karke).",
+  "hinglishExplanation": "Socho ye ek 'power ladder' hai — Regular sabse KAM powerful (bas finite memory), phir CFL (ek stack), phir Recursive (Turing machine jo HAMESHA rukta hai — decidable), phir Recursively Enumerable (Turing machine jo accept pe rukta hai, reject pe shayad kabhi na ruke). Language classify karne ka tareeka: neeche se upar test karo — pehle regular try karo (sabse simple), phir CFL, phir upar.",
+  "formalDefinition": "Regular ⊊ DCFL ⊊ CFL ⊊ CSL ⊊ Recursive ⊊ RE ⊊ (all languages over Σ). Each containment is STRICT — witnessed by a canonical example language at each boundary.",
+  "importantProperties": [
+    "Canonical boundary-witness languages (memorize these): a*b* (Regular) ⊊ palindromes without marker (needs NPDA, DCFL fails, still CFL) ⊊ a^n b^n c^n (needs CSL/context-sensitive, not CFL) ⊊ Halting-Problem-related languages (Recursively Enumerable but not Recursive) ⊊ complement of Halting Problem (not even RE).",
+    "A language and its COMPLEMENT: if L is Recursive, complement is ALSO Recursive (Recursive is closed under complement). If L is RE but NOT Recursive, complement is NOT RE (this is the exact non-closure boundary).",
+    "FORTRAN/most programming languages are technically CONTEXT-SENSITIVE (not context-free) due to features like 'declare before use' type-checking requirements — a classic GATE trivia fact.",
+    "Turing machine with a READ-ONLY input tape and CONSTANT-SIZE work tape = exactly as powerful as a FINITE AUTOMATON (the bounded work tape can only hold finitely many distinct configurations, collapsing to finite-state power).",
+    "Intersection/union across DIFFERENT hierarchy levels: result belongs to the HIGHER (more powerful) of the two classes, in general (e.g., Regular∩CFL=CFL; Regular∪RE=RE) — EXCEPT for CFL∩CFL which can escape CFL entirely (not simply 'higher class', genuinely breaks out)."
+  ],
+  "formulas": {
+    "chomskyHierarchyChain": "Regular ⊊ DCFL ⊊ CFL ⊊ Context-Sensitive ⊊ Recursive ⊊ RE ⊊ all languages",
+    "recursiveComplementClosure": "L Recursive ⟹ complement(L) Recursive (closed)",
+    "reNotRecursiveComplementNonRE": "L is RE but not Recursive ⟹ complement(L) is NOT RE (the classic non-closure boundary)",
+    "boundedTapeCollapsesToRegular": "Turing machine with read-only input + O(1) work tape ≡ Finite Automaton in power"
+  },
+  "keyPropertiesAndIdentities": [
+    "The 'test order' heuristic: test Regular first (simplest, fastest to check via pumping/Myhill-Nerode), then CFL (single-stack matching test), then reason about Recursive/RE (usually via reduction from/to a known undecidable problem, covered fully in the Decidability topic).",
+    "A language defined via a NUMBER-THEORETIC or DIAGONALIZATION-style construction (like 'the set of n such that TM_n halts on input n') is a strong signal you're in RE/not-Recursive/not-RE territory — these constructions rarely land in Regular/CFL."
+  ],
+  "commonPitfalls": [
+    "Assuming set operations always move UP the hierarchy predictably — CFL∩CFL can jump OUT of CFL entirely (into context-sensitive or beyond), not just 'stay CFL or become the next level up'.",
+    "Confusing 'Recursive' (always halts, decidable) with 'Recursively Enumerable' (halts on YES, may loop forever on NO) — these are genuinely different classes with different closure properties.",
+    "Forgetting that Recursive is closed under complement, but RE (without also being Recursive) is NOT closed under complement — this asymmetry is heavily tested.",
+    "Applying CFL/Regular classification tests to a language that's actually built from a DECIDABILITY-flavored construction (should be tested with Decidability topic tools instead, likely lands in Recursive/RE)."
+  ],
+  "standardTechniques": [
+    "Work BOTTOM-UP through the hierarchy: is it Regular? (quick pumping-lemma/Myhill-Nerode check) → is it CFL? (single-stack-matching test, CFL pumping lemma) → is it Context-Sensitive/Recursive/RE? (usually needs a Decidability-topic-style reduction argument).",
+    "For set-operation-combined languages, apply known closure facts level by level (Regular closed under everything standard; CFL closed under most things except CFL∩CFL and complement; Recursive closed under complement, union, intersection; RE closed under union, intersection, but NOT complement in general).",
+    "For machine-model equivalence questions (like bounded-tape TM = FA), think about what INFORMATION the restricted resource can actually distinguish — if it's finite, the power collapses to finite-state."
+  ]
+}

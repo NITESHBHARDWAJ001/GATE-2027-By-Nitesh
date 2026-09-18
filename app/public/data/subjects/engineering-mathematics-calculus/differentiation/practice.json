@@ -1,0 +1,33 @@
+{
+ "topicId": "engineering-mathematics-calculus:differentiation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DIFFER-01",
+   "patternId": "DIF_PIECEWISE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Is |x| differentiable at 0?",
+   "solutionApproach": "Left slope -1, right +1.",
+   "answer": "No"
+  },
+  {
+   "practiceId": "AI-DIFFEREN-X02",
+   "patternId": "DIF_PIECEWISE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "f(x)=x^2 for x<=1, ax+b for x>1. Differentiable at 1 for what a,b?",
+   "solutionApproach": "Slope at 1 is 2 so a=2; value 1 so 2+b=1, b=-1.",
+   "answer": "a=2, b=-1"
+  },
+  {
+   "practiceId": "AI-DIFFEREN-X03",
+   "patternId": "DIF_RULES_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Degree of derivative of a degree-5 polynomial?",
+   "solutionApproach": "4.",
+   "answer": "4"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:functional-completeness",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-FUNCTI-01",
+   "patternId": "P3_FUNCTIONAL_COMPLETENESS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Is {AND, OR} functionally complete?",
+   "solutionApproach": "NOT nahi ban sakta.",
+   "answer": "Nahi"
+  }
+ ]
+}

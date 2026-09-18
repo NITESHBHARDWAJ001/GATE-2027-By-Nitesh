@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:bellman-ford",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BELLMA-01",
+   "patternId": "P4_BELLMAN_FORD_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Bellman-Ford complexity complete graph (V vertices)?",
+   "solutionApproach": "E=V^2 so V*V^2.",
+   "answer": "O(V^3)"
+  }
+ ]
+}

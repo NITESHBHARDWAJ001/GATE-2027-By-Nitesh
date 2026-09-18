@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "programming-and-ds-data-structures__3.17.1",
+  "localId": "3.17.1",
+  "subjectId": "programming-and-ds-data-structures",
+  "subject": "Programming and DS: Data Structures",
+  "topicSlug": "uniform-hashing",
+  "topic": "Uniform Hashing",
+  "year": 2024,
+  "examStream": "DS&AI",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "11",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B B",
+  "answerVerified": true,
+  "questionTextRaw": "Consider performing uniform hashing on an open address hash table with load factor                           , where elements are stored in the table with slots. The expected number of probes in an unsuccessful search is at most . Inserting an element in this hash table requires at most probes,                            on average. A.                                          B.                                 C.                   D.",
+  "tagsRaw": "gate-ds-ai-2024 data-structures    hashing  uniform-hashing  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 253
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_UNIFORM_HASHING_01"
+ }
+]

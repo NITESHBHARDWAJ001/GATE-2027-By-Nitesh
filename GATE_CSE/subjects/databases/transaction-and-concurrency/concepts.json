@@ -1,0 +1,43 @@
+{
+ "overview": "Transaction = ek logical unit of work. Topics: ACID properties, schedules (serial/serializable/recoverable/cascadeless/strict), conflict serializability (precedence graph), locking (2PL, strict 2PL), timestamp ordering, aur log-based recovery (checkpoint, undo/redo).",
+ "whyItMatters": "27 PYQs; schedule-classification aur 2PL har saal ke paper ka common area hai.",
+ "coreConcept": "Concurrent schedule tabhi 'sahi' hai jab wo kisi serial schedule ke equivalent ho (serializability) aur failure par recover ho sake (recoverability).",
+ "hinglishExplanation": "ACID: Atomicity (sab ya kuch nahi), Consistency (database rules valid), Isolation (transactions ek doosre ko dikhein nahi), Durability (commit ke baad data crash me bhi bacha rahe). Schedule me do operations conflict karte hain jab: alag transactions, same data item, aur kam se kam ek write. Precedence graph me cycle na ho to schedule conflict serializable hai.",
+ "formalDefinition": "Schedule S is conflict serializable iff its precedence graph (Ti -> Tj if an op of Ti conflicts with and precedes an op of Tj) is acyclic.",
+ "importantProperties": [
+  "Conflicts: RW, WR, WW on same item by different transactions (RR conflict nahi).",
+  "Precedence graph acyclic <=> conflict serializable; topological order = equivalent serial order.",
+  "Recoverable: agar Tj ne Ti se read kiya to Ti pehle commit kare.",
+  "Cascadeless (ACA): sirf committed data read karo.",
+  "Strict: committed hone tak na read na overwrite. Strict => ACA => Recoverable.",
+  "2PL: growing phase (sirf lock), shrinking phase (sirf unlock). Conflict serializability guarantee, deadlock ho sakta hai, cascading rollback ho sakta hai.",
+  "Strict 2PL: exclusive locks commit/abort tak hold; cascadeless aur recoverable schedules.",
+  "Rigorous 2PL: sab locks commit tak hold.",
+  "Timestamp ordering: conflict serializable, deadlock-free, par cascading rollback aur starvation ho sakta hai; recoverability guarantee nahi.",
+  "View serializability conflict serializability se badi class hai (blind writes).",
+  "Log recovery: committed after checkpoint -> REDO; uncommitted -> UNDO.",
+  "Durability: commit ke baad effect crash me bhi rehta hai; Isolation lost update, dirty read jaise anomalies rokta hai."
+ ],
+ "formulas": {
+  "conflict": "Ti,Tj alag, same item, at least one write",
+  "csTest": "precedence graph acyclic",
+  "hierarchy": "Strict ⊂ ACA ⊂ Recoverable; Serial ⊂ Conflict-Serializable ⊂ View-Serializable",
+  "numSerialSchedules": "n! serial schedules of n transactions"
+ },
+ "keyPropertiesAndIdentities": [
+  "2PL schedules ⊂ conflict serializable schedules.",
+  "Deadlock-free + conflict serializable: timestamp ordering (2PL me deadlock ho sakta hai)."
+ ],
+ "commonPitfalls": [
+  "Read-read pair ko conflict maan lena.",
+  "Conflict serializable ko recoverable samajhna (alag concepts).",
+  "2PL ko deadlock-free maan lena.",
+  "Precedence graph me edge direction ulti banana."
+ ],
+ "standardTechniques": [
+  "Precedence graph banao, cycle check karo.",
+  "Recoverability ke liye 'dirty read' dhundo aur commit order dekho.",
+  "Recovery ke liye log ko pehle checkpoint ke hisaab se REDO/UNDO lists me baanto."
+ ],
+ "topicId": "db-transaction-and-concurrency"
+}

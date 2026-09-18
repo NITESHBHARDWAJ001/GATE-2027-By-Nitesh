@@ -1,0 +1,24 @@
+{
+ "topicId": "computer-networks:network-layer",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NETWOR-01",
+   "patternId": "NL_LAYER_FUNCTIONS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Routing belongs to which layer?",
+   "solutionApproach": "Network.",
+   "answer": "Network layer"
+  },
+  {
+   "practiceId": "AI-NETWORK--X02",
+   "patternId": "NL_LAYER_FUNCTIONS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Framing is which layer?",
+   "solutionApproach": "Data link.",
+   "answer": "Data link"
+  }
+ ]
+}

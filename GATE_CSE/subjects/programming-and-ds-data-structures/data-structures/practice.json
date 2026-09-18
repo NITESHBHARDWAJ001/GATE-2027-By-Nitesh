@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-and-ds-data-structures:data-structures",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DATA-S-01",
+   "patternId": "P3_DATA_STRUCTURES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Sparse graph best representation?",
+   "solutionApproach": "List.",
+   "answer": "Adjacency list"
+  }
+ ]
+}

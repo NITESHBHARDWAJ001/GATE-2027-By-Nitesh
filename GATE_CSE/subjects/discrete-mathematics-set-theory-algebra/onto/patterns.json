@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_ONTO_01",
+  "name": "Onto Functions and Composition (PYQ type)",
+  "recognitionClueHinglish": "Onto Functions and Composition se related sawal.",
+  "whatShouldComeToMind": [
+   "gof onto => g onto; gof one-one => f one-one."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Composition rule."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.9.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Converse maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

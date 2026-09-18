@@ -1,0 +1,52 @@
+[
+ {
+  "patternId": "OPT_TRANSFORM_01",
+  "name": "Identify / Apply Optimizations",
+  "recognitionClueHinglish": "Code me kaun si optimization; redundant expressions.",
+  "whatShouldComeToMind": [
+   "CSE, invariants."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Repeat/Invariant."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.6.1",
+   "2.6.2",
+   "2.6.6",
+   "2.6.8",
+   "2.6.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Aliasing."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "OPT_CONCEPT_02",
+  "name": "Optimization Concepts",
+  "recognitionClueHinglish": "Why on IR, basic blocks, live variables.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Fact."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.6.3",
+   "2.6.4",
+   "2.6.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

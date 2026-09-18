@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_PERMUTATION_AND_COMBINAT_01",
+  "name": "Permutation and Combination (PYQ type)",
+  "recognitionClueHinglish": "Permutation and Combination se related sawal.",
+  "whatShouldComeToMind": [
+   "nPr, nCr counting."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Order?"
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.39.1",
+   "9.39.2",
+   "9.39.3",
+   "9.39.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Order vs selection."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,38 @@
+{
+ "coreIdea": "Favourable/total; complement; conditional shrinks the space; Bayes for reverse.",
+ "mustRememberFormulas": [
+  "P(AuB)=P(A)+P(B)-P(AnB)",
+  "P(A|B)=P(AnB)/P(B)",
+  "Bayes",
+  "at least one = 1-P(none)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "dice/coins/cards count",
+   "thinkThis": "PR_COUNTING_01"
+  },
+  {
+   "seeThis": "given that / which source",
+   "thinkThis": "PR_CONDITIONAL_BAYES_02"
+  },
+  {
+   "seeThis": "P(A), P(B), union given",
+   "thinkThis": "PR_SET_LAWS_03"
+  },
+  {
+   "seeThis": "repeat until",
+   "thinkThis": "PR_REPEATED_SEQ_04"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "exclusive != independent",
+  "denominator in conditional",
+  "overlap in divisibility"
+ ],
+ "highYieldPyqLessons": [
+  "Counting-based probability is the most repeated pattern.",
+  "2024-2026 papers lean on conditional/Bayes."
+ ],
+ "topicId": "em-prob-probability",
+ "revisionLevel": "short-form"
+}

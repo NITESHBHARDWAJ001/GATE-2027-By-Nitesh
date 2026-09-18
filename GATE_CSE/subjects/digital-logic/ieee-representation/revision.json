@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Value = (-1)^s x 1.f x 2^(e - 127) for normalized numbers.",
+ "mustRememberFormulas": [
+  "value: (-1)^s x 1.f x 2^(e-127)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Hex/bit pattern se decimal ya ulta.",
+   "thinkThis": "IEEE_DECODE_01"
+  },
+  {
+   "seeThis": "Registers me floats; result ya largest number.",
+   "thinkThis": "IEEE_COMPARE_OPS_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Bias.",
+  "Sign handling."
+ ],
+ "highYieldPyqLessons": [
+  "Decode-by-fields; practise with 0x40490FDB style values."
+ ],
+ "topicId": "digital-logic:ieee-representation",
+ "revisionLevel": "short-form"
+}

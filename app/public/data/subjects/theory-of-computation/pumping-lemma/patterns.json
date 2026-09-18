@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_PUMPING_LEMMA_01",
+  "name": "Pumping Lemma (PYQ type)",
+  "recognitionClueHinglish": "Pumping Lemma se related sawal.",
+  "whatShouldComeToMind": [
+   "Regular languages me p; non-regularity proof; pumping length options."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Choose w.",
+   "2. Pump."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.14.1",
+   "6.14.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Pumping lemma converse maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

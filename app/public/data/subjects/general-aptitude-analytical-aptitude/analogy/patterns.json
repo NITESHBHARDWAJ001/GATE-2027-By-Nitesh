@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_ANALOGY_01",
+  "name": "Analogies (PYQ type)",
+  "recognitionClueHinglish": "Analogies se related sawal.",
+  "whatShouldComeToMind": [
+   "A:B::C:? relation apply."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Relation.",
+   "2. Apply."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.2.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Relation ulta."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

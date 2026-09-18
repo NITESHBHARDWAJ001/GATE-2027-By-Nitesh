@@ -1,0 +1,22 @@
+{
+ "topicId": "discrete-mathematics-combinatory:counting",
+ "subjectId": "discrete-mathematics-combinatory",
+ "subject": "Discrete Mathematics - Combinatory",
+ "name": "Counting Problems",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 1990-2023.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  1990,
+  1991,
+  1994,
+  2021,
+  2023
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

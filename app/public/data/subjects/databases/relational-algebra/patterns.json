@@ -1,0 +1,154 @@
+[
+ {
+  "patternId": "RA_EVAL_01",
+  "name": "Evaluate a Relational Algebra Expression on an Instance",
+  "recognitionClueHinglish": "Do relations ke instance aur ek algebra expression di hai; tuples ki count ya result poochha hai.",
+  "whatShouldComeToMind": [
+   "Natural join, selection, projection, union/minus ko step by step chalao.",
+   "Result set hai, duplicates hatao."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Innermost sub-expression pehle.",
+   "2. Join ke liye common attributes match karo.",
+   "3. Projection ke baad duplicates hatao.",
+   "4. Aakhir me count."
+  ],
+  "formulasUsed": [
+   "division",
+   "joinSize"
+  ],
+  "pyqExamples": [
+   "3.18.22",
+   "3.18.24",
+   "3.18.27",
+   "3.18.29",
+   "3.18.31",
+   "3.18.33"
+  ],
+  "variationsObserved": [
+   "Left/right outer join ke saath.",
+   "Self-join ke saath rename."
+  ],
+  "commonTraps": [
+   "Duplicates ginna.",
+   "Join ka key sahi na pehchanna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "RA_DIVISION_02",
+  "name": "'For All' Queries: Division / Double Negation",
+  "recognitionClueHinglish": "'sab ... jo har ... ko' (customers who visited all hotels, own all brands, teams having every ...).",
+  "whatShouldComeToMind": [
+   "Relational division (or NOT EXISTS NOT EXISTS)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Candidate attribute X chuno.",
+   "2. R(X,Y) / S(Y).",
+   "3. Ya X - pi_X((pi_X(R) x S) - R)."
+  ],
+  "formulasUsed": [
+   "division"
+  ],
+  "pyqExamples": [
+   "3.18.1",
+   "3.18.4",
+   "3.18.8",
+   "3.18.14",
+   "3.18.20",
+   "3.18.26",
+   "3.18.30",
+   "3.18.32",
+   "3.18.17"
+  ],
+  "variationsObserved": [
+   "Prerequisite courses ke basis par eligible students.",
+   "Division ko basic operators se likhna."
+  ],
+  "commonTraps": [
+   "Division ki jagah simple join/minus laga dena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "RA_WRITE_QUERY_03",
+  "name": "Write / Explain a Relational Algebra Query",
+  "recognitionClueHinglish": "Schema par requirement ke liye algebra likhni hai, ya diye expression ko English me samjhana hai.",
+  "whatShouldComeToMind": [
+   "Requirement ko sigma, pi, join, minus me todo."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Tables identify karo.",
+   "2. Join path likho.",
+   "3. Filter lagao.",
+   "4. Project karo."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.18.2",
+   "3.18.3",
+   "3.18.5",
+   "3.18.6",
+   "3.18.13",
+   "3.18.16",
+   "3.18.25",
+   "3.18.28"
+  ],
+  "variationsObserved": [
+   "'More than once' = self join with different key."
+  ],
+  "commonTraps": [
+   "Expression ka matlab ulta padhna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "RA_EQUIV_EXPRESSIVE_04",
+  "name": "Equivalence, Optimization, and Expressive Power",
+  "recognitionClueHinglish": "Kaunsi expressions equivalent, optimized form, query expressible hai ya nahi, join ke max/min sizes, SQL SELECT vs sigma.",
+  "whatShouldComeToMind": [
+   "Algebra identities aur limits (no recursion)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Identities try karo (cascade, commute, push-down).",
+   "2. Counter-example instance banao.",
+   "3. Expressibility: fixed number of operators se nahi ho sakta to no."
+  ],
+  "formulasUsed": [
+   "joinSize",
+   "selectCascade",
+   "intersection"
+  ],
+  "pyqExamples": [
+   "3.18.7",
+   "3.18.9",
+   "3.18.10",
+   "3.18.11",
+   "3.18.12",
+   "3.18.15",
+   "3.18.18",
+   "3.18.19",
+   "3.18.21",
+   "3.18.23"
+  ],
+  "variationsObserved": [
+   "LOJ vs inner join equivalence under FK constraints."
+  ],
+  "commonTraps": [
+   "Projection/selection swap galat conditions me karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

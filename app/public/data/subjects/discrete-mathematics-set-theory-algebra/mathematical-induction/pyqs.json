@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "discrete-mathematics-set-theory-algebra__4.7.1",
+  "localId": "4.7.1",
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "subject": "Discrete Mathematics: Set Theory & Algebra",
+  "topicSlug": "mathematical-induction",
+  "topic": "Mathematical Induction",
+  "year": 1995,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "23",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "N/A",
+  "answerVerified": false,
+  "questionTextRaw": "Prove using mathematical induction for",
+  "tagsRaw": "gate1995 set-theory&algebra  proof    mathematical-induction     descriptive",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 108
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_MATHEMATICAL_INDUCTION_01"
+ },
+ {
+  "pyqId": "discrete-mathematics-set-theory-algebra__4.7.2",
+  "localId": "4.7.2",
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "subject": "Discrete Mathematics: Set Theory & Algebra",
+  "topicSlug": "mathematical-induction",
+  "topic": "Mathematical Induction",
+  "year": 2000,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "N/A",
+  "answerVerified": false,
+  "questionTextRaw": "Consider the following sequence: and                                                                  . Prove by induction on that                                    .",
+  "tagsRaw": "gatecse-2000 set-theory&algebra  mathematical-induction  descriptive",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 108
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_MATHEMATICAL_INDUCTION_01"
+ }
+]

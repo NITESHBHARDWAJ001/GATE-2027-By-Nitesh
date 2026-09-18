@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_JACCARD_COEFFICIENT_01",
+  "name": "Jaccard Coefficient on Spanning Trees (PYQ type)",
+  "recognitionClueHinglish": "Jaccard Coefficient on Spanning Trees se related sawal.",
+  "whatShouldComeToMind": [
+   "Two sets ka |A n B| / |A u B|; spanning tree edge-sets ke liye."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sets.",
+   "2. Ratio."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.9.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Union me double count."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

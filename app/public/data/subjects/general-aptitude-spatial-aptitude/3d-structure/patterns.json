@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_3D_STRUCTURE_01",
+  "name": "3D Structures from Views (PYQ type)",
+  "recognitionClueHinglish": "3D Structures from Views se related sawal.",
+  "whatShouldComeToMind": [
+   "Front/top view se structure count."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Layers."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "10.1.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Hidden cubes."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

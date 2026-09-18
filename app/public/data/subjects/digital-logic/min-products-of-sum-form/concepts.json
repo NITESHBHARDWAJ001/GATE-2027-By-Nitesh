@@ -1,0 +1,22 @@
+{
+ "overview": "0s ko group karke complement: POS form.",
+ "whyItMatters": "2 PYQs extracted (1990-2017); P3 topic.",
+ "coreConcept": "0s ko group karke complement: POS form.",
+ "hinglishExplanation": "K-map me 0 cells ko group, expression ka complement.",
+ "formalDefinition": "0s ko group karke complement: POS form.",
+ "importantProperties": [
+  "POS: 0 groups.",
+  "Don't cares use kar sakte ho.",
+  "Term (x + y)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "1s group karna."
+ ],
+ "standardTechniques": [
+  "1. 0s.",
+  "2. Groups."
+ ],
+ "topicId": "digital-logic:min-products-of-sum-form"
+}

@@ -1,0 +1,18 @@
+{
+ "topicId": "databases:normal-forms",
+ "subjectId": "databases",
+ "subject": "Databases",
+ "name": "Normal Forms (with ER Mapping)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2026-2026.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

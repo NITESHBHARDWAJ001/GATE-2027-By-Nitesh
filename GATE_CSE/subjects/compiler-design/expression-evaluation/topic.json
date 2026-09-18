@@ -1,0 +1,19 @@
+{
+ "topicId": "compiler-design:expression-evaluation",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Expression Evaluation and Stacks",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 2002-2014.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2002,
+  2014
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

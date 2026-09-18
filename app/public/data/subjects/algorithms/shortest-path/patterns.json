@@ -1,0 +1,58 @@
+[
+ {
+  "patternId": "SP_ALGO_CHOICE_01",
+  "name": "Choose/Analyze Shortest Path Algorithm",
+  "recognitionClueHinglish": "Kaunsa algorithm/complexity/template.",
+  "whatShouldComeToMind": [
+   "BFS/Dijkstra/BF."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Weights check.",
+   "2. Choose."
+  ],
+  "formulasUsed": [
+   "dijkstra",
+   "bf"
+  ],
+  "pyqExamples": [
+   "1.39.1",
+   "1.39.2",
+   "1.39.3",
+   "1.39.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Negative weight."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SP_PROPERTIES_02",
+  "name": "Shortest Path Properties under Changes",
+  "recognitionClueHinglish": "Edge weight change / MST vs shortest path.",
+  "whatShouldComeToMind": [
+   "Counter-example."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Small graph banao."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.39.5",
+   "1.39.6",
+   "1.39.7",
+   "1.39.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "MST = shortest path maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

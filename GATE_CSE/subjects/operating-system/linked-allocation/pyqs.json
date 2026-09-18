@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "operating-system__5.16.1",
+  "localId": "5.16.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "linked-allocation",
+  "topic": "Linked Allocation",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "41",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "65468:65468",
+  "answerVerified": true,
+  "questionTextRaw": "A disk of size                     bytes is divided into blocks of                                bytes. A file is stored in the disk using linked allocation. In linked allocation, each data block reserves bytes to store the pointer to the next data block. The link part of the last data block contains a NULL pointer (also of bytes). Suppose a file of bytes needs to be stored in the disk. Assume,                                 and                       . The amount of space in bytes that will be wasted due to internal fragmentation is __________. (Answer in integer)",
+  "tagsRaw": "gatecse2025-set1 operating-system   linked-allocation  internal-fragmentation  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 398
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LINKED_ALLOCATION_01"
+ }
+]

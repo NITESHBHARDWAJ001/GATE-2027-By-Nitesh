@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "operating-system__5.27.1",
+  "localId": "5.27.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "round-robin-scheduling",
+  "topic": "Round Robin Scheduling",
+  "year": 2022,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "32",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Consider four processes                   and scheduled on a                               as per round robin algorithm with a time quantum of                 The processes arrive in the order                                    all at time      There is exactly one context switch from to exactly one context switch from to and exactly two context switches from to There is no context switch from to Switching to a ready process after the termination of another process is also considered a context switch. Which one of the following is                                 possible as           burst time                 of these processes? A.                                                                                     B. C.                                                                                     D.",
+  "tagsRaw": "gatecse-2022 operating-system process-scheduling round-robin-scheduling two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 450
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ROUND_ROBIN_SCHEDULING_01"
+ }
+]

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_DMA_01",
+  "name": "DMA (OS View) (PYQ type)",
+  "recognitionClueHinglish": "DMA (OS View) se related sawal.",
+  "whatShouldComeToMind": [
+   "Disk transfer with DMA: CPU time per block."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rates."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.4.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Units."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

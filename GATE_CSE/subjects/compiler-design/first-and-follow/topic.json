@@ -1,0 +1,23 @@
+{
+ "topicId": "compiler-design:first-and-follow",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "FIRST and FOLLOW Sets",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 1992-2025.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  1992,
+  2012,
+  2017,
+  2019,
+  2024,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,55 @@
+[
+ {
+  "patternId": "EXP_TAIL_MEMORYLESS_01",
+  "name": "Probabilities Using Tail / Memoryless Property",
+  "recognitionClueHinglish": "Lifetime probabilities, conditional given survival.",
+  "whatShouldComeToMind": [
+   "Tail formula."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. lambda.",
+   "2. e^{-l x}."
+  ],
+  "formulasUsed": [
+   "tail"
+  ],
+  "pyqExamples": [
+   "7.9.1",
+   "7.9.4",
+   "7.9.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Mean vs rate."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "EXP_TRANSFORMS_02",
+  "name": "Min of Exponentials / Functions of Exponential Variables",
+  "recognitionClueHinglish": "Min, floor, expected values.",
+  "whatShouldComeToMind": [
+   "Rate sum."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rate."
+  ],
+  "formulasUsed": [
+   "min"
+  ],
+  "pyqExamples": [
+   "7.9.2",
+   "7.9.3",
+   "7.9.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

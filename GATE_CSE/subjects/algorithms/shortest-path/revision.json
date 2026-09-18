@@ -1,0 +1,26 @@
+{
+ "coreIdea": "Non-negative weights: Dijkstra; negative weights: Bellman-Ford; unweighted: BFS.",
+ "mustRememberFormulas": [
+  "dijkstra: O((V+E) log V)",
+  "bf: O(VE)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Kaunsa algorithm/complexity/template.",
+   "thinkThis": "SP_ALGO_CHOICE_01"
+  },
+  {
+   "seeThis": "Edge weight change / MST vs shortest path.",
+   "thinkThis": "SP_PROPERTIES_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "MST = shortest path maan lena.",
+  "Negative weight."
+ ],
+ "highYieldPyqLessons": [
+  "Property statements need counter-examples; small triangle graphs suffice."
+ ],
+ "topicId": "algorithms:shortest-path",
+ "revisionLevel": "short-form"
+}

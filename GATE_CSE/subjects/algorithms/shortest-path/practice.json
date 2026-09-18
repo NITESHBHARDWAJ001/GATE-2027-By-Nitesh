@@ -1,0 +1,42 @@
+{
+ "topicId": "algorithms:shortest-path",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SHORTE-01",
+   "patternId": "SP_ALGO_CHOICE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Unweighted graph, single-source shortest paths?",
+   "solutionApproach": "BFS.",
+   "answer": "BFS"
+  },
+  {
+   "practiceId": "AI-SHORTE-02",
+   "patternId": "SP_PROPERTIES_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Add constant c>0 to all edges. Does MST change?",
+   "solutionApproach": "MST preserved (relative order).",
+   "answer": "No"
+  },
+  {
+   "practiceId": "AI-SHORTEST-X03",
+   "patternId": "SP_ALGO_CHOICE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Negative edge weights, no negative cycle: which algorithm?",
+   "solutionApproach": "Bellman-Ford.",
+   "answer": "Bellman-Ford"
+  },
+  {
+   "practiceId": "AI-SHORTEST-X04",
+   "patternId": "SP_PROPERTIES_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Add 5 to every edge weight. Shortest path always same?",
+   "solutionApproach": "Path with fewer edges favoured.",
+   "answer": "No"
+  }
+ ]
+}

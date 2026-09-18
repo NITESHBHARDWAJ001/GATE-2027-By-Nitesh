@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.23.1",
+  "localId": "9.23.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "fractions",
+  "topic": "Fractions",
+  "year": 2018,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": 2,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "In appreciation of the social improvements completed in a town, a wealthy philanthropist decided to gift to each male senior citizen in the town and                              to each female senior citizen. Altogether, there were 300 senior citizens eligible for this gift. However, only                 of the eligible men and  of the eligible women claimed the gift.How much money (in Rupees) did the philanthropist give away in total? A.                                      B.                                 C.             D.",
+  "tagsRaw": "gatecse-2018 quantitative-aptitude      fractions  normal    two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 276
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_FRACTIONS_01"
+ }
+]

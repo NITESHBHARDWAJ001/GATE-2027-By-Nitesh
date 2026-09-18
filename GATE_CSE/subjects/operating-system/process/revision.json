@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Process state diagram, multiprogramming characteristics, context saved items.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Processes and States se related sawal.",
+   "thinkThis": "P3_PROCESS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "State transitions galat."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:process",
+ "revisionLevel": "short-form"
+}

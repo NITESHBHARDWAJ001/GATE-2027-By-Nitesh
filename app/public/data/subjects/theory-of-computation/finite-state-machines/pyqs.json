@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "theory-of-computation__6.8.1",
+  "localId": "6.8.1",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "finite-state-machines",
+  "topic": "Finite State Machines",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "49",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "5:5",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a finite state machine (FSM) with one input and one output , represented by the given state transition table. The minimum number of states required to realize this FSM is _______. (Answer in integer).",
+  "tagsRaw": "gatecse2025-set1 theory-of-computation  finite-state-machines  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 362
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_FINITE_STATE_MACHINES_01"
+ }
+]

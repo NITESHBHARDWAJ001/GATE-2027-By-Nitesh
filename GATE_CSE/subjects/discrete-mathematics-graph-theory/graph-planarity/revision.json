@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Kuratowski (K5, K3,3), Euler V - E + F = 2, max edges 3n - 6.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Planar Graphs se related sawal.",
+   "thinkThis": "P3_GRAPH_PLANARITY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Homeomorphic vs isomorphic."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:graph-planarity",
+ "revisionLevel": "short-form"
+}

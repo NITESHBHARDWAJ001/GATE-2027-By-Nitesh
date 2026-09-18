@@ -1,0 +1,27 @@
+{
+  "topicId": "coa-machine-instruction",
+  "revisionLevel": "short-form",
+  "coreIdea": "Trace assembly like C code — explicit register/memory table. Encoding: opcode=⌈log2(#instr)⌉ bits, register field=⌈log2(#regs)⌉ bits each, rest for immediate.",
+  "mustRememberFormulas": [
+    "opcode bits = ⌈log2(#instruction types)⌉",
+    "register field bits = ⌈log2(#registers)⌉ per operand",
+    "immediate bits = total width − opcode − (register bits × #register operands)",
+    "(X)+ = increment AFTER use; -(X) = decrement BEFORE use"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "assembly program given, asked final register/memory value", "thinkThis": "MI_TRACE_PROGRAM_01"},
+    {"seeThis": "instruction word bit-field sizing, or PC legality", "thinkThis": "MI_ENCODING_02"},
+    {"seeThis": "clock cycles/timing for a program asked", "thinkThis": "MI_TIMING_03"},
+    {"seeThis": "privileged instruction or addressing-mode notation question", "thinkThis": "MI_CONCEPTUAL_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Never assume standard x86/ARM semantics — use the EXACT instruction meanings given in the question",
+    "Subtract register-field bits for EVERY register operand, not just one",
+    "Account for loop iteration count in timing questions, don't count loop body once",
+    "(X)+ increments AFTER access; -(X) decrements BEFORE access — don't swap"
+  ],
+  "highYieldPyqLessons": [
+    "Program tracing (14/21) is the dominant skill — same careful, explicit-table discipline as C code tracing (Programming In C topic).",
+    "This topic directly sets up Pipelining — the instruction sequences traced here become the pipeline stages analyzed next."
+  ]
+}

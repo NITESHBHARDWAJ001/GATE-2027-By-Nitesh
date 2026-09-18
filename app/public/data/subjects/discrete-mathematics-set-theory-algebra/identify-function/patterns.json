@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_IDENTIFY_FUNCTION_01",
+  "name": "Identify Function Properties (PYQ type)",
+  "recognitionClueHinglish": "Identify Function Properties se related sawal.",
+  "whatShouldComeToMind": [
+   "Functions ke set par relation ki properties."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Definitions."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.5.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Property mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

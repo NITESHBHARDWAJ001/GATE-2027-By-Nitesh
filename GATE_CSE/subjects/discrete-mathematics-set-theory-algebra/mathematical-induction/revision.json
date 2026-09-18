@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Base case + inductive step.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Mathematical Induction se related sawal.",
+   "thinkThis": "P4_MATHEMATICAL_INDUCTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Base case skip."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:mathematical-induction",
+ "revisionLevel": "short-form"
+}

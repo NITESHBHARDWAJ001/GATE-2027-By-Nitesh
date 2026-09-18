@@ -1,0 +1,24 @@
+{
+ "topicId": "co-architecture:instruction-execution",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "Instruction Execution and Performance",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "7 PYQs extracted, 1990-2025.",
+ "pyqCountExtracted": 7,
+ "yearsCovered": [
+  1990,
+  1992,
+  1995,
+  2002,
+  2006,
+  2017,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

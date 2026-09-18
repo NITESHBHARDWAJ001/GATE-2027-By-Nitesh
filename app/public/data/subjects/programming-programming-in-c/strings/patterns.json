@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_STRINGS_01",
+  "name": "Strings in C (PYQ type)",
+  "recognitionClueHinglish": "Strings in C se related sawal.",
+  "whatShouldComeToMind": [
+   "Null-terminated char arrays, pointer copy, strlen."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Trace pointers."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.15.1",
+   "5.15.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Null terminator bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "I/O redirection: file ko stdin/stdout ke roop me.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "IPC and I/O Redirection se related sawal.",
+   "thinkThis": "P4_INTER_PROCESS_COMMUNICAT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Redirection = rename."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:inter-process-communication",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,93 @@
+[
+ {
+  "patternId": "SW_UTIL_01",
+  "name": "Window Size / Utilization / Throughput",
+  "recognitionClueHinglish": "Bandwidth, distance, frame size diye; window ya utilization.",
+  "whatShouldComeToMind": [
+   "1+2a."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Tt, Tp.",
+   "2. a.",
+   "3. Window."
+  ],
+  "formulasUsed": [
+   "util",
+   "a"
+  ],
+  "pyqExamples": [
+   "2.30.3",
+   "2.30.5",
+   "2.30.6",
+   "2.30.7",
+   "2.30.9",
+   "2.30.10",
+   "2.30.11",
+   "2.30.13",
+   "2.30.15",
+   "2.30.16",
+   "2.30.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Units."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SW_SEQBITS_02",
+  "name": "Sequence Numbers and Max Window",
+  "recognitionClueHinglish": "Window size se min sequence numbers, max window for k bits.",
+  "whatShouldComeToMind": [
+   "GBN vs SR."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Protocol.",
+   "2. Formula."
+  ],
+  "formulasUsed": [
+   "seqGBN",
+   "seqSR"
+  ],
+  "pyqExamples": [
+   "2.30.2",
+   "2.30.12",
+   "2.30.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "GBN/SR confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SW_GBN_SIM_03",
+  "name": "GBN Retransmission Counting / TCP window",
+  "recognitionClueHinglish": "Errors ke saath total transmissions; TCP window/packets.",
+  "whatShouldComeToMind": [
+   "Simulation."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Trace window."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.30.4",
+   "2.30.14"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Retransmit block."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Inner/outer joins, tuple count, nested loop join block accesses.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Joins (Types and Cost) se related sawal.",
+   "thinkThis": "P3_JOINS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Outer/inner order galat."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:joins",
+ "revisionLevel": "short-form"
+}

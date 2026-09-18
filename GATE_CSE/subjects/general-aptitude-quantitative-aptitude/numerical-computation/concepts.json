@@ -1,0 +1,26 @@
+{
+ "overview": "Averages, cubes/perfect powers, test-scoring equations, tournaments, function/graph interpretation.",
+ "whyItMatters": "7 PYQs extracted (2014-2026); P2 topic.",
+ "coreConcept": "Chhote arithmetic/algebra problems: equation banao aur solve karo.",
+ "hinglishExplanation": "Knock-out tournament me n players ke liye n-1 games. Average of multiples arithmetic progression ke first+last /2. Perfect cube ke liye prime factor powers 3 ke multiple hone chahiye.",
+ "formalDefinition": "Chhote arithmetic/algebra problems: equation banao aur solve karo.",
+ "importantProperties": [
+  "AP average = (first+last)/2.",
+  "Knockout: n-1 matches.",
+  "Perfect cube: prime powers multiple of 3.",
+  "Two-type question marks: linear equations.",
+  "max(a,b) graph piecewise."
+ ],
+ "formulas": {
+  "ap": "(first+last)/2",
+  "knockout": "n-1"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Arithmetic slip."
+ ],
+ "standardTechniques": [
+  "Equation banao."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:numerical-computation"
+}

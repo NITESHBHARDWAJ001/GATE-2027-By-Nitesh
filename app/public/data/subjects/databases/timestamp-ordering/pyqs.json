@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "databases__3.24.1",
+  "localId": "3.24.1",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "timestamp-ordering",
+  "topic": "Timestamp Ordering",
+  "year": 2017,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "42",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "In a database system, unique timestamps are assigned to each transaction using Lamport's logical clock. Let         and                          be the timestamps of transactions and respectively. Besides, holds a lock on the resource and has requested a conflicting lock on the same resource The following algorithm is used to prevent deadlocks in the database system assuming that a killed transaction is restarted with the same timestamp. if                                  then is killed else waits. Assume any transaction that is not killed terminates eventually. Which of the following is TRUE about the database system that uses the above algorithm to prevent deadlocks? A. The database system is both deadlock-free and starvation-free. B. The database system is deadlock-free, but not starvation-free. C. The database system is starvation-free, but not deadlock-free. D. The database system is neither deadlock-free nor starvation-free.",
+  "tagsRaw": "gatecse-2017-set1 databases  timestamp-ordering   normal      transaction-and-concurrency",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 257
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_TIMESTAMP_ORDERING_01"
+ }
+]

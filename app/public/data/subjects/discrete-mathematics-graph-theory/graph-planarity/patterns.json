@@ -1,0 +1,38 @@
+[
+ {
+  "patternId": "P3_GRAPH_PLANARITY_01",
+  "name": "Planar Graphs (PYQ type)",
+  "recognitionClueHinglish": "Planar Graphs se related sawal.",
+  "whatShouldComeToMind": [
+   "Kuratowski (K5, K3,3), Euler V - E + F = 2, max edges 3n - 6."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. E <= 3V-6 check.",
+   "2. K5/K3,3 subdivision."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.8.1",
+   "2.8.2",
+   "2.8.3",
+   "2.8.4",
+   "2.8.5",
+   "2.8.6",
+   "2.8.7",
+   "2.8.8",
+   "2.8.9",
+   "2.8.10",
+   "2.8.11",
+   "2.8.12",
+   "2.8.13"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Homeomorphic vs isomorphic."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

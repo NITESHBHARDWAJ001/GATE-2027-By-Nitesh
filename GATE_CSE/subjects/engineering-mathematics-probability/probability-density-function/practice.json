@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-probability:probability-density-function",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PROBAB-01",
+   "patternId": "P4_PROBABILITY_DENSITY_FUNC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Two modules success 0.9, 0.8 independent?",
+   "solutionApproach": "Product.",
+   "answer": "0.72"
+  }
+ ]
+}

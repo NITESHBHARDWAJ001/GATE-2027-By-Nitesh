@@ -1,0 +1,24 @@
+{
+ "topicId": "programming-programming-in-c:identify-function",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-IDENTI-01",
+   "patternId": "IDF_EQUIV_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "if(x==0)x=1;else x=0; equals?",
+   "solutionApproach": "Toggle.",
+   "answer": "x = 1 - x"
+  },
+  {
+   "practiceId": "AI-IDENTIFY-X02",
+   "patternId": "IDF_SNIPPET_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "x=3,y=5; x=x+y; y=x-y; x=x-y; final x,y?",
+   "solutionApproach": "Swap.",
+   "answer": "5, 3"
+  }
+ ]
+}

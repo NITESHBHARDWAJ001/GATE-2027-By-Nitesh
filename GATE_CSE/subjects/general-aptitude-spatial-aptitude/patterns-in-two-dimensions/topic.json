@@ -1,0 +1,20 @@
+{
+ "topicId": "general-aptitude-spatial-aptitude:patterns-in-two-dimensions",
+ "subjectId": "general-aptitude-spatial-aptitude",
+ "subject": "General Aptitude - Spatial Aptitude",
+ "name": "2D Patterns and Tilings",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 2021-2026.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  2021,
+  2022,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,24 @@
+{
+ "coreIdea": "DMA memory bus cycles steal karke transfer karta hai; CPU sirf setup aur completion interrupt handle karta hai.",
+ "mustRememberFormulas": [
+  "stolenPercent: DMA cycles / total cycles x 100"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Transfer rate, clock rate; CPU time stolen ya number of interrupts.",
+   "thinkThis": "DMA_CALC_01"
+  },
+  {
+   "seeThis": "Throughput comparison, modes.",
+   "thinkThis": "DMA_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "MB vs Mb."
+ ],
+ "highYieldPyqLessons": [
+  "Numeric DMA problems need careful units."
+ ],
+ "topicId": "co-architecture:dma",
+ "revisionLevel": "short-form"
+}

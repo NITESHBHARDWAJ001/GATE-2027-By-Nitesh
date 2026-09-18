@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_ROUND_ROBIN_SCHEDULING_01",
+  "name": "Round Robin Scheduling (PYQ type)",
+  "recognitionClueHinglish": "Round Robin Scheduling se related sawal.",
+  "whatShouldComeToMind": [
+   "Time quantum, ready queue FIFO, preempted process queue ke end me."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Gantt chart."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.27.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Tie-break convention."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

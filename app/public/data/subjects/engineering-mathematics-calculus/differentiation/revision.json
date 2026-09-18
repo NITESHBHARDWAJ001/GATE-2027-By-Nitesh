@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Differentiable => continuous (converse false). Piecewise function me junction par left = right derivative chahiye.",
+ "mustRememberFormulas": [
+  "secondDeriv: (f(x+h)-2f(x)+f(x-h))/h^2"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Piecewise/abs function; parameter ya points.",
+   "thinkThis": "DIF_PIECEWISE_01"
+  },
+  {
+   "seeThis": "Derivative value, degree, approximation formula, second-derivative conditions.",
+   "thinkThis": "DIF_RULES_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Arithmetic.",
+  "Corner points."
+ ],
+ "highYieldPyqLessons": [
+  "Piecewise-differentiability recurs in recent years."
+ ],
+ "topicId": "engineering-mathematics-calculus:differentiation",
+ "revisionLevel": "short-form"
+}

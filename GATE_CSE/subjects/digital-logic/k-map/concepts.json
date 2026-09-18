@@ -1,0 +1,28 @@
+{
+ "overview": "K-map se minimal SOP/POS, don't cares, prime implicants, literal count.",
+ "whyItMatters": "17 PYQs extracted (1987-2025); P2 topic.",
+ "coreConcept": "Adjacent 1s ke groups (power of 2 size) banao; bada group = kam literals.",
+ "hinglishExplanation": "K-map me wrap-around adjacency hoti hai. Har group ek term deta hai: group me jo variables change hote hain wo hat jaate hain. Don't cares 1 maan sakte ho agar group bada hota ho. POS ke liye 0s group karo.",
+ "formalDefinition": "Adjacent 1s ke groups (power of 2 size) banao; bada group = kam literals.",
+ "importantProperties": [
+  "Group sizes 1,2,4,8,16.",
+  "Wrap-around adjacency.",
+  "Essential prime implicants pehle.",
+  "Don't care sirf grouping me madad ke liye.",
+  "POS: 0s ko group karo aur complement lo.",
+  "Literal count = sum of literals in minimal expression.",
+  "Minimal SOP unique nahi hota hamesha."
+ ],
+ "formulas": {
+  "groupTerm": "2^k cells => k variables eliminated"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Wrap-around bhoolna.",
+  "Don't care ko zabardasti include."
+ ],
+ "standardTechniques": [
+  "Bade groups pehle, overlap allowed."
+ ],
+ "topicId": "digital-logic:k-map"
+}

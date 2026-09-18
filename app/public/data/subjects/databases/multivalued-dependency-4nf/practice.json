@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:multivalued-dependency-4nf",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MULTIV-01",
+   "patternId": "P4_MULTIVALUED_DEPENDENCY_4_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "X->Y implies X->>Y?",
+   "solutionApproach": "Haan.",
+   "answer": "Haan"
+  }
+ ]
+}

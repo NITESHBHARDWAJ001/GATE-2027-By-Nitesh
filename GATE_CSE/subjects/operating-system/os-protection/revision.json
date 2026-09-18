@@ -1,0 +1,18 @@
+{
+ "coreIdea": "User/kernel mode, mode switch via trap/software interrupt, signals.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "OS Protection and System Calls (Mode) se related sawal.",
+   "thinkThis": "P3_OS_PROTECTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "User instruction se mode change maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:os-protection",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:bar-graph",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BAR-GR-01",
+   "patternId": "P3_BAR_GRAPH_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Sales 50 -> 60: % increase?",
+   "solutionApproach": "10/50.",
+   "answer": "20%"
+  }
+ ]
+}

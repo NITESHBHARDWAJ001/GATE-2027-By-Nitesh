@@ -1,0 +1,19 @@
+{
+ "topicId": "discrete-mathematics-mathematical-logic:logical-reasoning",
+ "subjectId": "discrete-mathematics-mathematical-logic",
+ "subject": "Discrete Mathematics - Mathematical Logic",
+ "name": "Logical Reasoning (Inference)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 2012-2015.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  2012,
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

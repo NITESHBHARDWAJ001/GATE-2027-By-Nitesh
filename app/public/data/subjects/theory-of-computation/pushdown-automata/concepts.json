@@ -1,0 +1,32 @@
+{
+  "topicId": "toc-pushdown-automata",
+  "overview": "PDA = FA + ek STACK. 3 skills: given language ke liye PDA construct karna, given PDA se language identify/trace karna, aur PDA theory (acceptance modes, determinism vs non-determinism power).",
+  "whyItMatters": "15 PYQs. CFL ka machine-model hai, isliye CFL ke saath tight combo me padhna best hai.",
+  "coreConcept": "PDA transitions: δ(state, input_symbol, stack_top) → (new_state, stack_push_string). Har move PEHLE stack ke top ko POP karta hai (implicitly, ya explicitly consume karta hai), phir NAYI string PUSH karta hai. Do acceptance modes: FINAL STATE (accept if input consumed aur ek accepting state pe ho) aur EMPTY STACK (accept if input consumed aur stack khaali ho gaya) — dono modes EQUALLY POWERFUL hain (same language class: CFL), koi bhi PDA ek mode se doosre me convert ho sakta hai.",
+  "hinglishExplanation": "PDA ko FA socho jisके paas ek 'notepad' (stack) bhi hai — jab kuch yaad rakhna ho (jaise 'kitne a's dekhe'), wo notepad pe likh (push) sakta hai, aur jab match karna ho (jaise ek b dekha, ek a cancel karo), notepad se mita (pop) sakta hai. Stack LIFO hai — sirf UPAR wali cheez dekh/badal sakte ho, isliye sirf ONE matching relationship track kar sakte ho achhe se.",
+  "formalDefinition": "PDA = (Q, Σ, Γ, δ, q0, Z0, F) — states, input alphabet, STACK alphabet, transition function, start state, initial stack symbol, accepting states. Acceptance by final state: input consumed + current state ∈ F. Acceptance by empty stack: input consumed + stack is empty (regardless of state).",
+  "importantProperties": [
+    "Acceptance by final state and acceptance by empty stack are EQUIVALENT in power — any PDA of one type can be converted to the other type accepting the SAME language.",
+    "DETERMINISTIC PDA (DPDA) is STRICTLY WEAKER than general (non-deterministic) PDA — some CFLs (like even-length palindromes without a center marker) can ONLY be accepted by a non-deterministic PDA, no DPDA exists for them.",
+    "Every regular language's NFA can be trivially converted to a PDA that just never uses its stack — this confirms Regular ⊆ CFL structurally, not just as a closure fact.",
+    "The complement of a CFL is NOT necessarily CFL (from the CFL topic), but the complement of a context-free language IS always recursive (decidable) — a weaker but still useful guarantee (since PDAs/Turing machines can always simulate 'try all derivations up to length n' for decidability, even without closure)."
+  ],
+  "formulas": {
+    "acceptanceModeEquivalence": "L(PDA, final state) = L(PDA, empty stack) — for the SAME language class, conversion always possible between the two modes",
+    "dpdaWeakerThanPda": "DCFL (accepted by DPDA) ⊊ CFL (accepted by general PDA) — strict subset"
+  },
+  "keyPropertiesAndIdentities": [
+    "A one-state, one-stack-symbol NPDA is essentially just a COUNTER (stack height = a number) — questions with this minimal setup usually reduce to counting/threshold conditions on stack height.",
+    "'Every NFA can be converted to an equivalent PDA' is TRUE (trivially, ignore the stack) — but 'every PDA can be converted to an equivalent DFA' is FALSE (PDA is strictly more powerful for non-regular CFLs)."
+  ],
+  "commonPitfalls": [
+    "Assuming DPDA and NPDA (general PDA) have the same power — DPDA is strictly weaker, some CFLs need non-determinism.",
+    "Confusing 'complement of CFL is recursive' (TRUE, weaker guarantee) with 'complement of CFL is CFL' (FALSE, from the closure properties).",
+    "Getting the push/pop ORDER backward when tracing — always process pop of current top FIRST (per the transition), then push the new string (which appears on stack in REVERSE order of writing, since the leftmost pushed symbol ends up on TOP)."
+  ],
+  "standardTechniques": [
+    "For PDA construction: identify the ONE matching relationship needed (e.g., match a's against b's), design push-on-a/pop-on-b transitions directly.",
+    "For 'identify language from PDA' questions: trace a few short strings through the PDA, tracking BOTH the state AND the stack contents at each step.",
+    "For acceptance-mode conversion questions: recall the standard technique (add a new start state that pushes a special bottom marker, and for final-state→empty-stack conversion, add transitions from all final states that pop everything down to the marker then to a new accepting state)."
+  ]
+}

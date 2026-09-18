@@ -1,0 +1,44 @@
+{
+  "topicId": "algorithms-recurrence-relation",
+  "overview": "Recurrence Relation, Algorithms ka doosra sabse zyada poocha gaya topic hai (36 PYQs). Do skills: (1) ek recursive algorithm/code se recurrence T(n) SETUP karna, (2) diye gaye recurrence ko SOLVE karke closed-form/asymptotic answer nikalna.",
+  "whyItMatters": "Almost har saal poocha jaata hai, aur Divide & Conquer, Sorting (Merge/Quick Sort), Recursion — sabki complexity analysis isi skill pe based hai.",
+  "coreConcept": "Recurrence relation ek equation hai jo T(n) ko chhote inputs ke T(n') ke terms me define karta hai (jaise T(n)=2T(n/2)+n). GATE ke liye 3 solving techniques important hain: Substitution Method, Recursion Tree Method, aur Master Theorem.",
+  "hinglishExplanation": "Recurrence ko ek 'self-referencing formula' socho — T(n) apne hi chhote version T(n/2) ya T(n-1) ke terms me defined hai. Master Theorem ek 'shortcut lookup table' hai jo T(n)=aT(n/b)+f(n) shape ke recurrences ko direct answer deta hai, bina expand kiye — lekin SIRF is exact shape ke liye kaam karta hai.",
+  "formalDefinition": "A recurrence relation defines T(n) in terms of T at smaller arguments (e.g., T(n-1), T(n/2)) plus a combining term, with base case(s) for small n.",
+  "importantProperties": [
+    "Master Theorem applies to T(n) = aT(n/b) + f(n), a≥1, b>1. Compare f(n) to n^(log_b a):",
+    "Case 1: f(n) = O(n^(log_b a - ε)) ⟹ T(n) = Θ(n^(log_b a))  [the recursive work dominates]",
+    "Case 2: f(n) = Θ(n^(log_b a)) ⟹ T(n) = Θ(n^(log_b a) · log n)  [balanced]",
+    "Case 3: f(n) = Ω(n^(log_b a + ε)), AND the regularity condition holds ⟹ T(n) = Θ(f(n))  [the combining work dominates]",
+    "T(n) = T(n-1) + O(1) ⟹ T(n) = O(n) (linear recursion, constant work per level, n levels).",
+    "T(n) = T(n-1) + O(n) ⟹ T(n) = O(n²) (arithmetic series sum, like insertion sort/bubble sort recurrence).",
+    "T(n) = 2T(n-1) + O(1) ⟹ T(n) = O(2ⁿ) (doubling recursive calls, exponential — classic 'naive recursive Fibonacci' shape).",
+    "T(n) = 2T(n/2) + O(n) ⟹ T(n) = O(n log n) (classic Merge Sort shape — Master Theorem Case 2).",
+    "T(n) = T(n/2) + O(1) ⟹ T(n) = O(log n) (classic Binary Search shape — Master Theorem Case 1 variant)."
+  ],
+  "formulas": {
+    "masterTheorem": "T(n)=aT(n/b)+f(n): compare f(n) to n^(log_b a) — see 3 cases above",
+    "linearRecursionSum": "T(n)=T(n-1)+c → T(n)=Θ(n)",
+    "arithmeticSeriesRecursion": "T(n)=T(n-1)+n → T(n)=Θ(n²)",
+    "doublingRecursion": "T(n)=2T(n-1)+c → T(n)=Θ(2ⁿ)",
+    "mergeSortShape": "T(n)=2T(n/2)+n → T(n)=Θ(n log n)",
+    "binarySearchShape": "T(n)=T(n/2)+c → T(n)=Θ(log n)",
+    "towersOfHanoiShape": "T(n)=2T(n-1)+c → T(n)=Θ(2ⁿ) [same shape as doubling recursion]"
+  },
+  "keyPropertiesAndIdentities": [
+    "Recursion tree method: draw levels, compute work-per-level, sum across all levels (this is the fallback when Master Theorem's exact form doesn't apply, e.g., f(n) has a log factor).",
+    "Substitution method: guess the closed form, verify by induction — most useful when the recurrence isn't in standard aT(n/b)+f(n) shape."
+  ],
+  "commonPitfalls": [
+    "Applying Master Theorem to a recurrence that doesn't match its exact shape (e.g., T(n)=2T(n/2)+n log n — the extra log factor means NEITHER case 1 nor case 2 applies cleanly; needs recursion-tree or the extended Master Theorem).",
+    "Miscounting the number of subproblems 'a' or the shrink factor 'b' when reading a recurrence off a piece of code (e.g., two recursive calls each on n-1, not n/2, is NOT a Master-Theorem-shape recurrence).",
+    "Forgetting the regularity condition in Master Theorem Case 3 (rarely tested explicitly at GATE level, but assumed).",
+    "Solving T(n)=T(n-1)+T(n-2)+c (Fibonacci-shape) using Master Theorem — this shape is NOT covered by Master Theorem at all (two DIFFERENT smaller arguments, not aT(n/b))."
+  ],
+  "standardTechniques": [
+    "First, identify the SHAPE: is it aT(n/b)+f(n) (Master Theorem candidate), T(n-1)+f(n) (simple summation), or T(n-1)+T(n-2)+... (Fibonacci-like, needs characteristic-equation method)?",
+    "For Master-Theorem shape: compute n^(log_b a) and compare against f(n) directly using the 3 cases.",
+    "For simple T(n-1)+f(n) shape: unroll it as a summation Σf(k) from 1 to n and evaluate the sum.",
+    "For Fibonacci-like T(n)=T(n-1)+T(n-2): solve via the characteristic equation x²=x+1, giving the golden-ratio-based exponential growth Θ(φⁿ) — usually GATE just wants you to recognize this is EXPONENTIAL, not the exact constant."
+  ]
+}

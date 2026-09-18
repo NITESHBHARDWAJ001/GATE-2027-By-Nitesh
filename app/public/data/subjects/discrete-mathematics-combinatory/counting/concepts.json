@@ -1,0 +1,25 @@
+{
+ "overview": "Catalan/binary trees, substrings, assignments with constraints, subset tuples.",
+ "whyItMatters": "6 PYQs extracted (1990-2023); P2 topic.",
+ "coreConcept": "Counting = multiplication/addition principle + bijection with known objects.",
+ "hinglishExplanation": "Rooted binary trees with n nodes = Catalan number, same as ways of parenthesizing. Subset tuples (A,B) with A subset of B: 3^n (each element in A, B-A, or outside B).",
+ "formalDefinition": "Counting = multiplication/addition principle + bijection with known objects.",
+ "importantProperties": [
+  "Catalan: C(2n,n)/(n+1).",
+  "A subset B pairs: 3^n.",
+  "Substrings of length-n string: n(n+1)/2 + 1 (with empty).",
+  "Constraint assignments: order/slot method."
+ ],
+ "formulas": {
+  "catalan": "C(2n,n)/(n+1)",
+  "subsetPairs": "3^n"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Empty substring include karna."
+ ],
+ "standardTechniques": [
+  "Small n check."
+ ],
+ "topicId": "discrete-mathematics-combinatory:counting"
+}

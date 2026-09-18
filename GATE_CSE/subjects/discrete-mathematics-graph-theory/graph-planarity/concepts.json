@@ -1,0 +1,24 @@
+{
+ "overview": "Kuratowski (K5, K3,3), Euler V - E + F = 2, max edges 3n - 6.",
+ "whyItMatters": "13 PYQs extracted (1987-2021); P3 topic.",
+ "coreConcept": "Kuratowski (K5, K3,3), Euler V - E + F = 2, max edges 3n - 6.",
+ "hinglishExplanation": "Planar graph me E <= 3V - 6 (V >= 3), bipartite planar me E <= 2V - 4.",
+ "formalDefinition": "Kuratowski (K5, K3,3), Euler V - E + F = 2, max edges 3n - 6.",
+ "importantProperties": [
+  "Euler: V - E + F = 2 (connected).",
+  "E <= 3V - 6.",
+  "K5 aur K3,3 non-planar.",
+  "Kuratowski: subgraph homeomorphic to K5/K3,3.",
+  "Planarity test linear time."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Homeomorphic vs isomorphic."
+ ],
+ "standardTechniques": [
+  "1. E <= 3V-6 check.",
+  "2. K5/K3,3 subdivision."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:graph-planarity"
+}

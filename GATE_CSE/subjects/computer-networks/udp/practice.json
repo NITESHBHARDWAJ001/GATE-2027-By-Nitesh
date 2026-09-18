@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:udp",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-UDP-01",
+   "patternId": "P3_UDP_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "File transfer me TCP ya UDP?",
+   "solutionApproach": "Reliability.",
+   "answer": "TCP"
+  }
+ ]
+}

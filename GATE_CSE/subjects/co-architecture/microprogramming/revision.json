@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Control memory width, horizontal vs vertical microinstructions, hardwired vs microprogrammed speed.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Microprogrammed Control Unit se related sawal.",
+   "thinkThis": "P3_MICROPROGRAMMING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Encoded field me 'none' option bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:microprogramming",
+ "revisionLevel": "short-form"
+}

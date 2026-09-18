@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:slotted-aloha",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SLOTTE-01",
+   "patternId": "P4_SLOTTED_ALOHA_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "2 nodes p=0.5: P(some success in slot)?",
+   "solutionApproach": "2*0.5*0.5.",
+   "answer": "0.5"
+  }
+ ]
+}

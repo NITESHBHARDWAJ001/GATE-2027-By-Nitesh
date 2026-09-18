@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_TABLES_01",
+  "name": "Tables (PYQ type)",
+  "recognitionClueHinglish": "Tables se related sawal.",
+  "whatShouldComeToMind": [
+   "Table lookups aur calculations."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Identify."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.54.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Wrong row."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

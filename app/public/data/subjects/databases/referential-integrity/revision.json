@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Foreign key value ya to NULL hoti hai ya referenced primary key me maujood.",
+ "mustRememberFormulas": [
+  "fk: FK value in {NULL} U PK values"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Insert/delete kis table me violation dega.",
+   "thinkThis": "RI_OPERATIONS_01"
+  },
+  {
+   "seeThis": "ON DELETE CASCADE ke saath tuples ki count.",
+   "thinkThis": "RI_CASCADE_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Chain me ruk jaana.",
+  "Child/parent ulta."
+ ],
+ "highYieldPyqLessons": [
+  "Cascade chain NAT questions (2005, 2017)."
+ ],
+ "topicId": "databases:referential-integrity",
+ "revisionLevel": "short-form"
+}

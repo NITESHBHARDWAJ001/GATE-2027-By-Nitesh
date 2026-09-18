@@ -1,0 +1,33 @@
+{
+ "topicId": "engineering-mathematics-probability:random-variable",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RANDOM-01",
+   "patternId": "RV_MOMENTS_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "X mean 2, var 3. Y=2X+1 var?",
+   "solutionApproach": "4*3.",
+   "answer": "12"
+  },
+  {
+   "practiceId": "AI-RANDOM-V-X02",
+   "patternId": "RV_CDF_PDF_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "CDF F(x)=x/4 on [0,4]. Median?",
+   "solutionApproach": "F(m)=0.5.",
+   "answer": "2"
+  },
+  {
+   "practiceId": "AI-RANDOM-V-X03",
+   "patternId": "RV_MOMENTS_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Poisson mean 3: variance?",
+   "solutionApproach": "Equal.",
+   "answer": "3"
+  }
+ ]
+}

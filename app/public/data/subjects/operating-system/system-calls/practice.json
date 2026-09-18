@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:system-calls",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SYSTEM-01",
+   "patternId": "P3_SYSTEM_CALLS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Kya malloc hamesha system call karta hai?",
+   "solutionApproach": "Nahi.",
+   "answer": "Nahi"
+  }
+ ]
+}

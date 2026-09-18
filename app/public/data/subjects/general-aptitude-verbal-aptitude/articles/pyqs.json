@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-verbal-aptitude__11.2.1",
+  "localId": "11.2.1",
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "subject": "General Aptitude: Verbal Aptitude",
+  "topicSlug": "articles",
+  "topic": "Articles",
+  "year": 2016,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "01",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "The man who is now Municipal Commissioner worked as ________________. A. the security guard at a university                                     B. a security guard at the university C. a security guard at university                                         D. the security guard at the university",
+  "tagsRaw": "gatecse-2016-set2 verbal-aptitude english-grammar normal articles",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 342
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ARTICLES_01"
+ },
+ {
+  "pyqId": "general-aptitude-verbal-aptitude__11.2.2",
+  "localId": "11.2.2",
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "subject": "General Aptitude: Verbal Aptitude",
+  "topicSlug": "articles",
+  "topic": "Articles",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "1",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Ravi had _______ younger brother who taught at _________ university. He was widely regarded as ________ honorable man. Select the option with the correct sequence of articles to fill in the blanks. A.                                                                        B. C.                                                                        D.",
+  "tagsRaw": "gatecse2025-set1 verbal-aptitude articles easy one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 342
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ARTICLES_01"
+ }
+]

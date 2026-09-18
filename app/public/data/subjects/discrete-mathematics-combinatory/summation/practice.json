@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-combinatory:summation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SUMMAT-01",
+   "patternId": "P3_SUMMATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Sum 1..10?",
+   "solutionApproach": "55.",
+   "answer": "55"
+  }
+ ]
+}

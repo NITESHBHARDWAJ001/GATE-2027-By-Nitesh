@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "programming-programming-in-c__5.1.1",
+  "localId": "5.1.1",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "aliasing",
+  "topic": "Aliasing",
+  "year": 2000,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1.16",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Aliasing in the context of programming languages refers to A. multiple variables having the same memory location B. multiple variables having the same value C. multiple variables having the same identifier D. multiple uses of the same variable",
+  "tagsRaw": "gatecse-2000 programming easy aliasing",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 275
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_ALIASING_01"
+ }
+]

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_MULTIVALUED_DEPENDENCY_4_01",
+  "name": "Multivalued Dependencies and 4NF (PYQ type)",
+  "recognitionClueHinglish": "Multivalued Dependencies and 4NF se related sawal.",
+  "whatShouldComeToMind": [
+   "X ->> Y; FD implies MVD; 4NF me nontrivial MVD ka LHS superkey."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rules."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.13.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "MVD => FD maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

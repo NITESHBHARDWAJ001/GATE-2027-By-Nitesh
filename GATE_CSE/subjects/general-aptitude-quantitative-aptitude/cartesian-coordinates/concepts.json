@@ -1,0 +1,20 @@
+{
+ "overview": "Distance, midpoint, area.",
+ "whyItMatters": "2 PYQs extracted (2020-2022); P3 topic.",
+ "coreConcept": "Distance, midpoint, area.",
+ "hinglishExplanation": "Distance formula.",
+ "formalDefinition": "Distance, midpoint, area.",
+ "importantProperties": [
+  "d=sqrt((x2-x1)^2+(y2-y1)^2).",
+  "Midpoint average."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Sign."
+ ],
+ "standardTechniques": [
+  "1. Points."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:cartesian-coordinates"
+}

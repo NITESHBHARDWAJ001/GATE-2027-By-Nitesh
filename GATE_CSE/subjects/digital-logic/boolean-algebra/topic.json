@@ -1,0 +1,21 @@
+{
+  "topicId": "dl-boolean-algebra",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "name": "Boolean Algebra",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "34 PYQs extracted, tested 1987-2026 continuously. Second Digital Logic topic in study order, direct application of binary values from Number Representation.",
+  "pyqCountExtracted": 34,
+  "yearsCovered": [1987,1988,1989,1992,1994,1995,1997,1998,1999,2000,2002,2004,2007,2008,2012,2013,2014,2015,2016,2017,2018,2019,2021,2024,2025,2026],
+  "prerequisites": [
+    {"topic": "Number Representation", "subjectId": "digital-logic", "why": "Boolean algebra works on binary values established there."}
+  ],
+  "unlocks": [
+    {"topic": "Circuit Output", "subjectId": "digital-logic", "why": "Combinational circuit analysis is Boolean algebra applied to gate diagrams."},
+    {"topic": "Min Sum of Products Form", "subjectId": "digital-logic", "why": "SOP minimization is Boolean expression simplification applied systematically."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

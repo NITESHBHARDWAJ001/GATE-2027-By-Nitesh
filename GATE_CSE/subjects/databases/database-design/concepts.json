@@ -1,0 +1,20 @@
+{
+ "overview": "Physical data independence logical se easy achieve.",
+ "whyItMatters": "1 PYQs extracted (1994-1994); P4 topic.",
+ "coreConcept": "Physical data independence logical se easy achieve.",
+ "hinglishExplanation": "Logical independence me schema change application ko na chhue; zyada mushkil.",
+ "formalDefinition": "Physical data independence logical se easy achieve.",
+ "importantProperties": [
+  "Physical independence easier.",
+  "Logical harder."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Ulta bolna."
+ ],
+ "standardTechniques": [
+  "1. Levels."
+ ],
+ "topicId": "databases:database-design"
+}

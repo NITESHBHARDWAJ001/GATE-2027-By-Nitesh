@@ -1,0 +1,24 @@
+{
+ "overview": "Recursive functions ka trace, number of calls, gcd steps, base cases.",
+ "whyItMatters": "5 PYQs extracted (1995-2026); P3 topic.",
+ "coreConcept": "Recursive functions ka trace, number of calls, gcd steps, base cases.",
+ "hinglishExplanation": "Har call ka base case aur argument reduction dekho; call tree draw karo.",
+ "formalDefinition": "Recursive functions ka trace, number of calls, gcd steps, base cases.",
+ "importantProperties": [
+  "Base case ke bina infinite recursion.",
+  "gcd(n,m) Euclid: O(log) calls; Fibonacci worst case.",
+  "Call tree ke nodes = total calls.",
+  "Stack depth = longest chain."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Base case galat padhna."
+ ],
+ "standardTechniques": [
+  "1. Chhote input trace.",
+  "2. Call tree.",
+  "3. Count / return."
+ ],
+ "topicId": "algorithms:recursion"
+}

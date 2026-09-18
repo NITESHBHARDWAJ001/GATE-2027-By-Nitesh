@@ -1,0 +1,38 @@
+{
+ "coreIdea": "Multiplication/addition principle; check order, repetition, identical.",
+ "mustRememberFormulas": [
+  "nCr",
+  "C(n+k-1,k-1)",
+  "C(m+n,m)",
+  "Catalan",
+  "Dn=(n-1)(Dn-1+Dn-2)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "arrangements/digits",
+   "thinkThis": "CMB_PERM_COMB_01"
+  },
+  {
+   "seeThis": "distribute balls",
+   "thinkThis": "CMB_DISTRIBUTION_02"
+  },
+  {
+   "seeThis": "paths/strings/recurrence",
+   "thinkThis": "CMB_PATHS_RECURRENCE_03"
+  },
+  {
+   "seeThis": "no original position / parity",
+   "thinkThis": "CMB_DERANGE_STRUCT_04"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Leading zero",
+  "identical vs distinct",
+  "overcounting"
+ ],
+ "highYieldPyqLessons": [
+  "Recurrence/string-count NAT type recurs in 2014, 2015, 2020, 2025."
+ ],
+ "topicId": "dm-combinatory",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "engineering-mathematics-probability__7.3.1",
+  "localId": "7.3.1",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "bernoulli-distribution",
+  "topic": "Bernoulli Distribution",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "30",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE_OR_UNVERIFIED",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": null,
+  "answerVerified": false,
+  "questionTextRaw": "A random variable is said to be distributed as                                             , denoted by  Bernoulli( ), if for         . Let                                    , where                                                    be independent and identically , after approximation through Central distributed random variables with                                       . The value of Limit Theorem, is given by Recall that A.                                                                                     B. C.                                                                                     D.",
+  "tagsRaw": "gateda-2025 probability random-variable bernoulli-distribution two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 202
+  },
+  "formulaExtractionNote": null,
+  "patternId": "P3_BERNOULLI_DISTRIBUTION_01"
+ },
+ {
+  "pyqId": "engineering-mathematics-probability__7.3.2",
+  "localId": "7.3.2",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "bernoulli-distribution",
+  "topic": "Bernoulli Distribution",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "54",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "0.08:0.12",
+  "answerVerified": true,
+  "questionTextRaw": "Let  be a matrix such that each of its elements follows                                                                    distribution independently. The probability that the row-sum of the second row and the column-sum of the third column are both equal to is (Rounded off to two decimal places)",
+  "tagsRaw": "gateda-2026 probability      bernoulli-distribution  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 202
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BERNOULLI_DISTRIBUTION_01"
+ }
+]

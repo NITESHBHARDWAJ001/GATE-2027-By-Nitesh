@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_NON_DETERMINISM_01",
+  "name": "Non-Determinism (PYQ type)",
+  "recognitionClueHinglish": "Non-Determinism se related sawal.",
+  "whatShouldComeToMind": [
+   "NFA=DFA power; NPDA > DPDA; NTM = DTM; conversions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Model.",
+   "2. Recall."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.12.1",
+   "6.12.2",
+   "6.12.3",
+   "6.12.4",
+   "6.12.5",
+   "6.12.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "PDA me equal maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

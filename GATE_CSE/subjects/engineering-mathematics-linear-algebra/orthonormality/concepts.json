@@ -1,0 +1,23 @@
+{
+ "overview": "Orthonormal: dot product 0 aur norm 1; Q^T Q = I.",
+ "whyItMatters": "2 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Orthonormal: dot product 0 aur norm 1; Q^T Q = I.",
+ "hinglishExplanation": "Orthonormal vectors linearly independent; matrix Q ke columns orthonormal to Q^T Q = I.",
+ "formalDefinition": "Orthonormal: dot product 0 aur norm 1; Q^T Q = I.",
+ "importantProperties": [
+  "u_i . u_j = delta_ij.",
+  "Q^T Q = I.",
+  "Orthonormal basis unique nahi.",
+  "Norm/dot product preserve."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Orthogonal aur orthonormal same maan lena."
+ ],
+ "standardTechniques": [
+  "1. Dot products.",
+  "2. Norm."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:orthonormality"
+}

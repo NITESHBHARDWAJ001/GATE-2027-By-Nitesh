@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Address = tag | index | offset; block ek hi line me map hoti hai.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Direct-Mapped Cache se related sawal.",
+   "thinkThis": "P3_DIRECT_MAPPING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Cache size bytes vs lines confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:direct-mapping",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,59 @@
+[
+ {
+  "patternId": "INT_CONCEPT_01",
+  "name": "Interrupt Mechanism Statements",
+  "recognitionClueHinglish": "Vectored, daisy chain, ISR, enable.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Statement match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.20.1",
+   "1.20.2",
+   "1.20.3",
+   "1.20.4",
+   "1.20.6",
+   "1.20.7",
+   "1.20.10"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Vector vs non-vector."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "INT_OVERHEAD_02",
+  "name": "Interrupt / Polling Overhead Calculations",
+  "recognitionClueHinglish": "Data rate, overhead; CPU utilization ya polling interval.",
+  "whatShouldComeToMind": [
+   "Time ratios."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Time per byte.",
+   "2. Overhead ratio."
+  ],
+  "formulasUsed": [
+   "cpuFraction"
+  ],
+  "pyqExamples": [
+   "1.20.5",
+   "1.20.8",
+   "1.20.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Unit conversion."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

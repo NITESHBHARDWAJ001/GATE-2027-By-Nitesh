@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Bubble sort jaise loops me swaps ka count; worst case n(n-1)/2.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Number of Swaps (Sorting) se related sawal.",
+   "thinkThis": "P3_NUMBER_OF_SWAP_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Comparisons aur swaps mix."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:number-of-swap",
+ "revisionLevel": "short-form"
+}

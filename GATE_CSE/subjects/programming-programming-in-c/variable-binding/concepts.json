@@ -1,0 +1,20 @@
+{
+ "overview": "Static vs dynamic binding se output.",
+ "whyItMatters": "1 PYQs extracted (2007-2007); P4 topic.",
+ "coreConcept": "Static vs dynamic binding se output.",
+ "hinglishExplanation": "Global/local resolution scope rule se.",
+ "formalDefinition": "Static vs dynamic binding se output.",
+ "importantProperties": [
+  "Static binding lexical.",
+  "Dynamic binding call chain."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Scope mix."
+ ],
+ "standardTechniques": [
+  "1. Call chain."
+ ],
+ "topicId": "programming-programming-in-c:variable-binding"
+}

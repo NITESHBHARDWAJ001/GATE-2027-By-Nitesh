@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "programming-and-ds-data-structures__3.14.1",
+  "localId": "3.14.1",
+  "subjectId": "programming-and-ds-data-structures",
+  "subject": "Programming and DS: Data Structures",
+  "topicSlug": "time-complexity",
+  "topic": "Time Complexity",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "28",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "A meld operation on two instances of a data structure combines them into one single instance of the same data structure. Consider the following data structures: P. Unsorted doubly linked list with pointers to the head node and tail node of the list. Q. Min-heap implemented using an array. R. Binary Search Tree. Which ONE of the following options gives the worst-case time complexities for meld operation on instances of size of these data structures? A. B. : C. : D. :",
+  "tagsRaw": "gatecse2025-set2 data-structures    time-complexity  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 248
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_TIME_COMPLEXITY_01"
+ }
+]

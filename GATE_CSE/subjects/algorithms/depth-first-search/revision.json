@@ -1,0 +1,18 @@
+{
+ "coreIdea": "DFS traversal, discovery/finish times, edge classification, adjacency-list order.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Depth First Search se related sawal.",
+   "thinkThis": "P3_DEPTH_FIRST_SEARCH_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Order of neighbours ignore karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:depth-first-search",
+ "revisionLevel": "short-form"
+}

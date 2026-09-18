@@ -1,0 +1,29 @@
+{
+ "overview": "Top-down (LL, recursive descent, predictive) vs bottom-up (shift-reduce, LR, LALR, SLR); parse tables, conflicts, handles, conversion to LL(1).",
+ "whyItMatters": "22 PYQs extracted (1987-2024); P2 topic.",
+ "coreConcept": "Top-down leftmost derivation banata hai; bottom-up rightmost derivation ka reverse (reductions).",
+ "hinglishExplanation": "LL(1) ke liye grammar me left recursion aur common prefix nahi hone chahiye (dono hatana zaroori). Bottom-up parsers me canonical LR sabse powerful (LR(1) > LALR > SLR). LALR merging reduce-reduce conflicts la sakti hai, shift-reduce nahi.",
+ "formalDefinition": "Top-down leftmost derivation banata hai; bottom-up rightmost derivation ka reverse (reductions).",
+ "importantProperties": [
+  "Top-down: recursive descent, predictive (LL), backtracking.",
+  "Bottom-up: operator precedence, shift-reduce, LR, SLR, LALR.",
+  "Power: CLR(1) >= LALR(1) >= SLR(1).",
+  "LL(1) conversion: left recursion + left factoring dono.",
+  "Handle = right-sentential form ka reducible substring.",
+  "LALR merging: reduce-reduce conflict aa sakta hai, shift-reduce nahi.",
+  "Predictive table entry M[A,a]: FIRST/FOLLOW se.",
+  "Top-down leftmost derivation; bottom-up reverse rightmost."
+ ],
+ "formulas": {
+  "power": "LR(1) >= LALR(1) >= SLR(1)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Left recursion hatana hi kaafi maan lena.",
+  "LALR conflicts galat."
+ ],
+ "standardTechniques": [
+  "FIRST/FOLLOW table pehle."
+ ],
+ "topicId": "compiler-design:parsing"
+}

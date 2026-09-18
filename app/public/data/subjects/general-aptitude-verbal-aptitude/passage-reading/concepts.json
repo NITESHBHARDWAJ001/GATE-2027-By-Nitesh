@@ -1,0 +1,23 @@
+{
+ "overview": "Passage padhkar inference, main idea, tone, suitable title, what author would agree/disagree.",
+ "whyItMatters": "13 PYQs extracted (2010-2025); P2 topic.",
+ "coreConcept": "Sirf passage me diye evidence ko use karo, apna knowledge nahi.",
+ "hinglishExplanation": "Pehle question padho, phir passage me evidence dhundo. Options me extreme words (always, never, only) se savdhan. Main idea sabse broad option jo poore passage ko cover kare.",
+ "formalDefinition": "Sirf passage me diye evidence ko use karo, apna knowledge nahi.",
+ "importantProperties": [
+  "Main idea: poora passage cover kare.",
+  "Inference: passage se directly supported.",
+  "Extreme words wale options usually galat.",
+  "Tone: author ka attitude.",
+  "Out-of-scope options hatao."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Bahari knowledge use karna."
+ ],
+ "standardTechniques": [
+  "Evidence line underline."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:passage-reading"
+}

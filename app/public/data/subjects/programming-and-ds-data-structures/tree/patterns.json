@@ -1,0 +1,61 @@
+[
+ {
+  "patternId": "TRE_COUNTS_01",
+  "name": "Node/Leaf/Edge Counting in Trees",
+  "recognitionClueHinglish": "Leaves, internal nodes, degree sum.",
+  "whatShouldComeToMind": [
+   "k-ary formulas."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Formula."
+  ],
+  "formulasUsed": [
+   "kary"
+  ],
+  "pyqExamples": [
+   "3.15.2",
+   "3.15.3",
+   "3.15.5",
+   "3.15.6",
+   "3.15.8",
+   "3.15.9",
+   "3.15.12"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Formula direction."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "TRE_TRAVERSAL_CONCEPT_02",
+  "name": "Traversals, Statements, Articulation Points, Merge",
+  "recognitionClueHinglish": "Traversal order, level-order, true/false, pseudocode.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Trace."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.15.1",
+   "3.15.4",
+   "3.15.7",
+   "3.15.10",
+   "3.15.11",
+   "3.15.13"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Traversal order."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

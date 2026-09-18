@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_HAMMING_CODE_01",
+  "name": "Hamming Code (PYQ type)",
+  "recognitionClueHinglish": "Hamming Code se related sawal.",
+  "whatShouldComeToMind": [
+   "Parity bits positions 2^i; syndrome se error position."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Parity check.",
+   "2. Syndrome."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.15.1",
+   "2.15.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Position count 0 se."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

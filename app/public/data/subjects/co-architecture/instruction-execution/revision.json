@@ -1,0 +1,24 @@
+{
+ "coreIdea": "Execution time = sum(count x cycles) / frequency.",
+ "mustRememberFormulas": [
+  "time: instructions x CPI / f"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Statements about PC, stack, ROM, flags, prefetch.",
+   "thinkThis": "IE_CONCEPT_01"
+  },
+  {
+   "seeThis": "PC-relative branch offset; time for instruction mix.",
+   "thinkThis": "IE_CALC_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Offset sign."
+ ],
+ "highYieldPyqLessons": [
+  "Branch offset problems need PC+len."
+ ],
+ "topicId": "co-architecture:instruction-execution",
+ "revisionLevel": "short-form"
+}

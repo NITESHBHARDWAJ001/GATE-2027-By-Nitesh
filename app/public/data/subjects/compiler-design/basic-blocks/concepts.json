@@ -1,0 +1,21 @@
+{
+ "overview": "Leaders find karo: first instruction, jump targets, jump ke baad wala.",
+ "whyItMatters": "2 PYQs extracted (2025-2026); P3 topic.",
+ "coreConcept": "Leaders find karo: first instruction, jump targets, jump ke baad wala.",
+ "hinglishExplanation": "Basic block leader se agle leader tak.",
+ "formalDefinition": "Leaders find karo: first instruction, jump targets, jump ke baad wala.",
+ "importantProperties": [
+  "Leader: first instr, target of jump, instr after jump.",
+  "Blocks count = leaders count."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Jump ke baad wala leader bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Leaders mark.",
+  "2. Blocks."
+ ],
+ "topicId": "compiler-design:basic-blocks"
+}

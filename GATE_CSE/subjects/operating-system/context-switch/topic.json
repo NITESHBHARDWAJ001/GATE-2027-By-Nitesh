@@ -1,0 +1,21 @@
+{
+ "topicId": "operating-system:context-switch",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Context Switch",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 1999-2024.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  1999,
+  2000,
+  2011,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "AP/GP sums, nth term.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Sequence and Series (Aptitude) se related sawal.",
+   "thinkThis": "P3_SEQUENCE_SERIES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "n indexing."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:sequence-series",
+ "revisionLevel": "short-form"
+}

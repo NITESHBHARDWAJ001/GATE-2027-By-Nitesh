@@ -1,0 +1,33 @@
+[
+ {
+  "patternId": "P3_CANDIDATE_KEY_01",
+  "name": "Candidate Keys (PYQ type)",
+  "recognitionClueHinglish": "Candidate Keys se related sawal.",
+  "whatShouldComeToMind": [
+   "FD set se candidate keys nikalna; superkeys ki count."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Essential attributes.",
+   "2. Closure.",
+   "3. Minimality."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.3.1",
+   "3.3.2",
+   "3.3.3",
+   "3.3.4",
+   "3.3.5",
+   "3.3.6",
+   "3.3.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Instance se key conclude karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

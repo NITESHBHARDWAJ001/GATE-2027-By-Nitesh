@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_POWERS_01",
+  "name": "Powers and Exponents (PYQ type)",
+  "recognitionClueHinglish": "Powers and Exponents se related sawal.",
+  "whatShouldComeToMind": [
+   "Exponent laws."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Laws."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.42.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Negative exponent."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,544 @@
+[
+ {
+  "topicSlug": "programming-in-c",
+  "name": "Programming In C",
+  "pyqCountExtracted": 29,
+  "yearsCovered": [
+   2000,
+   2002,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2012,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2021,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2021,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.11.1",
+   "programming-programming-in-c__5.11.2",
+   "programming-programming-in-c__5.11.3",
+   "programming-programming-in-c__5.11.4",
+   "programming-programming-in-c__5.11.5",
+   "programming-programming-in-c__5.11.6",
+   "programming-programming-in-c__5.11.7",
+   "programming-programming-in-c__5.11.8",
+   "programming-programming-in-c__5.11.9",
+   "programming-programming-in-c__5.11.10",
+   "programming-programming-in-c__5.11.11",
+   "programming-programming-in-c__5.11.12",
+   "programming-programming-in-c__5.11.13",
+   "programming-programming-in-c__5.11.14",
+   "programming-programming-in-c__5.11.15",
+   "programming-programming-in-c__5.11.16",
+   "programming-programming-in-c__5.11.17",
+   "programming-programming-in-c__5.11.18",
+   "programming-programming-in-c__5.11.19",
+   "programming-programming-in-c__5.11.20",
+   "programming-programming-in-c__5.11.21",
+   "programming-programming-in-c__5.11.22",
+   "programming-programming-in-c__5.11.23",
+   "programming-programming-in-c__5.11.24",
+   "programming-programming-in-c__5.11.25",
+   "programming-programming-in-c__5.11.26",
+   "programming-programming-in-c__5.11.27",
+   "programming-programming-in-c__5.11.28",
+   "programming-programming-in-c__5.11.29"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "29 PYQs extracted, tested in 7 recent GATE cycles (2016+), spans 2000-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "recursion",
+  "name": "Recursion",
+  "pyqCountExtracted": 19,
+  "yearsCovered": [
+   1991,
+   1994,
+   2000,
+   2001,
+   2002,
+   2004,
+   2005,
+   2007,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2020,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2018,
+   2020,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.13.1",
+   "programming-programming-in-c__5.13.2",
+   "programming-programming-in-c__5.13.3",
+   "programming-programming-in-c__5.13.4",
+   "programming-programming-in-c__5.13.5",
+   "programming-programming-in-c__5.13.6",
+   "programming-programming-in-c__5.13.7",
+   "programming-programming-in-c__5.13.8",
+   "programming-programming-in-c__5.13.9",
+   "programming-programming-in-c__5.13.10",
+   "programming-programming-in-c__5.13.11",
+   "programming-programming-in-c__5.13.12",
+   "programming-programming-in-c__5.13.13",
+   "programming-programming-in-c__5.13.14",
+   "programming-programming-in-c__5.13.15",
+   "programming-programming-in-c__5.13.16",
+   "programming-programming-in-c__5.13.17",
+   "programming-programming-in-c__5.13.18",
+   "programming-programming-in-c__5.13.19"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "19 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1991-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "pointers",
+  "name": "Pointers",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [
+   2000,
+   2001,
+   2003,
+   2005,
+   2006,
+   2014,
+   2015,
+   2017,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.9.1",
+   "programming-programming-in-c__5.9.2",
+   "programming-programming-in-c__5.9.3",
+   "programming-programming-in-c__5.9.4",
+   "programming-programming-in-c__5.9.5",
+   "programming-programming-in-c__5.9.6",
+   "programming-programming-in-c__5.9.7",
+   "programming-programming-in-c__5.9.8",
+   "programming-programming-in-c__5.9.9",
+   "programming-programming-in-c__5.9.10",
+   "programming-programming-in-c__5.9.11",
+   "programming-programming-in-c__5.9.12",
+   "programming-programming-in-c__5.9.13",
+   "programming-programming-in-c__5.9.14",
+   "programming-programming-in-c__5.9.15"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "15 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 2000-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "array",
+  "name": "Array",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   2002,
+   2004,
+   2008,
+   2011,
+   2015,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "recentYearsCovered": [
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.2.1",
+   "programming-programming-in-c__5.2.2",
+   "programming-programming-in-c__5.2.3",
+   "programming-programming-in-c__5.2.4",
+   "programming-programming-in-c__5.2.5",
+   "programming-programming-in-c__5.2.6",
+   "programming-programming-in-c__5.2.7",
+   "programming-programming-in-c__5.2.8",
+   "programming-programming-in-c__5.2.9",
+   "programming-programming-in-c__5.2.10",
+   "programming-programming-in-c__5.2.11",
+   "programming-programming-in-c__5.2.12",
+   "programming-programming-in-c__5.2.13"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "13 PYQs extracted, 4 recent (2016+) appearances, spans 2002-2022 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "parameter-passing",
+  "name": "Parameter Passing",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   1992,
+   1994,
+   2001,
+   2003,
+   2006,
+   2008,
+   2010,
+   2013,
+   2016,
+   2018
+  ],
+  "recentYearsCovered": [
+   2016,
+   2018
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.8.1",
+   "programming-programming-in-c__5.8.2",
+   "programming-programming-in-c__5.8.3",
+   "programming-programming-in-c__5.8.4",
+   "programming-programming-in-c__5.8.5",
+   "programming-programming-in-c__5.8.6",
+   "programming-programming-in-c__5.8.7",
+   "programming-programming-in-c__5.8.8",
+   "programming-programming-in-c__5.8.9",
+   "programming-programming-in-c__5.8.10",
+   "programming-programming-in-c__5.8.11",
+   "programming-programming-in-c__5.8.12"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "12 PYQs extracted, 2 recent (2016+) appearances, spans 1992-2018 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "loop-invariants",
+  "name": "Loop Invariants",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1987,
+   1988,
+   1991,
+   2004,
+   2015,
+   2016,
+   2017
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.6.1",
+   "programming-programming-in-c__5.6.2",
+   "programming-programming-in-c__5.6.3",
+   "programming-programming-in-c__5.6.4",
+   "programming-programming-in-c__5.6.5",
+   "programming-programming-in-c__5.6.6",
+   "programming-programming-in-c__5.6.7",
+   "programming-programming-in-c__5.6.8"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "8 PYQs extracted, 2 recent (2016+) appearances, spans 1987-2017 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "output",
+  "name": "Output",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.7.1",
+   "programming-programming-in-c__5.7.2",
+   "programming-programming-in-c__5.7.3",
+   "programming-programming-in-c__5.7.4",
+   "programming-programming-in-c__5.7.5",
+   "programming-programming-in-c__5.7.6",
+   "programming-programming-in-c__5.7.7",
+   "programming-programming-in-c__5.7.8"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "8 PYQs extracted, 5 recent (2016+) appearances, spans 2022-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "identify-function",
+  "name": "Identify Function",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1995,
+   1998,
+   2004,
+   2017,
+   2019
+  ],
+  "recentYearsCovered": [
+   2017,
+   2019
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.5.1",
+   "programming-programming-in-c__5.5.2",
+   "programming-programming-in-c__5.5.3",
+   "programming-programming-in-c__5.5.4",
+   "programming-programming-in-c__5.5.5",
+   "programming-programming-in-c__5.5.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 1995-2019 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "structure",
+  "name": "Structure",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2000,
+   2004,
+   2006,
+   2018,
+   2021
+  ],
+  "recentYearsCovered": [
+   2018,
+   2021
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.16.1",
+   "programming-programming-in-c__5.16.2",
+   "programming-programming-in-c__5.16.3",
+   "programming-programming-in-c__5.16.4",
+   "programming-programming-in-c__5.16.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 2000-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "functions",
+  "name": "Functions",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2015,
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.3.1",
+   "programming-programming-in-c__5.3.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2015-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "goto",
+  "name": "Goto",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1989,
+   1994
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "programming-programming-in-c__5.4.1",
+   "programming-programming-in-c__5.4.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 1989-1994 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "programming-paradigms",
+  "name": "Programming Paradigms",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2004
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "programming-programming-in-c__5.12.1",
+   "programming-programming-in-c__5.12.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 2004-2004 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "strings",
+  "name": "Strings",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2004,
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.15.1",
+   "programming-programming-in-c__5.15.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2004-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "switch-case",
+  "name": "Switch Case",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2012,
+   2015
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "programming-programming-in-c__5.17.1",
+   "programming-programming-in-c__5.17.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 2012-2015 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "aliasing",
+  "name": "Aliasing",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2000
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "programming-programming-in-c__5.1.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2000-2000 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "programming-constructs",
+  "name": "Programming Constructs",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   1999
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "programming-programming-in-c__5.10.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 1999-1999 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "runtime-environment",
+  "name": "Runtime Environment",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "programming-programming-in-c__5.14.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "type-checking",
+  "name": "Type Checking",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2003
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "programming-programming-in-c__5.18.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2003-2003 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "union",
+  "name": "Union",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2000
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "programming-programming-in-c__5.19.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2000-2000 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "variable-binding",
+  "name": "Variable Binding",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2007
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "programming-programming-in-c__5.20.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2007-2007 — long-tail topic, revision-only unless it's a known prerequisite."
+ }
+]

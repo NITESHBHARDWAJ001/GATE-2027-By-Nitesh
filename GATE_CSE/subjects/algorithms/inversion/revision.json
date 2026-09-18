@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Inversion = pair i<j, a[i]>a[j]; insertion sort ke swaps = inversions.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Inversions se related sawal.",
+   "thinkThis": "P3_INVERSION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Adjacent-swaps aur inversions ko confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:inversion",
+ "revisionLevel": "short-form"
+}

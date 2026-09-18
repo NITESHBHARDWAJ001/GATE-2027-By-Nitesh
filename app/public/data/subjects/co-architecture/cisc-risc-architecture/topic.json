@@ -1,0 +1,19 @@
+{
+ "topicId": "co-architecture:cisc-risc-architecture",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "CISC vs RISC",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "2 PYQs extracted, 1999-2018.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  1999,
+  2018
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

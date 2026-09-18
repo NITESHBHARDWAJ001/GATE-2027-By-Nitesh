@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Two-pass assembler: pass 1 symbol table/location counter, pass 2 object code.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Assembler se related sawal.",
+   "thinkThis": "P3_ASSEMBLER_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Object code pass 1 me maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:assembler",
+ "revisionLevel": "short-form"
+}

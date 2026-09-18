@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "compiler-design__2.8.1",
+  "localId": "2.8.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "compiler-tokenization",
+  "topic": "Compiler tokenization",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "25",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "A lexical analyzer uses the following token definitions For the string given below, the number of tokens (excluding ws) that will be produced by the lexical analyzer is . (answer in integer)",
+  "tagsRaw": "gatecse-2026-set2 compiler-design  compiler-tokenization  numerical-answers   one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 130
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COMPILER_TOKENIZATION_01"
+ }
+]

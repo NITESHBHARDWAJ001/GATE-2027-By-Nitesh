@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_DISK_01",
+  "name": "Disk Access Time (PYQ type)",
+  "recognitionClueHinglish": "Disk Access Time se related sawal.",
+  "whatShouldComeToMind": [
+   "RPM se rotational latency; seek + latency + transfer."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rotation.",
+   "2. Sum."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.14.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Latency me half bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

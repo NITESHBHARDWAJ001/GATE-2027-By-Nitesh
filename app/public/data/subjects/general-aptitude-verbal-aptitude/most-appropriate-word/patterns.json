@@ -1,0 +1,104 @@
+[
+ {
+  "patternId": "VERB_CONTEXT_FILL_01",
+  "name": "Sentence Completion by Context (Word/Phrase)",
+  "recognitionClueHinglish": "Blank ke liye sabse suitable word/phrase chunna.",
+  "whatShouldComeToMind": [
+   "Context clue aur grammar."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sentence ka tone/relation.",
+   "2. Part of speech.",
+   "3. Elimination."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.7.1",
+   "11.7.2",
+   "11.7.3",
+   "11.7.4",
+   "11.7.5",
+   "11.7.7",
+   "11.7.8",
+   "11.7.9",
+   "11.7.10",
+   "11.7.14",
+   "11.7.16",
+   "11.7.19",
+   "11.7.21",
+   "11.7.24"
+  ],
+  "variationsObserved": [
+   "Multiple blanks ek saath."
+  ],
+  "commonTraps": [
+   "Familiar word par bharosa."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "VERB_GRAMMAR_USAGE_02",
+  "name": "Grammar-Based Usage (Pronoun, Preposition, Phrasal Verb, Homophone)",
+  "recognitionClueHinglish": "Correct form: that/which, besides, break down, fair/fare.",
+  "whatShouldComeToMind": [
+   "Grammar rule."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Grammatical role.",
+   "2. Rule apply karo."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.7.6",
+   "11.7.12",
+   "11.7.13",
+   "11.7.15",
+   "11.7.18",
+   "11.7.11",
+   "11.7.23"
+  ],
+  "variationsObserved": [
+   "Homophone pairs."
+  ],
+  "commonTraps": [
+   "Similar sounding words."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "VERB_ANALOGY_INTENSITY_03",
+  "name": "Analogy and Intensity-Order Questions",
+  "recognitionClueHinglish": "A : B :: C : ?, ya intensity ordering me missing word.",
+  "whatShouldComeToMind": [
+   "Relation batao aur apply karo."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Relation pehchano.",
+   "2. Wahi relation second pair par lagao."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.7.17",
+   "11.7.20",
+   "11.7.22",
+   "11.7.25",
+   "11.7.26"
+  ],
+  "variationsObserved": [
+   "Degree/intensity analogies (2024)."
+  ],
+  "commonTraps": [
+   "Relation ulta."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,38 @@
+{
+  "topicId": "os-process-synchronization",
+  "overview": "Process Synchronization OS ka sabse bada topic hai (52 PYQs). 6 skills: critical-section solution VERIFY karna (Peterson's-jaise flag/turn algorithms), semaphore-based classic problems (producer-consumer, reader-writer), semaphore-code TRACE karke possible outputs/counts nikaalna, test-and-set/atomic-instruction based mutex, precedence-graph/fork-join concurrent programming, aur conceptual definitions.",
+  "whyItMatters": "Har saal 3-4 questions guaranteed. Semaphore P()/V() (wait/signal) ka balance check karna ek core, reusable skill hai.",
+  "coreConcept": "Semaphore = ek integer counter jisme sirf 2 atomic operations hote hain: P()/wait() (decrement, agar 0 se neeche jaaye to BLOCK/wait), V()/signal() (increment, agar koi wait kar raha hai to usse WAKE UP karo). MUTUAL EXCLUSION ke liye binary semaphore (0/1) use hota hai — critical section ko P()...V() se ghero. RESOURCE-COUNTING ke liye counting semaphore use hota hai (jaise buffer slots).",
+  "hinglishExplanation": "Semaphore ko ek 'token counter' socho — P() ek token LETA hai (agar available hai; nahi to wait karta hai jab tak koi token na de de), V() ek token WAPIS karta hai. Mutual exclusion ke liye 1 token wala semaphore (mutex) use karo — sirf EK process critical section me ja sakta hai kyunki sirf 1 token hai. Producer-Consumer me DO semaphores chahiye: 'empty slots count' aur 'full slots count' — producer empty slot LETA hai aur full slot BADHATA hai, consumer ulta.",
+  "formalDefinition": "P(S)/wait(S): S=S-1; if S<0, block the calling process. V(S)/signal(S): S=S+1; if S≤0, wake up a blocked process. Mutual exclusion requires: (1) only one process in CS at a time, (2) progress (no indefinite postponement if CS is free), (3) bounded waiting (no starvation).",
+  "importantProperties": [
+    "A VALID critical-section solution must satisfy all THREE: Mutual Exclusion, Progress, Bounded Waiting. Testing a given solution means checking EACH of these three properties.",
+    "Peterson's Algorithm (2 processes, flag[] + turn variable) is a CORRECT software-only solution satisfying all three properties — the canonical example to compare against.",
+    "Producer-Consumer (bounded buffer, size N): needs 3 semaphores — mutex (binary, =1, for mutual exclusion on buffer access), empty (counting, =N initially, tracks empty slots), full (counting, =0 initially, tracks filled slots). Producer: wait(empty), wait(mutex), add, signal(mutex), signal(full). Consumer: wait(full), wait(mutex), remove, signal(mutex), signal(empty).",
+    "Reader-Writer Problem: multiple readers can read SIMULTANEOUSLY, but a writer needs EXCLUSIVE access (no readers or other writers). Standard solution uses a read-count variable + mutex (protecting read-count) + a 'wrt' semaphore (writer exclusion, also held by the FIRST reader and released by the LAST reader).",
+    "Test-and-Set based mutex: while(TestAndSet(lock)); — BUSY-WAITING (spinlock) solution, simple but WASTES CPU cycles while waiting (no blocking/sleeping).",
+    "Dining Philosophers deadlock avoidance: classic fix = have at least one philosopher pick up forks in the OPPOSITE order (breaks the circular-wait condition) — or limit the number of philosophers allowed to sit simultaneously to N-1."
+  ],
+  "formulas": {
+    "waitSignalDefinition": "wait(S)/P(S): S--; if(S<0) block. signal(S)/V(S): S++; if(S≤0) wakeup a blocked process",
+    "threeCSProperties": "Mutual Exclusion + Progress + Bounded Waiting — ALL THREE required for a correct CS solution",
+    "producerConsumerSemaphores": "mutex=1 (binary), empty=N (counting), full=0 (counting) for a size-N bounded buffer",
+    "readerWriterPattern": "readcount (int, protected by mutex) + wrt (semaphore, held during any write OR by the span from first-reader-in to last-reader-out)"
+  },
+  "keyPropertiesAndIdentities": [
+    "For semaphore-code TRACE/output-count questions: the KEY insight is that semaphore operations serialize access, but the actual INTERLEAVING of concurrent processes can still vary — find ALL possible valid interleavings (respecting wait/signal ordering) to determine the RANGE of possible final values, not just one.",
+    "Counting how many times a semaphore-protected statement executes: if wait()/signal() pairs are correctly balanced around a critical section, the section executes EXACTLY once per iteration — but if initial semaphore values or pairing is WRONG, the count/behavior can deviate (deadlock, extra executions, race conditions)."
+  ],
+  "commonPitfalls": [
+    "Assuming any flag/turn-based solution is automatically correct like Peterson's — many similar-looking proposed solutions actually FAIL one of the three properties (often progress or bounded waiting) — always verify all three explicitly.",
+    "Mixing up which semaphore protects WHAT in producer-consumer (empty vs full vs mutex) — a swapped or misplaced wait/signal breaks the whole solution.",
+    "For reader-writer, forgetting that only the FIRST reader needs to wait(wrt) and only the LAST reader needs to signal(wrt) — middle readers skip this.",
+    "Assuming semaphore-based code has a SINGLE deterministic output — concurrent execution usually has MULTIPLE possible valid interleavings/outputs unless proven otherwise."
+  ],
+  "standardTechniques": [
+    "For critical-section-solution verification: check Mutual Exclusion (can two processes be in CS simultaneously under any execution order?), Progress (can the CS sit empty while a waiting process is blocked from entering despite CS being free?), Bounded Waiting (can a process wait indefinitely while others repeatedly cut in?) — test with concrete small interleavings for each.",
+    "For producer-consumer/reader-writer: match the given code against the STANDARD template, identify which semaphore serves which role, spot deviations from the correct pattern.",
+    "For semaphore-trace/output-count questions: enumerate the POSSIBLE valid interleavings (respecting each process's own instruction order and semaphore wait/signal constraints), compute the resulting value/count for each, report the range or count of distinct possibilities.",
+    "For test-and-set/atomic-instruction questions: recall these provide BUSY-WAITING mutual exclusion — correct but CPU-wasteful, contrast with semaphore's blocking (sleep-based) approach."
+  ]
+}

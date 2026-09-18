@@ -1,0 +1,42 @@
+{
+ "topicId": "os-virtual-memory",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-VM-01",
+   "patternId": "VM_PAGETABLE_SIZE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "32-bit virtual address, 4 KB pages, 4-byte PTE, single-level page table. Page table size?",
+   "solutionApproach": "Offset=12, page bits=20 so 2^20 entries x 4 B = 4 MB.",
+   "answer": "4 MB"
+  },
+  {
+   "practiceId": "AI-VM-02",
+   "patternId": "VM_PAGETABLE_SIZE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Same system with a multilevel table where each table fits in one page. How many levels?",
+   "solutionApproach": "Entries per page = 4KB/4B = 1024 so 10 bits/level. 20/10 = 2 levels.",
+   "answer": "2 levels"
+  },
+  {
+   "practiceId": "AI-VM-03",
+   "patternId": "VM_EAT_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "TLB 10 ns, memory 100 ns, hit ratio 90%, single-level page table, no page faults. EAT?",
+   "solutionApproach": "Hit: 10+100=110. Miss: 10+100+100=210. EAT=0.9*110+0.1*210=120.",
+   "answer": "120 ns"
+  },
+  {
+   "practiceId": "AI-VM-04",
+   "patternId": "VM_TLB_STRUCTURE_03",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "32-bit VA, 4 KB pages, 64-entry 4-way set-associative TLB. Tag bits?",
+   "solutionApproach": "Page bits 20; sets=16 so 4 index bits; tag=16.",
+   "answer": "16 bits"
+  }
+ ]
+}

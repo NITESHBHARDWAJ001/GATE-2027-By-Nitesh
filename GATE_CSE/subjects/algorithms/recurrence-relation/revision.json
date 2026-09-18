@@ -1,0 +1,28 @@
+{
+  "topicId": "algorithms-recurrence-relation",
+  "revisionLevel": "short-form",
+  "coreIdea": "Identify recurrence SHAPE first (aT(n/b)+f(n) → Master Theorem; T(n-1)+f(n) → unroll/sum; T(n-1)+T(n-2) → exponential/Fibonacci-like).",
+  "mustRememberFormulas": [
+    "Master Theorem: compare f(n) to n^(log_b a) — 3 cases",
+    "T(n)=T(n-1)+c → Θ(n); T(n)=T(n-1)+n → Θ(n²)",
+    "T(n)=2T(n-1)+c → Θ(2ⁿ) (Towers of Hanoi shape)",
+    "T(n)=2T(n/2)+n → Θ(n log n) (Merge Sort shape)",
+    "T(n)=T(n/2)+c → Θ(log n) (Binary Search shape)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "recurrence given directly, asked to solve/classify it", "thinkThis": "RR_SOLVE_01"},
+    {"seeThis": "recursive algorithm/code given, asked to SET UP the recurrence", "thinkThis": "RR_SETUP_FROM_CODE_02"},
+    {"seeThis": "asked exact/precise number of invocations (not just complexity class)", "thinkThis": "RR_CALL_COUNT_03"},
+    {"seeThis": "comparative TRUE/FALSE claim about a recurrence-defined function", "thinkThis": "RR_COMPARATIVE_PROPERTY_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Don't force-fit Master Theorem onto shapes it doesn't cover (unequal splits, T(n-1)+T(n-2), log-factor boundary cases)",
+    "Count recursive calls carefully — missing a call site is the most common setup error",
+    "n^(log_b a) boundary case with an extra log factor needs recursion-tree, not basic Master Theorem",
+    "Call-count recurrence ≠ time-complexity recurrence when per-call work isn't constant"
+  ],
+  "highYieldPyqLessons": [
+    "Solving a given recurrence (20/36) is the dominant skill — know Master Theorem's 3 cases cold, and recursion-tree as the fallback.",
+    "Setting up a recurrence FROM code (12/36) is the reverse skill — practice both directions, they're tested almost equally."
+  ]
+}

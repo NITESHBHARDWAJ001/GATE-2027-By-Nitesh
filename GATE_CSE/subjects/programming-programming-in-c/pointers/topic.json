@@ -1,0 +1,21 @@
+{
+  "topicId": "prog-c-pointers",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "name": "Pointers",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "15 PYQs extracted, tested 2000-2026, strong recent presence (2022-2026 every year). Third and last topic in the Programming-in-C mini-track.",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [2000,2001,2003,2005,2006,2014,2015,2017,2022,2024,2025,2026],
+  "prerequisites": [
+    {"topic": "Programming In C", "subjectId": "programming-programming-in-c", "why": "Pointer questions are code-tracing questions with an extra layer of address/dereference bookkeeping."}
+  ],
+  "unlocks": [
+    {"topic": "Linked List", "subjectId": "programming-and-ds-data-structures", "why": "Linked list operations are entirely pointer manipulation — this topic is the direct prerequisite."},
+    {"topic": "Array", "subjectId": "programming-and-ds-data-structures", "why": "Array-pointer equivalence (a[i] ≡ *(a+i)) is used constantly in DS array questions."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

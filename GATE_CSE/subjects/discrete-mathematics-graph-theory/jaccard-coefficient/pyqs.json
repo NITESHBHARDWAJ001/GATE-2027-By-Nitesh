@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "discrete-mathematics-graph-theory__2.9.1",
+  "localId": "2.9.1",
+  "subjectId": "discrete-mathematics-graph-theory",
+  "subject": "Discrete Mathematics: Graph Theory",
+  "topicSlug": "jaccard-coefficient",
+  "topic": "Jaccard Coefficient",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "26",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a complete graph with vertices (                                                           ). Note that multiple spanning trees can be constructed over . Each of these spanning trees is represented as a set of edges. The Jaccard coefficient between any two sets is defined as the ratio of the size of the intersection of the two sets to the size of the union of the two sets. Which one of the following options gives the lowest possible value for the Jaccard coefficient between any two spanning trees of ? A.                              B.                                               C.                         D.",
+  "tagsRaw": "gatecse-2026-set2 graph-theory  jaccard-coefficient  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 51
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_JACCARD_COEFFICIENT_01"
+ }
+]

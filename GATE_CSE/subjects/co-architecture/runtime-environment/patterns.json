@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P4_RUNTIME_ENVIRONMENT_01",
+  "name": "Stack Pointer and Register Windows (PYQ type)",
+  "recognitionClueHinglish": "Stack Pointer and Register Windows se related sawal.",
+  "whatShouldComeToMind": [
+   "Register windows overlap se procedure call/return me memory accesses kam."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Call overhead."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.25.1",
+   "1.25.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Windows ko memory badhane wala maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

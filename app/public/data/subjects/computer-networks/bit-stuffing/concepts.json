@@ -1,0 +1,22 @@
+{
+ "overview": "Flag 01111110 ke andar 5 consecutive 1s ke baad 0 stuff.",
+ "whyItMatters": "2 PYQs extracted (2004-2014); P4 topic.",
+ "coreConcept": "Flag 01111110 ke andar 5 consecutive 1s ke baad 0 stuff.",
+ "hinglishExplanation": "Sender 5 ones ke baad 0 daalta hai, receiver hata deta hai.",
+ "formalDefinition": "Flag 01111110 ke andar 5 consecutive 1s ke baad 0 stuff.",
+ "importantProperties": [
+  "5 ones ke baad 0.",
+  "Overhead data pattern par depend.",
+  "Unstuff receiver par."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Stuffed 0 count me miss."
+ ],
+ "standardTechniques": [
+  "1. Scan.",
+  "2. Stuff."
+ ],
+ "topicId": "computer-networks:bit-stuffing"
+}

@@ -1,0 +1,20 @@
+{
+ "overview": "Assignment + bounded for loops se kya compute ho sakta hai.",
+ "whyItMatters": "1 PYQs extracted (1999-1999); P4 topic.",
+ "coreConcept": "Assignment + bounded for loops se kya compute ho sakta hai.",
+ "hinglishExplanation": "Bounded loops = primitive recursive; unbounded while zaroori for general.",
+ "formalDefinition": "Assignment + bounded for loops se kya compute ho sakta hai.",
+ "importantProperties": [
+  "for with fixed bound always terminate.",
+  "while unbounded adds power."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Terminating ko complete maan lena."
+ ],
+ "standardTechniques": [
+  "1. Loop type."
+ ],
+ "topicId": "programming-programming-in-c:programming-constructs"
+}

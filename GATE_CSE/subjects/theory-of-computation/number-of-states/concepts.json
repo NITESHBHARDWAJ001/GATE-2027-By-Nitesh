@@ -1,0 +1,21 @@
+{
+ "overview": "Min DFA states; NFA to DFA blow-up; modular-product automata.",
+ "whyItMatters": "2 PYQs extracted (2025-2026); P3 topic.",
+ "coreConcept": "Min DFA states; NFA to DFA blow-up; modular-product automata.",
+ "hinglishExplanation": "NFA n states => DFA up to 2^n.",
+ "formalDefinition": "Min DFA states; NFA to DFA blow-up; modular-product automata.",
+ "importantProperties": [
+  "DFA <= 2^n.",
+  "Modulo languages: k states.",
+  "Product construction."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Min DFA aur NFA states confuse."
+ ],
+ "standardTechniques": [
+  "1. Classes."
+ ],
+ "topicId": "theory-of-computation:number-of-states"
+}

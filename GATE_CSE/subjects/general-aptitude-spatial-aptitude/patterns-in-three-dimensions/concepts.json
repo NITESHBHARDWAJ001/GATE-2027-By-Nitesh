@@ -1,0 +1,20 @@
+{
+ "overview": "Cube cutting, solids ka cross-section.",
+ "whyItMatters": "3 PYQs extracted (2023-2024); P3 topic.",
+ "coreConcept": "Cube cutting, solids ka cross-section.",
+ "hinglishExplanation": "3D object ko slice karke cross-section.",
+ "formalDefinition": "Cube cutting, solids ka cross-section.",
+ "importantProperties": [
+  "Cube 6 faces, 12 edges, 8 vertices.",
+  "Cone cross-sections."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Hidden faces."
+ ],
+ "standardTechniques": [
+  "1. Visualize."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:patterns-in-three-dimensions"
+}

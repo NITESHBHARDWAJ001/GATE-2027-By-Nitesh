@@ -1,0 +1,19 @@
+{
+ "topicId": "programming-and-ds-data-structures:priority-queue",
+ "subjectId": "programming-and-ds-data-structures",
+ "subject": "Programming & DS - Data Structures",
+ "name": "Priority Queue",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "2 PYQs extracted, 1997-2023.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  1997,
+  2023
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

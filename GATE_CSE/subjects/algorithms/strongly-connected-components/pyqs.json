@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "algorithms__1.42.1",
+  "localId": "1.42.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "strongly-connected-components",
+  "topic": "Strongly Connected Components",
+  "year": 2008,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "The most efficient algorithm for finding the number of connected components in an undirected graph on vertices and edges has time complexity A.                                         B.                                     C.                        D.",
+  "tagsRaw": "gatecse-2008 algorithms  graph-algorithms      time-complexity    normal  strongly-connected-components",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 103
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STRONGLY_CONNECTED_COMPO_01"
+ },
+ {
+  "pyqId": "algorithms__1.42.2",
+  "localId": "1.42.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "strongly-connected-components",
+  "topic": "Strongly Connected Components",
+  "year": 2018,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "43",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "109",
+  "answerVerified": true,
+  "questionTextRaw": "Let be a graph with                            vertices, with each vertex labelled by a distinct permutation of the numbers There is an edge between vertices and if and only if the label of can be obtained by swapping two adjacent numbers in the label of . Let denote the degree of a vertex in , and denote the number of connected components in . Then,                                             ______.",
+  "tagsRaw": "gatecse-2018 algorithms  graph-algorithms      numerical-answers  two-marks  strongly-connected-components",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 103
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STRONGLY_CONNECTED_COMPO_01"
+ },
+ {
+  "pyqId": "algorithms__1.42.3",
+  "localId": "1.42.3",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "strongly-connected-components",
+  "topic": "Strongly Connected Components",
+  "year": 2006,
+  "examStream": "IT",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "46",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following is the correct decomposition of the directed graph given below into its strongly connected components? A. B. C. D.",
+  "tagsRaw": "gateit-2006 algorithms   graph-algorithms  normal  strongly-connected-components",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 103
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STRONGLY_CONNECTED_COMPO_01"
+ }
+]

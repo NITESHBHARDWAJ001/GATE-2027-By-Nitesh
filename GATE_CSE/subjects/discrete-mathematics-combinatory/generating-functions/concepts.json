@@ -1,0 +1,25 @@
+{
+ "overview": "Ordinary generating functions, closed forms, coefficient extraction.",
+ "whyItMatters": "6 PYQs extracted (1987-2022); P2 topic.",
+ "coreConcept": "OGF of a_n is sum a_n x^n; 1/(1-x) = sum x^n.",
+ "hinglishExplanation": "Standard series: 1/(1-x), 1/(1-x)^2 = sum (n+1) x^n, 1/(1-ax). Coefficient nikalne ke liye product expand ya binomial theorem. Fibonacci GF = x/(1-x-x^2).",
+ "formalDefinition": "OGF of a_n is sum a_n x^n; 1/(1-x) = sum x^n.",
+ "importantProperties": [
+  "1/(1-x)^k coefficient C(n+k-1,k-1).",
+  "1/(1-ax) = sum a^n x^n.",
+  "Fibonacci GF x/(1-x-x^2).",
+  "Product of GFs = convolution of sequences.",
+  "Shift: x^k multiply."
+ ],
+ "formulas": {
+  "geo": "1/(1-x) = sum x^n"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Index shifts."
+ ],
+ "standardTechniques": [
+  "Known series me tod."
+ ],
+ "topicId": "discrete-mathematics-combinatory:generating-functions"
+}

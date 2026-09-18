@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Critical point: f'(x)=0. f''>0 => local min, f''<0 => local max. Closed interval par global extrema critical points aur endpoints par.",
+ "mustRememberFormulas": [
+  "secondTest: f''>0 min, f''<0 max"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Function aur interval; max/min value ya location.",
+   "thinkThis": "MM_OPTIMIZE_01"
+  },
+  {
+   "seeThis": "MSQ/MCQ true-false statements.",
+   "thinkThis": "MM_STATEMENTS_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Endpoints.",
+  "f'=0 not always extremum."
+ ],
+ "highYieldPyqLessons": [
+  "Expressions are often blank in extraction; check the source."
+ ],
+ "topicId": "engineering-mathematics-calculus:maxima-minima",
+ "revisionLevel": "short-form"
+}

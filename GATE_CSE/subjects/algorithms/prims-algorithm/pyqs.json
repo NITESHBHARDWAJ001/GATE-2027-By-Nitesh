@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "algorithms__1.33.1",
+  "localId": "1.33.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "prims-algorithm",
+  "topic": "Prims Algorithm",
+  "year": 2004,
+  "examStream": "IT",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "56",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the undirected graph below: Using Prim's algorithm to construct a minimum spanning tree starting with node A, which one of the following sequences of edges represents a possible order in which the edges would be added to construct the minimum spanning tree? A. B. C. D.",
+  "tagsRaw": "gateit-2004 algorithms  graph-algorithms  normal  prims-algorithm",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 81
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_PRIMS_ALGORITHM_01"
+ },
+ {
+  "pyqId": "algorithms__1.33.2",
+  "localId": "1.33.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "prims-algorithm",
+  "topic": "Prims Algorithm",
+  "year": 2008,
+  "examStream": "IT",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "45",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "For the undirected, weighted graph given below, which of the following sequences of edges represents a correct execution of Prim's algorithm to construct a Minimum Spann ing Tree? A. B. C. D.",
+  "tagsRaw": "gateit-2008 algorithms  graph-algorithms  minimum-spanning-tree    normal  prims-algorithm",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 81
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_PRIMS_ALGORITHM_01"
+ }
+]

@@ -1,0 +1,33 @@
+{
+ "topicId": "digital-logic:flip-flop",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-FLIP-F-01",
+   "patternId": "FF_STATES_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "T FF with T=1: Q sequence from 0?",
+   "solutionApproach": "Toggle.",
+   "answer": "0,1,0,1"
+  },
+  {
+   "practiceId": "AI-FLIP-FLO-X02",
+   "patternId": "FF_STATES_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "T flip-flop with T=0: next state?",
+   "solutionApproach": "Hold.",
+   "answer": "Q unchanged"
+  },
+  {
+   "practiceId": "AI-FLIP-FLO-X03",
+   "patternId": "FF_LATCH_CONCEPT_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "SR latch built from NAND gates: which input combination is forbidden?",
+   "solutionApproach": "Both active-low inputs 0.",
+   "answer": "S'=R'=0"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P4_CARRY_GENERATOR_01",
+  "name": "Look-Ahead Carry Generator (PYQ type)",
+  "recognitionClueHinglish": "Look-Ahead Carry Generator se related sawal.",
+  "whatShouldComeToMind": [
+   "C_{i+1} = G_i + P_i C_i; G=AB, P=A xor B."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. G,P.",
+   "2. Expand."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.7.1",
+   "4.7.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Expansion order."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

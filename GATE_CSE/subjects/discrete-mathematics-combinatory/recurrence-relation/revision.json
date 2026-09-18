@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Linear recurrence a_n = c1 a_(n-1) + c2 a_(n-2): characteristic equation x^2 = c1 x + c2.",
+ "mustRememberFormulas": [
+  "noAdjOnes: a_n = a_(n-1) + a_(n-2)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Strings/sequences ke liye recurrence.",
+   "thinkThis": "REC_BUILD_01"
+  },
+  {
+   "seeThis": "Recurrence ka value, closed form, induction.",
+   "thinkThis": "REC_SOLVE_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Arithmetic.",
+  "Base."
+ ],
+ "highYieldPyqLessons": [
+  "Fibonacci-type recurrences dominate."
+ ],
+ "topicId": "discrete-mathematics-combinatory:recurrence-relation",
+ "revisionLevel": "short-form"
+}

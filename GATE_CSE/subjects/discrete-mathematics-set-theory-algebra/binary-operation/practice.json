@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-set-theory-algebra:binary-operation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BINARY-01",
+   "patternId": "P3_BINARY_OPERATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Commutative operations on 2-set?",
+   "solutionApproach": "2^3.",
+   "answer": "8"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "topicId": "computer-networks:stop-and-wait",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-STOP-A-01",
+   "patternId": "SAW_EFF_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Tt=1 ms, Tp=1 ms. Efficiency?",
+   "solutionApproach": "1/(1+2).",
+   "answer": "33.3%"
+  },
+  {
+   "practiceId": "AI-STOP-AND-X02",
+   "patternId": "SAW_EFF_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Tt=1 ms, Tp=24 ms. Efficiency?",
+   "solutionApproach": "1/49.",
+   "answer": "2.04%"
+  }
+ ]
+}

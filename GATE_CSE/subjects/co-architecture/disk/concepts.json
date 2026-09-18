@@ -1,0 +1,22 @@
+{
+ "overview": "RPM se rotational latency; seek + latency + transfer.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "RPM se rotational latency; seek + latency + transfer.",
+ "hinglishExplanation": "Average rotational latency = half rotation.",
+ "formalDefinition": "RPM se rotational latency; seek + latency + transfer.",
+ "importantProperties": [
+  "Rotation time = 60/RPM.",
+  "Avg latency = half.",
+  "Transfer = rotation/sectors per track."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Latency me half bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Rotation.",
+  "2. Sum."
+ ],
+ "topicId": "co-architecture:disk"
+}

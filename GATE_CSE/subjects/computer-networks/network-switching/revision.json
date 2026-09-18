@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Store-and-forward end-to-end delay; packet vs circuit switching.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Packet/Circuit Switching se related sawal.",
+   "thinkThis": "P3_NETWORK_SWITCHING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Hops count galat."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:network-switching",
+ "revisionLevel": "short-form"
+}

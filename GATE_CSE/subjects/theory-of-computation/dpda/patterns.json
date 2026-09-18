@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_DPDA_01",
+  "name": "Deterministic PDA (PYQ type)",
+  "recognitionClueHinglish": "Deterministic PDA se related sawal.",
+  "whatShouldComeToMind": [
+   "DCFL examples: a^n b^n; not DCFL: palindromes (ww^R)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Determinism."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.6.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Palindrome ko DCFL."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

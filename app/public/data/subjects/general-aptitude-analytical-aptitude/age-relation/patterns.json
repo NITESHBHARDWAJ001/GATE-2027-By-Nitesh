@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_AGE_RELATION_01",
+  "name": "Age Relations (PYQ type)",
+  "recognitionClueHinglish": "Age Relations se related sawal.",
+  "whatShouldComeToMind": [
+   "Ages ke constraints se ordering."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Variables."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.1.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Extra assumption."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

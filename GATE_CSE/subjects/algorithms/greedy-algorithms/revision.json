@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Activity selection, job sequencing, optimal merge patterns: locally best choice.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Greedy Algorithms se related sawal.",
+   "thinkThis": "P3_GREEDY_ALGORITHMS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Greedy ko har problem par optimal maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:greedy-algorithms",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Single trial success p; mean p, variance p(1-p).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bernoulli Distribution se related sawal.",
+   "thinkThis": "P3_BERNOULLI_DISTRIBUTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Var me (1-p) bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-probability:bernoulli-distribution",
+ "revisionLevel": "short-form"
+}

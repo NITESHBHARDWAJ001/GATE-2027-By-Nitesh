@@ -1,0 +1,22 @@
+{
+ "coreIdea": "Snippet ko chhote input par execute karke pattern pehchano.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Memory values, printxy, jumble, side-effect functions.",
+   "thinkThis": "IDF_SNIPPET_01"
+  },
+  {
+   "seeThis": "If-else ka equivalent expression.",
+   "thinkThis": "IDF_EQUIV_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Side effects."
+ ],
+ "highYieldPyqLessons": [
+  "Simulate on small inputs."
+ ],
+ "topicId": "programming-programming-in-c:identify-function",
+ "revisionLevel": "short-form"
+}

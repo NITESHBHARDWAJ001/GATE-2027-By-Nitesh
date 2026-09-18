@@ -1,0 +1,23 @@
+{
+ "overview": "Excess-k exponent, normalized mantissa, range/precision trade-off.",
+ "whyItMatters": "8 PYQs extracted (1987-2005); P3 topic.",
+ "coreConcept": "Excess-k exponent, normalized mantissa, range/precision trade-off.",
+ "hinglishExplanation": "Excess code me stored exponent = actual + k; comparison easy aur dynamic range badi.",
+ "formalDefinition": "Excess-k exponent, normalized mantissa, range/precision trade-off.",
+ "importantProperties": [
+  "Bias/excess representation exponent comparison easy karta hai.",
+  "Bits mantissa precision, exponent range.",
+  "Normalization: leading digit non-zero.",
+  "Value = mantissa x base^(exp - bias)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Bias subtract bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Fields.",
+  "2. Decode."
+ ],
+ "topicId": "digital-logic:floating-point-representation"
+}

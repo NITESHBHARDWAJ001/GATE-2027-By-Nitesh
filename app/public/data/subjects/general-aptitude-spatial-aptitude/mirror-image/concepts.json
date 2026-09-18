@@ -1,0 +1,21 @@
+{
+ "overview": "Line of symmetry ke liye squares add.",
+ "whyItMatters": "1 PYQs extracted (2024-2024); P3 topic.",
+ "coreConcept": "Line of symmetry ke liye squares add.",
+ "hinglishExplanation": "Symmetry axis ke dono side ko barabar.",
+ "formalDefinition": "Line of symmetry ke liye squares add.",
+ "importantProperties": [
+  "Mirror reverses left-right.",
+  "Symmetry line par equal squares."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Vertical vs horizontal axis."
+ ],
+ "standardTechniques": [
+  "1. Axis.",
+  "2. Count."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:mirror-image"
+}

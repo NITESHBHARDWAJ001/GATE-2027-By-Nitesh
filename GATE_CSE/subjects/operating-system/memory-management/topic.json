@@ -1,0 +1,26 @@
+{
+ "topicId": "operating-system:memory-management",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Memory Management",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "9 PYQs extracted, 1992-2020.",
+ "pyqCountExtracted": 9,
+ "yearsCovered": [
+  1992,
+  1995,
+  1996,
+  1998,
+  2006,
+  2007,
+  2014,
+  2015,
+  2020
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

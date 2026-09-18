@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "compiler-design__2.18.1",
+  "localId": "2.18.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "ll-parser",
+  "topic": "Ll Parser",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "30",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following context-free grammar where the start symbol is and the set of terminals is . The following is a partially-filled                          parsing table. Which one of the following options represents the CORRECT combination for the numbered cells in the parsing table? Note: In the options, \"blank\" denotes that the corresponding cell is empty. A. B. C.                                                       blank blank D.                                                       blank blank",
+  "tagsRaw": "gatecse-2024-set2 compiler-design  ll-parser  parsing    two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 156
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LL_PARSER_01"
+ },
+ {
+  "pyqId": "compiler-design__2.18.2",
+  "localId": "2.18.2",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "ll-parser",
+  "topic": "Ll Parser",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "18",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following statements is/are true? A.      parser uses backtracking B. For a grammar to be                        , it must be left-recursive C. For a grammar to be                        , it must be left-factored D. The          parsers are more powerful than the SLR parsers",
+  "tagsRaw": "gatecse-2026-set1 compiler-design  parsing    ll-parser  multiple-selects  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 156
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LL_PARSER_01"
+ }
+]

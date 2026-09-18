@@ -1,0 +1,19 @@
+{
+ "overview": "Level curves se function behaviour.",
+ "whyItMatters": "2 PYQs extracted (2017-2017); P3 topic.",
+ "coreConcept": "Level curves se function behaviour.",
+ "hinglishExplanation": "Closer contours steeper.",
+ "formalDefinition": "Level curves se function behaviour.",
+ "importantProperties": [
+  "Same value along contour."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Elevation confuse."
+ ],
+ "standardTechniques": [
+  "1. Levels."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:contour-plots"
+}

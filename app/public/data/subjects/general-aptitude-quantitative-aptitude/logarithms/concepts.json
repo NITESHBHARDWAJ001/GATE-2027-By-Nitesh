@@ -1,0 +1,21 @@
+{
+ "overview": "log rules: log(ab)=log a+log b.",
+ "whyItMatters": "5 PYQs extracted (2011-2026); P3 topic.",
+ "coreConcept": "log rules: log(ab)=log a+log b.",
+ "hinglishExplanation": "Exponent ki language.",
+ "formalDefinition": "log rules: log(ab)=log a+log b.",
+ "importantProperties": [
+  "log_b(xy)=log x+log y.",
+  "log_b(x^n)=n log x.",
+  "Change of base."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Base confuse."
+ ],
+ "standardTechniques": [
+  "1. Rule."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:logarithms"
+}

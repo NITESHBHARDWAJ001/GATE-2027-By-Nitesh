@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:live-variable-analysis",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LIVE-V-01",
+   "patternId": "P3_LIVE_VARIABLE_ANALYSIS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "x = y + z ke IN se x kata? y,z judte?",
+   "solutionApproach": "use y,z; def x.",
+   "answer": "y,z live; x nahi (agar aage nahi)"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+[
+ {
+  "patternId": "NP_ADDRESS_RES_01",
+  "name": "ARP/DNS/DHCP Roles",
+  "recognitionClueHinglish": "Kaun kya resolve karta hai.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Resolution type."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.23.1",
+   "2.23.5",
+   "2.23.6",
+   "2.23.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Broadcast/unicast."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "NP_TRANSPORT_USAGE_02",
+  "name": "Which Protocol Uses TCP/UDP / Connections / Matching",
+  "recognitionClueHinglish": "UDP vs TCP users, multiple connections, matching lists.",
+  "whatShouldComeToMind": [
+   "Protocol table."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Protocol.",
+   "2. Transport."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.23.2",
+   "2.23.3",
+   "2.23.4",
+   "2.23.9",
+   "2.23.10",
+   "2.23.11"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "FTP two connections."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "NP_FLOW_CALC_03",
+  "name": "Flow-Control Calculation",
+  "recognitionClueHinglish": "Sliding window numerics inside protocol question.",
+  "whatShouldComeToMind": [
+   "Formula."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Window/RTT."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.23.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

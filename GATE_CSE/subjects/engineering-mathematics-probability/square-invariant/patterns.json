@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_SQUARE_INVARIANT_01",
+  "name": "Square-Invariant Polynomial (Counting/Probability) (PYQ type)",
+  "recognitionClueHinglish": "Square-Invariant Polynomial (Counting/Probability) se related sawal.",
+  "whatShouldComeToMind": [
+   "Random choice se quadratic ke roots ki property (counting based)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Conditions.",
+   "2. Count."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.17.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Definition galat padhna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

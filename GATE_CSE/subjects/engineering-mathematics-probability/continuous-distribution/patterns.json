@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_CONTINUOUS_DISTRIBUTION_01",
+  "name": "Continuous Distributions (PDF Constants) (PYQ type)",
+  "recognitionClueHinglish": "Continuous Distributions (PDF Constants) se related sawal.",
+  "whatShouldComeToMind": [
+   "PDF integrate to 1 se constant; mean/probability."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Normalize.",
+   "2. Integrate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.7.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Limits."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

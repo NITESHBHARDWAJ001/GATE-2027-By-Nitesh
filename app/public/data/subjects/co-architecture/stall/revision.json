@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Effective CPI = 1 + stall cycles per instruction; execution time.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Pipeline Stalls and CPI se related sawal.",
+   "thinkThis": "P3_STALL_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Stall per hazard vs per instruction."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:stall",
+ "revisionLevel": "short-form"
+}

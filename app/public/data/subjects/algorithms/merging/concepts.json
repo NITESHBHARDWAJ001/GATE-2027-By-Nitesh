@@ -1,0 +1,22 @@
+{
+ "overview": "Sorted lists merge: m+n-1 comparisons worst case; k lists ke liye optimal merge pattern.",
+ "whyItMatters": "2 PYQs extracted (1995-2014); P4 topic.",
+ "coreConcept": "Sorted lists merge: m+n-1 comparisons worst case; k lists ke liye optimal merge pattern.",
+ "hinglishExplanation": "Do sorted lists ko ek pass me merge; multiple lists ko Huffman jaisa greedy (chhoti pehle).",
+ "formalDefinition": "Sorted lists merge: m+n-1 comparisons worst case; k lists ke liye optimal merge pattern.",
+ "importantProperties": [
+  "Merge of m and n: m+n-1 comparisons worst.",
+  "k sorted lists heap se O(N log k).",
+  "Optimal merge: sabse chhoti do lists pehle."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Best/worst comparisons mix."
+ ],
+ "standardTechniques": [
+  "1. Sizes.",
+  "2. Formula."
+ ],
+ "topicId": "algorithms:merging"
+}

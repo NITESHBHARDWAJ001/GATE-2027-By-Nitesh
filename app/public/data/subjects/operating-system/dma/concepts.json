@@ -1,0 +1,20 @@
+{
+ "overview": "Disk transfer with DMA: CPU time per block.",
+ "whyItMatters": "1 PYQs extracted (2001-2001); P4 topic.",
+ "coreConcept": "Disk transfer with DMA: CPU time per block.",
+ "hinglishExplanation": "DMA se CPU sirf setup/interrupt.",
+ "formalDefinition": "Disk transfer with DMA: CPU time per block.",
+ "importantProperties": [
+  "Cycle stealing.",
+  "Percent CPU time = DMA cycles / total."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Units."
+ ],
+ "standardTechniques": [
+  "1. Rates."
+ ],
+ "topicId": "operating-system:dma"
+}

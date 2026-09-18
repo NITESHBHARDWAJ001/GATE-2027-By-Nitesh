@@ -1,0 +1,23 @@
+{
+ "overview": "Store-and-forward delays, satellite links, statistical TDM, polling.",
+ "whyItMatters": "4 PYQs extracted (2007-2022); P3 topic.",
+ "coreConcept": "Store-and-forward delays, satellite links, statistical TDM, polling.",
+ "hinglishExplanation": "Total = transmission + propagation (+ queuing); store-and-forward har hop par poora packet.",
+ "formalDefinition": "Store-and-forward delays, satellite links, statistical TDM, polling.",
+ "importantProperties": [
+  "Tt = L/B; Tp = d/v.",
+  "Store-and-forward: har hop par Tt.",
+  "Polling efficiency = data/(data+overhead).",
+  "Statistical TDM utilization."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Units (bits/bytes, ms/s)."
+ ],
+ "standardTechniques": [
+  "1. Tt, Tp.",
+  "2. Hops."
+ ],
+ "topicId": "computer-networks:communication"
+}

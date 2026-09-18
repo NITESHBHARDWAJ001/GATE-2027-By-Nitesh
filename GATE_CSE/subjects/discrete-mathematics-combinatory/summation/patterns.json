@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_SUMMATION_01",
+  "name": "Summations (PYQ type)",
+  "recognitionClueHinglish": "Summations se related sawal.",
+  "whatShouldComeToMind": [
+   "Standard sums, substrings count n(n+1)/2, induction-free identities."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Pattern.",
+   "2. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.8.1",
+   "1.8.2",
+   "1.8.3",
+   "1.8.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Bounds off-by-one."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

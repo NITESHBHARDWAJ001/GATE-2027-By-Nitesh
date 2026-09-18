@@ -1,0 +1,38 @@
+[
+ {
+  "patternId": "P3_RELATIONAL_CALCULUS_01",
+  "name": "Relational Calculus (PYQ type)",
+  "recognitionClueHinglish": "Relational Calculus se related sawal.",
+  "whatShouldComeToMind": [
+   "Tuple/domain relational calculus expressions; algebra ke equivalent; safe expressions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Predicate padho.",
+   "2. Algebra me translate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.19.1",
+   "3.19.2",
+   "3.19.3",
+   "3.19.4",
+   "3.19.5",
+   "3.19.6",
+   "3.19.7",
+   "3.19.8",
+   "3.19.9",
+   "3.19.10",
+   "3.19.11",
+   "3.19.12",
+   "3.19.13"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Unsafe expression ko valid maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

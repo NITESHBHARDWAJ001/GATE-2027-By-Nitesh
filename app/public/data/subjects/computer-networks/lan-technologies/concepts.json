@@ -1,0 +1,22 @@
+{
+ "overview": "Ethernet vs Token ring, slotted LAN efficiency, switch counting.",
+ "whyItMatters": "7 PYQs extracted (2003-2019); P3 topic.",
+ "coreConcept": "Ethernet vs Token ring, slotted LAN efficiency, switch counting.",
+ "hinglishExplanation": "Slotted ALOHA-like: success probability n p (1-p)^(n-1).",
+ "formalDefinition": "Ethernet vs Token ring, slotted LAN efficiency, switch counting.",
+ "importantProperties": [
+  "Ethernet CSMA/CD; token ring token passing.",
+  "Switch fan-out ports se hosts count.",
+  "Efficiency vs propagation."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "CSMA/CD ka min frame relation bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Protocol.",
+  "2. Formula."
+ ],
+ "topicId": "computer-networks:lan-technologies"
+}

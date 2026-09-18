@@ -1,0 +1,26 @@
+{
+  "topicId": "toc-regular-expression",
+  "revisionLevel": "short-form",
+  "coreIdea": "Regex = concat + union(|) + star(*). Same power as FA. r+ ≠ r* (one-or-more vs zero-or-more). No native complement/intersection — go via automaton for those.",
+  "mustRememberFormulas": [
+    "(r*)*=r*, r*r*=r*, εr=r, ∅r=∅, ∅*=ε",
+    "r+ = rr* = r*r (requires ≥1, unlike r*)",
+    "(a|b)* = Σ* (all strings) — NOT the same as a*b* (only a's-then-b's)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "language description → write regex", "thinkThis": "RE_TRANSLATION_01"},
+    {"seeThis": "automaton ↔ regex conversion asked", "thinkThis": "RE_FA_CONVERSION_02"},
+    {"seeThis": "two regexes, asked if equivalent", "thinkThis": "RE_EQUIVALENCE_03"},
+    {"seeThis": "specific string membership, or count/shortest-non-member asked", "thinkThis": "RE_MEMBERSHIP_COUNTING_04"}
+  ],
+  "commonTrapsQuickList": [
+    "r+ requires at least ONE occurrence, r* allows zero — don't mix up",
+    "Regex has NO native negation/intersection — convert to automaton for those operations",
+    "∅* = ε (NOT ∅) — star of nothing is still the empty string",
+    "Syntactically different regexes can represent the SAME language — always verify, don't assume"
+  ],
+  "highYieldPyqLessons": [
+    "Translation (11/29) is the biggest sub-skill — practice decomposing complex English descriptions into regex sub-patterns.",
+    "Equivalence checking (8/29) rewards memorizing the identity list cold, then falling back to string-testing when identities don't immediately resolve it."
+  ]
+}

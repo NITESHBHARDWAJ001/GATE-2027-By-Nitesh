@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:algorithm-design-techniques",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ALGORI-01",
+   "patternId": "P3_ALGORITHM_DESIGN_TECHNIQ_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Merge sort uses which strategy?",
+   "solutionApproach": "Split, sort halves, merge.",
+   "answer": "Divide and conquer"
+  }
+ ]
+}

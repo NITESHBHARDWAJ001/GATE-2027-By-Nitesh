@@ -1,0 +1,21 @@
+{
+ "overview": "Right/left linear grammar = regular language; Myhill-Nerode classes.",
+ "whyItMatters": "3 PYQs extracted (1990-2015); P3 topic.",
+ "coreConcept": "Right/left linear grammar = regular language; Myhill-Nerode classes.",
+ "hinglishExplanation": "Regular grammar se NFA/regex.",
+ "formalDefinition": "Right/left linear grammar = regular language; Myhill-Nerode classes.",
+ "importantProperties": [
+  "Right linear <-> regular.",
+  "Myhill-Nerode classes = min DFA states.",
+  "Grammar to regex."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Mixed linear grammar regular maan lena."
+ ],
+ "standardTechniques": [
+  "1. Grammar to NFA."
+ ],
+ "topicId": "theory-of-computation:regular-grammar"
+}

@@ -1,0 +1,23 @@
+{
+ "overview": "Collision detection; minimum frame size = 2 x Tp x bandwidth.",
+ "whyItMatters": "6 PYQs extracted (2005-2018); P2 topic.",
+ "coreConcept": "Sender ko collision tabhi pata chale jab wo abhi transmit kar raha ho: Tt >= 2 Tp.",
+ "hinglishExplanation": "Min frame size (bits) = 2 x (distance / speed) x bandwidth. Bandwidth badhne par frame size badhta hai ya length ghatti hai.",
+ "formalDefinition": "Sender ko collision tabhi pata chale jab wo abhi transmit kar raha ho: Tt >= 2 Tp.",
+ "importantProperties": [
+  "Min frame = 2 x Tp x B.",
+  "Ethernet CSMA/CD use karta hai; wireless CSMA/CA.",
+  "Backoff binary exponential."
+ ],
+ "formulas": {
+  "minFrame": "2 * Tp * B"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Ek taraf ka delay lena."
+ ],
+ "standardTechniques": [
+  "Tp nikalo -> 2Tp -> x B."
+ ],
+ "topicId": "computer-networks:csma-cd"
+}

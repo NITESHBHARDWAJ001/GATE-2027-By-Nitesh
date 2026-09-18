@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Functions ke set par relation ki properties.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Identify Function Properties se related sawal.",
+   "thinkThis": "P3_IDENTIFY_FUNCTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Property mix."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:identify-function",
+ "revisionLevel": "short-form"
+}

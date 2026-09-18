@@ -1,0 +1,37 @@
+{
+  "topicId": "ds-binary-search-tree",
+  "overview": "BST 5 skills test karta hai: insertion-order se tree build karna, search-path validity check karna, BST-specific traversal properties (jaise preorder se postorder nikaalna bina tree banaye), distinct-BST counting, aur operation complexity (balanced vs unbalanced/skewed).",
+  "whyItMatters": "36 PYQs, aur BST ka 'inorder = sorted order' property GATE ka ek most-reused fact hai.",
+  "coreConcept": "BST = Binary Tree + INVARIANT: har node ke liye, LEFT subtree ke saare values < node < RIGHT subtree ke saare values. Isi invariant ki wajah se: (1) INORDER traversal HAMESHA sorted order deta hai, (2) search/insert average O(log n) hai (balanced) but worst case O(n) (skewed, jaise sorted-order insertion se ek linked-list-jaisa tree ban jaata hai).",
+  "hinglishExplanation": "BST ko ek 'smart filing cabinet' socho — har drawer (node) ke left me sirf CHHOTI values hain, right me sirf BADI. Isliye search karte waqt, har step pe tum aadha tree discard kar sakte ho (jaise binary search array me) — LEKIN sirf tab jab tree balanced ho. Agar numbers already SORTED order me insert kiye (1,2,3,4,5...), to tree ek seedhi chain ban jaata hai (koi branching nahi) — worst case, O(n) jaisa array search.",
+  "formalDefinition": "BST invariant: for every node v, all keys in v's left subtree < v.key < all keys in v's right subtree. Search/Insert/Delete: O(h) where h=height (O(log n) balanced, O(n) worst-case skewed).",
+  "importantProperties": [
+    "Inorder traversal of a BST ALWAYS produces the SORTED sequence of keys — this is THE defining property to check any inorder-related claim.",
+    "Preorder traversal's FIRST element is the root; you can find the postorder WITHOUT building the tree by recursively partitioning the preorder sequence using the BST ordering property (elements smaller than root go left, larger go right — no need for a separate inorder sequence, unlike general binary trees).",
+    "Inserting n DISTINCT keys in SORTED (or reverse-sorted) order into an empty BST produces a completely skewed tree of height n-1 — the guaranteed WORST case.",
+    "Search-path validity: a sequence of examined nodes is a VALID BST search path for key K iff the sequence is 'monotonically converging' toward K — each subsequent node must be strictly between the previous node and K (i.e., the sequence of examined values must be sorted-order-consistent with narrowing the search range toward K).",
+    "Number of distinct BSTs possible with n distinct keys = Catalan number C(n) (SAME as the number of distinct unlabeled binary tree SHAPES, because for a FIXED shape there's exactly one way to place n given distinct values to satisfy the BST property).",
+    "Deleting a node with two children: replace with its INORDER SUCCESSOR (smallest in right subtree) or INORDER PREDECESSOR (largest in left subtree), then recursively delete that successor/predecessor from its original position."
+  ],
+  "formulas": {
+    "searchInsertDeleteComplexity": "O(h) where h = tree height; O(log n) if balanced, O(n) worst case if skewed",
+    "distinctBSTCount": "Catalan number C(n) = (2n)!/((n+1)!n!)",
+    "skewedTreeHeight": "Inserting n keys in sorted order → height = n-1 (worst case)",
+    "rangeQueryComplexity": "O(h + k) to report k elements in a range in a balanced BST (h to find the range boundary, k to report each found element)"
+  },
+  "keyPropertiesAndIdentities": [
+    "BST search-path validity check: at each step, the examined node's value must be consistent with progressively narrowing the [low,high) range toward the target — any node value OUTSIDE the currently-narrowed range breaks validity.",
+    "For preorder-to-postorder conversion using BST property: find root (first element), then partition REMAINING preorder elements into those < root (recursively, this becomes the left subtree's preorder) and those > root (right subtree's preorder) — recurse without needing inorder at all."
+  ],
+  "commonPitfalls": [
+    "Forgetting BST's search/insert/delete are O(h), NOT automatically O(log n) — only true when the tree happens to be balanced.",
+    "For preorder-only reconstruction (BST-specific trick), forgetting that this ONLY works because of the BST ordering property — general binary trees need inorder too.",
+    "For search-path validity, not checking the FULL narrowing constraint (just checking 'is this value between the previous two' isn't quite enough — must track the full valid range)."
+  ],
+  "standardTechniques": [
+    "For insertion-order tree-building: insert one number at a time following the BST rule (go left if smaller, right if larger) — draw it out explicitly.",
+    "For preorder-to-postorder (or similar BST-specific traversal conversion): use the root-then-partition-by-value trick (no inorder needed) — much faster than general reconstruction.",
+    "For search-path validity: track the shrinking valid range [low, high) as you go through the candidate sequence; if any value falls outside the current range, the sequence is invalid.",
+    "For complexity questions: always ask 'is this BST guaranteed balanced, or could it be skewed?' before answering — this single question resolves most complexity traps."
+  ]
+}

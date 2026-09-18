@@ -1,0 +1,25 @@
+{
+ "coreIdea": "dim(U + W) = dim U + dim W - dim(U n W).",
+ "mustRememberFormulas": [
+  "dimSum: dim(U+W) = dimU + dimW - dim(UnW)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Subspaces ke dimension se min intersection.",
+   "thinkThis": "VS_DIMENSION_01"
+  },
+  {
+   "seeThis": "Perpendicular unit vector, angle bisector, projection statements.",
+   "thinkThis": "VS_GEOMETRY_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Max dimension bound.",
+  "Normalize."
+ ],
+ "highYieldPyqLessons": [
+  "Dimension formula solves most."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:vector-space",
+ "revisionLevel": "short-form"
+}

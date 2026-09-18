@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Primality, count of primes, prime factors.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Prime Numbers se related sawal.",
+   "thinkThis": "P3_PRIME_NUMBERS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "1 ko prime."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:prime-numbers",
+ "revisionLevel": "short-form"
+}

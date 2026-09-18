@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "discrete-mathematics-mathematical-logic__3.2.1",
+  "localId": "3.2.1",
+  "subjectId": "discrete-mathematics-mathematical-logic",
+  "subject": "Discrete Mathematics: Mathematical Logic",
+  "topicSlug": "logical-reasoning",
+  "topic": "Logical Reasoning",
+  "year": 2012,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following logical inferences. : If it rains then the cricket match will not be played. The cricket match was played. Inference: There was no rain. : If it rains then the cricket match will not be played. It did not rain. Inference: The cricket match was played. Which of the following is TRUE? A. Both and are correct inferences B. is correct but is not a correct inference C. is not correct but is a correct inference D. Both and are not correct inferences",
+  "tagsRaw": "gatecse-2012 mathematical-logic easy logical-reasoning",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 71
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LOGICAL_REASONING_01"
+ },
+ {
+  "pyqId": "discrete-mathematics-mathematical-logic__3.2.2",
+  "localId": "3.2.2",
+  "subjectId": "discrete-mathematics-mathematical-logic",
+  "subject": "Discrete Mathematics: Mathematical Logic",
+  "topicSlug": "logical-reasoning",
+  "topic": "Logical Reasoning",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following two statements. : If a candidate is known to be corrupt, then he will not be elected : If a candidate is kind, he will be elected Which one of the following statements follows from and as per sound inference rules of logic? A. If a person is known to be corrupt, he is kind B. If a person is not known to be corrupt, he is not kind C. If a person is kind, he is not known to be corrupt D. If a person is not kind, he is not known to be corrupt",
+  "tagsRaw": "gatecse-2015-set2 mathematical-logic    normal  logical-reasoning",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 71
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LOGICAL_REASONING_01"
+ },
+ {
+  "pyqId": "discrete-mathematics-mathematical-logic__3.2.3",
+  "localId": "3.2.3",
+  "subjectId": "discrete-mathematics-mathematical-logic",
+  "subject": "Discrete Mathematics: Mathematical Logic",
+  "topicSlug": "logical-reasoning",
+  "topic": "Logical Reasoning",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 3,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "24",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE_OR_UNVERIFIED",
+  "difficultySourceTag": "difficult",
+  "marks": null,
+  "answer": null,
+  "answerVerified": false,
+  "questionTextRaw": "In a room there are only two types of people, namely                           and                           .    people always tell the truth and                    people always lie. You give a fair coin to a person in that room, without knowing which type he is from and tell him to toss it and hide the result from you till you ask for it. Upon asking the person replies the following \"The result of the toss is head if and only if I am telling the truth\" Which of the following options is correct? A. The result is head                     , then the                                 B. The result is tail        , then the C. If the person is of                                                               D. If the person is of result is tail                                                                        result is tail",
+  "tagsRaw": "gatecse-2015-set3 mathematical-logic difficult logical-reasoning      Propositional Logic (40)",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 73
+  },
+  "formulaExtractionNote": null,
+  "patternId": "P3_LOGICAL_REASONING_01"
+ }
+]

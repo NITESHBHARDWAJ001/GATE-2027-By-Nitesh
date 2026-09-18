@@ -1,0 +1,56 @@
+[
+ {
+  "patternId": "MI_ADDR_01",
+  "name": "Address Bits and Chip Select Mapping",
+  "recognitionClueHinglish": "Memory size, word size, chips; address lines / range.",
+  "whatShouldComeToMind": [
+   "log2."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Locations.",
+   "2. Bits."
+  ],
+  "formulasUsed": [
+   "addrBits"
+  ],
+  "pyqExamples": [
+   "1.22.4",
+   "1.22.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Byte vs word."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "MI_INTERLEAVE_02",
+  "name": "Interleaving / DRAM Timing / Concept",
+  "recognitionClueHinglish": "Bank mapping, block transfer time, statements.",
+  "whatShouldComeToMind": [
+   "Interleaving."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Bank mapping.",
+   "2. Timing."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.22.1",
+   "1.22.2",
+   "1.22.3",
+   "1.22.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Which bits pick bank."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

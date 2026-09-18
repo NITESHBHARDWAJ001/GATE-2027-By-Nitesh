@@ -1,0 +1,35 @@
+[
+ {
+  "patternId": "OUT_TRACE_01",
+  "name": "Trace Loops and Function Calls",
+  "recognitionClueHinglish": "Program ka printed value/output.",
+  "whatShouldComeToMind": [
+   "Trace table."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Table.",
+   "2. Print."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.7.1",
+   "5.7.2",
+   "5.7.3",
+   "5.7.4",
+   "5.7.5",
+   "5.7.6",
+   "5.7.7",
+   "5.7.8"
+  ],
+  "variationsObserved": [
+   "gcd via subtraction."
+  ],
+  "commonTraps": [
+   "Static vars."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

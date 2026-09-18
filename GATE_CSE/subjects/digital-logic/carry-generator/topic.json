@@ -1,0 +1,19 @@
+{
+ "topicId": "digital-logic:carry-generator",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Look-Ahead Carry Generator",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 2006-2007.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2006,
+  2007
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

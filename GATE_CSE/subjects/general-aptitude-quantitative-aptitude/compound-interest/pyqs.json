@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.14.1",
+  "localId": "9.14.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "compound-interest",
+  "topic": "Compound Interest",
+  "year": 2024,
+  "examStream": "DS&AI",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "8",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "P erson and Person invest in three mutual funds                                  , and . The amounts they invest in each of these mutual funds are given in the table. At the end of one year, the total amount that Person gets is  more than Person . The annual rate of return for the mutual funds and is                                     each. What is the annual rate of return for the mutual fund ? A.                                      B.                                   C.                         D.",
+  "tagsRaw": "gate-ds-ai-2024 quantitative-aptitude   compound-interest       two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 273
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COMPOUND_INTEREST_01"
+ }
+]

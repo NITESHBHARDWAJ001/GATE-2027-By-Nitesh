@@ -1,0 +1,22 @@
+{
+ "coreIdea": "Network layer routing/forwarding karta hai; transport end-to-end reliability.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Kaunsa kaam kis layer ka.",
+   "thinkThis": "NL_LAYER_FUNCTIONS_01"
+  },
+  {
+   "seeThis": "Routers par kitni baar network layer; CIDR blocks.",
+   "thinkThis": "NL_HOPS_CIDR_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Endpoints count."
+ ],
+ "highYieldPyqLessons": [
+  "Definitions/matching."
+ ],
+ "topicId": "computer-networks:network-layer",
+ "revisionLevel": "short-form"
+}

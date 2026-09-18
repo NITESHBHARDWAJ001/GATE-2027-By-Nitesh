@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Common subexpression share; minimum nodes/edges.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "DAG of a Basic Block se related sawal.",
+   "thinkThis": "P3_DIRECTED_ACYCLIC_GRAPH_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Redefinition ke baad CSE maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:directed-acyclic-graph",
+ "revisionLevel": "short-form"
+}

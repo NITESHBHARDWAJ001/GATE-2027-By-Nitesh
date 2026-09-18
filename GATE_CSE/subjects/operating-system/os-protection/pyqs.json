@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "operating-system__5.19.1",
+  "localId": "5.19.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "os-protection",
+  "topic": "OS Protection",
+  "year": 1999,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1.11, UGCNET-Dec2015-II: 44",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "System calls are usually invoked by using A. a software interrupt                                                            B. polling C. an indirect jump                                                                D. a privileged instruction",
+  "tagsRaw": "gate1999 operating-system normal ugcnetcse-dec2015-paper2 os-protection",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 399
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_OS_PROTECTION_01"
+ },
+ {
+  "pyqId": "operating-system__5.19.2",
+  "localId": "5.19.2",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "os-protection",
+  "topic": "OS Protection",
+  "year": 2001,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1.13",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "A CPU has two modes -- privileged and non-privileged. In order to change the mode from privileged to non- privileged A. a hardware interrupt is needed B. a software interrupt is needed C. a privileged instruction (which does not generate an interrupt) is needed D. a non-privileged instruction (which does not generate an interrupt) is needed",
+  "tagsRaw": "gatecse-2001 operating-system  normal  os-protection",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 399
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_OS_PROTECTION_01"
+ },
+ {
+  "pyqId": "operating-system__5.19.3",
+  "localId": "5.19.3",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "os-protection",
+  "topic": "OS Protection",
+  "year": 2005,
+  "examStream": "IT",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "19, UGCNET-June2012-III: 57",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "A user level process in Unix traps the signal sent on a Ctrl-C input, and has a signal handling routine that saves appropriate files before terminating the process. When a Ctrl-C input is given to this process, what is the mode in which the signal handling routine executes? A. User mode                           B. Kernel mode                              C. Superuser mode            D. Privileged mode",
+  "tagsRaw": "gateit-2005 operating-system   os-protection    normal  ugcnetcse-june2012-paper3",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 399
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_OS_PROTECTION_01"
+ }
+]

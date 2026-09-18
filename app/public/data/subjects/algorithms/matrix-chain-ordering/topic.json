@@ -1,0 +1,20 @@
+{
+ "topicId": "algorithms:matrix-chain-ordering",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Matrix Chain Multiplication",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 2011-2018.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  2011,
+  2016,
+  2018
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

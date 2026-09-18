@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:network-flow",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NETWOR-01",
+   "patternId": "P3_NETWORK_FLOW_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Payload 1000 B, header 40 B, link 1 Mbps: goodput?",
+   "solutionApproach": "1000/1040.",
+   "answer": "~0.96 Mbps"
+  }
+ ]
+}

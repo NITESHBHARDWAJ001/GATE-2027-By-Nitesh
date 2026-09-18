@@ -1,0 +1,20 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:phrase-meaning",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Phrase and Idiom Meaning",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "5 PYQs extracted, 2014-2016.",
+ "pyqCountExtracted": 5,
+ "yearsCovered": [
+  2014,
+  2015,
+  2016
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

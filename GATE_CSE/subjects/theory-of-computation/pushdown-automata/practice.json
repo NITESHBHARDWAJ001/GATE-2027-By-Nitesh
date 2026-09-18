@@ -1,0 +1,33 @@
+{
+  "topicId": "toc-pushdown-automata",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-PDA-01",
+      "patternId": "PDA_CONSTRUCT_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Design (describe informally) a PDA for L = {a^n b^n : n≥1}, accepting by empty stack.",
+      "solutionApproach": "Push a special bottom marker Z0 first. On each 'a', push A. On each 'b', pop one A. If stack is just Z0 after all input consumed (all A's matched), pop Z0 too via an ε-transition to empty the stack, accepting.",
+      "answer": "Push A for each a; pop A for each b; after input ends, if only Z0 remains, pop it via ε-move to accept via empty stack."
+    },
+    {
+      "practiceId": "AI-PDA-02",
+      "patternId": "PDA_THEORY_03",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is it TRUE that every NPDA can be converted to an equivalent DPDA?",
+      "solutionApproach": "FALSE — DPDA is strictly weaker than NPDA. Example: L = {w w^R : w ∈ {a,b}*} (even palindromes) has an NPDA (guess the middle non-deterministically) but no DPDA exists (no way to deterministically know where the middle is without a marker).",
+      "answer": "FALSE — DPDA ⊊ NPDA, some CFLs (like unmarked even palindromes) require non-determinism."
+    },
+    {
+      "practiceId": "AI-PDA-03",
+      "patternId": "PDA_IDENTIFY_TRACE_02",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A PDA has ONE state q0 (both start and accepting), one stack symbol Z. On input 'a', it pushes Z. On input 'b', it pops Z (only if stack non-empty). What language does it accept by empty stack (starting with one Z already on the stack)?",
+      "solutionApproach": "Stack starts with height 1 (one Z). Each 'a' adds 1, each 'b' removes 1 (only if height>0). Empty stack (height 0) triggers acceptance. This accepts strings where (number of b's) - (number of a's) = 1, with the constraint that the stack (starting at 1) never goes negative before the end — i.e., a Dyck-path-like condition ending exactly at 0.",
+      "answer": "Strings where the running count (starting at 1, +1 per 'a', -1 per 'b') never goes negative and ends at exactly 0 — a balanced-parenthesis-like condition with net (b's - a's)=1."
+    }
+  ]
+}

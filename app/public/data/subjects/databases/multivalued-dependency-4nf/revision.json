@@ -1,0 +1,18 @@
+{
+ "coreIdea": "X ->> Y; FD implies MVD; 4NF me nontrivial MVD ka LHS superkey.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Multivalued Dependencies and 4NF se related sawal.",
+   "thinkThis": "P4_MULTIVALUED_DEPENDENCY_4_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "MVD => FD maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:multivalued-dependency-4nf",
+ "revisionLevel": "short-form"
+}

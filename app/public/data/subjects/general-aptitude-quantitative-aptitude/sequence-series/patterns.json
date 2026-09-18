@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_SEQUENCE_SERIES_01",
+  "name": "Sequence and Series (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Sequence and Series (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "AP/GP sums, nth term."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Type."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.49.1",
+   "9.49.2",
+   "9.49.3",
+   "9.49.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "n indexing."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

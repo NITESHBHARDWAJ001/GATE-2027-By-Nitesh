@@ -1,0 +1,22 @@
+{
+ "overview": "If-then statements, truth-teller/liar, valid inferences.",
+ "whyItMatters": "3 PYQs extracted (2012-2015); P3 topic.",
+ "coreConcept": "If-then statements, truth-teller/liar, valid inferences.",
+ "hinglishExplanation": "Contrapositive equivalent; converse nahi.",
+ "formalDefinition": "If-then statements, truth-teller/liar, valid inferences.",
+ "importantProperties": [
+  "P->Q == ~Q->~P.",
+  "Truth-teller/liar: case analysis.",
+  "Modus ponens/tollens."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Converse ko valid inference maan lena."
+ ],
+ "standardTechniques": [
+  "1. Symbols.",
+  "2. Rules."
+ ],
+ "topicId": "discrete-mathematics-mathematical-logic:logical-reasoning"
+}

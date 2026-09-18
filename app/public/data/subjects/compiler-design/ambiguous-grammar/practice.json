@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:ambiguous-grammar",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-AMBIGU-01",
+   "patternId": "P3_AMBIGUOUS_GRAMMAR_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "E->E+E|id ambiguous?",
+   "solutionApproach": "id+id+id ke do trees.",
+   "answer": "Haan"
+  }
+ ]
+}

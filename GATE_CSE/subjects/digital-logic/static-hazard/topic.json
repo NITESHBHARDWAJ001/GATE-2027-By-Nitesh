@@ -1,0 +1,18 @@
+{
+ "topicId": "digital-logic:static-hazard",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Static Hazards",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2006-2006.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2006
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "PIPE_TIMING_01",
+    "name": "Pipeline Timing / Cycle-Time Computation",
+    "recognitionClueHinglish": "Stage delays (aur shayad latch delay) diye hain, aur poocha hai clock cycle time kya hai, ya n instructions execute karne me total time kya lagega — is topic ka sabse bada pattern hai (39 me se 18 PYQs).",
+    "whatShouldComeToMind": ["Cycle time = max(stage delays) + latch delay.", "Total time for n instructions through k stages = (k+n-1) × cycle_time (ideal, no hazards).", "Splitting the SLOWEST stage into two typically reduces cycle time; splitting a fast stage doesn't help."],
+    "conceptsRequired": ["Cycle-time bottleneck formula", "(k+n-1) pipelined-time formula"],
+    "generalSolvingApproach": ["1. Find the maximum stage delay among all stages, add the latch delay (if given) — that's the cycle time.", "2. For total execution time of n instructions: apply (k+n-1)×cycle_time.", "3. For stage-splitting questions: recompute the new maximum stage delay after the split, apply the same formulas with the updated cycle time and stage count."],
+    "formulasUsed": ["cycleTime","pipelinedTotalTime"],
+    "pyqExamples": ["1.24.1","1.24.3","1.24.7","1.24.8","1.24.12","1.24.13","1.24.14","1.24.16","1.24.17","1.24.22","1.24.23","1.24.24","1.24.25","1.24.27","1.24.28","1.24.29","1.24.33","1.24.34"],
+    "variationsObserved": ["Loop execution timing (instruction sequence repeated multiple times) — multiply per-iteration pipelined time by iteration count, watching for pipeline-fill/drain effects only happening once (at loop start/end) vs per-iteration.", "One stage has an EXCEPTION/longer delay for specific instructions (like branches) — handle that instruction's extra cycles separately from the general formula."],
+    "commonTraps": ["Forgetting to add the inter-stage latch delay when it's given.", "Applying (k+n-1) blindly even with branch penalties or stalls explicitly present in the question — must add those extra cycles on top."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PIPE_SPEEDUP_02",
+    "name": "Speedup / Pipelined vs Non-Pipelined Comparison",
+    "recognitionClueHinglish": "Poocha hai pipelined vs non-pipelined processor ke execution time/speedup compare karo, ya do DIFFERENT pipeline DESIGNS compare karne hain — ye comparative pattern hai (39 me se 8 PYQs).",
+    "whatShouldComeToMind": ["Speedup = NonPipelinedTime / PipelinedTime.", "Asymptotic speedup (very large n) approaches k (number of pipeline stages) — a useful sanity-check limit."],
+    "conceptsRequired": ["Speedup ratio formula", "Asymptotic behavior as n→∞"],
+    "generalSolvingApproach": ["1. Compute non-pipelined time (n × sum of all stage delays, or CPI×clock-period×n for a given CPI model).", "2. Compute pipelined time ((k+n-1)×cycle_time).", "3. Take the ratio for speedup; for comparing two DIFFERENT pipeline designs, compute total times for both and compare directly."],
+    "formulasUsed": ["speedupFormula","nonPipelinedTotalTime","pipelinedTotalTime"],
+    "pyqExamples": ["1.24.2","1.24.18","1.24.19","1.24.26","1.24.32","1.24.35","1.24.38","1.24.39"],
+    "variationsObserved": ["Non-pipelined CPU with given CPI, converted to a pipelined design with different (usually slower per-cycle but more overlapped) clock — reconcile clock RATE change with CPI/stage-count change together."],
+    "commonTraps": ["Forgetting that pipelining often REDUCES clock frequency slightly (due to added latch overhead) even while improving overall throughput — must account for BOTH effects, not just stage count."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PIPE_HAZARDS_03",
+    "name": "Hazards (data/structural), Forwarding, Register Renaming",
+    "recognitionClueHinglish": "Poocha hai kaunse hazards present hain (data/structural), forwarding se kya solve hota hai, ya register renaming kis purpose ke liye hai — ye hazard-classification pattern hai (39 me se 11 PYQs).",
+    "whatShouldComeToMind": ["RAW (true dependency, needs a not-yet-computed value) → DATA hazard → forwarding/stalling.", "Shared hardware resource conflict → STRUCTURAL hazard → resource duplication/stalling.", "WAR/WAW (false/name dependencies) → resolved by REGISTER RENAMING (not forwarding)."],
+    "conceptsRequired": ["RAW/WAR/WAW hazard classification", "Forwarding vs renaming resolution techniques"],
+    "generalSolvingApproach": ["1. For a given instruction sequence, check register overlaps between consecutive/nearby instructions — identify if it's RAW (data), WAR/WAW (name), or a resource conflict (structural).", "2. Match the hazard type to its appropriate resolution technique (forwarding for RAW, renaming for WAR/WAW, duplication/stalling for structural).", "3. For 'does forwarding solve this' questions, verify forwarding specifically addresses RAW — not WAR/WAW or structural conflicts."],
+    "formulasUsed": [],
+    "pyqExamples": ["1.24.4","1.24.5","1.24.6","1.24.9","1.24.15","1.24.20","1.24.21","1.24.30","1.24.31","1.24.36","1.24.37"],
+    "variationsObserved": ["Reservation-table-based Minimum Average Latency (MAL) computation — a structural-hazard-avoidance scheduling technique, find the shortest safe interval between issuing identical instructions.", "Multi-statement TRUE/FALSE about forwarding correctness across various hazard scenarios."],
+    "commonTraps": ["Assuming register renaming helps with RAW hazards — it specifically targets WAR/WAW, RAW still needs forwarding/stalling."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PIPE_BRANCH_HAZARD_04",
+    "name": "Branch/Control Hazard (delayed branching)",
+    "recognitionClueHinglish": "Poocha hai delayed branching kaise kaam karta hai, ya branch delay slot me kaunsi instruction safely rakhi ja sakti hai — ye control-hazard-specific pattern hai.",
+    "whatShouldComeToMind": ["Instruction(s) in the delay slot execute UNCONDITIONALLY (regardless of branch outcome) — must be chosen carefully by the compiler to be safe in EITHER case.", "An instruction can go in the delay slot only if it doesn't depend on the branch's outcome and doesn't get incorrectly affected whether the branch is taken or not."],
+    "conceptsRequired": ["Delayed branching mechanics", "Delay-slot instruction safety criteria"],
+    "generalSolvingApproach": ["1. Identify the instruction(s) immediately after the branch (the delay slot).", "2. Check if that instruction's effect is SAFE regardless of whether the branch is taken or not (doesn't depend on / interfere with the branch condition or target).", "3. Confirm it executes unconditionally in the given code trace."],
+    "formulasUsed": ["branchPenaltyExtra"],
+    "pyqExamples": ["1.24.10","1.24.11"],
+    "variationsObserved": [],
+    "commonTraps": ["Assuming the delay-slot instruction only executes when the branch is NOT taken (or only when taken) — it always executes, that's the defining feature of delayed branching."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

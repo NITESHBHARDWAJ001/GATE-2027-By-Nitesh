@@ -1,0 +1,179 @@
+[
+ {
+  "patternId": "SQL_OUTPUT_TRACE_01",
+  "name": "Query Output / Tuple Count on a Given Instance",
+  "recognitionClueHinglish": "Tables ka instance aur ek SQL query di hai; output values ya number of tuples poochhe hain (55 me se 21).",
+  "whatShouldComeToMind": [
+   "Logical evaluation order follow karo.",
+   "NULL, duplicates, join multiplicity par nazar rakho."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. FROM/JOIN se rows ki table banao.",
+   "2. WHERE se filter.",
+   "3. GROUP BY/HAVING lagao.",
+   "4. SELECT aggregate compute karo.",
+   "5. DISTINCT/ORDER BY aakhir me."
+  ],
+  "formulasUsed": [
+   "evalOrder",
+   "nullRule",
+   "allAnyEmpty",
+   "crossProductSize"
+  ],
+  "pyqExamples": [
+   "3.21.17",
+   "3.21.26",
+   "3.21.27",
+   "3.21.28",
+   "3.21.30",
+   "3.21.35",
+   "3.21.37",
+   "3.21.38",
+   "3.21.39",
+   "3.21.41",
+   "3.21.43",
+   "3.21.45",
+   "3.21.46",
+   "3.21.47",
+   "3.21.49",
+   "3.21.50",
+   "3.21.53",
+   "3.21.54",
+   "3.21.56",
+   "3.21.57",
+   "3.21.58"
+  ],
+  "variationsObserved": [
+   "WITH (CTE) ke saath multi-step queries.",
+   "NATURAL JOIN + subquery (derived table) ka count.",
+   "Range of tuples: maximum/minimum possible output size given constraints."
+  ],
+  "commonTraps": [
+   "NULL rows ko count/avg me galat treat karna.",
+   "Join se duplicates bane, uska aggregate par asar bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SQL_SEMANTICS_02",
+  "name": "What Does the Query Compute / Which Query is Equivalent",
+  "recognitionClueHinglish": "Query di hai aur poocha hai wo kya list karti hai (second highest, rank, students who...), ya kaunsi query same answer degi.",
+  "whatShouldComeToMind": [
+   "Query ko English me translate karo.",
+   "Correlated subquery / NOT IN / ALL ke patterns pehchano."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Subquery akele padho.",
+   "2. Outer condition ka matlab likho.",
+   "3. Chhoti sample table par test karo."
+  ],
+  "formulasUsed": [
+   "nullRule",
+   "allAnyEmpty"
+  ],
+  "pyqExamples": [
+   "3.21.18",
+   "3.21.19",
+   "3.21.20",
+   "3.21.21",
+   "3.21.22",
+   "3.21.23",
+   "3.21.24",
+   "3.21.25",
+   "3.21.32",
+   "3.21.33",
+   "3.21.34",
+   "3.21.36",
+   "3.21.40",
+   "3.21.42",
+   "3.21.44",
+   "3.21.48",
+   "3.21.52",
+   "3.21.55"
+  ],
+  "variationsObserved": [
+   "Rank customers by balance (count of higher balances).",
+   "Division-style 'all courses / all parts' queries via NOT EXISTS / NOT IN.",
+   "Inner vs outer join equivalence."
+  ],
+  "commonTraps": [
+   "Queries ko 'similar' dikhne par equivalent maan lena (duplicates/NULL me farak)."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SQL_WRITE_QUERY_03",
+  "name": "Write SQL / Relational Algebra Query",
+  "recognitionClueHinglish": "Schema diya hai; SQL ya algebra me query likhni hai (descriptive, mostly pre-2003).",
+  "whatShouldComeToMind": [
+   "Requirement ko FROM, WHERE, GROUP BY, HAVING me todo."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Kaunsi tables chahiye.",
+   "2. Join conditions.",
+   "3. Filter/aggregate/grouping.",
+   "4. Division ho to NOT EXISTS."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.21.4",
+   "3.21.5",
+   "3.21.6",
+   "3.21.7",
+   "3.21.9",
+   "3.21.10",
+   "3.21.13",
+   "3.21.15",
+   "3.21.16"
+  ],
+  "variationsObserved": [
+   "View define karna (bank transactions ka balance)."
+  ],
+  "commonTraps": [
+   "Join condition bhool jaana (accidental cross product)."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SQL_CONCEPTS_04",
+  "name": "SQL Concepts (NULL, clauses, constraints, foreign keys)",
+  "recognitionClueHinglish": "True/false: duplicates, HAVING bina GROUP BY, NULL comparison, foreign key vs check, indexes ki zaroorat, disk-based query cost.",
+  "whatShouldComeToMind": [
+   "Yeh facts direct yaad hone chahiye: SQL duplicates rakhta hai, HAVING bina GROUP BY chalti hai, NULL comparisons unknown."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har statement ko definition ya chhote example se test karo."
+  ],
+  "formulasUsed": [
+   "nullRule"
+  ],
+  "pyqExamples": [
+   "3.21.8",
+   "3.21.11",
+   "3.21.12",
+   "3.21.14",
+   "3.21.29",
+   "3.21.31",
+   "3.21.51"
+  ],
+  "variationsObserved": [
+   "Foreign key ko check assertion se replace karna possible hai ya nahi."
+  ],
+  "commonTraps": [
+   "Aisa maan lena ki SQL result set hota hai (multiset hota hai)."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ }
+]

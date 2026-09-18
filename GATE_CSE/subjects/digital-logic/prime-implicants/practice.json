@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:prime-implicants",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PRIME--01",
+   "patternId": "P4_PRIME_IMPLICANTS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Minterm sirf ek prime implicant me hai: wo PI?",
+   "solutionApproach": "Essential.",
+   "answer": "Essential prime implicant"
+  }
+ ]
+}

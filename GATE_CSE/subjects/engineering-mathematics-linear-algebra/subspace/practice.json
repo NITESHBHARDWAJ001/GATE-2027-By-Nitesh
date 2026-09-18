@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:subspace",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SUBSPA-01",
+   "patternId": "P3_SUBSPACE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "{(x,y): x+y=1} subspace?",
+   "solutionApproach": "0 not in.",
+   "answer": "Nahi"
+  }
+ ]
+}

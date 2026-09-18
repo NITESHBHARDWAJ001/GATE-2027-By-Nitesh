@@ -1,0 +1,23 @@
+{
+ "overview": "MTU boundaries par fragments; total header overhead; offset/MF.",
+ "whyItMatters": "5 PYQs extracted (2004-2025); P3 topic.",
+ "coreConcept": "MTU boundaries par fragments; total header overhead; offset/MF.",
+ "hinglishExplanation": "Fragment payload 8 ka multiple; har fragment ka apna header.",
+ "formalDefinition": "MTU boundaries par fragments; total header overhead; offset/MF.",
+ "importantProperties": [
+  "Fragment data multiple of 8.",
+  "Offset = start/8.",
+  "Har fragment me header dobara.",
+  "Baad ke networks me refragment."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Header count ek hi maan lena."
+ ],
+ "standardTechniques": [
+  "1. Payload per fragment.",
+  "2. Count."
+ ],
+ "topicId": "computer-networks:fragmentation"
+}

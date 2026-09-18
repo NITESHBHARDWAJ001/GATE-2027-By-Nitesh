@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Excess-k exponent, normalized mantissa, range/precision trade-off.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Floating Point (Excess Exponent) se related sawal.",
+   "thinkThis": "P3_FLOATING_POINT_REPRESENT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Bias subtract bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:floating-point-representation",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,19 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:arithmetic-series",
+ "subjectId": "general-aptitude-quantitative-aptitude",
+ "subject": "General Aptitude - Quantitative Aptitude",
+ "name": "Arithmetic Series",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 2013-2015.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2013,
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

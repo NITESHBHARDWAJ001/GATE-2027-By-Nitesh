@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_MAPS_01",
+  "name": "Maps and Distances (PYQ type)",
+  "recognitionClueHinglish": "Maps and Distances se related sawal.",
+  "whatShouldComeToMind": [
+   "Scale, shortest route on maps."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Scale."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.29.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Units."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

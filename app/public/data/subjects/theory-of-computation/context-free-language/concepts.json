@@ -1,0 +1,39 @@
+{
+  "topicId": "toc-context-free-language",
+  "overview": "CFL, Regular Language se ek level upar hai — ab 'ek level ki matching' (jaise a^n b^n) possible hai, lekin do-level (a^n b^n c^n) abhi bhi nahi. 4 skills: grammar diya hai to uski LANGUAGE identify karna, ek language CFL hai ya nahi classify karna, CFL closure properties, aur grammar-property questions (ambiguity, determinism).",
+  "whyItMatters": "35 PYQs. CFG→language aur language→CFL-classification dono bahut common hain. Compiler Design ka Grammar topic isi foundation pe hai.",
+  "coreConcept": "CFG = (V, Σ, R, S) — non-terminals, terminals, production rules (LHS single non-terminal → RHS string of terminals/non-terminals), start symbol. CFL = koi bhi language jo CFG se generate ho sake, equivalently koi PDA (stack-based automaton) se accept ho sake. KEY INTUITION: PDA ke paas EK stack hai — isliye ek 'matching pair' (jaise a's push karo, b's pe pop karo) track kar sakta hai, lekin DO independent matching pairs SIMULTANEOUSLY nahi (stack sirf ek hi cheez top pe rakh sakta hai).",
+  "hinglishExplanation": "CFG ko ek 'recipe book' socho jisme rules hain 'is symbol ko in symbols se replace karo'. Grammar se language derive karne ke liye start symbol se shuru karo, rules apply karte jao jab tak sab terminals na reh jayein. PDA (jo CFL accept karta hai) ek DFA/NFA + STACK hai — stack ek 'unbounded memory' deta hai, lekin sirf LIFO (last-in-first-out) discipline me — isliye ek matching-pair track kar sakta hai (a's push, b's pop, match ho gaya to stack khali), do independent pairs nahi.",
+  "formalDefinition": "CFG: V (non-terminals), Σ (terminals), R (rules A→α, A∈V, α∈(V∪Σ)*), S∈V (start). L(G) = all terminal strings derivable from S via rule applications.",
+  "importantProperties": [
+    "CFL closed under: union, concatenation, Kleene star, REVERSAL, and intersection/union with a REGULAR language (CFL∩Regular = CFL, CFL∪Regular = CFL).",
+    "CFL NOT closed under: intersection (of two CFLs), complement — this is the single most tested closure fact in this topic.",
+    "Grammar reading trick: if a rule looks like S→aSb|ε, this generates a^n b^n (matched nesting) — the classic CFL-not-regular example.",
+    "If a rule looks like S→aS|bS|ε (or similar 'append anything, any order'), this is often just a REGULAR language in CFG clothing — always check if the grammar ACTUALLY needs the stack's matching power or if it's secretly regular.",
+    "Deterministic CFL (DCFL, accepted by a DPDA) is a STRICT SUBSET of CFL — some CFLs are inherently NON-deterministic (need to 'guess' when to switch from pushing to popping, like palindromes without a center marker).",
+    "a^n b^n c^n (n≥0) is the classic example of a language that is NOT context-free (needs matching THREE things, beyond a single stack's power) — provable via the CFL Pumping Lemma."
+  ],
+  "formulas": {
+    "cflClosedOps": "Closed under: ∪, concatenation, Kleene star, reversal, ∩ with Regular, ∪ with Regular",
+    "cflNotClosedOps": "NOT closed under: intersection of two CFLs, complement",
+    "matchedNestingGrammar": "S→aSb|ε generates {a^n b^n : n≥0} — classic single-matching-pair CFL",
+    "dcflStrictSubset": "DCFL ⊊ CFL (some CFLs are inherently non-deterministic)"
+  },
+  "keyPropertiesAndIdentities": [
+    "The single most repeated closure fact: CFL is NOT closed under intersection or complement — but IS closed under union with intersection/union with a REGULAR set specifically.",
+    "'Is L1∩L2 CFL' where BOTH are pure CFLs → generally NO guarantee (could go either way, often the resulting language needs THREE-way matching and becomes non-CFL, like combining a^nb^nc^m with a^mb^nc^n).",
+    "'Is L1∩L2 CFL' where ONE is regular → YES, always (CFL∩Regular=CFL)."
+  ],
+  "commonPitfalls": [
+    "Confusing 'CFL closed under intersection with Regular' (TRUE) with 'CFL closed under intersection with another CFL' (FALSE, no guarantee).",
+    "Assuming every grammar with recursive rules generates a non-regular language — many recursive-looking grammars (like S→aS|bS|ε) are secretly regular.",
+    "Forgetting DCFL is a STRICT subset of CFL — not every CFL has a deterministic PDA.",
+    "Trying to prove a language IS context-free by giving a PDA/grammar attempt that doesn't actually work for ALL cases — verify the construction handles the general case, not just small examples."
+  ],
+  "standardTechniques": [
+    "For 'what language does this grammar generate' questions: derive a few short strings by hand (apply rules starting from S), look for the emerging pattern.",
+    "For 'is L context-free' classification: try to construct a PDA/grammar directly (single stack, single matching relationship) — if it needs only ONE matching pair, it's likely CFL; if it needs to match/compare MULTIPLE independent counts simultaneously, suspect NOT CFL (use CFL Pumping Lemma to confirm).",
+    "For closure-property questions: recall the CFL closure list — closed under ∪/concat/star/reversal/∩-with-regular; NOT closed under ∩-with-CFL or complement.",
+    "For grammar-ambiguity questions: try to find TWO DIFFERENT parse trees (or leftmost derivations) for the SAME string — if found, the grammar is ambiguous."
+  ]
+}

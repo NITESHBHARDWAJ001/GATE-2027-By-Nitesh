@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Full k-ary tree: L = (k-1)I + 1, total nodes n = kI + 1.",
+ "mustRememberFormulas": [
+  "kary: L = (k-1)I + 1"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Leaves, internal nodes, degree sum.",
+   "thinkThis": "TRE_COUNTS_01"
+  },
+  {
+   "seeThis": "Traversal order, level-order, true/false, pseudocode.",
+   "thinkThis": "TRE_TRAVERSAL_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Formula direction.",
+  "Traversal order."
+ ],
+ "highYieldPyqLessons": [
+  "Counting formulas recur."
+ ],
+ "topicId": "programming-and-ds-data-structures:tree",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Sets ke union/intersection counts.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Venn Diagrams se related sawal.",
+   "thinkThis": "P3_VENN_DIAGRAM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Double count."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:venn-diagram",
+ "revisionLevel": "short-form"
+}

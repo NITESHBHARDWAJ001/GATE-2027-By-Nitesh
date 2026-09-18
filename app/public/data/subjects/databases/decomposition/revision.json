@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Lossless join aur dependency preservation; non-preserving par constraint check ke liye join.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Decomposition se related sawal.",
+   "thinkThis": "P3_DECOMPOSITION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Lossless aur dependency preserving confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:decomposition",
+ "revisionLevel": "short-form"
+}

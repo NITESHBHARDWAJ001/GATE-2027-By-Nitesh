@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Non-negative weights ke liye single-source shortest path; greedy, priority queue.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Dijkstra's Algorithm se related sawal.",
+   "thinkThis": "P3_DIJKSTRAS_ALGORITHM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Negative weights par use karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:dijkstras-algorithm",
+ "revisionLevel": "short-form"
+}

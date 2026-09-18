@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:assembler",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ASSEMB-01",
+   "patternId": "P3_ASSEMBLER_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Symbol table pass 1 me banti hai ya 2?",
+   "solutionApproach": "Pass 1.",
+   "answer": "Pass 1"
+  }
+ ]
+}

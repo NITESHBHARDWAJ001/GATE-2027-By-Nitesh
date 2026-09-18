@@ -1,0 +1,23 @@
+{
+ "coreIdea": "Closure table yaad rakho: Regular sab me closed; CFL union/concat/star me closed, intersection/complement me nahi.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Kaunsi operation kis class me closed.",
+   "thinkThis": "CLP_TABLE_01"
+  },
+  {
+   "seeThis": "L1 n R, complement of regular, etc.",
+   "thinkThis": "CLP_COMBINED_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "CFL intersection.",
+  "Class of result."
+ ],
+ "highYieldPyqLessons": [
+  "Memorise the closure table; most questions are direct."
+ ],
+ "topicId": "theory-of-computation:closure-property",
+ "revisionLevel": "short-form"
+}

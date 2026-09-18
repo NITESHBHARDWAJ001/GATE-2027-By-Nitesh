@@ -1,0 +1,22 @@
+{
+ "overview": "Singular values = sqrt of eigenvalues of A^T A; sum of squares = ||A||_F^2.",
+ "whyItMatters": "1 PYQs extracted (2024-2024); P3 topic.",
+ "coreConcept": "Singular values = sqrt of eigenvalues of A^T A; sum of squares = ||A||_F^2.",
+ "hinglishExplanation": "A = U S V^T; singular values non-negative.",
+ "formalDefinition": "Singular values = sqrt of eigenvalues of A^T A; sum of squares = ||A||_F^2.",
+ "importantProperties": [
+  "sigma_i = sqrt(lambda_i(A^T A)).",
+  "sum sigma_i^2 = trace(A^T A).",
+  "Rank = # nonzero singular values."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Eigenvalue aur singular value confuse."
+ ],
+ "standardTechniques": [
+  "1. A^T A.",
+  "2. Eigenvalues."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:singular-value-decomposition"
+}

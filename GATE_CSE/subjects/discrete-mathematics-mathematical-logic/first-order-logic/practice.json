@@ -1,0 +1,51 @@
+{
+  "topicId": "dm-mathematical-logic-first-order-logic",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-FOL-01",
+      "patternId": "FOL_TRANSLATION_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Translate: 'All birds can fly except penguins.'",
+      "solutionApproach": "Let Bird(x), Fly(x), Penguin(x). 'All birds that are not penguins can fly': ∀x((Bird(x)∧¬Penguin(x))→Fly(x)).",
+      "answer": "∀x((Bird(x)∧¬Penguin(x))→Fly(x))"
+    },
+    {
+      "practiceId": "AI-FOL-02",
+      "patternId": "FOL_TRANSLATION_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Translate: 'Every student has taken at least one course taught by every professor in the CS department.' (this is intentionally ambiguous — give the reading where a single course works for ALL professors)",
+      "solutionApproach": "Let S(x)=student, P(y)=professor, C(z)=course, Taught(y,z), Taken(x,z). Strong reading (same course for all professors): ∀x(S(x)→∃z(C(z)∧∀y(P(y)→Taught(y,z))∧Taken(x,z))).",
+      "answer": "∀x(S(x)→∃z(C(z)∧∀y(P(y)→Taught(y,z))∧Taken(x,z))) — note ∃z is OUTSIDE ∀y here, meaning one course taught by every professor."
+    },
+    {
+      "practiceId": "AI-FOL-03",
+      "patternId": "FOL_QUANTIFIER_EQUIV_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Find the negation of: ∀x∃y (P(x,y)→Q(x,y))",
+      "solutionApproach": "¬∀x∃y(P→Q) ≡ ∃x¬∃y(P→Q) ≡ ∃x∀y¬(P→Q) ≡ ∃x∀y(P∧¬Q).",
+      "answer": "∃x∀y (P(x,y)∧¬Q(x,y))"
+    },
+    {
+      "practiceId": "AI-FOL-04",
+      "patternId": "FOL_QUANTIFIER_EQUIV_02",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is ∀x∃y P(x,y) equivalent to ∃y∀x P(x,y)? Justify with a concrete example over the domain of integers, P(x,y) = 'y is greater than x'.",
+      "solutionApproach": "∀x∃y P(x,y): for every integer x, there's SOME bigger y — TRUE (always find x+1). ∃y∀x P(x,y): there's ONE y bigger than EVERY integer x — FALSE (no largest bound). So NOT equivalent; ∃y∀x is strictly stronger and false here while ∀x∃y is true.",
+      "answer": "Not equivalent. ∀x∃y P(x,y) is TRUE but ∃y∀x P(x,y) is FALSE for this example — proves ∃∀ ⟹ ∀∃ but not conversely."
+    },
+    {
+      "practiceId": "AI-FOL-05",
+      "patternId": "FOL_MODEL_INTERPRETATION_03",
+      "difficulty": "tricky-variation",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is the formula ∃x∀y (R(x,y)↔¬R(y,y)) satisfiable over some domain? (This is Russell's-paradox-flavored.)",
+      "solutionApproach": "Set y=x: R(x,x)↔¬R(x,x) — this is a direct contradiction (a statement equivalent to its own negation), forced by the universal quantifier over y including y=x. So the formula is UNSATISFIABLE in any domain.",
+      "answer": "No — unsatisfiable in any domain (the y=x instantiation forces a direct contradiction, same structure as Russell's Paradox)."
+    }
+  ]
+}

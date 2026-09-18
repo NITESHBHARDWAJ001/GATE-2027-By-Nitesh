@@ -1,0 +1,23 @@
+{
+ "overview": "Array representation, parent/children indices, min-heap properties, max element location.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Array representation, parent/children indices, min-heap properties, max element location.",
+ "hinglishExplanation": "1-based: parent i/2, children 2i, 2i+1. Min-heap me maximum leaves me hota hai.",
+ "formalDefinition": "Array representation, parent/children indices, min-heap properties, max element location.",
+ "importantProperties": [
+  "Parent floor(i/2), children 2i, 2i+1.",
+  "Leaves: indices floor(n/2)+1..n.",
+  "Insert/delete O(log n).",
+  "Min-heap ka max leaf level par."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "0-based vs 1-based index."
+ ],
+ "standardTechniques": [
+  "1. Index formula.",
+  "2. Leaves range."
+ ],
+ "topicId": "algorithms:binary-heap"
+}

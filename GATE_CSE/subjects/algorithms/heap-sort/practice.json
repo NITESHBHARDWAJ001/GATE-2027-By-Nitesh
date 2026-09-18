@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:heap-sort",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-HEAP-S-01",
+   "patternId": "P3_HEAP_SORT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Heap sort ki worst-case complexity?",
+   "solutionApproach": "n extractions x log n.",
+   "answer": "O(n log n)"
+  }
+ ]
+}

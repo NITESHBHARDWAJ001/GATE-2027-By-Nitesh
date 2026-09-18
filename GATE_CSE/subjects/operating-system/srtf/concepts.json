@@ -1,0 +1,21 @@
+{
+ "overview": "Preemptive shortest job first: arrival par remaining time compare.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Preemptive shortest job first: arrival par remaining time compare.",
+ "hinglishExplanation": "Naya process aata hai to remaining time compare; chhota ho to preempt.",
+ "formalDefinition": "Preemptive shortest job first: arrival par remaining time compare.",
+ "importantProperties": [
+  "Preemptive SJF.",
+  "Minimum average waiting time.",
+  "Starvation possible for long jobs."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Remaining time ki jagah burst compare."
+ ],
+ "standardTechniques": [
+  "1. Har event par remaining time."
+ ],
+ "topicId": "operating-system:srtf"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "patternId": "PDA_CONSTRUCT_01",
+    "name": "Construct a PDA for a Given Language",
+    "recognitionClueHinglish": "Language description di hai (jaise palindromes, a^n b^n) aur PDA construct karna hai — design pattern.",
+    "whatShouldComeToMind": ["Identify the ONE matching relationship the language needs (equal counts, palindrome structure) — design push/pop transitions directly around it."],
+    "conceptsRequired": ["PDA design around a matching invariant"],
+    "generalSolvingApproach": ["1. Identify what needs to be 'remembered' via the stack (e.g., count of a's seen so far).", "2. Design push transitions for the 'building up' phase, pop transitions for the 'matching down' phase.", "3. For palindromes, need a way to 'guess' the middle (non-deterministic PDA) since there's no marker.", "4. Specify the acceptance condition (final state or empty stack) explicitly."],
+    "formulasUsed": [],
+    "pyqExamples": ["6.15.1","6.15.6"],
+    "variationsObserved": ["Specifically requiring a DETERMINISTIC PDA — verify the construction doesn't require any 'guessing' step (like guessing the palindrome's center without a marker)."],
+    "commonTraps": ["Designing a construction that only works for even-length or specific-length strings, missing the general case."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PDA_IDENTIFY_TRACE_02",
+    "name": "Identify the Language Accepted by a Given PDA / Trace Execution",
+    "recognitionClueHinglish": "Ek PDA (transition diagram/table) diya hai aur poocha hai ye kaunsi language accept karta hai, ya ek specific string pe trace karke accept/reject batana hai — is topic ka sabse bada pattern hai (15 me se 9 PYQs).",
+    "whatShouldComeToMind": ["Trace a few short strings, tracking BOTH state and full stack contents at each step.", "Look for what the stack seems to be COUNTING/MATCHING to infer the general language pattern."],
+    "conceptsRequired": ["PDA execution semantics (push/pop tracking)"],
+    "generalSolvingApproach": ["1. For a specific string: trace step by step, maintaining an explicit stack-contents list alongside the current state.", "2. For general 'what language' questions: trace several short strings, infer the pattern from what gets accepted (stack empty + accepting state, or per the acceptance mode specified).", "3. Pay attention to whether acceptance is by FINAL STATE or EMPTY STACK — check the problem statement for which mode applies."],
+    "formulasUsed": [],
+    "pyqExamples": ["6.15.3","6.15.5","6.15.8","6.15.9","6.15.10","6.15.11","6.15.12","6.15.13","6.15.15"],
+    "variationsObserved": ["Minimal PDA (1 state, 1 stack symbol) — reduces to a pure stack-height/counter interpretation.", "Transition notation using extended forms — carefully parse what's popped and pushed on each labeled edge before tracing."],
+    "commonTraps": ["Losing track of the exact stack contents (not just the height) partway through a trace — always write out the full stack, symbol by symbol."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PDA_THEORY_03",
+    "name": "PDA Theory (acceptance modes, determinism, PDA-CFL-FA relationships)",
+    "recognitionClueHinglish": "Poocha hai final-state vs empty-stack acceptance equivalent hain ya nahi, ya DPDA vs NPDA power comparison, ya PDA-FA-CFL ke beech general TRUE/FALSE claims — ye theory pattern hai.",
+    "whatShouldComeToMind": ["Final-state and empty-stack acceptance are EQUIVALENT in power (conversion always possible).", "DPDA ⊊ PDA (strict subset) — non-determinism genuinely adds power for PDAs (unlike for finite automata, where NFA=DFA in power)."],
+    "conceptsRequired": ["Acceptance mode equivalence", "DPDA vs NPDA power difference"],
+    "generalSolvingApproach": ["1. For acceptance-mode questions, recall the equivalence directly.", "2. For determinism-power questions, recall DPDA is strictly weaker — some CFLs need non-determinism.", "3. For general TRUE/FALSE claims linking PDA to FA/CFL/regular concepts, verify each against the known hierarchy (Regular ⊆ CFL, DCFL ⊊ CFL, NFA→PDA trivial conversion exists)."],
+    "formulasUsed": ["acceptanceModeEquivalence","dpdaWeakerThanPda"],
+    "pyqExamples": ["6.15.2","6.15.4","6.15.7","6.15.14"],
+    "variationsObserved": [],
+    "commonTraps": ["Assuming DPDA=NPDA in power (like NFA=DFA for finite automata) — this key difference between FA and PDA is a favorite conceptual trap."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

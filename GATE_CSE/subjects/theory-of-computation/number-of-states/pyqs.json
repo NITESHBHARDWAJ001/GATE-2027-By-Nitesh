@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "theory-of-computation__6.13.1",
+  "localId": "6.13.1",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "number-of-states",
+  "topic": "Number of States",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "50",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "6:6",
+  "answerVerified": true,
+  "questionTextRaw": "Let           . For                                , let                       be the product of symbols in modulo 7. We take , where is the null string. For example,                                                                   . Define                                                       . The number of states in a minimum state DFA for is __________ . (Answer in integer)",
+  "tagsRaw": "gatecse2025-set2 theory-of-computation   finite-automata     number-of-states  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 377
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NUMBER_OF_STATES_01"
+ },
+ {
+  "pyqId": "theory-of-computation__6.13.2",
+  "localId": "6.13.2",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "number-of-states",
+  "topic": "Number of States",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "16",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B;D",
+  "answerVerified": true,
+  "questionTextRaw": "Let be a nondeterministic finite automaton (NFA) with states over a finite alphabet. Which of the following options CANNOT be the number of states in the minimal deterministic finite automaton (DFA) that is equivalent to ? A.                                       B.                                       C.                         D.",
+  "tagsRaw": "gatecse-2026-set1 theory-of-computation  finite-automata     number-of-states  multiple-selects   one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 377
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NUMBER_OF_STATES_01"
+ }
+]

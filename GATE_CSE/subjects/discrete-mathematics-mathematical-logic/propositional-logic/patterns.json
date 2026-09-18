@@ -1,0 +1,117 @@
+[
+  {
+    "patternId": "PL_TAUTOLOGY_CHECK_01",
+    "name": "Tautology / Contradiction / Satisfiability / Truth-Value Determination",
+    "recognitionClueHinglish": "Ek formula di hai aur poocha hai ye tautology hai, contradiction hai, satisfiable hai, ya specific truth-value poocha hai (given kuch propositions ka value) — ye is topic ka sabse bada pattern hai (40 me se 21 PYQs).",
+    "whatShouldComeToMind": [
+      "≤3 variables → truth table banao seedha, 8 rows se zyada nahi honge, guaranteed correct.",
+      "Try the implication-rewrite (P→Q ≡ ¬P∨Q) first to simplify before building a table.",
+      "'Satisfiable but not valid' = TRUE for SOME rows, FALSE for others (neither tautology nor contradiction)."
+    ],
+    "conceptsRequired": ["Truth tables", "Implication/biconditional rewrite rules"],
+    "generalSolvingApproach": [
+      "1. Count distinct propositional variables (n) — if n≤3, default to a full truth table (fast, safe).",
+      "2. If n is larger or the formula looks algebraically simplifiable, rewrite all → and ↔ into ∧/∨/¬ form first using the rewrite rules.",
+      "3. Apply De Morgan's/distributive laws to simplify.",
+      "4. Classify: all-True rows → tautology; all-False → contradiction; mixed → satisfiable-but-not-valid.",
+      "5. For 'given P is true, find truth value of complex formula' — substitute directly rather than building the whole table."
+    ],
+    "formulasUsed": ["implicationRewrite","contrapositive","biconditional","deMorgan"],
+    "pyqExamples": ["3.3.4","3.3.5","3.3.6","3.3.9","3.3.10","3.3.12","3.3.14","3.3.16","3.3.17","3.3.18","3.3.20","3.3.22","3.3.23","3.3.24","3.3.27","3.3.28","3.3.32","3.3.34","3.3.36","3.3.37","3.3.39"],
+    "variationsObserved": [
+      "Given that two OTHER formulas are tautologies, deduce properties of a formula built from them (meta-reasoning, not direct truth-table).",
+      "'True when exactly two of P,Q,R are true' — build the table but only check the specific 3-of-8 rows matching that condition.",
+      "Given a formula is a CONTRADICTION, deduce the truth value/status of a related formula (reverse-engineering)."
+    ],
+    "commonTraps": ["Missing that P→Q is vacuously true when P is False — leads to wrong row entries.", "Confusing 'satisfiable' (true in at least one row) with 'valid/tautology' (true in ALL rows) — these are different claims."],
+    "edgeCases": ["Formula with 0 free variables after simplification (constant True/False) — trivial classification."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PL_EQUIVALENCE_02",
+    "name": "Logical Equivalence Verification (which formulas mean the same thing)",
+    "recognitionClueHinglish": "Do ya zyada formulas diye hain aur poocha hai kaunse equivalent hain (same truth table) — ye equivalence-matching pattern hai.",
+    "whatShouldComeToMind": [
+      "Rewrite every candidate formula into a canonical ∧/∨/¬ form (kill → and ↔ first) — then compare directly.",
+      "If algebra gets messy, fall back to a truth table and compare COLUMNS across all candidates at once (more efficient than pairwise for multiple options)."
+    ],
+    "conceptsRequired": ["Implication/biconditional rewrite", "De Morgan's, distributive, contrapositive identities"],
+    "generalSolvingApproach": [
+      "1. Pick the 'target' formula (the one others are compared against).",
+      "2. Rewrite target into canonical form.",
+      "3. For each candidate option, rewrite similarly and compare structurally, OR build one combined truth table with a column per candidate."
+    ],
+    "formulasUsed": ["implicationRewrite","contrapositive","biconditional","deMorgan"],
+    "pyqExamples": ["3.3.3","3.3.13","3.3.25","3.3.26","3.3.30","3.3.33"],
+    "variationsObserved": ["Custom binary operator defined by a truth table, asked which standard expression matches it."],
+    "commonTraps": ["Assuming converse or inverse is equivalent to the original conditional — only contrapositive is guaranteed equivalent."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PL_NL_TRANSLATION_03",
+    "name": "Natural Language ↔ Propositional Logic Translation",
+    "recognitionClueHinglish": "English statement diya hai (jaise 'P only if Q', 'P unless Q', 'I stay only if you go') aur poocha hai correct formula/converse/representation kaunsa hai — ye translation pattern hai.",
+    "whatShouldComeToMind": [
+      "'P only if Q' → P→Q (NOT Q→P).",
+      "'P if Q' → Q→P.",
+      "'P unless Q' → ¬Q→P (equivalently P∨Q).",
+      "'P if and only if Q' → P↔Q.",
+      "Converse of P→Q is Q→P; contrapositive is ¬Q→¬P; inverse is ¬P→¬Q — only contrapositive is logically equivalent to the original."
+    ],
+    "conceptsRequired": ["Connective-keyword vocabulary mapping"],
+    "generalSolvingApproach": [
+      "1. Underline the connective keywords in the English sentence (only if / if / unless / and / or / not / iff).",
+      "2. Assign a propositional variable to each atomic claim.",
+      "3. Assemble using the keyword-to-connective mapping above.",
+      "4. If asked for converse/inverse/contrapositive of a given assertion, apply the specific transformation rather than re-deriving from English."
+    ],
+    "formulasUsed": ["contrapositive"],
+    "pyqExamples": ["3.3.15","3.3.19","3.3.29","3.3.35","3.3.38"],
+    "variationsObserved": ["Compound sentence with multiple nested connectives ('P and Q, and not R only if S and T') — parse left-to-right, identify the OUTERMOST connective first."],
+    "commonTraps": ["'Only if' vs 'if' direction swap — the single most common translation error.", "Missing an implicit NOT in phrases like 'P cannot be given when Q'."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "easy to normal",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PL_INFERENCE_VALIDITY_04",
+    "name": "Logical Inference / Argument Validity (Modus Ponens, Resolution)",
+    "recognitionClueHinglish": "Premises di hain aur ek conclusion validate/derive karna hai, ya 'which arguments are valid' poocha hai using standard inference rules (Modus Ponens, Resolution) — ye inference-pattern hai.",
+    "whatShouldComeToMind": [
+      "Modus Ponens: from P and P→Q, derive Q.",
+      "Resolution rule: from (A∨B) and (¬B∨C), derive (A∨C) — used heavily in logic-programming-style questions.",
+      "An argument (premises ⊢ conclusion) is VALID iff the conjunction of premises implies the conclusion is a TAUTOLOGY — i.e., whenever all premises are true, conclusion is forced true."
+    ],
+    "conceptsRequired": ["Modus Ponens", "Resolution rule", "Validity of arguments"],
+    "generalSolvingApproach": [
+      "1. List all given premises explicitly.",
+      "2. Apply Modus Ponens/Resolution step by step, deriving new facts, until the target conclusion is reached (or shown unreachable).",
+      "3. To check validity of a claimed argument: assume ALL premises true, check if conclusion is FORCED true in every such case (truth table or direct reasoning)."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["3.3.1","3.3.7","3.3.8","3.3.21","3.3.31","3.3.40"],
+    "variationsObserved": ["Predicate-logic flavored premises (monadic predicates with a constant) — same propositional reasoning skeleton, just with quantifiers stripped for a specific constant."],
+    "commonTraps": ["Applying Modus Ponens in the wrong direction (from Q and P→Q, you CANNOT derive P — affirming the consequent is a fallacy)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PL_DEFINITIONS_NORMALFORM_05",
+    "name": "Definitions & Normal Forms (wff validity, CNF/DNF)",
+    "recognitionClueHinglish": "'Define validity of a wff', ya 'obtain the principal conjunctive normal form' poocha hai — ye definitional/normal-form-construction pattern hai, mostly old descriptive papers.",
+    "whatShouldComeToMind": ["CNF = AND of ORs. DNF = OR of ANDs. 'Principal'/canonical form includes every variable (or its negation) in every clause."],
+    "conceptsRequired": ["CNF/DNF construction", "wff validity definition"],
+    "generalSolvingApproach": ["1. Build the truth table.", "2. For principal CNF: take every row where the formula is FALSE, write the OR-clause that is false exactly there, AND them all together.", "3. For principal DNF: take every row where TRUE, write the AND-term true exactly there, OR them together."],
+    "formulasUsed": [],
+    "pyqExamples": ["3.3.2","3.3.11"],
+    "variationsObserved": [],
+    "commonTraps": ["Mixing up which rows to use for CNF (false rows) vs DNF (true rows)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": false
+  }
+]

@@ -1,0 +1,24 @@
+{
+ "topicId": "operating-system:threads",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Threads",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "10 PYQs extracted, 2004-2024.",
+ "pyqCountExtracted": 10,
+ "yearsCovered": [
+  2004,
+  2007,
+  2011,
+  2014,
+  2017,
+  2021,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

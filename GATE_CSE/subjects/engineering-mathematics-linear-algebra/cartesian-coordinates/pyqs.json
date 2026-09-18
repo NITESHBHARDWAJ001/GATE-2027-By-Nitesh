@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "engineering-mathematics-linear-algebra__6.1.1",
+  "localId": "6.1.1",
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "subject": "Engineering Mathematics: Linear Algebra",
+  "topicSlug": "cartesian-coordinates",
+  "topic": "Cartesian Coordinates",
+  "year": 2007,
+  "examStream": "IT",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "80",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Let                         be points in the plane such that no three of them are collinear. For every pair of points and , let be the line passing through them. Let be the line with the steepest gradient amongst all                 lines. Which one of the following properties should necessarily be satisfied ? A. and are adjacent to each other with respect to their -coordinate B. Either or has the largest or the smallest -coordinate among all the points C. The difference between -coordinates and is minimum D. None of the above",
+  "tagsRaw": "gateit-2007 linear-algebra  cartesian-coordinates",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 162
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_CARTESIAN_COORDINATES_01"
+ }
+]

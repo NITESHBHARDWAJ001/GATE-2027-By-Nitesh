@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Statement-response matching, coherent narrative.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Narrative Sequencing / Matching Responses se related sawal.",
+   "thinkThis": "P3_NARRATIVE_SEQUENCING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Topic shift."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:narrative-sequencing",
+ "revisionLevel": "short-form"
+}

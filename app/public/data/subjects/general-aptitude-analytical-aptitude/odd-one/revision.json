@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Group me alag property wala item.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Odd One Out se related sawal.",
+   "thinkThis": "P3_ODD_ONE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Surface similarity."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:odd-one",
+ "revisionLevel": "short-form"
+}

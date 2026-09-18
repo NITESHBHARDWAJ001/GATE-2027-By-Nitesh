@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Roots, degree conditions, base-b quadratic.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Polynomials se related sawal.",
+   "thinkThis": "P3_POLYNOMIALS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Degree bound bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:polynomials",
+ "revisionLevel": "short-form"
+}

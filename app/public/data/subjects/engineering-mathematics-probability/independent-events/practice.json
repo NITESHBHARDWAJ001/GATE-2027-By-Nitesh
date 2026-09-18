@@ -1,0 +1,24 @@
+{
+ "topicId": "engineering-mathematics-probability:independent-events",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INDEPE-01",
+   "patternId": "IND_TEST_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "P(A)=0.5,P(B)=0.4 independent. P(AuB)?",
+   "solutionApproach": "1-0.5*0.6.",
+   "answer": "0.7"
+  },
+  {
+   "practiceId": "AI-INDEPEND-X02",
+   "patternId": "IND_TEST_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "P(A)=0.4, P(B)=0.5 independent. P(A and B)?",
+   "solutionApproach": "Product.",
+   "answer": "0.2"
+  }
+ ]
+}

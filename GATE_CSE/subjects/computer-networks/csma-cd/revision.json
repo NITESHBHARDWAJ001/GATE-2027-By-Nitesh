@@ -1,0 +1,24 @@
+{
+ "coreIdea": "Sender ko collision tabhi pata chale jab wo abhi transmit kar raha ho: Tt >= 2 Tp.",
+ "mustRememberFormulas": [
+  "minFrame: 2 * Tp * B"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bandwidth, distance, speed; min frame.",
+   "thinkThis": "CSMA_MINFRAME_01"
+  },
+  {
+   "seeThis": "Kaunsa network CSMA/CD use karta hai.",
+   "thinkThis": "CSMA_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Units."
+ ],
+ "highYieldPyqLessons": [
+  "Every numeric uses 2 Tp x B."
+ ],
+ "topicId": "computer-networks:csma-cd",
+ "revisionLevel": "short-form"
+}

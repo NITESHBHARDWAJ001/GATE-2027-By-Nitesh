@@ -1,0 +1,22 @@
+{
+ "overview": "Har block me next pointer; usable data = block - pointer.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Har block me next pointer; usable data = block - pointer.",
+ "hinglishExplanation": "Linked allocation me no external fragmentation, random access slow.",
+ "formalDefinition": "Har block me next pointer; usable data = block - pointer.",
+ "importantProperties": [
+  "Usable = block size - pointer size.",
+  "Blocks needed = ceil(file / usable).",
+  "n-th block ke liye n hops."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Pointer overhead ignore."
+ ],
+ "standardTechniques": [
+  "1. Usable.",
+  "2. Blocks."
+ ],
+ "topicId": "operating-system:linked-allocation"
+}

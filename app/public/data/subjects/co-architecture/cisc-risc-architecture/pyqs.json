@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "co-architecture__1.4.1",
+  "localId": "1.4.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "cisc-risc-architecture",
+  "topic": "CISC RISC Architecture",
+  "year": 1999,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "2.22",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A;B;C;D",
+  "answerVerified": true,
+  "questionTextRaw": "The main difference(s) between a CISC and a RISC processor is/are that a RISC processor typically A. has fewer instructions                                                       B. has fewer addressing modes C. has more registers                                                           D. is easier to implement using hard- wired logic",
+  "tagsRaw": "gate1999 co-and-architecture  normal  cisc-risc-architecture  multiple-selects",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 33
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_CISC_RISC_ARCHITECTURE_01"
+ },
+ {
+  "pyqId": "co-architecture__1.4.2",
+  "localId": "1.4.2",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "cisc-risc-architecture",
+  "topic": "CISC RISC Architecture",
+  "year": 2018,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "5",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "D D",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following processor design characteristics: I. Register-to-register arithmetic operations only II. Fixed-length instruction format III. Hardwired control unit Which of the characteristics above are used in the design of a RISC processor? A. I and II only                      B. II and III only                        C. I and III only  D. I, II and III",
+  "tagsRaw": "gatecse-2018 co-and-architecture cisc-risc-architecture easy one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 33
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_CISC_RISC_ARCHITECTURE_01"
+ }
+]

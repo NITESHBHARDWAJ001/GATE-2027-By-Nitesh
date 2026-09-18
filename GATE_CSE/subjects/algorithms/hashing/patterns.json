@@ -1,0 +1,55 @@
+[
+ {
+  "patternId": "HSH_SIMULATE_01",
+  "name": "Simulate Insertions (chaining / linear probing)",
+  "recognitionClueHinglish": "Keys insert karke final table ya chain length.",
+  "whatShouldComeToMind": [
+   "Trace."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Hash.",
+   "2. Collision resolve."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.20.1",
+   "1.20.5",
+   "1.20.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Wrap-around."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "HSH_ANALYSIS_02",
+  "name": "Complexity / Adversary / Design",
+  "recognitionClueHinglish": "Worst case, malicious keys, multilevel hashing.",
+  "whatShouldComeToMind": [
+   "Analysis."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Worst case identify."
+  ],
+  "formulasUsed": [
+   "alpha"
+  ],
+  "pyqExamples": [
+   "1.20.2",
+   "1.20.3",
+   "1.20.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Average vs worst."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

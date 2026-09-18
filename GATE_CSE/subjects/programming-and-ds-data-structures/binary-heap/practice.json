@@ -1,0 +1,42 @@
+{
+  "topicId": "ds-binary-heap",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-HEAP-01",
+      "patternId": "HEAP_VALIDITY_CHECK_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is [50, 30, 40, 10, 20, 35] a valid max-heap (1-indexed array)?",
+      "solutionApproach": "Check: index1(50) vs children idx2(30),idx3(40): 50≥30,50≥40 ✓. idx2(30) vs children idx4(10),idx5(20): 30≥10,30≥20 ✓. idx3(40) vs child idx6(35): 40≥35 ✓. All checks pass.",
+      "answer": "Yes, valid max-heap."
+    },
+    {
+      "practiceId": "AI-HEAP-02",
+      "patternId": "HEAP_BUILD_HEAPIFY_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Array [4,10,3,5,1] — build a max-heap using bottom-up sift-down. What's the final array?",
+      "solutionApproach": "n=5, last internal node index=⌊5/2⌋=2 (1-indexed: [4,10,3,5,1]). At index2(10): children idx4(5),idx5(1), 10 already ≥ both, no swap. At index1(4): children idx2(10),idx3(3). 10>4, swap 4↔10 → [10,4,3,5,1]. Now check index2(4)'s new position: children idx4(5),idx5(1). 5>4, swap → [10,5,3,4,1]. Final: [10,5,3,4,1].",
+      "answer": "[10,5,3,4,1]"
+    },
+    {
+      "practiceId": "AI-HEAP-03",
+      "patternId": "HEAP_FIND_EXTREME_05",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A max-heap has 100 elements. What is the worst-case number of comparisons to find the minimum element?",
+      "solutionApproach": "Minimum must be a leaf. Number of leaves = ⌈100/2⌉ = 50. Need to check all 50 leaves, ~49 comparisons to find min among them.",
+      "answer": "Θ(n) — approximately 49-50 comparisons (must scan all ~50 leaves)."
+    },
+    {
+      "practiceId": "AI-HEAP-04",
+      "patternId": "HEAP_STRUCTURAL_PROPERTY_07",
+      "difficulty": "tricky-variation",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is it TRUE that the second-largest element in a max-heap is always the LEFT child of the root (not the right child)?",
+      "solutionApproach": "FALSE — second-largest is guaranteed to be ONE of root's two children, but which one (left or right) is not determined by the heap property; it could be either.",
+      "answer": "FALSE — second-largest is always A child of root, but not specifically the LEFT one."
+    }
+  ]
+}

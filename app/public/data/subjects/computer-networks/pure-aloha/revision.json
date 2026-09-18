@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Throughput S = G e^(-2G), max 0.184 at G=0.5; vulnerable period 2T.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Pure ALOHA se related sawal.",
+   "thinkThis": "P3_PURE_ALOHA_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Slotted formula lagana."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:pure-aloha",
+ "revisionLevel": "short-form"
+}

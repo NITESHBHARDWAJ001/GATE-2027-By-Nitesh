@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_GRAPH_COLORING_01",
+  "name": "Graph Coloring (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Graph Coloring (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "Map colouring basic."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Adjacency."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.26.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Non-adjacent restrict."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

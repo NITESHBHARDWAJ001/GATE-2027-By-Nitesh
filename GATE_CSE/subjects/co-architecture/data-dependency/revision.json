@@ -1,0 +1,18 @@
+{
+ "coreIdea": "RAW hazards, forwarding se stalls kam, stage-wise timing.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Data Dependency and Forwarding se related sawal.",
+   "thinkThis": "P3_DATA_DEPENDENCY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Forwarding ko har hazard ka ilaaj maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:data-dependency",
+ "revisionLevel": "short-form"
+}

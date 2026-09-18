@@ -1,0 +1,42 @@
+{
+  "topicId": "dl-boolean-algebra",
+  "overview": "Boolean Algebra 4 skills test karta hai: expression SIMPLIFY/equivalence check karna (sabse bada), simultaneous Boolean equations solve karna, CUSTOM-defined operators ke saath kaam karna, aur Boolean algebra ke basic properties/laws (commutative/associative/counting).",
+  "whyItMatters": "34 PYQs. Identity/law memorization se bahut questions turant solve ho jaate hain — algebra jaisa hi hai, bas 0/1 ke sath.",
+  "coreConcept": "Boolean algebra = normal algebra jaisा hi hai, but sirf 0 aur 1 values ke sath, aur operations AND(·), OR(+), NOT(') hain. XOR (⊕) aur XNOR bhi common hain — XOR = 'exactly one true', XNOR = 'both same'. De Morgan's Laws sabse important identity hain: (A+B)'=A'B', (AB)'=A'+B'.",
+  "hinglishExplanation": "Boolean algebra ko normal algebra socho jisme sirf 2 values hain (0,1) — AND multiplication jaisa hai, OR addition jaisa (lekin 1+1=1, carry nahi hota). XOR ek 'exactly-one' detector hai (A⊕B=1 sirf jab A≠B). De Morgan's law ek 'bracket ke bahar NOT nikalne ka' trick hai — jab NOT bahar se andar jaata hai, AND↔OR badal jaata hai.",
+  "formalDefinition": "Boolean algebra: (B,+,·,',0,1) with B={0,1}, satisfying commutative, associative, distributive, identity, complement laws.",
+  "importantProperties": [
+    "De Morgan's: (A+B)' = A'·B',  (A·B)' = A'+B' — the single most-used identity.",
+    "XOR properties: A⊕A=0, A⊕0=A, A⊕1=A', A⊕B = AB'+A'B = (A+B)(A'+B') = (A+B)·(AB)'.",
+    "XNOR (A⊙B, equivalence): A⊙B = AB+A'B' = (A⊕B)' — TRUE exactly when A=B.",
+    "AND and OR are BOTH commutative AND associative. XOR is ALSO commutative and associative. NAND and NOR are commutative but NOT associative — a favorite 'which operation is commutative-but-not-associative' trap.",
+    "Absorption law: A+AB = A,  A(A+B) = A. Consensus law: AB+A'C+BC = AB+A'C (the BC term is redundant, absorbed by the other two).",
+    "Total number of distinct Boolean functions of n variables = 2^(2^n) (2^n rows in truth table, each independently 0/1 in output).",
+    "'Neutral' switching function (equal number of 1-outputs and 0-outputs among all 2^n input combinations) — exists only when 2^n is even (i.e., n≥1), count = C(2^n, 2^(n-1))."
+  ],
+  "formulas": {
+    "deMorgans": "(A+B)'=A'B',  (AB)'=A'+B'",
+    "xorIdentities": "A⊕A=0, A⊕0=A, A⊕1=A', A⊕B=AB'+A'B",
+    "xnorIdentity": "A⊙B = AB+A'B' = (A⊕B)'",
+    "absorptionLaw": "A+AB=A,  A(A+B)=A",
+    "consensusLaw": "AB+A'C+BC = AB+A'C",
+    "booleanFunctionCount": "Total n-variable Boolean functions = 2^(2^n)",
+    "neutralFunctionCount": "Number of neutral (balanced 0/1 output) functions of n variables = C(2^n, 2^(n-1))"
+  },
+  "keyPropertiesAndIdentities": [
+    "NAND and NOR are commutative (A NAND B = B NAND A) but NOT associative ((A NAND B) NAND C ≠ A NAND (B NAND C) in general) — this specific fact is repeatedly tested.",
+    "Repeatedly XORing a bit-string with itself n times: the result depends on the PARITY of n — even n gives back the ORIGINAL, odd n gives the COMPLEMENT (since x⊕x=0, so pairs cancel, leaving one x⊕x=0 or one leftover x' pattern depending on exact construction — verify the EXACT construction in each specific question rather than assuming)."
+  ],
+  "commonPitfalls": [
+    "Applying De Morgan's incorrectly (forgetting to flip AND↔OR when pushing NOT through, or missing a term).",
+    "Assuming ALL operations (AND, OR, NAND, NOR, XOR) are both commutative AND associative — NAND/NOR are commutative but NOT associative.",
+    "Confusing XOR (A≠B) with XNOR (A=B) — easy mix-up under time pressure.",
+    "Missing the consensus term when simplifying — the 'extra' BC-style term in AB+A'C+BC is often incorrectly kept instead of recognized as redundant."
+  ],
+  "standardTechniques": [
+    "For simplification/equivalence questions: apply De Morgan's, absorption, and consensus laws systematically, OR build a truth table and directly compare (fast and error-proof for ≤4 variables).",
+    "For simultaneous Boolean equation systems: since variables are only 0/1, just TEST all combinations directly (brute force is fast for a small number of variables) rather than algebraic manipulation.",
+    "For custom-operator-defined questions: build a truth table for the custom operator FIRST from its definition, then evaluate the target expression mechanically using that table.",
+    "For counting-functions questions: apply 2^(2^n) directly for total count; for constrained counts (like 'neutral' functions), use the appropriate combinatorial formula."
+  ]
+}

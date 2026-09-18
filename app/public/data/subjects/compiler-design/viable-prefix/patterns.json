@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_VIABLE_PREFIX_01",
+  "name": "Viable Prefix (PYQ type)",
+  "recognitionClueHinglish": "Viable Prefix se related sawal.",
+  "whatShouldComeToMind": [
+   "Shift-reduce parsing me stack ka content viable prefix hai."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Stack content."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.29.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Prefix ko handle se confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

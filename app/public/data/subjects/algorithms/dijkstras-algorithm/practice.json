@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:dijkstras-algorithm",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DIJKST-01",
+   "patternId": "P3_DIJKSTRAS_ALGORITHM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Dijkstra ki complexity binary heap ke saath?",
+   "solutionApproach": "V extract-mins + E decrease-keys.",
+   "answer": "O((V+E) log V)"
+  }
+ ]
+}

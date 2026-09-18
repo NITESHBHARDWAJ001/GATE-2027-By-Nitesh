@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_PREPOSITIONS_01",
+  "name": "Prepositions (PYQ type)",
+  "recognitionClueHinglish": "Prepositions se related sawal.",
+  "whatShouldComeToMind": [
+   "Sahi preposition: at, on, in, by, from."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Phrase."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.11.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Guess."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Har pass me minimum select karke swap; swaps O(n), comparisons O(n^2).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Selection Sort se related sawal.",
+   "thinkThis": "P4_SELECTION_SORT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Swaps ko O(n^2) maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:selection-sort",
+ "revisionLevel": "short-form"
+}

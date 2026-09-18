@@ -1,0 +1,30 @@
+{
+ "topicId": "compiler-design:compilation-phases",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Compilation Phases",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "13 PYQs extracted, 1987-2026.",
+ "pyqCountExtracted": 13,
+ "yearsCovered": [
+  1987,
+  1990,
+  2005,
+  2009,
+  2015,
+  2016,
+  2017,
+  2018,
+  2020,
+  2021,
+  2023,
+  2024,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

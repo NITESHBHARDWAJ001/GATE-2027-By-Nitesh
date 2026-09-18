@@ -1,0 +1,27 @@
+{
+  "topicId": "toc-identify-class-language",
+  "revisionLevel": "short-form",
+  "coreIdea": "Chomsky hierarchy: Regular ⊊ DCFL ⊊ CFL ⊊ CSL ⊊ Recursive ⊊ RE ⊊ all. Test bottom-up: Regular? → CFL? → Recursive/RE (via Decidability tools).",
+  "mustRememberFormulas": [
+    "Canonical examples: a*b*=Regular, a^nb^n=CFL-not-Regular, a^nb^nc^n=CSL-not-CFL, Halting-style=RE-not-Recursive",
+    "Recursive closed under complement; RE(not-recursive) is NOT closed under complement",
+    "CFL∩CFL: NO guarantee (can escape CFL entirely); Regular+anything stays at the other's level",
+    "Bounded/constant tape or stack size → collapses to Regular power"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "single language given, asked which hierarchy level", "thinkThis": "ICL_DIRECT_CLASSIFY_01"},
+    {"seeThis": "multiple languages combined via ∪/∩/complement, asked resulting class", "thinkThis": "ICL_COMBINED_CLASSIFY_02"},
+    {"seeThis": "general closure TRUE/FALSE claim across hierarchy levels", "thinkThis": "ICL_CROSS_CLOSURE_03"},
+    {"seeThis": "restricted machine model (bounded tape/stack), asked equivalent class", "thinkThis": "ICL_MACHINE_EQUIVALENCE_04"}
+  ],
+  "commonTrapsQuickList": [
+    "CFL∩CFL has NO safety guarantee — can jump straight to CSL or beyond",
+    "RE is NOT closed under complement (only Recursive is) — the crux of Recursive-vs-RE",
+    "A CONSTANT-bounded stack/tape always collapses power to Regular",
+    "Real programming languages (FORTRAN etc.) are typically context-sensitive, not context-free"
+  ],
+  "highYieldPyqLessons": [
+    "Combined-classification via set operations (14/31) is the biggest sub-skill — memorize the closure-rule table across all levels, with CFL∩CFL as the standout exception.",
+    "This topic is the true test of whether Regular Language + CFL + Decidability are ALL solid — treat it as the final integration checkpoint for TOC."
+  ]
+}

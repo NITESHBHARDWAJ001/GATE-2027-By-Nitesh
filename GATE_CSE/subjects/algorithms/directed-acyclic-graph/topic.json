@@ -1,0 +1,19 @@
+{
+ "topicId": "algorithms:directed-acyclic-graph",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Directed Acyclic Graph Algorithms",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "2 PYQs extracted, 2021-2026.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2021,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

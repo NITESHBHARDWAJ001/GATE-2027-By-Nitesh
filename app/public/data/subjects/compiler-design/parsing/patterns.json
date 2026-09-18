@@ -1,0 +1,96 @@
+[
+ {
+  "patternId": "PRS_TYPE_01",
+  "name": "Parser Types and Power",
+  "recognitionClueHinglish": "Kaunsa parser top-down/bottom-up, kaun powerful, handle, conflicts.",
+  "whatShouldComeToMind": [
+   "Classification."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Type identify.",
+   "2. Property."
+  ],
+  "formulasUsed": [
+   "power"
+  ],
+  "pyqExamples": [
+   "2.22.1",
+   "2.22.2",
+   "2.22.5",
+   "2.22.7",
+   "2.22.8",
+   "2.22.10",
+   "2.22.14",
+   "2.22.15",
+   "2.22.16",
+   "2.22.20"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Operator precedence bottom-up."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "PRS_TABLE_02",
+  "name": "Predictive Parse Table / FIRST-FOLLOW Entries",
+  "recognitionClueHinglish": "Grammar ka LL(1) table entries ya conflicts.",
+  "whatShouldComeToMind": [
+   "FIRST/FOLLOW."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. FIRST.",
+   "2. FOLLOW.",
+   "3. Table."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.22.4",
+   "2.22.9",
+   "2.22.13",
+   "2.22.17",
+   "2.22.18"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Epsilon rows."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "PRS_TRACE_03",
+  "name": "Derivation / Reduction Steps and Semantic Rules",
+  "recognitionClueHinglish": "String ke liye reductions, semantic-rule evaluation, language processing scheme.",
+  "whatShouldComeToMind": [
+   "Trace."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Parse.",
+   "2. Count."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.22.3",
+   "2.22.6",
+   "2.22.11",
+   "2.22.12",
+   "2.22.19",
+   "2.22.21",
+   "2.22.22"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Step counting."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

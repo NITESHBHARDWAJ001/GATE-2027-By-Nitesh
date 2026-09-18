@@ -1,0 +1,21 @@
+{
+ "overview": "Link-layer protocol design, bandwidth-delay, lossless links.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Link-layer protocol design, bandwidth-delay, lossless links.",
+ "hinglishExplanation": "Lossless link me sirf flow control chahiye.",
+ "formalDefinition": "Link-layer protocol design, bandwidth-delay, lossless links.",
+ "importantProperties": [
+  "Lossless: ack zaroori nahi (flow control).",
+  "BDP = bandwidth x delay.",
+  "Window >= BDP."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Lossless me retransmission maan lena."
+ ],
+ "standardTechniques": [
+  "1. Kya loss hai?"
+ ],
+ "topicId": "computer-networks:data-communication"
+}

@@ -1,0 +1,22 @@
+{
+ "topicId": "programming-programming-in-c:structure",
+ "subjectId": "programming-programming-in-c",
+ "subject": "Programming & DS - Programming in C",
+ "name": "Structures in C",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "5 PYQs extracted, 2000-2021.",
+ "pyqCountExtracted": 5,
+ "yearsCovered": [
+  2000,
+  2004,
+  2006,
+  2018,
+  2021
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

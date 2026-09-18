@@ -1,0 +1,31 @@
+{
+  "topicId": "ds-binary-heap",
+  "revisionLevel": "short-form",
+  "coreIdea": "Complete tree + parent≥children (max) or ≤ (min). NO left-right ordering (unlike BST). Root=extreme in O(1). Build-heap is O(n) bottom-up, NOT O(n log n).",
+  "mustRememberFormulas": [
+    "Insert (bubble-up): O(log n). Delete/extract-root (sift-down): O(log n)",
+    "Build-heap bottom-up (from last internal node to root): O(n) total",
+    "Min-in-max-heap (or max-in-min-heap): Θ(n), must check all ⌈n/2⌉ leaves",
+    "Second-largest in max-heap: always a child of root (either one)",
+    "d-ary heap: height O(log_d n), but O(d) work per sift step"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "array given, asked if valid max/min heap", "thinkThis": "HEAP_VALIDITY_CHECK_01"},
+    {"seeThis": "arbitrary array, asked min interchanges to make it a heap", "thinkThis": "HEAP_BUILD_HEAPIFY_02"},
+    {"seeThis": "elements inserted one by one into existing heap", "thinkThis": "HEAP_INSERT_TRACE_03"},
+    {"seeThis": "delete-root or delete-arbitrary-node operation traced", "thinkThis": "HEAP_DELETE_TRACE_04"},
+    {"seeThis": "'find min in max-heap' or 'max in min-heap' complexity asked", "thinkThis": "HEAP_FIND_EXTREME_05"},
+    {"seeThis": "array-index parent/child formula, or d-ary/k-ary heap", "thinkThis": "HEAP_ARRAY_INDEX_06"},
+    {"seeThis": "heap depth/height, distinct-heap counting, conceptual claim", "thinkThis": "HEAP_STRUCTURAL_PROPERTY_07"}
+  ],
+  "commonTrapsQuickList": [
+    "Heap has NO left<right ordering — don't apply BST logic here",
+    "Build-heap is O(n), not O(n log n) — bottom-up sift-down from last internal node",
+    "Finding the opposite extreme (min-in-max-heap) is Θ(n), not O(log n)",
+    "Second-largest in max-heap is A child of root, not necessarily the left one"
+  ],
+  "highYieldPyqLessons": [
+    "Build-heap/heapify questions (5/30) and find-extreme questions (5/30) are the two most conceptually 'surprising' sub-patterns — most students get the complexity wrong on first exposure, so drill these specifically.",
+    "Always default to bottom-up sift-down for build-heap counting questions — top-down insertion gives a different (wrong) interchange count for these specific NAT questions."
+  ]
+}

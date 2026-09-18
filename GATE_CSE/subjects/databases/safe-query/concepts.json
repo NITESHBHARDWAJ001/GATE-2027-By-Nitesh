@@ -1,0 +1,21 @@
+{
+ "overview": "Calculus expression jo finite result de.",
+ "whyItMatters": "1 PYQs extracted (2017-2017); P3 topic.",
+ "coreConcept": "Calculus expression jo finite result de.",
+ "hinglishExplanation": "Unsafe: {t | not R(t)}; safe: har free variable ka domain relation se bound.",
+ "formalDefinition": "Calculus expression jo finite result de.",
+ "importantProperties": [
+  "Safe = finite output.",
+  "Negation akela unsafe.",
+  "Range restriction chahiye."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Negation ko safe maan lena."
+ ],
+ "standardTechniques": [
+  "1. Range restrict."
+ ],
+ "topicId": "databases:safe-query"
+}

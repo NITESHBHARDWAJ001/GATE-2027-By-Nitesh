@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Macro definition/expansion, pass one expansion, formal vs actual parameters, conditional expansion.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Macros and Macro Processor se related sawal.",
+   "thinkThis": "P3_MACROS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Macro ko runtime call maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:macros",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "computer-networks__2.2.1",
+  "localId": "2.2.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "arp",
+  "topic": "Arp",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following statements: i. Address Resolution Protocol (ARP) provides a mapping from an IP address to the corresponding hardware (link-layer) address. ii. A single TCP segment from a sender to a receiver cannot carry both data from to and acknowledgement for a segment from to Which one of the following is CORRECT? A. Both and are TRUE                                                         B. is TRUE and is FALSE C. is FALSE and is TRUE                                                      D. Both and are FALSE",
+  "tagsRaw": "gatecse2025-set2 computer-networks tcp arp easy one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 111
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ARP_01"
+ }
+]

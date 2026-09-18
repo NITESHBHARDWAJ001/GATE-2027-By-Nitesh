@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "theory-of-computation__6.14.1",
+  "localId": "6.14.1",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "pumping-lemma",
+  "topic": "Pumping Lemma",
+  "year": 2019,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "15",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "For           , let us consider the regular language                                                             . Which one of the following can be a pumping length (the constant guaranteed by the pumping lemma) for ? A.                                       B.                                       C.                         D.",
+  "tagsRaw": "gatecse-2019 theory-of-computation  pumping-lemma  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 377
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PUMPING_LEMMA_01"
+ },
+ {
+  "pyqId": "theory-of-computation__6.14.2",
+  "localId": "6.14.2",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "pumping-lemma",
+  "topic": "Pumping Lemma",
+  "year": 2005,
+  "examStream": "IT",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "40",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "A language satisfies the Pumping Lemma for regular languages, and also the Pumping Lemma for context-free languages. Which of the following statements about is TRUE? A. is necessarily a regular language. B. is necessarily a context-free language, but not necessarily a regular language. C. is necessarily a non-regular language. D. None of the above",
+  "tagsRaw": "gateit-2005 theory-of-computation pumping-lemma easy     Pushdown Automata (15)",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 377
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PUMPING_LEMMA_01"
+ }
+]

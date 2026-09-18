@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:quadratic-equations",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-QUADRA-01",
+   "patternId": "P3_QUADRATIC_EQUATIONS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "x^2-5x+6=0 roots?",
+   "solutionApproach": "(x-2)(x-3).",
+   "answer": "2, 3"
+  }
+ ]
+}

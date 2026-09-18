@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Halting, equivalences; TM variants equal power.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Turing Machines se related sawal.",
+   "thinkThis": "P3_TURING_MACHINE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Multi-tape zyada powerful."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "theory-of-computation:turing-machine",
+ "revisionLevel": "short-form"
+}

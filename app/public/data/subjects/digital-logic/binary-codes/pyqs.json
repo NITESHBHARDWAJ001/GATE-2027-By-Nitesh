@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "digital-logic__4.3.1",
+  "localId": "4.3.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "binary-codes",
+  "topic": "Binary Codes",
+  "year": 2006,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "40",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider numbers represented in 4-bit Gray code. Let                                           be the Gray code representation of a value of the number. Which one of number and let                           be the Gray code of the following functions is correct? A. B. C. D.",
+  "tagsRaw": "gatecse-2006 digital-logic  number-representation   binary-codes     normal",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 290
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_BINARY_CODES_01"
+ }
+]

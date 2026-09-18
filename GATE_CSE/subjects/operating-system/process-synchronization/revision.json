@@ -1,0 +1,29 @@
+{
+  "topicId": "os-process-synchronization",
+  "revisionLevel": "short-form",
+  "coreIdea": "Correct CS solution needs Mutual Exclusion + Progress + Bounded Waiting. Producer-Consumer = mutex+empty+full semaphores. Reader-Writer = readcount+mutex+wrt.",
+  "mustRememberFormulas": [
+    "wait(S): S--; if S<0 block. signal(S): S++; if S≤0 wakeup",
+    "Producer-Consumer: mutex=1, empty=N, full=0",
+    "Reader-Writer: readcount+mutex protect it, wrt held by first-in/last-out reader",
+    "TAS = busy-waiting (spinlock); semaphore = blocking (sleep-based)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "flag[]/turn-based proposed CS solution, asked if correct", "thinkThis": "SYNC_CS_VERIFY_01"},
+    {"seeThis": "producer-consumer or reader-writer semaphore code given", "thinkThis": "SYNC_CLASSIC_PROBLEMS_02"},
+    {"seeThis": "concurrent processes on shared variable, asked possible final values/print count", "thinkThis": "SYNC_TRACE_OUTPUT_03"},
+    {"seeThis": "test-and-set/fetch-and-add based mutex code", "thinkThis": "SYNC_ATOMIC_INSTRUCTION_04"},
+    {"seeThis": "sequential code, asked precedence graph or fork/join concurrent version", "thinkThis": "SYNC_PRECEDENCE_GRAPH_05"},
+    {"seeThis": "definitional question (critical section, race condition, Dining Philosophers)", "thinkThis": "SYNC_CONCEPTUAL_06"}
+  ],
+  "commonTrapsQuickList": [
+    "Verify ALL THREE CS properties (ME, Progress, Bounded Waiting), not just mutual exclusion",
+    "Producer waits on empty/signals full; Consumer waits on full/signals empty — don't swap",
+    "Unprotected shared-variable read-modify-write allows MULTIPLE possible final values — don't assume determinism",
+    "TAS spinlocks don't guarantee bounded waiting/fairness by default"
+  ],
+  "highYieldPyqLessons": [
+    "Highest-PYQ OS topic (52) — conceptual definitions (14) and CS-verification (10) are the two biggest clusters, but genuinely diverse across all 6 patterns.",
+    "The producer-consumer and reader-writer TEMPLATES are worth memorizing byte-for-byte — most PYQs are variations/corruptions of these exact templates."
+  ]
+}

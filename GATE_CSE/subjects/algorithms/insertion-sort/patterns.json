@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P4_INSERTION_SORT_01",
+  "name": "Insertion Sort (PYQ type)",
+  "recognitionClueHinglish": "Insertion Sort se related sawal.",
+  "whatShouldComeToMind": [
+   "Har element ko sorted prefix me sahi jagah insert; worst O(n^2), best O(n)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Inversions count."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.24.1",
+   "1.24.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Binary search se overall O(n log n) maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

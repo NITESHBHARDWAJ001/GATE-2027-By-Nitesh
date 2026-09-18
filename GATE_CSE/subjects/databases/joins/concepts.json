@@ -1,0 +1,23 @@
+{
+ "overview": "Inner/outer joins, tuple count, nested loop join block accesses.",
+ "whyItMatters": "7 PYQs extracted (2004-2014); P3 topic.",
+ "coreConcept": "Inner/outer joins, tuple count, nested loop join block accesses.",
+ "hinglishExplanation": "Nested-loop join cost = b_outer + b_outer * b_inner (ya buffer se kam).",
+ "formalDefinition": "Inner/outer joins, tuple count, nested loop join block accesses.",
+ "importantProperties": [
+  "Block nested loop: b_r + ceil(b_r/(M-2)) * b_s.",
+  "Outer join unmatched rows NULL ke saath.",
+  "Join size <= |R||S|.",
+  "Smaller relation ko outer rakho."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Outer/inner order galat."
+ ],
+ "standardTechniques": [
+  "1. Blocks.",
+  "2. Formula."
+ ],
+ "topicId": "databases:joins"
+}

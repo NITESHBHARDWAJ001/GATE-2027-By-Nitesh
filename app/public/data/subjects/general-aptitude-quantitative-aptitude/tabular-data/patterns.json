@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_TABULAR_DATA_01",
+  "name": "Tabular Data Interpretation (PYQ type)",
+  "recognitionClueHinglish": "Tabular Data Interpretation se related sawal.",
+  "whatShouldComeToMind": [
+   "Table se ratio/percent/average."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Identify cells."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.55.1",
+   "9.55.2",
+   "9.55.3",
+   "9.55.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Wrong column."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

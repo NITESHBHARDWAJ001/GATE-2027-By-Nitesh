@@ -1,0 +1,22 @@
+{
+ "overview": "Passage me diye percentages/data se calculation aur inference.",
+ "whyItMatters": "2 PYQs extracted (2022-2023); P3 topic.",
+ "coreConcept": "Passage me diye percentages/data se calculation aur inference.",
+ "hinglishExplanation": "Data ko table me likho, fir ratio/percent nikalo.",
+ "formalDefinition": "Passage me diye percentages/data se calculation aur inference.",
+ "importantProperties": [
+  "Percent of percent multiply.",
+  "Base value pehchano.",
+  "Assumptions sirf given."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Base galat."
+ ],
+ "standardTechniques": [
+  "1. Data.",
+  "2. Calculate."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:passage-reading"
+}

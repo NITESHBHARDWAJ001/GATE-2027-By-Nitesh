@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:viable-prefix",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-VIABLE-01",
+   "patternId": "P4_VIABLE_PREFIX_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Shift-reduce me stack kya hota hai?",
+   "solutionApproach": "Viable prefix.",
+   "answer": "Viable prefix"
+  }
+ ]
+}

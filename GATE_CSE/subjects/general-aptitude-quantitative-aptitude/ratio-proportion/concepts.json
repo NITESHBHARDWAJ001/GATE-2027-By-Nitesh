@@ -1,0 +1,20 @@
+{
+ "overview": "a:b = c:d => ad=bc.",
+ "whyItMatters": "5 PYQs extracted (2016-2024); P3 topic.",
+ "coreConcept": "a:b = c:d => ad=bc.",
+ "hinglishExplanation": "Ratio ko common multiple se.",
+ "formalDefinition": "a:b = c:d => ad=bc.",
+ "importantProperties": [
+  "Direct/inverse proportion.",
+  "Compound ratio."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Ratio order."
+ ],
+ "standardTechniques": [
+  "1. Common factor."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:ratio-proportion"
+}

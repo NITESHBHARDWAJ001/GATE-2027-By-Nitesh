@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_BASIC_BLOCKS_01",
+  "name": "Basic Blocks and CFG (PYQ type)",
+  "recognitionClueHinglish": "Basic Blocks and CFG se related sawal.",
+  "whatShouldComeToMind": [
+   "Leaders find karo: first instruction, jump targets, jump ke baad wala."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Leaders mark.",
+   "2. Blocks."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.5.1",
+   "2.5.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Jump ke baad wala leader bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

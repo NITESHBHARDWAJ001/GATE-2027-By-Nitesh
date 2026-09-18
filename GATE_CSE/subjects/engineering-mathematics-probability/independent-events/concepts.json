@@ -1,0 +1,24 @@
+{
+ "overview": "P(AnB)=P(A)P(B); union of independent events; checking independence with coins.",
+ "whyItMatters": "6 PYQs extracted (1994-2025); P2 topic.",
+ "coreConcept": "Independent <=> P(AnB)=P(A)P(B).",
+ "hinglishExplanation": "At least one of independent events = 1 - product of complements. Coins ke events me directly probabilities compute karke independence test karo.",
+ "formalDefinition": "Independent <=> P(AnB)=P(A)P(B).",
+ "importantProperties": [
+  "P(AnB)=P(A)P(B).",
+  "P(AuB)=1-(1-P(A))(1-P(B)).",
+  "Independent complements bhi independent.",
+  "Mutually exclusive non-zero events dependent hain."
+ ],
+ "formulas": {
+  "union": "1-(1-p)(1-q)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Exclusive = independent."
+ ],
+ "standardTechniques": [
+  "Product test."
+ ],
+ "topicId": "engineering-mathematics-probability:independent-events"
+}

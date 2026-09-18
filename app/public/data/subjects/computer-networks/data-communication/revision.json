@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Link-layer protocol design, bandwidth-delay, lossless links.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Data Communication Basics se related sawal.",
+   "thinkThis": "P3_DATA_COMMUNICATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Lossless me retransmission maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:data-communication",
+ "revisionLevel": "short-form"
+}

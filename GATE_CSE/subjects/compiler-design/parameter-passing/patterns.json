@@ -1,0 +1,39 @@
+[
+ {
+  "patternId": "P3_PARAMETER_PASSING_01",
+  "name": "Parameter Passing (Compiler View) (PYQ type)",
+  "recognitionClueHinglish": "Parameter Passing (Compiler View) se related sawal.",
+  "whatShouldComeToMind": [
+   "Call by value, reference, name, copy-restore; results alag ho sakte hain."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Mode.",
+   "2. Trace with aliasing."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.21.1",
+   "2.21.2",
+   "2.21.3",
+   "2.21.4",
+   "2.21.5",
+   "2.21.6",
+   "2.21.7",
+   "2.21.8",
+   "2.21.9",
+   "2.21.10",
+   "2.21.11",
+   "2.21.12",
+   "2.21.13",
+   "2.21.14"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Name vs reference results same maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

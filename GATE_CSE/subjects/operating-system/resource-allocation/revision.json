@@ -1,0 +1,39 @@
+{
+ "topicId": "os-resource-allocation",
+ "revisionLevel": "short-form",
+ "coreIdea": "Deadlock needs 4 conditions. Min resources: R >= n(k-1)+1. Banker's: Need=Max-Alloc, find process with Need<=Work.",
+ "mustRememberFormulas": [
+  "R >= n(k-1)+1",
+  "n_max = floor((R-1)/(k-1))",
+  "Need = Max - Allocation",
+  "Coffman: ME, Hold&Wait, No Preemption, Circular Wait"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "n processes, max k units each, min R or max n",
+   "thinkThis": "RA_MIN_RESOURCES_01"
+  },
+  {
+   "seeThis": "Alloc/Max/Available table, safe state",
+   "thinkThis": "RA_BANKERS_02"
+  },
+  {
+   "seeThis": "RAG or lock/request scenario, deadlock?",
+   "thinkThis": "RA_DETECTION_SCENARIO_03"
+  },
+  {
+   "seeThis": "which prevention scheme is valid / true-false",
+   "thinkThis": "RA_PREVENTION_THEORY_04"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Use (k-1) in the formula, then +1",
+  "Unsafe != deadlock",
+  "Multi-instance cycle is not always deadlock",
+  "Prevention and avoidance are different"
+ ],
+ "highYieldPyqLessons": [
+  "Min-resources formula and Banker's are pure mechanics: full marks with practice.",
+  "Resource ordering is the classic valid prevention answer."
+ ]
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_MIRROR_IMAGE_01",
+  "name": "Mirror Images / Symmetry (PYQ type)",
+  "recognitionClueHinglish": "Mirror Images / Symmetry se related sawal.",
+  "whatShouldComeToMind": [
+   "Line of symmetry ke liye squares add."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Axis.",
+   "2. Count."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "10.5.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Vertical vs horizontal axis."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

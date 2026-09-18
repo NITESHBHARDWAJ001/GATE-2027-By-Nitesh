@@ -1,0 +1,86 @@
+[
+ {
+  "patternId": "LR_CONDITIONAL_01",
+  "name": "Conditional Statements and Necessary Conclusions",
+  "recognitionClueHinglish": "'When X, Y' type statements; kaunsa conclusion necessarily true.",
+  "whatShouldComeToMind": [
+   "Contrapositive."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. P -> Q.",
+   "2. Contrapositive.",
+   "3. Match."
+  ],
+  "formulasUsed": [
+   "contra"
+  ],
+  "pyqExamples": [
+   "8.8.6",
+   "8.8.9",
+   "8.8.12",
+   "8.8.13",
+   "8.8.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Converse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "LR_PUZZLE_ORDERING_02",
+  "name": "Ordering / Assignment / Box Puzzles",
+  "recognitionClueHinglish": "Heights, portfolios, labelled boxes.",
+  "whatShouldComeToMind": [
+   "Elimination / chain."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Constraints.",
+   "2. Table."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.8.2",
+   "8.8.3",
+   "8.8.4",
+   "8.8.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Missing case."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "LR_PATTERN_FIGURE_03",
+  "name": "Figure/Grid/Passage Reasoning",
+  "recognitionClueHinglish": "Missing tiles, grid numbers, event reasoning.",
+  "whatShouldComeToMind": [
+   "Pattern spotting."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Pattern."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.8.7",
+   "8.8.8",
+   "8.8.10",
+   "8.8.11"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Visual data missing in extraction."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

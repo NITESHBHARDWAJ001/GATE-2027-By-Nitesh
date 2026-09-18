@@ -1,0 +1,22 @@
+{
+ "overview": "Macro definition/expansion, pass one expansion, formal vs actual parameters, conditional expansion.",
+ "whyItMatters": "4 PYQs extracted (1992-1997); P3 topic.",
+ "coreConcept": "Macro definition/expansion, pass one expansion, formal vs actual parameters, conditional expansion.",
+ "hinglishExplanation": "Macro expansion compile-time; formal parameters actual se replace hote hain.",
+ "formalDefinition": "Macro definition/expansion, pass one expansion, formal vs actual parameters, conditional expansion.",
+ "importantProperties": [
+  "Expansion pass one me.",
+  "Conditional expansion assembly time par.",
+  "Recursive macro infinite loop de sakta hai.",
+  "x,y formal parameters."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Macro ko runtime call maan lena."
+ ],
+ "standardTechniques": [
+  "1. Expand textually."
+ ],
+ "topicId": "compiler-design:macros"
+}

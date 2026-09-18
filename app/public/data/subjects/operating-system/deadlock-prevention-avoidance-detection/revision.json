@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Max instances, safe state, resource ordering, wait-die/wound-wait.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Deadlock Prevention/Avoidance/Detection se related sawal.",
+   "thinkThis": "P3_DEADLOCK_PREVENTION_AVOI_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "+1 bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:deadlock-prevention-avoidance-detection",
+ "revisionLevel": "short-form"
+}

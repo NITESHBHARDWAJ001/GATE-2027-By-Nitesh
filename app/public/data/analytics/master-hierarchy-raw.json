@@ -1,0 +1,2463 @@
+{
+  "volume1": {
+    "chapters": {
+      "1": {
+        "name": "Discrete Mathematics: Combinatory",
+        "pyq_count": 51
+      },
+      "2": {
+        "name": "Discrete Mathematics: Graph Theory",
+        "pyq_count": 88
+      },
+      "3": {
+        "name": "Discrete Mathematics: Mathematical Logic",
+        "pyq_count": 78
+      },
+      "4": {
+        "name": "Discrete Mathematics: Set Theory & Algebra",
+        "pyq_count": 173
+      },
+      "5": {
+        "name": "Engineering Mathematics: Calculus",
+        "pyq_count": 69
+      },
+      "6": {
+        "name": "Engineering Mathematics: Linear Algebra",
+        "pyq_count": 112
+      },
+      "7": {
+        "name": "Engineering Mathematics: Probability",
+        "pyq_count": 125
+      },
+      "8": {
+        "name": "General Aptitude: Analytical Aptitude",
+        "pyq_count": 48
+      },
+      "9": {
+        "name": "General Aptitude: Quantitative Aptitude",
+        "pyq_count": 197
+      },
+      "10": {
+        "name": "General Aptitude: Spatial Aptitude",
+        "pyq_count": 19
+      },
+      "11": {
+        "name": "General Aptitude: Verbal Aptitude",
+        "pyq_count": 165
+      }
+    },
+    "topics": {
+      "1.1": {
+        "name": "Balls In Bins",
+        "pyq_count": 6,
+        "chapter": 1
+      },
+      "1.2": {
+        "name": "Combinatory",
+        "pyq_count": 18,
+        "chapter": 1
+      },
+      "1.3": {
+        "name": "Counting",
+        "pyq_count": 6,
+        "chapter": 1
+      },
+      "1.4": {
+        "name": "Generating Functions",
+        "pyq_count": 6,
+        "chapter": 1
+      },
+      "1.5": {
+        "name": "Modular Arithmetic",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.6": {
+        "name": "Pigeonhole Principle",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.7": {
+        "name": "Recurrence Relation",
+        "pyq_count": 7,
+        "chapter": 1
+      },
+      "1.8": {
+        "name": "Summation",
+        "pyq_count": 4,
+        "chapter": 1
+      },
+      "2.1": {
+        "name": "Counting",
+        "pyq_count": 3,
+        "chapter": 2
+      },
+      "2.2": {
+        "name": "Degree of Graph",
+        "pyq_count": 13,
+        "chapter": 2
+      },
+      "2.3": {
+        "name": "Graph Algorithms",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.4": {
+        "name": "Graph Coloring",
+        "pyq_count": 11,
+        "chapter": 2
+      },
+      "2.5": {
+        "name": "Graph Connectivity",
+        "pyq_count": 40,
+        "chapter": 2
+      },
+      "2.6": {
+        "name": "Graph Isomorphism",
+        "pyq_count": 4,
+        "chapter": 2
+      },
+      "2.7": {
+        "name": "Graph Matching",
+        "pyq_count": 2,
+        "chapter": 2
+      },
+      "2.8": {
+        "name": "Graph Planarity",
+        "pyq_count": 13,
+        "chapter": 2
+      },
+      "2.9": {
+        "name": "Jaccard Coefficient",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "3.1": {
+        "name": "First Order Logic",
+        "pyq_count": 35,
+        "chapter": 3
+      },
+      "3.2": {
+        "name": "Logical Reasoning",
+        "pyq_count": 3,
+        "chapter": 3
+      },
+      "3.3": {
+        "name": "Propositional Logic",
+        "pyq_count": 40,
+        "chapter": 3
+      },
+      "4.1": {
+        "name": "Binary Operation",
+        "pyq_count": 8,
+        "chapter": 4
+      },
+      "4.2": {
+        "name": "Countable Uncountable Set",
+        "pyq_count": 2,
+        "chapter": 4
+      },
+      "4.3": {
+        "name": "Functions",
+        "pyq_count": 30,
+        "chapter": 4
+      },
+      "4.4": {
+        "name": "Group Theory",
+        "pyq_count": 33,
+        "chapter": 4
+      },
+      "4.5": {
+        "name": "Identify Function",
+        "pyq_count": 1,
+        "chapter": 4
+      },
+      "4.6": {
+        "name": "Lattice",
+        "pyq_count": 10,
+        "chapter": 4
+      },
+      "4.7": {
+        "name": "Mathematical Induction",
+        "pyq_count": 2,
+        "chapter": 4
+      },
+      "4.8": {
+        "name": "Number Theory",
+        "pyq_count": 7,
+        "chapter": 4
+      },
+      "4.9": {
+        "name": "Onto",
+        "pyq_count": 1,
+        "chapter": 4
+      },
+      "4.10": {
+        "name": "Partial Order",
+        "pyq_count": 10,
+        "chapter": 4
+      },
+      "4.11": {
+        "name": "Polynomials",
+        "pyq_count": 4,
+        "chapter": 4
+      },
+      "4.12": {
+        "name": "Relations",
+        "pyq_count": 38,
+        "chapter": 4
+      },
+      "4.13": {
+        "name": "Set Theory",
+        "pyq_count": 27,
+        "chapter": 4
+      },
+      "5.1": {
+        "name": "Continuity",
+        "pyq_count": 11,
+        "chapter": 5
+      },
+      "5.2": {
+        "name": "Definite Integral",
+        "pyq_count": 4,
+        "chapter": 5
+      },
+      "5.3": {
+        "name": "Differentiation",
+        "pyq_count": 11,
+        "chapter": 5
+      },
+      "5.4": {
+        "name": "Integration",
+        "pyq_count": 11,
+        "chapter": 5
+      },
+      "5.5": {
+        "name": "Limits",
+        "pyq_count": 15,
+        "chapter": 5
+      },
+      "5.6": {
+        "name": "Maxima Minima",
+        "pyq_count": 14,
+        "chapter": 5
+      },
+      "5.7": {
+        "name": "Polynomials",
+        "pyq_count": 2,
+        "chapter": 5
+      },
+      "5.8": {
+        "name": "Summation",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "6.1": {
+        "name": "Cartesian Coordinates",
+        "pyq_count": 1,
+        "chapter": 6
+      },
+      "6.2": {
+        "name": "Determinant",
+        "pyq_count": 12,
+        "chapter": 6
+      },
+      "6.3": {
+        "name": "Eigen Value",
+        "pyq_count": 33,
+        "chapter": 6
+      },
+      "6.4": {
+        "name": "Gaussian Elimination",
+        "pyq_count": 1,
+        "chapter": 6
+      },
+      "6.5": {
+        "name": "Lu Decomposition",
+        "pyq_count": 3,
+        "chapter": 6
+      },
+      "6.6": {
+        "name": "Matrix",
+        "pyq_count": 24,
+        "chapter": 6
+      },
+      "6.7": {
+        "name": "Multiplicity",
+        "pyq_count": 1,
+        "chapter": 6
+      },
+      "6.8": {
+        "name": "Orthonormality",
+        "pyq_count": 2,
+        "chapter": 6
+      },
+      "6.9": {
+        "name": "Rank of Matrix",
+        "pyq_count": 7,
+        "chapter": 6
+      },
+      "6.10": {
+        "name": "Singular Value Decomposition",
+        "pyq_count": 1,
+        "chapter": 6
+      },
+      "6.11": {
+        "name": "Statistics",
+        "pyq_count": 2,
+        "chapter": 6
+      },
+      "6.12": {
+        "name": "Subspace",
+        "pyq_count": 1,
+        "chapter": 6
+      },
+      "6.13": {
+        "name": "System of Equations",
+        "pyq_count": 17,
+        "chapter": 6
+      },
+      "6.14": {
+        "name": "Vector Space",
+        "pyq_count": 7,
+        "chapter": 6
+      },
+      "7.1": {
+        "name": "Bayes Theorem",
+        "pyq_count": 3,
+        "chapter": 7
+      },
+      "7.2": {
+        "name": "Bayesian Network",
+        "pyq_count": 2,
+        "chapter": 7
+      },
+      "7.3": {
+        "name": "Bernoulli Distribution",
+        "pyq_count": 2,
+        "chapter": 7
+      },
+      "7.4": {
+        "name": "Binomial Distribution",
+        "pyq_count": 6,
+        "chapter": 7
+      },
+      "7.5": {
+        "name": "Chi Square Distribution",
+        "pyq_count": 1,
+        "chapter": 7
+      },
+      "7.6": {
+        "name": "Conditional Probability",
+        "pyq_count": 14,
+        "chapter": 7
+      },
+      "7.7": {
+        "name": "Continuous Distribution",
+        "pyq_count": 1,
+        "chapter": 7
+      },
+      "7.8": {
+        "name": "Expectation",
+        "pyq_count": 15,
+        "chapter": 7
+      },
+      "7.9": {
+        "name": "Exponential Distribution",
+        "pyq_count": 6,
+        "chapter": 7
+      },
+      "7.10": {
+        "name": "Independent Events",
+        "pyq_count": 6,
+        "chapter": 7
+      },
+      "7.11": {
+        "name": "Normal Distribution",
+        "pyq_count": 4,
+        "chapter": 7
+      },
+      "7.12": {
+        "name": "Poisson Distribution",
+        "pyq_count": 5,
+        "chapter": 7
+      },
+      "7.13": {
+        "name": "Probability",
+        "pyq_count": 31,
+        "chapter": 7
+      },
+      "7.14": {
+        "name": "Probability Density Function",
+        "pyq_count": 1,
+        "chapter": 7
+      },
+      "7.15": {
+        "name": "Probability Distribution",
+        "pyq_count": 1,
+        "chapter": 7
+      },
+      "7.16": {
+        "name": "Random Variable",
+        "pyq_count": 10,
+        "chapter": 7
+      },
+      "7.17": {
+        "name": "Square Invariant",
+        "pyq_count": 1,
+        "chapter": 7
+      },
+      "7.18": {
+        "name": "Statistics",
+        "pyq_count": 3,
+        "chapter": 7
+      },
+      "7.19": {
+        "name": "Uniform Distribution",
+        "pyq_count": 11,
+        "chapter": 7
+      },
+      "7.20": {
+        "name": "Variance",
+        "pyq_count": 2,
+        "chapter": 7
+      },
+      "8.1": {
+        "name": "Age Relation",
+        "pyq_count": 2,
+        "chapter": 8
+      },
+      "8.2": {
+        "name": "Analogy",
+        "pyq_count": 1,
+        "chapter": 8
+      },
+      "8.3": {
+        "name": "Code Words",
+        "pyq_count": 2,
+        "chapter": 8
+      },
+      "8.4": {
+        "name": "Coding Decoding",
+        "pyq_count": 1,
+        "chapter": 8
+      },
+      "8.5": {
+        "name": "Direction Sense",
+        "pyq_count": 5,
+        "chapter": 8
+      },
+      "8.6": {
+        "name": "Family Relationship",
+        "pyq_count": 1,
+        "chapter": 8
+      },
+      "8.7": {
+        "name": "Logical Inference",
+        "pyq_count": 1,
+        "chapter": 8
+      },
+      "8.8": {
+        "name": "Logical Reasoning",
+        "pyq_count": 18,
+        "chapter": 8
+      },
+      "8.9": {
+        "name": "Number Relations",
+        "pyq_count": 1,
+        "chapter": 8
+      },
+      "8.10": {
+        "name": "Odd One",
+        "pyq_count": 2,
+        "chapter": 8
+      },
+      "8.11": {
+        "name": "Passage Reading",
+        "pyq_count": 2,
+        "chapter": 8
+      },
+      "8.12": {
+        "name": "Round Table Arrangement",
+        "pyq_count": 1,
+        "chapter": 8
+      },
+      "8.13": {
+        "name": "Seating Arrangement",
+        "pyq_count": 1,
+        "chapter": 8
+      },
+      "8.14": {
+        "name": "Sequence Series",
+        "pyq_count": 3,
+        "chapter": 8
+      },
+      "8.15": {
+        "name": "Statements Follow",
+        "pyq_count": 7,
+        "chapter": 8
+      },
+      "9.1": {
+        "name": "No Classified Topic",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.2": {
+        "name": "Absolute Value",
+        "pyq_count": 5,
+        "chapter": 9
+      },
+      "9.3": {
+        "name": "Algebra",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.4": {
+        "name": "Alligation Mixture",
+        "pyq_count": 2,
+        "chapter": 9
+      },
+      "9.5": {
+        "name": "Area",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.6": {
+        "name": "Arithmetic Series",
+        "pyq_count": 3,
+        "chapter": 9
+      },
+      "9.7": {
+        "name": "Average",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.8": {
+        "name": "Bar Graph",
+        "pyq_count": 4,
+        "chapter": 9
+      },
+      "9.9": {
+        "name": "Bayes Theorem",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.10": {
+        "name": "Cartesian Coordinates",
+        "pyq_count": 4,
+        "chapter": 9
+      },
+      "9.11": {
+        "name": "Circle",
+        "pyq_count": 3,
+        "chapter": 9
+      },
+      "9.12": {
+        "name": "Clock Time",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.13": {
+        "name": "Combinatory",
+        "pyq_count": 5,
+        "chapter": 9
+      },
+      "9.14": {
+        "name": "Compound Interest",
+        "pyq_count": 3,
+        "chapter": 9
+      },
+      "9.15": {
+        "name": "Conditional Probability",
+        "pyq_count": 2,
+        "chapter": 9
+      },
+      "9.16": {
+        "name": "Contour Plots",
+        "pyq_count": 2,
+        "chapter": 9
+      },
+      "9.17": {
+        "name": "Cost Market Price",
+        "pyq_count": 4,
+        "chapter": 9
+      },
+      "9.18": {
+        "name": "Cubes",
+        "pyq_count": 2,
+        "chapter": 9
+      },
+      "9.19": {
+        "name": "Currency Notes",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.20": {
+        "name": "Data Interpretation",
+        "pyq_count": 3,
+        "chapter": 9
+      },
+      "9.21": {
+        "name": "Digital Image Processing",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.22": {
+        "name": "Factors",
+        "pyq_count": 3,
+        "chapter": 9
+      },
+      "9.23": {
+        "name": "Fractions",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.24": {
+        "name": "Functions",
+        "pyq_count": 7,
+        "chapter": 9
+      },
+      "9.25": {
+        "name": "Geometry",
+        "pyq_count": 5,
+        "chapter": 9
+      },
+      "9.26": {
+        "name": "Graph Coloring",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.27": {
+        "name": "Line Graph",
+        "pyq_count": 5,
+        "chapter": 9
+      },
+      "9.28": {
+        "name": "Logarithms",
+        "pyq_count": 6,
+        "chapter": 9
+      },
+      "9.29": {
+        "name": "Maps",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.30": {
+        "name": "Maxima Minima",
+        "pyq_count": 4,
+        "chapter": 9
+      },
+      "9.31": {
+        "name": "Mensuration",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.32": {
+        "name": "Modular Arithmetic",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.33": {
+        "name": "Number Representation",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.34": {
+        "name": "Number Series",
+        "pyq_count": 5,
+        "chapter": 9
+      },
+      "9.35": {
+        "name": "Number System",
+        "pyq_count": 4,
+        "chapter": 9
+      },
+      "9.36": {
+        "name": "Number Theory",
+        "pyq_count": 2,
+        "chapter": 9
+      },
+      "9.37": {
+        "name": "Numerical Computation",
+        "pyq_count": 9,
+        "chapter": 9
+      },
+      "9.38": {
+        "name": "Percentage",
+        "pyq_count": 8,
+        "chapter": 9
+      },
+      "9.39": {
+        "name": "Permutation and Combination",
+        "pyq_count": 4,
+        "chapter": 9
+      },
+      "9.40": {
+        "name": "Pie Chart",
+        "pyq_count": 5,
+        "chapter": 9
+      },
+      "9.41": {
+        "name": "Polynomials",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.42": {
+        "name": "Powers",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.43": {
+        "name": "Prime Numbers",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.44": {
+        "name": "Probability",
+        "pyq_count": 17,
+        "chapter": 9
+      },
+      "9.45": {
+        "name": "Profit Loss",
+        "pyq_count": 3,
+        "chapter": 9
+      },
+      "9.46": {
+        "name": "Quadratic Equations",
+        "pyq_count": 6,
+        "chapter": 9
+      },
+      "9.47": {
+        "name": "Radar Chart",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.48": {
+        "name": "Ratio Proportion",
+        "pyq_count": 9,
+        "chapter": 9
+      },
+      "9.49": {
+        "name": "Sequence Series",
+        "pyq_count": 4,
+        "chapter": 9
+      },
+      "9.50": {
+        "name": "Shortest Path",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.51": {
+        "name": "Speed Time Distance",
+        "pyq_count": 4,
+        "chapter": 9
+      },
+      "9.52": {
+        "name": "Statistics",
+        "pyq_count": 3,
+        "chapter": 9
+      },
+      "9.53": {
+        "name": "System of Equations",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.54": {
+        "name": "Tables",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.55": {
+        "name": "Tabular Data",
+        "pyq_count": 7,
+        "chapter": 9
+      },
+      "9.56": {
+        "name": "Triangles",
+        "pyq_count": 3,
+        "chapter": 9
+      },
+      "9.57": {
+        "name": "Venn Diagram",
+        "pyq_count": 7,
+        "chapter": 9
+      },
+      "9.58": {
+        "name": "Volume",
+        "pyq_count": 1,
+        "chapter": 9
+      },
+      "9.59": {
+        "name": "Work Time",
+        "pyq_count": 3,
+        "chapter": 9
+      },
+      "10.2": {
+        "name": "Assembling",
+        "pyq_count": 1,
+        "chapter": 10
+      },
+      "10.3": {
+        "name": "Assembling Pieces",
+        "pyq_count": 1,
+        "chapter": 10
+      },
+      "10.4": {
+        "name": "Image Rotation",
+        "pyq_count": 3,
+        "chapter": 10
+      },
+      "10.5": {
+        "name": "Mirror Image",
+        "pyq_count": 1,
+        "chapter": 10
+      },
+      "10.6": {
+        "name": "Paper Folding",
+        "pyq_count": 5,
+        "chapter": 10
+      },
+      "10.7": {
+        "name": "Patterns In Three Dimensions",
+        "pyq_count": 3,
+        "chapter": 10
+      },
+      "10.8": {
+        "name": "Patterns In Two Dimensions",
+        "pyq_count": 4,
+        "chapter": 10
+      },
+      "11.1": {
+        "name": "Antonyms",
+        "pyq_count": 7,
+        "chapter": 11
+      },
+      "11.2": {
+        "name": "Articles",
+        "pyq_count": 2,
+        "chapter": 11
+      },
+      "11.3": {
+        "name": "Comparative Forms",
+        "pyq_count": 2,
+        "chapter": 11
+      },
+      "11.4": {
+        "name": "English Grammar",
+        "pyq_count": 5,
+        "chapter": 11
+      },
+      "11.5": {
+        "name": "Grammatical Error",
+        "pyq_count": 6,
+        "chapter": 11
+      },
+      "11.6": {
+        "name": "Incorrect Sentence Part",
+        "pyq_count": 5,
+        "chapter": 11
+      },
+      "11.7": {
+        "name": "Most Appropriate Word",
+        "pyq_count": 47,
+        "chapter": 11
+      },
+      "11.8": {
+        "name": "Narrative Sequencing",
+        "pyq_count": 1,
+        "chapter": 11
+      },
+      "11.9": {
+        "name": "Passage Reading",
+        "pyq_count": 23,
+        "chapter": 11
+      },
+      "11.10": {
+        "name": "Phrase Meaning",
+        "pyq_count": 5,
+        "chapter": 11
+      },
+      "11.11": {
+        "name": "Prepositions",
+        "pyq_count": 1,
+        "chapter": 11
+      },
+      "11.12": {
+        "name": "Sentence Ordering",
+        "pyq_count": 2,
+        "chapter": 11
+      },
+      "11.13": {
+        "name": "Statement Sufficiency",
+        "pyq_count": 2,
+        "chapter": 11
+      },
+      "11.14": {
+        "name": "Statements Follow",
+        "pyq_count": 1,
+        "chapter": 11
+      },
+      "11.15": {
+        "name": "Synonyms",
+        "pyq_count": 13,
+        "chapter": 11
+      },
+      "11.16": {
+        "name": "Tenses",
+        "pyq_count": 9,
+        "chapter": 11
+      },
+      "11.17": {
+        "name": "Verbal Reasoning",
+        "pyq_count": 15,
+        "chapter": 11
+      },
+      "11.18": {
+        "name": "Word Meaning",
+        "pyq_count": 5,
+        "chapter": 11
+      },
+      "11.19": {
+        "name": "Word Pairs",
+        "pyq_count": 14,
+        "chapter": 11
+      }
+    }
+  },
+  "volume2": {
+    "chapters": {
+      "1": {
+        "name": "Algorithms",
+        "pyq_count": 358
+      },
+      "2": {
+        "name": "Compiler Design",
+        "pyq_count": 242
+      },
+      "3": {
+        "name": "Programming and DS: Data Structures",
+        "pyq_count": 238
+      },
+      "4": {
+        "name": "Programming and DS: Programming",
+        "pyq_count": 1
+      },
+      "5": {
+        "name": "Programming: Programming in C",
+        "pyq_count": 131
+      },
+      "6": {
+        "name": "Theory of Computation",
+        "pyq_count": 293
+      }
+    },
+    "topics": {
+      "1.1": {
+        "name": "Algorithm Design",
+        "pyq_count": 8,
+        "chapter": 1
+      },
+      "1.2": {
+        "name": "Algorithm Design Techniques",
+        "pyq_count": 9,
+        "chapter": 1
+      },
+      "1.3": {
+        "name": "Asymptotic Notations",
+        "pyq_count": 22,
+        "chapter": 1
+      },
+      "1.4": {
+        "name": "Bellman Ford",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.5": {
+        "name": "Binary Heap",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.6": {
+        "name": "Binary Search",
+        "pyq_count": 4,
+        "chapter": 1
+      },
+      "1.7": {
+        "name": "Binary Search Tree",
+        "pyq_count": 3,
+        "chapter": 1
+      },
+      "1.8": {
+        "name": "Binary Tree",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.9": {
+        "name": "Breadth First Search",
+        "pyq_count": 3,
+        "chapter": 1
+      },
+      "1.10": {
+        "name": "Bubble Sort",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.11": {
+        "name": "Computer Science",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.12": {
+        "name": "Depth First Search",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.13": {
+        "name": "Dijkstras Algorithm",
+        "pyq_count": 5,
+        "chapter": 1
+      },
+      "1.14": {
+        "name": "Directed Acyclic Graph",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.15": {
+        "name": "Double Hashing",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.16": {
+        "name": "Dynamic Programming",
+        "pyq_count": 10,
+        "chapter": 1
+      },
+      "1.17": {
+        "name": "Graph Algorithms",
+        "pyq_count": 11,
+        "chapter": 1
+      },
+      "1.18": {
+        "name": "Graph Search",
+        "pyq_count": 23,
+        "chapter": 1
+      },
+      "1.19": {
+        "name": "Greedy Algorithms",
+        "pyq_count": 5,
+        "chapter": 1
+      },
+      "1.20": {
+        "name": "Hashing",
+        "pyq_count": 6,
+        "chapter": 1
+      },
+      "1.21": {
+        "name": "Heap Sort",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.22": {
+        "name": "Huffman Code",
+        "pyq_count": 6,
+        "chapter": 1
+      },
+      "1.23": {
+        "name": "Identify Function",
+        "pyq_count": 38,
+        "chapter": 1
+      },
+      "1.24": {
+        "name": "Insertion Sort",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.25": {
+        "name": "Inversion",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.26": {
+        "name": "Linear Probing",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.27": {
+        "name": "Matrix Chain Ordering",
+        "pyq_count": 3,
+        "chapter": 1
+      },
+      "1.28": {
+        "name": "Maximum Minimum",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.29": {
+        "name": "Merge Sort",
+        "pyq_count": 4,
+        "chapter": 1
+      },
+      "1.30": {
+        "name": "Merging",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.31": {
+        "name": "Minimum Spanning Tree",
+        "pyq_count": 35,
+        "chapter": 1
+      },
+      "1.32": {
+        "name": "Number of Swap",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.33": {
+        "name": "Prims Algorithm",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.34": {
+        "name": "Quick Sort",
+        "pyq_count": 15,
+        "chapter": 1
+      },
+      "1.35": {
+        "name": "Recurrence Relation",
+        "pyq_count": 36,
+        "chapter": 1
+      },
+      "1.36": {
+        "name": "Recursion",
+        "pyq_count": 5,
+        "chapter": 1
+      },
+      "1.37": {
+        "name": "Searching",
+        "pyq_count": 8,
+        "chapter": 1
+      },
+      "1.38": {
+        "name": "Selection Sort",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.39": {
+        "name": "Shortest Path",
+        "pyq_count": 8,
+        "chapter": 1
+      },
+      "1.40": {
+        "name": "Sorting",
+        "pyq_count": 22,
+        "chapter": 1
+      },
+      "1.41": {
+        "name": "Space Complexity",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.42": {
+        "name": "Strongly Connected Components",
+        "pyq_count": 3,
+        "chapter": 1
+      },
+      "1.43": {
+        "name": "Time Complexity",
+        "pyq_count": 31,
+        "chapter": 1
+      },
+      "1.44": {
+        "name": "Topological Sort",
+        "pyq_count": 4,
+        "chapter": 1
+      },
+      "1.45": {
+        "name": "Tree Traversal",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.46": {
+        "name": "Uniform Hashing",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "2.1": {
+        "name": "Abstract Syntax Tree",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.2": {
+        "name": "Ambiguous Grammar",
+        "pyq_count": 2,
+        "chapter": 2
+      },
+      "2.3": {
+        "name": "Assembler",
+        "pyq_count": 9,
+        "chapter": 2
+      },
+      "2.4": {
+        "name": "Backpatching",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.5": {
+        "name": "Basic Blocks",
+        "pyq_count": 2,
+        "chapter": 2
+      },
+      "2.6": {
+        "name": "Code Optimization",
+        "pyq_count": 8,
+        "chapter": 2
+      },
+      "2.7": {
+        "name": "Compilation Phases",
+        "pyq_count": 13,
+        "chapter": 2
+      },
+      "2.8": {
+        "name": "Compiler tokenization",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.9": {
+        "name": "Directed Acyclic Graph",
+        "pyq_count": 2,
+        "chapter": 2
+      },
+      "2.10": {
+        "name": "Expression Evaluation",
+        "pyq_count": 2,
+        "chapter": 2
+      },
+      "2.11": {
+        "name": "First and Follow",
+        "pyq_count": 6,
+        "chapter": 2
+      },
+      "2.12": {
+        "name": "Grammar",
+        "pyq_count": 47,
+        "chapter": 2
+      },
+      "2.13": {
+        "name": "Intermediate Code",
+        "pyq_count": 11,
+        "chapter": 2
+      },
+      "2.14": {
+        "name": "LR Parser",
+        "pyq_count": 20,
+        "chapter": 2
+      },
+      "2.15": {
+        "name": "Lexical Analysis",
+        "pyq_count": 6,
+        "chapter": 2
+      },
+      "2.16": {
+        "name": "Linker",
+        "pyq_count": 3,
+        "chapter": 2
+      },
+      "2.17": {
+        "name": "Live Variable Analysis",
+        "pyq_count": 3,
+        "chapter": 2
+      },
+      "2.18": {
+        "name": "Ll Parser",
+        "pyq_count": 2,
+        "chapter": 2
+      },
+      "2.19": {
+        "name": "Macros",
+        "pyq_count": 4,
+        "chapter": 2
+      },
+      "2.20": {
+        "name": "Operator Precedence",
+        "pyq_count": 9,
+        "chapter": 2
+      },
+      "2.21": {
+        "name": "Parameter Passing",
+        "pyq_count": 14,
+        "chapter": 2
+      },
+      "2.22": {
+        "name": "Parsing",
+        "pyq_count": 22,
+        "chapter": 2
+      },
+      "2.23": {
+        "name": "Register Allocation",
+        "pyq_count": 6,
+        "chapter": 2
+      },
+      "2.24": {
+        "name": "Runtime Environment",
+        "pyq_count": 22,
+        "chapter": 2
+      },
+      "2.25": {
+        "name": "Static Single Assignment",
+        "pyq_count": 3,
+        "chapter": 2
+      },
+      "2.26": {
+        "name": "Symbol Table",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.27": {
+        "name": "Syntax Directed Translation",
+        "pyq_count": 19,
+        "chapter": 2
+      },
+      "2.28": {
+        "name": "Variable Scope",
+        "pyq_count": 2,
+        "chapter": 2
+      },
+      "2.29": {
+        "name": "Viable Prefix",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "3.1": {
+        "name": "AVL Tree",
+        "pyq_count": 6,
+        "chapter": 3
+      },
+      "3.2": {
+        "name": "Abstract Data Type",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.3": {
+        "name": "Array",
+        "pyq_count": 13,
+        "chapter": 3
+      },
+      "3.4": {
+        "name": "Binary Heap",
+        "pyq_count": 30,
+        "chapter": 3
+      },
+      "3.5": {
+        "name": "Binary Search Tree",
+        "pyq_count": 36,
+        "chapter": 3
+      },
+      "3.6": {
+        "name": "Binary Tree",
+        "pyq_count": 53,
+        "chapter": 3
+      },
+      "3.7": {
+        "name": "Data Structures",
+        "pyq_count": 4,
+        "chapter": 3
+      },
+      "3.8": {
+        "name": "Hashing",
+        "pyq_count": 15,
+        "chapter": 3
+      },
+      "3.9": {
+        "name": "Infix Prefix",
+        "pyq_count": 4,
+        "chapter": 3
+      },
+      "3.10": {
+        "name": "Linked List",
+        "pyq_count": 24,
+        "chapter": 3
+      },
+      "3.11": {
+        "name": "Priority Queue",
+        "pyq_count": 2,
+        "chapter": 3
+      },
+      "3.12": {
+        "name": "Queue",
+        "pyq_count": 15,
+        "chapter": 3
+      },
+      "3.13": {
+        "name": "Stack",
+        "pyq_count": 19,
+        "chapter": 3
+      },
+      "3.14": {
+        "name": "Time Complexity",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.15": {
+        "name": "Tree",
+        "pyq_count": 13,
+        "chapter": 3
+      },
+      "3.16": {
+        "name": "Tree Traversal",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.17": {
+        "name": "Uniform Hashing",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "4.1": {
+        "name": "Output",
+        "pyq_count": 1,
+        "chapter": 4
+      },
+      "5.1": {
+        "name": "Aliasing",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.2": {
+        "name": "Array",
+        "pyq_count": 13,
+        "chapter": 5
+      },
+      "5.3": {
+        "name": "Functions",
+        "pyq_count": 2,
+        "chapter": 5
+      },
+      "5.4": {
+        "name": "Goto",
+        "pyq_count": 2,
+        "chapter": 5
+      },
+      "5.5": {
+        "name": "Identify Function",
+        "pyq_count": 6,
+        "chapter": 5
+      },
+      "5.6": {
+        "name": "Loop Invariants",
+        "pyq_count": 8,
+        "chapter": 5
+      },
+      "5.7": {
+        "name": "Output",
+        "pyq_count": 8,
+        "chapter": 5
+      },
+      "5.8": {
+        "name": "Parameter Passing",
+        "pyq_count": 12,
+        "chapter": 5
+      },
+      "5.9": {
+        "name": "Pointers",
+        "pyq_count": 15,
+        "chapter": 5
+      },
+      "5.10": {
+        "name": "Programming Constructs",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.11": {
+        "name": "Programming In C",
+        "pyq_count": 29,
+        "chapter": 5
+      },
+      "5.12": {
+        "name": "Programming Paradigms",
+        "pyq_count": 2,
+        "chapter": 5
+      },
+      "5.13": {
+        "name": "Recursion",
+        "pyq_count": 19,
+        "chapter": 5
+      },
+      "5.14": {
+        "name": "Runtime Environment",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.15": {
+        "name": "Strings",
+        "pyq_count": 2,
+        "chapter": 5
+      },
+      "5.16": {
+        "name": "Structure",
+        "pyq_count": 5,
+        "chapter": 5
+      },
+      "5.17": {
+        "name": "Switch Case",
+        "pyq_count": 2,
+        "chapter": 5
+      },
+      "5.18": {
+        "name": "Type Checking",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.19": {
+        "name": "Union",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.20": {
+        "name": "Variable Binding",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "6.1": {
+        "name": "Closure Property",
+        "pyq_count": 10,
+        "chapter": 6
+      },
+      "6.2": {
+        "name": "Context Free Grammar",
+        "pyq_count": 2,
+        "chapter": 6
+      },
+      "6.3": {
+        "name": "Context Free Language",
+        "pyq_count": 35,
+        "chapter": 6
+      },
+      "6.4": {
+        "name": "Countable Uncountable Set",
+        "pyq_count": 3,
+        "chapter": 6
+      },
+      "6.5": {
+        "name": "Decidability",
+        "pyq_count": 30,
+        "chapter": 6
+      },
+      "6.6": {
+        "name": "Dpda",
+        "pyq_count": 1,
+        "chapter": 6
+      },
+      "6.7": {
+        "name": "Finite Automata",
+        "pyq_count": 43,
+        "chapter": 6
+      },
+      "6.8": {
+        "name": "Finite State Machines",
+        "pyq_count": 1,
+        "chapter": 6
+      },
+      "6.9": {
+        "name": "Identify Class Language",
+        "pyq_count": 31,
+        "chapter": 6
+      },
+      "6.10": {
+        "name": "Medium",
+        "pyq_count": 1,
+        "chapter": 6
+      },
+      "6.11": {
+        "name": "Minimal State Automata",
+        "pyq_count": 25,
+        "chapter": 6
+      },
+      "6.12": {
+        "name": "Non Determinism",
+        "pyq_count": 6,
+        "chapter": 6
+      },
+      "6.13": {
+        "name": "Number of States",
+        "pyq_count": 2,
+        "chapter": 6
+      },
+      "6.14": {
+        "name": "Pumping Lemma",
+        "pyq_count": 2,
+        "chapter": 6
+      },
+      "6.15": {
+        "name": "Pushdown Automata",
+        "pyq_count": 15,
+        "chapter": 6
+      },
+      "6.16": {
+        "name": "Recursive and Recursively Enumerable Languages",
+        "pyq_count": 16,
+        "chapter": 6
+      },
+      "6.17": {
+        "name": "Reduction",
+        "pyq_count": 2,
+        "chapter": 6
+      },
+      "6.18": {
+        "name": "Regular Expression",
+        "pyq_count": 29,
+        "chapter": 6
+      },
+      "6.19": {
+        "name": "Regular Grammar",
+        "pyq_count": 3,
+        "chapter": 6
+      },
+      "6.20": {
+        "name": "Regular Language",
+        "pyq_count": 35,
+        "chapter": 6
+      },
+      "6.21": {
+        "name": "Turing Machine",
+        "pyq_count": 1,
+        "chapter": 6
+      }
+    }
+  },
+  "volume3": {
+    "chapters": {
+      "1": {
+        "name": "CO & Architecture",
+        "pyq_count": 251
+      },
+      "2": {
+        "name": "Computer Networks",
+        "pyq_count": 226
+      },
+      "3": {
+        "name": "Databases",
+        "pyq_count": 302
+      },
+      "4": {
+        "name": "Digital Logic",
+        "pyq_count": 313
+      },
+      "5": {
+        "name": "Operating System",
+        "pyq_count": 343
+      }
+    },
+    "topics": {
+      "1.1": {
+        "name": "Addressing Modes",
+        "pyq_count": 19,
+        "chapter": 1
+      },
+      "1.2": {
+        "name": "Average Memory Access Time",
+        "pyq_count": 3,
+        "chapter": 1
+      },
+      "1.3": {
+        "name": "Bit Vector",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.4": {
+        "name": "CISC RISC Architecture",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.5": {
+        "name": "Cache Memory",
+        "pyq_count": 69,
+        "chapter": 1
+      },
+      "1.6": {
+        "name": "Conflict Misses",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.7": {
+        "name": "Control Unit",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.8": {
+        "name": "DMA",
+        "pyq_count": 8,
+        "chapter": 1
+      },
+      "1.9": {
+        "name": "DRAM",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.10": {
+        "name": "Data Dependency",
+        "pyq_count": 4,
+        "chapter": 1
+      },
+      "1.11": {
+        "name": "Data Hazards",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.12": {
+        "name": "Data Path",
+        "pyq_count": 7,
+        "chapter": 1
+      },
+      "1.13": {
+        "name": "Direct Mapping",
+        "pyq_count": 5,
+        "chapter": 1
+      },
+      "1.14": {
+        "name": "Disk",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.15": {
+        "name": "Hazards",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.16": {
+        "name": "IO Handling",
+        "pyq_count": 8,
+        "chapter": 1
+      },
+      "1.17": {
+        "name": "Instruction Execution",
+        "pyq_count": 7,
+        "chapter": 1
+      },
+      "1.18": {
+        "name": "Instruction Format",
+        "pyq_count": 11,
+        "chapter": 1
+      },
+      "1.19": {
+        "name": "Instruction Set Architecture",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.20": {
+        "name": "Interrupts",
+        "pyq_count": 10,
+        "chapter": 1
+      },
+      "1.21": {
+        "name": "Machine Instruction",
+        "pyq_count": 21,
+        "chapter": 1
+      },
+      "1.22": {
+        "name": "Memory Interfacing",
+        "pyq_count": 6,
+        "chapter": 1
+      },
+      "1.23": {
+        "name": "Microprogramming",
+        "pyq_count": 12,
+        "chapter": 1
+      },
+      "1.24": {
+        "name": "Pipelining",
+        "pyq_count": 39,
+        "chapter": 1
+      },
+      "1.25": {
+        "name": "Runtime Environment",
+        "pyq_count": 2,
+        "chapter": 1
+      },
+      "1.26": {
+        "name": "Speedup",
+        "pyq_count": 6,
+        "chapter": 1
+      },
+      "1.27": {
+        "name": "Stall",
+        "pyq_count": 1,
+        "chapter": 1
+      },
+      "1.28": {
+        "name": "Virtual Memory",
+        "pyq_count": 3,
+        "chapter": 1
+      },
+      "2.1": {
+        "name": "Application Layer Protocols",
+        "pyq_count": 13,
+        "chapter": 2
+      },
+      "2.2": {
+        "name": "Arp",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.3": {
+        "name": "Bit Stuffing",
+        "pyq_count": 2,
+        "chapter": 2
+      },
+      "2.4": {
+        "name": "Bridges",
+        "pyq_count": 3,
+        "chapter": 2
+      },
+      "2.5": {
+        "name": "CRC Polynomial",
+        "pyq_count": 5,
+        "chapter": 2
+      },
+      "2.6": {
+        "name": "CSMA CD",
+        "pyq_count": 6,
+        "chapter": 2
+      },
+      "2.7": {
+        "name": "Channel Utilization",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.8": {
+        "name": "Communication",
+        "pyq_count": 4,
+        "chapter": 2
+      },
+      "2.9": {
+        "name": "Congestion Control",
+        "pyq_count": 9,
+        "chapter": 2
+      },
+      "2.10": {
+        "name": "Data Communication",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.11": {
+        "name": "Distance Vector Routing",
+        "pyq_count": 8,
+        "chapter": 2
+      },
+      "2.12": {
+        "name": "Error Detection",
+        "pyq_count": 8,
+        "chapter": 2
+      },
+      "2.13": {
+        "name": "Ethernet",
+        "pyq_count": 7,
+        "chapter": 2
+      },
+      "2.14": {
+        "name": "Fragmentation",
+        "pyq_count": 5,
+        "chapter": 2
+      },
+      "2.15": {
+        "name": "Hamming Code",
+        "pyq_count": 2,
+        "chapter": 2
+      },
+      "2.16": {
+        "name": "IP Addressing",
+        "pyq_count": 8,
+        "chapter": 2
+      },
+      "2.17": {
+        "name": "IP Packet",
+        "pyq_count": 12,
+        "chapter": 2
+      },
+      "2.18": {
+        "name": "Icmp",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.19": {
+        "name": "LAN Technologies",
+        "pyq_count": 7,
+        "chapter": 2
+      },
+      "2.20": {
+        "name": "MAC Protocol",
+        "pyq_count": 4,
+        "chapter": 2
+      },
+      "2.21": {
+        "name": "Network Flow",
+        "pyq_count": 4,
+        "chapter": 2
+      },
+      "2.22": {
+        "name": "Network Layer",
+        "pyq_count": 6,
+        "chapter": 2
+      },
+      "2.23": {
+        "name": "Network Protocols",
+        "pyq_count": 11,
+        "chapter": 2
+      },
+      "2.24": {
+        "name": "Network Switching",
+        "pyq_count": 4,
+        "chapter": 2
+      },
+      "2.25": {
+        "name": "Osi Model",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.26": {
+        "name": "Probability",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.27": {
+        "name": "Pure Aloha",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.28": {
+        "name": "Routing",
+        "pyq_count": 14,
+        "chapter": 2
+      },
+      "2.29": {
+        "name": "Routing Protocols",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.30": {
+        "name": "Sliding Window",
+        "pyq_count": 16,
+        "chapter": 2
+      },
+      "2.31": {
+        "name": "Slotted Aloha",
+        "pyq_count": 1,
+        "chapter": 2
+      },
+      "2.32": {
+        "name": "Sockets",
+        "pyq_count": 4,
+        "chapter": 2
+      },
+      "2.33": {
+        "name": "Stop and Wait",
+        "pyq_count": 6,
+        "chapter": 2
+      },
+      "2.34": {
+        "name": "Subnetting",
+        "pyq_count": 21,
+        "chapter": 2
+      },
+      "2.35": {
+        "name": "TCP",
+        "pyq_count": 20,
+        "chapter": 2
+      },
+      "2.36": {
+        "name": "Token Bucket",
+        "pyq_count": 2,
+        "chapter": 2
+      },
+      "2.37": {
+        "name": "UDP",
+        "pyq_count": 4,
+        "chapter": 2
+      },
+      "2.38": {
+        "name": "Wrap Around Time",
+        "pyq_count": 2,
+        "chapter": 2
+      },
+      "3.1": {
+        "name": "Armstrong Axioms",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.2": {
+        "name": "B Tree",
+        "pyq_count": 32,
+        "chapter": 3
+      },
+      "3.3": {
+        "name": "Candidate Key",
+        "pyq_count": 7,
+        "chapter": 3
+      },
+      "3.4": {
+        "name": "Conflict Serializable",
+        "pyq_count": 12,
+        "chapter": 3
+      },
+      "3.5": {
+        "name": "Database Design",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.6": {
+        "name": "Database Normalization",
+        "pyq_count": 56,
+        "chapter": 3
+      },
+      "3.7": {
+        "name": "Database Schema",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.8": {
+        "name": "Decomposition",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.9": {
+        "name": "ER Diagram",
+        "pyq_count": 12,
+        "chapter": 3
+      },
+      "3.10": {
+        "name": "Functional Dependency",
+        "pyq_count": 3,
+        "chapter": 3
+      },
+      "3.11": {
+        "name": "Indexing",
+        "pyq_count": 15,
+        "chapter": 3
+      },
+      "3.12": {
+        "name": "Joins",
+        "pyq_count": 7,
+        "chapter": 3
+      },
+      "3.13": {
+        "name": "Multivalued Dependency 4nf",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.14": {
+        "name": "Natural Join",
+        "pyq_count": 3,
+        "chapter": 3
+      },
+      "3.15": {
+        "name": "Normal Forms",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.16": {
+        "name": "Query",
+        "pyq_count": 3,
+        "chapter": 3
+      },
+      "3.17": {
+        "name": "Referential Integrity",
+        "pyq_count": 6,
+        "chapter": 3
+      },
+      "3.18": {
+        "name": "Relational Algebra",
+        "pyq_count": 33,
+        "chapter": 3
+      },
+      "3.19": {
+        "name": "Relational Calculus",
+        "pyq_count": 13,
+        "chapter": 3
+      },
+      "3.20": {
+        "name": "Relational Model",
+        "pyq_count": 2,
+        "chapter": 3
+      },
+      "3.21": {
+        "name": "SQL",
+        "pyq_count": 58,
+        "chapter": 3
+      },
+      "3.22": {
+        "name": "Safe Query",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.23": {
+        "name": "Super Key",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.24": {
+        "name": "Timestamp Ordering",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "3.25": {
+        "name": "Transaction and Concurrency",
+        "pyq_count": 27,
+        "chapter": 3
+      },
+      "3.26": {
+        "name": "Tuple Relational Calculus",
+        "pyq_count": 3,
+        "chapter": 3
+      },
+      "3.27": {
+        "name": "Two Phase Locking Protocol",
+        "pyq_count": 1,
+        "chapter": 3
+      },
+      "4.1": {
+        "name": "Adder",
+        "pyq_count": 9,
+        "chapter": 4
+      },
+      "4.2": {
+        "name": "Array Multiplier",
+        "pyq_count": 2,
+        "chapter": 4
+      },
+      "4.3": {
+        "name": "Binary Codes",
+        "pyq_count": 1,
+        "chapter": 4
+      },
+      "4.4": {
+        "name": "Boolean Algebra",
+        "pyq_count": 34,
+        "chapter": 4
+      },
+      "4.5": {
+        "name": "Booths Algorithm",
+        "pyq_count": 7,
+        "chapter": 4
+      },
+      "4.6": {
+        "name": "Canonical Normal Form",
+        "pyq_count": 10,
+        "chapter": 4
+      },
+      "4.7": {
+        "name": "Carry Generator",
+        "pyq_count": 2,
+        "chapter": 4
+      },
+      "4.8": {
+        "name": "Circuit Output",
+        "pyq_count": 40,
+        "chapter": 4
+      },
+      "4.9": {
+        "name": "Combinational Circuit",
+        "pyq_count": 2,
+        "chapter": 4
+      },
+      "4.10": {
+        "name": "Conjunctive Normal Form",
+        "pyq_count": 1,
+        "chapter": 4
+      },
+      "4.11": {
+        "name": "Decoder",
+        "pyq_count": 3,
+        "chapter": 4
+      },
+      "4.12": {
+        "name": "Digital Circuits",
+        "pyq_count": 7,
+        "chapter": 4
+      },
+      "4.13": {
+        "name": "Digital Counter",
+        "pyq_count": 18,
+        "chapter": 4
+      },
+      "4.14": {
+        "name": "Dual Function",
+        "pyq_count": 1,
+        "chapter": 4
+      },
+      "4.15": {
+        "name": "Finite State Machines",
+        "pyq_count": 4,
+        "chapter": 4
+      },
+      "4.16": {
+        "name": "Fixed Point Representation",
+        "pyq_count": 2,
+        "chapter": 4
+      },
+      "4.17": {
+        "name": "Flip Flop",
+        "pyq_count": 7,
+        "chapter": 4
+      },
+      "4.18": {
+        "name": "Floating Point Representation",
+        "pyq_count": 8,
+        "chapter": 4
+      },
+      "4.19": {
+        "name": "Functional Completeness",
+        "pyq_count": 7,
+        "chapter": 4
+      },
+      "4.20": {
+        "name": "IEEE Representation",
+        "pyq_count": 14,
+        "chapter": 4
+      },
+      "4.21": {
+        "name": "K Map",
+        "pyq_count": 17,
+        "chapter": 4
+      },
+      "4.22": {
+        "name": "Little Endian Big Endian",
+        "pyq_count": 1,
+        "chapter": 4
+      },
+      "4.23": {
+        "name": "Memory Interfacing",
+        "pyq_count": 5,
+        "chapter": 4
+      },
+      "4.24": {
+        "name": "Min No Gates",
+        "pyq_count": 6,
+        "chapter": 4
+      },
+      "4.25": {
+        "name": "Min Products of Sum Form",
+        "pyq_count": 2,
+        "chapter": 4
+      },
+      "4.26": {
+        "name": "Min Sum of Products Form",
+        "pyq_count": 16,
+        "chapter": 4
+      },
+      "4.27": {
+        "name": "Multiplexer",
+        "pyq_count": 14,
+        "chapter": 4
+      },
+      "4.28": {
+        "name": "Number Representation",
+        "pyq_count": 57,
+        "chapter": 4
+      },
+      "4.29": {
+        "name": "Number System",
+        "pyq_count": 1,
+        "chapter": 4
+      },
+      "4.30": {
+        "name": "Prime Implicants",
+        "pyq_count": 2,
+        "chapter": 4
+      },
+      "4.31": {
+        "name": "ROM",
+        "pyq_count": 4,
+        "chapter": 4
+      },
+      "4.32": {
+        "name": "Reduction",
+        "pyq_count": 1,
+        "chapter": 4
+      },
+      "4.33": {
+        "name": "Ripple Counter Operation",
+        "pyq_count": 1,
+        "chapter": 4
+      },
+      "4.34": {
+        "name": "Shift Registers",
+        "pyq_count": 2,
+        "chapter": 4
+      },
+      "4.35": {
+        "name": "Static Hazard",
+        "pyq_count": 1,
+        "chapter": 4
+      },
+      "4.36": {
+        "name": "Synchronous Asynchronous Circuits",
+        "pyq_count": 4,
+        "chapter": 4
+      },
+      "5.1": {
+        "name": "Bankers Algorithm",
+        "pyq_count": 2,
+        "chapter": 5
+      },
+      "5.2": {
+        "name": "Best Fit",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.3": {
+        "name": "Context Switch",
+        "pyq_count": 4,
+        "chapter": 5
+      },
+      "5.4": {
+        "name": "DMA",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.5": {
+        "name": "Deadlock Prevention Avoidance Detection",
+        "pyq_count": 4,
+        "chapter": 5
+      },
+      "5.6": {
+        "name": "Demand Paging",
+        "pyq_count": 3,
+        "chapter": 5
+      },
+      "5.7": {
+        "name": "Disk",
+        "pyq_count": 30,
+        "chapter": 5
+      },
+      "5.8": {
+        "name": "Disk Scheduling",
+        "pyq_count": 16,
+        "chapter": 5
+      },
+      "5.9": {
+        "name": "File System",
+        "pyq_count": 7,
+        "chapter": 5
+      },
+      "5.10": {
+        "name": "Fork System Call",
+        "pyq_count": 8,
+        "chapter": 5
+      },
+      "5.11": {
+        "name": "IO Handling",
+        "pyq_count": 7,
+        "chapter": 5
+      },
+      "5.12": {
+        "name": "Input Output",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.13": {
+        "name": "Inter Process Communication",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.14": {
+        "name": "Interrupts",
+        "pyq_count": 6,
+        "chapter": 5
+      },
+      "5.15": {
+        "name": "Least Recently Used",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.16": {
+        "name": "Linked Allocation",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.17": {
+        "name": "Memory Management",
+        "pyq_count": 9,
+        "chapter": 5
+      },
+      "5.18": {
+        "name": "Multilevel Paging",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.19": {
+        "name": "OS Protection",
+        "pyq_count": 3,
+        "chapter": 5
+      },
+      "5.20": {
+        "name": "Page Replacement",
+        "pyq_count": 31,
+        "chapter": 5
+      },
+      "5.21": {
+        "name": "Precedence Graph",
+        "pyq_count": 3,
+        "chapter": 5
+      },
+      "5.22": {
+        "name": "Process",
+        "pyq_count": 5,
+        "chapter": 5
+      },
+      "5.23": {
+        "name": "Process Scheduling",
+        "pyq_count": 49,
+        "chapter": 5
+      },
+      "5.24": {
+        "name": "Process Synchronization",
+        "pyq_count": 52,
+        "chapter": 5
+      },
+      "5.25": {
+        "name": "Resource Allocation",
+        "pyq_count": 27,
+        "chapter": 5
+      },
+      "5.26": {
+        "name": "Resource Allocation Graph",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.27": {
+        "name": "Round Robin Scheduling",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.28": {
+        "name": "Semaphore",
+        "pyq_count": 11,
+        "chapter": 5
+      },
+      "5.29": {
+        "name": "Srtf",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.30": {
+        "name": "System Calls",
+        "pyq_count": 1,
+        "chapter": 5
+      },
+      "5.31": {
+        "name": "Threads",
+        "pyq_count": 10,
+        "chapter": 5
+      },
+      "5.32": {
+        "name": "Translation Lookaside Buffer",
+        "pyq_count": 2,
+        "chapter": 5
+      },
+      "5.33": {
+        "name": "Virtual Memory",
+        "pyq_count": 43,
+        "chapter": 5
+      }
+    }
+  }
+}

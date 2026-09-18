@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_AVL_TREE_01",
+  "name": "AVL Trees (PYQ type)",
+  "recognitionClueHinglish": "AVL Trees se related sawal.",
+  "whatShouldComeToMind": [
+   "Balance factor in {-1,0,1}; min nodes N(h)=N(h-1)+N(h-2)+1; max height ~1.44 log n."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Balance factors.",
+   "2. Rotate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.1.1",
+   "3.1.2",
+   "3.1.3",
+   "3.1.4",
+   "3.1.5",
+   "3.1.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Height definition (edges/nodes)."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

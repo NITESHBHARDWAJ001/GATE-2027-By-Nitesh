@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "algorithms__1.32.1",
+  "localId": "1.32.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "number-of-swap",
+  "topic": "Number of Swap",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "23",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "435:435",
+  "answerVerified": true,
+  "questionTextRaw": "The pseudocode of a function                             is given below: fun(int A[0,....,n-1]) { for i=0 to n-2 for j=0 to n-i-2 if (A[j]>A[j+1]) then swap A[j] and A[j+1] } Let                     be an array storing distinct integers in descending order. The number of swap operations that will be performed, if the function                       is called with               as argument, is _________. (Answer in integer)",
+  "tagsRaw": "gatecse2025-set1 data-structures  array  number-of-swap  numerical-answers  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 78
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NUMBER_OF_SWAP_01"
+ }
+]

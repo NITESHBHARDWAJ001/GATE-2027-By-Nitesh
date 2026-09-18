@@ -1,0 +1,24 @@
+{
+ "coreIdea": "Invariant = loop ke har iteration ke start me true condition.",
+ "mustRememberFormulas": [
+  "division: x = q*y + r"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Code fragment; invariant ya missing condition.",
+   "thinkThis": "LI_INVARIANT_01"
+  },
+  {
+   "seeThis": "Flowchart assertions, loop equivalence.",
+   "thinkThis": "LI_ASSERTIONS_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Off-by-one."
+ ],
+ "highYieldPyqLessons": [
+  "Recent invariants questions are all MCQ on 3 classic loops."
+ ],
+ "topicId": "programming-programming-in-c:loop-invariants",
+ "revisionLevel": "short-form"
+}

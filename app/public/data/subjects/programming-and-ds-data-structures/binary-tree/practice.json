@@ -1,0 +1,42 @@
+{
+  "topicId": "ds-binary-tree",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-BT-01",
+      "patternId": "BT_TRAVERSAL_RECONSTRUCT_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Inorder: D B E A F C G. Preorder: A B D E C F G. Reconstruct the tree and give its postorder.",
+      "solutionApproach": "Root=A (preorder first). Inorder split: [D B E] left, [F C G] right. Left subtree preorder=[B D E], root=B, inorder-split: [D] left, [E] right → B has left-child D, right-child E. Right subtree preorder=[C F G], root=C, inorder-split:[F] left,[G] right → C has left F, right G. Tree: A(B(D,E), C(F,G)). Postorder: D E B F G C A.",
+      "answer": "Postorder: D E B F G C A"
+    },
+    {
+      "practiceId": "AI-BT-02",
+      "patternId": "BT_NODE_COUNT_RELATION_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A binary tree where every node has 0 or 2 children has 41 leaf nodes. How many total nodes does it have?",
+      "solutionApproach": "n0=n2+1 → n2=40. Total n=n0+n2=41+40=81 (no degree-1 nodes in this tree type).",
+      "answer": "81 total nodes"
+    },
+    {
+      "practiceId": "AI-BT-03",
+      "patternId": "BT_HEIGHT_BOUNDS_03",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "What is the maximum number of nodes in a binary tree of height 4 (height = number of edges on longest root-to-leaf path)?",
+      "solutionApproach": "Max nodes = 2^(h+1)-1 = 2^5-1 = 31.",
+      "answer": "31"
+    },
+    {
+      "practiceId": "AI-BT-04",
+      "patternId": "BT_ARRAY_REPRESENTATION_04",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "In a 1-indexed array representation of a complete binary tree, what is the parent of the node at index 13, and what level is it on (root=level 0)?",
+      "solutionApproach": "parent(13)=⌊13/2⌋=6. Level=⌊log2(13)⌋=⌊3.7⌋=3.",
+      "answer": "Parent index = 6; level = 3"
+    }
+  ]
+}

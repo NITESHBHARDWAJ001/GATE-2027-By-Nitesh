@@ -1,0 +1,23 @@
+{
+ "topicId": "co-architecture:memory-interfacing",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "Memory Interfacing and Organization",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 1990-2023.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  1990,
+  1991,
+  2006,
+  2016,
+  2018,
+  2023
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

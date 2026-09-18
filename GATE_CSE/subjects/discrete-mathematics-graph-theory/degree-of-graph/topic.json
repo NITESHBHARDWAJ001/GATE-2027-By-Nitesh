@@ -1,0 +1,28 @@
+{
+ "topicId": "discrete-mathematics-graph-theory:degree-of-graph",
+ "subjectId": "discrete-mathematics-graph-theory",
+ "subject": "Discrete Mathematics - Graph Theory",
+ "name": "Degree of a Graph / Degree Sequences",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "13 PYQs extracted, 1987-2026.",
+ "pyqCountExtracted": 13,
+ "yearsCovered": [
+  1987,
+  1991,
+  1995,
+  2003,
+  2006,
+  2009,
+  2010,
+  2013,
+  2014,
+  2017,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

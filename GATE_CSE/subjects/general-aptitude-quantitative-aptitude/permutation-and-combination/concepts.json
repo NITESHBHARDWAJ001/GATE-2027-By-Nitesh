@@ -1,0 +1,20 @@
+{
+ "overview": "nPr, nCr counting.",
+ "whyItMatters": "4 PYQs extracted (2024-2026); P3 topic.",
+ "coreConcept": "nPr, nCr counting.",
+ "hinglishExplanation": "Order matter to permutation.",
+ "formalDefinition": "nPr, nCr counting.",
+ "importantProperties": [
+  "nCr=n!/(r!(n-r)!).",
+  "nPr=n!/(n-r)!."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Order vs selection."
+ ],
+ "standardTechniques": [
+  "1. Order?"
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:permutation-and-combination"
+}

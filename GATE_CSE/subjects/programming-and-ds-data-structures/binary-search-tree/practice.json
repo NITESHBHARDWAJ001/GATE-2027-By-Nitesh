@@ -1,0 +1,42 @@
+{
+  "topicId": "ds-binary-search-tree",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-BST-01",
+      "patternId": "BST_INSERTION_TRACE_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Insert 50, 30, 70, 20, 40, 60, 80 into an empty BST, in that order. What is the height (edges)?",
+      "solutionApproach": "50 is root. 30<50→left. 70>50→right. 20<50,<30→left of 30. 40<50,>30→right of 30. 60<70,>50→left of 70. 80>70,>50→right of 70. Perfectly balanced tree, height=2.",
+      "answer": "Height = 2 (perfectly balanced, 3 levels)"
+    },
+    {
+      "practiceId": "AI-BST-02",
+      "patternId": "BST_TRAVERSAL_PROPERTY_03",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Preorder of a BST: 50 30 20 40 70 60 80. Find its postorder WITHOUT drawing the tree, using the partition trick.",
+      "solutionApproach": "Root=50. Remaining=[30,20,40,70,60,80]. Split by <50/>50: left=[30,20,40], right=[70,60,80]. Recurse left: root=30, remaining=[20,40], split: left=[20],right=[40] → postorder(left subtree)=20,40,30. Recurse right: root=70, remaining=[60,80], split: left=[60],right=[80] → postorder=60,80,70. Combine: (left-post)+(right-post)+(root) = 20 40 30 60 80 70 50.",
+      "answer": "Postorder: 20 40 30 60 80 70 50"
+    },
+    {
+      "practiceId": "AI-BST-03",
+      "patternId": "BST_SEARCH_PATH_VALIDITY_02",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Searching for key 25 in a BST, is the examined sequence [50, 10, 30, 20, 25] a valid possible search path?",
+      "solutionApproach": "Start range (-∞,∞). 50: within range, 25<50 so narrow to (-∞,50). 10: within (-∞,50), 25>10 so narrow to (10,50). 30: within (10,50), 25<30 so narrow to (10,30). 20: within (10,30), 25>20 so narrow to (20,30). 25: within (20,30), found. All steps consistent — VALID.",
+      "answer": "Yes, valid — each step consistently narrows the range toward 25."
+    },
+    {
+      "practiceId": "AI-BST-04",
+      "patternId": "BST_COUNTING_04",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "How many distinct BSTs can be formed with 4 distinct keys?",
+      "solutionApproach": "Catalan C(4) = (8)!/(5!·4!) = 40320/(120·24) = 40320/2880 = 14.",
+      "answer": "14"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "algorithms__1.41.1",
+  "localId": "1.41.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "space-complexity",
+  "topic": "Space Complexity",
+  "year": 2005,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "81a",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "double foo(int n) { int i; double sum; if(n == 0) { return 1.0; } else { sum = 0.0; for(i = 0; i < n; i++) { sum += foo(i); } return sum; } } The space complexity of the above code is? A.                                         B.                                     C.                        D.",
+  "tagsRaw": "gatecse-2005 algorithms  recursion  normal     space-complexity",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 103
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_SPACE_COMPLEXITY_01"
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Preorder + inorder se tree reconstruct; postorder aur level order.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Tree Traversals se related sawal.",
+   "thinkThis": "P3_TREE_TRAVERSAL_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Pre+post se unique maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:tree-traversal",
+ "revisionLevel": "short-form"
+}

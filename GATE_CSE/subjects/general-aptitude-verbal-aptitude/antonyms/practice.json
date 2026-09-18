@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:antonyms",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ANTONY-01",
+   "patternId": "P3_ANTONYMS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Antonym of 'protagonist'?",
+   "solutionApproach": "Opposing character.",
+   "answer": "Antagonist"
+  }
+ ]
+}

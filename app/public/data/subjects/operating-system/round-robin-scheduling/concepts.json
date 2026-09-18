@@ -1,0 +1,22 @@
+{
+ "overview": "Time quantum, ready queue FIFO, preempted process queue ke end me.",
+ "whyItMatters": "1 PYQs extracted (2022-2022); P3 topic.",
+ "coreConcept": "Time quantum, ready queue FIFO, preempted process queue ke end me.",
+ "hinglishExplanation": "Har process q time chalta hai; naya arrival aur preempted process ka order tie me dhyan.",
+ "formalDefinition": "Time quantum, ready queue FIFO, preempted process queue ke end me.",
+ "importantProperties": [
+  "Preempted process queue end me.",
+  "Arrival aur preempt simultaneous ho to convention dekho.",
+  "Turnaround = completion - arrival.",
+  "Large q -> FCFS."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Tie-break convention."
+ ],
+ "standardTechniques": [
+  "1. Gantt chart."
+ ],
+ "topicId": "operating-system:round-robin-scheduling"
+}

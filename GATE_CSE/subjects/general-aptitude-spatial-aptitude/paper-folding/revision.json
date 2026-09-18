@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Fold ke baad cut ka unfolded pattern ya layers/area.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Paper Folding and Cutting se related sawal.",
+   "thinkThis": "P3_PAPER_FOLDING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Unfold order."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:paper-folding",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,22 @@
+{
+ "overview": "C_{i+1} = G_i + P_i C_i; G=AB, P=A xor B.",
+ "whyItMatters": "2 PYQs extracted (2006-2007); P4 topic.",
+ "coreConcept": "C_{i+1} = G_i + P_i C_i; G=AB, P=A xor B.",
+ "hinglishExplanation": "Sab carries parallel expand hote hain.",
+ "formalDefinition": "C_{i+1} = G_i + P_i C_i; G=AB, P=A xor B.",
+ "importantProperties": [
+  "G=A_iB_i, P=A_i xor B_i.",
+  "C1=G0+P0C0.",
+  "C2=G1+P1G0+P1P0C0."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Expansion order."
+ ],
+ "standardTechniques": [
+  "1. G,P.",
+  "2. Expand."
+ ],
+ "topicId": "digital-logic:carry-generator"
+}

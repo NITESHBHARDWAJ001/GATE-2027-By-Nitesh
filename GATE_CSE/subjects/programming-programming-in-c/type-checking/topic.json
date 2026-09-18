@@ -1,0 +1,18 @@
+{
+ "topicId": "programming-programming-in-c:type-checking",
+ "subjectId": "programming-programming-in-c",
+ "subject": "Programming & DS - Programming in C",
+ "name": "Static vs Dynamic Typing",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2003-2003.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2003
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

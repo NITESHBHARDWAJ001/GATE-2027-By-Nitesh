@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_NATURAL_JOIN_01",
+  "name": "Natural Join (PYQ type)",
+  "recognitionClueHinglish": "Natural Join se related sawal.",
+  "whatShouldComeToMind": [
+   "Common attributes par equality; lossy decomposition, min/max tuples, outer join."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Common attrs.",
+   "2. Match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.14.1",
+   "3.14.2",
+   "3.14.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Common attribute na ho to cross product."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,81 @@
+[
+ {
+  "patternId": "IDX_BLOCK_CALC_01",
+  "name": "Index Size / Levels / Block Accesses Calculation",
+  "recognitionClueHinglish": "Records, record size, key size, block size, pointer size di hai; index ke blocks, levels ya access cost poochhi hai.",
+  "whatShouldComeToMind": [
+   "bf, data blocks, index blocks ki chain."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. bf = floor(B/R); data blocks = ceil(N/bf).",
+   "2. Index entry size = K + P; fi = floor(B/(K+P)).",
+   "3. Dense: entries = N; sparse: entries = data blocks.",
+   "4. Index blocks = ceil(entries/fi); multilevel me repeat."
+  ],
+  "formulasUsed": [
+   "bf",
+   "dataBlocks",
+   "indexEntriesPerBlock",
+   "denseIndexBlocks",
+   "sparseIndexBlocks",
+   "levels"
+  ],
+  "pyqExamples": [
+   "3.11.2",
+   "3.11.3",
+   "3.11.6",
+   "3.11.10",
+   "3.11.11",
+   "3.11.12",
+   "3.11.15"
+  ],
+  "variationsObserved": [
+   "B+ tree levels for 1M records.",
+   "Ordered file par sparse index ke blocks.",
+   "Number of block accesses for a search."
+  ],
+  "commonTraps": [
+   "Records aur blocks me farak bhoolna.",
+   "floor/ceil galat lagana."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "IDX_CONCEPT_02",
+  "name": "Clustered / Dense / Sparse / Index-Type Concepts",
+  "recognitionClueHinglish": "Index kaunsa type hai, kab dense/sparse, clustered ki definition, kaunsa file organization kis kaam ke liye.",
+  "whatShouldComeToMind": [
+   "Index taxonomy: primary, clustering, secondary; dense vs sparse; clustered vs unclustered."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Field key hai ya non-key.",
+   "2. File ordered hai ya nahi.",
+   "3. Us hisaab se index type match karo."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.11.1",
+   "3.11.4",
+   "3.11.5",
+   "3.11.7",
+   "3.11.8",
+   "3.11.9",
+   "3.11.13",
+   "3.11.14"
+  ],
+  "variationsObserved": [
+   "Hash index dense hoti hai ya nahi.",
+   "Secondary key processing ke liye inverted file."
+  ],
+  "commonTraps": [
+   "Clustered = candidate key wale maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ }
+]

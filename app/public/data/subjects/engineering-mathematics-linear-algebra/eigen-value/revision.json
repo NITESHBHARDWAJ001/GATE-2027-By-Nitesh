@@ -1,0 +1,38 @@
+{
+ "coreIdea": "sum = trace, product = det; f(A) -> f(lambda); triangular -> diagonal.",
+ "mustRememberFormulas": [
+  "sum(lambda)=trace",
+  "prod(lambda)=det",
+  "eig(A+cI)=lambda+c",
+  "eig(A^-1)=1/lambda"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "matrix given, find eigenvalues",
+   "thinkThis": "EIG_COMPUTE_01"
+  },
+  {
+   "seeThis": "some eigenvalues given",
+   "thinkThis": "EIG_TRACE_DET_02"
+  },
+  {
+   "seeThis": "A^2, A+I, A^-1",
+   "thinkThis": "EIG_FUNCTION_03"
+  },
+  {
+   "seeThis": "symmetric/rank-1/projection",
+   "thinkThis": "EIG_SPECIAL_04"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Zero eigenvalue in product",
+  "Inverse needs nonzero lambda",
+  "Symmetric -> orthogonal eigenvectors"
+ ],
+ "highYieldPyqLessons": [
+  "Trace-det shortcut solves most NAT questions.",
+  "Matrix entries are often blank in extracted text; verify with the source PDF."
+ ],
+ "topicId": "em-la-eigen-value",
+ "revisionLevel": "short-form"
+}

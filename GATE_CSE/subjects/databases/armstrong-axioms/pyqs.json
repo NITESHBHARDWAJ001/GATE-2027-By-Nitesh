@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "databases__3.1.1",
+  "localId": "3.1.1",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "armstrong-axioms",
+  "topic": "Armstrong Axioms",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "32",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "In the context of schema normalization in relational DBMS, consider a set of functional dependencies. The set of all functional dependencies implied by is called the closure of . To compute the closure of , Armstrong's Axioms can be applied. Consider            , and as sets of attributes over a relational schema. The three rules of Armstrong's Axioms are described as follows. Reflexivity: If       , then Augmentation: If           , then           for any Z Transitivity: If         and       , then The additional rule of Union is defined as follows. Union: If           and        , then It can be proved that the additional rule of Union is also implied by the three rules of Armstrong's Axioms. Listed below are four combinations of these three rules. Which one of these combinations is both necessary and sufficient for the proof? A. Reflexivity, Augmentation, and                                              B. Reflexivity and Augmentation Transitivity                                                               D. Augmentation and Transitivity C. Transitivity",
+  "tagsRaw": "gatecse-2026-set2 databases database-normalization armstrong-axioms two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 181
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ARMSTRONG_AXIOMS_01"
+ }
+]

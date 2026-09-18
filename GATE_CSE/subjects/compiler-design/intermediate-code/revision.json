@@ -1,0 +1,24 @@
+{
+ "coreIdea": "TAC me har instruction me max 3 addresses; array A[i] ka address base + i x width.",
+ "mustRememberFormulas": [
+  "rowMajor: base + (i*n + j)*w"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Expression ka TAC/DAG; node/temporary count.",
+   "thinkThis": "ICG_TAC_01"
+  },
+  {
+   "seeThis": "Why IR, three-address format, representations.",
+   "thinkThis": "ICG_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "DAG sharing."
+ ],
+ "highYieldPyqLessons": [
+  "Array address TAC appears (2014, 2015, 2024)."
+ ],
+ "topicId": "compiler-design:intermediate-code",
+ "revisionLevel": "short-form"
+}

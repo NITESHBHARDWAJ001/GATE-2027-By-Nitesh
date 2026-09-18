@@ -1,0 +1,22 @@
+{
+ "overview": "RAM chips count, decoder tree, DRAM rows/columns.",
+ "whyItMatters": "5 PYQs extracted (1995-2013); P3 topic.",
+ "coreConcept": "RAM chips count, decoder tree, DRAM rows/columns.",
+ "hinglishExplanation": "Chips = total capacity / chip capacity (words aur width dono).",
+ "formalDefinition": "RAM chips count, decoder tree, DRAM rows/columns.",
+ "importantProperties": [
+  "Chips = (words x bits) / (chip words x chip bits).",
+  "Decoder 2x4 tree se bade decoder.",
+  "Address lines = log2(words)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Width aur depth dono expand."
+ ],
+ "standardTechniques": [
+  "1. Depth chips.",
+  "2. Width chips."
+ ],
+ "topicId": "digital-logic:memory-interfacing"
+}

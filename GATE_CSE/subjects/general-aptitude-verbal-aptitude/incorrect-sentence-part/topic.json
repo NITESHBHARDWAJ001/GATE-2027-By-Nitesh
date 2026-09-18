@@ -1,0 +1,18 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:incorrect-sentence-part",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Incorrect Sentence Part",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2014-2014.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2014
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

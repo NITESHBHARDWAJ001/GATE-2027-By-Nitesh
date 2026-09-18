@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "compiler-design__2.1.1",
+  "localId": "2.1.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "abstract-syntax-tree",
+  "topic": "Abstract Syntax Tree",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "14",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "In the context of abstract-syntax-tree (AST) and control-flow-graph (CFG), which one of the following is TRUE? A. In both AST and CFG, let node be the successor of node . In the input program, the code corresponding to is present after the code corresponding to B. For any input program, neither AST nor CFG will contain a cycle C. The maximum number of successors of a node in an AST and a CFG depends on the input program D. Each node in AST and CFG corresponds to at most one statement in the input program",
+  "tagsRaw": "gatecse-2015-set2 compiler-design easy abstract-syntax-tree code-optimization",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 120
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_ABSTRACT_SYNTAX_TREE_01"
+ }
+]

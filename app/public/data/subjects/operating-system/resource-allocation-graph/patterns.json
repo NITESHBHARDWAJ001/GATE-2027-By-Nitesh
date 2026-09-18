@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_RESOURCE_ALLOCATION_GRAP_01",
+  "name": "Resource Allocation Graph (PYQ type)",
+  "recognitionClueHinglish": "Resource Allocation Graph se related sawal.",
+  "whatShouldComeToMind": [
+   "Request/assignment edges; cycle => deadlock (single instance)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Cycle dhundo.",
+   "2. Instances."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.26.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Cycle ko hamesha deadlock."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

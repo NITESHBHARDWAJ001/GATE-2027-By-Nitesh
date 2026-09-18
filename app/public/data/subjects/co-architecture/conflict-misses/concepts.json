@@ -1,0 +1,22 @@
+{
+ "overview": "Set-associative cache me same set ke blocks ki competition se misses.",
+ "whyItMatters": "1 PYQs extracted (2017-2017); P3 topic.",
+ "coreConcept": "Set-associative cache me same set ke blocks ki competition se misses.",
+ "hinglishExplanation": "Conflict miss: fully associative me na hota; capacity aur compulsory alag.",
+ "formalDefinition": "Set-associative cache me same set ke blocks ki competition se misses.",
+ "importantProperties": [
+  "Compulsory, capacity, conflict misses.",
+  "Same set ke blocks LRU replace karte hain.",
+  "Sequence trace kar ke gino."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Compulsory ko conflict ginna."
+ ],
+ "standardTechniques": [
+  "1. Set map.",
+  "2. LRU trace."
+ ],
+ "topicId": "co-architecture:conflict-misses"
+}

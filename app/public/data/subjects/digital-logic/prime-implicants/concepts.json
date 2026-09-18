@@ -1,0 +1,21 @@
+{
+ "overview": "Prime implicant: maximal group; essential = akela cover karne wala.",
+ "whyItMatters": "2 PYQs extracted (1997-2004); P4 topic.",
+ "coreConcept": "Prime implicant: maximal group; essential = akela cover karne wala.",
+ "hinglishExplanation": "K-map me sabse bade groups.",
+ "formalDefinition": "Prime implicant: maximal group; essential = akela cover karne wala.",
+ "importantProperties": [
+  "Essential PI must in cover.",
+  "Minimal SOP uses essential + choice."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Non-maximal group."
+ ],
+ "standardTechniques": [
+  "1. Groups.",
+  "2. Essential."
+ ],
+ "topicId": "digital-logic:prime-implicants"
+}

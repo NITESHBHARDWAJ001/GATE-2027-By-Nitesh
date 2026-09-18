@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_CODING_DECODING_01",
+  "name": "Coding-Decoding (PYQ type)",
+  "recognitionClueHinglish": "Coding-Decoding se related sawal.",
+  "whatShouldComeToMind": [
+   "Letters ke shifts se word code."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Letter positions.",
+   "2. Shift."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.4.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Shift direction."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

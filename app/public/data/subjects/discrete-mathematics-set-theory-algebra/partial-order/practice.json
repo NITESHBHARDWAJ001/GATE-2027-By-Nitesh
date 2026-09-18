@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-set-theory-algebra:partial-order",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PARTIA-01",
+   "patternId": "P3_PARTIAL_ORDER_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Divisors of 12 Hasse edges?",
+   "solutionApproach": "1-2,1-3,2-4,2-6,3-6,4-12,6-12.",
+   "answer": "7"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "coreIdea": "Threads of a process share code, data (globals), heap, open files, address space; each has its own stack, registers, program counter.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Kya threads share karte hain: heap, stack, PC, registers, file table.",
+   "thinkThis": "THR_SHARED_01"
+  },
+  {
+   "seeThis": "Context switch speed, blocking, scheduling.",
+   "thinkThis": "THR_USER_KERNEL_02"
+  },
+  {
+   "seeThis": "Do threads shared variables update karte hain; possible final values.",
+   "thinkThis": "THR_CODE_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Atomicity assume karna.",
+  "Blocking behaviour ulta.",
+  "Stack ko shared maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "Shared/private lists tested repeatedly (2004, 2017, 2024)."
+ ],
+ "topicId": "operating-system:threads",
+ "revisionLevel": "short-form"
+}

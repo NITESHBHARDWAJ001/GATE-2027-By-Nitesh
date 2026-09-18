@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:binary-tree",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BINARY-01",
+   "patternId": "P3_BINARY_TREE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Complete binary tree with 15 nodes ka height?",
+   "solutionApproach": "log2(16)-1.",
+   "answer": "3"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+[
+ {
+  "patternId": "EXP_LINEARITY_01",
+  "name": "Linearity / Indicator Variables for Expected Counts",
+  "recognitionClueHinglish": "Expected number of cycles, records, minimum, matches...; random structure me kuch count.",
+  "whatShouldComeToMind": [
+   "Indicator variables + linearity."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har candidate ke liye indicator.",
+   "2. P(indicator=1) nikaalo.",
+   "3. Sum karo."
+  ],
+  "formulasUsed": [
+   "indicator",
+   "linearity"
+  ],
+  "pyqExamples": [
+   "7.8.3",
+   "7.8.5",
+   "7.8.6",
+   "7.8.13"
+  ],
+  "variationsObserved": [
+   "Random graph me cycles ka expected count.",
+   "Smallest element of random subset."
+  ],
+  "commonTraps": [
+   "Independence maan lena jab linearity ko zaroorat nahi."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "EXP_DIRECT_PMF_02",
+  "name": "Direct Expectation / Variance from PMF/PDF",
+  "recognitionClueHinglish": "Random variable ki distribution di hai; E ya Var nikalna; exam scoring/decision problems.",
+  "whatShouldComeToMind": [
+   "E = sum x p(x)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Outcomes aur probabilities.",
+   "2. Weighted sum."
+  ],
+  "formulasUsed": [
+   "expect",
+   "var"
+  ],
+  "pyqExamples": [
+   "7.8.1",
+   "7.8.2",
+   "7.8.4",
+   "7.8.7",
+   "7.8.9",
+   "7.8.10",
+   "7.8.8",
+   "7.8.11",
+   "7.8.12",
+   "7.8.15"
+  ],
+  "variationsObserved": [
+   "Guessing marks with negative marking.",
+   "Question order strategy for maximum expected score."
+  ],
+  "commonTraps": [
+   "Var formula galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "EXP_WAITING_TIME_03",
+  "name": "Expected Waiting Time (Recursion)",
+  "recognitionClueHinglish": "'Expected number of throws tak jab tak ...' consecutive events.",
+  "whatShouldComeToMind": [
+   "State recursion."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. States banao.",
+   "2. E_s = 1 + sum p E_next.",
+   "3. Linear equations solve."
+  ],
+  "formulasUsed": [
+   "geometric"
+  ],
+  "pyqExamples": [
+   "7.8.14"
+  ],
+  "variationsObserved": [
+   "Two consecutive evens."
+  ],
+  "commonTraps": [
+   "State definition galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "difficult",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,42 @@
+{
+ "topicId": "algorithms:graph-algorithms",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-GRAPH--01",
+   "patternId": "GA_PROPERTIES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Does a DAG have a topological order?",
+   "solutionApproach": "Yes always.",
+   "answer": "Yes"
+  },
+  {
+   "practiceId": "AI-GRAPH--02",
+   "patternId": "GA_COMPLEXITY_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Best complexity to find a sink using adjacency matrix?",
+   "solutionApproach": "Eliminate candidates in O(V).",
+   "answer": "O(V)"
+  },
+  {
+   "practiceId": "AI-GRAPH-AL-X03",
+   "patternId": "GA_PROPERTIES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Time to check whether vertex has an edge to another in adjacency matrix?",
+   "solutionApproach": "Direct index.",
+   "answer": "O(1)"
+  },
+  {
+   "practiceId": "AI-GRAPH-AL-X04",
+   "patternId": "GA_COMPLEXITY_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Simple graph, distinct positive weights: is the MST unique?",
+   "solutionApproach": "Distinct weights => unique.",
+   "answer": "Yes"
+  }
+ ]
+}

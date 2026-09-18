@@ -1,0 +1,26 @@
+{
+ "topicId": "compiler-design:operator-precedence",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Operator Precedence and Associativity",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "9 PYQs extracted, 1991-2024.",
+ "pyqCountExtracted": 9,
+ "yearsCovered": [
+  1991,
+  1997,
+  2000,
+  2002,
+  2011,
+  2014,
+  2016,
+  2018,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

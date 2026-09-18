@@ -1,0 +1,24 @@
+{
+ "topicId": "algorithms:algorithm-design-techniques",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Algorithm Design Techniques",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "9 PYQs extracted, 1990-2017.",
+ "pyqCountExtracted": 9,
+ "yearsCovered": [
+  1990,
+  1994,
+  1995,
+  1997,
+  1998,
+  2015,
+  2017
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:seating-arrangement",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SEATIN-01",
+   "patternId": "P3_SEATING_ARRANGEMENT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "4 people around square table: opposite pairs?",
+   "solutionApproach": "2 pairs.",
+   "answer": "2"
+  }
+ ]
+}

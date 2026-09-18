@@ -1,0 +1,18 @@
+{
+ "coreIdea": "D flip-flops chain: data har clock par ek position shift.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Shift Registers se related sawal.",
+   "thinkThis": "P4_SHIFT_REGISTERS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Direction."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:shift-registers",
+ "revisionLevel": "short-form"
+}

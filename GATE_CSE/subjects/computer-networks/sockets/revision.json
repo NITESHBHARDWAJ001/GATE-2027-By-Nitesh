@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Server order: socket, bind, listen, accept; connect sends SYN; listen active->passive.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Socket API se related sawal.",
+   "thinkThis": "P3_SOCKETS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Order galat."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:sockets",
+ "revisionLevel": "short-form"
+}

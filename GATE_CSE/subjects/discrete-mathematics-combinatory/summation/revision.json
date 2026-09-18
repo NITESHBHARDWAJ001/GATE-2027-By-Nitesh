@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Standard sums, substrings count n(n+1)/2, induction-free identities.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Summations se related sawal.",
+   "thinkThis": "P3_SUMMATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Bounds off-by-one."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-combinatory:summation",
+ "revisionLevel": "short-form"
+}

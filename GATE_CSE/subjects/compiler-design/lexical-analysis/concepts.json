@@ -1,0 +1,23 @@
+{
+ "overview": "Tokens count, keyword recognition, symbol table.",
+ "whyItMatters": "6 PYQs extracted (1987-2018); P3 topic.",
+ "coreConcept": "Tokens count, keyword recognition, symbol table.",
+ "hinglishExplanation": "Scanner longest match se tokens banata hai; keywords lexical phase me pehchane.",
+ "formalDefinition": "Tokens count, keyword recognition, symbol table.",
+ "importantProperties": [
+  "Token: keyword, identifier, literal, operator, punctuation.",
+  "Longest match rule.",
+  "Symbol table variable info store karta hai.",
+  "String literal ek token."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "String ke andar ke chars alag tokens ginna."
+ ],
+ "standardTechniques": [
+  "1. Split by rules.",
+  "2. Count."
+ ],
+ "topicId": "compiler-design:lexical-analysis"
+}

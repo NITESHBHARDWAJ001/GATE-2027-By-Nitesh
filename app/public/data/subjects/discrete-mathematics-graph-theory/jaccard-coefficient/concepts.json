@@ -1,0 +1,22 @@
+{
+ "overview": "Two sets ka |A n B| / |A u B|; spanning tree edge-sets ke liye.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Two sets ka |A n B| / |A u B|; spanning tree edge-sets ke liye.",
+ "hinglishExplanation": "Jaccard = intersection / union.",
+ "formalDefinition": "Two sets ka |A n B| / |A u B|; spanning tree edge-sets ke liye.",
+ "importantProperties": [
+  "Complete graph K_n spanning trees n-1 edges.",
+  "J = |A n B|/|A u B|.",
+  "Cayley: n^(n-2) spanning trees."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Union me double count."
+ ],
+ "standardTechniques": [
+  "1. Sets.",
+  "2. Ratio."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:jaccard-coefficient"
+}

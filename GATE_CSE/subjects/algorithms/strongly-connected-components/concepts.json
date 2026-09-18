@@ -1,0 +1,24 @@
+{
+ "overview": "Undirected me connected components (DFS/BFS/union-find), directed me SCC (Kosaraju/Tarjan).",
+ "whyItMatters": "3 PYQs extracted (2006-2018); P3 topic.",
+ "coreConcept": "Undirected me connected components (DFS/BFS/union-find), directed me SCC (Kosaraju/Tarjan).",
+ "hinglishExplanation": "SCC me har vertex doosre tak pahunch sakta hai; graph ke SCCs condensation DAG banate hain.",
+ "formalDefinition": "Undirected me connected components (DFS/BFS/union-find), directed me SCC (Kosaraju/Tarjan).",
+ "importantProperties": [
+  "Connected components O(V+E).",
+  "SCC: Kosaraju/Tarjan O(V+E).",
+  "Condensation graph DAG hota hai.",
+  "Permutation graphs jaise questions me structure se components ginte hain."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Weak vs strong connectivity mix."
+ ],
+ "standardTechniques": [
+  "1. DFS.",
+  "2. Reverse graph DFS.",
+  "3. Components."
+ ],
+ "topicId": "algorithms:strongly-connected-components"
+}

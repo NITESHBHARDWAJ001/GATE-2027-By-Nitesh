@@ -1,0 +1,20 @@
+{
+ "overview": "Ages ke constraints se ordering.",
+ "whyItMatters": "1 PYQs extracted (2010-2010); P4 topic.",
+ "coreConcept": "Ages ke constraints se ordering.",
+ "hinglishExplanation": "Har person ki age variable, constraints likho.",
+ "formalDefinition": "Ages ke constraints se ordering.",
+ "importantProperties": [
+  "Twins/birth order constraints.",
+  "Difference of ages constant."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Extra assumption."
+ ],
+ "standardTechniques": [
+  "1. Variables."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:age-relation"
+}

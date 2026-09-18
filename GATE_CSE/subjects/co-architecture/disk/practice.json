@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:disk",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DISK-01",
+   "patternId": "P3_DISK_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "7200 RPM avg rotational latency?",
+   "solutionApproach": "60/7200/2.",
+   "answer": "4.17 ms"
+  }
+ ]
+}

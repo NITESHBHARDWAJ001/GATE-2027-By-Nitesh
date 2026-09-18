@@ -1,0 +1,42 @@
+{
+ "topicId": "co-architecture:addressing-modes",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ADDRES-01",
+   "patternId": "AM_CONCEPT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Best mode for position-independent code?",
+   "solutionApproach": "PC-relative.",
+   "answer": "Relative"
+  },
+  {
+   "practiceId": "AI-ADDRES-02",
+   "patternId": "AM_EA_CALC_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Indexed: A=100, X=20. EA?",
+   "solutionApproach": "100+20.",
+   "answer": "120"
+  },
+  {
+   "practiceId": "AI-ADDRESSI-X03",
+   "patternId": "AM_EA_CALC_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Indexed addressing, base 2000, index reg 30, word 4 B scaling not applied. EA?",
+   "solutionApproach": "2000+30.",
+   "answer": "2030"
+  },
+  {
+   "practiceId": "AI-ADDRESSI-X04",
+   "patternId": "AM_CONCEPT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Mode where operand is in the instruction?",
+   "solutionApproach": "Immediate.",
+   "answer": "Immediate"
+  }
+ ]
+}

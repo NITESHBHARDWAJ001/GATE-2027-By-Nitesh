@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_NUMBER_SYSTEM_01",
+  "name": "Number System (PYQ type)",
+  "recognitionClueHinglish": "Number System se related sawal.",
+  "whatShouldComeToMind": [
+   "Divisibility, remainders, primes, LCM/HCF."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rule."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.35.1",
+   "9.35.2",
+   "9.35.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Rule misuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

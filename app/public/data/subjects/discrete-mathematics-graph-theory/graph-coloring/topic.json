@@ -1,0 +1,27 @@
+{
+ "topicId": "discrete-mathematics-graph-theory:graph-coloring",
+ "subjectId": "discrete-mathematics-graph-theory",
+ "subject": "Discrete Mathematics - Graph Theory",
+ "name": "Graph Coloring",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "11 PYQs extracted, 2002-2024.",
+ "pyqCountExtracted": 11,
+ "yearsCovered": [
+  2002,
+  2004,
+  2006,
+  2008,
+  2009,
+  2016,
+  2018,
+  2020,
+  2023,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

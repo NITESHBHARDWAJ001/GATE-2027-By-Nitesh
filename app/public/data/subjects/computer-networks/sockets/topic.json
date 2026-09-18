@@ -1,0 +1,20 @@
+{
+ "topicId": "computer-networks:sockets",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "Socket API",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 2008-2015.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  2008,
+  2014,
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

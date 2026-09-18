@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:carry-generator",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CARRY--01",
+   "patternId": "P4_CARRY_GENERATOR_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "C1 in terms of G0,P0,C0?",
+   "solutionApproach": "Definition.",
+   "answer": "G0 + P0 C0"
+  }
+ ]
+}

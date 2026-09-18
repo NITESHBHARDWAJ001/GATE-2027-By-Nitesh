@@ -1,0 +1,20 @@
+{
+  "topicId": "prog-c-programming-in-c",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "name": "Programming In C",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "29 PYQs extracted, tested 2000-2026 continuously with strong recent presence (2017-2026 almost every year). This is the general code-tracing bucket, distinct from the dedicated Recursion/Pointers/Output topics in this subject.",
+  "pyqCountExtracted": 29,
+  "yearsCovered": [2000,2002,2005,2008,2012,2014,2015,2016,2017,2018,2019,2021,2024,2026],
+  "prerequisites": [],
+  "unlocks": [
+    {"topic": "Recursion", "subjectId": "programming-programming-in-c", "why": "Recursion questions are code-tracing questions with a recursive call — same dry-run skill, extra recursive-call-stack layer."},
+    {"topic": "Pointers", "subjectId": "programming-programming-in-c", "why": "Many code-tracing PYQs already mix in pointer arithmetic; dedicated Pointers topic goes deeper."},
+    {"topic": "Identify Function", "subjectId": "algorithms", "why": "The 'trace this code and identify what it computes' pattern in Algorithms directly builds on comfort tracing C code."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

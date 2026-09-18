@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:grammatical-error",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-GRAMMA-01",
+   "patternId": "P3_GRAMMATICAL_ERROR_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "'He are' vs 'He is'?",
+   "solutionApproach": "Agreement.",
+   "answer": "He is"
+  }
+ ]
+}

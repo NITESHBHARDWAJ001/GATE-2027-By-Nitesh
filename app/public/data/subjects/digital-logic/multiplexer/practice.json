@@ -1,0 +1,33 @@
+{
+ "topicId": "digital-logic:multiplexer",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MULTIP-01",
+   "patternId": "MUX_SIZE_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Min MUX + 1 inverter for any 4-variable function?",
+   "solutionApproach": "8:1.",
+   "answer": "8:1"
+  },
+  {
+   "practiceId": "AI-MULTIPLE-X02",
+   "patternId": "MUX_FUNCTION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Selects needed for 8:1 mux?",
+   "solutionApproach": "3.",
+   "answer": "3"
+  },
+  {
+   "practiceId": "AI-MULTIPLE-X03",
+   "patternId": "MUX_SIZE_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "How many 2:1 MUX to build 8:1?",
+   "solutionApproach": "4+2+1.",
+   "answer": "7"
+  }
+ ]
+}

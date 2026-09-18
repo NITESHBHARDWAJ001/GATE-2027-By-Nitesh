@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "theory-of-computation__6.10.1",
+  "localId": "6.10.1",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "medium",
+  "topic": "Medium",
+  "year": 2006,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "29",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "If is a string over                         then let                 denote the number of 's in and          the number of 's in . Which one of the following languages is not regular? A. B. C. D.",
+  "tagsRaw": "gatecse-2006 theory-of-computation  medium  regular-language",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 369
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_MEDIUM_01"
+ }
+]

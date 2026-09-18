@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:probability",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PROBAB-01",
+   "patternId": "P3_PROBABILITY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "p=0.1 per packet loss; expected sends?",
+   "solutionApproach": "1/0.9.",
+   "answer": "1.11"
+  }
+ ]
+}

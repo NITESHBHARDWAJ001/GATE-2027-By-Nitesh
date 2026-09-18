@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_LIVE_VARIABLE_ANALYSIS_01",
+  "name": "Live Variable Analysis (PYQ type)",
+  "recognitionClueHinglish": "Live Variable Analysis se related sawal.",
+  "whatShouldComeToMind": [
+   "Variable live: aage kahin use ho aur beech me redefine na ho; backward dataflow."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Last block.",
+   "2. Backward iterate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.17.1",
+   "2.17.2",
+   "2.17.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Forward direction lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

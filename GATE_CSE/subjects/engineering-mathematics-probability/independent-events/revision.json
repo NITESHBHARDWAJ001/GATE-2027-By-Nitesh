@@ -1,0 +1,20 @@
+{
+ "coreIdea": "Independent <=> P(AnB)=P(A)P(B).",
+ "mustRememberFormulas": [
+  "union: 1-(1-p)(1-q)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Events ka independence ya at-least-one probability.",
+   "thinkThis": "IND_TEST_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Exclusive vs independent."
+ ],
+ "highYieldPyqLessons": [
+  "Coin-event independence checks recur (2023-2025)."
+ ],
+ "topicId": "engineering-mathematics-probability:independent-events",
+ "revisionLevel": "short-form"
+}

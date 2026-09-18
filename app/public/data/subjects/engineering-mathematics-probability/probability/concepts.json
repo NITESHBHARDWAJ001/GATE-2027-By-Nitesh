@@ -1,0 +1,46 @@
+{
+ "overview": "Basic probability: sample space, events, counting-based probability, conditional probability, independence, Bayes rule, total probability, aur inclusion-exclusion. GATE me dice, coins, cards, balls-in-bag, divisibility aur multi-stage experiments aate hain.",
+ "whyItMatters": "31 PYQs, 1995-2026; har saal probability ka kam se kam ek sawal.",
+ "coreConcept": "P(event) = favourable outcomes / total equally likely outcomes. Complex events ko AND (multiply, independent ho to), OR (add, mutually exclusive ho to), aur complement (1 - P) se todo.",
+ "hinglishExplanation": "Pehle sample space socho: kitne equally likely outcomes hain. 'At least one' wale sawal me complement use karo: 1 - P(none). 'Given that' aaye to conditional probability: P(A|B) = P(A and B)/P(B), yaani sample space chhota ho jaata hai. Multi-step experiment ke liye tree diagram banao aur paths ko multiply/add karo.",
+ "formalDefinition": "P(A|B) = P(A n B) / P(B); Bayes: P(A|B) = P(B|A)P(A)/P(B).",
+ "importantProperties": [
+  "P(A u B) = P(A) + P(B) - P(A n B).",
+  "P(A^c) = 1 - P(A).",
+  "Independent: P(A n B) = P(A)P(B).",
+  "Mutually exclusive: P(A n B) = 0 (independent se alag concept).",
+  "Total probability: P(B) = sum P(B|A_i)P(A_i).",
+  "Bayes rule posterior nikalta hai.",
+  "Without replacement: conditional probabilities badalte hain; with replacement: independent.",
+  "Two dice: 36 outcomes; n dice: 6^n.",
+  "Sum of dice type: coefficient/generating function ya enumeration.",
+  "Birthday-type: P(all distinct) = n!/(n^k) style.",
+  "Symmetry: kisi bhi do positions par aces hone ki probability same.",
+  "Repeated trial until success: geometric series (e.g., 'roll again on tie')."
+ ],
+ "formulas": {
+  "union": "P(A u B) = P(A)+P(B)-P(A n B)",
+  "conditional": "P(A|B) = P(A n B)/P(B)",
+  "bayes": "P(A|B) = P(B|A)P(A)/P(B)",
+  "total": "P(B) = sum P(B|Ai)P(Ai)",
+  "atLeastOne": "1 - P(none)",
+  "indep": "P(A n B) = P(A)P(B)"
+ },
+ "keyPropertiesAndIdentities": [
+  "Independent events ke complements bhi independent.",
+  "P(A u B) <= P(A) + P(B)."
+ ],
+ "commonPitfalls": [
+  "Mutually exclusive ko independent samajhna.",
+  "Ordered vs unordered outcomes mix karna.",
+  "Conditional me denominator galat (original space use karna).",
+  "Divisibility problems me overlap (inclusion-exclusion) miss karna."
+ ],
+ "standardTechniques": [
+  "Sample space likho.",
+  "Complement trick.",
+  "Tree diagram.",
+  "Symmetry / linearity of counting."
+ ],
+ "topicId": "em-prob-probability"
+}

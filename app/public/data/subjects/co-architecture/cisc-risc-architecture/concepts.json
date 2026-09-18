@@ -1,0 +1,22 @@
+{
+ "overview": "RISC: fixed length, load-store, more registers, hardwired control; CISC: complex instructions, variable length, microcode.",
+ "whyItMatters": "2 PYQs extracted (1999-2018); P3 topic.",
+ "coreConcept": "RISC: fixed length, load-store, more registers, hardwired control; CISC: complex instructions, variable length, microcode.",
+ "hinglishExplanation": "RISC simple instructions, pipeline friendly.",
+ "formalDefinition": "RISC: fixed length, load-store, more registers, hardwired control; CISC: complex instructions, variable length, microcode.",
+ "importantProperties": [
+  "RISC: register-to-register, fixed instruction length.",
+  "CISC: memory operands, many addressing modes.",
+  "RISC me kam addressing modes, zyada registers.",
+  "RISC me CPI ~1."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "RISC ko microprogrammed maan lena."
+ ],
+ "standardTechniques": [
+  "1. Feature match."
+ ],
+ "topicId": "co-architecture:cisc-risc-architecture"
+}

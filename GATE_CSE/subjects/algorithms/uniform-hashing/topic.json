@@ -1,0 +1,18 @@
+{
+ "topicId": "algorithms:uniform-hashing",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Simple Uniform Hashing",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2022-2022.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2022
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

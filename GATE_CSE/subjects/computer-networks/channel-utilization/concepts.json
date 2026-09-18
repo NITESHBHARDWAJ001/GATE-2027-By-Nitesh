@@ -1,0 +1,21 @@
+{
+ "overview": "Stop-and-wait utilization = Tt/(Tt+2Tp).",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Stop-and-wait utilization = Tt/(Tt+2Tp).",
+ "hinglishExplanation": "Utilization useful transmission time / total cycle time.",
+ "formalDefinition": "Stop-and-wait utilization = Tt/(Tt+2Tp).",
+ "importantProperties": [
+  "U = Tt/(Tt+2Tp).",
+  "Sliding window: min(1, W/(1+2a)).",
+  "Ack size ignore ya include as diya."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Ack time bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Tt, Tp."
+ ],
+ "topicId": "computer-networks:channel-utilization"
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_SHORTEST_PATH_01",
+  "name": "Shortest Path (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Shortest Path (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "Minimum route in a small graph/grid."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Enumerate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.50.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Missed route."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

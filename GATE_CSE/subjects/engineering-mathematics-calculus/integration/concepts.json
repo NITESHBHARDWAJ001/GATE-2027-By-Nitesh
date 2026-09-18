@@ -1,0 +1,24 @@
+{
+ "overview": "Double/single integrals, substitution, by parts, properties of definite integrals.",
+ "whyItMatters": "11 PYQs extracted (1993-2018); P3 topic.",
+ "coreConcept": "Double/single integrals, substitution, by parts, properties of definite integrals.",
+ "hinglishExplanation": "Integral = area/anti-derivative; symmetry aur substitution se simplify.",
+ "formalDefinition": "Double/single integrals, substitution, by parts, properties of definite integrals.",
+ "importantProperties": [
+  "Substitution, integration by parts.",
+  "Even function symmetric limits: 2x half.",
+  "Double integral: iterated order change.",
+  "Fundamental theorem: d/dx int_a^x f = f(x)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Limits change karna bhoolna (substitution)."
+ ],
+ "standardTechniques": [
+  "1. Technique.",
+  "2. Limits.",
+  "3. Evaluate."
+ ],
+ "topicId": "engineering-mathematics-calculus:integration"
+}

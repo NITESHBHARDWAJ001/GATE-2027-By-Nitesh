@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "algorithms__1.12.1",
+  "localId": "1.12.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "depth-first-search",
+  "topic": "Depth First Search",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "40",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "B;D",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following pseudocode for depth-first search (DFS) algorithm which takes a directed graph as input, where and are the discovery time and finishing time, respectively, of the vertex . Suppose that the input directed graph                                is a directed acyclic graph (DAG). For an edge                , which of the following options will NEVER be correct? A.                                                                                  B. C.                                                                                  D.",
+  "tagsRaw": "gatecse-2026-set1 algorithms depth-first-search two-marks multiple-selects",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 35
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DEPTH_FIRST_SEARCH_01"
+ },
+ {
+  "pyqId": "algorithms__1.12.2",
+  "localId": "1.12.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "depth-first-search",
+  "topic": "Depth First Search",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "55",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "75:75",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a directed graph                                        , where                            and      , for all                  . Suppose the adjacency list of each vertex is in decreasing order of vertex number, and depth-first search                        is performed at vertex . The number of vertices that will be discovered after vertex is ____________ (Answer in integer)",
+  "tagsRaw": "gateda-2025 algorithms   depth-first-search   numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 37
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DEPTH_FIRST_SEARCH_01"
+ }
+]

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P4_PRIME_IMPLICANTS_01",
+  "name": "Prime Implicants (PYQ type)",
+  "recognitionClueHinglish": "Prime Implicants se related sawal.",
+  "whatShouldComeToMind": [
+   "Prime implicant: maximal group; essential = akela cover karne wala."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Groups.",
+   "2. Essential."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.30.1",
+   "4.30.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Non-maximal group."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

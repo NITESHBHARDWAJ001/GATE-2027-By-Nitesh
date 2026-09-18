@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "algorithms__1.38.1",
+  "localId": "1.38.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "selection-sort",
+  "topic": "Selection Sort",
+  "year": 2009,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "11",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "What is the number of swaps required to sort elements using selection sort, in the worst case? A.                                                                                    B. C.                                                                                    D.",
+  "tagsRaw": "gatecse-2009 algorithms sorting easy selection-sort",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 94
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_SELECTION_SORT_01"
+ },
+ {
+  "pyqId": "algorithms__1.38.2",
+  "localId": "1.38.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "selection-sort",
+  "topic": "Selection Sort",
+  "year": 2013,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Which one of the following is the tightest upper bound that represents the number of swaps required to sort numbers using selection sort? A.   )                        B. )                                               C.             )              D.  )",
+  "tagsRaw": "gatecse-2013 algorithms sorting easy selection-sort",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 97
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_SELECTION_SORT_01"
+ }
+]

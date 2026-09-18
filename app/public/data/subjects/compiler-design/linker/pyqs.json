@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "compiler-design__2.16.1",
+  "localId": "2.16.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "linker",
+  "topic": "Linker",
+  "year": 1991,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "03,ix",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "A \"link editor\" is a program that: A. matches the parameters of the macro-definition with locations of the parameters of the macro call B. matches external names of one program with their location in other programs C. matches the parameters of subroutine definition with the location of parameters of subroutine call. D. acts as a link between text editor and the user E. acts as a link between compiler and the user program",
+  "tagsRaw": "gate1991 compiler-design  normal   linker  multiple-selects",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 155
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LINKER_01"
+ },
+ {
+  "pyqId": "compiler-design__2.16.2",
+  "localId": "2.16.2",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "linker",
+  "topic": "Linker",
+  "year": 2003,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "76",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following is NOT an advantage of using shared, dynamically linked libraries as opposed to using statistically linked libraries? A. Smaller sizes of executable files B. Lesser overall page fault rate in the system C. Faster program startup D. Existing programs need not be re-linked to take advantage of newer versions of libraries",
+  "tagsRaw": "gatecse-2003 compiler-design runtime-environment linker easy",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 155
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LINKER_01"
+ },
+ {
+  "pyqId": "compiler-design__2.16.3",
+  "localId": "2.16.3",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "linker",
+  "topic": "Linker",
+  "year": 2004,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a program that consists of two source modules and contained in two different files. If contains a reference to a function defined in the reference will be resolved at A. Edit time                       B. Compile time                 C. Link time                D. Load time",
+  "tagsRaw": "gatecse-2004 compiler-design easy linker",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 155
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LINKER_01"
+ }
+]

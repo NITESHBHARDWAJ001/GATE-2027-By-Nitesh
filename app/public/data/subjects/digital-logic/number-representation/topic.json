@@ -1,0 +1,19 @@
+{
+  "topicId": "dl-number-representation",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "name": "Number Representation",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "57 PYQs extracted — 2nd highest-PYQ topic across the entire corpus, tested 1990-2026 almost every year. Foundational Digital Logic topic, prerequisite for Boolean Algebra and Cache Memory's address-bit work.",
+  "pyqCountExtracted": 57,
+  "yearsCovered": [1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2008,2009,2010,2013,2014,2015,2016,2017,2019,2021,2022,2023,2024,2025,2026],
+  "prerequisites": [],
+  "unlocks": [
+    {"topic": "Boolean Algebra", "subjectId": "digital-logic", "why": "Boolean algebra manipulates the binary values this topic establishes."},
+    {"topic": "Cache Memory", "subjectId": "co-architecture", "why": "Address-bit splitting (Tag/Set/Offset) needs comfort with binary/hex number handling."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

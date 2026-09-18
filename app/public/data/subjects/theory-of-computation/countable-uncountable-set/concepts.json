@@ -1,0 +1,21 @@
+{
+ "overview": "Sigma* countable; languages (power set) uncountable; RE languages countable.",
+ "whyItMatters": "3 PYQs extracted (1997-2019); P3 topic.",
+ "coreConcept": "Sigma* countable; languages (power set) uncountable; RE languages countable.",
+ "hinglishExplanation": "Strings countable, languages uncountable.",
+ "formalDefinition": "Sigma* countable; languages (power set) uncountable; RE languages countable.",
+ "importantProperties": [
+  "Sigma* countable.",
+  "All languages uncountable.",
+  "RE languages countable (TMs countable)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Languages ko countable."
+ ],
+ "standardTechniques": [
+  "1. Enumerate?"
+ ],
+ "topicId": "theory-of-computation:countable-uncountable-set"
+}

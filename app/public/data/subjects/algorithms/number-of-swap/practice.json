@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:number-of-swap",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NUMBER-01",
+   "patternId": "P3_NUMBER_OF_SWAP_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Bubble sort on (3,2,1): swaps?",
+   "solutionApproach": "3 inversions.",
+   "answer": "3"
+  }
+ ]
+}

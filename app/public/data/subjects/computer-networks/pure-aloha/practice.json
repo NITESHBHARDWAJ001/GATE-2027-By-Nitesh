@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:pure-aloha",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PURE-A-01",
+   "patternId": "P3_PURE_ALOHA_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "G=0.5 pure ALOHA S?",
+   "solutionApproach": "0.5 e^-1.",
+   "answer": "0.184"
+  }
+ ]
+}

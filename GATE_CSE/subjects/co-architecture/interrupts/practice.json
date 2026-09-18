@@ -1,0 +1,33 @@
+{
+ "topicId": "co-architecture:interrupts",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INTERR-01",
+   "patternId": "INT_OVERHEAD_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Device 10 KB/s, interrupt per byte, overhead 20 us. Fraction of CPU?",
+   "solutionApproach": "Byte time 100 us; 20/100.",
+   "answer": "20%"
+  },
+  {
+   "practiceId": "AI-INTERRUP-X02",
+   "patternId": "INT_OVERHEAD_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Device 1 KB/s (byte-wise), interrupt overhead 100 us. Fraction of CPU?",
+   "solutionApproach": "Byte time 1 ms; 0.1/1.",
+   "answer": "10%"
+  },
+  {
+   "practiceId": "AI-INTERRUP-X03",
+   "patternId": "INT_CONCEPT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Vectored interrupt: who supplies the ISR address?",
+   "solutionApproach": "Device.",
+   "answer": "The device"
+  }
+ ]
+}

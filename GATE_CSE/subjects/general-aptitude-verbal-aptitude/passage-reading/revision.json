@@ -1,0 +1,23 @@
+{
+ "coreIdea": "Sirf passage me diye evidence ko use karo, apna knowledge nahi.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Passage se kaunsi baat follow karti hai.",
+   "thinkThis": "PR_INFERENCE_01"
+  },
+  {
+   "seeThis": "Passage ka central idea ya lesson.",
+   "thinkThis": "PR_MAIN_IDEA_TONE_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Extreme words.",
+  "Too narrow."
+ ],
+ "highYieldPyqLessons": [
+  "Practise elimination of extreme options."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:passage-reading",
+ "revisionLevel": "short-form"
+}

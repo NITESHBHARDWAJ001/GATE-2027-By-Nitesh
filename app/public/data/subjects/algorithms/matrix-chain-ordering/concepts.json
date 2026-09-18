@@ -1,0 +1,24 @@
+{
+ "overview": "Matrices ka parenthesization jo scalar multiplications minimize kare.",
+ "whyItMatters": "3 PYQs extracted (2011-2018); P3 topic.",
+ "coreConcept": "Matrices ka parenthesization jo scalar multiplications minimize kare.",
+ "hinglishExplanation": "p x q aur q x r ka product p*q*r multiplications; DP m[i][j] = min over k (m[i][k]+m[k+1][j]+p_{i-1}p_k p_j).",
+ "formalDefinition": "Matrices ka parenthesization jo scalar multiplications minimize kare.",
+ "importantProperties": [
+  "Cost of (p x q)(q x r) = pqr.",
+  "Parenthesization se cost bahut badal sakti hai.",
+  "DP O(n^3).",
+  "Association order se result same, cost alag."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Dimensions ka order galat."
+ ],
+ "standardTechniques": [
+  "1. Dimensions array p.",
+  "2. Interval DP.",
+  "3. m[1][n]."
+ ],
+ "topicId": "algorithms:matrix-chain-ordering"
+}

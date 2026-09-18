@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "NR_BASE_CONVERSION_01",
+    "name": "Base/Radix Conversion (including unknown-radix equations)",
+    "recognitionClueHinglish": "Poocha hai ek number ko ek base se doosre me convert karo, ya ek equation di hai jisme base(s) UNKNOWN hai aur solve karna hai — is topic ka sabse bada pattern hai (57 me se 18 PYQs).",
+    "whatShouldComeToMind": ["Positional value formula: Σ digit×base^position — apply directly for conversion.", "For unknown-base equations: set up the polynomial equation, solve algebraically, remember the base must exceed every digit used in that representation."],
+    "conceptsRequired": ["Positional number system formula", "Algebraic equation-solving for unknown bases"],
+    "generalSolvingApproach": ["1. For direct conversion: convert to decimal first (using the positional formula) as an intermediate step, then convert decimal to the target base if needed.", "2. For unknown-radix equations: write out the positional-value expressions for both sides symbolically, set equal, solve the resulting polynomial/equation for the unknown base(s).", "3. Always check solution validity: the base must be a positive integer STRICTLY GREATER than the largest digit appearing in that number's representation."],
+    "formulasUsed": ["baseToDecimal"],
+    "pyqExamples": ["4.28.5","4.28.10","4.28.11","4.28.17","4.28.23","4.28.27","4.28.29","4.28.30","4.28.33","4.28.34","4.28.35","4.28.39","4.28.43","4.28.46","4.28.48","4.28.53","4.28.54","4.28.56"],
+    "variationsObserved": ["Multiple valid (base) solutions to count, not just find one.", "Cross-base equality checks (is X in base-p equal to Y in base-q) — convert both to decimal and compare."],
+    "commonTraps": ["Forgetting the base-must-exceed-largest-digit validity constraint, potentially missing/including invalid solutions.", "Arithmetic slips in the positional-value expansion for larger numbers — write out each term explicitly rather than doing it mentally."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "NR_TWOSCOMP_REPRESENTATION_02",
+    "name": "Two's Complement Representation & Range",
+    "recognitionClueHinglish": "Poocha hai ek number ki 2's complement representation kya hai, ya given bit-pattern ka decimal value kya hai, ya n-bit representation ka RANGE kya hai — is topic ka doosra bada pattern hai (57 me se 16 PYQs).",
+    "whatShouldComeToMind": ["To find 2's complement of a negative decimal: represent |x| in binary, invert all bits, add 1.", "To find decimal value of a 2's complement bit pattern: if sign bit is 0, direct positional value; if sign bit is 1, compute -(2^n - value) or invert+add1 then negate.", "Range is ASYMMETRIC: -2^(n-1) to 2^(n-1)-1."],
+    "conceptsRequired": ["Two's complement encode/decode procedure", "Asymmetric range formula"],
+    "generalSolvingApproach": ["1. For encoding a negative number: binary of magnitude → invert all bits → add 1.", "2. For decoding: check sign bit; if negative, apply the inverse procedure (subtract 1, invert, negate) or use the 2^n - value shortcut.", "3. For range/bit-width questions: apply the exact asymmetric formula directly, don't assume symmetric range."],
+    "formulasUsed": ["twosComplementRange","twosComplementOfX","signMagnitudeRange"],
+    "pyqExamples": ["4.28.6","4.28.7","4.28.14","4.28.16","4.28.18","4.28.22","4.28.25","4.28.26","4.28.31","4.28.32","4.28.36","4.28.37","4.28.41","4.28.44","4.28.47","4.28.49"],
+    "variationsObserved": ["Hexadecimal 2's complement representation (combine base-conversion with 2's complement encoding).", "Product of two 2's complement numbers — needs up to 2n bits to represent without overflow.", "Bit-width EXTENSION questions (sign-extend a smaller representation to more bits)."],
+    "commonTraps": ["Off-by-one on the boundary of the asymmetric range.", "Padding with 0s instead of sign-extending for negative number bit-width extension."],
+    "edgeCases": ["The most negative value (-2^(n-1)) has NO positive counterpart in the same bit width — special case worth remembering."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "NR_OVERFLOW_03",
+    "name": "Overflow Detection in Arithmetic",
+    "recognitionClueHinglish": "Do numbers add/subtract ho rahe hain (2's complement ya sign-magnitude), aur poocha hai OVERFLOW hoga ya nahi — is topic ka teesra bada pattern hai (57 me se 13 PYQs).",
+    "whatShouldComeToMind": ["Two's complement: overflow ⟺ carry-into-sign-bit ≠ carry-out-of-sign-bit.", "Opposite-sign addition CANNOT overflow — only same-sign addition can.", "For subtraction: convert to addition of the negation (A-B = A+(-B)), then apply the same addition-overflow rule."],
+    "conceptsRequired": ["Carry-in/carry-out comparison rule", "Same-sign-only overflow possibility"],
+    "generalSolvingApproach": ["1. If the operands have OPPOSITE signs (for addition) — immediately conclude NO overflow possible.", "2. If SAME signs: perform the actual binary addition, track the carry INTO the sign-bit position and the carry OUT of it, compare.", "3. For subtraction, first negate the subtrahend (2's complement), then apply the same addition-overflow analysis."],
+    "formulasUsed": ["overflowRule"],
+    "pyqExamples": ["4.28.1","4.28.4","4.28.19","4.28.20","4.28.28","4.28.38","4.28.42","4.28.45","4.28.50","4.28.51","4.28.52","4.28.55","4.28.57"],
+    "variationsObserved": ["Sign-magnitude specific overflow rules (different from 2's complement's carry-based rule — sign-magnitude addition of same-sign operands overflows if the magnitude-sum exceeds the representable range directly).", "Hardware-flag questions (carry flag vs overflow flag distinction in a processor's status word)."],
+    "commonTraps": ["Confusing 'carry out of the MSB' alone with overflow — must compare carry-IN vs carry-OUT specifically at the sign bit.", "Applying the 2's complement overflow rule to a sign-magnitude problem (different rules apply)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "NR_BIT_PROPERTIES_04",
+    "name": "Bit-Counting / Special Numeric Properties (incl. floating point)",
+    "recognitionClueHinglish": "Poocha hai binary representation me kitne 1's hain, ya sign-extension kya karta hai, ya zero ki kitni representations hain, ya floating-point precision/rounding related question — ye miscellaneous numeric-properties pattern hai.",
+    "whatShouldComeToMind": ["Count 1-bits directly by converting to binary and counting.", "Sign-magnitude/1's complement have TWO zero representations (+0, -0); two's complement has ONE.", "Floating point precision loss: adding a very small number to a very large one can lose the small value entirely due to limited mantissa bits (rounding)."],
+    "conceptsRequired": ["Binary bit-counting", "Floating-point representation basics (sign, exponent, mantissa)"],
+    "generalSolvingApproach": ["1. For bit-counting: convert to binary explicitly, count directly.", "2. For zero-representation questions: recall the specific count per encoding scheme (2 for sign-magnitude/1's-complement, 1 for 2's complement).", "3. For floating-point questions: consider mantissa precision limits — small differences can vanish when added to much larger magnitude numbers (catastrophic cancellation / precision loss)."],
+    "formulasUsed": [],
+    "pyqExamples": ["4.28.2","4.28.3","4.28.8","4.28.9","4.28.12","4.28.13","4.28.15","4.28.21","4.28.24","4.28.40"],
+    "variationsObserved": ["Storage-space reduction percentage questions (comparing character-encoded vs integer-encoded storage for numeric attributes).", "Probability questions about matching bit-patterns of randomly chosen numbers (combine with basic probability)."],
+    "commonTraps": ["Assuming floating-point arithmetic is exact/associative — order of operations can change results due to rounding at each step."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  }
+]

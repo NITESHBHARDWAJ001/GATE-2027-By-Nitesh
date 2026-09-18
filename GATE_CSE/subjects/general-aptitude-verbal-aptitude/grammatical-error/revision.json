@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Sahi/galat sentence.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Grammatical Error Spotting se related sawal.",
+   "thinkThis": "P3_GRAMMATICAL_ERROR_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Correct sentence ko galat."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:grammatical-error",
+ "revisionLevel": "short-form"
+}

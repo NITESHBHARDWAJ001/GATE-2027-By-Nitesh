@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Binary/decimal conversions.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Number Representation (Aptitude) se related sawal.",
+   "thinkThis": "P3_NUMBER_REPRESENTATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Bit order."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:number-representation",
+ "revisionLevel": "short-form"
+}

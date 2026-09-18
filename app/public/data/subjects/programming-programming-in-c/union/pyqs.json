@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "programming-programming-in-c__5.19.1",
+  "localId": "5.19.1",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "union",
+  "topic": "Union",
+  "year": 2000,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1.17, ISRO2015-79",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following C declaration: struct { short x[5]; union { float y; long z; } u; )t; Assume that the objects of the type short, float and long occupy bytes, bytes and bytes, respectively. The memory requirement for variable , ignoring alignment consideration, is: A. bytes                          B. bytes                               C. bytes        D. bytes",
+  "tagsRaw": "gatecse-2000 programming programming-in-c easy isro2015 union",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 311
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_UNION_01"
+ }
+]

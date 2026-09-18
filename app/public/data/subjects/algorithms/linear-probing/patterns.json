@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_LINEAR_PROBING_01",
+  "name": "Linear Probing (PYQ type)",
+  "recognitionClueHinglish": "Linear Probing se related sawal.",
+  "whatShouldComeToMind": [
+   "Open addressing me collision par agla slot (wrap-around)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. h(k).",
+   "2. Busy? +1."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.26.1",
+   "1.26.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Wrap-around bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

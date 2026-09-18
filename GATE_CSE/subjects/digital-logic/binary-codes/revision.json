@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Consecutive values me sirf ek bit alag.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Gray Code se related sawal.",
+   "thinkThis": "P4_BINARY_CODES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Conversion direction."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:binary-codes",
+ "revisionLevel": "short-form"
+}

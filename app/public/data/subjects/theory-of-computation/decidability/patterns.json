@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "DEC_CLASSIFY_PROBLEM_01",
+    "name": "Classify a Problem as Decidable/Undecidable",
+    "recognitionClueHinglish": "Ek decision problem diya hai (ek ya multiple, list ke roop me) aur poocha hai kaunse DECIDABLE hain aur kaunse UNDECIDABLE — is topic ka sabse bada pattern hai (30 me se 17 PYQs).",
+    "whatShouldComeToMind": ["Is it about a DFA/regular language (structural)? → usually DECIDABLE.", "Is it about a CFG's semantic property (ambiguity, equivalence, universality)? → usually UNDECIDABLE.", "Is it about an arbitrary TM's LANGUAGE (semantic property)? → Rice's Theorem says UNDECIDABLE."],
+    "conceptsRequired": ["Rice's Theorem", "Memorized decidable/undecidable problem lists for DFA/CFG/TM"],
+    "generalSolvingApproach": ["1. Identify the machine model the question is about (DFA, PDA/CFG, or TM).", "2. For DFA questions: almost always decidable (membership, emptiness, finiteness, equivalence all decidable).", "3. For CFG questions: check against the specific undecidable list (ambiguity, equivalence, universality, intersection-emptiness are undecidable; membership and plain emptiness/finiteness ARE decidable).", "4. For TM questions about its LANGUAGE: apply Rice's Theorem — any non-trivial semantic property is undecidable.", "5. For TM questions about its STRUCTURE/behavior-on-a-specific-input (not the full language): reason via direct Halting Problem reduction."],
+    "formulasUsed": ["ricesTheorem","decidableAboutFAandCFG","undecidableAboutCFG"],
+    "pyqExamples": ["6.5.4","6.5.5","6.5.7","6.5.8","6.5.10","6.5.11","6.5.16","6.5.17","6.5.18","6.5.19","6.5.20","6.5.23","6.5.25","6.5.26","6.5.27","6.5.29","6.5.30"],
+    "variationsObserved": ["List of 3-4 problems given, asked which SUBSET is decidable/undecidable — classify each independently, then match to the combined answer option.", "Problem framed as 'given TWO CFGs, is L(G1)⊆L(G2)' or similar comparative CFG question — almost always undecidable (equivalence-adjacent)."],
+    "commonTraps": ["Applying Rice's Theorem incorrectly to a STRUCTURAL question (like 'does this TM have ≤10 states', which is trivially decidable by direct inspection, NOT a language property).", "Assuming a CFG question is decidable just because 'CFGs are simpler than TMs' — many CFG semantic questions (ambiguity, equivalence) are still undecidable."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "DEC_REDUCTION_PROOF_02",
+    "name": "Reduction-Based Undecidability Proof",
+    "recognitionClueHinglish": "Poocha hai ek problem UNDECIDABLE hai, ye PROVE karo by REDUCING from Halting Problem (ya kisi aur known undecidable problem) — ye proof-construction pattern hai, mostly descriptive/older papers.",
+    "whatShouldComeToMind": ["Standard proof template: ASSUME the target problem X is decidable (has decider D_X). CONSTRUCT a decider for the Halting Problem using D_X as a subroutine. Since Halting Problem is undecidable, CONTRADICTION — so X must be undecidable too.", "The construction usually involves building a NEW Turing machine that 'wraps' the original halting-problem instance in a way that connects to X."],
+    "conceptsRequired": ["Reduction proof technique", "Halting Problem as the foundational undecidable problem"],
+    "generalSolvingApproach": ["1. State the assumption: 'suppose X were decidable, via decider D_X'.", "2. Design a transformation: given an arbitrary (TM, input) pair for the Halting Problem, construct a NEW instance of X such that 'X's answer' tells you 'does the TM halt on the input'.", "3. Argue this construction, combined with D_X, would decide the Halting Problem — contradiction, since Halting Problem is undecidable.", "4. Conclude X is undecidable."],
+    "formulasUsed": [],
+    "pyqExamples": ["6.5.6","6.5.9","6.5.12","6.5.13"],
+    "variationsObserved": ["Reducing from a DIFFERENT known-undecidable problem (not directly Halting Problem) — same template, just a different 'known undecidable' starting point."],
+    "commonTraps": ["Reducing in the WRONG direction — must reduce FROM the known-undecidable problem TO the target (show target's decidability would imply Halting Problem's decidability), not the reverse."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  },
+  {
+    "patternId": "DEC_RECURSIVE_RE_THEORY_03",
+    "name": "Recursive vs Recursively Enumerable Theory",
+    "recognitionClueHinglish": "Poocha hai Recursive vs RE ke beech relationship (closure under complement, NP-vs-decidable connection, 'L Recursive iff L and complement both RE') — ye theory/meta pattern hai.",
+    "whatShouldComeToMind": ["L is Recursive ⟺ both L and complement(L) are RE — the key theorem connecting the two classes.", "NP ⊆ Decidable (Recursive) — every NP language IS decidable (just maybe not efficiently, but an algorithm that always halts DOES exist, even if exponential)."],
+    "conceptsRequired": ["Recursive⟺both-RE theorem", "NP⊆Decidable relationship"],
+    "generalSolvingApproach": ["1. For complement-related claims, apply the Recursive⟺both-RE theorem directly.", "2. For NP-related claims, remember NP problems ARE decidable (NP⊆Decidable, this is NOT the P vs NP question, that's about EFFICIENCY not decidability at all).", "3. Test claims against the CANONICAL counterexample: Halting Problem is RE but NOT Recursive, and its complement is NOT RE."],
+    "formulasUsed": ["recursiveIffBothRE"],
+    "pyqExamples": ["6.5.1","6.5.2","6.5.21","6.5.22","6.5.24","6.5.28"],
+    "variationsObserved": ["Polynomial-time reducibility CHAIN questions (L1≤L2≤L3, what can be concluded) — reason about transitivity of reducibility and what it implies about relative 'hardness'."],
+    "commonTraps": ["Confusing 'NP' (efficiency class) with 'decidable' (a much weaker, definitely-implied property) — every NP language is trivially decidable via brute force, even if not efficiently."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "DEC_TM_BASICS_04",
+    "name": "Turing Machine Basic Definitions & Structure",
+    "recognitionClueHinglish": "Poocha hai Halting Problem ki definition kya hai, ya ek specific TM ke states/transitions/tape-alphabet ke baare me basic structural question — ye definitional/structural pattern hai.",
+    "whatShouldComeToMind": ["Halting Problem: given a TM M and input w, does M halt on w? — state this precisely as the canonical undecidable problem.", "For structural TM questions (states, transitions, alphabet), these are usually DIRECT read-off/trace questions, not decidability judgments."],
+    "conceptsRequired": ["TM formal definition", "Halting Problem statement"],
+    "generalSolvingApproach": ["1. For definitional questions, state the precise formal definition.", "2. For structural TM questions, trace the given transition function directly on the given input."],
+    "formulasUsed": [],
+    "pyqExamples": ["6.5.3","6.5.14","6.5.15"],
+    "variationsObserved": [],
+    "commonTraps": [],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": false
+  }
+]

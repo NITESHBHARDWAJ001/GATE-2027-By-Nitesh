@@ -1,0 +1,23 @@
+{
+ "topicId": "computer-networks:stop-and-wait",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "Stop-and-Wait Protocol",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 2005-2023.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  2005,
+  2006,
+  2015,
+  2016,
+  2017,
+  2023
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

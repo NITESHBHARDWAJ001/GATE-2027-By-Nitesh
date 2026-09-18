@@ -1,0 +1,54 @@
+[
+ {
+  "patternId": "WP_ANALOGY_01",
+  "name": "Complete the Analogy",
+  "recognitionClueHinglish": "A:B::C:?",
+  "whatShouldComeToMind": [
+   "Same relation."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Relation.",
+   "2. Apply."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.19.1",
+   "11.19.2",
+   "11.19.4",
+   "11.19.5",
+   "11.19.6",
+   "11.19.7",
+   "11.19.8",
+   "11.19.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Direction."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "WP_ODD_PAIR_02",
+  "name": "Incorrect Pair / Combinations",
+  "recognitionClueHinglish": "Kaun sa jodi galat.",
+  "whatShouldComeToMind": [
+   "Meaning check."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Each pair."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.19.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

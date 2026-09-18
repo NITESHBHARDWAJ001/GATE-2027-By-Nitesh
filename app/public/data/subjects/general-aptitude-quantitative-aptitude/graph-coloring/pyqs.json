@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.26.1",
+  "localId": "9.26.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "graph-coloring",
+  "topic": "Graph Coloring",
+  "year": 2024,
+  "examStream": "DS&AI",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "2",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "The parts of the given figure are to be painted such that no two adjacent parts with shared boundaries (excluding corners) have the same color. The minimum number of colors required is A.                                       B.                                            C.                  D.",
+  "tagsRaw": "gate-ds-ai-2024 quantitative-aptitude graph-coloring one-mark easy              Line Graph (5)",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 282
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_GRAPH_COLORING_01"
+ }
+]

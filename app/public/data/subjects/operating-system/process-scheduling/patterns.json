@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "PS_NUMERICAL_SIMULATION_01",
+    "name": "Numerical Scheduling Simulation (compute avg waiting/turnaround time)",
+    "recognitionClueHinglish": "Processes ki arrival+burst times di hain, ek SPECIFIC algorithm (FCFS/SJF/SRTF/RR/Priority) naam se poocha hai, aur average waiting/turnaround time (ya total context switches) nikaalna hai — is topic ka sabse bada pattern hai (49 me se 30 PYQs), almost pura topic isi ke around hai.",
+    "whatShouldComeToMind": ["Draw a Gantt chart timeline, apply the SPECIFIC named algorithm's selection rule at every decision point.", "For PREEMPTIVE algorithms (SRTF, preemptive priority): re-check the decision at EVERY new arrival, not just at completions.", "TAT = Completion−Arrival; WT = TAT−Burst."],
+    "conceptsRequired": ["Gantt chart construction", "Algorithm-specific selection rules (FCFS/SJF/SRTF/RR/Priority)", "TAT/WT formulas"],
+    "generalSolvingApproach": ["1. Tabulate all processes with arrival time and burst time (and priority, if relevant).", "2. Build the Gantt chart: at each decision point (process completes, OR — for preemptive algorithms — a new process arrives), apply the named algorithm's rule to pick the next process to run.", "3. Read off each process's completion time from the finished chart.", "4. Compute TAT and WT per process using the formulas.", "5. Average as asked, being careful with rounding if the question wants decimals."],
+    "formulasUsed": ["turnaroundTime","waitingTime","avgMetric"],
+    "pyqExamples": ["5.23.4","5.23.6","5.23.7","5.23.9","5.23.10","5.23.13","5.23.14","5.23.15","5.23.16","5.23.18","5.23.21","5.23.22","5.23.23","5.23.24","5.23.25","5.23.26","5.23.27","5.23.29","5.23.31","5.23.32","5.23.33","5.23.34","5.23.36","5.23.37","5.23.41","5.23.42","5.23.43","5.23.45","5.23.47","5.23.48"],
+    "variationsObserved": ["Multiprocessor scheduling (2+ CPUs available) — track each CPU's timeline SEPARATELY, apply the algorithm's rule per-CPU when choosing among ready processes.", "Processes with I/O bursts interleaved with CPU bursts (not pure CPU-bound) — track when each process becomes READY again after I/O completes, feed back into the scheduling decision.", "Weighted mean completion time (jobs have associated weights) — apply the weighted-average formula instead of a plain average.", "Multilevel/aging-priority schemes (priority increases with waiting time) — recompute priority dynamically at each re-evaluation point per the given rule."],
+    "commonTraps": ["Forgetting to re-evaluate at new arrivals for preemptive algorithms — silently running non-preemptively when SRTF/preemptive-priority was specified.", "Mixing up which algorithm variant (preemptive vs non-preemptive) is actually being asked."],
+    "edgeCases": ["Multiple processes with IDENTICAL burst/priority at a decision point — check the question's tie-breaking convention (often arrival order or explicit process-ID order)."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PS_ALGO_PROPERTY_02",
+    "name": "Algorithm Property/Comparison (best-fit scenario, preemptive vs non-preemptive, starvation)",
+    "recognitionClueHinglish": "Poocha hai kaunsa algorithm best hai for a scenario (interactive system, minimize avg wait), ya kaunsa PREEMPTIVE/non-preemptive hai, ya kaunse STARVATION cause kar sakte hain — is topic ka doosra bada pattern hai (49 me se 13 PYQs).",
+    "whatShouldComeToMind": ["Interactive/time-shared system → Round Robin (fair response time).", "Minimize average waiting time → SRTF (preemptive, theoretically optimal) or SJF (non-preemptive optimal).", "Can cause starvation: SJF, SRTF, Priority (without aging). Cannot: FCFS, Round Robin.", "Non-preemptive: FCFS, SJF (plain), non-preemptive Priority. Preemptive: SRTF, RR, preemptive Priority."],
+    "conceptsRequired": ["Algorithm strength/weakness profile", "Preemptive vs non-preemptive classification", "Starvation-prone algorithm list"],
+    "generalSolvingApproach": ["1. Identify the scenario's stated goal or constraint (fairness? minimize wait? simplicity? avoid starvation?).", "2. Match to the algorithm known for that strength.", "3. For classification questions (preemptive/non-preemptive, starvation-prone), recall the direct fact list."],
+    "formulasUsed": [],
+    "pyqExamples": ["5.23.3","5.23.5","5.23.8","5.23.11","5.23.12","5.23.17","5.23.20","5.23.28","5.23.30","5.23.38","5.23.39","5.23.44","5.23.46","5.23.49"],
+    "variationsObserved": ["Time-quantum sizing question for RR (balance context-switch overhead vs response time) — reason about the trade-off directly.", "'RR degenerates to X when quantum is very large/very small' — very large → FCFS-like; very small → fair-share/processor-sharing-like with high overhead."],
+    "commonTraps": ["Assuming SJF is always achievable in practice — it needs FUTURE burst-time KNOWLEDGE, which is often the exact point being tested (SJF is theoretically optimal but practically requires prediction)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PS_STATE_TRANSITION_03",
+    "name": "Process State Transition Diagram",
+    "recognitionClueHinglish": "Ek process state-transition diagram diya hai (New/Ready/Running/Waiting/Terminated) aur poocha hai kaunsi transitions VALID/INVALID hain.",
+    "whatShouldComeToMind": ["Standard model: New→Ready, Ready→Running (dispatch), Running→Ready (preemption/time-slice-expiry), Running→Waiting (I/O/event wait), Waiting→Ready (I/O/event complete), Running→Terminated.", "INVALID direct transitions: Waiting→Running (must go through Ready first), New→Running (must go through Ready)."],
+    "conceptsRequired": ["5-state process model"],
+    "generalSolvingApproach": ["1. Recall the standard state diagram directly.", "2. Check each candidate transition against the standard model's allowed edges — anything not directly connected is invalid."],
+    "formulasUsed": [],
+    "pyqExamples": ["5.23.19","5.23.35","5.23.40"],
+    "variationsObserved": ["Multi-CPU system state-count questions (max processes simultaneously in 'running' state = number of CPUs)."],
+    "commonTraps": ["Assuming Waiting→Running is valid — a waiting process must always re-enter Ready first, even if the CPU happens to be free."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "PS_METRIC_DEFINITIONS_04",
+    "name": "Performance Metric Definitions & Criteria",
+    "recognitionClueHinglish": "Poocha hai turnaround-time/waiting-time jaisी performance criteria ki UNDESIRABLE characteristics kya hain — definitional/critique pattern, mostly old descriptive papers.",
+    "whatShouldComeToMind": ["Turnaround time can be misleading for LONG jobs (a long job's turnaround time is dominated by its own burst time, not scheduling quality) — doesn't fairly reflect scheduling efficiency for jobs of very different lengths.", "Waiting time alone doesn't account for a job's inherent size — a fair comparison sometimes needs a NORMALIZED metric (like turnaround/burst ratio)."],
+    "conceptsRequired": ["Metric-definition critique"],
+    "generalSolvingApproach": ["1. Consider how the named metric behaves for edge-case jobs (very short vs very long) to identify its 'undesirable' bias."],
+    "formulasUsed": [],
+    "pyqExamples": ["5.23.1","5.23.2"],
+    "variationsObserved": [],
+    "commonTraps": [],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": false
+  }
+]

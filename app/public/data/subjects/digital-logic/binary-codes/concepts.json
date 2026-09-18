@@ -1,0 +1,20 @@
+{
+ "overview": "Consecutive values me sirf ek bit alag.",
+ "whyItMatters": "1 PYQs extracted (2006-2006); P4 topic.",
+ "coreConcept": "Consecutive values me sirf ek bit alag.",
+ "hinglishExplanation": "Binary to Gray: g_i = b_i xor b_{i+1}.",
+ "formalDefinition": "Consecutive values me sirf ek bit alag.",
+ "importantProperties": [
+  "G = B xor (B>>1).",
+  "Adjacent codes Hamming distance 1."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Conversion direction."
+ ],
+ "standardTechniques": [
+  "1. XOR."
+ ],
+ "topicId": "digital-logic:binary-codes"
+}

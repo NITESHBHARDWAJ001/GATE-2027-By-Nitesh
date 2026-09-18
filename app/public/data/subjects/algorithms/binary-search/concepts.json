@@ -1,0 +1,23 @@
+{
+ "overview": "Sorted array me O(log n) search; worst-case comparisons floor(log2 n)+1.",
+ "whyItMatters": "4 PYQs extracted (2021-2026); P3 topic.",
+ "coreConcept": "Sorted array me O(log n) search; worst-case comparisons floor(log2 n)+1.",
+ "hinglishExplanation": "Mid dekho aur half discard karo. Worst case tab jab element nahi mile ya last step par mile.",
+ "formalDefinition": "Sorted array me O(log n) search; worst-case comparisons floor(log2 n)+1.",
+ "importantProperties": [
+  "Worst case comparisons = floor(log2 n) + 1.",
+  "Recursive version me stack O(log n).",
+  "Sirf sorted array par.",
+  "Mid = low + (high-low)/2 overflow se bachata hai."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Unsorted array par lagana."
+ ],
+ "standardTechniques": [
+  "1. n ko halve karte jao jab tak 1.",
+  "2. Steps gino."
+ ],
+ "topicId": "algorithms:binary-search"
+}

@@ -1,0 +1,28 @@
+{
+ "topicId": "programming-and-ds-data-structures:tree",
+ "subjectId": "programming-and-ds-data-structures",
+ "subject": "Programming & DS - Data Structures",
+ "name": "Trees (General Properties)",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "13 PYQs extracted, 1990-2021.",
+ "pyqCountExtracted": 13,
+ "yearsCovered": [
+  1990,
+  1992,
+  1994,
+  1998,
+  2002,
+  2004,
+  2005,
+  2007,
+  2014,
+  2017,
+  2021
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

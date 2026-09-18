@@ -1,0 +1,42 @@
+{
+  "topicId": "algorithms-sorting",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-SORT-01",
+      "patternId": "SORT_ALGO_COMPARE_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Which sorting algorithm guarantees O(n log n) even in the WORST case, unlike Quick Sort?",
+      "solutionApproach": "Merge Sort and Heap Sort both guarantee Θ(n log n) worst case; Quick Sort's worst case is O(n²).",
+      "answer": "Merge Sort or Heap Sort"
+    },
+    {
+      "practiceId": "AI-SORT-02",
+      "patternId": "SORT_LOWERBOUND_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "What is the minimum number of comparisons needed to sort 4 elements (comparison-based, worst case)?",
+      "solutionApproach": "⌈log2(4!)⌉ = ⌈log2(24)⌉ = ⌈4.58⌉ = 5.",
+      "answer": "5"
+    },
+    {
+      "practiceId": "AI-SORT-03",
+      "patternId": "SORT_PASS_TRACE_04",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Array [5,1,4,2,8]. How many passes of Bubble Sort (with early-exit optimization) are needed to fully sort it?",
+      "solutionApproach": "Pass1: 5,1,4,2,8→1,4,2,5,8 (swaps happened). Pass2: 1,4,2,5,8→1,2,4,5,8 (swap happened). Pass3: no swaps needed, array already sorted → early exit. 3 passes total (2 with swaps + 1 confirming pass).",
+      "answer": "3 passes (2 active + 1 confirmation pass with no swaps)"
+    },
+    {
+      "practiceId": "AI-SORT-04",
+      "patternId": "SORT_DESIGN_OPTIMAL_05",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "You have an array of n integers, each guaranteed to be in range [0, 99]. What's the fastest way to sort it, and what complexity?",
+      "solutionApproach": "Range is bounded and small (constant, independent of n) — use Counting Sort. O(n+k) = O(n+100) = O(n), linear time, beating the Ω(n log n) comparison-sort bound since we're not comparison-based.",
+      "answer": "Counting Sort, O(n) — bounded range enables linear-time non-comparison sorting."
+    }
+  ]
+}

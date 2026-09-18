@@ -1,0 +1,26 @@
+{
+ "coreIdea": "Subproblem define karo, recurrence likho, table bharo (bottom-up).",
+ "mustRememberFormulas": [
+  "lcs: match: +1 diag; else max(up,left)",
+  "subset: T[i][s] = T[i-1][s] or T[i-1][s-a_i]"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "DP ka result nikaalna.",
+   "thinkThis": "DP_TABLE_01"
+  },
+  {
+   "seeThis": "Kaunsa paradigm; table entries ka meaning.",
+   "thinkThis": "DP_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Greedy vs DP.",
+  "Off-by-one."
+ ],
+ "highYieldPyqLessons": [
+  "Table-filling numerics appear 2008-2014; check recurrence carefully."
+ ],
+ "topicId": "algorithms:dynamic-programming",
+ "revisionLevel": "short-form"
+}

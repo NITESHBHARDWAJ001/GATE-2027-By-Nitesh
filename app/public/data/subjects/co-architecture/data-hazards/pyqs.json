@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "co-architecture__1.11.1",
+  "localId": "1.11.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "data-hazards",
+  "topic": "Data Hazards",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Which one of the following dependencies among the register operands of different instructions can cause a data hazard in a pipelined processor? A. Read-after-read                                                            B. Read-after-write C. Write-after-read                                                          D. Write-after-write",
+  "tagsRaw": "gatecse-2026-set1 co-and-architecture data-hazards easy one-mark     Data Path (7)",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 53
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DATA_HAZARDS_01"
+ }
+]

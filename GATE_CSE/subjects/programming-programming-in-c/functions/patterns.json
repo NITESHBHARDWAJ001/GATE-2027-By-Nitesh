@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_FUNCTIONS_01",
+  "name": "Functions and Evaluation Order (PYQ type)",
+  "recognitionClueHinglish": "Functions and Evaluation Order se related sawal.",
+  "whatShouldComeToMind": [
+   "Function calls, static/global variables, argument evaluation order."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Order.",
+   "2. Trace."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.3.1",
+   "5.3.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Order assume nahi karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

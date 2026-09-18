@@ -1,0 +1,23 @@
+{
+ "topicId": "computer-networks:ethernet",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "Ethernet and LAN",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "7 PYQs extracted, 2004-2024.",
+ "pyqCountExtracted": 7,
+ "yearsCovered": [
+  2004,
+  2006,
+  2013,
+  2016,
+  2022,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

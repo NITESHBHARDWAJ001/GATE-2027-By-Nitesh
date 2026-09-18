@@ -1,0 +1,15 @@
+{
+ "topicId": "theory-of-computation:medium",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MEDIUM-01",
+   "patternId": "P4_MEDIUM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "{w | n_a(w)=n_b(w)} regular?",
+   "solutionApproach": "Unbounded counting.",
+   "answer": "Nahi (CFL)"
+  }
+ ]
+}

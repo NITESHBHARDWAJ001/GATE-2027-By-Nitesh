@@ -1,0 +1,19 @@
+{
+ "topicId": "co-architecture:runtime-environment",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "Stack Pointer and Register Windows",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 2001-2008.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2001,
+  2008
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

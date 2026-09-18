@@ -1,0 +1,33 @@
+[
+ {
+  "patternId": "P3_ERROR_DETECTION_01",
+  "name": "Error Detection and Hamming Distance (PYQ type)",
+  "recognitionClueHinglish": "Error Detection and Hamming Distance se related sawal.",
+  "whatShouldComeToMind": [
+   "Hamming distance d: d-1 errors detect, floor((d-1)/2) correct."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Min distance.",
+   "2. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.12.1",
+   "2.12.2",
+   "2.12.3",
+   "2.12.4",
+   "2.12.5",
+   "2.12.6",
+   "2.12.7",
+   "2.12.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Detect aur correct ki limits mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

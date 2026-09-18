@@ -1,0 +1,6 @@
+# Local Claude configuration
+/.claude/
+
+# Filter volume PDFs and related files
+/filter1_volume*/
+/filter1_volume*

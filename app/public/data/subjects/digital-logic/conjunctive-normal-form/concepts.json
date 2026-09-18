@@ -1,0 +1,21 @@
+{
+ "overview": "AND of ORs; har formula ka CNF exist.",
+ "whyItMatters": "1 PYQs extracted (2007-2007); P4 topic.",
+ "coreConcept": "AND of ORs; har formula ka CNF exist.",
+ "hinglishExplanation": "CNF me clauses AND, literals OR; SAT ka standard form.",
+ "formalDefinition": "AND of ORs; har formula ka CNF exist.",
+ "importantProperties": [
+  "Har formula ka CNF.",
+  "Exponential blow-up possible.",
+  "Horn clauses CNF ke special."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Unique CNF maan lena."
+ ],
+ "standardTechniques": [
+  "1. Distribute."
+ ],
+ "topicId": "digital-logic:conjunctive-normal-form"
+}

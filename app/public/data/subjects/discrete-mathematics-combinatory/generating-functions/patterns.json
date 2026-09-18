@@ -1,0 +1,55 @@
+[
+ {
+  "patternId": "GF_CLOSED_FORM_01",
+  "name": "Closed Form of a Generating Function",
+  "recognitionClueHinglish": "Sequence se GF ya GF se sequence.",
+  "whatShouldComeToMind": [
+   "Known series."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Identify series."
+  ],
+  "formulasUsed": [
+   "geo"
+  ],
+  "pyqExamples": [
+   "1.4.1",
+   "1.4.2",
+   "1.4.5",
+   "1.4.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Shift."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "GF_COEFF_02",
+  "name": "Coefficient Extraction",
+  "recognitionClueHinglish": "x^k ka coefficient.",
+  "whatShouldComeToMind": [
+   "Binomial expansion."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Expand.",
+   "2. Coefficient."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.4.3",
+   "1.4.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Wrong exponent."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

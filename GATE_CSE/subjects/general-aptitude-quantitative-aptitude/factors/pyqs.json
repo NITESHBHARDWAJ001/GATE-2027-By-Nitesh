@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.22.1",
+  "localId": "9.22.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "factors",
+  "topic": "Factors",
+  "year": 2013,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "62",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Out of all the -digit integers between and                                a -digit number has to be selected at random. What is the probability that the selected number is not divisible by ? A.                                      B.                                 C.             D. or by",
+  "tagsRaw": "gatecse-2013 quantitative-aptitude easy probability factors",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 276
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_FACTORS_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.22.2",
+  "localId": "9.22.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "factors",
+  "topic": "Factors",
+  "year": 2018,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "4",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "What would be the smallest natural number which when divided either by                                  or by  leaves a remainder of in each case? A.                                      B.                                 C.             D.",
+  "tagsRaw": "gatecse-2018 quantitative-aptitude      factors    one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 276
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_FACTORS_01"
+ }
+]

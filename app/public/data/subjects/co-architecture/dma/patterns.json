@@ -1,0 +1,55 @@
+[
+ {
+  "patternId": "DMA_CALC_01",
+  "name": "DMA Cycle Stealing / Transfer Calculations",
+  "recognitionClueHinglish": "Transfer rate, clock rate; CPU time stolen ya number of interrupts.",
+  "whatShouldComeToMind": [
+   "Ratios."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Cycles per transfer.",
+   "2. Ratio."
+  ],
+  "formulasUsed": [
+   "stolenPercent"
+  ],
+  "pyqExamples": [
+   "1.8.1",
+   "1.8.2",
+   "1.8.3",
+   "1.8.4",
+   "1.8.7",
+   "1.8.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "MB vs Mb."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DMA_CONCEPT_02",
+  "name": "DMA Concepts",
+  "recognitionClueHinglish": "Throughput comparison, modes.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Mode compare."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.8.5",
+   "1.8.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

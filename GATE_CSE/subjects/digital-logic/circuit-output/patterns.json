@@ -1,0 +1,120 @@
+[
+ {
+  "patternId": "CO_COMB_FUNCTION_01",
+  "name": "Identify the Function of a Combinational Circuit",
+  "recognitionClueHinglish": "Gates/multiplexer circuit; output expression ya function (XOR, majority, NOR..).",
+  "whatShouldComeToMind": [
+   "Gate-by-gate expression."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Gate outputs.",
+   "2. Simplify.",
+   "3. Match option."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.8.1",
+   "4.8.2",
+   "4.8.4",
+   "4.8.7",
+   "4.8.9",
+   "4.8.11",
+   "4.8.12",
+   "4.8.15",
+   "4.8.19",
+   "4.8.21",
+   "4.8.24",
+   "4.8.28",
+   "4.8.30",
+   "4.8.34",
+   "4.8.35",
+   "4.8.37",
+   "4.8.38"
+  ],
+  "variationsObserved": [
+   "Open-collector NAND wiring."
+  ],
+  "commonTraps": [
+   "Simplification errors."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CO_SEQ_TRACE_02",
+  "name": "State Sequence of a Sequential Circuit",
+  "recognitionClueHinglish": "Flip-flops, initial state; next states / final state after n clocks.",
+  "whatShouldComeToMind": [
+   "Next-state table."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Excitation equations.",
+   "2. Trace."
+  ],
+  "formulasUsed": [
+   "JK",
+   "T",
+   "D"
+  ],
+  "pyqExamples": [
+   "4.8.5",
+   "4.8.6",
+   "4.8.8",
+   "4.8.10",
+   "4.8.13",
+   "4.8.14",
+   "4.8.16",
+   "4.8.17",
+   "4.8.20",
+   "4.8.22",
+   "4.8.23",
+   "4.8.25",
+   "4.8.27",
+   "4.8.29",
+   "4.8.31",
+   "4.8.32",
+   "4.8.33",
+   "4.8.36",
+   "4.8.39"
+  ],
+  "variationsObserved": [
+   "LFSR, ring/Johnson counters."
+  ],
+  "commonTraps": [
+   "Async vs sync."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CO_TIMING_FAULT_03",
+  "name": "Timing Diagrams and Fault Detection",
+  "recognitionClueHinglish": "Waveforms, setup/hold, stuck-at fault detection.",
+  "whatShouldComeToMind": [
+   "Timing/fault analysis."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Timeline.",
+   "2. Compare faulty vs good."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.8.3",
+   "4.8.18",
+   "4.8.26",
+   "4.8.40"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Clock edge."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

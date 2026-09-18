@@ -1,0 +1,42 @@
+{
+ "topicId": "algorithms:huffman-code",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-HUFFMA-01",
+   "patternId": "HUF_BUILD_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Frequencies 5,9,12,13,16,45. Total cost (sum f*len)?",
+   "solutionApproach": "Huffman: 224.",
+   "answer": "224"
+  },
+  {
+   "practiceId": "AI-HUFFMA-02",
+   "patternId": "HUF_BUILD_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Equal frequencies for 4 symbols. Code lengths?",
+   "solutionApproach": "Balanced.",
+   "answer": "2,2,2,2"
+  },
+  {
+   "practiceId": "AI-HUFFMAN--X03",
+   "patternId": "HUF_BUILD_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Frequencies 1,1,2,3,5,8. Total weighted path length?",
+   "solutionApproach": "Merge 1+1=2; 2+2=4; 3+4=7; 5+7=12; 8+12=20; sum internal = 2+4+7+12+20.",
+   "answer": "45"
+  },
+  {
+   "practiceId": "AI-HUFFMAN--X04",
+   "patternId": "HUF_BUILD_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Huffman code prefix-free?",
+   "solutionApproach": "Yes.",
+   "answer": "Yes"
+  }
+ ]
+}

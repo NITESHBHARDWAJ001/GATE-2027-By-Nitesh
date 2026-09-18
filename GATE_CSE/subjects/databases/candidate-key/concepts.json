@@ -1,0 +1,24 @@
+{
+ "overview": "FD set se candidate keys nikalna; superkeys ki count.",
+ "whyItMatters": "7 PYQs extracted (1994-2026); P3 topic.",
+ "coreConcept": "FD set se candidate keys nikalna; superkeys ki count.",
+ "hinglishExplanation": "Closure se check: X+ = sab attributes aur minimal ho to candidate key.",
+ "formalDefinition": "FD set se candidate keys nikalna; superkeys ki count.",
+ "importantProperties": [
+  "Key: X+ = R aur koi proper subset nahi.",
+  "Superkeys of R with one key K = 2^(n-|K|).",
+  "Attribute jo kisi RHS me nahi wo key me zaroor.",
+  "Distinct values dikhne se key conclude nahi."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Instance se key conclude karna."
+ ],
+ "standardTechniques": [
+  "1. Essential attributes.",
+  "2. Closure.",
+  "3. Minimality."
+ ],
+ "topicId": "databases:candidate-key"
+}

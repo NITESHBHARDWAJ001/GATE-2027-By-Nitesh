@@ -1,0 +1,26 @@
+{
+ "topicId": "computer-networks:routing",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "Routing Protocols (RIP, OSPF, Forwarding)",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "14 PYQs extracted, 2005-2026.",
+ "pyqCountExtracted": 14,
+ "yearsCovered": [
+  2005,
+  2007,
+  2008,
+  2014,
+  2017,
+  2020,
+  2023,
+  2024,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

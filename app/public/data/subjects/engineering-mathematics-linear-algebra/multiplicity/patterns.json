@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_MULTIPLICITY_01",
+  "name": "Eigenvalue Multiplicity (PYQ type)",
+  "recognitionClueHinglish": "Eigenvalue Multiplicity se related sawal.",
+  "whatShouldComeToMind": [
+   "Algebraic multiplicity <= n; geometric <= algebraic."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Characteristic polynomial roots."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.7.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Distinct eigenvalue maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

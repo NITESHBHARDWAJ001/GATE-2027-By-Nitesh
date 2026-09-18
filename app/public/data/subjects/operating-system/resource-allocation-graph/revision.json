@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Request/assignment edges; cycle => deadlock (single instance).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Resource Allocation Graph se related sawal.",
+   "thinkThis": "P3_RESOURCE_ALLOCATION_GRAP_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Cycle ko hamesha deadlock."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:resource-allocation-graph",
+ "revisionLevel": "short-form"
+}

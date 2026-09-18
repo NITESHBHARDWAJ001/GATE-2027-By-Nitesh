@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-calculus:summation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SUMMAT-01",
+   "patternId": "P3_SUMMATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "sum_{k=1}^n k?",
+   "solutionApproach": "n(n+1)/2.",
+   "answer": "n(n+1)/2"
+  }
+ ]
+}

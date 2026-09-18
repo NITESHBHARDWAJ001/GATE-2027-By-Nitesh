@@ -1,0 +1,20 @@
+{
+ "topicId": "compiler-design:live-variable-analysis",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Live Variable Analysis",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 2015-2023.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  2015,
+  2021,
+  2023
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

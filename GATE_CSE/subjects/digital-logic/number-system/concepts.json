@@ -1,0 +1,20 @@
+{
+ "overview": "Value of digits base r ke saath.",
+ "whyItMatters": "1 PYQs extracted (1988-1988); P4 topic.",
+ "coreConcept": "Value of digits base r ke saath.",
+ "hinglishExplanation": "Positional weights r^i.",
+ "formalDefinition": "Value of digits base r ke saath.",
+ "importantProperties": [
+  "Base conversion.",
+  "Equation in base r."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Base confuse."
+ ],
+ "standardTechniques": [
+  "1. Place values."
+ ],
+ "topicId": "digital-logic:number-system"
+}

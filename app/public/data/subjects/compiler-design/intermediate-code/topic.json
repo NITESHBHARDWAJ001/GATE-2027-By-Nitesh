@@ -1,0 +1,25 @@
+{
+ "topicId": "compiler-design:intermediate-code",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Intermediate Code Generation",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "11 PYQs extracted, 1988-2024.",
+ "pyqCountExtracted": 11,
+ "yearsCovered": [
+  1988,
+  1989,
+  1992,
+  1994,
+  2014,
+  2015,
+  2021,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,22 @@
+{
+ "overview": "Variable partitions me sabse chhota hole jo request fit kare.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Variable partitions me sabse chhota hole jo request fit kare.",
+ "hinglishExplanation": "Best fit = sabse chhota sufficient hole; chhote leftover holes banata hai.",
+ "formalDefinition": "Variable partitions me sabse chhota hole jo request fit kare.",
+ "importantProperties": [
+  "First fit: pehla; best: smallest; worst: largest.",
+  "Best fit external fragmentation badha sakta hai.",
+  "Search poori list."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Fit rules mix."
+ ],
+ "standardTechniques": [
+  "1. Sufficient holes.",
+  "2. Smallest."
+ ],
+ "topicId": "operating-system:best-fit"
+}

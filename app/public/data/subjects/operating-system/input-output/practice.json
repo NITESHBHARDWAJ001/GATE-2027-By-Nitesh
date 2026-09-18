@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:input-output",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INPUT--01",
+   "patternId": "P3_INPUT_OUTPUT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Process I/O maangta hai to state?",
+   "solutionApproach": "Running->blocked.",
+   "answer": "Blocked"
+  }
+ ]
+}

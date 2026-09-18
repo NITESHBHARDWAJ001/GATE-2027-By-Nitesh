@@ -1,0 +1,21 @@
+{
+ "overview": "n x n multiplier: n^2 AND gates, delay proportional to n.",
+ "whyItMatters": "2 PYQs extracted (1999-2003); P4 topic.",
+ "coreConcept": "n x n multiplier: n^2 AND gates, delay proportional to n.",
+ "hinglishExplanation": "Partial products array me add hote hain.",
+ "formalDefinition": "n x n multiplier: n^2 AND gates, delay proportional to n.",
+ "importantProperties": [
+  "n^2 AND gates.",
+  "(n-1) n-bit adders.",
+  "Delay ~ O(n) full adder delays."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Gate count vs delay."
+ ],
+ "standardTechniques": [
+  "1. Partial products."
+ ],
+ "topicId": "digital-logic:array-multiplier"
+}

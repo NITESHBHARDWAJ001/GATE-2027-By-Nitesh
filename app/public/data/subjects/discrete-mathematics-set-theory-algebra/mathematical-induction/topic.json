@@ -1,0 +1,19 @@
+{
+ "topicId": "discrete-mathematics-set-theory-algebra:mathematical-induction",
+ "subjectId": "discrete-mathematics-set-theory-algebra",
+ "subject": "Discrete Mathematics - Set Theory & Algebra",
+ "name": "Mathematical Induction",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 1995-2000.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  1995,
+  2000
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "algorithms__1.21.1",
+  "localId": "1.21.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "heap-sort",
+  "topic": "Heap Sort",
+  "year": 2013,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "30",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "The number of elements that can be sorted in                                 time using heap sort is A.                                                                               B. C.                                                                               D.",
+  "tagsRaw": "gatecse-2013 algorithms  sorting  normal     heap-sort",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 50
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_HEAP_SORT_01"
+ },
+ {
+  "pyqId": "algorithms__1.21.2",
+  "localId": "1.21.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "heap-sort",
+  "topic": "Heap Sort",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "31",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "An array                                                                     is heapified. Which one of the following options represents the first three elements in the heapified array? A.                                       B.                                  C.                       D.",
+  "tagsRaw": "gatecse-2024-set1 algorithms  heap-sort   sorting  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 50
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_HEAP_SORT_01"
+ }
+]

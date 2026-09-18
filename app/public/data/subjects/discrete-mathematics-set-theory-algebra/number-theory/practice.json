@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-set-theory-algebra:number-theory",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NUMBER-01",
+   "patternId": "P3_NUMBER_THEORY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Divisors of 360?",
+   "solutionApproach": "2^3 3^2 5.",
+   "answer": "24"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_FIXED_POINT_REPRESENTATI_01",
+  "name": "Fixed Point Representation (PYQ type)",
+  "recognitionClueHinglish": "Fixed Point Representation se related sawal.",
+  "whatShouldComeToMind": [
+   "Range aur resolution: n bits, f fraction bits: step 2^-f, max 2^(n-f) - 2^-f."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. f.",
+   "2. Value/2^f."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.16.1",
+   "4.16.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Signed vs unsigned."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

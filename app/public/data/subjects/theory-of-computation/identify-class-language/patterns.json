@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "ICL_DIRECT_CLASSIFY_01",
+    "name": "Direct Classification of a Single Given Language",
+    "recognitionClueHinglish": "Ek specific language di hai (formula/description se) aur poocha hai ye Regular/CFL/CSL/Recursive/RE me se kahan fit hoti hai — direct single-language classification pattern.",
+    "whatShouldComeToMind": ["Test bottom-up: Regular? → CFL? → higher.", "Recognize canonical boundary examples (a*b*=Regular, a^nb^n=CFL-not-Regular, a^nb^nc^n=CSL-not-CFL, Halting-Problem-style=RE-not-Recursive)."],
+    "conceptsRequired": ["Chomsky hierarchy chain", "Regular/CFL testing techniques (cross-link)"],
+    "generalSolvingApproach": ["1. Check if it's Regular (finite-state constructible, or matches known regular patterns).", "2. If not, check if it's CFL (single matching-pair constructible via PDA/grammar).", "3. If not, reason about Recursive/RE — is there an algorithm that always halts and decides membership (Recursive)? Or only an algorithm that halts on YES (RE)?", "4. Compare against canonical boundary-witness languages if the construction looks similar to a known example."],
+    "formulasUsed": ["chomskyHierarchyChain"],
+    "pyqExamples": ["6.9.1","6.9.2","6.9.4","6.9.6","6.9.7","6.9.8","6.9.12","6.9.14","6.9.20","6.9.23","6.9.30"],
+    "variationsObserved": ["PDA with a STACK-SIZE LIMIT (bounded to k items) — this collapses PDA power down to FINITE AUTOMATON power (bounded stack = only finitely many distinguishable configurations), so the language is REGULAR, not CFL.", "Real-world programming language classification (FORTRAN, etc.) — typically CONTEXT-SENSITIVE due to semantic checks like declare-before-use."],
+    "commonTraps": ["Missing that a BOUNDED stack (fixed max size) collapses PDA to finite-automaton power — a classic 'looks like CFL but is actually Regular' trap."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "ICL_COMBINED_CLASSIFY_02",
+    "name": "Classify Languages Built via Set Operations on Known Classes",
+    "recognitionClueHinglish": "Do ya zyada languages di hain (kuch Regular, kuch CFL, kuch RE), aur unke UNION/INTERSECTION/COMPLEMENT se banaye gaye language ka class poocha hai — is topic ka sabse bada pattern hai (31 me se 14 PYQs).",
+    "whatShouldComeToMind": ["Regular combined with anything via ∪/∩ usually stays at the OTHER language's level (Regular∩CFL=CFL, Regular∩Recursive=Recursive, etc.).", "CFL∩CFL is the DANGEROUS combination — no guarantee, can jump to CSL or beyond.", "Recursive is closed under complement; RE (non-Recursive) is NOT."],
+    "conceptsRequired": ["Cross-level closure facts", "CFL∩CFL non-closure exception"],
+    "generalSolvingApproach": ["1. Identify each component language's class first.", "2. Apply the relevant closure rule: Regular+X (∪/∩) → stays at X's level; CFL+CFL (∩ specifically) → NO guarantee, could escape CFL; Recursive+Recursive → stays Recursive; RE+RE (∪/∩) → stays RE.", "3. For complement specifically: Regular/Recursive closed under complement; CFL and RE(non-recursive) are NOT closed under complement in general."],
+    "formulasUsed": ["recursiveComplementClosure","reNotRecursiveComplementNonRE"],
+    "pyqExamples": ["6.9.5","6.9.9","6.9.11","6.9.15","6.9.16","6.9.17","6.9.18","6.9.21","6.9.22","6.9.24","6.9.25","6.9.27","6.9.29","6.9.31"],
+    "variationsObserved": ["DCFL vs CFL distinction within the combination (is the RESULT deterministic-CFL or just general CFL) — a finer-grained classification than plain CFL/not-CFL."],
+    "commonTraps": ["Treating CFL∩CFL the same as Regular∩CFL — CFL∩CFL has NO safety guarantee, while Regular combined with anything is much safer."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "ICL_CROSS_CLOSURE_03",
+    "name": "Cross-Hierarchy Closure Property Claims",
+    "recognitionClueHinglish": "General TRUE/FALSE claims about closure properties ACROSS the whole hierarchy (jaise 'intersection of two recursive languages is recursive', 'subset of RE is recursive') — ye is topic ka meta-theory pattern hai.",
+    "whatShouldComeToMind": ["Recursive is closed under ∪, ∩, complement — the 'best-behaved' class below RE.", "RE is closed under ∪, ∩ — but NOT complement in general.", "'Every subset of an RE language is recursive' — FALSE (an RE language can have RE, non-recursive subsets)."],
+    "conceptsRequired": ["Closure property table across all hierarchy levels"],
+    "generalSolvingApproach": ["1. Identify which level(s) the claim is about.", "2. Check against the closure-property table: Regular (closed under everything standard), CFL (closed under most, NOT ∩-with-CFL or complement), Recursive (closed under everything standard including complement), RE (closed under ∪,∩, NOT complement).", "3. For 'subset' claims, be skeptical by default — subset relationships rarely preserve decidability/recursiveness automatically."],
+    "formulasUsed": ["recursiveComplementClosure","reNotRecursiveComplementNonRE"],
+    "pyqExamples": ["6.9.26","6.9.28"],
+    "variationsObserved": [],
+    "commonTraps": ["Assuming RE is closed under complement like Recursive is — it's specifically NOT, this asymmetry is the crux of the Recursive-vs-RE distinction."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "ICL_MACHINE_EQUIVALENCE_04",
+    "name": "Machine-Model Equivalence Proofs (restricted-resource collapse)",
+    "recognitionClueHinglish": "Poocha hai ek RESTRICTED machine model (jaise bounded-tape Turing machine, ya limited-stack PDA) kis language class ke EXACTLY equivalent hai — ye proof/equivalence pattern hai, mostly older descriptive papers.",
+    "whatShouldComeToMind": ["A resource that's BOUNDED to a CONSTANT size (independent of input length) only gives finitely many distinguishable configurations — this ALWAYS collapses the model down to finite-automaton (Regular) power, regardless of what the unrestricted version could do."],
+    "conceptsRequired": ["Configuration-counting argument for resource-bounded models"],
+    "generalSolvingApproach": ["1. Identify what resource is being restricted (tape size, stack size) and whether the restriction is CONSTANT (independent of n) or GROWING (some function of n).", "2. If constant: argue the number of distinct configurations is FINITE, hence the model collapses to Regular (Finite-Automaton) power — construct the equivalence direction both ways (restricted-model→FA and FA→restricted-model) if a formal proof is required."],
+    "formulasUsed": ["boundedTapeCollapsesToRegular"],
+    "pyqExamples": ["6.9.3","6.9.10","6.9.13","6.9.19"],
+    "variationsObserved": [],
+    "commonTraps": ["Assuming ANY tape/stack restriction (even a growing but sub-linear one) collapses to Regular — only TRULY CONSTANT (O(1), independent of input) restrictions do this cleanly."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

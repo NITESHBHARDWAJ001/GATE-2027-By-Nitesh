@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Orthonormal: dot product 0 aur norm 1; Q^T Q = I.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Orthonormal Vectors se related sawal.",
+   "thinkThis": "P3_ORTHONORMALITY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Orthogonal aur orthonormal same maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:orthonormality",
+ "revisionLevel": "short-form"
+}

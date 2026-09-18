@@ -1,0 +1,19 @@
+{
+  "topicId": "dm-mathematical-logic-propositional-logic",
+  "subjectId": "discrete-mathematics-mathematical-logic",
+  "subject": "Discrete Mathematics: Mathematical Logic",
+  "name": "Propositional Logic",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "40 PYQs extracted, tested 1987-2024 continuously including the new DA stream. Highest-PYQ topic in this subject.",
+  "pyqCountExtracted": 40,
+  "yearsCovered": [1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2008,2009,2014,2015,2016,2017,2021,2024],
+  "prerequisites": [],
+  "unlocks": [
+    {"topic": "First Order Logic", "subjectId": "discrete-mathematics-mathematical-logic", "why": "FOL extends propositional logic with quantifiers and predicates — needs propositional connective fluency first."},
+    {"topic": "Regular Language", "subjectId": "theory-of-computation", "why": "Decidability/reduction arguments in TOC often reuse tautology/satisfiability reasoning."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

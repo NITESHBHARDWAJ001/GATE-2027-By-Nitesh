@@ -1,0 +1,25 @@
+{
+ "overview": "Three-address code, quadruples/triples, DAG, array address translation, backpatching templates.",
+ "whyItMatters": "11 PYQs extracted (1988-2024); P2 topic.",
+ "coreConcept": "TAC me har instruction me max 3 addresses; array A[i] ka address base + i x width.",
+ "hinglishExplanation": "Expression ko TAC me todkar temporaries use hote hain. Common subexpression DAG me share hoti hai. 2D array address = base + ((i x cols) + j) x width.",
+ "formalDefinition": "TAC me har instruction me max 3 addresses; array A[i] ka address base + i x width.",
+ "importantProperties": [
+  "TAC: x = y op z.",
+  "Quadruples: (op, arg1, arg2, result); triples result implicit.",
+  "DAG common subexpressions share karta hai.",
+  "Row-major address: base + (i*n + j)*w.",
+  "IR examples: TAC, AST, postfix, DAG."
+ ],
+ "formulas": {
+  "rowMajor": "base + (i*n + j)*w"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Width bhoolna."
+ ],
+ "standardTechniques": [
+  "Temporaries table."
+ ],
+ "topicId": "compiler-design:intermediate-code"
+}

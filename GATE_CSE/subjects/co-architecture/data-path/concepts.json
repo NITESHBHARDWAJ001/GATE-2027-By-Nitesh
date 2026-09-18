@@ -1,0 +1,22 @@
+{
+ "overview": "Single-bus data path, control signals, microoperation sequence, functional-unit timing.",
+ "whyItMatters": "7 PYQs extracted (1990-2025); P2 topic.",
+ "coreConcept": "Instruction execution ko register transfers ke sequence me todo; ek cycle me bus par ek transfer.",
+ "hinglishExplanation": "Single bus me har micro-step me ek hi value bus par ja sakti hai. Isliye instruction ke steps count se cycles milte hain. Functional units ke timing se schedule nikalte hain.",
+ "formalDefinition": "Instruction execution ko register transfers ke sequence me todo; ek cycle me bus par ek transfer.",
+ "importantProperties": [
+  "Single bus: ek time par ek transfer.",
+  "Fetch: PC->MAR, memory read, MDR->IR, PC+1.",
+  "Control signals har micro-step ke liye.",
+  "Total time = steps x cycle."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Steps ko parallel maan lena."
+ ],
+ "standardTechniques": [
+  "Har step ko table me likho."
+ ],
+ "topicId": "co-architecture:data-path"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:statistics",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-STATIS-01",
+   "patternId": "P3_STATISTICS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Median of 1,3,5,7?",
+   "solutionApproach": "(3+5)/2.",
+   "answer": "4"
+  }
+ ]
+}

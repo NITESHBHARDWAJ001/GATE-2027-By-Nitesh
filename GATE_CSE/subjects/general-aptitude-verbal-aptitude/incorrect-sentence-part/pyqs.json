@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-verbal-aptitude__11.6.1",
+  "localId": "11.6.1",
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "subject": "General Aptitude: Verbal Aptitude",
+  "topicSlug": "incorrect-sentence-part",
+  "topic": "Incorrect Sentence Part",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 3,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "1",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "an        envelope                                         and Which one of the above underlined parts of the sentence is NOT appropriate? A. I                                       B. II                                C. III      D. IV",
+  "tagsRaw": "gatecse-2014-set3 verbal-aptitude easy english-grammar incorrect-sentence-part",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 345
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_INCORRECT_SENTENCE_PART_01"
+ }
+]

@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Graph algorithms ki time complexity representation (matrix vs list) par depend karti hai. Cut property MST ke liye key hai.",
+ "mustRememberFormulas": [
+  "bfsdfs: O(V+E)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "True/false: MST/shortest path/topological facts.",
+   "thinkThis": "GA_PROPERTIES_01"
+  },
+  {
+   "seeThis": "Algorithm-complexity table, sink in matrix.",
+   "thinkThis": "GA_COMPLEXITY_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Distinct weights assumption.",
+  "Matrix rows ka O(V^2)."
+ ],
+ "highYieldPyqLessons": [
+  "Mostly conceptual; use properties rather than running algorithms."
+ ],
+ "topicId": "algorithms:graph-algorithms",
+ "revisionLevel": "short-form"
+}

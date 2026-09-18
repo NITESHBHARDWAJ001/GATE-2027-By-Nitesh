@@ -1,0 +1,26 @@
+{
+ "coreIdea": "Total bits = opcode + operand fields. Expanding opcode me unused opcode patterns ko next level ki instructions ke liye reuse karte hain.",
+ "mustRememberFormulas": [
+  "regBits: log2(R)",
+  "expand: next = (2^b - used) * 2^k"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Kai address-type instructions; max ya remaining instructions.",
+   "thinkThis": "IF_EXPAND_01"
+  },
+  {
+   "seeThis": "Registers, opcodes, addressing mode diye; missing field ya max immediate.",
+   "thinkThis": "IF_FIELD_SIZE_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Off-by-one.",
+  "Register class extra bit."
+ ],
+ "highYieldPyqLessons": [
+  "NAT field-size questions recur 2014-2026."
+ ],
+ "topicId": "co-architecture:instruction-format",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Call by value, reference, name, copy-restore; results alag ho sakte hain.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Parameter Passing (Compiler View) se related sawal.",
+   "thinkThis": "P3_PARAMETER_PASSING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Name vs reference results same maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:parameter-passing",
+ "revisionLevel": "short-form"
+}

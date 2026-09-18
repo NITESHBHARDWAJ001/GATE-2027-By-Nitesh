@@ -1,0 +1,22 @@
+{
+ "overview": "Little endian LSB pehle low address par; byte reversal se value.",
+ "whyItMatters": "1 PYQs extracted (2021-2021); P3 topic.",
+ "coreConcept": "Little endian LSB pehle low address par; byte reversal se value.",
+ "hinglishExplanation": "Byte order ulta hone par integer value badalti hai.",
+ "formalDefinition": "Little endian LSB pehle low address par; byte reversal se value.",
+ "importantProperties": [
+  "Little: LSB at lowest address.",
+  "Big: MSB at lowest address.",
+  "Byte-reverse = other endianness value."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Bit vs byte reversal."
+ ],
+ "standardTechniques": [
+  "1. Bytes likho.",
+  "2. Reverse."
+ ],
+ "topicId": "digital-logic:little-endian-big-endian"
+}

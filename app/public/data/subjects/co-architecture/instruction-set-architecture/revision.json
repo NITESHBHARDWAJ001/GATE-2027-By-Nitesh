@@ -1,0 +1,18 @@
+{
+ "coreIdea": "ISA me kya aata hai: instructions, registers, addressing modes, data types; cache size nahi.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Instruction Set Architecture se related sawal.",
+   "thinkThis": "P3_INSTRUCTION_SET_ARCHITEC_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Organization ko ISA me ginna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:instruction-set-architecture",
+ "revisionLevel": "short-form"
+}

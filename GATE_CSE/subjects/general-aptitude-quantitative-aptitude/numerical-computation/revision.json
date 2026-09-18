@@ -1,0 +1,26 @@
+{
+ "coreIdea": "Chhote arithmetic/algebra problems: equation banao aur solve karo.",
+ "mustRememberFormulas": [
+  "ap: (first+last)/2",
+  "knockout: n-1"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Numbers, cubes, marks equations.",
+   "thinkThis": "NC_ARITHMETIC_01"
+  },
+  {
+   "seeThis": "Games count, credits combos, max function.",
+   "thinkThis": "NC_COUNTING_GRAPH_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Data missing in extraction.",
+  "Units."
+ ],
+ "highYieldPyqLessons": [
+  "Direct algebra; check the source for data tables."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:numerical-computation",
+ "revisionLevel": "short-form"
+}

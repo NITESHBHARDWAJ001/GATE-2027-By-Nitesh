@@ -1,0 +1,21 @@
+{
+ "overview": "Structured, OO, functional, logic paradigms.",
+ "whyItMatters": "2 PYQs extracted (2004-2004); P4 topic.",
+ "coreConcept": "Structured, OO, functional, logic paradigms.",
+ "hinglishExplanation": "Paradigm ka goal aur characteristic match.",
+ "formalDefinition": "Structured, OO, functional, logic paradigms.",
+ "importantProperties": [
+  "Structured: control flow clarity.",
+  "OO: encapsulation.",
+  "Functional: no side effects."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Indentation goal."
+ ],
+ "standardTechniques": [
+  "1. Match."
+ ],
+ "topicId": "programming-programming-in-c:programming-paradigms"
+}

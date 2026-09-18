@@ -1,0 +1,22 @@
+{
+  "topicId": "dm-set-theory-algebra-group-theory",
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "subject": "Discrete Mathematics: Set Theory & Algebra",
+  "name": "Group Theory",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "33 PYQs extracted, tested 1988-2024, very consistent recency (2018,2019,2020,2021,2022,2023,2024 all have at least one PYQ). Last topic in the Foundations track since it needs Set/Relation/Function vocabulary already in place.",
+  "pyqCountExtracted": 33,
+  "yearsCovered": [1988,1990,1992,1993,1994,1995,1996,1997,1998,1999,2000,2002,2003,2004,2005,2006,2007,2009,2010,2014,2018,2019,2020,2021,2022,2023,2024],
+  "prerequisites": [
+    {"topic": "Set Theory", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "A group is a SET with a binary operation — needs set-notation comfort."},
+    {"topic": "Functions", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "Group homomorphism/isomorphism are structure-preserving functions."},
+    {"topic": "Relations", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "Cosets and conjugacy-style relations reuse equivalence-relation reasoning."}
+  ],
+  "unlocks": [
+    {"topic": "Lattice", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "Lattices are algebraic structures in the same family, built on similar closure/identity reasoning."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

@@ -1,0 +1,22 @@
+{
+ "overview": "Request/assignment edges; cycle => deadlock (single instance).",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Request/assignment edges; cycle => deadlock (single instance).",
+ "hinglishExplanation": "Single-instance resources me cycle iff deadlock; multi-instance me cycle necessary hai sufficient nahi.",
+ "formalDefinition": "Request/assignment edges; cycle => deadlock (single instance).",
+ "importantProperties": [
+  "Cycle + single instance => deadlock.",
+  "Multi-instance: cycle possible without deadlock.",
+  "Edges: request P->R, assign R->P."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Cycle ko hamesha deadlock."
+ ],
+ "standardTechniques": [
+  "1. Cycle dhundo.",
+  "2. Instances."
+ ],
+ "topicId": "operating-system:resource-allocation-graph"
+}

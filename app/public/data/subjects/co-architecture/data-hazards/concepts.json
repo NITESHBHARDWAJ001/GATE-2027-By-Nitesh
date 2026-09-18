@@ -1,0 +1,21 @@
+{
+ "overview": "RAW, WAR, WAW: kab pipeline me problem.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "RAW, WAR, WAW: kab pipeline me problem.",
+ "hinglishExplanation": "In-order pipeline me RAW hazard hota hai; WAR/WAW out-of-order me.",
+ "formalDefinition": "RAW, WAR, WAW: kab pipeline me problem.",
+ "importantProperties": [
+  "RAW: read after write.",
+  "WAR, WAW: reordering me.",
+  "Forwarding RAW ke liye."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "WAR ko in-order me hazard maan lena."
+ ],
+ "standardTechniques": [
+  "1. Register dependency type."
+ ],
+ "topicId": "co-architecture:data-hazards"
+}

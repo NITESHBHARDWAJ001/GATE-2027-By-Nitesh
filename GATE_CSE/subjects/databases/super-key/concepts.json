@@ -1,0 +1,22 @@
+{
+ "overview": "Superkey = key ka koi superset; count 2^(n-k) (single key).",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Superkey = key ka koi superset; count 2^(n-k) (single key).",
+ "hinglishExplanation": "Superkey ka closure sab attributes.",
+ "formalDefinition": "Superkey = key ka koi superset; count 2^(n-k) (single key).",
+ "importantProperties": [
+  "Superkey: X+ = R.",
+  "Multiple keys ke case me inclusion-exclusion.",
+  "Candidate key minimal superkey."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Multiple keys me double count."
+ ],
+ "standardTechniques": [
+  "1. Keys.",
+  "2. Supersets."
+ ],
+ "topicId": "databases:super-key"
+}

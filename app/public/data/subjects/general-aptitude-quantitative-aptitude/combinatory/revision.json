@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Basic counting: arrangements, selections.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Counting (Aptitude) se related sawal.",
+   "thinkThis": "P3_COMBINATORY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Overcount."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:combinatory",
+ "revisionLevel": "short-form"
+}

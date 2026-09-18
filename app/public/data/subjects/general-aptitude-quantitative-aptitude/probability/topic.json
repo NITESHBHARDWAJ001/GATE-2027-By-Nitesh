@@ -1,0 +1,25 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:probability",
+ "subjectId": "general-aptitude-quantitative-aptitude",
+ "subject": "General Aptitude - Quantitative Aptitude",
+ "name": "Probability (Aptitude)",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "12 PYQs extracted, 2015-2026.",
+ "pyqCountExtracted": 12,
+ "yearsCovered": [
+  2015,
+  2017,
+  2018,
+  2021,
+  2022,
+  2024,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

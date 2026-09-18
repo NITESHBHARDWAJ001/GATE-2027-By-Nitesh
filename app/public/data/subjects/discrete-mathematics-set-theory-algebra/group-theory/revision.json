@@ -1,0 +1,28 @@
+{
+  "topicId": "dm-set-theory-algebra-group-theory",
+  "revisionLevel": "short-form",
+  "coreIdea": "(Set, Operation). Checklist: Closure → Associative → Identity → Inverse (= Group) → Commutative (= Abelian). Lagrange: |H| divides |G|.",
+  "mustRememberFormulas": [
+    "Semigroup(closure+assoc) ⊂ Monoid(+identity) ⊂ Group(+inverse) ⊂ Abelian(+commutative)",
+    "Lagrange: |H| divides |G|",
+    "Largest proper subgroup order = largest divisor of |G| strictly < |G|",
+    "|G|=prime ⟹ only subgroups are {e} and G",
+    "Generators of cyclic group of order n = φ(n)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "(Set, Operation) given, asked group/monoid/semigroup/abelian", "thinkThis": "GRP_STRUCTURE_ID_01"},
+    {"seeThis": "|G| given, asked subgroup order (largest/possible/exact)", "thinkThis": "GRP_LAGRANGE_SUBGROUP_02"},
+    {"seeThis": "'show that G is abelian/has element of order 2' descriptive proof", "thinkThis": "GRP_PROPERTY_PROOF_03"},
+    {"seeThis": "'generators', 'operation table', 'non-isomorphic groups count'", "thinkThis": "GRP_CYCLIC_GENERATOR_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Custom operators: verify associativity explicitly, don't assume",
+    "0 (mult.) / singular matrices always fail inverse check",
+    "'Proper subgroup' excludes G itself",
+    "Group ≠ commutative by default — only Abelian groups are commutative"
+  ],
+  "highYieldPyqLessons": [
+    "Structure-identification (14/33 PYQs) is a mechanical 4-point checklist — the fastest topic to get to 100% accuracy on with practice.",
+    "Since 2018, GATE has shifted this topic heavily toward Lagrange/subgroup-order NAT questions — drill divisor-listing until automatic."
+  ]
+}

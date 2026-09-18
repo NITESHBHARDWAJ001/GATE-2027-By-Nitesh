@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:number-representation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NUMBER-01",
+   "patternId": "P3_NUMBER_REPRESENTATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Binary 101 decimal?",
+   "solutionApproach": "4+1.",
+   "answer": "5"
+  }
+ ]
+}

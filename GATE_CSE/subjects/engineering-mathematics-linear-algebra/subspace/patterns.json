@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_SUBSPACE_01",
+  "name": "Subspaces (PYQ type)",
+  "recognitionClueHinglish": "Subspaces se related sawal.",
+  "whatShouldComeToMind": [
+   "Subspace: zero vector, addition aur scalar multiplication ke under closed."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Closure.",
+   "2. Zero."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.12.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "0 vector check bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-set-theory-algebra:lattice",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LATTIC-01",
+   "patternId": "P3_LATTICE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "(N, |): join of 4 and 6?",
+   "solutionApproach": "LCM.",
+   "answer": "12"
+  }
+ ]
+}

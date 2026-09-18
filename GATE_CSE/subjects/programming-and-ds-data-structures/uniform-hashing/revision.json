@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Expected probes: unsuccessful 1/(1-alpha), successful (1/alpha) ln(1/(1-alpha)).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Uniform Hashing (Open Addressing) se related sawal.",
+   "thinkThis": "P3_UNIFORM_HASHING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Chaining formula lagana."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-and-ds-data-structures:uniform-hashing",
+ "revisionLevel": "short-form"
+}

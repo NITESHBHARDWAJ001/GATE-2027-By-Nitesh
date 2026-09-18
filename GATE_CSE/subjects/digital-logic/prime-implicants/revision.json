@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Prime implicant: maximal group; essential = akela cover karne wala.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Prime Implicants se related sawal.",
+   "thinkThis": "P4_PRIME_IMPLICANTS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Non-maximal group."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:prime-implicants",
+ "revisionLevel": "short-form"
+}

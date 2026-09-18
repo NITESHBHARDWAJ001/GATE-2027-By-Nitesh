@@ -1,0 +1,22 @@
+{
+ "overview": "Inorder/preorder/postorder match; unique reconstruction.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Inorder/preorder/postorder match; unique reconstruction.",
+ "hinglishExplanation": "In+pre ya in+post se tree unique.",
+ "formalDefinition": "Inorder/preorder/postorder match; unique reconstruction.",
+ "importantProperties": [
+  "Inorder LNR, preorder NLR, postorder LRN.",
+  "Level order queue.",
+  "Match sequences."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Order confuse."
+ ],
+ "standardTechniques": [
+  "1. Root.",
+  "2. Split."
+ ],
+ "topicId": "programming-and-ds-data-structures:tree-traversal"
+}

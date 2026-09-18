@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_BALLS_IN_BINS_01",
+  "name": "Balls in Bins / Distributions (PYQ type)",
+  "recognitionClueHinglish": "Balls in Bins / Distributions se related sawal.",
+  "whatShouldComeToMind": [
+   "Identical balls distinct bins: C(n+k-1,k-1); binary strings no two adjacent ones."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Type.",
+   "2. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.1.1",
+   "1.1.2",
+   "1.1.3",
+   "1.1.4",
+   "1.1.5",
+   "1.1.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Identical/distinct confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

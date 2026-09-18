@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.1.1",
+  "localId": "8.1.1",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "age-relation",
+  "topic": "Age Relation",
+  "year": 2010,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "62",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Hari(H), Gita(G), Irfan(I) and Saira(S) are siblings (i.e., brothers and sisters). All were born on January. The age difference between any two successive siblings (that is born one after another) is less than three years. Given the following facts: i. Hari's age Gita's age Irfan's age Saira's age ii. The age difference between Gita and Saira is one year. However Gita is not the oldest and Saira is not the youngest. iii. There are no twins. In what order they were born (oldest first)? A.                                B.                                       C.                        D.",
+  "tagsRaw": "gatecse-2010 analytical-aptitude  logical-reasoning  normal  age-relation",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 237
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_AGE_RELATION_01"
+ }
+]

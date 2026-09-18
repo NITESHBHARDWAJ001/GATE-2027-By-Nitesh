@@ -1,0 +1,19 @@
+{
+ "overview": "Table se ratio/percent/average.",
+ "whyItMatters": "4 PYQs extracted (2014-2016); P3 topic.",
+ "coreConcept": "Table se ratio/percent/average.",
+ "hinglishExplanation": "Row/column carefully.",
+ "formalDefinition": "Table se ratio/percent/average.",
+ "importantProperties": [
+  "Percent, ratio, average."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Wrong column."
+ ],
+ "standardTechniques": [
+  "1. Identify cells."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:tabular-data"
+}

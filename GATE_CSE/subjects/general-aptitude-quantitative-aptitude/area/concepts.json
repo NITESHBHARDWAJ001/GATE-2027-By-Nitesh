@@ -1,0 +1,21 @@
+{
+ "overview": "Area of rectangle, triangle, circle.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Area of rectangle, triangle, circle.",
+ "hinglishExplanation": "Formula sahi shape ka.",
+ "formalDefinition": "Area of rectangle, triangle, circle.",
+ "importantProperties": [
+  "Rectangle lw.",
+  "Triangle 1/2bh.",
+  "Circle pi r^2."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Units."
+ ],
+ "standardTechniques": [
+  "1. Shape."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:area"
+}

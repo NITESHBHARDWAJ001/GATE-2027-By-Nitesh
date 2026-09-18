@@ -1,0 +1,26 @@
+{
+ "coreIdea": "det(AB)=det A det B; row swap sign flip; row addition no change; scalar multiply row scales.",
+ "mustRememberFormulas": [
+  "scalar: det(kA)=k^n detA",
+  "adj: det(adjA)=detA^(n-1)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Numeric/structured matrix ka det.",
+   "thinkThis": "DET_COMPUTE_01"
+  },
+  {
+   "seeThis": "det(AB), det(kA), swap; given det find another.",
+   "thinkThis": "DET_PROPERTIES_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Sign.",
+  "k^n."
+ ],
+ "highYieldPyqLessons": [
+  "Property-based questions dominate 2019-2026."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:determinant",
+ "revisionLevel": "short-form"
+}

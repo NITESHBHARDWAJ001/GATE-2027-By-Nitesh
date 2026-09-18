@@ -1,0 +1,27 @@
+{
+  "topicId": "algorithms-quick-sort",
+  "revisionLevel": "short-form",
+  "coreIdea": "Complexity depends on pivot's split balance. ANY fixed-ratio split (not just 50-50) gives Θ(n log n). Worst case (extreme split every time) = Θ(n²).",
+  "mustRememberFormulas": [
+    "Worst case (k=0 or n-1 every time): T(n)=T(n-1)+Θ(n) → Θ(n²)",
+    "Any fixed-ratio split: T(n)=T(αn)+T((1-α)n)+Θ(n) → Θ(n log n) for any constant 0<α≤1/2",
+    "Randomized QS: worst-case still Θ(n²) technically, but EXPECTED case Θ(n log n) for any input",
+    "P(pivot lands at worst position) = 2/n (pivot value = min or max)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "'which input causes worst/best case' given a pivot rule", "thinkThis": "QS_WORST_BEST_INPUT_01"},
+    {"seeThis": "guaranteed split ratio (like 'at least 1/5'), or median-based pivot, asked for complexity", "thinkThis": "QS_SPLIT_RATIO_COMPLEXITY_02"},
+    {"seeThis": "partition code/array given, asked for swap count or resulting array", "thinkThis": "QS_PARTITION_TRACE_03"},
+    {"seeThis": "random pivot, probability of an outcome asked", "thinkThis": "QS_PROBABILITY_ANALYSIS_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Quick Sort is NOT always O(n log n) — worst case is O(n²) with bad pivot choices",
+    "Any FIXED ratio split gives n log n, not just exact 50-50",
+    "Randomized QS worst-case is still Θ(n²) theoretically — only the EXPECTED case improves to n log n",
+    "Lomuto and Hoare partition schemes give different swap counts on the same input"
+  ],
+  "highYieldPyqLessons": [
+    "Split-ratio complexity derivation (7/15) is the dominant skill — internalize that 'any fixed fraction → n log n' generalization, it's tested with many different fractions.",
+    "Read worst-case vs expected-case wording VERY carefully for randomized quicksort questions — this exact distinction is the most repeated trap."
+  ]
+}

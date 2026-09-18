@@ -1,0 +1,23 @@
+{
+ "overview": "Signed multiplication; multiplier bits pairs se add/sub; worst case alternating 0101.",
+ "whyItMatters": "7 PYQs extracted (1990-2025); P3 topic.",
+ "coreConcept": "Signed multiplication; multiplier bits pairs se add/sub; worst case alternating 0101.",
+ "hinglishExplanation": "Q0,Q-1: 01 add M, 10 subtract M, 00/11 sirf shift.",
+ "formalDefinition": "Signed multiplication; multiplier bits pairs se add/sub; worst case alternating 0101.",
+ "importantProperties": [
+  "Pair 01: +M, 10: -M.",
+  "Ones ki run me kam operations.",
+  "Worst case alternating pattern 0101...",
+  "Booth recoding: run of 1s -> +1 ... -1."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Arithmetic right shift bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Recode.",
+  "2. Add/sub shifts."
+ ],
+ "topicId": "digital-logic:booths-algorithm"
+}

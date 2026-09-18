@@ -1,0 +1,18 @@
+{
+ "coreIdea": "External references resolve, dynamic linking benefits.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Linker se related sawal.",
+   "thinkThis": "P3_LINKER_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Compiler aur linker ka kaam mix."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:linker",
+ "revisionLevel": "short-form"
+}

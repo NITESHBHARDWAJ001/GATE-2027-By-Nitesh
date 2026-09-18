@@ -1,0 +1,27 @@
+{
+ "coreIdea": "ARP IP se MAC nikaalta hai (broadcast request, unicast reply).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Kaun kya resolve karta hai.",
+   "thinkThis": "NP_ADDRESS_RES_01"
+  },
+  {
+   "seeThis": "UDP vs TCP users, multiple connections, matching lists.",
+   "thinkThis": "NP_TRANSPORT_USAGE_02"
+  },
+  {
+   "seeThis": "Sliding window numerics inside protocol question.",
+   "thinkThis": "NP_FLOW_CALC_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Broadcast/unicast.",
+  "FTP two connections."
+ ],
+ "highYieldPyqLessons": [
+  "Protocol-mapping recall."
+ ],
+ "topicId": "computer-networks:network-protocols",
+ "revisionLevel": "short-form"
+}

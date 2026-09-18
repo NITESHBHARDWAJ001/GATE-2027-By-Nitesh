@@ -1,0 +1,20 @@
+{
+ "topicId": "operating-system:precedence-graph",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Precedence Graph and Parbegin/Parend",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 1989-1992.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  1989,
+  1991,
+  1992
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "computer-networks__2.15.1",
+  "localId": "2.15.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "hamming-code",
+  "topic": "Hamming Code",
+  "year": 1994,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "N/A",
+  "answerVerified": false,
+  "questionTextRaw": "Following bit single error correcting hamming coded message is received. Determine if the message is correct (assuming that at most bit could be corrupted). If the message contains an error find the bit which is erroneous and gives correct message.",
+  "tagsRaw": "gate1994 computer-networks  error-detection  hamming-code  normal  descriptive",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 129
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_HAMMING_CODE_01"
+ },
+ {
+  "pyqId": "computer-networks__2.15.2",
+  "localId": "2.15.2",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "hamming-code",
+  "topic": "Hamming Code",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "29",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Assume that a -bit Hamming codeword consisting of -bit data and check bits is , where the data bits and the check bits are given in the following tables: Which one of the following choices gives the correct values of and ? A. is and is                         B. is and is                                  C. is and is     D. is and is",
+  "tagsRaw": "gatecse-2021-set1 computer-networks  hamming-code   two-marks     error-detection",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 129
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_HAMMING_CODE_01"
+ }
+]

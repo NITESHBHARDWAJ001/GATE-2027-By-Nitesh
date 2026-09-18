@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:sequence-series",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SEQUEN-01",
+   "patternId": "P3_SEQUENCE_SERIES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "AP 2,5,8: 10th term?",
+   "solutionApproach": "2+9*3.",
+   "answer": "29"
+  }
+ ]
+}

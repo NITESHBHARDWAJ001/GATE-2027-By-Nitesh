@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:topological-sort",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TOPOLO-01",
+   "patternId": "P3_TOPOLOGICAL_SORT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Edges A->C, B->C. Topological orderings?",
+   "solutionApproach": "A,B koi bhi order, phir C.",
+   "answer": "2"
+  }
+ ]
+}

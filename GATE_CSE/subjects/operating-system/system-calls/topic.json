@@ -1,0 +1,18 @@
+{
+ "topicId": "operating-system:system-calls",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "System Calls",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2021-2021.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2021
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,27 @@
+{
+ "overview": "Deduction, conditional statements (if-then), seating/ordering puzzles, box-labelling puzzles, pattern/figure completion.",
+ "whyItMatters": "13 PYQs extracted (2010-2026); P2 topic.",
+ "coreConcept": "Statement ke sirf necessarily true consequences lo; 'if P then Q' ka contrapositive 'if not Q then not P' equivalent hai.",
+ "hinglishExplanation": "Conditional 'jab teacher room me hai to sab students chup khade hain' ka matlab: agar teacher hai to students chup. Converse (agar students chup hain to teacher hai) NECESSARILY true nahi. Ordering puzzles me sab observations ko chain me likho.",
+ "formalDefinition": "Statement ke sirf necessarily true consequences lo; 'if P then Q' ka contrapositive 'if not Q then not P' equivalent hai.",
+ "importantProperties": [
+  "If P then Q = if not Q then not P (contrapositive).",
+  "Converse aur inverse equivalent nahi.",
+  "Ordering: relations ko chain me jodo.",
+  "Box-labelling: sab labels galat hain to ek pick se solve.",
+  "Elimination table.",
+  "Necessarily true = har case me true."
+ ],
+ "formulas": {
+  "contra": "P -> Q == ~Q -> ~P"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Converse ko valid maan lena.",
+  "Extra assumption jodna."
+ ],
+ "standardTechniques": [
+  "Symbols me likho: P -> Q."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:logical-reasoning"
+}

@@ -1,0 +1,42 @@
+{
+ "topicId": "db-sql",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SQL-01",
+   "patternId": "SQL_OUTPUT_TRACE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "T(x) = {1,2,NULL}. SELECT COUNT(*), COUNT(x), AVG(x) FROM T. Output?",
+   "solutionApproach": "COUNT(*)=3 (rows), COUNT(x)=2, AVG ignores NULL = 1.5.",
+   "answer": "3, 2, 1.5"
+  },
+  {
+   "practiceId": "AI-SQL-02",
+   "patternId": "SQL_OUTPUT_TRACE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A(x) = {1,2,3}, B(y) = {2,NULL}. SELECT x FROM A WHERE x NOT IN (SELECT y FROM B). Tuples returned?",
+   "solutionApproach": "Subquery has NULL, so x NOT IN is never TRUE: 0 rows.",
+   "answer": "0"
+  },
+  {
+   "practiceId": "AI-SQL-03",
+   "patternId": "SQL_SEMANTICS_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "SELECT MAX(salary) FROM emp WHERE salary < (SELECT MAX(salary) FROM emp). What does it return?",
+   "solutionApproach": "Second highest salary.",
+   "answer": "Second highest salary"
+  },
+  {
+   "practiceId": "AI-SQL-04",
+   "patternId": "SQL_CONCEPTS_04",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Can HAVING be used without GROUP BY?",
+   "solutionApproach": "Yes: the whole table is treated as a single group.",
+   "answer": "Yes"
+  }
+ ]
+}

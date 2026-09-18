@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_INSTRUCTION_SET_ARCHITEC_01",
+  "name": "Instruction Set Architecture (PYQ type)",
+  "recognitionClueHinglish": "Instruction Set Architecture se related sawal.",
+  "whatShouldComeToMind": [
+   "ISA me kya aata hai: instructions, registers, addressing modes, data types; cache size nahi."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Programmer-visible?"
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.19.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Organization ko ISA me ginna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

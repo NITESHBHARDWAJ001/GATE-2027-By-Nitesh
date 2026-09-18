@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Regular languages me p; non-regularity proof; pumping length options.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Pumping Lemma se related sawal.",
+   "thinkThis": "P3_PUMPING_LEMMA_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Pumping lemma converse maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "theory-of-computation:pumping-lemma",
+ "revisionLevel": "short-form"
+}

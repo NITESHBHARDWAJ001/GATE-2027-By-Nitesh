@@ -1,0 +1,20 @@
+{
+ "overview": "D flip-flops chain: data har clock par ek position shift.",
+ "whyItMatters": "2 PYQs extracted (1987-1991); P4 topic.",
+ "coreConcept": "D flip-flops chain: data har clock par ek position shift.",
+ "hinglishExplanation": "n-bit register, n clocks me data poora shift.",
+ "formalDefinition": "D flip-flops chain: data har clock par ek position shift.",
+ "importantProperties": [
+  "SISO, SIPO, PISO, PIPO.",
+  "Ring/Johnson counters."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Direction."
+ ],
+ "standardTechniques": [
+  "1. Clock trace."
+ ],
+ "topicId": "digital-logic:shift-registers"
+}

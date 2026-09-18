@@ -1,0 +1,42 @@
+{
+ "topicId": "programming-and-ds-data-structures:hashing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-HASHIN-01",
+   "patternId": "HSH_TABLE_SIM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "m=7, h(k)=k mod 7, linear probing. Insert 8,15,22. Slots?",
+   "solutionApproach": "8->1, 15->2 (1 taken), 22->3.",
+   "answer": "1,2,3"
+  },
+  {
+   "practiceId": "AI-HASHIN-02",
+   "patternId": "HSH_ANALYSIS_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "1000 keys, 800 slots. Load factor?",
+   "solutionApproach": "n/m.",
+   "answer": "1.25"
+  },
+  {
+   "practiceId": "AI-HASHING-X03",
+   "patternId": "HSH_TABLE_SIM_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "m=7, h=k mod 7, linear probing. Insert 14, 21, 28. Slots?",
+   "solutionApproach": "0,1,2.",
+   "answer": "0, 1, 2"
+  },
+  {
+   "practiceId": "AI-HASHING-X04",
+   "patternId": "HSH_ANALYSIS_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Chained hash 100 keys, 20 slots: load factor?",
+   "solutionApproach": "n/m.",
+   "answer": "5"
+  }
+ ]
+}

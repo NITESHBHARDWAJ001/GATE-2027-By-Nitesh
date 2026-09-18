@@ -1,0 +1,21 @@
+{
+ "overview": "AST program ki syntactic structure, CFG execution flow.",
+ "whyItMatters": "1 PYQs extracted (2015-2015); P4 topic.",
+ "coreConcept": "AST program ki syntactic structure, CFG execution flow.",
+ "hinglishExplanation": "AST tree hoti hai, CFG graph (cycles allowed).",
+ "formalDefinition": "AST program ki syntactic structure, CFG execution flow.",
+ "importantProperties": [
+  "AST: expressions ka hierarchy.",
+  "CFG: basic blocks ke beech edges.",
+  "CFG me loops = cycles."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Dono ko same maan lena."
+ ],
+ "standardTechniques": [
+  "1. Structure."
+ ],
+ "topicId": "compiler-design:abstract-syntax-tree"
+}

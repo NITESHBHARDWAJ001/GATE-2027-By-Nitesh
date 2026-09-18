@@ -1,0 +1,33 @@
+{
+ "topicId": "discrete-mathematics-combinatory:counting",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-COUNTI-01",
+   "patternId": "CNT_CONSTRAINED_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Sets A subset of B subset of [4]: pairs count?",
+   "solutionApproach": "3^4.",
+   "answer": "81"
+  },
+  {
+   "practiceId": "AI-COUNTING-X02",
+   "patternId": "CNT_STRUCTURES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Number of rooted binary trees with 3 nodes (Catalan)?",
+   "solutionApproach": "C(6,3)/4.",
+   "answer": "5"
+  },
+  {
+   "practiceId": "AI-COUNTING-X03",
+   "patternId": "CNT_CONSTRAINED_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Substrings (non-empty, by position) of a string of length 5?",
+   "solutionApproach": "5*6/2.",
+   "answer": "15"
+  }
+ ]
+}

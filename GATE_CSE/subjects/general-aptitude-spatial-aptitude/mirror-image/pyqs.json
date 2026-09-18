@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-spatial-aptitude__10.5.1",
+  "localId": "10.5.1",
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "subject": "General Aptitude: Spatial Aptitude",
+  "topicSlug": "mirror-image",
+  "topic": "Mirror Image",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "10",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "The least number of squares to be added in the figure to make                    a line of symmetry is A.                                  B.                         C.                 D.",
+  "tagsRaw": "gatecse-2024-set1 spatial-aptitude  mirror-image    two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 321
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_MIRROR_IMAGE_01"
+ }
+]

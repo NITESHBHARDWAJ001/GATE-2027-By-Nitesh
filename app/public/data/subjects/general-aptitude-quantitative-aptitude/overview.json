@@ -1,0 +1,16 @@
+{
+ "subjectId": "general-aptitude-quantitative-aptitude",
+ "name": "General Aptitude: Quantitative Aptitude",
+ "sourceVolume": "volume1",
+ "sourcePdf": "filter1_volume1.pdf",
+ "totalTopics": 52,
+ "totalPyqsExtracted": 136,
+ "priorityDistribution": {
+  "P1": 0,
+  "P2": 2,
+  "P3": 46,
+  "P4": 4
+ },
+ "p1Topics": [],
+ "processingStatus": "structure_ready_notes_pending"
+}

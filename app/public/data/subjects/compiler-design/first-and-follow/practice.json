@@ -1,0 +1,33 @@
+{
+ "topicId": "compiler-design:first-and-follow",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-FIRST--01",
+   "patternId": "FF_COMPUTE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S -> aS | b. FIRST(S)?",
+   "solutionApproach": "a or b.",
+   "answer": "{a, b}"
+  },
+  {
+   "practiceId": "AI-FIRST-AN-X02",
+   "patternId": "FF_COMPUTE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S->AB, A->a|eps, B->b. FIRST(S)?",
+   "solutionApproach": "a or (A nullable) b.",
+   "answer": "{a, b}"
+  },
+  {
+   "practiceId": "AI-FIRST-AN-X03",
+   "patternId": "FF_COMPUTE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S->aSb|eps. FOLLOW(S)?",
+   "solutionApproach": "b and $.",
+   "answer": "{b, $}"
+  }
+ ]
+}

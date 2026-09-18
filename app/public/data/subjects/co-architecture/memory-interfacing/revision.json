@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Address bits = log2(number of addressable units). Chip select se blocks ko alag address range.",
+ "mustRememberFormulas": [
+  "addrBits: log2(size / word)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Memory size, word size, chips; address lines / range.",
+   "thinkThis": "MI_ADDR_01"
+  },
+  {
+   "seeThis": "Bank mapping, block transfer time, statements.",
+   "thinkThis": "MI_INTERLEAVE_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Byte vs word.",
+  "Which bits pick bank."
+ ],
+ "highYieldPyqLessons": [
+  "Small topic; address-bit counting is reliable."
+ ],
+ "topicId": "co-architecture:memory-interfacing",
+ "revisionLevel": "short-form"
+}

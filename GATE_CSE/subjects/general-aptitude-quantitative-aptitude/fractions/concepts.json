@@ -1,0 +1,19 @@
+{
+ "overview": "Addition, comparison, simplification.",
+ "whyItMatters": "1 PYQs extracted (2018-2018); P3 topic.",
+ "coreConcept": "Addition, comparison, simplification.",
+ "hinglishExplanation": "Common denominator.",
+ "formalDefinition": "Addition, comparison, simplification.",
+ "importantProperties": [
+  "a/b+c/d=(ad+bc)/bd."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Denominator add karna."
+ ],
+ "standardTechniques": [
+  "1. LCD."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:fractions"
+}

@@ -1,0 +1,21 @@
+{
+ "overview": "n+1 objects n boxes me to koi box me >=2.",
+ "whyItMatters": "2 PYQs extracted (2000-2005); P4 topic.",
+ "coreConcept": "n+1 objects n boxes me to koi box me >=2.",
+ "hinglishExplanation": "Worst case me sabko alag boxes me baanto.",
+ "formalDefinition": "n+1 objects n boxes me to koi box me >=2.",
+ "importantProperties": [
+  "Minimum for guarantee: worst case + 1.",
+  "Generalized: ceil(n/k)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "+1 bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Boxes.",
+  "2. Worst case."
+ ],
+ "topicId": "discrete-mathematics-combinatory:pigeonhole-principle"
+}

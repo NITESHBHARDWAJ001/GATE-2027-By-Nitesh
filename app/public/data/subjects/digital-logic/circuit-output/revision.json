@@ -1,0 +1,32 @@
+{
+ "coreIdea": "Combinational: gate-by-gate Boolean expression; sequential: flip-flop next-state equations se state trace.",
+ "mustRememberFormulas": [
+  "JK: Q+ = JQ' + K'Q",
+  "T: Q+ = Q xor T",
+  "D: Q+ = D"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Gates/multiplexer circuit; output expression ya function (XOR, majority, NOR..).",
+   "thinkThis": "CO_COMB_FUNCTION_01"
+  },
+  {
+   "seeThis": "Flip-flops, initial state; next states / final state after n clocks.",
+   "thinkThis": "CO_SEQ_TRACE_02"
+  },
+  {
+   "seeThis": "Waveforms, setup/hold, stuck-at fault detection.",
+   "thinkThis": "CO_TIMING_FAULT_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Async vs sync.",
+  "Clock edge.",
+  "Simplification errors."
+ ],
+ "highYieldPyqLessons": [
+  "Circuit figures are usually missing in extraction: refer to the source PDF for these."
+ ],
+ "topicId": "digital-logic:circuit-output",
+ "revisionLevel": "short-form"
+}

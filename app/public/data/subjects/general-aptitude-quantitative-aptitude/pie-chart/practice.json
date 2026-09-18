@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:pie-chart",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PIE-CH-01",
+   "patternId": "P3_PIE_CHART_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "90 degree sector %?",
+   "solutionApproach": "90/360.",
+   "answer": "25%"
+  }
+ ]
+}

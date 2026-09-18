@@ -1,0 +1,26 @@
+{
+  "topicId": "dm-mathematical-logic-first-order-logic",
+  "revisionLevel": "short-form",
+  "coreIdea": "∀=for all, ∃=exists. 'All A are B'→∀x(A(x)→B(x)). 'Some A are B'→∃x(A(x)∧B(x)). Quantifier ORDER matters when mixed.",
+  "mustRememberFormulas": [
+    "¬∀xP(x) ≡ ∃x¬P(x); ¬∃xP(x) ≡ ∀x¬P(x)",
+    "'All A are B' → ∀x(A(x)→B(x)) [implication, NOT and]",
+    "'Some A are B' → ∃x(A(x)∧B(x)) [and, NOT implication]",
+    "∃y∀xP(x,y) ⟹ ∀x∃yP(x,y), but NOT the reverse (∀∃ is weaker)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "English sentence → formula, or formula → English meaning", "thinkThis": "FOL_TRANSLATION_01"},
+    {"seeThis": "'is this valid', 'which is equivalent', negation of quantified formula", "thinkThis": "FOL_QUANTIFIER_EQUIV_02"},
+    {"seeThis": "'finite model', 'interpretation', 'which sets satisfy', 'implied by'", "thinkThis": "FOL_MODEL_INTERPRETATION_03"}
+  ],
+  "commonTrapsQuickList": [
+    "Never use ∧ inside ∀ for 'all A are B' — use → (the reverse mirror trap: never use → inside ∃ for 'some')",
+    "∀x∃y ≠ ∃y∀x — swapping mixed quantifiers changes meaning/strength",
+    "Negating nested quantifiers: flip BOTH the quantifier type AND the inner connective",
+    "Same-type adjacent quantifiers (∀∀ or ∃∃) CAN be freely swapped"
+  ],
+  "highYieldPyqLessons": [
+    "Translation (15/35) and quantifier-equivalence (14/35) together are ~83% of this topic — master just these two skills for near-full coverage.",
+    "The ∀∃ vs ∃∀ non-equivalence has been tested in some form almost every 2-3 GATE cycles — a guaranteed-recurring trap worth memorizing cold."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "topicId": "algorithms-quick-sort",
+  "overview": "Quick Sort ka poora GATE-relevant content EK IDEA se nikalta hai: complexity depends ENTIRELY on kitna BALANCED split pivot deta hai har partition step pe. Is topic me 4 skills: worst/best-case input identify karna, split-ratio se complexity derive karna, partition-trace karna, aur probability-based pivot analysis.",
+  "whyItMatters": "15 PYQs, aur ye Recurrence Relation topic ka sabse practical real-world application hai — Master Theorem ka use case directly yahan dikhta hai.",
+  "coreConcept": "Quick Sort: pivot choose karo, array ko 'chhote-than-pivot' aur 'bade-than-pivot' me partition karo, recursively dono parts sort karo. Complexity depends on pivot kitna BALANCED split deta hai: perfectly balanced (n/2, n/2) → O(n log n); worst unbalanced (1, n-1) → O(n²).",
+  "hinglishExplanation": "Socho tumhe ek deck of cards sort karni hai — pivot ek card choose karo, baaki sabko do dhero me baanto (usse chhoti, usse badi). Agar pivot HAMESHA lagbhag BEECH me giri (balanced split), to bahut fast ho jaayega (jaise Merge Sort). Lekin agar pivot HAMESHA sabse CHHOTI ya sabse BADI nikli (jaise already-sorted array pe first-element-pivot use karo), to ek dhera khali rahega aur dusra dhera pura — worst case, O(n²), practically Bubble-Sort-jaisa slow.",
+  "formalDefinition": "T(n) = T(k) + T(n-1-k) + Θ(n), where k = number of elements smaller than the chosen pivot (partition step is Θ(n)).",
+  "importantProperties": [
+    "WORST CASE: pivot always ends up as smallest or largest element (k=0 or k=n-1 every time) → T(n)=T(n-1)+Θ(n) → Θ(n²). This happens with first-element-pivot on an ALREADY-SORTED (or reverse-sorted) array.",
+    "BEST/AVERAGE CASE: pivot gives a roughly balanced split (even a FIXED fraction like 'at least n/5 on each side' is enough) → T(n)=T(αn)+T((1-α)n)+Θ(n) for any constant 0<α≤1/2 → still Θ(n log n).",
+    "This is the key GATE insight: the split does NOT need to be exactly 50-50 — ANY fixed-ratio split (like 1:4, 1:9, even 1:99) still gives Θ(n log n), because the recursion depth is still O(log n) (just with a different base/constant).",
+    "Randomized Quick Sort (random pivot each time): worst-case is STILL Θ(n²) in the absolute worst case (bad luck could always pick worst pivots), but EXPECTED (average) time is Θ(n log n) regardless of input — randomization protects against ADVERSARIAL inputs, not against bad luck.",
+    "If pivot selection itself costs O(n) (e.g., using median-of-medians or an exact median-finding algorithm) instead of O(1) (first/last/random element): recurrence becomes T(n)=2T(n/2)+O(n) [if using true median] → still Θ(n log n), but with a WORSE constant factor than simple pivot selection despite same asymptotic class."
+  ],
+  "formulas": {
+    "worstCaseRecurrence": "T(n) = T(n-1) + Θ(n) → Θ(n²)",
+    "balancedSplitRecurrence": "T(n) = T(αn) + T((1-α)n) + Θ(n) for any FIXED 0<α≤1/2 → Θ(n log n)",
+    "medianPivotRecurrence": "T(n) = 2T(n/2) + O(n) [if median found in O(n)] → Θ(n log n)",
+    "expectedRandomizedComplexity": "E[T(n)] = Θ(n log n) regardless of input, when pivot is chosen uniformly at random each time"
+  },
+  "keyPropertiesAndIdentities": [
+    "ANY fixed-ratio split (not just exact 50-50) gives Θ(n log n) — this generalization is tested repeatedly with different fractions (1/5, 1/10, etc.) in GATE questions; don't assume ONLY perfect halving works.",
+    "'Worst possible location for the pivot' (probability question) means the pivot ends up at position 1 or n after partitioning — for a RANDOM pivot among n distinct elements, this probability is 2/n (since exactly 2 out of n possible pivot values — the min and the max — cause this)."
+  ],
+  "commonPitfalls": [
+    "Assuming Quick Sort is ALWAYS O(n log n) — its worst case is O(n²), specifically triggered by already-sorted/reverse-sorted input with naive (first/last element) pivot selection.",
+    "Assuming ONLY an exact 50-50 split gives O(n log n) — any FIXED ratio split does too.",
+    "Confusing randomized Quick Sort's guarantee: it improves the EXPECTED case to reliably O(n log n) for ANY input, but does NOT eliminate the theoretical worst case (Θ(n²) is still technically possible, just extremely unlikely).",
+    "Miscounting comparisons in a partition step — the partition of n elements makes exactly n-1 comparisons against the pivot (not n, not 2n)."
+  ],
+  "standardTechniques": [
+    "For 'which input causes worst/best case' questions: identify what pivot selection RULE is used (first/last/median/random element), then construct the input that makes that specific rule produce the most/least balanced splits.",
+    "For split-ratio-given complexity questions: set up T(n)=T(kn)+T((1-k)n)+Θ(n) for the given ratio k, and recognize it ALWAYS resolves to Θ(n log n) as long as k is a fixed constant (not dependent on n).",
+    "For partition-trace questions: simulate the actual partition algorithm (Lomuto or Hoare scheme, whichever is specified) step by step, tracking the pivot's final resting position and comparison count.",
+    "For probability questions: count favorable outcomes (pivot values causing worst-case split) over total possible pivot choices (n), directly."
+  ]
+}

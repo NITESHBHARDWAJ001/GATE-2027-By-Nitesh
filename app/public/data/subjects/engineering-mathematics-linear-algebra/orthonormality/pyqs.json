@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "engineering-mathematics-linear-algebra__6.8.1",
+  "localId": "6.8.1",
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "subject": "Engineering Mathematics: Linear Algebra",
+  "topicSlug": "orthonormality",
+  "topic": "Orthonormality",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "15",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B;D",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following statements is/are correct? A. has a unique set of orthonormal basis vectors B. does not have a unique set of orthonormal basis vectors C. Linearly independent vectors in are orthonormal D. Orthonormal vectors are linearly independent",
+  "tagsRaw": "gateda-2025 linear-algebra     vector-space    orthonormality  multiple-selects  one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 176
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ORTHONORMALITY_01"
+ },
+ {
+  "pyqId": "engineering-mathematics-linear-algebra__6.8.2",
+  "localId": "6.8.2",
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "subject": "Engineering Mathematics: Linear Algebra",
+  "topicSlug": "orthonormality",
+  "topic": "Orthonormality",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "40",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Let                                          be a system of orthonormal vectors in . Consider the matrix . Which of the following statements is/are correct? A. Singular values of are also its                                                         B. Singular values of are either eigenvalues                                                                                or C. Determinant of is                                          D. is invertible",
+  "tagsRaw": "gateda-2025 linear-algebra orthonormality vector-space matrix multiple-selects two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 176
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ORTHONORMALITY_01"
+ }
+]

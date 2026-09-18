@@ -1,0 +1,21 @@
+{
+ "overview": "Expression simplify aur equivalent expressions.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Expression simplify aur equivalent expressions.",
+ "hinglishExplanation": "Laws (absorption, De Morgan) se reduce.",
+ "formalDefinition": "Expression simplify aur equivalent expressions.",
+ "importantProperties": [
+  "A + AB = A.",
+  "A + A'B = A + B.",
+  "De Morgan."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Consensus term miss."
+ ],
+ "standardTechniques": [
+  "1. Laws apply."
+ ],
+ "topicId": "digital-logic:reduction"
+}

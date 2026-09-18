@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:memory-management",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MEMORY-01",
+   "patternId": "P3_MEMORY_MANAGEMENT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Holes 100,500,200; request 212 best fit?",
+   "solutionApproach": "Smallest fit: 500.",
+   "answer": "500K hole"
+  }
+ ]
+}

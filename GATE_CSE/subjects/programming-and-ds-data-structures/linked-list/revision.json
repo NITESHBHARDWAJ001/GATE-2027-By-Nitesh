@@ -1,0 +1,29 @@
+{
+  "topicId": "ds-linked-list",
+  "revisionLevel": "short-form",
+  "coreIdea": "Node+pointer chain. No random access (search=O(n)). Insert/delete=O(1) ONCE you have the position/pointer.",
+  "mustRememberFormulas": [
+    "Search: O(n) always (no random access)",
+    "Insert/delete with pointer in hand: O(1); finding that pointer by value: O(n)",
+    "Singly-list delete given only the node's own pointer: O(1) via copy-next-delete-next trick, FAILS for last node",
+    "Doubly-list delete given the node's own pointer: always true O(1)",
+    "Circular queue: point single external pointer to REAR (front = rear->next, both O(1))"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "C code modifying list pointers, asked for resulting list", "thinkThis": "LL_MANIPULATION_TRACE_01"},
+    {"seeThis": "'worst-case complexity of insert/delete given a pointer'", "thinkThis": "LL_COMPLEXITY_ANALYSIS_02"},
+    {"seeThis": "'which operation is slowest' or 'is linked list suitable for X'", "thinkThis": "LL_VS_ARRAY_TRADEOFF_03"},
+    {"seeThis": "circular list, single external pointer, which node to point to", "thinkThis": "LL_CIRCULAR_DESIGN_04"},
+    {"seeThis": "recursive function checking a list property", "thinkThis": "LL_RECURSIVE_PROPERTY_05"}
+  ],
+  "commonTrapsQuickList": [
+    "O(1) deletion trick (copy-next, delete-next) FAILS for the last node",
+    "Binary search on a linked list is NOT O(log n) — no random access",
+    "Doubly linked list delete-given-pointer is ALWAYS O(1); singly is conditional",
+    "Never assume linked list is 'better' or 'worse' than array in general — always operation-specific"
+  ],
+  "highYieldPyqLessons": [
+    "Code-tracing (8/24) is the default skill — draw boxes and arrows, update one statement at a time, every single time.",
+    "The 'last node' edge case breaks more tricks (O(1) deletion, circular-pointer design) than any other single edge case — always check for it explicitly."
+  ]
+}

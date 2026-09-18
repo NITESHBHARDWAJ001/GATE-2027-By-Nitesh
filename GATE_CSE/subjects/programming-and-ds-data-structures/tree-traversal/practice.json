@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-and-ds-data-structures:tree-traversal",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TREE-T-01",
+   "patternId": "P3_TREE_TRAVERSAL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Preorder of root A left B right C?",
+   "solutionApproach": "A B C.",
+   "answer": "A B C"
+  }
+ ]
+}

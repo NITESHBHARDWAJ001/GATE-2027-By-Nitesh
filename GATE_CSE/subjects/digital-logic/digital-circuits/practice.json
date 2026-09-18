@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:digital-circuits",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DIGITA-01",
+   "patternId": "P3_DIGITAL_CIRCUITS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Odd parity ka gate?",
+   "solutionApproach": "XOR of all inputs.",
+   "answer": "XOR"
+  }
+ ]
+}

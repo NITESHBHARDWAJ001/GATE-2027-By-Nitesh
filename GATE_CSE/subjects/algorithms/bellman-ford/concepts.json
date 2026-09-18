@@ -1,0 +1,23 @@
+{
+ "overview": "Negative edge weights ke saath single-source shortest path; O(VE).",
+ "whyItMatters": "2 PYQs extracted (2009-2013); P4 topic.",
+ "coreConcept": "Negative edge weights ke saath single-source shortest path; O(VE).",
+ "hinglishExplanation": "V-1 baar saare edges relax karo; ek aur pass me improvement mile to negative cycle.",
+ "formalDefinition": "Negative edge weights ke saath single-source shortest path; O(VE).",
+ "importantProperties": [
+  "Time O(VE); complete graph par O(V^3).",
+  "Negative edges allowed, negative cycle detect.",
+  "V-1 iterations kaafi."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Dijkstra jaisa greedy maan lena."
+ ],
+ "standardTechniques": [
+  "1. dist init.",
+  "2. V-1 relax passes.",
+  "3. Cycle check."
+ ],
+ "topicId": "algorithms:bellman-ford"
+}

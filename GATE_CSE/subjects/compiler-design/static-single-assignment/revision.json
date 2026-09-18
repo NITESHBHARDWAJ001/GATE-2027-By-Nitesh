@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Har variable ek hi baar assign; temporaries/versions ki minimum count.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Static Single Assignment (SSA) se related sawal.",
+   "thinkThis": "P3_STATIC_SINGLE_ASSIGNMENT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Non-SSA ko count karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:static-single-assignment",
+ "revisionLevel": "short-form"
+}

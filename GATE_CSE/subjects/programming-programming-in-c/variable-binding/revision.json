@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Static vs dynamic binding se output.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Variable Binding and Scope se related sawal.",
+   "thinkThis": "P4_VARIABLE_BINDING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Scope mix."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:variable-binding",
+ "revisionLevel": "short-form"
+}

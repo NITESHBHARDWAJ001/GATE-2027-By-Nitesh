@@ -1,0 +1,7407 @@
+[
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "cache-memory",
+  "name": "Cache Memory",
+  "priority": "P1",
+  "pyqCountExtracted": 69,
+  "yearsCovered": [
+   1987,
+   1989,
+   1990,
+   1993,
+   1995,
+   1996,
+   1998,
+   1999,
+   2001,
+   2002,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2026
+  ],
+  "evidence": "69 PYQs extracted, tested in 10 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "number-representation",
+  "name": "Number Representation",
+  "priority": "P1",
+  "pyqCountExtracted": 57,
+  "yearsCovered": [
+   1990,
+   1991,
+   1992,
+   1993,
+   1994,
+   1995,
+   1996,
+   1997,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2019,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "57 PYQs extracted, tested in 9 recent GATE cycles (2016+), spans 1990-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "database-normalization",
+  "name": "Database Normalization",
+  "priority": "P1",
+  "pyqCountExtracted": 55,
+  "yearsCovered": [
+   1987,
+   1988,
+   1990,
+   1994,
+   1995,
+   1997,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "55 PYQs extracted, tested in 10 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "sql",
+  "name": "SQL",
+  "priority": "P1",
+  "pyqCountExtracted": 55,
+  "yearsCovered": [
+   1991,
+   1993,
+   1998,
+   1999,
+   2000,
+   2001,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "evidence": "55 PYQs extracted, tested in 10 recent GATE cycles (2016+), spans 1991-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "binary-tree",
+  "name": "Binary Tree",
+  "priority": "P1",
+  "pyqCountExtracted": 53,
+  "yearsCovered": [
+   1987,
+   1988,
+   1989,
+   1990,
+   1991,
+   1993,
+   1994,
+   1995,
+   1996,
+   1997,
+   1998,
+   2000,
+   2002,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2010,
+   2011,
+   2012,
+   2014,
+   2015,
+   2016,
+   2018,
+   2019,
+   2021,
+   2023,
+   2024,
+   2025
+  ],
+  "evidence": "53 PYQs extracted, tested in 7 recent GATE cycles (2016+), spans 1987-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "process-synchronization",
+  "name": "Process Synchronization",
+  "priority": "P1",
+  "pyqCountExtracted": 52,
+  "yearsCovered": [
+   1987,
+   1988,
+   1990,
+   1991,
+   1993,
+   1994,
+   1995,
+   1996,
+   1997,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2024
+  ],
+  "evidence": "52 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1987-2024 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "process-scheduling",
+  "name": "Process Scheduling",
+  "priority": "P1",
+  "pyqCountExtracted": 49,
+  "yearsCovered": [
+   1988,
+   1990,
+   1993,
+   1995,
+   1996,
+   1998,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2019,
+   2020,
+   2021,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "49 PYQs extracted, tested in 9 recent GATE cycles (2016+), spans 1988-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "grammar",
+  "name": "Grammar",
+  "priority": "P1",
+  "pyqCountExtracted": 47,
+  "yearsCovered": [
+   1988,
+   1990,
+   1991,
+   1992,
+   1994,
+   1995,
+   1996,
+   1997,
+   1998,
+   1999,
+   2001,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2010,
+   2016,
+   2017,
+   2019,
+   2021,
+   2024,
+   2025
+  ],
+  "evidence": "47 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1988-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "virtual-memory",
+  "name": "Virtual Memory",
+  "priority": "P1",
+  "pyqCountExtracted": 43,
+  "yearsCovered": [
+   1989,
+   1990,
+   1991,
+   1994,
+   1995,
+   1996,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2006,
+   2008,
+   2009,
+   2011,
+   2013,
+   2014,
+   2015,
+   2016,
+   2018,
+   2019,
+   2020,
+   2023,
+   2024
+  ],
+  "evidence": "43 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1989-2024 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "finite-automata",
+  "name": "Finite Automata",
+  "priority": "P1",
+  "pyqCountExtracted": 43,
+  "yearsCovered": [
+   1988,
+   1991,
+   1993,
+   1996,
+   1997,
+   1998,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2012,
+   2013,
+   2014,
+   2016,
+   2017,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "43 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1988-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "discrete-mathematics-graph-theory",
+  "topicSlug": "graph-connectivity",
+  "name": "Graph Connectivity",
+  "priority": "P1",
+  "pyqCountExtracted": 40,
+  "yearsCovered": [
+   1987,
+   1988,
+   1990,
+   1991,
+   1992,
+   1993,
+   1994,
+   1995,
+   1999,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2013,
+   2014,
+   2015,
+   2019,
+   2021,
+   2022,
+   2024
+  ],
+  "evidence": "40 PYQs extracted, tested in 4 recent GATE cycles (2016+), spans 1987-2024 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "discrete-mathematics-mathematical-logic",
+  "topicSlug": "propositional-logic",
+  "name": "Propositional Logic",
+  "priority": "P1",
+  "pyqCountExtracted": 40,
+  "yearsCovered": [
+   1987,
+   1988,
+   1989,
+   1990,
+   1991,
+   1992,
+   1993,
+   1994,
+   1995,
+   1996,
+   1997,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2008,
+   2009,
+   2014,
+   2015,
+   2016,
+   2017,
+   2021,
+   2024
+  ],
+  "evidence": "40 PYQs extracted, tested in 4 recent GATE cycles (2016+), spans 1987-2024 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "pipelining",
+  "name": "Pipelining",
+  "priority": "P1",
+  "pyqCountExtracted": 39,
+  "yearsCovered": [
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2020,
+   2021,
+   2023,
+   2024,
+   2025
+  ],
+  "evidence": "39 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 1999-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "identify-function",
+  "name": "Identify Function",
+  "priority": "P1",
+  "pyqCountExtracted": 38,
+  "yearsCovered": [
+   1989,
+   1990,
+   1991,
+   1993,
+   1994,
+   1995,
+   1998,
+   1999,
+   2000,
+   2003,
+   2004,
+   2005,
+   2006,
+   2008,
+   2009,
+   2010,
+   2011,
+   2013,
+   2014,
+   2015,
+   2019,
+   2020,
+   2021
+  ],
+  "evidence": "38 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1989-2021 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "relations",
+  "name": "Relations",
+  "priority": "P1",
+  "pyqCountExtracted": 38,
+  "yearsCovered": [
+   1987,
+   1989,
+   1992,
+   1994,
+   1995,
+   1996,
+   1997,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2004,
+   2005,
+   2006,
+   2007,
+   2009,
+   2010,
+   2015,
+   2016,
+   2020,
+   2021,
+   2025,
+   2026
+  ],
+  "evidence": "38 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "recurrence-relation",
+  "name": "Recurrence Relation",
+  "priority": "P1",
+  "pyqCountExtracted": 36,
+  "yearsCovered": [
+   1987,
+   1988,
+   1989,
+   1990,
+   1992,
+   1993,
+   1994,
+   1996,
+   1997,
+   1998,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2008,
+   2009,
+   2012,
+   2014,
+   2015,
+   2016,
+   2017,
+   2020,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "36 PYQs extracted, tested in 7 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "binary-search-tree",
+  "name": "Binary Search Tree",
+  "priority": "P1",
+  "pyqCountExtracted": 36,
+  "yearsCovered": [
+   1996,
+   1997,
+   2001,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2020,
+   2021,
+   2022,
+   2024,
+   2025
+  ],
+  "evidence": "36 PYQs extracted, tested in 7 recent GATE cycles (2016+), spans 1996-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "minimum-spanning-tree",
+  "name": "Minimum Spanning Tree",
+  "priority": "P1",
+  "pyqCountExtracted": 35,
+  "yearsCovered": [
+   1991,
+   1992,
+   1995,
+   1996,
+   1997,
+   2000,
+   2001,
+   2003,
+   2005,
+   2006,
+   2007,
+   2009,
+   2010,
+   2011,
+   2012,
+   2014,
+   2015,
+   2016,
+   2018,
+   2020,
+   2021,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "35 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 1991-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "discrete-mathematics-mathematical-logic",
+  "topicSlug": "first-order-logic",
+  "name": "First Order Logic",
+  "priority": "P1",
+  "pyqCountExtracted": 35,
+  "yearsCovered": [
+   1989,
+   1991,
+   1992,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2023,
+   2025,
+   2026
+  ],
+  "evidence": "35 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 1989-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "context-free-language",
+  "name": "Context Free Language",
+  "priority": "P1",
+  "pyqCountExtracted": 35,
+  "yearsCovered": [
+   1987,
+   1992,
+   1995,
+   1996,
+   1999,
+   2000,
+   2001,
+   2003,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2015,
+   2016,
+   2017,
+   2019,
+   2021,
+   2022,
+   2023,
+   2025,
+   2026
+  ],
+  "evidence": "35 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "regular-language",
+  "name": "Regular Language",
+  "priority": "P1",
+  "pyqCountExtracted": 35,
+  "yearsCovered": [
+   1987,
+   1990,
+   1991,
+   1995,
+   1996,
+   1998,
+   1999,
+   2000,
+   2001,
+   2006,
+   2007,
+   2008,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2018,
+   2019,
+   2020,
+   2021,
+   2024,
+   2025
+  ],
+  "evidence": "35 PYQs extracted, tested in 7 recent GATE cycles (2016+), spans 1987-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "boolean-algebra",
+  "name": "Boolean Algebra",
+  "priority": "P1",
+  "pyqCountExtracted": 34,
+  "yearsCovered": [
+   1987,
+   1988,
+   1989,
+   1992,
+   1994,
+   1995,
+   1997,
+   1998,
+   1999,
+   2000,
+   2002,
+   2004,
+   2005,
+   2007,
+   2008,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "34 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "relational-algebra",
+  "name": "Relational Algebra",
+  "priority": "P1",
+  "pyqCountExtracted": 33,
+  "yearsCovered": [
+   1992,
+   1994,
+   1995,
+   1996,
+   1997,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2007,
+   2008,
+   2014,
+   2015,
+   2017,
+   2018,
+   2019,
+   2021,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "33 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 1992-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "group-theory",
+  "name": "Group Theory",
+  "priority": "P1",
+  "pyqCountExtracted": 33,
+  "yearsCovered": [
+   1988,
+   1990,
+   1992,
+   1993,
+   1994,
+   1995,
+   1996,
+   1997,
+   1998,
+   1999,
+   2000,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2009,
+   2010,
+   2014,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ],
+  "evidence": "33 PYQs extracted, tested in 7 recent GATE cycles (2016+), spans 1988-2024 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "eigen-value",
+  "name": "Eigen Value",
+  "priority": "P1",
+  "pyqCountExtracted": 33,
+  "yearsCovered": [
+   1993,
+   2002,
+   2005,
+   2006,
+   2007,
+   2008,
+   2010,
+   2011,
+   2012,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "33 PYQs extracted, tested in 10 recent GATE cycles (2016+), spans 1993-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "b-tree",
+  "name": "B Tree",
+  "priority": "P1",
+  "pyqCountExtracted": 32,
+  "yearsCovered": [
+   1989,
+   1994,
+   1997,
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2015,
+   2016,
+   2017,
+   2019,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "32 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1989-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "time-complexity",
+  "name": "Time Complexity",
+  "priority": "P1",
+  "pyqCountExtracted": 31,
+  "yearsCovered": [
+   1988,
+   1989,
+   1993,
+   1999,
+   2000,
+   2003,
+   2004,
+   2006,
+   2007,
+   2008,
+   2010,
+   2014,
+   2015,
+   2017,
+   2019,
+   2024,
+   2026
+  ],
+  "evidence": "31 PYQs extracted, tested in 4 recent GATE cycles (2016+), spans 1988-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "probability",
+  "name": "Probability",
+  "priority": "P1",
+  "pyqCountExtracted": 31,
+  "yearsCovered": [
+   1995,
+   1996,
+   1997,
+   1998,
+   2001,
+   2004,
+   2005,
+   2008,
+   2010,
+   2011,
+   2014,
+   2016,
+   2018,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "31 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1995-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "page-replacement",
+  "name": "Page Replacement",
+  "priority": "P1",
+  "pyqCountExtracted": 31,
+  "yearsCovered": [
+   1993,
+   1994,
+   1995,
+   1997,
+   2001,
+   2002,
+   2004,
+   2005,
+   2007,
+   2008,
+   2009,
+   2010,
+   2012,
+   2014,
+   2015,
+   2016,
+   2017,
+   2021,
+   2025
+  ],
+  "evidence": "31 PYQs extracted, tested in 4 recent GATE cycles (2016+), spans 1993-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "identify-class-language",
+  "name": "Identify Class Language",
+  "priority": "P1",
+  "pyqCountExtracted": 31,
+  "yearsCovered": [
+   1987,
+   1988,
+   1991,
+   1994,
+   1999,
+   2000,
+   2002,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2013,
+   2014,
+   2017,
+   2018,
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "evidence": "31 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1987-2023 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "functions",
+  "name": "Functions",
+  "priority": "P1",
+  "pyqCountExtracted": 30,
+  "yearsCovered": [
+   1987,
+   1988,
+   1989,
+   1993,
+   1996,
+   1997,
+   1998,
+   2001,
+   2003,
+   2005,
+   2006,
+   2007,
+   2012,
+   2014,
+   2015,
+   2016,
+   2021,
+   2023,
+   2024,
+   2026
+  ],
+  "evidence": "30 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "binary-heap",
+  "name": "Binary Heap",
+  "priority": "P1",
+  "pyqCountExtracted": 30,
+  "yearsCovered": [
+   1990,
+   1996,
+   1999,
+   2001,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2009,
+   2011,
+   2014,
+   2015,
+   2016,
+   2018,
+   2019,
+   2020,
+   2021,
+   2023,
+   2024,
+   2025
+  ],
+  "evidence": "30 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 1990-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "decidability",
+  "name": "Decidability",
+  "priority": "P1",
+  "pyqCountExtracted": 30,
+  "yearsCovered": [
+   1987,
+   1988,
+   1989,
+   1990,
+   1995,
+   1996,
+   1997,
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2007,
+   2008,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2020,
+   2021,
+   2022,
+   2025
+  ],
+  "evidence": "30 PYQs extracted, tested in 7 recent GATE cycles (2016+), spans 1987-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "programming-in-c",
+  "name": "Programming In C",
+  "priority": "P1",
+  "pyqCountExtracted": 29,
+  "yearsCovered": [
+   2000,
+   2002,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2012,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2021,
+   2024,
+   2026
+  ],
+  "evidence": "29 PYQs extracted, tested in 7 recent GATE cycles (2016+), spans 2000-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "regular-expression",
+  "name": "Regular Expression",
+  "priority": "P1",
+  "pyqCountExtracted": 29,
+  "yearsCovered": [
+   1987,
+   1991,
+   1992,
+   1994,
+   1995,
+   1996,
+   1997,
+   1998,
+   2000,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2014,
+   2016,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ],
+  "evidence": "29 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1987-2024 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "transaction-and-concurrency",
+  "name": "Transaction and Concurrency",
+  "priority": "P1",
+  "pyqCountExtracted": 27,
+  "yearsCovered": [
+   1999,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2010,
+   2012,
+   2015,
+   2016,
+   2019,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "27 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1999-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "set-theory",
+  "name": "Set Theory",
+  "priority": "P1",
+  "pyqCountExtracted": 27,
+  "yearsCovered": [
+   1993,
+   1994,
+   1995,
+   1996,
+   1998,
+   2000,
+   2001,
+   2004,
+   2005,
+   2006,
+   2008,
+   2014,
+   2015,
+   2016,
+   2017,
+   2021
+  ],
+  "evidence": "27 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1993-2021 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "resource-allocation",
+  "name": "Resource Allocation",
+  "priority": "P1",
+  "pyqCountExtracted": 27,
+  "yearsCovered": [
+   1988,
+   1989,
+   1992,
+   1993,
+   1994,
+   1996,
+   1997,
+   1998,
+   2000,
+   2001,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2013,
+   2014,
+   2015,
+   2017,
+   2019,
+   2022
+  ],
+  "evidence": "27 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1988-2022 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "most-appropriate-word",
+  "name": "Most Appropriate Word",
+  "priority": "P1",
+  "pyqCountExtracted": 26,
+  "yearsCovered": [
+   2010,
+   2011,
+   2012,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "evidence": "26 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 2010-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "minimal-state-automata",
+  "name": "Minimal State Automata",
+  "priority": "P1",
+  "pyqCountExtracted": 25,
+  "yearsCovered": [
+   1987,
+   1997,
+   1998,
+   1999,
+   2001,
+   2002,
+   2006,
+   2007,
+   2008,
+   2010,
+   2011,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2023
+  ],
+  "evidence": "25 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1987-2023 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "matrix",
+  "name": "Matrix",
+  "priority": "P1",
+  "pyqCountExtracted": 24,
+  "yearsCovered": [
+   1987,
+   1988,
+   1993,
+   1994,
+   1996,
+   1997,
+   1998,
+   2001,
+   2004,
+   2006,
+   2008,
+   2015,
+   2022,
+   2025,
+   2026
+  ],
+  "evidence": "24 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "linked-list",
+  "name": "Linked List",
+  "priority": "P1",
+  "pyqCountExtracted": 24,
+  "yearsCovered": [
+   1987,
+   1993,
+   1994,
+   1995,
+   1997,
+   1998,
+   1999,
+   2002,
+   2003,
+   2004,
+   2005,
+   2008,
+   2010,
+   2016,
+   2017,
+   2020,
+   2022,
+   2023,
+   2025,
+   2026
+  ],
+  "evidence": "24 PYQs extracted, tested in 7 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "graph-search",
+  "name": "Graph Search",
+  "priority": "P1",
+  "pyqCountExtracted": 23,
+  "yearsCovered": [
+   1989,
+   2000,
+   2001,
+   2003,
+   2005,
+   2006,
+   2007,
+   2008,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2023,
+   2024,
+   2025
+  ],
+  "evidence": "23 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1989-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "asymptotic-notations",
+  "name": "Asymptotic Notations",
+  "priority": "P1",
+  "pyqCountExtracted": 22,
+  "yearsCovered": [
+   1994,
+   1996,
+   1999,
+   2000,
+   2001,
+   2003,
+   2004,
+   2005,
+   2008,
+   2011,
+   2012,
+   2015,
+   2017,
+   2021,
+   2022,
+   2023,
+   2024,
+   2026
+  ],
+  "evidence": "22 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1994-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "sorting",
+  "name": "Sorting",
+  "priority": "P1",
+  "pyqCountExtracted": 22,
+  "yearsCovered": [
+   1988,
+   1990,
+   1991,
+   1992,
+   1996,
+   1998,
+   1999,
+   2000,
+   2005,
+   2006,
+   2007,
+   2008,
+   2016,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "22 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1988-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "machine-instruction",
+  "name": "Machine Instruction",
+  "priority": "P1",
+  "pyqCountExtracted": 21,
+  "yearsCovered": [
+   1988,
+   1994,
+   1999,
+   2003,
+   2004,
+   2006,
+   2007,
+   2008,
+   2015,
+   2016,
+   2021,
+   2023,
+   2025
+  ],
+  "evidence": "21 PYQs extracted, tested in 4 recent GATE cycles (2016+), spans 1988-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "subnetting",
+  "name": "Subnetting",
+  "priority": "P1",
+  "pyqCountExtracted": 21,
+  "yearsCovered": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2010,
+   2012,
+   2015,
+   2019,
+   2020,
+   2022,
+   2023,
+   2025
+  ],
+  "evidence": "21 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 2003-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "lr-parser",
+  "name": "LR Parser",
+  "priority": "P1",
+  "pyqCountExtracted": 20,
+  "yearsCovered": [
+   1992,
+   1998,
+   2003,
+   2005,
+   2006,
+   2008,
+   2013,
+   2014,
+   2015,
+   2017,
+   2019,
+   2020,
+   2021,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "20 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 1992-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "tcp",
+  "name": "TCP",
+  "priority": "P1",
+  "pyqCountExtracted": 20,
+  "yearsCovered": [
+   2004,
+   2007,
+   2008,
+   2009,
+   2012,
+   2015,
+   2016,
+   2017,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "20 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 2004-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "syntax-directed-translation",
+  "name": "Syntax Directed Translation",
+  "priority": "P1",
+  "pyqCountExtracted": 19,
+  "yearsCovered": [
+   1992,
+   1995,
+   1996,
+   1998,
+   2000,
+   2001,
+   2003,
+   2004,
+   2016,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "19 PYQs extracted, tested in 9 recent GATE cycles (2016+), spans 1992-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "stack",
+  "name": "Stack",
+  "priority": "P1",
+  "pyqCountExtracted": 19,
+  "yearsCovered": [
+   1989,
+   1991,
+   1994,
+   1995,
+   2000,
+   2003,
+   2004,
+   2005,
+   2007,
+   2014,
+   2015,
+   2021,
+   2023,
+   2024,
+   2025
+  ],
+  "evidence": "19 PYQs extracted, tested in 4 recent GATE cycles (2016+), spans 1989-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "recursion",
+  "name": "Recursion",
+  "priority": "P1",
+  "pyqCountExtracted": 19,
+  "yearsCovered": [
+   1991,
+   1994,
+   2000,
+   2001,
+   2002,
+   2004,
+   2005,
+   2007,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2020,
+   2025,
+   2026
+  ],
+  "evidence": "19 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1991-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "discrete-mathematics-combinatory",
+  "topicSlug": "combinatory",
+  "name": "Combinatory",
+  "priority": "P1",
+  "pyqCountExtracted": 18,
+  "yearsCovered": [
+   1990,
+   1991,
+   1998,
+   1999,
+   2001,
+   2003,
+   2004,
+   2005,
+   2007,
+   2008,
+   2014,
+   2015,
+   2019,
+   2020,
+   2025,
+   2026
+  ],
+  "evidence": "18 PYQs extracted, tested in 4 recent GATE cycles (2016+), spans 1990-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "digital-counter",
+  "name": "Digital Counter",
+  "priority": "P1",
+  "pyqCountExtracted": 17,
+  "yearsCovered": [
+   1987,
+   1990,
+   1991,
+   1992,
+   1994,
+   2002,
+   2005,
+   2008,
+   2011,
+   2014,
+   2015,
+   2016,
+   2017,
+   2021,
+   2023,
+   2026
+  ],
+  "evidence": "17 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "system-of-equations",
+  "name": "System of Equations",
+  "priority": "P1",
+  "pyqCountExtracted": 17,
+  "yearsCovered": [
+   1996,
+   1998,
+   2003,
+   2004,
+   2005,
+   2008,
+   2014,
+   2015,
+   2016,
+   2017,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "17 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1996-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "min-sum-of-products-form",
+  "name": "Min Sum of Products Form",
+  "priority": "P1",
+  "pyqCountExtracted": 16,
+  "yearsCovered": [
+   1991,
+   1997,
+   2001,
+   2005,
+   2007,
+   2008,
+   2011,
+   2014,
+   2018,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "16 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1991-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "disk-scheduling",
+  "name": "Disk Scheduling",
+  "priority": "P1",
+  "pyqCountExtracted": 16,
+  "yearsCovered": [
+   1989,
+   1990,
+   1995,
+   1997,
+   1999,
+   2001,
+   2004,
+   2007,
+   2009,
+   2014,
+   2015,
+   2016,
+   2018,
+   2020
+  ],
+  "evidence": "16 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1989-2020 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "quick-sort",
+  "name": "Quick Sort",
+  "priority": "P1",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [
+   1987,
+   1989,
+   1992,
+   1996,
+   2001,
+   2006,
+   2008,
+   2009,
+   2014,
+   2015,
+   2019,
+   2024,
+   2026
+  ],
+  "evidence": "15 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "indexing",
+  "name": "Indexing",
+  "priority": "P1",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [
+   1989,
+   1990,
+   1993,
+   1998,
+   2008,
+   2011,
+   2013,
+   2015,
+   2020,
+   2021,
+   2023,
+   2024,
+   2026
+  ],
+  "evidence": "15 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1989-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "engineering-mathematics-calculus",
+  "topicSlug": "limits",
+  "name": "Limits",
+  "priority": "P1",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [
+   1993,
+   1995,
+   2008,
+   2010,
+   2015,
+   2016,
+   2017,
+   2019,
+   2021,
+   2022,
+   2024,
+   2025
+  ],
+  "evidence": "15 PYQs extracted, tested in 7 recent GATE cycles (2016+), spans 1993-2025 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "expectation",
+  "name": "Expectation",
+  "priority": "P1",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [
+   1999,
+   2004,
+   2006,
+   2011,
+   2013,
+   2014,
+   2017,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "15 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1999-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "queue",
+  "name": "Queue",
+  "priority": "P1",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [
+   1992,
+   1994,
+   1996,
+   2001,
+   2006,
+   2007,
+   2012,
+   2013,
+   2016,
+   2017,
+   2018,
+   2022,
+   2024,
+   2026
+  ],
+  "evidence": "15 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1992-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "pointers",
+  "name": "Pointers",
+  "priority": "P1",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [
+   2000,
+   2001,
+   2003,
+   2005,
+   2006,
+   2014,
+   2015,
+   2017,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "15 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 2000-2026 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "pushdown-automata",
+  "name": "Pushdown Automata",
+  "priority": "P1",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [
+   1996,
+   1997,
+   1998,
+   1999,
+   2000,
+   2001,
+   2004,
+   2005,
+   2006,
+   2009,
+   2015,
+   2016,
+   2021,
+   2023
+  ],
+  "evidence": "15 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1996-2023 — high frequency and consistently recent."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "circuit-output",
+  "name": "Circuit Output",
+  "priority": "P2",
+  "pyqCountExtracted": 40,
+  "yearsCovered": [
+   1987,
+   1989,
+   1990,
+   1991,
+   1993,
+   1994,
+   1996,
+   1997,
+   1999,
+   2000,
+   2001,
+   2002,
+   2004,
+   2005,
+   2006,
+   2007,
+   2010,
+   2011,
+   2014,
+   2025
+  ],
+  "evidence": "40 PYQs extracted (high historical frequency), spans 1987-2025, but only 1 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "disk",
+  "name": "Disk",
+  "priority": "P2",
+  "pyqCountExtracted": 30,
+  "yearsCovered": [
+   1990,
+   1993,
+   1995,
+   1996,
+   1997,
+   1998,
+   1999,
+   2001,
+   2003,
+   2004,
+   2005,
+   2007,
+   2008,
+   2009,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2024
+  ],
+  "evidence": "30 PYQs extracted (high historical frequency), spans 1990-2024, but only 1 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "parsing",
+  "name": "Parsing",
+  "priority": "P2",
+  "pyqCountExtracted": 22,
+  "yearsCovered": [
+   1987,
+   1989,
+   1993,
+   1995,
+   1998,
+   1999,
+   2000,
+   2001,
+   2003,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2012,
+   2015,
+   2017,
+   2024
+  ],
+  "evidence": "22 PYQs extracted (high historical frequency), spans 1987-2024, but only 2 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "runtime-environment",
+  "name": "Runtime Environment",
+  "priority": "P2",
+  "pyqCountExtracted": 22,
+  "yearsCovered": [
+   1988,
+   1989,
+   1990,
+   1993,
+   1995,
+   1996,
+   1997,
+   1998,
+   2001,
+   2002,
+   2008,
+   2010,
+   2012,
+   2014,
+   2021,
+   2023
+  ],
+  "evidence": "22 PYQs extracted (high historical frequency), spans 1988-2023, but only 2 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "addressing-modes",
+  "name": "Addressing Modes",
+  "priority": "P2",
+  "pyqCountExtracted": 19,
+  "yearsCovered": [
+   1987,
+   1988,
+   1989,
+   1993,
+   1996,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2004,
+   2005,
+   2006,
+   2008,
+   2011,
+   2017,
+   2026
+  ],
+  "evidence": "19 PYQs extracted (high historical frequency), spans 1987-2026, but only 2 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "k-map",
+  "name": "K Map",
+  "priority": "P2",
+  "pyqCountExtracted": 17,
+  "yearsCovered": [
+   1987,
+   1988,
+   1992,
+   1995,
+   1996,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2006,
+   2007,
+   2008,
+   2012,
+   2025
+  ],
+  "evidence": "17 PYQs extracted (high historical frequency), spans 1987-2025, but only 1 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "sliding-window",
+  "name": "Sliding Window",
+  "priority": "P2",
+  "pyqCountExtracted": 16,
+  "yearsCovered": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2014,
+   2015,
+   2016,
+   2026
+  ],
+  "evidence": "16 PYQs extracted (high historical frequency), spans 2003-2026, but only 2 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "recursive-and-recursively-enumerable-languages",
+  "name": "Recursive and Recursively Enumerable Languages",
+  "priority": "P2",
+  "pyqCountExtracted": 16,
+  "yearsCovered": [
+   1990,
+   2003,
+   2004,
+   2005,
+   2008,
+   2010,
+   2014,
+   2015,
+   2016,
+   2021
+  ],
+  "evidence": "16 PYQs extracted (high historical frequency), spans 1990-2021, but only 2 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "hashing",
+  "name": "Hashing",
+  "priority": "P2",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [
+   1996,
+   1997,
+   2004,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2014,
+   2015
+  ],
+  "evidence": "15 PYQs extracted (high historical frequency), spans 1996-2015, but only 0 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "routing",
+  "name": "Routing",
+  "priority": "P2",
+  "pyqCountExtracted": 14,
+  "yearsCovered": [
+   2005,
+   2007,
+   2008,
+   2014,
+   2017,
+   2020,
+   2023,
+   2024,
+   2026
+  ],
+  "evidence": "14 PYQs extracted, 5 recent (2016+) appearances, spans 2005-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "ieee-representation",
+  "name": "IEEE Representation",
+  "priority": "P2",
+  "pyqCountExtracted": 14,
+  "yearsCovered": [
+   2008,
+   2012,
+   2014,
+   2017,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "14 PYQs extracted, 8 recent (2016+) appearances, spans 2008-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "multiplexer",
+  "name": "Multiplexer",
+  "priority": "P2",
+  "pyqCountExtracted": 14,
+  "yearsCovered": [
+   1990,
+   1992,
+   1998,
+   2001,
+   2004,
+   2005,
+   2007,
+   2016,
+   2020,
+   2021,
+   2023,
+   2024
+  ],
+  "evidence": "14 PYQs extracted, 5 recent (2016+) appearances, spans 1990-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "engineering-mathematics-calculus",
+  "topicSlug": "maxima-minima",
+  "name": "Maxima Minima",
+  "priority": "P2",
+  "pyqCountExtracted": 14,
+  "yearsCovered": [
+   1987,
+   1995,
+   1997,
+   2008,
+   2012,
+   2015,
+   2020,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "14 PYQs extracted, 5 recent (2016+) appearances, spans 1987-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "conditional-probability",
+  "name": "Conditional Probability",
+  "priority": "P2",
+  "pyqCountExtracted": 14,
+  "yearsCovered": [
+   1994,
+   2003,
+   2005,
+   2006,
+   2008,
+   2009,
+   2011,
+   2012,
+   2016,
+   2017,
+   2024,
+   2026
+  ],
+  "evidence": "14 PYQs extracted, 4 recent (2016+) appearances, spans 1994-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "compilation-phases",
+  "name": "Compilation Phases",
+  "priority": "P2",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   1987,
+   1990,
+   2005,
+   2009,
+   2015,
+   2016,
+   2017,
+   2018,
+   2020,
+   2021,
+   2023,
+   2024,
+   2026
+  ],
+  "evidence": "13 PYQs extracted, 8 recent (2016+) appearances, spans 1987-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "application-layer-protocols",
+  "name": "Application Layer Protocols",
+  "priority": "P2",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   2005,
+   2006,
+   2008,
+   2011,
+   2012,
+   2016,
+   2019,
+   2020,
+   2022,
+   2026
+  ],
+  "evidence": "13 PYQs extracted, 5 recent (2016+) appearances, spans 2005-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "discrete-mathematics-graph-theory",
+  "topicSlug": "degree-of-graph",
+  "name": "Degree of Graph",
+  "priority": "P2",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   1987,
+   1991,
+   1995,
+   2003,
+   2006,
+   2009,
+   2010,
+   2013,
+   2014,
+   2017,
+   2026
+  ],
+  "evidence": "13 PYQs extracted, 2 recent (2016+) appearances, spans 1987-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "logical-reasoning",
+  "name": "Logical Reasoning",
+  "priority": "P2",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   2010,
+   2015,
+   2017,
+   2021,
+   2023,
+   2026
+  ],
+  "evidence": "13 PYQs extracted, 4 recent (2016+) appearances, spans 2010-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "passage-reading",
+  "name": "Passage Reading",
+  "priority": "P2",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   2010,
+   2011,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2022,
+   2025
+  ],
+  "evidence": "13 PYQs extracted, 4 recent (2016+) appearances, spans 2010-2025 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "tree",
+  "name": "Tree",
+  "priority": "P2",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   1990,
+   1992,
+   1994,
+   1998,
+   2002,
+   2004,
+   2005,
+   2007,
+   2014,
+   2017,
+   2021
+  ],
+  "evidence": "13 PYQs extracted, 2 recent (2016+) appearances, spans 1990-2021 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "array",
+  "name": "Array",
+  "priority": "P2",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   2002,
+   2004,
+   2008,
+   2011,
+   2015,
+   2019,
+   2020,
+   2021,
+   2022
+  ],
+  "evidence": "13 PYQs extracted, 4 recent (2016+) appearances, spans 2002-2022 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "ip-packet",
+  "name": "IP Packet",
+  "priority": "P2",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   2004,
+   2006,
+   2010,
+   2014,
+   2015,
+   2016,
+   2024
+  ],
+  "evidence": "12 PYQs extracted, 2 recent (2016+) appearances, spans 2004-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "conflict-serializable",
+  "name": "Conflict Serializable",
+  "priority": "P2",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   2007,
+   2009,
+   2014,
+   2017,
+   2020,
+   2021,
+   2022,
+   2024,
+   2025
+  ],
+  "evidence": "12 PYQs extracted, 6 recent (2016+) appearances, spans 2007-2025 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "er-diagram",
+  "name": "ER Diagram",
+  "priority": "P2",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   2004,
+   2005,
+   2008,
+   2012,
+   2015,
+   2017,
+   2018,
+   2020,
+   2024
+  ],
+  "evidence": "12 PYQs extracted, 4 recent (2016+) appearances, spans 2004-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "determinant",
+  "name": "Determinant",
+  "priority": "P2",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   1997,
+   2000,
+   2004,
+   2005,
+   2013,
+   2014,
+   2019,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "12 PYQs extracted, 5 recent (2016+) appearances, spans 1997-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "probability",
+  "name": "Probability",
+  "priority": "P2",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   2015,
+   2017,
+   2018,
+   2021,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "12 PYQs extracted, 7 recent (2016+) appearances, spans 2015-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "parameter-passing",
+  "name": "Parameter Passing",
+  "priority": "P2",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   1992,
+   1994,
+   2001,
+   2003,
+   2006,
+   2008,
+   2010,
+   2013,
+   2016,
+   2018
+  ],
+  "evidence": "12 PYQs extracted, 2 recent (2016+) appearances, spans 1992-2018 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "graph-algorithms",
+  "name": "Graph Algorithms",
+  "priority": "P2",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   1994,
+   2003,
+   2005,
+   2016,
+   2017,
+   2021,
+   2026
+  ],
+  "evidence": "11 PYQs extracted, 4 recent (2016+) appearances, spans 1994-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "instruction-format",
+  "name": "Instruction Format",
+  "priority": "P2",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   1988,
+   1992,
+   1994,
+   2014,
+   2016,
+   2018,
+   2020,
+   2024,
+   2026
+  ],
+  "evidence": "11 PYQs extracted, 5 recent (2016+) appearances, spans 1988-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "intermediate-code",
+  "name": "Intermediate Code",
+  "priority": "P2",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   1988,
+   1989,
+   1992,
+   1994,
+   2014,
+   2015,
+   2021,
+   2024
+  ],
+  "evidence": "11 PYQs extracted, 2 recent (2016+) appearances, spans 1988-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "network-protocols",
+  "name": "Network Protocols",
+  "priority": "P2",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   2005,
+   2007,
+   2008,
+   2015,
+   2016,
+   2019,
+   2021,
+   2024
+  ],
+  "evidence": "11 PYQs extracted, 4 recent (2016+) appearances, spans 2005-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "discrete-mathematics-graph-theory",
+  "topicSlug": "graph-coloring",
+  "name": "Graph Coloring",
+  "priority": "P2",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   2002,
+   2004,
+   2006,
+   2008,
+   2009,
+   2016,
+   2018,
+   2020,
+   2023,
+   2024
+  ],
+  "evidence": "11 PYQs extracted, 5 recent (2016+) appearances, spans 2002-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "engineering-mathematics-calculus",
+  "topicSlug": "differentiation",
+  "name": "Differentiation",
+  "priority": "P2",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   1996,
+   2014,
+   2016,
+   2017,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "11 PYQs extracted, 5 recent (2016+) appearances, spans 1996-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "uniform-distribution",
+  "name": "Uniform Distribution",
+  "priority": "P2",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   1998,
+   2004,
+   2007,
+   2014,
+   2019,
+   2020,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "11 PYQs extracted, 5 recent (2016+) appearances, spans 1998-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "verbal-reasoning",
+  "name": "Verbal Reasoning",
+  "priority": "P2",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   2012,
+   2014,
+   2015,
+   2016,
+   2017,
+   2019,
+   2020,
+   2021
+  ],
+  "evidence": "11 PYQs extracted, 5 recent (2016+) appearances, spans 2012-2021 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "semaphore",
+  "name": "Semaphore",
+  "priority": "P2",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   1990,
+   1992,
+   1998,
+   2006,
+   2008,
+   2016,
+   2020,
+   2021,
+   2022,
+   2023,
+   2026
+  ],
+  "evidence": "11 PYQs extracted, 6 recent (2016+) appearances, spans 1990-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "dynamic-programming",
+  "name": "Dynamic Programming",
+  "priority": "P2",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   2008,
+   2009,
+   2010,
+   2011,
+   2014,
+   2016,
+   2026
+  ],
+  "evidence": "10 PYQs extracted, 2 recent (2016+) appearances, spans 2008-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "interrupts",
+  "name": "Interrupts",
+  "priority": "P2",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   1987,
+   1995,
+   1998,
+   2002,
+   2005,
+   2009,
+   2020,
+   2023,
+   2025,
+   2026
+  ],
+  "evidence": "10 PYQs extracted, 4 recent (2016+) appearances, spans 1987-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "canonical-normal-form",
+  "name": "Canonical Normal Form",
+  "priority": "P2",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   1988,
+   2002,
+   2008,
+   2010,
+   2015,
+   2019,
+   2020,
+   2024
+  ],
+  "evidence": "10 PYQs extracted, 3 recent (2016+) appearances, spans 1988-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "engineering-mathematics-calculus",
+  "topicSlug": "continuity",
+  "name": "Continuity",
+  "priority": "P2",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   1996,
+   1998,
+   2007,
+   2013,
+   2014,
+   2015,
+   2021,
+   2024,
+   2026
+  ],
+  "evidence": "10 PYQs extracted, 3 recent (2016+) appearances, spans 1996-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "random-variable",
+  "name": "Random Variable",
+  "priority": "P2",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   2005,
+   2011,
+   2012,
+   2015,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "10 PYQs extracted, 3 recent (2016+) appearances, spans 2005-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "threads",
+  "name": "Threads",
+  "priority": "P2",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   2004,
+   2007,
+   2011,
+   2014,
+   2017,
+   2021,
+   2024
+  ],
+  "evidence": "10 PYQs extracted, 3 recent (2016+) appearances, spans 2004-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "closure-property",
+  "name": "Closure Property",
+  "priority": "P2",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   1989,
+   1992,
+   2002,
+   2006,
+   2013,
+   2016,
+   2017,
+   2018,
+   2025,
+   2026
+  ],
+  "evidence": "10 PYQs extracted, 5 recent (2016+) appearances, spans 1989-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "operator-precedence",
+  "name": "Operator Precedence",
+  "priority": "P2",
+  "pyqCountExtracted": 9,
+  "yearsCovered": [
+   1991,
+   1997,
+   2000,
+   2002,
+   2011,
+   2014,
+   2016,
+   2018,
+   2024
+  ],
+  "evidence": "9 PYQs extracted, 3 recent (2016+) appearances, spans 1991-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "congestion-control",
+  "name": "Congestion Control",
+  "priority": "P2",
+  "pyqCountExtracted": 9,
+  "yearsCovered": [
+   2005,
+   2008,
+   2012,
+   2014,
+   2018,
+   2020,
+   2024,
+   2026
+  ],
+  "evidence": "9 PYQs extracted, 4 recent (2016+) appearances, spans 2005-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "word-pairs",
+  "name": "Word Pairs",
+  "priority": "P2",
+  "pyqCountExtracted": 9,
+  "yearsCovered": [
+   2010,
+   2013,
+   2015,
+   2020,
+   2021,
+   2023,
+   2025
+  ],
+  "evidence": "9 PYQs extracted, 4 recent (2016+) appearances, spans 2010-2025 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "algorithm-design",
+  "name": "Algorithm Design",
+  "priority": "P2",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1992,
+   1994,
+   2006,
+   2014,
+   2019,
+   2021,
+   2024
+  ],
+  "evidence": "8 PYQs extracted, 3 recent (2016+) appearances, spans 1992-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "searching",
+  "name": "Searching",
+  "priority": "P2",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1996,
+   2002,
+   2008,
+   2017,
+   2025
+  ],
+  "evidence": "8 PYQs extracted, 2 recent (2016+) appearances, spans 1996-2025 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "shortest-path",
+  "name": "Shortest Path",
+  "priority": "P2",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2002,
+   2003,
+   2007,
+   2020,
+   2025
+  ],
+  "evidence": "8 PYQs extracted, 2 recent (2016+) appearances, spans 2002-2025 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "dma",
+  "name": "DMA",
+  "priority": "P2",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2004,
+   2005,
+   2016,
+   2021,
+   2022,
+   2024
+  ],
+  "evidence": "8 PYQs extracted, 4 recent (2016+) appearances, spans 2004-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "code-optimization",
+  "name": "Code Optimization",
+  "priority": "P2",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2006,
+   2008,
+   2014,
+   2021,
+   2025,
+   2026
+  ],
+  "evidence": "8 PYQs extracted, 3 recent (2016+) appearances, spans 2006-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "distance-vector-routing",
+  "name": "Distance Vector Routing",
+  "priority": "P2",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2005,
+   2007,
+   2010,
+   2011,
+   2021,
+   2022
+  ],
+  "evidence": "8 PYQs extracted, 2 recent (2016+) appearances, spans 2005-2022 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "ip-addressing",
+  "name": "IP Addressing",
+  "priority": "P2",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2003,
+   2012,
+   2017,
+   2018,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "8 PYQs extracted, 6 recent (2016+) appearances, spans 2003-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "fork-system-call",
+  "name": "Fork System Call",
+  "priority": "P2",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2004,
+   2005,
+   2008,
+   2012,
+   2019,
+   2023,
+   2024,
+   2026
+  ],
+  "evidence": "8 PYQs extracted, 4 recent (2016+) appearances, spans 2004-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "loop-invariants",
+  "name": "Loop Invariants",
+  "priority": "P2",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1987,
+   1988,
+   1991,
+   2004,
+   2015,
+   2016,
+   2017
+  ],
+  "evidence": "8 PYQs extracted, 2 recent (2016+) appearances, spans 1987-2017 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "output",
+  "name": "Output",
+  "priority": "P2",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "8 PYQs extracted, 5 recent (2016+) appearances, spans 2022-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "data-path",
+  "name": "Data Path",
+  "priority": "P2",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1990,
+   2001,
+   2005,
+   2016,
+   2020,
+   2025
+  ],
+  "evidence": "7 PYQs extracted, 3 recent (2016+) appearances, spans 1990-2025 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "instruction-execution",
+  "name": "Instruction Execution",
+  "priority": "P2",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1990,
+   1992,
+   1995,
+   2002,
+   2006,
+   2017,
+   2025
+  ],
+  "evidence": "7 PYQs extracted, 2 recent (2016+) appearances, spans 1990-2025 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "ethernet",
+  "name": "Ethernet",
+  "priority": "P2",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   2004,
+   2006,
+   2013,
+   2016,
+   2022,
+   2024
+  ],
+  "evidence": "7 PYQs extracted, 3 recent (2016+) appearances, spans 2004-2024 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "flip-flop",
+  "name": "Flip Flop",
+  "priority": "P2",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   2001,
+   2004,
+   2007,
+   2015,
+   2017,
+   2018,
+   2025
+  ],
+  "evidence": "7 PYQs extracted, 3 recent (2016+) appearances, spans 2001-2025 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "discrete-mathematics-combinatory",
+  "topicSlug": "recurrence-relation",
+  "name": "Recurrence Relation",
+  "priority": "P2",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1996,
+   2004,
+   2007,
+   2016,
+   2022,
+   2023
+  ],
+  "evidence": "7 PYQs extracted, 3 recent (2016+) appearances, spans 1996-2023 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "rank-of-matrix",
+  "name": "Rank of Matrix",
+  "priority": "P2",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1994,
+   1995,
+   1998,
+   2002,
+   2017,
+   2020,
+   2021
+  ],
+  "evidence": "7 PYQs extracted, 3 recent (2016+) appearances, spans 1994-2021 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "vector-space",
+  "name": "Vector Space",
+  "priority": "P2",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1995,
+   2007,
+   2014,
+   2017,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "7 PYQs extracted, 4 recent (2016+) appearances, spans 1995-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "numerical-computation",
+  "name": "Numerical Computation",
+  "priority": "P2",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   2014,
+   2017,
+   2026
+  ],
+  "evidence": "7 PYQs extracted, 2 recent (2016+) appearances, spans 2014-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "file-system",
+  "name": "File System",
+  "priority": "P2",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   2002,
+   2004,
+   2008,
+   2017,
+   2019,
+   2021,
+   2022
+  ],
+  "evidence": "7 PYQs extracted, 4 recent (2016+) appearances, spans 2002-2022 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "hashing",
+  "name": "Hashing",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1989,
+   1990,
+   2005,
+   2021,
+   2023,
+   2026
+  ],
+  "evidence": "6 PYQs extracted, 3 recent (2016+) appearances, spans 1989-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "huffman-code",
+  "name": "Huffman Code",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1989,
+   2006,
+   2007,
+   2017,
+   2021
+  ],
+  "evidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 1989-2021 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "memory-interfacing",
+  "name": "Memory Interfacing",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1990,
+   1991,
+   2006,
+   2016,
+   2018,
+   2023
+  ],
+  "evidence": "6 PYQs extracted, 3 recent (2016+) appearances, spans 1990-2023 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "speedup",
+  "name": "Speedup",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2004,
+   2007,
+   2014,
+   2024,
+   2026
+  ],
+  "evidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 2004-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "first-and-follow",
+  "name": "First and Follow",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1992,
+   2012,
+   2017,
+   2019,
+   2024,
+   2025
+  ],
+  "evidence": "6 PYQs extracted, 4 recent (2016+) appearances, spans 1992-2025 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "csma-cd",
+  "name": "CSMA CD",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2005,
+   2008,
+   2015,
+   2016,
+   2018
+  ],
+  "evidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 2005-2018 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "network-layer",
+  "name": "Network Layer",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2003,
+   2004,
+   2013,
+   2014,
+   2018,
+   2026
+  ],
+  "evidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 2003-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "stop-and-wait",
+  "name": "Stop and Wait",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2005,
+   2006,
+   2015,
+   2016,
+   2017,
+   2023
+  ],
+  "evidence": "6 PYQs extracted, 3 recent (2016+) appearances, spans 2005-2023 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "referential-integrity",
+  "name": "Referential Integrity",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1997,
+   2005,
+   2012,
+   2017,
+   2021,
+   2026
+  ],
+  "evidence": "6 PYQs extracted, 3 recent (2016+) appearances, spans 1997-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "discrete-mathematics-combinatory",
+  "topicSlug": "counting",
+  "name": "Counting",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1990,
+   1991,
+   1994,
+   2021,
+   2023
+  ],
+  "evidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 1990-2023 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "discrete-mathematics-combinatory",
+  "topicSlug": "generating-functions",
+  "name": "Generating Functions",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1987,
+   2005,
+   2016,
+   2017,
+   2018,
+   2022
+  ],
+  "evidence": "6 PYQs extracted, 4 recent (2016+) appearances, spans 1987-2022 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "exponential-distribution",
+  "name": "Exponential Distribution",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2004,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "6 PYQs extracted, 4 recent (2016+) appearances, spans 2004-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "independent-events",
+  "name": "Independent Events",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1994,
+   1999,
+   2000,
+   2023,
+   2024,
+   2025
+  ],
+  "evidence": "6 PYQs extracted, 3 recent (2016+) appearances, spans 1994-2025 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "synonyms",
+  "name": "Synonyms",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2010,
+   2011,
+   2012,
+   2013,
+   2017,
+   2026
+  ],
+  "evidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 2010-2026 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "identify-function",
+  "name": "Identify Function",
+  "priority": "P2",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1995,
+   1998,
+   2004,
+   2017,
+   2019
+  ],
+  "evidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 1995-2019 — moderately frequent and recently active."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "parameter-passing",
+  "name": "Parameter Passing",
+  "priority": "P3",
+  "pyqCountExtracted": 14,
+  "yearsCovered": [
+   1988,
+   1989,
+   1990,
+   1991,
+   1993,
+   1995,
+   1999,
+   2003,
+   2004,
+   2007,
+   2016
+  ],
+  "evidence": "14 PYQs extracted, spans 1988-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "relational-calculus",
+  "name": "Relational Calculus",
+  "priority": "P3",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   1993,
+   1998,
+   1999,
+   2001,
+   2002,
+   2004,
+   2006,
+   2007,
+   2008,
+   2009,
+   2013
+  ],
+  "evidence": "13 PYQs extracted, spans 1993-2013 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-graph-theory",
+  "topicSlug": "graph-planarity",
+  "name": "Graph Planarity",
+  "priority": "P3",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   1987,
+   1989,
+   1990,
+   1992,
+   2005,
+   2008,
+   2011,
+   2012,
+   2014,
+   2015,
+   2021
+  ],
+  "evidence": "13 PYQs extracted, spans 1987-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "array",
+  "name": "Array",
+  "priority": "P3",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   1993,
+   1994,
+   1997,
+   1998,
+   2000,
+   2005,
+   2013,
+   2014,
+   2015,
+   2021
+  ],
+  "evidence": "13 PYQs extracted, spans 1993-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "microprogramming",
+  "name": "Microprogramming",
+  "priority": "P3",
+  "pyqCountExtracted": 12,
+  "yearsCovered": [
+   1987,
+   1996,
+   1997,
+   1999,
+   2002,
+   2004,
+   2005,
+   2006,
+   2008,
+   2013
+  ],
+  "evidence": "12 PYQs extracted, spans 1987-2013 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-calculus",
+  "topicSlug": "integration",
+  "name": "Integration",
+  "priority": "P3",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   1993,
+   1998,
+   2000,
+   2005,
+   2009,
+   2011,
+   2014,
+   2015,
+   2018
+  ],
+  "evidence": "11 PYQs extracted, spans 1993-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "lattice",
+  "name": "Lattice",
+  "priority": "P3",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   1988,
+   1990,
+   1992,
+   1994,
+   1997,
+   2002,
+   2005,
+   2008,
+   2015,
+   2017
+  ],
+  "evidence": "10 PYQs extracted, spans 1988-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "partial-order",
+  "name": "Partial Order",
+  "priority": "P3",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   1991,
+   1993,
+   1996,
+   1997,
+   1998,
+   2003,
+   2004,
+   2007,
+   2024
+  ],
+  "evidence": "10 PYQs extracted, spans 1991-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "algorithm-design-techniques",
+  "name": "Algorithm Design Techniques",
+  "priority": "P3",
+  "pyqCountExtracted": 9,
+  "yearsCovered": [
+   1990,
+   1994,
+   1995,
+   1997,
+   1998,
+   2015,
+   2017
+  ],
+  "evidence": "9 PYQs extracted, spans 1990-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "assembler",
+  "name": "Assembler",
+  "priority": "P3",
+  "pyqCountExtracted": 9,
+  "yearsCovered": [
+   1992,
+   1993,
+   1994,
+   1996
+  ],
+  "evidence": "9 PYQs extracted, spans 1992-1996 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "adder",
+  "name": "Adder",
+  "priority": "P3",
+  "pyqCountExtracted": 9,
+  "yearsCovered": [
+   1988,
+   1990,
+   1997,
+   1999,
+   2003,
+   2004,
+   2015,
+   2016
+  ],
+  "evidence": "9 PYQs extracted, spans 1988-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "memory-management",
+  "name": "Memory Management",
+  "priority": "P3",
+  "pyqCountExtracted": 9,
+  "yearsCovered": [
+   1992,
+   1995,
+   1996,
+   1998,
+   2006,
+   2007,
+   2014,
+   2015,
+   2020
+  ],
+  "evidence": "9 PYQs extracted, spans 1992-2020 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "io-handling",
+  "name": "IO Handling",
+  "priority": "P3",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1987,
+   1990,
+   1996,
+   1997,
+   2008,
+   2011
+  ],
+  "evidence": "8 PYQs extracted, spans 1987-2011 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "error-detection",
+  "name": "Error Detection",
+  "priority": "P3",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1987,
+   1992,
+   1995,
+   2005,
+   2007,
+   2008,
+   2009,
+   2017
+  ],
+  "evidence": "8 PYQs extracted, spans 1987-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "floating-point-representation",
+  "name": "Floating Point Representation",
+  "priority": "P3",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1987,
+   1989,
+   1990,
+   1997,
+   2003,
+   2005
+  ],
+  "evidence": "8 PYQs extracted, spans 1987-2005 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "binary-operation",
+  "name": "Binary Operation",
+  "priority": "P3",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1989,
+   1994,
+   2003,
+   2006,
+   2013,
+   2015
+  ],
+  "evidence": "8 PYQs extracted, spans 1989-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "lan-technologies",
+  "name": "LAN Technologies",
+  "priority": "P3",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2014,
+   2019
+  ],
+  "evidence": "7 PYQs extracted, spans 2003-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "candidate-key",
+  "name": "Candidate Key",
+  "priority": "P3",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1994,
+   2005,
+   2011,
+   2014,
+   2026
+  ],
+  "evidence": "7 PYQs extracted, spans 1994-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "joins",
+  "name": "Joins",
+  "priority": "P3",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   2004,
+   2005,
+   2006,
+   2007,
+   2012,
+   2014
+  ],
+  "evidence": "7 PYQs extracted, spans 2004-2014 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "booths-algorithm",
+  "name": "Booths Algorithm",
+  "priority": "P3",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1990,
+   1996,
+   1999,
+   2005,
+   2006,
+   2008,
+   2025
+  ],
+  "evidence": "7 PYQs extracted, spans 1990-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "digital-circuits",
+  "name": "Digital Circuits",
+  "priority": "P3",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1996,
+   2002,
+   2003,
+   2011,
+   2013,
+   2014,
+   2026
+  ],
+  "evidence": "7 PYQs extracted, spans 1996-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "functional-completeness",
+  "name": "Functional Completeness",
+  "priority": "P3",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1989,
+   1992,
+   1993,
+   1998,
+   1999,
+   2008,
+   2015
+  ],
+  "evidence": "7 PYQs extracted, spans 1989-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "number-theory",
+  "name": "Number Theory",
+  "priority": "P3",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1991,
+   1995,
+   2005,
+   2007,
+   2008,
+   2014,
+   2015
+  ],
+  "evidence": "7 PYQs extracted, spans 1991-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "io-handling",
+  "name": "IO Handling",
+  "priority": "P3",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1996,
+   1998,
+   2004,
+   2005,
+   2006,
+   2018
+  ],
+  "evidence": "7 PYQs extracted, spans 1996-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "lexical-analysis",
+  "name": "Lexical Analysis",
+  "priority": "P3",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1987,
+   2000,
+   2010,
+   2011,
+   2018
+  ],
+  "evidence": "6 PYQs extracted, spans 1987-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "register-allocation",
+  "name": "Register Allocation",
+  "priority": "P3",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1997,
+   2004,
+   2010,
+   2011,
+   2013,
+   2017
+  ],
+  "evidence": "6 PYQs extracted, spans 1997-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "min-no-gates",
+  "name": "Min No Gates",
+  "priority": "P3",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1995,
+   2000,
+   2004,
+   2009,
+   2017
+  ],
+  "evidence": "6 PYQs extracted, spans 1995-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-combinatory",
+  "topicSlug": "balls-in-bins",
+  "name": "Balls In Bins",
+  "priority": "P3",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1999,
+   2000,
+   2002,
+   2003,
+   2004,
+   2022
+  ],
+  "evidence": "6 PYQs extracted, spans 1999-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "binomial-distribution",
+  "name": "Binomial Distribution",
+  "priority": "P3",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   2002,
+   2005,
+   2006,
+   2007
+  ],
+  "evidence": "6 PYQs extracted, spans 2002-2007 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "interrupts",
+  "name": "Interrupts",
+  "priority": "P3",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1993,
+   1997,
+   1998,
+   1999,
+   2001,
+   2011
+  ],
+  "evidence": "6 PYQs extracted, spans 1993-2011 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "avl-tree",
+  "name": "AVL Tree",
+  "priority": "P3",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1988,
+   1996,
+   1998,
+   2008,
+   2009,
+   2020
+  ],
+  "evidence": "6 PYQs extracted, spans 1988-2020 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "non-determinism",
+  "name": "Non Determinism",
+  "priority": "P3",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1992,
+   1994,
+   1998,
+   2004,
+   2005,
+   2011
+  ],
+  "evidence": "6 PYQs extracted, spans 1992-2011 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "dijkstras-algorithm",
+  "name": "Dijkstras Algorithm",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   1996,
+   2004,
+   2005,
+   2006,
+   2008
+  ],
+  "evidence": "5 PYQs extracted, spans 1996-2008 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "greedy-algorithms",
+  "name": "Greedy Algorithms",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   1999,
+   2003,
+   2005,
+   2018
+  ],
+  "evidence": "5 PYQs extracted, spans 1999-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "recursion",
+  "name": "Recursion",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   1995,
+   2007,
+   2018,
+   2021,
+   2026
+  ],
+  "evidence": "5 PYQs extracted, spans 1995-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "direct-mapping",
+  "name": "Direct Mapping",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2022,
+   2025,
+   2026
+  ],
+  "evidence": "5 PYQs extracted, spans 2022-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "crc-polynomial",
+  "name": "CRC Polynomial",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2005,
+   2007,
+   2017,
+   2021,
+   2026
+  ],
+  "evidence": "5 PYQs extracted, spans 2005-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "fragmentation",
+  "name": "Fragmentation",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2004,
+   2013,
+   2025
+  ],
+  "evidence": "5 PYQs extracted, spans 2004-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "memory-interfacing",
+  "name": "Memory Interfacing",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   1995,
+   2005,
+   2009,
+   2010,
+   2013
+  ],
+  "evidence": "5 PYQs extracted, spans 1995-2013 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "poisson-distribution",
+  "name": "Poisson Distribution",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   1989,
+   2007,
+   2013,
+   2017,
+   2026
+  ],
+  "evidence": "5 PYQs extracted, spans 1989-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "statements-follow",
+  "name": "Statements Follow",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2016,
+   2021,
+   2022,
+   2024
+  ],
+  "evidence": "5 PYQs extracted, spans 2016-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "functions",
+  "name": "Functions",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2015,
+   2023
+  ],
+  "evidence": "5 PYQs extracted, spans 2015-2023 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "geometry",
+  "name": "Geometry",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2014,
+   2024,
+   2025
+  ],
+  "evidence": "5 PYQs extracted, spans 2014-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "logarithms",
+  "name": "Logarithms",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2011,
+   2018,
+   2024,
+   2026
+  ],
+  "evidence": "5 PYQs extracted, spans 2011-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "ratio-proportion",
+  "name": "Ratio Proportion",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2016,
+   2018,
+   2021,
+   2024
+  ],
+  "evidence": "5 PYQs extracted, spans 2016-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "venn-diagram",
+  "name": "Venn Diagram",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2010,
+   2016,
+   2019,
+   2024
+  ],
+  "evidence": "5 PYQs extracted, spans 2010-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "topicSlug": "paper-folding",
+  "name": "Paper Folding",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2021,
+   2024,
+   2025
+  ],
+  "evidence": "5 PYQs extracted, spans 2021-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "english-grammar",
+  "name": "English Grammar",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2015,
+   2017,
+   2020,
+   2021
+  ],
+  "evidence": "5 PYQs extracted, spans 2015-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "phrase-meaning",
+  "name": "Phrase Meaning",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2014,
+   2015,
+   2016
+  ],
+  "evidence": "5 PYQs extracted, spans 2014-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "tenses",
+  "name": "Tenses",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2013,
+   2014,
+   2017,
+   2025
+  ],
+  "evidence": "5 PYQs extracted, spans 2013-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "word-meaning",
+  "name": "Word Meaning",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2014,
+   2015,
+   2016,
+   2020
+  ],
+  "evidence": "5 PYQs extracted, spans 2014-2020 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "process",
+  "name": "Process",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   1996,
+   2001,
+   2002,
+   2006,
+   2023
+  ],
+  "evidence": "5 PYQs extracted, spans 1996-2023 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "structure",
+  "name": "Structure",
+  "priority": "P3",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2000,
+   2004,
+   2006,
+   2018,
+   2021
+  ],
+  "evidence": "5 PYQs extracted, spans 2000-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "binary-search",
+  "name": "Binary Search",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "4 PYQs extracted, spans 2021-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "merge-sort",
+  "name": "Merge Sort",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1999,
+   2012,
+   2015,
+   2026
+  ],
+  "evidence": "4 PYQs extracted, spans 1999-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "topological-sort",
+  "name": "Topological Sort",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2007,
+   2014,
+   2016,
+   2024
+  ],
+  "evidence": "4 PYQs extracted, spans 2007-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "data-dependency",
+  "name": "Data Dependency",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2005,
+   2007,
+   2008,
+   2015
+  ],
+  "evidence": "4 PYQs extracted, spans 2005-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "macros",
+  "name": "Macros",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1992,
+   1995,
+   1996,
+   1997
+  ],
+  "evidence": "4 PYQs extracted, spans 1992-1997 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "communication",
+  "name": "Communication",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2007,
+   2012,
+   2022
+  ],
+  "evidence": "4 PYQs extracted, spans 2007-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "mac-protocol",
+  "name": "MAC Protocol",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2004,
+   2005,
+   2015
+  ],
+  "evidence": "4 PYQs extracted, spans 2004-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "network-flow",
+  "name": "Network Flow",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1992,
+   2004,
+   2006,
+   2017
+  ],
+  "evidence": "4 PYQs extracted, spans 1992-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "network-switching",
+  "name": "Network Switching",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2004,
+   2005,
+   2014,
+   2015
+  ],
+  "evidence": "4 PYQs extracted, spans 2004-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "sockets",
+  "name": "Sockets",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2008,
+   2014,
+   2015
+  ],
+  "evidence": "4 PYQs extracted, spans 2008-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "udp",
+  "name": "UDP",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2005,
+   2006,
+   2013,
+   2017
+  ],
+  "evidence": "4 PYQs extracted, spans 2005-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "finite-state-machines",
+  "name": "Finite State Machines",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1994,
+   1995,
+   1996,
+   2009
+  ],
+  "evidence": "4 PYQs extracted, spans 1994-2009 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "rom",
+  "name": "ROM",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1993,
+   1996,
+   2004,
+   2012
+  ],
+  "evidence": "4 PYQs extracted, spans 1993-2012 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "synchronous-asynchronous-circuits",
+  "name": "Synchronous Asynchronous Circuits",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1991,
+   1998,
+   2001,
+   2003
+  ],
+  "evidence": "4 PYQs extracted, spans 1991-2003 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-combinatory",
+  "topicSlug": "summation",
+  "name": "Summation",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1989,
+   1994,
+   2008,
+   2015
+  ],
+  "evidence": "4 PYQs extracted, spans 1989-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-graph-theory",
+  "topicSlug": "graph-isomorphism",
+  "name": "Graph Isomorphism",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2012,
+   2014,
+   2015,
+   2022
+  ],
+  "evidence": "4 PYQs extracted, spans 2012-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "polynomials",
+  "name": "Polynomials",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1997,
+   2000,
+   2014,
+   2017
+  ],
+  "evidence": "4 PYQs extracted, spans 1997-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-calculus",
+  "topicSlug": "definite-integral",
+  "name": "Definite Integral",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "4 PYQs extracted, spans 2023-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "normal-distribution",
+  "name": "Normal Distribution",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2008,
+   2017,
+   2026
+  ],
+  "evidence": "4 PYQs extracted, spans 2008-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "direction-sense",
+  "name": "Direction Sense",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2015,
+   2017,
+   2019,
+   2025
+  ],
+  "evidence": "4 PYQs extracted, spans 2015-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "bar-graph",
+  "name": "Bar Graph",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2015,
+   2020,
+   2021,
+   2025
+  ],
+  "evidence": "4 PYQs extracted, spans 2015-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "permutation-and-combination",
+  "name": "Permutation and Combination",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "4 PYQs extracted, spans 2024-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "pie-chart",
+  "name": "Pie Chart",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2015,
+   2024
+  ],
+  "evidence": "4 PYQs extracted, spans 2015-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "quadratic-equations",
+  "name": "Quadratic Equations",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2014,
+   2016,
+   2021,
+   2022
+  ],
+  "evidence": "4 PYQs extracted, spans 2014-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "sequence-series",
+  "name": "Sequence Series",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2012,
+   2018,
+   2023,
+   2024
+  ],
+  "evidence": "4 PYQs extracted, spans 2012-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "tabular-data",
+  "name": "Tabular Data",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2014,
+   2015,
+   2016
+  ],
+  "evidence": "4 PYQs extracted, spans 2014-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "topicSlug": "patterns-in-two-dimensions",
+  "name": "Patterns In Two Dimensions",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2021,
+   2022,
+   2026
+  ],
+  "evidence": "4 PYQs extracted, spans 2021-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "antonyms",
+  "name": "Antonyms",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2011,
+   2014,
+   2026
+  ],
+  "evidence": "4 PYQs extracted, spans 2011-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "grammatical-error",
+  "name": "Grammatical Error",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2012,
+   2013,
+   2015,
+   2016
+  ],
+  "evidence": "4 PYQs extracted, spans 2012-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "context-switch",
+  "name": "Context Switch",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1999,
+   2000,
+   2011,
+   2024
+  ],
+  "evidence": "4 PYQs extracted, spans 1999-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "deadlock-prevention-avoidance-detection",
+  "name": "Deadlock Prevention Avoidance Detection",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2004,
+   2018,
+   2021,
+   2026
+  ],
+  "evidence": "4 PYQs extracted, spans 2004-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "data-structures",
+  "name": "Data Structures",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1997,
+   2014,
+   2016,
+   2024
+  ],
+  "evidence": "4 PYQs extracted, spans 1997-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "infix-prefix",
+  "name": "Infix Prefix",
+  "priority": "P3",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1997,
+   1998,
+   2004,
+   2007
+  ],
+  "evidence": "4 PYQs extracted, spans 1997-2007 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "binary-search-tree",
+  "name": "Binary Search Tree",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "3 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "breadth-first-search",
+  "name": "Breadth First Search",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2024,
+   2025,
+   2026
+  ],
+  "evidence": "3 PYQs extracted, spans 2024-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "matrix-chain-ordering",
+  "name": "Matrix Chain Ordering",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2011,
+   2016,
+   2018
+  ],
+  "evidence": "3 PYQs extracted, spans 2011-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "strongly-connected-components",
+  "name": "Strongly Connected Components",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2006,
+   2008,
+   2018
+  ],
+  "evidence": "3 PYQs extracted, spans 2006-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "average-memory-access-time",
+  "name": "Average Memory Access Time",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1992,
+   2025
+  ],
+  "evidence": "3 PYQs extracted, spans 1992-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "virtual-memory",
+  "name": "Virtual Memory",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1991,
+   2004,
+   2008
+  ],
+  "evidence": "3 PYQs extracted, spans 1991-2008 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "linker",
+  "name": "Linker",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1991,
+   2003,
+   2004
+  ],
+  "evidence": "3 PYQs extracted, spans 1991-2004 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "live-variable-analysis",
+  "name": "Live Variable Analysis",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2015,
+   2021,
+   2023
+  ],
+  "evidence": "3 PYQs extracted, spans 2015-2023 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "static-single-assignment",
+  "name": "Static Single Assignment",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2015,
+   2016,
+   2017
+  ],
+  "evidence": "3 PYQs extracted, spans 2015-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "bridges",
+  "name": "Bridges",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2004,
+   2006
+  ],
+  "evidence": "3 PYQs extracted, spans 2004-2006 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "functional-dependency",
+  "name": "Functional Dependency",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "evidence": "3 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "natural-join",
+  "name": "Natural Join",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2005,
+   2010,
+   2015
+  ],
+  "evidence": "3 PYQs extracted, spans 2005-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "query",
+  "name": "Query",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1997,
+   2026
+  ],
+  "evidence": "3 PYQs extracted, spans 1997-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "tuple-relational-calculus",
+  "name": "Tuple Relational Calculus",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "evidence": "3 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "decoder",
+  "name": "Decoder",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2007,
+   2008,
+   2020
+  ],
+  "evidence": "3 PYQs extracted, spans 2007-2020 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-graph-theory",
+  "topicSlug": "counting",
+  "name": "Counting",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2001,
+   2004,
+   2012
+  ],
+  "evidence": "3 PYQs extracted, spans 2001-2012 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-mathematical-logic",
+  "topicSlug": "logical-reasoning",
+  "name": "Logical Reasoning",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2012,
+   2015
+  ],
+  "evidence": "3 PYQs extracted, spans 2012-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "lu-decomposition",
+  "name": "Lu Decomposition",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2015,
+   2022,
+   2025
+  ],
+  "evidence": "3 PYQs extracted, spans 2015-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "bayes-theorem",
+  "name": "Bayes Theorem",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2018,
+   2021,
+   2025
+  ],
+  "evidence": "3 PYQs extracted, spans 2018-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "statistics",
+  "name": "Statistics",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2021,
+   2024,
+   2026
+  ],
+  "evidence": "3 PYQs extracted, spans 2021-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "circle",
+  "name": "Circle",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2018,
+   2020,
+   2026
+  ],
+  "evidence": "3 PYQs extracted, spans 2018-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "combinatory",
+  "name": "Combinatory",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2010,
+   2016,
+   2017
+  ],
+  "evidence": "3 PYQs extracted, spans 2010-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "cost-market-price",
+  "name": "Cost Market Price",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2011,
+   2012,
+   2019
+  ],
+  "evidence": "3 PYQs extracted, spans 2011-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "line-graph",
+  "name": "Line Graph",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2014,
+   2016
+  ],
+  "evidence": "3 PYQs extracted, spans 2014-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "number-series",
+  "name": "Number Series",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2013,
+   2014
+  ],
+  "evidence": "3 PYQs extracted, spans 2013-2014 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "number-system",
+  "name": "Number System",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2014,
+   2017,
+   2026
+  ],
+  "evidence": "3 PYQs extracted, spans 2014-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "percentage",
+  "name": "Percentage",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2014,
+   2024
+  ],
+  "evidence": "3 PYQs extracted, spans 2014-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "triangles",
+  "name": "Triangles",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2015,
+   2018,
+   2022
+  ],
+  "evidence": "3 PYQs extracted, spans 2015-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "work-time",
+  "name": "Work Time",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2010,
+   2011,
+   2013
+  ],
+  "evidence": "3 PYQs extracted, spans 2010-2013 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "topicSlug": "image-rotation",
+  "name": "Image Rotation",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2022,
+   2023,
+   2024
+  ],
+  "evidence": "3 PYQs extracted, spans 2022-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "topicSlug": "patterns-in-three-dimensions",
+  "name": "Patterns In Three Dimensions",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2023,
+   2024
+  ],
+  "evidence": "3 PYQs extracted, spans 2023-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "demand-paging",
+  "name": "Demand Paging",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2022,
+   2025
+  ],
+  "evidence": "3 PYQs extracted, spans 2022-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "os-protection",
+  "name": "OS Protection",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1999,
+   2001,
+   2005
+  ],
+  "evidence": "3 PYQs extracted, spans 1999-2005 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "precedence-graph",
+  "name": "Precedence Graph",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1989,
+   1991,
+   1992
+  ],
+  "evidence": "3 PYQs extracted, spans 1989-1992 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "countable-uncountable-set",
+  "name": "Countable Uncountable Set",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1997,
+   2014,
+   2019
+  ],
+  "evidence": "3 PYQs extracted, spans 1997-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "regular-grammar",
+  "name": "Regular Grammar",
+  "priority": "P3",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1990,
+   2006,
+   2015
+  ],
+  "evidence": "3 PYQs extracted, spans 1990-2015 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "depth-first-search",
+  "name": "Depth First Search",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "directed-acyclic-graph",
+  "name": "Directed Acyclic Graph",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2021,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2021-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "double-hashing",
+  "name": "Double Hashing",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2020,
+   2025
+  ],
+  "evidence": "2 PYQs extracted, spans 2020-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "heap-sort",
+  "name": "Heap Sort",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2013,
+   2024
+  ],
+  "evidence": "2 PYQs extracted, spans 2013-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "inversion",
+  "name": "Inversion",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2003,
+   2025
+  ],
+  "evidence": "2 PYQs extracted, spans 2003-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "linear-probing",
+  "name": "Linear Probing",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "cisc-risc-architecture",
+  "name": "CISC RISC Architecture",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1999,
+   2018
+  ],
+  "evidence": "2 PYQs extracted, spans 1999-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "ambiguous-grammar",
+  "name": "Ambiguous Grammar",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1987,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 1987-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "basic-blocks",
+  "name": "Basic Blocks",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "directed-acyclic-graph",
+  "name": "Directed Acyclic Graph",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2014,
+   2021
+  ],
+  "evidence": "2 PYQs extracted, spans 2014-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "ll-parser",
+  "name": "Ll Parser",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2024,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2024-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "hamming-code",
+  "name": "Hamming Code",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1994,
+   2021
+  ],
+  "evidence": "2 PYQs extracted, spans 1994-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "token-bucket",
+  "name": "Token Bucket",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2008,
+   2016
+  ],
+  "evidence": "2 PYQs extracted, spans 2008-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "wrap-around-time",
+  "name": "Wrap Around Time",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2014,
+   2018
+  ],
+  "evidence": "2 PYQs extracted, spans 2014-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "relational-model",
+  "name": "Relational Model",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2023,
+   2025
+  ],
+  "evidence": "2 PYQs extracted, spans 2023-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "combinational-circuit",
+  "name": "Combinational Circuit",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2022,
+   2024
+  ],
+  "evidence": "2 PYQs extracted, spans 2022-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "fixed-point-representation",
+  "name": "Fixed Point Representation",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2017,
+   2018
+  ],
+  "evidence": "2 PYQs extracted, spans 2017-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "min-products-of-sum-form",
+  "name": "Min Products of Sum Form",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1990,
+   2017
+  ],
+  "evidence": "2 PYQs extracted, spans 1990-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-combinatory",
+  "topicSlug": "modular-arithmetic",
+  "name": "Modular Arithmetic",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2016,
+   2019
+  ],
+  "evidence": "2 PYQs extracted, spans 2016-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-graph-theory",
+  "topicSlug": "graph-matching",
+  "name": "Graph Matching",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2003,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2003-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "countable-uncountable-set",
+  "name": "Countable Uncountable Set",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1994,
+   2018
+  ],
+  "evidence": "2 PYQs extracted, spans 1994-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "orthonormality",
+  "name": "Orthonormality",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "2 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "bayesian-network",
+  "name": "Bayesian Network",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2024
+  ],
+  "evidence": "2 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "bernoulli-distribution",
+  "name": "Bernoulli Distribution",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "variance",
+  "name": "Variance",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "code-words",
+  "name": "Code Words",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2015,
+   2016
+  ],
+  "evidence": "2 PYQs extracted, spans 2015-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "passage-reading",
+  "name": "Passage Reading",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2022,
+   2023
+  ],
+  "evidence": "2 PYQs extracted, spans 2022-2023 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "sequence-series",
+  "name": "Sequence Series",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2020,
+   2024
+  ],
+  "evidence": "2 PYQs extracted, spans 2020-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "absolute-value",
+  "name": "Absolute Value",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2014,
+   2017
+  ],
+  "evidence": "2 PYQs extracted, spans 2014-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "cartesian-coordinates",
+  "name": "Cartesian Coordinates",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2020,
+   2022
+  ],
+  "evidence": "2 PYQs extracted, spans 2020-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "contour-plots",
+  "name": "Contour Plots",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2017
+  ],
+  "evidence": "2 PYQs extracted, spans 2017-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "cubes",
+  "name": "Cubes",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2016,
+   2021
+  ],
+  "evidence": "2 PYQs extracted, spans 2016-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "data-interpretation",
+  "name": "Data Interpretation",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "factors",
+  "name": "Factors",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2013,
+   2018
+  ],
+  "evidence": "2 PYQs extracted, spans 2013-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "maxima-minima",
+  "name": "Maxima Minima",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2012,
+   2017
+  ],
+  "evidence": "2 PYQs extracted, spans 2012-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "profit-loss",
+  "name": "Profit Loss",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2021,
+   2024
+  ],
+  "evidence": "2 PYQs extracted, spans 2021-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "speed-time-distance",
+  "name": "Speed Time Distance",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2013,
+   2019
+  ],
+  "evidence": "2 PYQs extracted, spans 2013-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "statistics",
+  "name": "Statistics",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2012,
+   2024
+  ],
+  "evidence": "2 PYQs extracted, spans 2012-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "articles",
+  "name": "Articles",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2016,
+   2025
+  ],
+  "evidence": "2 PYQs extracted, spans 2016-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "comparative-forms",
+  "name": "Comparative Forms",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2015,
+   2021
+  ],
+  "evidence": "2 PYQs extracted, spans 2015-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "sentence-ordering",
+  "name": "Sentence Ordering",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2023,
+   2024
+  ],
+  "evidence": "2 PYQs extracted, spans 2023-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "bankers-algorithm",
+  "name": "Bankers Algorithm",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2018,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2018-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "translation-lookaside-buffer",
+  "name": "Translation Lookaside Buffer",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2022,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2022-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "priority-queue",
+  "name": "Priority Queue",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1997,
+   2023
+  ],
+  "evidence": "2 PYQs extracted, spans 1997-2023 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "functions",
+  "name": "Functions",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2015,
+   2024
+  ],
+  "evidence": "2 PYQs extracted, spans 2015-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "strings",
+  "name": "Strings",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2004,
+   2025
+  ],
+  "evidence": "2 PYQs extracted, spans 2004-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "context-free-grammar",
+  "name": "Context Free Grammar",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "number-of-states",
+  "name": "Number of States",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "evidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "pumping-lemma",
+  "name": "Pumping Lemma",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2005,
+   2019
+  ],
+  "evidence": "2 PYQs extracted, spans 2005-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "reduction",
+  "name": "Reduction",
+  "priority": "P3",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2005,
+   2016
+  ],
+  "evidence": "2 PYQs extracted, spans 2005-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "binary-heap",
+  "name": "Binary Heap",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "binary-tree",
+  "name": "Binary Tree",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "number-of-swap",
+  "name": "Number of Swap",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "tree-traversal",
+  "name": "Tree Traversal",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "uniform-hashing",
+  "name": "Uniform Hashing",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2022
+  ],
+  "evidence": "1 PYQs extracted, spans 2022-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "bit-vector",
+  "name": "Bit Vector",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "conflict-misses",
+  "name": "Conflict Misses",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2017
+  ],
+  "evidence": "1 PYQs extracted, spans 2017-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "dram",
+  "name": "DRAM",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2019
+  ],
+  "evidence": "1 PYQs extracted, spans 2019-2019 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "data-hazards",
+  "name": "Data Hazards",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "disk",
+  "name": "Disk",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "hazards",
+  "name": "Hazards",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "instruction-set-architecture",
+  "name": "Instruction Set Architecture",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "stall",
+  "name": "Stall",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2022
+  ],
+  "evidence": "1 PYQs extracted, spans 2022-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "backpatching",
+  "name": "Backpatching",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "compiler-tokenization",
+  "name": "Compiler tokenization",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "symbol-table",
+  "name": "Symbol Table",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "arp",
+  "name": "Arp",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "channel-utilization",
+  "name": "Channel Utilization",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "data-communication",
+  "name": "Data Communication",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "osi-model",
+  "name": "Osi Model",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "probability",
+  "name": "Probability",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "pure-aloha",
+  "name": "Pure Aloha",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2021
+  ],
+  "evidence": "1 PYQs extracted, spans 2021-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "routing-protocols",
+  "name": "Routing Protocols",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "armstrong-axioms",
+  "name": "Armstrong Axioms",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "database-schema",
+  "name": "Database Schema",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "decomposition",
+  "name": "Decomposition",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "normal-forms",
+  "name": "Normal Forms",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "safe-query",
+  "name": "Safe Query",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2017
+  ],
+  "evidence": "1 PYQs extracted, spans 2017-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "super-key",
+  "name": "Super Key",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "timestamp-ordering",
+  "name": "Timestamp Ordering",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2017
+  ],
+  "evidence": "1 PYQs extracted, spans 2017-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "two-phase-locking-protocol",
+  "name": "Two Phase Locking Protocol",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "evidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "little-endian-big-endian",
+  "name": "Little Endian Big Endian",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2021
+  ],
+  "evidence": "1 PYQs extracted, spans 2021-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "reduction",
+  "name": "Reduction",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "ripple-counter-operation",
+  "name": "Ripple Counter Operation",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-graph-theory",
+  "topicSlug": "graph-algorithms",
+  "name": "Graph Algorithms",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-graph-theory",
+  "topicSlug": "jaccard-coefficient",
+  "name": "Jaccard Coefficient",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "identify-function",
+  "name": "Identify Function",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "onto",
+  "name": "Onto",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-calculus",
+  "topicSlug": "summation",
+  "name": "Summation",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "gaussian-elimination",
+  "name": "Gaussian Elimination",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "multiplicity",
+  "name": "Multiplicity",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "singular-value-decomposition",
+  "name": "Singular Value Decomposition",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "evidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "subspace",
+  "name": "Subspace",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "evidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "chi-square-distribution",
+  "name": "Chi Square Distribution",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "continuous-distribution",
+  "name": "Continuous Distribution",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2016
+  ],
+  "evidence": "1 PYQs extracted, spans 2016-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "probability-distribution",
+  "name": "Probability Distribution",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "square-invariant",
+  "name": "Square Invariant",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "analogy",
+  "name": "Analogy",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "coding-decoding",
+  "name": "Coding Decoding",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "family-relationship",
+  "name": "Family Relationship",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "logical-inference",
+  "name": "Logical Inference",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "number-relations",
+  "name": "Number Relations",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "evidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "odd-one",
+  "name": "Odd One",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2016
+  ],
+  "evidence": "1 PYQs extracted, spans 2016-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "round-table-arrangement",
+  "name": "Round Table Arrangement",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2017
+  ],
+  "evidence": "1 PYQs extracted, spans 2017-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "seating-arrangement",
+  "name": "Seating Arrangement",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2017
+  ],
+  "evidence": "1 PYQs extracted, spans 2017-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "area",
+  "name": "Area",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "average",
+  "name": "Average",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "compound-interest",
+  "name": "Compound Interest",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "evidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "digital-image-processing",
+  "name": "Digital Image Processing",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "fractions",
+  "name": "Fractions",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2018
+  ],
+  "evidence": "1 PYQs extracted, spans 2018-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "graph-coloring",
+  "name": "Graph Coloring",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "evidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "maps",
+  "name": "Maps",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "mensuration",
+  "name": "Mensuration",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "number-representation",
+  "name": "Number Representation",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "number-theory",
+  "name": "Number Theory",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "polynomials",
+  "name": "Polynomials",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2016
+  ],
+  "evidence": "1 PYQs extracted, spans 2016-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "powers",
+  "name": "Powers",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "prime-numbers",
+  "name": "Prime Numbers",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "shortest-path",
+  "name": "Shortest Path",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2020
+  ],
+  "evidence": "1 PYQs extracted, spans 2020-2020 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "tables",
+  "name": "Tables",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "volume",
+  "name": "Volume",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2021
+  ],
+  "evidence": "1 PYQs extracted, spans 2021-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "topicSlug": "3d-structure",
+  "name": "3d Structure",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "topicSlug": "assembling",
+  "name": "Assembling",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "topicSlug": "assembling-pieces",
+  "name": "Assembling Pieces",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2021
+  ],
+  "evidence": "1 PYQs extracted, spans 2021-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "topicSlug": "mirror-image",
+  "name": "Mirror Image",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "evidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "narrative-sequencing",
+  "name": "Narrative Sequencing",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "prepositions",
+  "name": "Prepositions",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "best-fit",
+  "name": "Best Fit",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "input-output",
+  "name": "Input Output",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "least-recently-used",
+  "name": "Least Recently Used",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2023
+  ],
+  "evidence": "1 PYQs extracted, spans 2023-2023 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "linked-allocation",
+  "name": "Linked Allocation",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "multilevel-paging",
+  "name": "Multilevel Paging",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "resource-allocation-graph",
+  "name": "Resource Allocation Graph",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "round-robin-scheduling",
+  "name": "Round Robin Scheduling",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2022
+  ],
+  "evidence": "1 PYQs extracted, spans 2022-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "srtf",
+  "name": "Srtf",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "system-calls",
+  "name": "System Calls",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2021
+  ],
+  "evidence": "1 PYQs extracted, spans 2021-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "time-complexity",
+  "name": "Time Complexity",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "tree-traversal",
+  "name": "Tree Traversal",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "uniform-hashing",
+  "name": "Uniform Hashing",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "evidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-and-ds-programming",
+  "topicSlug": "output",
+  "name": "Output",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "evidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "runtime-environment",
+  "name": "Runtime Environment",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "dpda",
+  "name": "Dpda",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "finite-state-machines",
+  "name": "Finite State Machines",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "evidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "turing-machine",
+  "name": "Turing Machine",
+  "priority": "P3",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "evidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "bellman-ford",
+  "name": "Bellman Ford",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2009,
+   2013
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2009-2013 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "insertion-sort",
+  "name": "Insertion Sort",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2003
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2003-2003 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "merging",
+  "name": "Merging",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1995,
+   2014
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 1995-2014 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "prims-algorithm",
+  "name": "Prims Algorithm",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2004,
+   2008
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2004-2008 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "selection-sort",
+  "name": "Selection Sort",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2009,
+   2013
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2009-2013 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "runtime-environment",
+  "name": "Runtime Environment",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2001,
+   2008
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2001-2008 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "expression-evaluation",
+  "name": "Expression Evaluation",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2002,
+   2014
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2002-2014 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "variable-scope",
+  "name": "Variable Scope",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1987
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 1987-1987 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "bit-stuffing",
+  "name": "Bit Stuffing",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2004,
+   2014
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2004-2014 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "array-multiplier",
+  "name": "Array Multiplier",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1999,
+   2003
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 1999-2003 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "carry-generator",
+  "name": "Carry Generator",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2006,
+   2007
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2006-2007 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "prime-implicants",
+  "name": "Prime Implicants",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1997,
+   2004
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 1997-2004 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "shift-registers",
+  "name": "Shift Registers",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1987,
+   1991
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 1987-1991 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "discrete-mathematics-combinatory",
+  "topicSlug": "pigeonhole-principle",
+  "name": "Pigeonhole Principle",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2000,
+   2005
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2000-2005 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "topicSlug": "mathematical-induction",
+  "name": "Mathematical Induction",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1995,
+   2000
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 1995-2000 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "engineering-mathematics-calculus",
+  "topicSlug": "polynomials",
+  "name": "Polynomials",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1987,
+   1995
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 1987-1995 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "arithmetic-series",
+  "name": "Arithmetic Series",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2013,
+   2015
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2013-2015 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "statement-sufficiency",
+  "name": "Statement Sufficiency",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2015
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2015-2015 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "goto",
+  "name": "Goto",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1989,
+   1994
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 1989-1994 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "programming-paradigms",
+  "name": "Programming Paradigms",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2004
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2004-2004 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "switch-case",
+  "name": "Switch Case",
+  "priority": "P4",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2012,
+   2015
+  ],
+  "evidence": "Only 2 PYQ(s) extracted in source, spans 2012-2015 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "bubble-sort",
+  "name": "Bubble Sort",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   1995
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 1995-1995 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "computer-science",
+  "name": "Computer Science",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans no years extracted — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "maximum-minimum",
+  "name": "Maximum Minimum",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2014
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2014-2014 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "algorithms",
+  "topicSlug": "space-complexity",
+  "name": "Space Complexity",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2005
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2005-2005 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "co-architecture",
+  "topicSlug": "control-unit",
+  "name": "Control Unit",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   1987
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 1987-1987 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "abstract-syntax-tree",
+  "name": "Abstract Syntax Tree",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2015
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2015-2015 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "compiler-design",
+  "topicSlug": "viable-prefix",
+  "name": "Viable Prefix",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2015
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2015-2015 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "icmp",
+  "name": "Icmp",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2005
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2005-2005 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "computer-networks",
+  "topicSlug": "slotted-aloha",
+  "name": "Slotted Aloha",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2015
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2015-2015 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "database-design",
+  "name": "Database Design",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   1994
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 1994-1994 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "databases",
+  "topicSlug": "multivalued-dependency-4nf",
+  "name": "Multivalued Dependency 4nf",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2007
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2007-2007 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "binary-codes",
+  "name": "Binary Codes",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2006
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2006-2006 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "conjunctive-normal-form",
+  "name": "Conjunctive Normal Form",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2007
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2007-2007 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "dual-function",
+  "name": "Dual Function",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2014
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2014-2014 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "number-system",
+  "name": "Number System",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   1988
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 1988-1988 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "digital-logic",
+  "topicSlug": "static-hazard",
+  "name": "Static Hazard",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2006
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2006-2006 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "topicSlug": "cartesian-coordinates",
+  "name": "Cartesian Coordinates",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2007
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2007-2007 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "engineering-mathematics-probability",
+  "topicSlug": "probability-density-function",
+  "name": "Probability Density Function",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2003
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2003-2003 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "topicSlug": "age-relation",
+  "name": "Age Relation",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2010
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2010-2010 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "alligation-mixture",
+  "name": "Alligation Mixture",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2011
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2011-2011 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "bayes-theorem",
+  "name": "Bayes Theorem",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2012
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2012-2012 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "topicSlug": "clock-time",
+  "name": "Clock Time",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2014
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2014-2014 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "incorrect-sentence-part",
+  "name": "Incorrect Sentence Part",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2014
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2014-2014 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "topicSlug": "statements-follow",
+  "name": "Statements Follow",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2015
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2015-2015 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "dma",
+  "name": "DMA",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2001
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2001-2001 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "operating-system",
+  "topicSlug": "inter-process-communication",
+  "name": "Inter Process Communication",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   1997
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 1997-1997 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "programming-and-ds-data-structures",
+  "topicSlug": "abstract-data-type",
+  "name": "Abstract Data Type",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2005
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2005-2005 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "aliasing",
+  "name": "Aliasing",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2000
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2000-2000 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "programming-constructs",
+  "name": "Programming Constructs",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   1999
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 1999-1999 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "type-checking",
+  "name": "Type Checking",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2003
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2003-2003 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "union",
+  "name": "Union",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2000
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2000-2000 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "programming-programming-in-c",
+  "topicSlug": "variable-binding",
+  "name": "Variable Binding",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2007
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2007-2007 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "subjectId": "theory-of-computation",
+  "topicSlug": "medium",
+  "name": "Medium",
+  "priority": "P4",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2006
+  ],
+  "evidence": "Only 1 PYQ(s) extracted in source, spans 2006-2006 — long-tail topic, revision-only unless it's a known prerequisite."
+ }
+]

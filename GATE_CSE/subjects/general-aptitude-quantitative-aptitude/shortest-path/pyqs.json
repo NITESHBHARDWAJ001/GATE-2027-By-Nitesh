@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.50.1",
+  "localId": "9.50.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "shortest-path",
+  "topic": "Shortest Path",
+  "year": 2020,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "5",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "There are multiple routes to reach from node to node , as shown in the network. The cost of travel on an edge between two nodes is given in rupees. Nodes                                                                  and are toll booths. The toll price at toll booths marked and is Rs. , and is Rs.                                               for the other toll booths. Which is the cheapest route from node to node ? A.                                  B.                                                  C.         D.",
+  "tagsRaw": "gatecse-2020 quantitative-aptitude  graph-theory  shortest-path  one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 303
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SHORTEST_PATH_01"
+ }
+]

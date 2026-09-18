@@ -1,0 +1,42 @@
+{
+  "topicId": "cd-grammar",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-GRAM-01",
+      "patternId": "GRAM_AMBIGUITY_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "E → E+E | E*E | id. Is this grammar ambiguous? Show using the string 'id+id*id'.",
+      "solutionApproach": "Derivation 1: E→E+E→id+E→id+E*E→id+id*id (treats + then *). Derivation 2: E→E*E→E+E*E→id+E*E→id+id*E→id+id*id (different grouping/tree structure). Two distinct parse trees for the same string → ambiguous.",
+      "answer": "Yes, ambiguous — 'id+id*id' has multiple distinct parse trees (no precedence enforced)."
+    },
+    {
+      "practiceId": "AI-GRAM-02",
+      "patternId": "GRAM_TRANSFORMATION_03",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Remove left recursion: A → Aa | Ab | c",
+      "solutionApproach": "A→Aα|β form with α∈{a,b}, β=c. Apply: A→cA', A'→aA'|bA'|ε.",
+      "answer": "A→cA',  A'→aA'|bA'|ε"
+    },
+    {
+      "practiceId": "AI-GRAM-03",
+      "patternId": "GRAM_PARSER_CLASS_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A grammar is ambiguous. Can it be SLR(1)?",
+      "solutionApproach": "No — ambiguous grammars can NEVER be LR(k) for any k (SLR/LALR/LR(1) are all specific LR(k) variants). Ambiguity guarantees a shift-reduce or reduce-reduce conflict will arise somewhere in the parsing table.",
+      "answer": "No — ambiguous grammars are never LR(k) for any k, including SLR(1)."
+    },
+    {
+      "practiceId": "AI-GRAM-04",
+      "patternId": "GRAM_IDENTIFY_LANG_04",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A CNF grammar derives a string of length 7. How many derivation steps does this take exactly?",
+      "solutionApproach": "CNF derivation steps = 2n-1 = 2(7)-1 = 13.",
+      "answer": "13 steps"
+    }
+  ]
+}

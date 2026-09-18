@@ -1,0 +1,42 @@
+{
+ "topicId": "compiler-design:parsing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PARSIN-01",
+   "patternId": "PRS_TYPE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Is recursive descent top-down?",
+   "solutionApproach": "Yes.",
+   "answer": "Yes"
+  },
+  {
+   "practiceId": "AI-PARSIN-02",
+   "patternId": "PRS_TYPE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Which is strictly more powerful: SLR(1) or LALR(1)?",
+   "solutionApproach": "LALR.",
+   "answer": "LALR(1)"
+  },
+  {
+   "practiceId": "AI-PARSING-X03",
+   "patternId": "PRS_TYPE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Which is bottom-up: LL(1) or LR(1)?",
+   "solutionApproach": "LR.",
+   "answer": "LR(1)"
+  },
+  {
+   "practiceId": "AI-PARSING-X04",
+   "patternId": "PRS_TRACE_03",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Left-recursive grammar suitable for LL(1)?",
+   "solutionApproach": "No.",
+   "answer": "No"
+  }
+ ]
+}

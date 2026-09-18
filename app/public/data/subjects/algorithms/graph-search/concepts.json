@@ -1,0 +1,40 @@
+{
+  "topicId": "algorithms-graph-search",
+  "overview": "Graph Search (DFS+BFS) 4 skills test karta hai: valid traversal order identify karna, DFS edge-classification aur structural properties (discovery/finish times, connected components), BFS ki shortest-path-tree property, aur time/space complexity.",
+  "whyItMatters": "23 PYQs, aur MST (Prim's), Shortest Path, Topological Sort — sab DFS/BFS ke variations hain.",
+  "coreConcept": "DFS = 'jitna deep jaa sakte ho jaao, phir backtrack karo' (stack/recursion based). BFS = 'level-by-level phailo' (queue based). DFS se 4 tarah ke edges classify hote hain: TREE (traversal ka part), BACK (ancestor की taraf), FORWARD (descendant ki taraf, non-tree), CROSS (koi relation nahi, different subtree/branch).",
+  "hinglishExplanation": "DFS ko ek 'maze explore karne wala' socho jo ek raasta pakadta hai aur jitna door ja sakta hai jaata hai, dead-end pe wapis (backtrack) aata hai. BFS ek 'ripple in water' hai — source se ek ring phailti hai, phir agli ring, phir agli — isliye BFS GUARANTEED shortest path (edge-count me) deta hai unweighted graph me, DFS nahi deta.",
+  "formalDefinition": "DFS: O(V+E) with adjacency list, O(V²) with adjacency matrix. BFS: same complexity, computes shortest path (in edge count) from source in unweighted graphs.",
+  "importantProperties": [
+    "DFS edge types (directed graph, using discovery/finish times d[u],f[u]): TREE edge (u,v): v discovered via u. BACK edge (u,v): v is an ANCESTOR of u in the DFS tree (d[v]<d[u]<f[u]<f[v]). FORWARD edge (u,v): v is a DESCENDANT of u, but not a tree edge (d[u]<d[v]<f[v]<f[u]). CROSS edge (u,v): neither ancestor nor descendant (intervals don't overlap: f[v]<d[u]).",
+    "For UNDIRECTED graphs, DFS produces ONLY tree edges and back edges — NO forward or cross edges are possible (a key simplification vs directed graphs).",
+    "BFS tree gives the SHORTEST PATH (fewest edges) from the source to every reachable vertex in an UNWEIGHTED graph — DFS tree does NOT have this guarantee.",
+    "Number of connected components in an undirected graph = number of DFS (or BFS) calls needed to visit all vertices = number of separate trees in the DFS/BFS forest.",
+    "In a DFS forest with n vertices and c connected components, the forest has exactly n-c tree edges (each tree with k vertices has k-1 edges, summed across c trees).",
+    "DFS time = O(V+E) with adjacency LIST; O(V²) with adjacency MATRIX (because checking all possible neighbors of each vertex costs O(V) regardless of actual edge count)."
+  ],
+  "formulas": {
+    "dfsBfsComplexityList": "O(V+E) — adjacency list representation",
+    "dfsBfsComplexityMatrix": "O(V²) — adjacency matrix representation",
+    "forestEdgeCount": "Tree edges in DFS/BFS forest = n - c (n=vertices, c=connected components)",
+    "backEdgeInterval": "Back edge (u,v): d[v] < d[u] < f[u] < f[v] (v is ancestor of u)",
+    "forwardEdgeInterval": "Forward edge (u,v): d[u] < d[v] < f[v] < f[u] (v is descendant of u, non-tree)",
+    "crossEdgeInterval": "Cross edge (u,v): intervals [d,f] of u and v don't overlap at all"
+  },
+  "keyPropertiesAndIdentities": [
+    "Undirected graph DFS: ONLY tree + back edges exist (no forward, no cross) — this is because in an undirected graph, if there were a 'forward-looking' edge from an ancestor to descendant, it would already have been discovered AS a tree edge or back edge from the other direction.",
+    "BFS tree edges always connect a vertex to another at EXACTLY one greater BFS-level/distance — any non-tree edge in a BFS traversal connects vertices whose levels differ by at most 1 (in undirected graphs) — a key property for verifying/reasoning about BFS trees."
+  ],
+  "commonPitfalls": [
+    "Assuming DFS tree also gives shortest paths — only BFS guarantees this (in unweighted graphs).",
+    "Trying to classify forward/cross edges in an UNDIRECTED graph — they simply don't exist there, only tree/back edges do.",
+    "Using O(V+E) complexity even when the graph is given as an adjacency MATRIX — that representation forces O(V²) regardless of actual edge sparsity.",
+    "Miscounting connected components from tree-edge count — remember it's n-c, so c = n - (tree edges), not the other way confused."
+  ],
+  "standardTechniques": [
+    "For 'valid traversal order' questions: simulate DFS (using a stack/recursion, visiting neighbors in the stated order — often alphabetical/index order unless specified) or BFS (using a queue) explicitly on the given graph.",
+    "For edge-classification questions: compute discovery and finish times via an explicit DFS simulation, then apply the interval-overlap rules above.",
+    "For BFS shortest-path-property questions: reason level-by-level — the BFS tree naturally encodes shortest distances via each vertex's level.",
+    "For connected-components questions: count how many separate DFS/BFS trees are needed to cover the whole vertex set, or apply the n-c edge-count identity directly."
+  ]
+}

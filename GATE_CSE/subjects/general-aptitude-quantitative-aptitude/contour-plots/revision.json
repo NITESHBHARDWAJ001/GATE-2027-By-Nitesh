@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Level curves se function behaviour.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Contour Plots se related sawal.",
+   "thinkThis": "P3_CONTOUR_PLOTS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Elevation confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:contour-plots",
+ "revisionLevel": "short-form"
+}

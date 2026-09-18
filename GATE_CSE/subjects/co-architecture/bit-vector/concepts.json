@@ -1,0 +1,22 @@
+{
+ "overview": "Free block tracking: 1 bit per block; size = blocks/8 bytes.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Free block tracking: 1 bit per block; size = blocks/8 bytes.",
+ "hinglishExplanation": "Bitmap me n blocks ke liye n bits; linked list me pointers.",
+ "formalDefinition": "Free block tracking: 1 bit per block; size = blocks/8 bytes.",
+ "importantProperties": [
+  "Bitmap size = n/8 bytes.",
+  "Find first free block: scan.",
+  "Free list vs bitmap trade-off."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Bytes vs bits."
+ ],
+ "standardTechniques": [
+  "1. Blocks.",
+  "2. /8."
+ ],
+ "topicId": "co-architecture:bit-vector"
+}

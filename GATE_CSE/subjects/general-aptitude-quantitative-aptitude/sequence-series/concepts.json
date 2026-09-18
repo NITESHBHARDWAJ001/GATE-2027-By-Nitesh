@@ -1,0 +1,20 @@
+{
+ "overview": "AP/GP sums, nth term.",
+ "whyItMatters": "4 PYQs extracted (2012-2024); P3 topic.",
+ "coreConcept": "AP/GP sums, nth term.",
+ "hinglishExplanation": "AP: a+(n-1)d.",
+ "formalDefinition": "AP/GP sums, nth term.",
+ "importantProperties": [
+  "AP sum n/2(2a+(n-1)d).",
+  "GP sum a(r^n-1)/(r-1)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "n indexing."
+ ],
+ "standardTechniques": [
+  "1. Type."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:sequence-series"
+}

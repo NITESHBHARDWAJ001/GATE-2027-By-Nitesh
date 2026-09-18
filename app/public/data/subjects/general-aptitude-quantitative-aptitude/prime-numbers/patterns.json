@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_PRIME_NUMBERS_01",
+  "name": "Prime Numbers (PYQ type)",
+  "recognitionClueHinglish": "Prime Numbers se related sawal.",
+  "whatShouldComeToMind": [
+   "Primality, count of primes, prime factors."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Test."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.43.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "1 ko prime."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

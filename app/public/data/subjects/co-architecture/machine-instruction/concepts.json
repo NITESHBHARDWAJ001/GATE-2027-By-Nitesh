@@ -1,0 +1,37 @@
+{
+  "topicId": "coa-machine-instruction",
+  "overview": "Machine Instruction topic 4 skills test karta hai: assembly program TRACE karna (registers/memory final values), instruction ENCODING (bit-field sizing for opcode/operands), CLOCK CYCLE/timing analysis, aur conceptual properties (privileged instructions, addressing modes, stack).",
+  "whyItMatters": "21 PYQs. Assembly-tracing skill Pipelining aur Cache Memory (loop-locality) dono me reuse hoti hai.",
+  "coreConcept": "Assembly instructions register/memory pe directly operate karte hain (LOAD, STORE, ADD, MOV, CMP, etc.). Instruction ENCODING me fixed-width instruction word ko OPCODE + OPERANDS me divide karna hota hai — agar r registers hain to log2(r) bits per register-operand chahiye, agar i instruction types hain to log2(i) bits opcode ke liye.",
+  "hinglishExplanation": "Assembly program ko trace karna bilkul waisa hai jaise C code trace karna (Programming In C topic) — bas ab 'variables' registers/memory-locations hain, aur 'statements' specific instructions (LOAD/STORE/ADD/etc.) hain. Instruction ENCODING ko socho ek 'fixed-size form' jisme alag-alag boxes hain — kitne boxes (bits) OPCODE ke liye chahiye (kitne alag instructions hain, unka log2), kitne REGISTER-naam ke liye (kitne registers hain, unka log2), baaki bache bits IMMEDIATE VALUE ke liye available hain.",
+  "formalDefinition": "Instruction word (fixed width W) = opcode field (⌈log2(#instruction types)⌉ bits) + operand fields (register fields: ⌈log2(#registers)⌉ bits each) + remaining bits for immediate/addressing.",
+  "importantProperties": [
+    "Bits for opcode = ⌈log2(number of distinct instruction types)⌉.",
+    "Bits per register operand = ⌈log2(number of registers)⌉.",
+    "Remaining bits for immediate operand = total instruction width − opcode bits − (register bits × number of register operands).",
+    "Privileged instructions (like RFE — Return From Exception) can only execute in KERNEL/SUPERVISOR mode, not user mode — attempting in user mode triggers a fault/trap.",
+    "Effective Address modes: (X)+ (auto-increment AFTER use, for sequential forward access like array traversal), -(X) (auto-decrement BEFORE use, for stack push/pop or reverse traversal) — recognize these as classic addressing-mode notations from PDP-11-style architectures.",
+    "Data forwarding/internal forwarding: bypass the register file by directly routing a computed result to where it's needed next, SKIPPING an intermediate store-then-load round trip — reduces instruction count/latency."
+  ],
+  "formulas": {
+    "opcodeBits": "⌈log2(number of distinct instructions)⌉",
+    "registerFieldBits": "⌈log2(number of registers)⌉ per register operand",
+    "immediateFieldBits": "total instruction width − opcode bits − (register bits × number of register operands)",
+    "totalClockCycles": "Σ (clock cycles per instruction × number of times that instruction executes, accounting for loops)"
+  },
+  "keyPropertiesAndIdentities": [
+    "For LOOP-containing programs, clock-cycle totals must account for how many times the loop body EXECUTES (not just count instructions once) — carefully trace the loop's iteration count first.",
+    "XOR-swap trick (exchange two registers without a temp, using only XOR): A=A⊕B; B=A⊕B; A=A⊕B — a classic 'no extra register' technique worth recognizing directly."
+  ],
+  "commonPitfalls": [
+    "Miscounting bits available for the immediate operand — forgetting to subtract for ALL register operand fields (not just one) when an instruction has multiple register operands.",
+    "For program-counter legality questions, forgetting that PC values must be ALIGNED to instruction boundaries (e.g., every instruction is k bytes, so PC must be a multiple of k from the start address) — not every arbitrary address is a valid instruction start.",
+    "Losing track of loop iteration counts when computing total clock cycles for a program with branches/loops."
+  ],
+  "standardTechniques": [
+    "For program-trace questions: maintain an explicit table of register/memory values, updating after each instruction exactly as specified.",
+    "For instruction-encoding bit-sizing: apply the direct formula (opcode bits + register-field bits × operand count, subtract from total width for immediate bits).",
+    "For clock-cycle/timing questions: sum (cycles per instruction type × execution count), being careful to account for loop repetitions.",
+    "For conceptual addressing-mode/privileged-instruction questions: recall the standard definitions directly rather than deriving from first principles."
+  ]
+}

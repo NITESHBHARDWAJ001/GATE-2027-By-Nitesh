@@ -1,0 +1,33 @@
+{
+ "topicId": "engineering-mathematics-calculus:maxima-minima",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MAXIMA-01",
+   "patternId": "MM_OPTIMIZE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Min of f(x)=x^2-4x+7?",
+   "solutionApproach": "x=2.",
+   "answer": "3"
+  },
+  {
+   "practiceId": "AI-MAXIMA-M-X02",
+   "patternId": "MM_OPTIMIZE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Max of f(x) = 6x - x^2?",
+   "solutionApproach": "x=3: 18-9.",
+   "answer": "9"
+  },
+  {
+   "practiceId": "AI-MAXIMA-M-X03",
+   "patternId": "MM_OPTIMIZE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Min of f(x)=x^3-3x on [0,2]?",
+   "solutionApproach": "f'=0 at x=1: -2; endpoints 0, 2.",
+   "answer": "-2"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_SYMBOL_TABLE_01",
+  "name": "Symbol Table (PYQ type)",
+  "recognitionClueHinglish": "Symbol Table se related sawal.",
+  "whatShouldComeToMind": [
+   "Identifiers ke attributes; scope management, sabhi phases use karte hain."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Statement check."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.26.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Symbol table ko code generation tak limited maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

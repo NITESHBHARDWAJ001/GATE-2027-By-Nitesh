@@ -1,0 +1,18 @@
+{
+ "coreIdea": "AST program ki syntactic structure, CFG execution flow.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "AST vs CFG se related sawal.",
+   "thinkThis": "P4_ABSTRACT_SYNTAX_TREE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Dono ko same maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:abstract-syntax-tree",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "patternId": "ICG_TAC_01",
+  "name": "Generate / Read TAC, Quadruples, DAG",
+  "recognitionClueHinglish": "Expression ka TAC/DAG; node/temporary count.",
+  "whatShouldComeToMind": [
+   "Post-order temporaries."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Evaluate order.",
+   "2. Temp."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.13.1",
+   "2.13.3",
+   "2.13.5",
+   "2.13.8",
+   "2.13.10",
+   "2.13.11",
+   "2.13.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "DAG sharing."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "ICG_CONCEPT_02",
+  "name": "IR Concepts",
+  "recognitionClueHinglish": "Why IR, three-address format, representations.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Fact."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.13.4",
+   "2.13.6",
+   "2.13.7",
+   "2.13.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

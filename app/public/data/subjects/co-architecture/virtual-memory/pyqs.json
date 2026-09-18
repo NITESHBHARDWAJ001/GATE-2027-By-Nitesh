@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "co-architecture__1.28.1",
+  "localId": "1.28.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "virtual-memory",
+  "topic": "Virtual Memory",
+  "year": 1991,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "03,iii",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A;B",
+  "answerVerified": true,
+  "questionTextRaw": "The total size of address space in a virtual memory system is limited by: A. the length of MAR                                                               B. the available secondary storage C. the available main memory                                                       D. all of the above E. none of the above",
+  "tagsRaw": "gate1991 co-and-architecture virtual-memory normal multiple-selects",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 89
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_VIRTUAL_MEMORY_01"
+ },
+ {
+  "pyqId": "co-architecture__1.28.2",
+  "localId": "1.28.2",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "virtual-memory",
+  "topic": "Virtual Memory",
+  "year": 2004,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "47",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a system with a two-level paging scheme in which a regular memory access takes , and servicing a page fault takes                                        . An average instruction takes nanoseconds of CPU time, and two memory accesses. The TLB hit ratio is %, and the page fault rate is one in every           instructions. What is the effective average instruction execution time? A.                                                                B. C.                                                                D.",
+  "tagsRaw": "gatecse-2004 co-and-architecture virtual-memory normal",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 89
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_VIRTUAL_MEMORY_01"
+ },
+ {
+  "pyqId": "co-architecture__1.28.3",
+  "localId": "1.28.3",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "virtual-memory",
+  "topic": "Virtual Memory",
+  "year": 2008,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "38",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "In an instruction execution pipeline, the earliest that the data TLB (Translation Lookaside Buffer) can be accessed is: A. before effective address calculation has started B. during effective address calculation C. after effective address calculation has completed D. after data cache lookup has completed",
+  "tagsRaw": "gatecse-2008 co-and-architecture  virtual-memory  normal",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 89
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_VIRTUAL_MEMORY_01"
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "topicId": "discrete-mathematics-set-theory-algebra:onto",
+ "subjectId": "discrete-mathematics-set-theory-algebra",
+ "subject": "Discrete Mathematics - Set Theory & Algebra",
+ "name": "Onto Functions and Composition",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2025-2025.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

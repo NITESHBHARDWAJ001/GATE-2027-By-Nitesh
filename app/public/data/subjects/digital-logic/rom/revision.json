@@ -1,0 +1,18 @@
+{
+ "coreIdea": "n x n bit multiplier ke truth table ke liye ROM: 2^(2n) x 2n bits.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "ROM Size se related sawal.",
+   "thinkThis": "P3_ROM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Product bits (2n) miss."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:rom",
+ "revisionLevel": "short-form"
+}

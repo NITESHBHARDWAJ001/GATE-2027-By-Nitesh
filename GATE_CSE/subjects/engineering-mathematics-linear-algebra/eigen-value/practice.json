@@ -1,0 +1,42 @@
+{
+ "topicId": "em-la-eigen-value",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-EIG-01",
+   "patternId": "EIG_TRACE_DET_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "2x2 matrix trace 7, determinant 12. Eigenvalues?",
+   "solutionApproach": "lambda^2 - 7lambda + 12 = 0.",
+   "answer": "3 and 4"
+  },
+  {
+   "practiceId": "AI-EIG-02",
+   "patternId": "EIG_FUNCTION_03",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A has eigenvalues 1,2,3. det(A^2 + I)?",
+   "solutionApproach": "Values 2,5,10 -> product.",
+   "answer": "100"
+  },
+  {
+   "practiceId": "AI-EIG-03",
+   "patternId": "EIG_SPECIAL_04",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "u = (1,2,2)^T. Non-zero eigenvalue of u u^T?",
+   "solutionApproach": "u^T u = 9.",
+   "answer": "9"
+  },
+  {
+   "practiceId": "AI-EIG-04",
+   "patternId": "EIG_COMPUTE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Eigenvalues of upper-triangular [[2,5],[0,3]]?",
+   "solutionApproach": "Diagonal entries.",
+   "answer": "2, 3"
+  }
+ ]
+}

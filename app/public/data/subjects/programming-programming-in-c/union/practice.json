@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-programming-in-c:union",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-UNION-01",
+   "patternId": "P4_UNION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "union {float y; long z;} size (4B each)?",
+   "solutionApproach": "Max.",
+   "answer": "4"
+  }
+ ]
+}

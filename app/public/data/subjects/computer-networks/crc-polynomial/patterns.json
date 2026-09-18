@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_CRC_POLYNOMIAL_01",
+  "name": "CRC (Polynomial Division) (PYQ type)",
+  "recognitionClueHinglish": "CRC (Polynomial Division) se related sawal.",
+  "whatShouldComeToMind": [
+   "Message ko x^r se multiply karke generator se mod 2 divide; remainder append."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Zeros append.",
+   "2. XOR division.",
+   "3. Remainder."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.5.1",
+   "2.5.2",
+   "2.5.3",
+   "2.5.4",
+   "2.5.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "XOR ki jagah normal subtraction."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

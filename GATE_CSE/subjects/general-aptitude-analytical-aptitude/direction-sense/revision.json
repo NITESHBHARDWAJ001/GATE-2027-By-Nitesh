@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Distances/directions ya rows me positions se relation nikalna.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Direction Sense and Arrangements se related sawal.",
+   "thinkThis": "P3_DIRECTION_SENSE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Turn direction galat."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:direction-sense",
+ "revisionLevel": "short-form"
+}

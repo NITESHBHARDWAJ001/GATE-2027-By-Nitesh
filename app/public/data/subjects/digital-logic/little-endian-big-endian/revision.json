@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Little endian LSB pehle low address par; byte reversal se value.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Endianness se related sawal.",
+   "thinkThis": "P3_LITTLE_ENDIAN_BIG_ENDIAN_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Bit vs byte reversal."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:little-endian-big-endian",
+ "revisionLevel": "short-form"
+}

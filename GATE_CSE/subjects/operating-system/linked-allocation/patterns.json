@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_LINKED_ALLOCATION_01",
+  "name": "Linked File Allocation (PYQ type)",
+  "recognitionClueHinglish": "Linked File Allocation se related sawal.",
+  "whatShouldComeToMind": [
+   "Har block me next pointer; usable data = block - pointer."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Usable.",
+   "2. Blocks."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.16.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Pointer overhead ignore."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

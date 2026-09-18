@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:lu-decomposition",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LU-DEC-01",
+   "patternId": "P3_LU_DECOMPOSITION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "L unit diagonal, det U diag 2,3. det A?",
+   "solutionApproach": "Product of U.",
+   "answer": "6"
+  }
+ ]
+}

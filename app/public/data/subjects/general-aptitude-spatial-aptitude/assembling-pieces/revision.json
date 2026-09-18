@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Missing piece ki shape.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Jigsaw Pieces se related sawal.",
+   "thinkThis": "P3_ASSEMBLING_PIECES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Orientation."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:assembling-pieces",
+ "revisionLevel": "short-form"
+}

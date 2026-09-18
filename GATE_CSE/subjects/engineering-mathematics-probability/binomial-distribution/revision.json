@@ -1,0 +1,18 @@
+{
+ "coreIdea": "n independent Bernoulli trials; P(X=k)=C(n,k)p^k(1-p)^(n-k).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Binomial Distribution se related sawal.",
+   "thinkThis": "P3_BINOMIAL_DISTRIBUTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Combination bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-probability:binomial-distribution",
+ "revisionLevel": "short-form"
+}

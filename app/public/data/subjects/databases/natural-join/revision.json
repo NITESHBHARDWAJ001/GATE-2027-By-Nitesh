@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Common attributes par equality; lossy decomposition, min/max tuples, outer join.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Natural Join se related sawal.",
+   "thinkThis": "P3_NATURAL_JOIN_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Common attribute na ho to cross product."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:natural-join",
+ "revisionLevel": "short-form"
+}

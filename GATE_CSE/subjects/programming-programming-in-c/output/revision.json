@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Program ko line-by-line trace karo, variable values table me likho.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Program ka printed value/output.",
+   "thinkThis": "OUT_TRACE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Static vars."
+ ],
+ "highYieldPyqLessons": [
+  "Recent papers use NAT outputs."
+ ],
+ "topicId": "programming-programming-in-c:output",
+ "revisionLevel": "short-form"
+}

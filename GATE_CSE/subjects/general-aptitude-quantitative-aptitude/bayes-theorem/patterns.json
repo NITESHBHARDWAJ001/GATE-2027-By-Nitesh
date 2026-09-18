@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_BAYES_THEOREM_01",
+  "name": "Bayes (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Bayes (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "Suppliers ke defect probabilities se posterior."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Partition."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.9.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Prior mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

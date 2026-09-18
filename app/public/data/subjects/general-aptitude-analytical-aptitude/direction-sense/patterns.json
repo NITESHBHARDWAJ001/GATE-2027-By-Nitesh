@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_DIRECTION_SENSE_01",
+  "name": "Direction Sense and Arrangements (PYQ type)",
+  "recognitionClueHinglish": "Direction Sense and Arrangements se related sawal.",
+  "whatShouldComeToMind": [
+   "Distances/directions ya rows me positions se relation nikalna."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Draw.",
+   "2. Coordinates."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.5.1",
+   "8.5.2",
+   "8.5.3",
+   "8.5.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Turn direction galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

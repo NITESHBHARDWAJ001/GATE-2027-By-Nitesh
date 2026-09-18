@@ -1,0 +1,33 @@
+{
+ "topicId": "compiler-design:runtime-environment",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Runtime Environment, Linking and Loading",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "22 PYQs extracted, 1988-2023.",
+ "pyqCountExtracted": 22,
+ "yearsCovered": [
+  1988,
+  1989,
+  1990,
+  1993,
+  1995,
+  1996,
+  1997,
+  1998,
+  2001,
+  2002,
+  2008,
+  2010,
+  2012,
+  2014,
+  2021,
+  2023
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

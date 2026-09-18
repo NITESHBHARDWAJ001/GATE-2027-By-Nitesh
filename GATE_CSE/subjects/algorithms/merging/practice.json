@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:merging",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MERGIN-01",
+   "patternId": "P4_MERGING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Merge lists of 5 and 7: worst comparisons?",
+   "solutionApproach": "5+7-1.",
+   "answer": "11"
+  }
+ ]
+}

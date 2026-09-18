@@ -1,0 +1,42 @@
+{
+ "topicId": "databases:referential-integrity",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-REFERE-01",
+   "patternId": "RI_OPERATIONS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Deleting a parent row referenced by a child (no action)?",
+   "solutionApproach": "Violates RI.",
+   "answer": "Rejected"
+  },
+  {
+   "practiceId": "AI-REFERE-02",
+   "patternId": "RI_CASCADE_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A->B->C with ON DELETE CASCADE. Delete A's row a1; b1 references a1, c1 references b1. Deleted?",
+   "solutionApproach": "Chain.",
+   "answer": "a1, b1, c1"
+  },
+  {
+   "practiceId": "AI-REFERENT-X03",
+   "patternId": "RI_OPERATIONS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Insert into child with FK value not in parent. Result?",
+   "solutionApproach": "Violates RI.",
+   "answer": "Rejected"
+  },
+  {
+   "practiceId": "AI-REFERENT-X04",
+   "patternId": "RI_CASCADE_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Emp(dept) FK->Dept, ON DELETE SET NULL. Delete a dept: effect on its employees?",
+   "solutionApproach": "FK set to NULL.",
+   "answer": "dept becomes NULL"
+  }
+ ]
+}

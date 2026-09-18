@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-probability:bayesian-network",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BAYESI-01",
+   "patternId": "P3_BAYESIAN_NETWORK_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A->B->C: P(A,B,C)?",
+   "solutionApproach": "P(A)P(B|A)P(C|B).",
+   "answer": "P(A)P(B|A)P(C|B)"
+  }
+ ]
+}

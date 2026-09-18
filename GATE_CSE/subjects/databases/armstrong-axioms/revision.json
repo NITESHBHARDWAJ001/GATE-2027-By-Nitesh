@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Reflexivity, augmentation, transitivity aur derived rules (union, decomposition).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Armstrong's Axioms se related sawal.",
+   "thinkThis": "P3_ARMSTRONG_AXIOMS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Decomposition LHS par lagana (galat)."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:armstrong-axioms",
+ "revisionLevel": "short-form"
+}

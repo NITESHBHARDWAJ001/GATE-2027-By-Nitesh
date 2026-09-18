@@ -1,0 +1,24 @@
+{
+ "topicId": "computer-networks:routing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ROUTIN-01",
+   "patternId": "RT_PROTOCOLS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Which is link state: RIP or OSPF?",
+   "solutionApproach": "OSPF.",
+   "answer": "OSPF"
+  },
+  {
+   "practiceId": "AI-ROUTING-X02",
+   "patternId": "RT_PROTOCOLS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "RIP metric?",
+   "solutionApproach": "Hop count.",
+   "answer": "Hop count"
+  }
+ ]
+}

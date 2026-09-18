@@ -1,0 +1,24 @@
+{
+ "overview": "A = LU: L lower (unit diagonal), U upper; system solve forward/back substitution.",
+ "whyItMatters": "3 PYQs extracted (2015-2025); P3 topic.",
+ "coreConcept": "A = LU: L lower (unit diagonal), U upper; system solve forward/back substitution.",
+ "hinglishExplanation": "Gaussian elimination multipliers L me store hote hain.",
+ "formalDefinition": "A = LU: L lower (unit diagonal), U upper; system solve forward/back substitution.",
+ "importantProperties": [
+  "A = LU with unit-diagonal L (Doolittle).",
+  "Ly = b forward, Ux = y backward.",
+  "det A = product of U diagonal.",
+  "Row swaps ho to PA = LU."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Multipliers ka sign."
+ ],
+ "standardTechniques": [
+  "1. Eliminate.",
+  "2. L multipliers.",
+  "3. Solve."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:lu-decomposition"
+}

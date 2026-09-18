@@ -1,0 +1,21 @@
+{
+ "overview": "Har variable ek hi baar assign; temporaries/versions ki minimum count.",
+ "whyItMatters": "3 PYQs extracted (2015-2017); P3 topic.",
+ "coreConcept": "Har variable ek hi baar assign; temporaries/versions ki minimum count.",
+ "hinglishExplanation": "Redefinition par naya version; phi function merge points par.",
+ "formalDefinition": "Har variable ek hi baar assign; temporaries/versions ki minimum count.",
+ "importantProperties": [
+  "Har definition naya name.",
+  "Minimum temporaries = distinct definitions ka count.",
+  "phi at join points."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Non-SSA ko count karna."
+ ],
+ "standardTechniques": [
+  "1. Har assignment ko rename."
+ ],
+ "topicId": "compiler-design:static-single-assignment"
+}

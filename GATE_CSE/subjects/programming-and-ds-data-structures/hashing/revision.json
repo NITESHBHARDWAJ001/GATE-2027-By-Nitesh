@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Load factor = n/m. Linear probing me collision par next slot (wrap-around).",
+ "mustRememberFormulas": [
+  "alpha: n/m"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Keys aur hash function diye; final table, ya kis slot par kaun.",
+   "thinkThis": "HSH_TABLE_SIM_01"
+  },
+  {
+   "seeThis": "Load factor, uniform hashing probability, chaining vs open addressing, good hash function.",
+   "thinkThis": "HSH_ANALYSIS_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Formula misuse.",
+  "Wrap-around."
+ ],
+ "highYieldPyqLessons": [
+  "Simulation questions appear most years; keep the probe order exact."
+ ],
+ "topicId": "programming-and-ds-data-structures:hashing",
+ "revisionLevel": "short-form"
+}

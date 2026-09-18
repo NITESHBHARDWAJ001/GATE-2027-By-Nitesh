@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Har step par sabse kam frequency wale do nodes merge karo.",
+ "mustRememberFormulas": [
+  "total: sum f_i l_i",
+  "avg: sum p_i l_i"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Frequencies diye; codes, average length ya total bits.",
+   "thinkThis": "HUF_BUILD_01"
+  },
+  {
+   "seeThis": "Prefix condition ke saath string ka minimum encoding.",
+   "thinkThis": "HUF_CONSTRAINTS_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Ties."
+ ],
+ "highYieldPyqLessons": [
+  "Hand-build the tree; extraction may blank the frequency table, check source."
+ ],
+ "topicId": "algorithms:huffman-code",
+ "revisionLevel": "short-form"
+}

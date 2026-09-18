@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Matrices ka parenthesization jo scalar multiplications minimize kare.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Matrix Chain Multiplication se related sawal.",
+   "thinkThis": "P3_MATRIX_CHAIN_ORDERING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Dimensions ka order galat."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:matrix-chain-ordering",
+ "revisionLevel": "short-form"
+}

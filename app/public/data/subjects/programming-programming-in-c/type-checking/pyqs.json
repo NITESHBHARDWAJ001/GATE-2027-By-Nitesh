@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "programming-programming-in-c__5.18.1",
+  "localId": "5.18.1",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "type-checking",
+  "topic": "Type Checking",
+  "year": 2003,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "24",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following statements is FALSE? A. In statically typed languages, each variable in a program has a fixed type B. In un-typed languages, values do not have any types C. In dynamically typed languages, variables have no types D. In all statically typed languages, each variable in a program is associated with values of only a single type during the execution of the program",
+  "tagsRaw": "gatecse-2003 programming  normal  type-checking",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 311
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_TYPE_CHECKING_01"
+ }
+]

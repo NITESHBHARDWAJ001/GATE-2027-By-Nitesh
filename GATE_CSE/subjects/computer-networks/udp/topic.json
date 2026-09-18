@@ -1,0 +1,21 @@
+{
+ "topicId": "computer-networks:udp",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "UDP and Transport Protocols",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 2005-2017.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  2005,
+  2006,
+  2013,
+  2017
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

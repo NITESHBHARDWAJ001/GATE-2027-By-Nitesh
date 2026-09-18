@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_BEST_FIT_01",
+  "name": "Best Fit Allocation (PYQ type)",
+  "recognitionClueHinglish": "Best Fit Allocation se related sawal.",
+  "whatShouldComeToMind": [
+   "Variable partitions me sabse chhota hole jo request fit kare."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sufficient holes.",
+   "2. Smallest."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.2.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Fit rules mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

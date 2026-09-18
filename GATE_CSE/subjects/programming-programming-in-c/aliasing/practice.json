@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-programming-in-c:aliasing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ALIASI-01",
+   "patternId": "P4_ALIASING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Aliasing kya?",
+   "solutionApproach": "Same location, multiple names.",
+   "answer": "Multiple names for one location"
+  }
+ ]
+}

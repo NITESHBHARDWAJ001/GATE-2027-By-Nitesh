@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_STATEMENTS_FOLLOW_01",
+  "name": "Courses of Action (Statements Follow) (PYQ type)",
+  "recognitionClueHinglish": "Courses of Action (Statements Follow) se related sawal.",
+  "whatShouldComeToMind": [
+   "Statement ke baad kaunsa action logically follow karta hai."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Relevance."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.14.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Personal opinion."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

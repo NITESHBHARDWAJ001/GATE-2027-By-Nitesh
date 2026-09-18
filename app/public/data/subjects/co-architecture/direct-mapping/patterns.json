@@ -1,0 +1,30 @@
+[
+ {
+  "patternId": "P3_DIRECT_MAPPING_01",
+  "name": "Direct-Mapped Cache (PYQ type)",
+  "recognitionClueHinglish": "Direct-Mapped Cache se related sawal.",
+  "whatShouldComeToMind": [
+   "Address = tag | index | offset; block ek hi line me map hoti hai."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Lines = cache/block.",
+   "2. Bits split."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.13.1",
+   "1.13.2",
+   "1.13.3",
+   "1.13.4",
+   "1.13.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Cache size bytes vs lines confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

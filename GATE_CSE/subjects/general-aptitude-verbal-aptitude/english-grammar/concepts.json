@@ -1,0 +1,22 @@
+{
+ "overview": "Sentence completion via grammar rules.",
+ "whyItMatters": "5 PYQs extracted (2015-2021); P3 topic.",
+ "coreConcept": "Sentence completion via grammar rules.",
+ "hinglishExplanation": "Rule pehchano: agreement, tense, article.",
+ "formalDefinition": "Sentence completion via grammar rules.",
+ "importantProperties": [
+  "Subject-verb agreement.",
+  "Tense consistency.",
+  "Preposition idioms."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Idiom ko literal."
+ ],
+ "standardTechniques": [
+  "1. Rule.",
+  "2. Fit."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:english-grammar"
+}

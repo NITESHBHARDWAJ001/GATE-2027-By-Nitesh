@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Kya save hota hai, kab hota hai, overhead cost.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Context Switch se related sawal.",
+   "thinkThis": "P3_CONTEXT_SWITCH_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Har interrupt ko context switch maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:context-switch",
+ "revisionLevel": "short-form"
+}

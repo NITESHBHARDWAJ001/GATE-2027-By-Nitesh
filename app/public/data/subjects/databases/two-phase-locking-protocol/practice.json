@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:two-phase-locking-protocol",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TWO-PH-01",
+   "patternId": "P3_TWO_PHASE_LOCKING_PROTOC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "2PL deadlock free?",
+   "solutionApproach": "Nahi.",
+   "answer": "Nahi"
+  }
+ ]
+}

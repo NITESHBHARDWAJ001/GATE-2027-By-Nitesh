@@ -1,0 +1,18 @@
+{
+ "coreIdea": "State table trace, state minimization, FSM adder.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Finite State Machines (Sequential) se related sawal.",
+   "thinkThis": "P3_FINITE_STATE_MACHINES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Equivalent states pehchanne me galti."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:finite-state-machines",
+ "revisionLevel": "short-form"
+}

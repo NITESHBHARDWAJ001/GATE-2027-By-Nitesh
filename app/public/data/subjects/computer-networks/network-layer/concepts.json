@@ -1,0 +1,22 @@
+{
+ "overview": "OSI layers ke functions, network vs transport responsibilities, hops count, CIDR supernetting.",
+ "whyItMatters": "6 PYQs extracted (2003-2026); P2 topic.",
+ "coreConcept": "Network layer routing/forwarding karta hai; transport end-to-end reliability.",
+ "hinglishExplanation": "Packet source se destination tak har router par network layer tak jaata hai. Transport ko network ke upar loss recovery, ordering jaise kaam karne padte hain.",
+ "formalDefinition": "Network layer routing/forwarding karta hai; transport end-to-end reliability.",
+ "importantProperties": [
+  "Network layer: routing, forwarding, addressing.",
+  "Data link: framing, MAC.",
+  "Transport: end-to-end reliability.",
+  "Packet har intermediate router par network layer tak (3 visits for 2 routers)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Layer functions mix."
+ ],
+ "standardTechniques": [
+  "Layer table."
+ ],
+ "topicId": "computer-networks:network-layer"
+}

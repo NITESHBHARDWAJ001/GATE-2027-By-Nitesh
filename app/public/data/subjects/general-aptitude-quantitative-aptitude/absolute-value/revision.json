@@ -1,0 +1,18 @@
+{
+ "coreIdea": "|x|<a => -a<x<a.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Absolute Value se related sawal.",
+   "thinkThis": "P3_ABSOLUTE_VALUE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Two cases."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:absolute-value",
+ "revisionLevel": "short-form"
+}

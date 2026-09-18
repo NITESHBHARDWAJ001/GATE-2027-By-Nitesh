@@ -1,0 +1,42 @@
+{
+ "topicId": "os-disk-scheduling",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DSK-01",
+   "patternId": "DSK_HEAD_MOVEMENT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Head at 50, requests 82,170,43,140,24,16,190. FCFS total head movement?",
+   "solutionApproach": "|50-82|=32, |82-170|=88, |170-43|=127, |43-140|=97, |140-24|=116, |24-16|=8, |16-190|=174. Sum=642.",
+   "answer": "642"
+  },
+  {
+   "practiceId": "AI-DSK-02",
+   "patternId": "DSK_HEAD_MOVEMENT_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Same input, SSTF total movement?",
+   "solutionApproach": "Order: 50,43,24,16,82,140,170,190. Distances 7+19+8+66+58+30+20=208.",
+   "answer": "208"
+  },
+  {
+   "practiceId": "AI-DSK-03",
+   "patternId": "DSK_ACCESS_TIME_03",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Disk at 6000 RPM. Average rotational latency?",
+   "solutionApproach": "Rotation time = 10 ms; half = 5 ms.",
+   "answer": "5 ms"
+  },
+  {
+   "practiceId": "AI-DSK-04",
+   "patternId": "DSK_ALGO_PROPERTIES_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Which of FCFS and SSTF can starve requests?",
+   "solutionApproach": "SSTF: far-away requests can keep getting postponed.",
+   "answer": "SSTF"
+  }
+ ]
+}

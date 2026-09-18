@@ -1,0 +1,22 @@
+{
+ "overview": "Static scope: lexical nesting; dynamic scope: call chain se binding.",
+ "whyItMatters": "2 PYQs extracted (1987-1987); P4 topic.",
+ "coreConcept": "Static scope: lexical nesting; dynamic scope: call chain se binding.",
+ "hinglishExplanation": "Static me variable jahan define hua wahan se, dynamic me caller chain se.",
+ "formalDefinition": "Static scope: lexical nesting; dynamic scope: call chain se binding.",
+ "importantProperties": [
+  "Static: code structure.",
+  "Dynamic: run-time call stack.",
+  "Output alag ho sakta hai."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Scope types mix."
+ ],
+ "standardTechniques": [
+  "1. Call chain.",
+  "2. Lookup."
+ ],
+ "topicId": "compiler-design:variable-scope"
+}

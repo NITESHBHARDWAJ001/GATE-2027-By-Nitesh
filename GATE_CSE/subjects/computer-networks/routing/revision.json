@@ -1,0 +1,25 @@
+{
+ "coreIdea": "DV neighbours se shortest distance seekhta hai (Bellman-Ford); LS poori topology flood karta hai (Dijkstra).",
+ "mustRememberFormulas": [
+  "pathTime: sum of store-and-forward delays"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "RIP/OSPF/BGP, DV vs LS, router functionality.",
+   "thinkThis": "RT_PROTOCOLS_01"
+  },
+  {
+   "seeThis": "CIDR entries lookup; file transfer time via routers.",
+   "thinkThis": "RT_FORWARD_CALC_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "DV/LS confuse.",
+  "Pipelining."
+ ],
+ "highYieldPyqLessons": [
+  "Protocol statements repeat every 2-3 years."
+ ],
+ "topicId": "computer-networks:routing",
+ "revisionLevel": "short-form"
+}

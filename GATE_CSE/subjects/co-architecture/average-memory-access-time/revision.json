@@ -1,0 +1,18 @@
+{
+ "coreIdea": "AMAT = hit time + miss rate x miss penalty; multi-level cache.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Average Memory Access Time se related sawal.",
+   "thinkThis": "P3_AVERAGE_MEMORY_ACCESS_TI_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Local aur global miss rate mix."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:average-memory-access-time",
+ "revisionLevel": "short-form"
+}

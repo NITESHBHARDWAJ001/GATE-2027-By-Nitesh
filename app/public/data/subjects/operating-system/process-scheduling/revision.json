@@ -1,0 +1,27 @@
+{
+  "topicId": "os-process-scheduling",
+  "revisionLevel": "short-form",
+  "coreIdea": "TAT=Completion-Arrival. WT=TAT-Burst. Draw Gantt chart per algorithm's selection rule; re-evaluate at every arrival for preemptive algorithms.",
+  "mustRememberFormulas": [
+    "TAT = Completion Time − Arrival Time",
+    "WT = TAT − Burst Time",
+    "RR with quantum ≥ max burst → degenerates to FCFS",
+    "SRTF is provably optimal (min avg waiting time) among ALL algorithms"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "processes with arrival/burst times, named algorithm, asked avg WT/TAT", "thinkThis": "PS_NUMERICAL_SIMULATION_01"},
+    {"seeThis": "'best algorithm for scenario X' or preemptive/starvation classification", "thinkThis": "PS_ALGO_PROPERTY_02"},
+    {"seeThis": "process state diagram, valid/invalid transition asked", "thinkThis": "PS_STATE_TRANSITION_03"},
+    {"seeThis": "'undesirable characteristic of TAT/WT as a metric'", "thinkThis": "PS_METRIC_DEFINITIONS_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Preemptive algorithms (SRTF, preemptive priority) need re-evaluation at EVERY new arrival, not just completions",
+    "SJF/SRTF/Priority can starve; FCFS/RR cannot",
+    "Waiting→Running direct transition is INVALID — must pass through Ready",
+    "Non-preemptive SJF still runs the CURRENT process to completion even if a shorter one arrives"
+  ],
+  "highYieldPyqLessons": [
+    "Numerical simulation (30/49) is the single dominant skill across the ENTIRE OS subject — the Gantt-chart method generalizes across FCFS/SJF/SRTF/RR/Priority with only the selection rule changing.",
+    "Highest-PYQ topic in Operating System — disproportionate time investment here pays off across almost every GATE cycle."
+  ]
+}

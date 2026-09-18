@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Subspace: zero vector, addition aur scalar multiplication ke under closed.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Subspaces se related sawal.",
+   "thinkThis": "P3_SUBSPACE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "0 vector check bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:subspace",
+ "revisionLevel": "short-form"
+}

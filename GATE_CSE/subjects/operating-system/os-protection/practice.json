@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:os-protection",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-OS-PRO-01",
+   "patternId": "P3_OS_PROTECTION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "System call kaise invoke hota hai?",
+   "solutionApproach": "Software interrupt.",
+   "answer": "Trap"
+  }
+ ]
+}

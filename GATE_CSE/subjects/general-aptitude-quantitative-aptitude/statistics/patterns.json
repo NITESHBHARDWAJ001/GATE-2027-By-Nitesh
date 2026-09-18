@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_STATISTICS_01",
+  "name": "Statistics (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Statistics (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "Mean, median, mode, SD."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sort."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.52.1",
+   "9.52.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Median even count."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

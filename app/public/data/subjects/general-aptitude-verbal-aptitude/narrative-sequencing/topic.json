@@ -1,0 +1,18 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:narrative-sequencing",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Narrative Sequencing / Matching Responses",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2025-2025.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,20 @@
+{
+ "overview": "Multiple names same memory location ke liye.",
+ "whyItMatters": "1 PYQs extracted (2000-2000); P4 topic.",
+ "coreConcept": "Multiple names same memory location ke liye.",
+ "hinglishExplanation": "Pointers/references alias banate hain.",
+ "formalDefinition": "Multiple names same memory location ke liye.",
+ "importantProperties": [
+  "Two names one location.",
+  "Optimization ko rokta hai."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Copy maan lena."
+ ],
+ "standardTechniques": [
+  "1. Same location?"
+ ],
+ "topicId": "programming-programming-in-c:aliasing"
+}

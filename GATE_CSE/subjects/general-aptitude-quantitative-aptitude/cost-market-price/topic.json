@@ -1,0 +1,20 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:cost-market-price",
+ "subjectId": "general-aptitude-quantitative-aptitude",
+ "subject": "General Aptitude - Quantitative Aptitude",
+ "name": "Cost Price and Market Price",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 2011-2019.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  2011,
+  2012,
+  2019
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

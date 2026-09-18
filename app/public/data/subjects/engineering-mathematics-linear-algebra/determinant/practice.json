@@ -1,0 +1,33 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:determinant",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DETERM-01",
+   "patternId": "DET_PROPERTIES_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "3x3 A with det 2. det(3A)?",
+   "solutionApproach": "27*2.",
+   "answer": "54"
+  },
+  {
+   "practiceId": "AI-DETERMIN-X02",
+   "patternId": "DET_PROPERTIES_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "det(A)=3 for 4x4 A. det(2A)?",
+   "solutionApproach": "16*3.",
+   "answer": "48"
+  },
+  {
+   "practiceId": "AI-DETERMIN-X03",
+   "patternId": "DET_COMPUTE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "det of [[1,2],[3,4]]?",
+   "solutionApproach": "4-6.",
+   "answer": "-2"
+  }
+ ]
+}

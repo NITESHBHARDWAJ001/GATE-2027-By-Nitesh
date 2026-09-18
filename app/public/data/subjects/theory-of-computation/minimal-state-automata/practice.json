@@ -1,0 +1,42 @@
+{
+  "topicId": "toc-minimal-state-automata",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-MSA-01",
+      "patternId": "MSA_COMPUTE_MIN_STATES_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "What is the minimum number of DFA states for L = {w ∈ {0,1}* : number of 1's in w is divisible by 4}?",
+      "solutionApproach": "Modular counting condition, modulus 4 → exactly 4 states (tracking remainder 0,1,2,3).",
+      "answer": "4 states"
+    },
+    {
+      "practiceId": "AI-MSA-02",
+      "patternId": "MSA_COMPUTE_MIN_STATES_01",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "What is the minimum number of DFA states for L = {w ∈ {a,b}* : number of a's divisible by 2 AND number of b's divisible by 3}?",
+      "solutionApproach": "Two independent modular conditions: mod 2 and mod 3, combine via product construction: 2×3=6 states.",
+      "answer": "6 states"
+    },
+    {
+      "practiceId": "AI-MSA-03",
+      "patternId": "MSA_MINIMIZATION_PROCEDURE_02",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A DFA has 4 states {A,B,C,D}, A is start, D is the only accepting state. On '0': A→B, B→D, C→D, D→D. On '1': A→C, B→D, C→D, D→D. Are B and C equivalent (can they be merged)?",
+      "solutionApproach": "Initial partition: {D}(accepting), {A,B,C}(non-accepting). Check B and C: on '0', B→D and C→D (same partition ✓). On '1', B→D and C→D (same partition ✓). B and C behave identically → equivalent, can be merged.",
+      "answer": "Yes, B and C are equivalent and can be merged into one state — minimal DFA has 3 states."
+    },
+    {
+      "practiceId": "AI-MSA-04",
+      "patternId": "MSA_NFA_DFA_BOUND_THEORY_03",
+      "difficulty": "tricky-variation",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is it TRUE that 'every NFA with n states has a minimal equivalent DFA with EXACTLY 2^n states'?",
+      "solutionApproach": "FALSE. 2^n is only an upper bound. Counterexample: an NFA with 5 states all just self-looping and accepting on every input (language = Σ*) has a minimal DFA of just 1 state, not 2^5=32.",
+      "answer": "FALSE — 2^n is an upper bound, not a guarantee; actual size depends on the specific language."
+    }
+  ]
+}

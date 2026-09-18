@@ -1,0 +1,38 @@
+{
+ "coreIdea": "Network = IP AND mask. Hosts = 2^h - 2. Route by longest prefix.",
+ "mustRememberFormulas": [
+  "2^(32-n) - 2 usable hosts",
+  "block size = 256 - mask octet",
+  "broadcast = net OR ~mask"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "two IPs + mask",
+   "thinkThis": "SN_SAME_NETWORK_01"
+  },
+  {
+   "seeThis": "max hosts / subnets",
+   "thinkThis": "SN_HOST_SUBNET_COUNT_02"
+  },
+  {
+   "seeThis": "ISP block / aggregate",
+   "thinkThis": "SN_CIDR_ALLOCATION_03"
+  },
+  {
+   "seeThis": "routing table + dest",
+   "thinkThis": "SN_ROUTING_LPM_04"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "-2 for hosts",
+  "Longest prefix wins",
+  "Alignment of CIDR blocks",
+  "Broadcast is not a host"
+ ],
+ "highYieldPyqLessons": [
+  "Routing table LPM appears in 2004, 2006, 2015, 2023, 2025.",
+  "Mask arithmetic is fully solvable without extraction gaps but IPs are often blank in extracted text: check original figure."
+ ],
+ "topicId": "cn-subnetting",
+ "revisionLevel": "short-form"
+}

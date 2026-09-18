@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_PATTERNS_IN_TWO_DIMENSIO_01",
+  "name": "2D Patterns and Tilings (PYQ type)",
+  "recognitionClueHinglish": "2D Patterns and Tilings se related sawal.",
+  "whatShouldComeToMind": [
+   "Polygons, tile patterns, area division."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Pattern.",
+   "2. Symmetry."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "10.8.1",
+   "10.8.2",
+   "10.8.3",
+   "10.8.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Figure text me missing."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

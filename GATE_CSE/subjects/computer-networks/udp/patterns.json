@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_UDP_01",
+  "name": "UDP and Transport Protocols (PYQ type)",
+  "recognitionClueHinglish": "UDP and Transport Protocols se related sawal.",
+  "whatShouldComeToMind": [
+   "UDP connectionless; real-time multimedia UDP, file TCP, email TCP."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Requirement."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.37.1",
+   "2.37.2",
+   "2.37.3",
+   "2.37.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "UDP ko reliable maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

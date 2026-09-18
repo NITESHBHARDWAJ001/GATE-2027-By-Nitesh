@@ -1,0 +1,59 @@
+[
+ {
+  "patternId": "PP_POINTER_TRACE_01",
+  "name": "Trace Pointer/Reference Passing",
+  "recognitionClueHinglish": "Swap-type functions aur output values.",
+  "whatShouldComeToMind": [
+   "Value vs pointer."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Copies.",
+   "2. Effects."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.8.3",
+   "5.8.5",
+   "5.8.6",
+   "5.8.7",
+   "5.8.8",
+   "5.8.9",
+   "5.8.10",
+   "5.8.11"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Pointer copy."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "PP_MODES_CONCEPT_02",
+  "name": "Call-by-name vs Reference, Macros, Activation Records",
+  "recognitionClueHinglish": "Modes ka difference, macros, display.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Mode."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.8.1",
+   "5.8.2",
+   "5.8.4",
+   "5.8.12"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Macro side effects."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

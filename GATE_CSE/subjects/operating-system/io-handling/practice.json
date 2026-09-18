@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:io-handling",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-IO-HAN-01",
+   "patternId": "P3_IO_HANDLING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Kaun sa spooled device hai: printer ya terminal?",
+   "solutionApproach": "Printer.",
+   "answer": "Printer"
+  }
+ ]
+}

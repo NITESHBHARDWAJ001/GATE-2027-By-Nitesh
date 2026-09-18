@@ -1,0 +1,23 @@
+{
+ "overview": "Bubble sort jaise loops me swaps ka count; worst case n(n-1)/2.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Bubble sort jaise loops me swaps ka count; worst case n(n-1)/2.",
+ "hinglishExplanation": "Swaps = inversions (adjacent swaps sorting).",
+ "formalDefinition": "Bubble sort jaise loops me swaps ka count; worst case n(n-1)/2.",
+ "importantProperties": [
+  "Bubble sort worst swaps n(n-1)/2.",
+  "Swaps = inversions.",
+  "Sorted input 0 swaps.",
+  "Code ke loop bounds se comparisons alag gino."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Comparisons aur swaps mix."
+ ],
+ "standardTechniques": [
+  "1. Inversions count.",
+  "2. Loop trace."
+ ],
+ "topicId": "algorithms:number-of-swap"
+}

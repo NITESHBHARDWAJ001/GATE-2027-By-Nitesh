@@ -1,0 +1,24 @@
+{
+ "topicId": "compiler-design:intermediate-code",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INTERM-01",
+   "patternId": "ICG_TAC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "TAC for a = b + c * d?",
+   "solutionApproach": "t1 = c*d; a = b + t1.",
+   "answer": "2 instructions"
+  },
+  {
+   "practiceId": "AI-INTERMED-X02",
+   "patternId": "ICG_TAC_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "TAC instructions for a = b*c + d*e?",
+   "solutionApproach": "t1=b*c;t2=d*e;a=t1+t2.",
+   "answer": "3"
+  }
+ ]
+}

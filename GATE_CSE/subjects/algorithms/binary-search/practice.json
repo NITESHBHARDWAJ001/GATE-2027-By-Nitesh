@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:binary-search",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BINARY-01",
+   "patternId": "P3_BINARY_SEARCH_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "n=16 sorted, worst case comparisons?",
+   "solutionApproach": "floor(log2 16)+1.",
+   "answer": "5"
+  }
+ ]
+}

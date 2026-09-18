@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_COMPARATIVE_FORMS_01",
+  "name": "Comparative Forms (PYQ type)",
+  "recognitionClueHinglish": "Comparative Forms se related sawal.",
+  "whatShouldComeToMind": [
+   "Comparison constructions: as well as, any/much/no."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Type."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.3.1",
+   "11.3.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Comparative structure."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

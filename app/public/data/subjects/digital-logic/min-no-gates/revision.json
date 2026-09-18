@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Function ko minimum gates (NAND/NOR/given) se implement.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Minimum Number of Gates se related sawal.",
+   "thinkThis": "P3_MIN_NO_GATES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Inverters ko count na karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:min-no-gates",
+ "revisionLevel": "short-form"
+}

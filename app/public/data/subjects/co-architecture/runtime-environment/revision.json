@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Register windows overlap se procedure call/return me memory accesses kam.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Stack Pointer and Register Windows se related sawal.",
+   "thinkThis": "P4_RUNTIME_ENVIRONMENT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Windows ko memory badhane wala maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:runtime-environment",
+ "revisionLevel": "short-form"
+}

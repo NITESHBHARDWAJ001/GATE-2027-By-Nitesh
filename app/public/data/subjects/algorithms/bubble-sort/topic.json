@@ -1,0 +1,18 @@
+{
+ "topicId": "algorithms:bubble-sort",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Bubble Sort",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 1995-1995.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  1995
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

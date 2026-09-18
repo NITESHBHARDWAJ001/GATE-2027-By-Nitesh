@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_TOKEN_BUCKET_01",
+  "name": "Token Bucket (PYQ type)",
+  "recognitionClueHinglish": "Token Bucket se related sawal.",
+  "whatShouldComeToMind": [
+   "Rate r tokens/s, capacity C; max burst time = C/(M - r)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. C, r, M."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.36.1",
+   "2.36.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Burst duration me M - r bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

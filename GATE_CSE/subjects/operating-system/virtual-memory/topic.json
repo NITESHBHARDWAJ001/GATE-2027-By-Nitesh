@@ -1,0 +1,60 @@
+{
+ "topicId": "os-virtual-memory",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Virtual Memory",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "43 PYQs extracted, tested 1989-2024 almost every year, incl. recent NAT-heavy multilevel page-table questions. Cross-links to Cache Memory (CO&A) via the same address-decomposition skill.",
+ "pyqCountExtracted": 43,
+ "yearsCovered": [
+  1989,
+  1990,
+  1991,
+  1994,
+  1995,
+  1996,
+  1998,
+  1999,
+  2000,
+  2001,
+  2002,
+  2003,
+  2006,
+  2008,
+  2009,
+  2011,
+  2013,
+  2014,
+  2015,
+  2016,
+  2018,
+  2019,
+  2020,
+  2023,
+  2024
+ ],
+ "prerequisites": [
+  {
+   "topic": "Cache Memory",
+   "subjectId": "co-architecture",
+   "why": "Same address-split (tag/index/offset) and AMAT reasoning."
+  }
+ ],
+ "unlocks": [
+  {
+   "topic": "Page Replacement",
+   "subjectId": "operating-system",
+   "why": "Page replacement is what the OS does on a page fault."
+  }
+ ],
+ "crossLinks": [
+  {
+   "subjectId": "co-architecture",
+   "topic": "Cache Memory",
+   "note": "TLB and cache share associativity/tag-bit calculations."
+  }
+ ],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

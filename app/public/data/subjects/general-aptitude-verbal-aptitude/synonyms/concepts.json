@@ -1,0 +1,22 @@
+{
+ "overview": "Word ka closest meaning; non-synonyms; similar-meaning fill.",
+ "whyItMatters": "6 PYQs extracted (2010-2026); P2 topic.",
+ "coreConcept": "Word ka context me closest meaning chuno; extreme intensity mismatch se bacho.",
+ "hinglishExplanation": "Word ke roots (prefix/suffix) se guess karo. Circuitous = indirect, nadir = lowest point, mitigate = lessen, expedite = hasten.",
+ "formalDefinition": "Word ka context me closest meaning chuno; extreme intensity mismatch se bacho.",
+ "importantProperties": [
+  "Root/prefix se meaning guess.",
+  "Intensity match karo.",
+  "Antonym trap: opposite option bhi dikhta hai.",
+  "Vocabulary list yaad."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Antonym chun lena."
+ ],
+ "standardTechniques": [
+  "Sentence me use karke dekho."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:synonyms"
+}

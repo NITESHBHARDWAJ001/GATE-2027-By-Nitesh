@@ -1,0 +1,20 @@
+{
+ "overview": "Profit% = (SP-CP)/CP x 100.",
+ "whyItMatters": "2 PYQs extracted (2021-2024); P3 topic.",
+ "coreConcept": "Profit% = (SP-CP)/CP x 100.",
+ "hinglishExplanation": "CP par based.",
+ "formalDefinition": "Profit% = (SP-CP)/CP x 100.",
+ "importantProperties": [
+  "Profit on CP.",
+  "Successive."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "SP par profit."
+ ],
+ "standardTechniques": [
+  "1. CP, SP."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:profit-loss"
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "patternId": "P3_DIJKSTRAS_ALGORITHM_01",
+  "name": "Dijkstra's Algorithm (PYQ type)",
+  "recognitionClueHinglish": "Dijkstra's Algorithm se related sawal.",
+  "whatShouldComeToMind": [
+   "Non-negative weights ke liye single-source shortest path; greedy, priority queue."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. dist[s]=0, baaki inf.",
+   "2. Min-dist unvisited vertex choose.",
+   "3. Neighbours relax.",
+   "4. Repeat."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.13.1",
+   "1.13.2",
+   "1.13.3",
+   "1.13.4",
+   "1.13.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Negative weights par use karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

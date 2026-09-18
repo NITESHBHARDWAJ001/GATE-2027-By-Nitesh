@@ -1,0 +1,1357 @@
+[
+ {
+  "topicSlug": "identify-function",
+  "name": "Identify Function",
+  "pyqCountExtracted": 38,
+  "yearsCovered": [
+   1989,
+   1990,
+   1991,
+   1993,
+   1994,
+   1995,
+   1998,
+   1999,
+   2000,
+   2003,
+   2004,
+   2005,
+   2006,
+   2008,
+   2009,
+   2010,
+   2011,
+   2013,
+   2014,
+   2015,
+   2019,
+   2020,
+   2021
+  ],
+  "recentYearsCovered": [
+   2019,
+   2020,
+   2021
+  ],
+  "pyqIds": [
+   "algorithms__1.23.1",
+   "algorithms__1.23.2",
+   "algorithms__1.23.3",
+   "algorithms__1.23.4",
+   "algorithms__1.23.5",
+   "algorithms__1.23.6",
+   "algorithms__1.23.7",
+   "algorithms__1.23.8",
+   "algorithms__1.23.9",
+   "algorithms__1.23.10",
+   "algorithms__1.23.11",
+   "algorithms__1.23.12",
+   "algorithms__1.23.13",
+   "algorithms__1.23.14",
+   "algorithms__1.23.15",
+   "algorithms__1.23.16",
+   "algorithms__1.23.17",
+   "algorithms__1.23.18",
+   "algorithms__1.23.19",
+   "algorithms__1.23.20",
+   "algorithms__1.23.21",
+   "algorithms__1.23.22",
+   "algorithms__1.23.23",
+   "algorithms__1.23.24",
+   "algorithms__1.23.25",
+   "algorithms__1.23.26",
+   "algorithms__1.23.27",
+   "algorithms__1.23.28",
+   "algorithms__1.23.29",
+   "algorithms__1.23.30",
+   "algorithms__1.23.31",
+   "algorithms__1.23.32",
+   "algorithms__1.23.33",
+   "algorithms__1.23.34",
+   "algorithms__1.23.35",
+   "algorithms__1.23.36",
+   "algorithms__1.23.37",
+   "algorithms__1.23.38"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "38 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1989-2021 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "recurrence-relation",
+  "name": "Recurrence Relation",
+  "pyqCountExtracted": 36,
+  "yearsCovered": [
+   1987,
+   1988,
+   1989,
+   1990,
+   1992,
+   1993,
+   1994,
+   1996,
+   1997,
+   1998,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2008,
+   2009,
+   2012,
+   2014,
+   2015,
+   2016,
+   2017,
+   2020,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2020,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.35.1",
+   "algorithms__1.35.2",
+   "algorithms__1.35.3",
+   "algorithms__1.35.4",
+   "algorithms__1.35.5",
+   "algorithms__1.35.6",
+   "algorithms__1.35.7",
+   "algorithms__1.35.8",
+   "algorithms__1.35.9",
+   "algorithms__1.35.10",
+   "algorithms__1.35.11",
+   "algorithms__1.35.12",
+   "algorithms__1.35.13",
+   "algorithms__1.35.14",
+   "algorithms__1.35.15",
+   "algorithms__1.35.16",
+   "algorithms__1.35.17",
+   "algorithms__1.35.18",
+   "algorithms__1.35.19",
+   "algorithms__1.35.20",
+   "algorithms__1.35.21",
+   "algorithms__1.35.22",
+   "algorithms__1.35.23",
+   "algorithms__1.35.24",
+   "algorithms__1.35.25",
+   "algorithms__1.35.26",
+   "algorithms__1.35.27",
+   "algorithms__1.35.28",
+   "algorithms__1.35.29",
+   "algorithms__1.35.30",
+   "algorithms__1.35.31",
+   "algorithms__1.35.32",
+   "algorithms__1.35.33",
+   "algorithms__1.35.34",
+   "algorithms__1.35.35",
+   "algorithms__1.35.36"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "36 PYQs extracted, tested in 7 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "minimum-spanning-tree",
+  "name": "Minimum Spanning Tree",
+  "pyqCountExtracted": 35,
+  "yearsCovered": [
+   1991,
+   1992,
+   1995,
+   1996,
+   1997,
+   2000,
+   2001,
+   2003,
+   2005,
+   2006,
+   2007,
+   2009,
+   2010,
+   2011,
+   2012,
+   2014,
+   2015,
+   2016,
+   2018,
+   2020,
+   2021,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2018,
+   2020,
+   2021,
+   2022,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.31.1",
+   "algorithms__1.31.2",
+   "algorithms__1.31.3",
+   "algorithms__1.31.4",
+   "algorithms__1.31.5",
+   "algorithms__1.31.6",
+   "algorithms__1.31.7",
+   "algorithms__1.31.8",
+   "algorithms__1.31.9",
+   "algorithms__1.31.10",
+   "algorithms__1.31.11",
+   "algorithms__1.31.12",
+   "algorithms__1.31.13",
+   "algorithms__1.31.14",
+   "algorithms__1.31.15",
+   "algorithms__1.31.16",
+   "algorithms__1.31.17",
+   "algorithms__1.31.18",
+   "algorithms__1.31.19",
+   "algorithms__1.31.20",
+   "algorithms__1.31.21",
+   "algorithms__1.31.22",
+   "algorithms__1.31.23",
+   "algorithms__1.31.24",
+   "algorithms__1.31.25",
+   "algorithms__1.31.26",
+   "algorithms__1.31.27",
+   "algorithms__1.31.28",
+   "algorithms__1.31.29",
+   "algorithms__1.31.30",
+   "algorithms__1.31.31",
+   "algorithms__1.31.32",
+   "algorithms__1.31.33",
+   "algorithms__1.31.34",
+   "algorithms__1.31.35"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "35 PYQs extracted, tested in 8 recent GATE cycles (2016+), spans 1991-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "time-complexity",
+  "name": "Time Complexity",
+  "pyqCountExtracted": 31,
+  "yearsCovered": [
+   1988,
+   1989,
+   1993,
+   1999,
+   2000,
+   2003,
+   2004,
+   2006,
+   2007,
+   2008,
+   2010,
+   2014,
+   2015,
+   2017,
+   2019,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2019,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.43.1",
+   "algorithms__1.43.2",
+   "algorithms__1.43.3",
+   "algorithms__1.43.4",
+   "algorithms__1.43.5",
+   "algorithms__1.43.6",
+   "algorithms__1.43.7",
+   "algorithms__1.43.8",
+   "algorithms__1.43.9",
+   "algorithms__1.43.10",
+   "algorithms__1.43.11",
+   "algorithms__1.43.12",
+   "algorithms__1.43.13",
+   "algorithms__1.43.14",
+   "algorithms__1.43.15",
+   "algorithms__1.43.16",
+   "algorithms__1.43.17",
+   "algorithms__1.43.18",
+   "algorithms__1.43.19",
+   "algorithms__1.43.20",
+   "algorithms__1.43.21",
+   "algorithms__1.43.22",
+   "algorithms__1.43.23",
+   "algorithms__1.43.24",
+   "algorithms__1.43.25",
+   "algorithms__1.43.26",
+   "algorithms__1.43.27",
+   "algorithms__1.43.28",
+   "algorithms__1.43.29",
+   "algorithms__1.43.30",
+   "algorithms__1.43.31"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "31 PYQs extracted, tested in 4 recent GATE cycles (2016+), spans 1988-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "graph-search",
+  "name": "Graph Search",
+  "pyqCountExtracted": 23,
+  "yearsCovered": [
+   1989,
+   2000,
+   2001,
+   2003,
+   2005,
+   2006,
+   2007,
+   2008,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2023,
+   2024,
+   2025
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2018,
+   2023,
+   2024,
+   2025
+  ],
+  "pyqIds": [
+   "algorithms__1.18.1",
+   "algorithms__1.18.2",
+   "algorithms__1.18.3",
+   "algorithms__1.18.4",
+   "algorithms__1.18.5",
+   "algorithms__1.18.6",
+   "algorithms__1.18.7",
+   "algorithms__1.18.8",
+   "algorithms__1.18.9",
+   "algorithms__1.18.10",
+   "algorithms__1.18.11",
+   "algorithms__1.18.12",
+   "algorithms__1.18.13",
+   "algorithms__1.18.14",
+   "algorithms__1.18.15",
+   "algorithms__1.18.16",
+   "algorithms__1.18.17",
+   "algorithms__1.18.18",
+   "algorithms__1.18.19",
+   "algorithms__1.18.20",
+   "algorithms__1.18.21",
+   "algorithms__1.18.22",
+   "algorithms__1.18.23"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "23 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1989-2025 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "asymptotic-notations",
+  "name": "Asymptotic Notations",
+  "pyqCountExtracted": 22,
+  "yearsCovered": [
+   1994,
+   1996,
+   1999,
+   2000,
+   2001,
+   2003,
+   2004,
+   2005,
+   2008,
+   2011,
+   2012,
+   2015,
+   2017,
+   2021,
+   2022,
+   2023,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2021,
+   2022,
+   2023,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.3.1",
+   "algorithms__1.3.2",
+   "algorithms__1.3.3",
+   "algorithms__1.3.4",
+   "algorithms__1.3.5",
+   "algorithms__1.3.6",
+   "algorithms__1.3.7",
+   "algorithms__1.3.8",
+   "algorithms__1.3.9",
+   "algorithms__1.3.10",
+   "algorithms__1.3.11",
+   "algorithms__1.3.12",
+   "algorithms__1.3.13",
+   "algorithms__1.3.14",
+   "algorithms__1.3.15",
+   "algorithms__1.3.16",
+   "algorithms__1.3.17",
+   "algorithms__1.3.18",
+   "algorithms__1.3.19",
+   "algorithms__1.3.20",
+   "algorithms__1.3.21",
+   "algorithms__1.3.22"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "22 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1994-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "sorting",
+  "name": "Sorting",
+  "pyqCountExtracted": 22,
+  "yearsCovered": [
+   1988,
+   1990,
+   1991,
+   1992,
+   1996,
+   1998,
+   1999,
+   2000,
+   2005,
+   2006,
+   2007,
+   2008,
+   2016,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.40.1",
+   "algorithms__1.40.2",
+   "algorithms__1.40.3",
+   "algorithms__1.40.4",
+   "algorithms__1.40.5",
+   "algorithms__1.40.6",
+   "algorithms__1.40.7",
+   "algorithms__1.40.8",
+   "algorithms__1.40.9",
+   "algorithms__1.40.10",
+   "algorithms__1.40.11",
+   "algorithms__1.40.12",
+   "algorithms__1.40.13",
+   "algorithms__1.40.14",
+   "algorithms__1.40.15",
+   "algorithms__1.40.16",
+   "algorithms__1.40.17",
+   "algorithms__1.40.18",
+   "algorithms__1.40.19",
+   "algorithms__1.40.20",
+   "algorithms__1.40.21",
+   "algorithms__1.40.22"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "22 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1988-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "quick-sort",
+  "name": "Quick Sort",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [
+   1987,
+   1989,
+   1992,
+   1996,
+   2001,
+   2006,
+   2008,
+   2009,
+   2014,
+   2015,
+   2019,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2019,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.34.1",
+   "algorithms__1.34.2",
+   "algorithms__1.34.3",
+   "algorithms__1.34.4",
+   "algorithms__1.34.5",
+   "algorithms__1.34.6",
+   "algorithms__1.34.7",
+   "algorithms__1.34.8",
+   "algorithms__1.34.9",
+   "algorithms__1.34.10",
+   "algorithms__1.34.11",
+   "algorithms__1.34.12",
+   "algorithms__1.34.13",
+   "algorithms__1.34.14",
+   "algorithms__1.34.15"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "15 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1987-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "graph-algorithms",
+  "name": "Graph Algorithms",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   1994,
+   2003,
+   2005,
+   2016,
+   2017,
+   2021,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2021,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.17.1",
+   "algorithms__1.17.2",
+   "algorithms__1.17.3",
+   "algorithms__1.17.4",
+   "algorithms__1.17.5",
+   "algorithms__1.17.6",
+   "algorithms__1.17.7",
+   "algorithms__1.17.8",
+   "algorithms__1.17.9",
+   "algorithms__1.17.10",
+   "algorithms__1.17.11"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "11 PYQs extracted, 4 recent (2016+) appearances, spans 1994-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "dynamic-programming",
+  "name": "Dynamic Programming",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   2008,
+   2009,
+   2010,
+   2011,
+   2014,
+   2016,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.16.1",
+   "algorithms__1.16.2",
+   "algorithms__1.16.3",
+   "algorithms__1.16.4",
+   "algorithms__1.16.5",
+   "algorithms__1.16.6",
+   "algorithms__1.16.7",
+   "algorithms__1.16.8",
+   "algorithms__1.16.9",
+   "algorithms__1.16.10"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "10 PYQs extracted, 2 recent (2016+) appearances, spans 2008-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "algorithm-design-techniques",
+  "name": "Algorithm Design Techniques",
+  "pyqCountExtracted": 9,
+  "yearsCovered": [
+   1990,
+   1994,
+   1995,
+   1997,
+   1998,
+   2015,
+   2017
+  ],
+  "recentYearsCovered": [
+   2017
+  ],
+  "pyqIds": [
+   "algorithms__1.2.1",
+   "algorithms__1.2.2",
+   "algorithms__1.2.3",
+   "algorithms__1.2.4",
+   "algorithms__1.2.5",
+   "algorithms__1.2.6",
+   "algorithms__1.2.7",
+   "algorithms__1.2.8",
+   "algorithms__1.2.9"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "9 PYQs extracted, spans 1990-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "algorithm-design",
+  "name": "Algorithm Design",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1992,
+   1994,
+   2006,
+   2014,
+   2019,
+   2021,
+   2024
+  ],
+  "recentYearsCovered": [
+   2019,
+   2021,
+   2024
+  ],
+  "pyqIds": [
+   "algorithms__1.1.1",
+   "algorithms__1.1.2",
+   "algorithms__1.1.3",
+   "algorithms__1.1.4",
+   "algorithms__1.1.5",
+   "algorithms__1.1.6",
+   "algorithms__1.1.7",
+   "algorithms__1.1.8"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "8 PYQs extracted, 3 recent (2016+) appearances, spans 1992-2024 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "searching",
+  "name": "Searching",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   1996,
+   2002,
+   2008,
+   2017,
+   2025
+  ],
+  "recentYearsCovered": [
+   2017,
+   2025
+  ],
+  "pyqIds": [
+   "algorithms__1.37.1",
+   "algorithms__1.37.2",
+   "algorithms__1.37.3",
+   "algorithms__1.37.4",
+   "algorithms__1.37.5",
+   "algorithms__1.37.6",
+   "algorithms__1.37.7",
+   "algorithms__1.37.8"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "8 PYQs extracted, 2 recent (2016+) appearances, spans 1996-2025 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "shortest-path",
+  "name": "Shortest Path",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2002,
+   2003,
+   2007,
+   2020,
+   2025
+  ],
+  "recentYearsCovered": [
+   2020,
+   2025
+  ],
+  "pyqIds": [
+   "algorithms__1.39.1",
+   "algorithms__1.39.2",
+   "algorithms__1.39.3",
+   "algorithms__1.39.4",
+   "algorithms__1.39.5",
+   "algorithms__1.39.6",
+   "algorithms__1.39.7",
+   "algorithms__1.39.8"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "8 PYQs extracted, 2 recent (2016+) appearances, spans 2002-2025 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "hashing",
+  "name": "Hashing",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1989,
+   1990,
+   2005,
+   2021,
+   2023,
+   2026
+  ],
+  "recentYearsCovered": [
+   2021,
+   2023,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.20.1",
+   "algorithms__1.20.2",
+   "algorithms__1.20.3",
+   "algorithms__1.20.4",
+   "algorithms__1.20.5",
+   "algorithms__1.20.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 3 recent (2016+) appearances, spans 1989-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "huffman-code",
+  "name": "Huffman Code",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1989,
+   2006,
+   2007,
+   2017,
+   2021
+  ],
+  "recentYearsCovered": [
+   2017,
+   2021
+  ],
+  "pyqIds": [
+   "algorithms__1.22.1",
+   "algorithms__1.22.2",
+   "algorithms__1.22.3",
+   "algorithms__1.22.4",
+   "algorithms__1.22.5",
+   "algorithms__1.22.6"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, 2 recent (2016+) appearances, spans 1989-2021 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "dijkstras-algorithm",
+  "name": "Dijkstras Algorithm",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   1996,
+   2004,
+   2005,
+   2006,
+   2008
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "algorithms__1.13.1",
+   "algorithms__1.13.2",
+   "algorithms__1.13.3",
+   "algorithms__1.13.4",
+   "algorithms__1.13.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 1996-2008 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "greedy-algorithms",
+  "name": "Greedy Algorithms",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   1999,
+   2003,
+   2005,
+   2018
+  ],
+  "recentYearsCovered": [
+   2018
+  ],
+  "pyqIds": [
+   "algorithms__1.19.1",
+   "algorithms__1.19.2",
+   "algorithms__1.19.3",
+   "algorithms__1.19.4",
+   "algorithms__1.19.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 1999-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "recursion",
+  "name": "Recursion",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   1995,
+   2007,
+   2018,
+   2021,
+   2026
+  ],
+  "recentYearsCovered": [
+   2018,
+   2021,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.36.1",
+   "algorithms__1.36.2",
+   "algorithms__1.36.3",
+   "algorithms__1.36.4",
+   "algorithms__1.36.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 1995-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "binary-search",
+  "name": "Binary Search",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2021,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.6.1",
+   "algorithms__1.6.2",
+   "algorithms__1.6.3",
+   "algorithms__1.6.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2021-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "merge-sort",
+  "name": "Merge Sort",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1999,
+   2012,
+   2015,
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.29.1",
+   "algorithms__1.29.2",
+   "algorithms__1.29.3",
+   "algorithms__1.29.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 1999-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "topological-sort",
+  "name": "Topological Sort",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2007,
+   2014,
+   2016,
+   2024
+  ],
+  "recentYearsCovered": [
+   2016,
+   2024
+  ],
+  "pyqIds": [
+   "algorithms__1.44.1",
+   "algorithms__1.44.2",
+   "algorithms__1.44.3",
+   "algorithms__1.44.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2007-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "binary-search-tree",
+  "name": "Binary Search Tree",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.7.1",
+   "algorithms__1.7.2",
+   "algorithms__1.7.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "breadth-first-search",
+  "name": "Breadth First Search",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.9.1",
+   "algorithms__1.9.2",
+   "algorithms__1.9.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2024-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "matrix-chain-ordering",
+  "name": "Matrix Chain Ordering",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2011,
+   2016,
+   2018
+  ],
+  "recentYearsCovered": [
+   2016,
+   2018
+  ],
+  "pyqIds": [
+   "algorithms__1.27.1",
+   "algorithms__1.27.2",
+   "algorithms__1.27.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2011-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "strongly-connected-components",
+  "name": "Strongly Connected Components",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2006,
+   2008,
+   2018
+  ],
+  "recentYearsCovered": [
+   2018
+  ],
+  "pyqIds": [
+   "algorithms__1.42.1",
+   "algorithms__1.42.2",
+   "algorithms__1.42.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2006-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "bellman-ford",
+  "name": "Bellman Ford",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2009,
+   2013
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "algorithms__1.4.1",
+   "algorithms__1.4.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 2009-2013 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "depth-first-search",
+  "name": "Depth First Search",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.12.1",
+   "algorithms__1.12.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "directed-acyclic-graph",
+  "name": "Directed Acyclic Graph",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2021,
+   2026
+  ],
+  "recentYearsCovered": [
+   2021,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.14.1",
+   "algorithms__1.14.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2021-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "double-hashing",
+  "name": "Double Hashing",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2020,
+   2025
+  ],
+  "recentYearsCovered": [
+   2020,
+   2025
+  ],
+  "pyqIds": [
+   "algorithms__1.15.1",
+   "algorithms__1.15.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2020-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "heap-sort",
+  "name": "Heap Sort",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2013,
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "algorithms__1.21.1",
+   "algorithms__1.21.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2013-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "insertion-sort",
+  "name": "Insertion Sort",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2003
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "algorithms__1.24.1",
+   "algorithms__1.24.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 2003-2003 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "inversion",
+  "name": "Inversion",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2003,
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "algorithms__1.25.1",
+   "algorithms__1.25.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2003-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "linear-probing",
+  "name": "Linear Probing",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.26.1",
+   "algorithms__1.26.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2025-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "merging",
+  "name": "Merging",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   1995,
+   2014
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "algorithms__1.30.1",
+   "algorithms__1.30.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 1995-2014 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "prims-algorithm",
+  "name": "Prims Algorithm",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2004,
+   2008
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "algorithms__1.33.1",
+   "algorithms__1.33.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 2004-2008 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "selection-sort",
+  "name": "Selection Sort",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2009,
+   2013
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "algorithms__1.38.1",
+   "algorithms__1.38.2"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 2 PYQ(s) extracted in source, spans 2009-2013 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "binary-heap",
+  "name": "Binary Heap",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.5.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "binary-tree",
+  "name": "Binary Tree",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.8.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "bubble-sort",
+  "name": "Bubble Sort",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   1995
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "algorithms__1.10.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 1995-1995 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "computer-science",
+  "name": "Computer Science",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "algorithms__1.11.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans no years extracted — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "maximum-minimum",
+  "name": "Maximum Minimum",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2014
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "algorithms__1.28.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2014-2014 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "number-of-swap",
+  "name": "Number of Swap",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "algorithms__1.32.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "space-complexity",
+  "name": "Space Complexity",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2005
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "algorithms__1.41.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2005-2005 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "tree-traversal",
+  "name": "Tree Traversal",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "algorithms__1.45.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "uniform-hashing",
+  "name": "Uniform Hashing",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2022
+  ],
+  "recentYearsCovered": [
+   2022
+  ],
+  "pyqIds": [
+   "algorithms__1.46.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2022-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ }
+]

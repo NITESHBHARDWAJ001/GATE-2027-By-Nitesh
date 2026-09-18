@@ -1,0 +1,22 @@
+{
+ "topicId": "computer-networks:csma-cd",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "CSMA/CD",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 2005-2018.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  2005,
+  2008,
+  2015,
+  2016,
+  2018
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

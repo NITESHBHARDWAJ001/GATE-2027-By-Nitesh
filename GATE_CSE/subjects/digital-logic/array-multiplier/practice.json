@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:array-multiplier",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ARRAY--01",
+   "patternId": "P4_ARRAY_MULTIPLIER_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "4x4 array multiplier AND gates?",
+   "solutionApproach": "n^2.",
+   "answer": "16"
+  }
+ ]
+}

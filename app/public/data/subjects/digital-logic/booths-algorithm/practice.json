@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:booths-algorithm",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BOOTHS-01",
+   "patternId": "P3_BOOTHS_ALGORITHM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Multiplier 0111: Booth recoding ops?",
+   "solutionApproach": "+1 at 1000 -1 at 0001.",
+   "answer": "2 ops (one sub, one add)"
+  }
+ ]
+}

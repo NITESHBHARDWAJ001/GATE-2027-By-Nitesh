@@ -1,0 +1,32 @@
+[
+ {
+  "patternId": "P3_FUNCTIONAL_COMPLETENESS_01",
+  "name": "Functional Completeness (PYQ type)",
+  "recognitionClueHinglish": "Functional Completeness se related sawal.",
+  "whatShouldComeToMind": [
+   "NAND aur NOR akele complete; {AND,NOT},{OR,NOT} complete; XOR/half adder nahi."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. NOT banao.",
+   "2. AND/OR banao."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.19.1",
+   "4.19.2",
+   "4.19.3",
+   "4.19.4",
+   "4.19.5",
+   "4.19.6",
+   "4.19.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "XOR ko complete maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

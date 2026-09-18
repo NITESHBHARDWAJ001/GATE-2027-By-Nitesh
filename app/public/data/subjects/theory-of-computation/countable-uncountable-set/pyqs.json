@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "theory-of-computation__6.4.1",
+  "localId": "6.4.1",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "countable-uncountable-set",
+  "topic": "Countable Uncountable Set",
+  "year": 1997,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "3.4",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Given  , which one of the following sets is not countable? A. Set of all strings over B. Set of all languages over C. Set of all regular languages over D. Set of all languages over accepted by Turing machines",
+  "tagsRaw": "gate1997 theory-of-computation     normal  countable-uncountable-set",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 330
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COUNTABLE_UNCOUNTABLE_SE_01"
+ },
+ {
+  "pyqId": "theory-of-computation__6.4.2",
+  "localId": "6.4.2",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "countable-uncountable-set",
+  "topic": "Countable Uncountable Set",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 3,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "16",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Let be a finite non-empty alphabet and let                                    be the power set of . Which one of the following is TRUE? A. Both and are countable B. is countable and is uncountable C. is uncountable and is countable D. Both and are uncountable",
+  "tagsRaw": "gatecse-2014-set3 theory-of-computation    normal  countable-uncountable-set",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 330
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COUNTABLE_UNCOUNTABLE_SE_01"
+ },
+ {
+  "pyqId": "theory-of-computation__6.4.3",
+  "localId": "6.4.3",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "topicSlug": "countable-uncountable-set",
+  "topic": "Countable Uncountable Set",
+  "year": 2019,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "34",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following sets: S1: Set of all recursively enumerable languages over the alphabet S2: Set of all syntactically valid C programs S3: Set of all languages over the alphabet S4: Set of all non-regular languages over the alphabet Which of the above sets are uncountable? A. S1 and S2                           B. S3 and S4                        C. S2 and S3       D. S1 and S4",
+  "tagsRaw": "gatecse-2019 theory-of-computation  countable-uncountable-set  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 330
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COUNTABLE_UNCOUNTABLE_SE_01"
+ }
+]

@@ -1,0 +1,28 @@
+{
+ "overview": "File allocation (contiguous, linked, indexed), Unix inode, directory implementation, file size limits.",
+ "whyItMatters": "7 PYQs extracted (2002-2022); P2 topic.",
+ "coreConcept": "Allocation method decide karta hai fragmentation, random access speed aur max file size.",
+ "hinglishExplanation": "Contiguous: fast access par external fragmentation. Linked: no external fragmentation, sequential access, pointer overhead. Indexed / inode: random access, max size pointers ke count par depend karta hai.",
+ "formalDefinition": "Allocation method decide karta hai fragmentation, random access speed aur max file size.",
+ "importantProperties": [
+  "Contiguous: external fragmentation, fast random access.",
+  "Linked: no external fragmentation, slow direct access.",
+  "Indexed: no external fragmentation, random access; max size depends on block size aur address size.",
+  "Unix inode: direct + single + double + triple indirect.",
+  "Max file size = (direct + P + P^2 + P^3) x block size, P = block size / address size.",
+  "Linear list directory: search O(n)."
+ ],
+ "formulas": {
+  "pointersPerBlock": "P = block size / address size",
+  "maxFile": "(D + P + P^2 + P^3) x B"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Address size ka unit galat.",
+  "Indirect levels bhoolna."
+ ],
+ "standardTechniques": [
+  "P nikalo, phir levels add karo."
+ ],
+ "topicId": "operating-system:file-system"
+}

@@ -1,0 +1,21 @@
+{
+ "overview": "DCFL examples: a^n b^n; not DCFL: palindromes (ww^R).",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "DCFL examples: a^n b^n; not DCFL: palindromes (ww^R).",
+ "hinglishExplanation": "DPDA me stack top se decision deterministic.",
+ "formalDefinition": "DCFL examples: a^n b^n; not DCFL: palindromes (ww^R).",
+ "importantProperties": [
+  "a^n b^n DCFL.",
+  "ww^R not DCFL.",
+  "DCFL closed under complement."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Palindrome ko DCFL."
+ ],
+ "standardTechniques": [
+  "1. Determinism."
+ ],
+ "topicId": "theory-of-computation:dpda"
+}

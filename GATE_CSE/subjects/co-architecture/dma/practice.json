@@ -1,0 +1,33 @@
+{
+ "topicId": "co-architecture:dma",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DMA-01",
+   "patternId": "DMA_CALC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "DMA needs 4 bus cycles per 32-bit word; total 100 cycles. CPU fraction stolen?",
+   "solutionApproach": "4/100.",
+   "answer": "4%"
+  },
+  {
+   "practiceId": "AI-DMA-X02",
+   "patternId": "DMA_CALC_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "DMA uses 1 cycle per 4-byte word; CPU cycle rate 100 MHz, device 4 MB/s. Cycles stolen per second?",
+   "solutionApproach": "1M words/s.",
+   "answer": "1,000,000 cycles/s (1%)"
+  },
+  {
+   "practiceId": "AI-DMA-X03",
+   "patternId": "DMA_CONCEPT_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Which gives highest throughput for bulk disk transfer?",
+   "solutionApproach": "DMA burst.",
+   "answer": "DMA"
+  }
+ ]
+}

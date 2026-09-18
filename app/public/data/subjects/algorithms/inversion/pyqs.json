@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "algorithms__1.25.1",
+  "localId": "1.25.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "inversion",
+  "topic": "Inversion",
+  "year": 2003,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "61",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "In a permutation                       , of n distinct integers, an inversion is a pair      such that              and  . If all permutations are equally likely, what is the expected number of inversions in a randomly chosen permutation of                ? A.                                     B.                                          C.            D. and it takes exactly two swaps",
+  "tagsRaw": "gatecse-2003 algorithms  sorting  inversion  normal",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 69
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_INVERSION_01"
+ },
+ {
+  "pyqId": "algorithms__1.25.2",
+  "localId": "1.25.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "inversion",
+  "topic": "Inversion",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "19",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "A;C",
+  "answerVerified": true,
+  "questionTextRaw": "Suppose that insertion sort is applied to the array to sort the array. Select all possible values of . A.                                     B.                                          C.        D.",
+  "tagsRaw": "gateda-2025 algorithms insertion-sort sorting multiple-selects easy one-mark inversion",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 69
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_INVERSION_01"
+ }
+]

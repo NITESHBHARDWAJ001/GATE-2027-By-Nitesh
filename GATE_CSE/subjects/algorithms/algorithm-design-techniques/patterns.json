@@ -1,0 +1,35 @@
+[
+ {
+  "patternId": "P3_ALGORITHM_DESIGN_TECHNIQ_01",
+  "name": "Algorithm Design Techniques (PYQ type)",
+  "recognitionClueHinglish": "Algorithm Design Techniques se related sawal.",
+  "whatShouldComeToMind": [
+   "Har algorithm kis paradigm ka hai: D&C, greedy, DP, backtracking."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Subproblems overlap? DP.",
+   "2. Local best choice safe? Greedy.",
+   "3. Independent halves? D&C."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.2.1",
+   "1.2.2",
+   "1.2.3",
+   "1.2.4",
+   "1.2.5",
+   "1.2.6",
+   "1.2.7",
+   "1.2.8",
+   "1.2.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Paradigm confuse (Dijkstra DP nahi, greedy hai)."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

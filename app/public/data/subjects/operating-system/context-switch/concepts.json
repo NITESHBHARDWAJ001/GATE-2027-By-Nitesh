@@ -1,0 +1,22 @@
+{
+ "overview": "Kya save hota hai, kab hota hai, overhead cost.",
+ "whyItMatters": "4 PYQs extracted (1999-2024); P3 topic.",
+ "coreConcept": "Kya save hota hai, kab hota hai, overhead cost.",
+ "hinglishExplanation": "Process switch me PCB save/restore, TLB flush; thread switch same process me sasta.",
+ "formalDefinition": "Kya save hota hai, kab hota hai, overhead cost.",
+ "importantProperties": [
+  "Save: PC, registers, stack pointer, PSW.",
+  "Process switch > thread switch cost.",
+  "Trap/interrupt/system call context switch nahi bhi ho sakti.",
+  "TLB flush process switch par."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Har interrupt ko context switch maan lena."
+ ],
+ "standardTechniques": [
+  "1. Kya process badla?"
+ ],
+ "topicId": "operating-system:context-switch"
+}

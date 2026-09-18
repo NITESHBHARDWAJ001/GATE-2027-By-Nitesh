@@ -1,0 +1,42 @@
+{
+ "topicId": "ga-verbal-most-appropriate-word",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-VERB-01",
+   "patternId": "VERB_CONTEXT_FILL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Despite his effort, the plan ______. (succeeded / failed)",
+   "solutionApproach": "'Despite' signals contrast with effort.",
+   "answer": "failed"
+  },
+  {
+   "practiceId": "AI-VERB-02",
+   "patternId": "VERB_ANALOGY_INTENSITY_03",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Warm : Hot :: Cool : ?",
+   "solutionApproach": "Increasing intensity: cold.",
+   "answer": "Cold"
+  },
+  {
+   "practiceId": "AI-VERB-03",
+   "patternId": "VERB_GRAMMAR_USAGE_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Choose: 'Nobody except / accept him.'",
+   "solutionApproach": "Except = excluding.",
+   "answer": "except"
+  },
+  {
+   "practiceId": "AI-VERB-04",
+   "patternId": "VERB_ANALOGY_INTENSITY_03",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Whisper : Shout :: Sip : ?",
+   "solutionApproach": "Low to high intensity.",
+   "answer": "Gulp"
+  }
+ ]
+}

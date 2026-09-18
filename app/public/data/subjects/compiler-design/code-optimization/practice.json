@@ -1,0 +1,24 @@
+{
+ "topicId": "compiler-design:code-optimization",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CODE-O-01",
+   "patternId": "OPT_TRANSFORM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "x = a*b inside loop, a,b unchanged. Optimization?",
+   "solutionApproach": "Move out of loop.",
+   "answer": "Loop-invariant code motion"
+  },
+  {
+   "practiceId": "AI-CODE-OPT-X02",
+   "patternId": "OPT_TRANSFORM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "a=x*2 inside loop with x const: transformation?",
+   "solutionApproach": "Invariant motion.",
+   "answer": "Loop-invariant code motion"
+  }
+ ]
+}

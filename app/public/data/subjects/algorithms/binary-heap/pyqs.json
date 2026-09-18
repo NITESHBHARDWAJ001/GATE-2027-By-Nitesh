@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "algorithms__1.5.1",
+  "localId": "1.5.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "binary-heap",
+  "topic": "Binary Heap",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "13",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B;C",
+  "answerVerified": true,
+  "questionTextRaw": "Let be an odd number greater than                                . Consider a binary minheap with elements stored in an array whose index starts from . Which of the following indices of do/does NOT correspond to any leaf node of the minheap? A.                                         B.                          C.                      D.",
+  "tagsRaw": "gatecse-2026-set1 algorithms  binary-heap  multiple-selects  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 31
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BINARY_HEAP_01"
+ }
+]

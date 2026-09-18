@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Distance, midpoint, area.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Cartesian Coordinates se related sawal.",
+   "thinkThis": "P3_CARTESIAN_COORDINATES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Sign."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:cartesian-coordinates",
+ "revisionLevel": "short-form"
+}

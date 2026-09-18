@@ -1,0 +1,33 @@
+{
+ "coreIdea": "Efficiency = window x transmission time / (transmission time + 2 x propagation delay), max 1.",
+ "mustRememberFormulas": [
+  "util: min(1, W/(1+2a))",
+  "a: Tp / Tt",
+  "seqGBN: W + 1",
+  "seqSR: 2W"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bandwidth, distance, frame size diye; window ya utilization.",
+   "thinkThis": "SW_UTIL_01"
+  },
+  {
+   "seeThis": "Window size se min sequence numbers, max window for k bits.",
+   "thinkThis": "SW_SEQBITS_02"
+  },
+  {
+   "seeThis": "Errors ke saath total transmissions; TCP window/packets.",
+   "thinkThis": "SW_GBN_SIM_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "GBN/SR confuse.",
+  "Retransmit block.",
+  "Units."
+ ],
+ "highYieldPyqLessons": [
+  "1+2a formula solves most questions."
+ ],
+ "topicId": "computer-networks:sliding-window",
+ "revisionLevel": "short-form"
+}

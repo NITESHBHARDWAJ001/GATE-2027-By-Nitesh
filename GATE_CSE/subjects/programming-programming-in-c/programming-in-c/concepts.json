@@ -1,0 +1,32 @@
+{
+  "topicId": "prog-c-programming-in-c",
+  "overview": "Ye topic GATE ke classic 'C code diya hai, output batao' questions ka ghar hai. Skill ek hi hai: code ko line-by-line, variable-by-variable haath se dry-run karna, bina galti kiye.",
+  "whyItMatters": "29 PYQs, aur GATE ke bahut saare aur topics (Recursion, Pointers, Identify Function, Algorithms) isi dry-run skill par depend karte hain. Accuracy 100% honi chahiye — ek chhoti calculation mistake pura answer badal deti hai.",
+  "coreConcept": "Har C program ek sequence of steps hai. Dry-run karne ke liye ek 'variable table' banao (jaise spreadsheet) — har statement ke baad table update karo. STATIC variables special hain: unki value function calls ke beech PERSIST karti hai (normal local variables ki tarah reset nahi hoti).",
+  "hinglishExplanation": "Socho tum khud CPU ho — har line ek instruction hai jo tumhe follow karni hai, bina 'obviously ye hoga' assume kiye. Static variable ek 'permanent marker' hai jo function ke bahar bhi apni value yaad rakhta hai — normal local variable ek 'whiteboard' hai jo har function call pe wipe ho jaata hai.",
+  "formalDefinition": "Static local variable: initialized ONCE (at first call), retains its value across subsequent calls to the same function, scope still limited to the function.",
+  "importantProperties": [
+    "static int x = 5; inside a function initializes ONLY on the first call — subsequent calls skip re-initialization and use the value left from the previous call.",
+    "Pre-increment (++i) changes the value BEFORE it's used in the expression; post-increment (i++) uses the OLD value first, then increments.",
+    "Integer division truncates toward zero in C (5/2 = 2, not 2.5).",
+    "Unsigned integer arithmetic wraps around (modulo 2^bits) instead of going negative — a frequent trap when subtracting unsigned values.",
+    "Short-circuit evaluation: in (A && B), if A is false, B is NEVER evaluated (relevant for side-effecting expressions like i++ inside conditions).",
+    "Function declaration (prototype) mismatch or absence can cause implicit int assumption in old C, leading to silent type mismatches — modern compilers warn/error on this."
+  ],
+  "formulas": {},
+  "keyPropertiesAndIdentities": [
+    "Order of evaluation of function ARGUMENTS is unspecified in C — if two arguments both have side effects (like i++ in two places), the output can be compiler-dependent; GATE avoids truly ambiguous cases but tests awareness of this.",
+    "The condition inside a for/while loop is checked BEFORE each iteration (including the very first) — a common off-by-one trap."
+  ],
+  "commonPitfalls": [
+    "Forgetting static variables persist across calls — re-initializing them mentally on every call is the #1 error in this pattern.",
+    "Pre vs post increment confusion inside complex expressions (e.g., a[i++] vs a[++i]).",
+    "Unsigned subtraction going 'negative' — it actually wraps to a huge positive number instead.",
+    "Losing track of which variable is LOCAL to which function (shadowing — a local variable with the same name as a global one)."
+  ],
+  "standardTechniques": [
+    "Draw a table: one column per variable, one row per statement/iteration — update it mechanically, don't try to do it in your head for anything beyond 2-3 steps.",
+    "For loop-heavy code: write out the FIRST 2-3 iterations explicitly by hand before looking for a pattern/shortcut — don't guess the pattern prematurely.",
+    "For static-variable questions across multiple calls: track a SEPARATE small table just for the static variable's value after each call returns."
+  ]
+}

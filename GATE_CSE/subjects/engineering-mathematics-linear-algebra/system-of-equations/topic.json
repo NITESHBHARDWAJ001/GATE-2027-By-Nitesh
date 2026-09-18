@@ -1,0 +1,36 @@
+{
+ "topicId": "em-la-system-of-equations",
+ "subjectId": "engineering-mathematics-linear-algebra",
+ "subject": "Engineering Mathematics - Linear Algebra",
+ "name": "System of Linear Equations",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "17 PYQs extracted, 1996-2026; regular.",
+ "pyqCountExtracted": 17,
+ "yearsCovered": [
+  1996,
+  1998,
+  2003,
+  2004,
+  2005,
+  2008,
+  2014,
+  2015,
+  2016,
+  2017,
+  2024,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [
+  {
+   "topic": "Matrix",
+   "subjectId": "engineering-mathematics-linear-algebra",
+   "why": "Rank and determinant."
+  }
+ ],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

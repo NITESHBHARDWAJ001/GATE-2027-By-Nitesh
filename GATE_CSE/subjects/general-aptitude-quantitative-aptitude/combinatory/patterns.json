@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_COMBINATORY_01",
+  "name": "Counting (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Counting (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "Basic counting: arrangements, selections."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Steps."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.13.1",
+   "9.13.2",
+   "9.13.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Overcount."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

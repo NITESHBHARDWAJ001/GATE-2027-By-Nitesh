@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P4_POLYNOMIALS_01",
+  "name": "Polynomial Roots (PYQ type)",
+  "recognitionClueHinglish": "Polynomial Roots se related sawal.",
+  "whatShouldComeToMind": [
+   "Degree n polynomial ke n complex roots; real roots ka existence."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Degree."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.7.1",
+   "5.7.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Multiplicity."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

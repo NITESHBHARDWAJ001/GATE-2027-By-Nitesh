@@ -1,0 +1,23 @@
+{
+ "overview": "Rare events count; P(k) = e^-lambda lambda^k/k!; mean=variance=lambda.",
+ "whyItMatters": "5 PYQs extracted (1989-2026); P3 topic.",
+ "coreConcept": "Rare events count; P(k) = e^-lambda lambda^k/k!; mean=variance=lambda.",
+ "hinglishExplanation": "Time interval ke liye lambda rate x time.",
+ "formalDefinition": "Rare events count; P(k) = e^-lambda lambda^k/k!; mean=variance=lambda.",
+ "importantProperties": [
+  "P(X=k) = e^-l l^k / k!.",
+  "Mean=variance=lambda.",
+  "Sum of independent Poisson Poisson hai.",
+  "E[X(X-1)] = lambda^2."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Rate scaling galat."
+ ],
+ "standardTechniques": [
+  "1. lambda.",
+  "2. Formula."
+ ],
+ "topicId": "engineering-mathematics-probability:poisson-distribution"
+}

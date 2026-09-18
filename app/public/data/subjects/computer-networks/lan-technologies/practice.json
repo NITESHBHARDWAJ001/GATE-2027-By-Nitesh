@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:lan-technologies",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LAN-TE-01",
+   "patternId": "P3_LAN_TECHNOLOGIES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "n stations, p each: P(exactly one transmits)?",
+   "solutionApproach": "n p (1-p)^(n-1).",
+   "answer": "n p (1-p)^(n-1)"
+  }
+ ]
+}

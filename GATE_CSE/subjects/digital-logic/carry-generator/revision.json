@@ -1,0 +1,18 @@
+{
+ "coreIdea": "C_{i+1} = G_i + P_i C_i; G=AB, P=A xor B.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Look-Ahead Carry Generator se related sawal.",
+   "thinkThis": "P4_CARRY_GENERATOR_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Expansion order."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:carry-generator",
+ "revisionLevel": "short-form"
+}

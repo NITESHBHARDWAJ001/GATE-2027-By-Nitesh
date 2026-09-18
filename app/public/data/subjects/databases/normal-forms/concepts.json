@@ -1,0 +1,23 @@
+{
+ "overview": "1NF..BCNF conditions; ER se relational schema ki normal form.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "1NF..BCNF conditions; ER se relational schema ki normal form.",
+ "hinglishExplanation": "BCNF: har nontrivial FD ka LHS superkey.",
+ "formalDefinition": "1NF..BCNF conditions; ER se relational schema ki normal form.",
+ "importantProperties": [
+  "1NF atomic; 2NF no partial dependency; 3NF no transitive; BCNF LHS superkey.",
+  "BCNF => 3NF => 2NF.",
+  "Binary relation always BCNF."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "3NF aur BCNF confuse."
+ ],
+ "standardTechniques": [
+  "1. FDs.",
+  "2. Keys.",
+  "3. Check."
+ ],
+ "topicId": "databases:normal-forms"
+}

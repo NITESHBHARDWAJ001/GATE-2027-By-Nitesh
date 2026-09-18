@@ -1,0 +1,21 @@
+{
+ "overview": "Heap me malloc'd data; stack me locals; static/global data segment.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Heap me malloc'd data; stack me locals; static/global data segment.",
+ "hinglishExplanation": "malloc memory heap se aata hai.",
+ "formalDefinition": "Heap me malloc'd data; stack me locals; static/global data segment.",
+ "importantProperties": [
+  "Heap: dynamic allocation.",
+  "Stack: locals, call frames.",
+  "Data: static/global."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Static ko heap."
+ ],
+ "standardTechniques": [
+  "1. Storage class."
+ ],
+ "topicId": "programming-programming-in-c:runtime-environment"
+}

@@ -1,0 +1,21 @@
+{
+ "overview": "n-to-2^n; larger decoder from smaller with enable.",
+ "whyItMatters": "3 PYQs extracted (2007-2020); P3 topic.",
+ "coreConcept": "n-to-2^n; larger decoder from smaller with enable.",
+ "hinglishExplanation": "Decoder inputs n, outputs 2^n.",
+ "formalDefinition": "n-to-2^n; larger decoder from smaller with enable.",
+ "importantProperties": [
+  "Byte addressable 2^k bytes: input lines k.",
+  "Bade decoder ko chhote enable-decoders se banao."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Input aur output lines ulta."
+ ],
+ "standardTechniques": [
+  "1. n.",
+  "2. 2^n."
+ ],
+ "topicId": "digital-logic:decoder"
+}

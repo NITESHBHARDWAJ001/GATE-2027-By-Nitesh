@@ -1,0 +1,102 @@
+[
+ {
+  "patternId": "SOE_RANK_TEST_01",
+  "name": "Number of Solutions (Unique / Infinite / None)",
+  "recognitionClueHinglish": "Diye system ke solutions ki count ya nature poochha hai.",
+  "whatShouldComeToMind": [
+   "Rank test."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Augmented matrix.",
+   "2. Row reduce.",
+   "3. rank(A) vs rank([A|b]) vs n."
+  ],
+  "formulasUsed": [
+   "rankTest"
+  ],
+  "pyqExamples": [
+   "6.13.1",
+   "6.13.2",
+   "6.13.4",
+   "6.13.5",
+   "6.13.6",
+   "6.13.8",
+   "6.13.10",
+   "6.13.11",
+   "6.13.12",
+   "6.13.15",
+   "6.13.16"
+  ],
+  "variationsObserved": [
+   "Existence statements for m x n systems."
+  ],
+  "commonTraps": [
+   "Sirf det par depend karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SOE_PARAM_02",
+  "name": "Parameter Values for Unique / Infinite / No Solution",
+  "recognitionClueHinglish": "Ek constant (k, a) ke kitne values par system ka koi behaviour ho; product ya count poochhi hai.",
+  "whatShouldComeToMind": [
+   "det = 0 se special values."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. det(A) nikaalo.",
+   "2. det = 0 wale parameter values.",
+   "3. Har value par consistency."
+  ],
+  "formulasUsed": [
+   "rankTest"
+  ],
+  "pyqExamples": [
+   "6.13.7",
+   "6.13.9",
+   "6.13.13",
+   "6.13.14"
+  ],
+  "variationsObserved": [
+   "Non-trivial solution ke liye det 0."
+  ],
+  "commonTraps": [
+   "Special values ke consistency case bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SOE_SOLVE_03",
+  "name": "Solve / Gaussian Elimination",
+  "recognitionClueHinglish": "Solution nikalna ya elimination ki operation count.",
+  "whatShouldComeToMind": [
+   "Elimination / substitution."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Row operations.",
+   "2. Back substitution."
+  ],
+  "formulasUsed": [
+   "gaussOps"
+  ],
+  "pyqExamples": [
+   "6.13.3",
+   "6.13.17"
+  ],
+  "variationsObserved": [
+   "Operation count derivation."
+  ],
+  "commonTraps": [
+   "Arithmetic errors."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ }
+]

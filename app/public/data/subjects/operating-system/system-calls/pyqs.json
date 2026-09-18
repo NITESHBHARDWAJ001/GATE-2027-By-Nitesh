@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "operating-system__5.30.1",
+  "localId": "5.30.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "system-calls",
+  "topic": "System Calls",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "14",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A;C",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following standard library functions will always invoke a system call when executed from a single-threaded process in a                                        operating system? A.                                  B.                                        C.                D.",
+  "tagsRaw": "gatecse-2021-set1 multiple-selects  operating-system  system-calls  one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 452
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SYSTEM_CALLS_01"
+ }
+]

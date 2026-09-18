@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Null-terminated char arrays, pointer copy, strlen.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Strings in C se related sawal.",
+   "thinkThis": "P3_STRINGS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Null terminator bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:strings",
+ "revisionLevel": "short-form"
+}

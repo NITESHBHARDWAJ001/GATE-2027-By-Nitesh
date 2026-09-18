@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_BERNOULLI_DISTRIBUTION_01",
+  "name": "Bernoulli Distribution (PYQ type)",
+  "recognitionClueHinglish": "Bernoulli Distribution se related sawal.",
+  "whatShouldComeToMind": [
+   "Single trial success p; mean p, variance p(1-p)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. p.",
+   "2. Independence."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.3.1",
+   "7.3.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Var me (1-p) bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

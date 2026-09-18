@@ -1,0 +1,52 @@
+[
+ {
+  "patternId": "FF_COMPUTE_01",
+  "name": "Compute FIRST / FOLLOW Sets",
+  "recognitionClueHinglish": "Grammar diya; sets ya unke sizes.",
+  "whatShouldComeToMind": [
+   "Fixed-point rules."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Nullable.",
+   "2. FIRST.",
+   "3. FOLLOW."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.11.1",
+   "2.11.2",
+   "2.11.3",
+   "2.11.4",
+   "2.11.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Nullable."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "FF_RULES_02",
+  "name": "FIRST/FOLLOW Rules Statements",
+  "recognitionClueHinglish": "Top-down parsing ke rules par true/false.",
+  "whatShouldComeToMind": [
+   "Rules."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rule check."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.11.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,19 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:comparative-forms",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Comparative Forms",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "2 PYQs extracted, 2015-2021.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2015,
+  2021
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

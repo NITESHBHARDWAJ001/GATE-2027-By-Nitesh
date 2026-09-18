@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_STRONGLY_CONNECTED_COMPO_01",
+  "name": "Connected / Strongly Connected Components (PYQ type)",
+  "recognitionClueHinglish": "Connected / Strongly Connected Components se related sawal.",
+  "whatShouldComeToMind": [
+   "Undirected me connected components (DFS/BFS/union-find), directed me SCC (Kosaraju/Tarjan)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. DFS.",
+   "2. Reverse graph DFS.",
+   "3. Components."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.42.1",
+   "1.42.2",
+   "1.42.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Weak vs strong connectivity mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

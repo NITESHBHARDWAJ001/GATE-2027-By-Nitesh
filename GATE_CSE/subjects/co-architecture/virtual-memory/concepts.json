@@ -1,0 +1,23 @@
+{
+ "overview": "Virtual address space, page faults, two-level paging time, TLB in pipeline.",
+ "whyItMatters": "3 PYQs extracted (1991-2008); P3 topic.",
+ "coreConcept": "Virtual address space, page faults, two-level paging time, TLB in pipeline.",
+ "hinglishExplanation": "Address space MAR width ya secondary memory se limit; EAT page fault rate se.",
+ "formalDefinition": "Virtual address space, page faults, two-level paging time, TLB in pipeline.",
+ "importantProperties": [
+  "Virtual address space limited by MAR bits.",
+  "EAT = memory + fault_rate x service.",
+  "TLB access address generation ke baad.",
+  "Two-level page walk = 2 extra memory accesses."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Physical memory ko virtual limit samajhna."
+ ],
+ "standardTechniques": [
+  "1. Address bits.",
+  "2. EAT."
+ ],
+ "topicId": "co-architecture:virtual-memory"
+}

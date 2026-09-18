@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_NUMBER_REPRESENTATION_01",
+  "name": "Number Representation (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Number Representation (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "Binary/decimal conversions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Place values."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.33.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Bit order."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

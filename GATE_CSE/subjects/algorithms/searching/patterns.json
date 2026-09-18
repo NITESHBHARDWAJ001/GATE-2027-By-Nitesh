@@ -1,0 +1,59 @@
+[
+ {
+  "patternId": "SRC_BINARY_BUG_01",
+  "name": "Binary Search Code / Termination Analysis",
+  "recognitionClueHinglish": "Binary search code erroneous; kab galat.",
+  "whatShouldComeToMind": [
+   "Trace low/high."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Update rules.",
+   "2. Failing input."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.37.1",
+   "1.37.4",
+   "1.37.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Termination ignore."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SRC_COMPLEXITY_02",
+  "name": "Comparison Counts and Special Searches",
+  "recognitionClueHinglish": "Average comparisons, random search, 0-1 arrays, bitonic, BFS/DFS statements.",
+  "whatShouldComeToMind": [
+   "Formula / binary search variant."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Formula.",
+   "2. Variant."
+  ],
+  "formulasUsed": [
+   "linear",
+   "binary"
+  ],
+  "pyqExamples": [
+   "1.37.2",
+   "1.37.3",
+   "1.37.6",
+   "1.37.7",
+   "1.37.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Random-search expected value."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

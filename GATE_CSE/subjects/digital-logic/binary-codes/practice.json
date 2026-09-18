@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:binary-codes",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BINARY-01",
+   "patternId": "P4_BINARY_CODES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Binary 0101 to Gray?",
+   "solutionApproach": "0101 xor 0010.",
+   "answer": "0111"
+  }
+ ]
+}

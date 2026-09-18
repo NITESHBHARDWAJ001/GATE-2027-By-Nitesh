@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Degree n polynomial ke n complex roots; real roots ka existence.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Polynomial Roots se related sawal.",
+   "thinkThis": "P4_POLYNOMIALS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Multiplicity."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-calculus:polynomials",
+ "revisionLevel": "short-form"
+}

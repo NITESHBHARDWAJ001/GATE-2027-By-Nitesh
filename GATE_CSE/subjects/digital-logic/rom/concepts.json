@@ -1,0 +1,22 @@
+{
+ "overview": "n x n bit multiplier ke truth table ke liye ROM: 2^(2n) x 2n bits.",
+ "whyItMatters": "4 PYQs extracted (1993-2012); P3 topic.",
+ "coreConcept": "n x n bit multiplier ke truth table ke liye ROM: 2^(2n) x 2n bits.",
+ "hinglishExplanation": "ROM size = 2^(inputs) x outputs.",
+ "formalDefinition": "n x n bit multiplier ke truth table ke liye ROM: 2^(2n) x 2n bits.",
+ "importantProperties": [
+  "Inputs = operand bits total.",
+  "Outputs = product bits.",
+  "Size = 2^inputs x outputs."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Product bits (2n) miss."
+ ],
+ "standardTechniques": [
+  "1. Inputs.",
+  "2. Outputs."
+ ],
+ "topicId": "digital-logic:rom"
+}

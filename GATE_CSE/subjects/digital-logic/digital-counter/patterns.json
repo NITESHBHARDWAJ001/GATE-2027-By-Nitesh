@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "DC_MINFF_DESIGN_01",
+    "name": "Minimum Flip-Flop Count / Counter Design",
+    "recognitionClueHinglish": "Poocha hai mod-N counter (ya specific counting sequence) ke liye MINIMUM flip-flops kitne chahiye — direct formula-application pattern.",
+    "whatShouldComeToMind": ["Standard binary mod-N counter: ⌈log2(N)⌉ flip-flops.", "Johnson counter: 2n states from n flip-flops. Ring counter: n states from n flip-flops — different formulas, don't confuse with standard binary."],
+    "conceptsRequired": ["⌈log2(N)⌉ formula", "Johnson/ring counter special-case formulas"],
+    "generalSolvingApproach": ["1. Identify N (the modulus or number of distinct states in the target sequence).", "2. If it's a standard binary counter: apply ⌈log2(N)⌉ directly.", "3. If it's specified as Johnson or ring counter: apply the special n↔state-count relationship instead."],
+    "formulasUsed": ["minFlipFlopsModN","johnsonCounterStates","ringCounterStates"],
+    "pyqExamples": ["4.13.5","4.13.7","4.13.10","4.13.11","4.13.18"],
+    "variationsObserved": ["Custom counting sequence given explicitly (not just 0 to N-1) — count the DISTINCT states in the given sequence, apply ⌈log2(distinct count)⌉.", "Gray-code-style constraint (at most 1 FF changes per transition) — same flip-flop count formula applies, but NEXT-STATE LOGIC design differs."],
+    "commonTraps": ["Using the standard log2(N) formula for a Johnson/ring counter question instead of their specific formulas."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "DC_STATE_TRACE_02",
+    "name": "Counter State Sequence Trace / Analysis",
+    "recognitionClueHinglish": "Ek counter circuit diya hai (flip-flops + next-state logic) aur poocha hai counting SEQUENCE kya hai, ya specific initial state se agli states kya hongi — is topic ka sabse bada pattern hai (17 me se 7 PYQs).",
+    "whatShouldComeToMind": ["Build the next-state table from the given circuit's logic (J-K/D/T flip-flop excitation equations), trace step by step from the given initial state."],
+    "conceptsRequired": ["Flip-flop excitation table application (J-K, D, T)", "Next-state trace mechanics"],
+    "generalSolvingApproach": ["1. Write down each flip-flop's next-state equation from the given circuit/logic.", "2. Starting from the given initial state, apply the equations to compute each subsequent state.", "3. Continue tracing until the requested number of states/full cycle is found."],
+    "formulasUsed": [],
+    "pyqExamples": ["4.13.3","4.13.9","4.13.12","4.13.13","4.13.14","4.13.15","4.13.17"],
+    "variationsObserved": ["Saturating up/down counter (stops incrementing/decrementing at boundary values instead of wrapping) — special-case the boundary transitions explicitly.", "Mixed flip-flop types (some D, some JK) in the same circuit — apply each flip-flop type's own excitation table correctly."],
+    "commonTraps": ["Applying the wrong flip-flop's excitation table (mixing up J-K vs D vs T behavior) when multiple types coexist in one circuit."],
+    "edgeCases": ["Saturating counters: verify the exact boundary behavior (does it hold at max, or wrap?) as specified."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "DC_TIMING_FREQ_03",
+    "name": "Counter Timing / Max Clock Frequency Analysis",
+    "recognitionClueHinglish": "Poocha hai maximum clock frequency kya hai given propagation delays (flip-flop, gates, setup time) — ye timing-analysis pattern hai.",
+    "whatShouldComeToMind": ["Identify the CRITICAL (longest) path between clocked stages — sum ALL delays along it (flip-flop propagation + any combinational gates + setup time).", "Max frequency = 1/(critical path total delay)."],
+    "conceptsRequired": ["Critical path identification", "Max-frequency-from-delay formula"],
+    "generalSolvingApproach": ["1. Trace the circuit to find the LONGEST delay chain between any two clock edges (through flip-flops AND any combinational logic like AND gates feeding the next flip-flop).", "2. Sum all delays along that critical path, add setup time.", "3. Max frequency = 1/(that total delay)."],
+    "formulasUsed": ["maxClockFrequency"],
+    "pyqExamples": ["4.13.4","4.13.16"],
+    "variationsObserved": [],
+    "commonTraps": ["Only counting the flip-flop's own propagation delay, forgetting to include any combinational logic (AND gates, etc.) that sits between flip-flop stages on the critical path."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "DC_EQUIVALENCE_CONCEPTUAL_04",
+    "name": "Counter Equivalence / Conceptual Combinations",
+    "recognitionClueHinglish": "Poocha hai counter+decoder combination kis equivalent circuit jaisa behave karta hai, ya counter ko DFA/register-based circuit ke roop me interpret karna hai — ye conceptual-combination pattern hai.",
+    "whatShouldComeToMind": ["Trace the counter's full state cycle FIRST, then apply the attached decoder/logic's mapping to see the overall combined effect."],
+    "conceptsRequired": ["Counter-cycle tracing combined with downstream logic mapping"],
+    "generalSolvingApproach": ["1. Determine the counter's full state cycle independently.", "2. Apply whatever downstream combinational logic (decoder, register operation) is attached, for EACH state in the cycle.", "3. Identify the overall equivalent behavior/pattern from the combined trace."],
+    "formulasUsed": [],
+    "pyqExamples": ["4.13.2","4.13.6","4.13.8"],
+    "variationsObserved": [],
+    "commonTraps": [],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

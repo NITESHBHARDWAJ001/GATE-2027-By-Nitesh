@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:conflict-misses",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CONFLI-01",
+   "patternId": "P3_CONFLICT_MISSES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Conflict miss fully associative me hota hai?",
+   "solutionApproach": "Nahi.",
+   "answer": "Nahi"
+  }
+ ]
+}

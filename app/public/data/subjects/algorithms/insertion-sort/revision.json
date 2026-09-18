@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Har element ko sorted prefix me sahi jagah insert; worst O(n^2), best O(n).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Insertion Sort se related sawal.",
+   "thinkThis": "P4_INSERTION_SORT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Binary search se overall O(n log n) maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:insertion-sort",
+ "revisionLevel": "short-form"
+}

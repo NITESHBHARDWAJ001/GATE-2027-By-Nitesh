@@ -1,0 +1,37 @@
+{
+  "topicId": "algorithms-time-complexity",
+  "overview": "Ye topic Asymptotic Notations aur Recurrence Relation ko REAL algorithms/code pe apply karta hai. 3 bade skills: (1) loop-heavy code se complexity nikaalna, (2) 'minimum comparisons needed' type lower-bound problems solve karna, (3) recursive function ki complexity nikaalna.",
+  "whyItMatters": "31 PYQs, aur ye Sorting/Searching/Graph-Algorithms sab ki complexity analysis ka practical application hai — pure theory nahi, hands-on skill.",
+  "coreConcept": "Loop-based code: har loop ki iteration-count nikaalo (as function of n), nested loops multiply, sequential loops add (dominant term keep karo). Comparison-bound problems: 'minimum comparisons' poochne ka matlab hai decision-tree / information-theoretic lower bound argument — kam se kam kitne YES/NO questions poochne padenge guaranteed correct answer ke liye.",
+  "hinglishExplanation": "Loop-counting ko ek 'nested boxes counting' socho — outer loop N baar chalta hai, har baar ANDAR ka loop bhi chalta hai — total work = outer × inner (agar dono n ke function hain). Comparison-lower-bound ko socho ek 'guessing game' — agar tumhe N possibilities me se sahi cheez dhundhni hai aur har comparison sirf 2 (ya 3) outcomes deta hai, to kam se kam log(N) comparisons chahiye honge guaranteed.",
+  "formalDefinition": "Time complexity T(n) = number of elementary operations as a function of input size n, typically expressed in O/Θ notation.",
+  "importantProperties": [
+    "Nested loop where inner loop bound depends on outer variable (e.g., 'for j=i to n') still typically gives O(n²) total, just with a constant factor difference from a full n×n nested loop — sum of (n-i) for i=1 to n = n(n-1)/2 = Θ(n²).",
+    "A while loop that repeatedly DIVIDES a variable by 2 runs Θ(log n) times.",
+    "A while loop that repeatedly MULTIPLIES a variable by 2 (starting from 1, until exceeding n) also runs Θ(log n) times.",
+    "Finding max AND min together needs only ~3n/2 comparisons (not 2n) using the paired-comparison technique — a classic 'better than naive' result.",
+    "Finding a single max (or min) needs exactly n-1 comparisons, and this is a PROVEN tight lower bound (can't do better).",
+    "Information-theoretic lower bound: if there are N possible outcomes and each comparison has k possible results, you need at least ⌈log_k N⌉ comparisons in the worst case."
+  ],
+  "formulas": {
+    "nestedLoopBasic": "for i=1 to n: for j=1 to n: O(1) → Θ(n²)",
+    "triangularNestedLoop": "for i=1 to n: for j=i to n: O(1) → Θ(n²) (sum of (n-i+1) for i=1..n = Θ(n²), half the constant of full nested loop but same order)",
+    "logDividingLoop": "while(x>1): x=x/2 → Θ(log n) iterations",
+    "maxMinComparisons": "Finding max: n-1 comparisons (tight). Finding BOTH max and min together: ⌈3n/2⌉-2 comparisons (tight, better than the naive 2n-2)",
+    "infoTheoreticLowerBound": "At least ⌈log_k N⌉ comparisons needed, where N = number of possible outcomes/orderings, k = outcomes per comparison"
+  },
+  "keyPropertiesAndIdentities": [
+    "A triangular nested loop (inner bound depends on outer index) is STILL Θ(n²) overall — don't mistake it for O(n log n) or similar just because the inner bound isn't fixed at n.",
+    "'Minimum number of comparisons' questions are usually asking for a PROVEN tight lower bound from a known classical result (max-finding, max+min together, majority element, etc.) — recognize the classical problem shape rather than deriving from scratch."
+  ],
+  "commonPitfalls": [
+    "Assuming nested loops always give exactly n² work when the inner bound is triangular (i to n) — it's still Θ(n²) but with a different constant (n²/2), which matters for EXACT comparison-count questions though not for the asymptotic CLASS.",
+    "Confusing a log-dividing loop's iteration count with the VALUE it computes — log n iterations, but the loop VARIABLE itself takes on n, n/2, n/4, ... values.",
+    "For 'minimum comparisons' problems, giving a naive upper-bound algorithm's comparison count instead of the PROVEN lower bound (these can differ; GATE usually wants the tight/optimal bound)."
+  ],
+  "standardTechniques": [
+    "For nested-loop code: write the iteration count as an explicit summation (Σ), evaluate it using standard summation formulas (arithmetic series, geometric series) rather than guessing.",
+    "For 'minimum comparisons needed' questions: try to recognize the classical problem (max-finding, max+min, kth-smallest, sorting lower bound) and recall its PROVEN tight bound rather than re-deriving under time pressure.",
+    "For recursive-function complexity: set up the recurrence (reuse Recurrence Relation topic's Pattern 02) and solve it (Pattern 01)."
+  ]
+}

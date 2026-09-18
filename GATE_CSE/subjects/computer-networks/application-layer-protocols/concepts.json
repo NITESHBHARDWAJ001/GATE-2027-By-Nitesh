@@ -1,0 +1,23 @@
+{
+ "overview": "HTTP, DNS resolution, email protocols (SMTP/POP/IMAP), stateful vs stateless, PDUs.",
+ "whyItMatters": "13 PYQs extracted (2005-2026); P2 topic.",
+ "coreConcept": "Application layer PDU = message; protocols apne ports/transport (TCP/UDP) par chalte hain.",
+ "hinglishExplanation": "Email bhejne ke liye SMTP, retrieve ke liye POP3/IMAP. DNS iterative resolution me har server referral deta hai. HTTP stateless, FTP stateful.",
+ "formalDefinition": "Application layer PDU = message; protocols apne ports/transport (TCP/UDP) par chalte hain.",
+ "importantProperties": [
+  "SMTP send; POP3/IMAP retrieve.",
+  "HTTP stateless; FTP/Telnet stateful.",
+  "DNS: iterative vs recursive queries.",
+  "Application PDU = message.",
+  "HTTP persistent connection RTTs kam karta hai."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "SMTP se retrieve maan lena."
+ ],
+ "standardTechniques": [
+  "Protocol-port table."
+ ],
+ "topicId": "computer-networks:application-layer-protocols"
+}

@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "co-architecture__1.2.1",
+  "localId": "1.2.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "average-memory-access-time",
+  "topic": "Average Memory Access Time",
+  "year": 1992,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "5-a",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "180 C",
+  "answerVerified": true,
+  "questionTextRaw": "The access times of the main memory and the Cache memory, in a computer system, are n sec and nsec, respectively. It is estimated that                           of the main memory request are for read the rest for write. The hit ratio for the read access only is and a write-through policy (where both main and cache memories are updated simultaneously) is used. Determine the average time of the main memory (in ns).",
+  "tagsRaw": "gate1992 co-and-architecture     cache-memory  normal    numerical-answers  average-memory-access-time",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 30
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_AVERAGE_MEMORY_ACCESS_TI_01"
+ },
+ {
+  "pyqId": "co-architecture__1.2.2",
+  "localId": "1.2.2",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "average-memory-access-time",
+  "topic": "Average Memory Access Time",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "43",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "11.83:11.87",
+  "answerVerified": true,
+  "questionTextRaw": "A computer has a memory hierarchy consisting of two-level cache and and a main memory. If the processor needs to access data from memory, it first looks into cache. If the data is not found in cache, it goes to cache. If it fails to get the data from cache, it goes to main memory, where the data is definitely available. Hit rates and access times of various memory units are shown in the figure. The average memory access time in nanoseconds                   is ________. (rounded off to two decimal places)",
+  "tagsRaw": "gatecse2025-set1 co-and-architecture  cache-memory  multilevel-cache  average-memory-access-time  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 33
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_AVERAGE_MEMORY_ACCESS_TI_01"
+ },
+ {
+  "pyqId": "co-architecture__1.2.3",
+  "localId": "1.2.3",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "average-memory-access-time",
+  "topic": "Average Memory Access Time",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "45",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "4:4",
+  "answerVerified": true,
+  "questionTextRaw": "Given a computing system with two levels of cache (L1 and L2) and a main memory. The first level (L1) cache access time is nanosecond (ns) and the \"hit rate\" for L1 cache is                                                         while the processor is accessing the data from L1 cache. Whereas, for the second level (L2) cache, the \"hit rate\" is                                   and the \"miss penalty\" for transferring data from L2 cache to L1 cache is ns . The \"miss penalty\" for the data to be transferred from main memory to L2 cache is ns . Then the average memory access time in this system in nanoseconds is __________ . (rounded off to one decimal place)",
+  "tagsRaw": "gatecse2025-set2 co-and-architecture  cache-memory  average-memory-access-time  multilevel-cache  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 33
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_AVERAGE_MEMORY_ACCESS_TI_01"
+ }
+]

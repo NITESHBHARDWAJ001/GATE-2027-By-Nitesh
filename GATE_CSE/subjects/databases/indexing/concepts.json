@@ -1,0 +1,41 @@
+{
+ "overview": "Index ek extra file hai jo search fast karti hai. Types: primary (ordering key), clustering (ordering non-key), secondary (non-ordering); dense vs sparse; multilevel. GATE me mostly block-count / levels ki numerical aur clustered/dense/sparse concepts aate hain.",
+ "whyItMatters": "15 PYQs, 1989-2026; 2020-2026 me har saal ek NAT ya concept question.",
+ "coreConcept": "Index entries chhoti hoti hain (key + pointer), isliye index ke blocks data ke blocks se kam hote hain; multilevel index binary search ko log base bf tak le aata hai.",
+ "hinglishExplanation": "Pehle blocking factor nikaalo: records per block = floor(B / R). Data blocks = ceil(N / bf). Dense index me har record ki entry, sparse me har block ki entry. Index entry size = key + block pointer, isse index blocking factor aur index ke blocks nikalte hain. Multilevel me tab tak levels banate ho jab tak top level 1 block me na aa jaye.",
+ "formalDefinition": "Blocking factor bf = floor(B / R). Index entries per block fi = floor(B / (K + P)). Levels: ceil(log_fi(entries)).",
+ "importantProperties": [
+  "Primary index: ordered file + key field, sparse (block anchor).",
+  "Clustering index: ordered file par non-key field.",
+  "Secondary index: unordered field par, dense hona zaroori.",
+  "Dense index: har search key value ki entry; sparse: har block ki entry.",
+  "Sparse index sirf ordered file par ban sakta hai.",
+  "Ek file par ek hi primary/clustering index (kyunki ordering ek hi), kai secondary ho sakte hain.",
+  "Clustered index: data records ka order index entries ke order jaisa.",
+  "Hash index: equality search ke liye, range/ordered scan ke liye nahi; dense hoti hai.",
+  "Multilevel index me first level ke baad next levels first-level blocks ka sparse index hote hain."
+ ],
+ "formulas": {
+  "bf": "bf = floor(B / R)",
+  "dataBlocks": "b = ceil(N / bf)",
+  "indexEntriesPerBlock": "fi = floor(B / (K + P))",
+  "denseIndexBlocks": "ceil(N / fi)",
+  "sparseIndexBlocks": "ceil(b / fi)",
+  "levels": "smallest L such that fi^L >= entries"
+ },
+ "keyPropertiesAndIdentities": [
+  "Single-level sparse index blocks = ceil(data blocks / fi).",
+  "Binary search on index cost = ceil(log2(index blocks)) + 1."
+ ],
+ "commonPitfalls": [
+  "floor vs ceil confuse karna.",
+  "Dense/sparse ka data blocks ya records se count galat lena.",
+  "Clustered aur primary ko same maan lena.",
+  "Unspanned organization me bf ko floor karna bhoolna."
+ ],
+ "standardTechniques": [
+  "bf -> data blocks -> index entries per block -> index blocks ki chain me calculate karo.",
+  "Access cost = index levels + 1 data block."
+ ],
+ "topicId": "db-indexing"
+}

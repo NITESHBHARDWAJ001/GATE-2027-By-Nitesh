@@ -1,0 +1,25 @@
+{
+ "overview": "PDF/CDF properties, mean/variance transformations, median, Poisson/normal facts.",
+ "whyItMatters": "10 PYQs extracted (2005-2026); P2 topic.",
+ "coreConcept": "CDF F(x)=P(X<=x) non-decreasing, 0 to 1. PDF integrates to 1.",
+ "hinglishExplanation": "PDF se probability integral, CDF se P(a<X<=b)=F(b)-F(a). Y=aX+b: mean a mu + b, variance a^2 sigma^2. Poisson: mean=variance=lambda.",
+ "formalDefinition": "CDF F(x)=P(X<=x) non-decreasing, 0 to 1. PDF integrates to 1.",
+ "importantProperties": [
+  "CDF non-decreasing, right-continuous.",
+  "PDF integral 1.",
+  "Y=aX+b: E=a mu+b, Var=a^2 s^2.",
+  "Poisson mean=variance.",
+  "Median: F(m)=0.5."
+ ],
+ "formulas": {
+  "linear": "E[aX+b]=aE[X]+b; Var=a^2Var[X]"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Variance me shift add karna."
+ ],
+ "standardTechniques": [
+  "CDF se probability."
+ ],
+ "topicId": "engineering-mathematics-probability:random-variable"
+}

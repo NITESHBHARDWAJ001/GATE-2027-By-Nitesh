@@ -1,0 +1,18 @@
+{
+ "coreIdea": "0s ko group karke complement: POS form.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Minimum Product-of-Sums se related sawal.",
+   "thinkThis": "P3_MIN_PRODUCTS_OF_SUM_FORM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "1s group karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:min-products-of-sum-form",
+ "revisionLevel": "short-form"
+}

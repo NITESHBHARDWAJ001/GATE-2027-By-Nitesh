@@ -1,0 +1,33 @@
+{
+ "topicId": "discrete-mathematics-combinatory:generating-functions",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-GENERA-01",
+   "patternId": "GF_COEFF_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Coefficient of x^3 in 1/(1-x)^2?",
+   "solutionApproach": "n+1 at n=3.",
+   "answer": "4"
+  },
+  {
+   "practiceId": "AI-GENERATI-X02",
+   "patternId": "GF_CLOSED_FORM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "OGF of sequence 1,1,1,1,...?",
+   "solutionApproach": "Geometric series.",
+   "answer": "1/(1-x)"
+  },
+  {
+   "practiceId": "AI-GENERATI-X03",
+   "patternId": "GF_COEFF_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Coefficient of x^4 in 1/(1-x)^3?",
+   "solutionApproach": "C(4+2,2).",
+   "answer": "15"
+  }
+ ]
+}

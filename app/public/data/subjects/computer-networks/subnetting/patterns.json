@@ -1,0 +1,143 @@
+[
+ {
+  "patternId": "SN_SAME_NETWORK_01",
+  "name": "Same Network / Valid Address Check",
+  "recognitionClueHinglish": "Do ya teen IPs aur mask; kaunse same network me hain ya kaunsa address is subnet ka ho sakta hai.",
+  "whatShouldComeToMind": [
+   "Network id = IP AND mask."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Interesting octet dhundo.",
+   "2. Har address ka network id nikaalo.",
+   "3. Compare karo."
+  ],
+  "formulasUsed": [
+   "networkId",
+   "blockSize"
+  ],
+  "pyqExamples": [
+   "2.34.1",
+   "2.34.4",
+   "2.34.7",
+   "2.34.11",
+   "2.34.16",
+   "2.34.19",
+   "2.34.20",
+   "2.34.21"
+  ],
+  "variationsObserved": [
+   "Mask ke saath 'kaunsa value network me nahi jaana chahiye'.",
+   "Gateway/router ke saath alag subnet."
+  ],
+  "commonTraps": [
+   "Sirf last octet compare karna jab mask beech me hai."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SN_HOST_SUBNET_COUNT_02",
+  "name": "Hosts per Subnet / Number of Subnets",
+  "recognitionClueHinglish": "Class/network, mask ya subnet bits di hain; max hosts ya subnets poochhe hain; last host address.",
+  "whatShouldComeToMind": [
+   "Host bits aur borrowed bits."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Host bits = 32 - prefix.",
+   "2. Hosts = 2^h - 2.",
+   "3. Subnets = 2^(borrowed).",
+   "4. Last host = broadcast - 1."
+  ],
+  "formulasUsed": [
+   "usableHosts",
+   "subnetCount",
+   "broadcast"
+  ],
+  "pyqExamples": [
+   "2.34.3",
+   "2.34.5",
+   "2.34.6",
+   "2.34.10",
+   "2.34.15"
+  ],
+  "variationsObserved": [
+   "Last assignable host octet.",
+   "Subnet mask for a required number of subnets."
+  ],
+  "commonTraps": [
+   "-2 bhoolna; all-0/all-1 subnet ka rule."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SN_CIDR_ALLOCATION_03",
+  "name": "CIDR Allocation and Aggregation",
+  "recognitionClueHinglish": "ISP ka block kai organizations me baantna, ya routing-table prefixes ko aggregate karna.",
+  "whatShouldComeToMind": [
+   "Power-of-2 blocks, alignment, contiguous merge."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Size ko power of 2 me round up.",
+   "2. Bade se chhota allocate karo.",
+   "3. Aggregation: common prefix bits nikaalo."
+  ],
+  "formulasUsed": [
+   "usableHosts",
+   "blockSize"
+  ],
+  "pyqExamples": [
+   "2.34.8",
+   "2.34.12",
+   "2.34.13",
+   "2.34.17"
+  ],
+  "variationsObserved": [
+   "VLSM: alag sizes ke subnets.",
+   "Kai subnets ko ek prefix me aggregate."
+  ],
+  "commonTraps": [
+   "Alignment ignore karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SN_ROUTING_LPM_04",
+  "name": "Routing Table Lookup / Longest Prefix Match",
+  "recognitionClueHinglish": "Routing/forwarding table aur destination address diya hai; kis interface/next hop par jaayega.",
+  "whatShouldComeToMind": [
+   "Longest prefix match."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har entry ke mask se dest AND karo.",
+   "2. Jo network id se match kare unhe shortlist karo.",
+   "3. Sabse bada prefix chuno; default last."
+  ],
+  "formulasUsed": [
+   "networkId"
+  ],
+  "pyqExamples": [
+   "2.34.2",
+   "2.34.9",
+   "2.34.14",
+   "2.34.18"
+  ],
+  "variationsObserved": [
+   "Overlapping prefixes."
+  ],
+  "commonTraps": [
+   "Pehli matching entry le lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

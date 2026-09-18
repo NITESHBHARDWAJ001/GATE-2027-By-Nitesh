@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "databases__3.5.1",
+  "localId": "3.5.1",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "database-design",
+  "topic": "Database Design",
+  "year": 1994,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "3.11",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "False",
+  "answerVerified": true,
+  "questionTextRaw": "State True or False with reason Logical data independence is easier to achieve than physical data independence.",
+  "tagsRaw": "gate1994 databases  normal   database-design        true-false",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 192
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_DATABASE_DESIGN_01"
+ }
+]

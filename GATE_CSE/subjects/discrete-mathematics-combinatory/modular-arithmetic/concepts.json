@@ -1,0 +1,22 @@
+{
+ "overview": "Remainders of powers/expressions; Fermat, cycles of powers.",
+ "whyItMatters": "2 PYQs extracted (2016-2019); P3 topic.",
+ "coreConcept": "Remainders of powers/expressions; Fermat, cycles of powers.",
+ "hinglishExplanation": "a^k mod m repeated squaring ya cyclicity se.",
+ "formalDefinition": "Remainders of powers/expressions; Fermat, cycles of powers.",
+ "importantProperties": [
+  "(a*b) mod m = ((a mod m)(b mod m)) mod m.",
+  "Fermat: a^(p-1) = 1 mod p.",
+  "Power cycles."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Negative remainder."
+ ],
+ "standardTechniques": [
+  "1. Reduce base.",
+  "2. Cycle."
+ ],
+ "topicId": "discrete-mathematics-combinatory:modular-arithmetic"
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "programming-programming-in-c__5.3.1",
+  "localId": "5.3.1",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "functions",
+  "topic": "Functions",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 3,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "54",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "230",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following C program: #include<stdio.h> int f1(void); int f2(void); int f3(void); int x=10; int main() { int x=1; x += f1() + f2 () + f3() + f2(); printf(\"%d\", x); return 0; } int f1() { int x = 25; x++; return x;} int f2() { static int x = 50; x++; return x;} int f3() { x *= 10; return x;} The output of the program is ______.",
+  "tagsRaw": "gatecse-2015-set3 programming  programming-in-c   functions   normal  numerical-answers",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 275
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_FUNCTIONS_01"
+ },
+ {
+  "pyqId": "programming-programming-in-c__5.3.2",
+  "localId": "5.3.2",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "functions",
+  "topic": "Functions",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following program. Assume parameters to a function are evaluated from right to left. #include <stdio.h> int g(int p) { printf(\"%d\", p); return p; } int h(int q) { printf(\"%d\", q); return q; } void f(int x, int y) { g(x); h(y); } int main() { f(g(10), h(20)); } Which one of the following options is the CORRECT output of the above program? A.                                       B.                           C.                     D.",
+  "tagsRaw": "gatecse-2024-set2 programming  programming-in-c  functions  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 275
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_FUNCTIONS_01"
+ }
+]

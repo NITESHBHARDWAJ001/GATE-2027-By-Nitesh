@@ -1,0 +1,27 @@
+{
+ "overview": "Prefix-free optimal code by greedy merging two smallest frequencies; total bits and average length.",
+ "whyItMatters": "6 PYQs extracted (1989-2021); P2 topic.",
+ "coreConcept": "Har step par sabse kam frequency wale do nodes merge karo.",
+ "hinglishExplanation": "Huffman tree greedy banta hai. Encoded length = sum(freq x code length). Fibonacci frequencies me skewed tree banta hai.",
+ "formalDefinition": "Har step par sabse kam frequency wale do nodes merge karo.",
+ "importantProperties": [
+  "Prefix-free code.",
+  "Greedy: merge two smallest.",
+  "Total bits = sum f_i * l_i.",
+  "Average length = sum p_i l_i.",
+  "Fibonacci frequencies -> chain-like tree (max length n-1).",
+  "Ties me codes alag ho sakte hain par cost same."
+ ],
+ "formulas": {
+  "total": "sum f_i l_i",
+  "avg": "sum p_i l_i"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Merged node ko sort me galat jagah."
+ ],
+ "standardTechniques": [
+  "Priority queue table banao."
+ ],
+ "topicId": "algorithms:huffman-code"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:super-key",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SUPER--01",
+   "patternId": "P3_SUPER_KEY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "R(A,B,C,D), key A: superkeys?",
+   "solutionApproach": "2^3.",
+   "answer": "8"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "topicId": "theory-of-computation:closure-property",
+ "subjectId": "theory-of-computation",
+ "subject": "Theory of Computation",
+ "name": "Closure Properties",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "10 PYQs extracted, 1989-2026.",
+ "pyqCountExtracted": 10,
+ "yearsCovered": [
+  1989,
+  1992,
+  2002,
+  2006,
+  2013,
+  2016,
+  2017,
+  2018,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

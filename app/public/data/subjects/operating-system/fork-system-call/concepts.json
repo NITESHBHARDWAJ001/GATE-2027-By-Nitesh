@@ -1,0 +1,30 @@
+{
+ "overview": "fork() naya child process banata hai. n forks me total processes 2^n, children 2^n - 1. Conditional forks aur wait/print output bhi aate hain.",
+ "whyItMatters": "8 PYQs extracted (2004-2026); P2 topic.",
+ "coreConcept": "Each fork() doubles the number of processes (parent + child both continue after it).",
+ "hinglishExplanation": "fork() ke baad parent aur child dono agle statement se chalte hain. Isliye k unconditional forks ke baad total processes 2^k. Child process ko copy of memory milti hai (isliye a = a+5 sirf child me dikhega, parent me nahi).",
+ "formalDefinition": "Each fork() doubles the number of processes (parent + child both continue after it).",
+ "importantProperties": [
+  "k sequential fork() (no conditions): total 2^k, new children 2^k - 1.",
+  "Loop me n baar fork: total 2^n, children 2^n - 1.",
+  "fork returns 0 in child, child pid in parent, -1 on failure.",
+  "Child ko parent memory ki copy milti hai; virtual addresses same dikh sakte hain.",
+  "wait() parent ko child ke end tak rok deta hai.",
+  "Conditional fork: sirf un iterations me count badhta hai jahan condition true."
+ ],
+ "formulas": {
+  "processes": "2^k after k unconditional forks",
+  "children": "2^k - 1"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Children aur total processes me confuse.",
+  "Conditional forks ko unconditional gino.",
+  "Loop me child bhi loop chalata hai, ye bhoolna."
+ ],
+ "standardTechniques": [
+  "Process tree banao.",
+  "Recurrence: T(after fork) = 2 x T(before)."
+ ],
+ "topicId": "operating-system:fork-system-call"
+}

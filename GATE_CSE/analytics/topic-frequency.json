@@ -1,0 +1,3299 @@
+[
+  {
+    "topicKey": "1.5",
+    "subject": "CO & Architecture",
+    "topic": "Cache Memory",
+    "pyqCountSource": 69,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.21",
+    "subject": "Databases",
+    "topic": "SQL",
+    "pyqCountSource": 58,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.28",
+    "subject": "Digital Logic",
+    "topic": "Number Representation",
+    "pyqCountSource": 57,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.6",
+    "subject": "Databases",
+    "topic": "Database Normalization",
+    "pyqCountSource": 56,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.6",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Binary Tree",
+    "pyqCountSource": 53,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.24",
+    "subject": "Operating System",
+    "topic": "Process Synchronization",
+    "pyqCountSource": 52,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.23",
+    "subject": "Operating System",
+    "topic": "Process Scheduling",
+    "pyqCountSource": 49,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "11.7",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Most Appropriate Word",
+    "pyqCountSource": 47,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "2.12",
+    "subject": "Compiler Design",
+    "topic": "Grammar",
+    "pyqCountSource": 47,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.7",
+    "subject": "Theory of Computation",
+    "topic": "Finite Automata",
+    "pyqCountSource": 43,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.33",
+    "subject": "Operating System",
+    "topic": "Virtual Memory",
+    "pyqCountSource": 43,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.5",
+    "subject": "Discrete Mathematics: Graph Theory",
+    "topic": "Graph Connectivity",
+    "pyqCountSource": 40,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "3.3",
+    "subject": "Discrete Mathematics: Mathematical Logic",
+    "topic": "Propositional Logic",
+    "pyqCountSource": 40,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "4.8",
+    "subject": "Digital Logic",
+    "topic": "Circuit Output",
+    "pyqCountSource": 40,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.24",
+    "subject": "CO & Architecture",
+    "topic": "Pipelining",
+    "pyqCountSource": 39,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.12",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Relations",
+    "pyqCountSource": 38,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.23",
+    "subject": "Algorithms",
+    "topic": "Identify Function",
+    "pyqCountSource": 38,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.35",
+    "subject": "Algorithms",
+    "topic": "Recurrence Relation",
+    "pyqCountSource": 36,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.5",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Binary Search Tree",
+    "pyqCountSource": 36,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.1",
+    "subject": "Discrete Mathematics: Mathematical Logic",
+    "topic": "First Order Logic",
+    "pyqCountSource": 35,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.31",
+    "subject": "Algorithms",
+    "topic": "Minimum Spanning Tree",
+    "pyqCountSource": 35,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.3",
+    "subject": "Theory of Computation",
+    "topic": "Context Free Language",
+    "pyqCountSource": 35,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.20",
+    "subject": "Theory of Computation",
+    "topic": "Regular Language",
+    "pyqCountSource": 35,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "4.4",
+    "subject": "Digital Logic",
+    "topic": "Boolean Algebra",
+    "pyqCountSource": 34,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.4",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Group Theory",
+    "pyqCountSource": 33,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "6.3",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Eigen Value",
+    "pyqCountSource": 33,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "3.18",
+    "subject": "Databases",
+    "topic": "Relational Algebra",
+    "pyqCountSource": 33,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.2",
+    "subject": "Databases",
+    "topic": "B Tree",
+    "pyqCountSource": 32,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "7.13",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Probability",
+    "pyqCountSource": 31,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.43",
+    "subject": "Algorithms",
+    "topic": "Time Complexity",
+    "pyqCountSource": 31,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.9",
+    "subject": "Theory of Computation",
+    "topic": "Identify Class Language",
+    "pyqCountSource": 31,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.20",
+    "subject": "Operating System",
+    "topic": "Page Replacement",
+    "pyqCountSource": 31,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.3",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Functions",
+    "pyqCountSource": 30,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "3.4",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Binary Heap",
+    "pyqCountSource": 30,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.5",
+    "subject": "Theory of Computation",
+    "topic": "Decidability",
+    "pyqCountSource": 30,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.7",
+    "subject": "Operating System",
+    "topic": "Disk",
+    "pyqCountSource": 30,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.11",
+    "subject": "Programming: Programming in C",
+    "topic": "Programming In C",
+    "pyqCountSource": 29,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.18",
+    "subject": "Theory of Computation",
+    "topic": "Regular Expression",
+    "pyqCountSource": 29,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "4.13",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Set Theory",
+    "pyqCountSource": 27,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "3.25",
+    "subject": "Databases",
+    "topic": "Transaction and Concurrency",
+    "pyqCountSource": 27,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.25",
+    "subject": "Operating System",
+    "topic": "Resource Allocation",
+    "pyqCountSource": 27,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "6.11",
+    "subject": "Theory of Computation",
+    "topic": "Minimal State Automata",
+    "pyqCountSource": 25,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.6",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Matrix",
+    "pyqCountSource": 24,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "3.10",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Linked List",
+    "pyqCountSource": 24,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "11.9",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Passage Reading",
+    "pyqCountSource": 23,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.18",
+    "subject": "Algorithms",
+    "topic": "Graph Search",
+    "pyqCountSource": 23,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.3",
+    "subject": "Algorithms",
+    "topic": "Asymptotic Notations",
+    "pyqCountSource": 22,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.40",
+    "subject": "Algorithms",
+    "topic": "Sorting",
+    "pyqCountSource": 22,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.22",
+    "subject": "Compiler Design",
+    "topic": "Parsing",
+    "pyqCountSource": 22,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.24",
+    "subject": "Compiler Design",
+    "topic": "Runtime Environment",
+    "pyqCountSource": 22,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.21",
+    "subject": "CO & Architecture",
+    "topic": "Machine Instruction",
+    "pyqCountSource": 21,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.34",
+    "subject": "Computer Networks",
+    "topic": "Subnetting",
+    "pyqCountSource": 21,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.14",
+    "subject": "Compiler Design",
+    "topic": "LR Parser",
+    "pyqCountSource": 20,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.35",
+    "subject": "Computer Networks",
+    "topic": "TCP",
+    "pyqCountSource": 20,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.27",
+    "subject": "Compiler Design",
+    "topic": "Syntax Directed Translation",
+    "pyqCountSource": 19,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.13",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Stack",
+    "pyqCountSource": 19,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.13",
+    "subject": "Programming: Programming in C",
+    "topic": "Recursion",
+    "pyqCountSource": 19,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.1",
+    "subject": "CO & Architecture",
+    "topic": "Addressing Modes",
+    "pyqCountSource": 19,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.2",
+    "subject": "Discrete Mathematics: Combinatory",
+    "topic": "Combinatory",
+    "pyqCountSource": 18,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.8",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Logical Reasoning",
+    "pyqCountSource": 18,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "4.13",
+    "subject": "Digital Logic",
+    "topic": "Digital Counter",
+    "pyqCountSource": 18,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "6.13",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "System of Equations",
+    "pyqCountSource": 17,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.44",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Probability",
+    "pyqCountSource": 17,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "4.21",
+    "subject": "Digital Logic",
+    "topic": "K Map",
+    "pyqCountSource": 17,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "6.16",
+    "subject": "Theory of Computation",
+    "topic": "Recursive and Recursively Enumerable Languages",
+    "pyqCountSource": 16,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.30",
+    "subject": "Computer Networks",
+    "topic": "Sliding Window",
+    "pyqCountSource": 16,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.26",
+    "subject": "Digital Logic",
+    "topic": "Min Sum of Products Form",
+    "pyqCountSource": 16,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.8",
+    "subject": "Operating System",
+    "topic": "Disk Scheduling",
+    "pyqCountSource": 16,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.5",
+    "subject": "Engineering Mathematics: Calculus",
+    "topic": "Limits",
+    "pyqCountSource": 15,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.8",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Expectation",
+    "pyqCountSource": 15,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.17",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Verbal Reasoning",
+    "pyqCountSource": 15,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.34",
+    "subject": "Algorithms",
+    "topic": "Quick Sort",
+    "pyqCountSource": 15,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.8",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Hashing",
+    "pyqCountSource": 15,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.12",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Queue",
+    "pyqCountSource": 15,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.9",
+    "subject": "Programming: Programming in C",
+    "topic": "Pointers",
+    "pyqCountSource": 15,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.15",
+    "subject": "Theory of Computation",
+    "topic": "Pushdown Automata",
+    "pyqCountSource": 15,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.11",
+    "subject": "Databases",
+    "topic": "Indexing",
+    "pyqCountSource": 15,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.6",
+    "subject": "Engineering Mathematics: Calculus",
+    "topic": "Maxima Minima",
+    "pyqCountSource": 14,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.6",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Conditional Probability",
+    "pyqCountSource": 14,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.19",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Word Pairs",
+    "pyqCountSource": 14,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "2.21",
+    "subject": "Compiler Design",
+    "topic": "Parameter Passing",
+    "pyqCountSource": 14,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.28",
+    "subject": "Computer Networks",
+    "topic": "Routing",
+    "pyqCountSource": 14,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.20",
+    "subject": "Digital Logic",
+    "topic": "IEEE Representation",
+    "pyqCountSource": 14,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.27",
+    "subject": "Digital Logic",
+    "topic": "Multiplexer",
+    "pyqCountSource": 14,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.2",
+    "subject": "Discrete Mathematics: Graph Theory",
+    "topic": "Degree of Graph",
+    "pyqCountSource": 13,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "2.8",
+    "subject": "Discrete Mathematics: Graph Theory",
+    "topic": "Graph Planarity",
+    "pyqCountSource": 13,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.15",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Synonyms",
+    "pyqCountSource": 13,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "2.7",
+    "subject": "Compiler Design",
+    "topic": "Compilation Phases",
+    "pyqCountSource": 13,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.3",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Array",
+    "pyqCountSource": 13,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.15",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Tree",
+    "pyqCountSource": 13,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.2",
+    "subject": "Programming: Programming in C",
+    "topic": "Array",
+    "pyqCountSource": 13,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.1",
+    "subject": "Computer Networks",
+    "topic": "Application Layer Protocols",
+    "pyqCountSource": 13,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.19",
+    "subject": "Databases",
+    "topic": "Relational Calculus",
+    "pyqCountSource": 13,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "6.2",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Determinant",
+    "pyqCountSource": 12,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "5.8",
+    "subject": "Programming: Programming in C",
+    "topic": "Parameter Passing",
+    "pyqCountSource": 12,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.23",
+    "subject": "CO & Architecture",
+    "topic": "Microprogramming",
+    "pyqCountSource": 12,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.17",
+    "subject": "Computer Networks",
+    "topic": "IP Packet",
+    "pyqCountSource": 12,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.4",
+    "subject": "Databases",
+    "topic": "Conflict Serializable",
+    "pyqCountSource": 12,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.9",
+    "subject": "Databases",
+    "topic": "ER Diagram",
+    "pyqCountSource": 12,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.4",
+    "subject": "Discrete Mathematics: Graph Theory",
+    "topic": "Graph Coloring",
+    "pyqCountSource": 11,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "5.1",
+    "subject": "Engineering Mathematics: Calculus",
+    "topic": "Continuity",
+    "pyqCountSource": 11,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "5.3",
+    "subject": "Engineering Mathematics: Calculus",
+    "topic": "Differentiation",
+    "pyqCountSource": 11,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "5.4",
+    "subject": "Engineering Mathematics: Calculus",
+    "topic": "Integration",
+    "pyqCountSource": 11,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.19",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Uniform Distribution",
+    "pyqCountSource": 11,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.17",
+    "subject": "Algorithms",
+    "topic": "Graph Algorithms",
+    "pyqCountSource": 11,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.13",
+    "subject": "Compiler Design",
+    "topic": "Intermediate Code",
+    "pyqCountSource": 11,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.18",
+    "subject": "CO & Architecture",
+    "topic": "Instruction Format",
+    "pyqCountSource": 11,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.23",
+    "subject": "Computer Networks",
+    "topic": "Network Protocols",
+    "pyqCountSource": 11,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.28",
+    "subject": "Operating System",
+    "topic": "Semaphore",
+    "pyqCountSource": 11,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.6",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Lattice",
+    "pyqCountSource": 10,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "4.10",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Partial Order",
+    "pyqCountSource": 10,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.16",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Random Variable",
+    "pyqCountSource": 10,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.16",
+    "subject": "Algorithms",
+    "topic": "Dynamic Programming",
+    "pyqCountSource": 10,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.1",
+    "subject": "Theory of Computation",
+    "topic": "Closure Property",
+    "pyqCountSource": 10,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.20",
+    "subject": "CO & Architecture",
+    "topic": "Interrupts",
+    "pyqCountSource": 10,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.6",
+    "subject": "Digital Logic",
+    "topic": "Canonical Normal Form",
+    "pyqCountSource": 10,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.31",
+    "subject": "Operating System",
+    "topic": "Threads",
+    "pyqCountSource": 10,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "9.37",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Numerical Computation",
+    "pyqCountSource": 9,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.48",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Ratio Proportion",
+    "pyqCountSource": 9,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.16",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Tenses",
+    "pyqCountSource": 9,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.2",
+    "subject": "Algorithms",
+    "topic": "Algorithm Design Techniques",
+    "pyqCountSource": 9,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.3",
+    "subject": "Compiler Design",
+    "topic": "Assembler",
+    "pyqCountSource": 9,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.20",
+    "subject": "Compiler Design",
+    "topic": "Operator Precedence",
+    "pyqCountSource": 9,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.9",
+    "subject": "Computer Networks",
+    "topic": "Congestion Control",
+    "pyqCountSource": 9,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.1",
+    "subject": "Digital Logic",
+    "topic": "Adder",
+    "pyqCountSource": 9,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.17",
+    "subject": "Operating System",
+    "topic": "Memory Management",
+    "pyqCountSource": 9,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.1",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Binary Operation",
+    "pyqCountSource": 8,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.38",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Percentage",
+    "pyqCountSource": 8,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.1",
+    "subject": "Algorithms",
+    "topic": "Algorithm Design",
+    "pyqCountSource": 8,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.37",
+    "subject": "Algorithms",
+    "topic": "Searching",
+    "pyqCountSource": 8,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.39",
+    "subject": "Algorithms",
+    "topic": "Shortest Path",
+    "pyqCountSource": 8,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.6",
+    "subject": "Compiler Design",
+    "topic": "Code Optimization",
+    "pyqCountSource": 8,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.6",
+    "subject": "Programming: Programming in C",
+    "topic": "Loop Invariants",
+    "pyqCountSource": 8,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.7",
+    "subject": "Programming: Programming in C",
+    "topic": "Output",
+    "pyqCountSource": 8,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.8",
+    "subject": "CO & Architecture",
+    "topic": "DMA",
+    "pyqCountSource": 8,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.16",
+    "subject": "CO & Architecture",
+    "topic": "IO Handling",
+    "pyqCountSource": 8,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.11",
+    "subject": "Computer Networks",
+    "topic": "Distance Vector Routing",
+    "pyqCountSource": 8,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.12",
+    "subject": "Computer Networks",
+    "topic": "Error Detection",
+    "pyqCountSource": 8,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.16",
+    "subject": "Computer Networks",
+    "topic": "IP Addressing",
+    "pyqCountSource": 8,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.18",
+    "subject": "Digital Logic",
+    "topic": "Floating Point Representation",
+    "pyqCountSource": 8,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.10",
+    "subject": "Operating System",
+    "topic": "Fork System Call",
+    "pyqCountSource": 8,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.7",
+    "subject": "Discrete Mathematics: Combinatory",
+    "topic": "Recurrence Relation",
+    "pyqCountSource": 7,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "4.8",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Number Theory",
+    "pyqCountSource": 7,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "6.9",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Rank of Matrix",
+    "pyqCountSource": 7,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "6.14",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Vector Space",
+    "pyqCountSource": 7,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.15",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Statements Follow",
+    "pyqCountSource": 7,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.24",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Functions",
+    "pyqCountSource": 7,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.55",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Tabular Data",
+    "pyqCountSource": 7,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.57",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Venn Diagram",
+    "pyqCountSource": 7,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.1",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Antonyms",
+    "pyqCountSource": 7,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.12",
+    "subject": "CO & Architecture",
+    "topic": "Data Path",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.17",
+    "subject": "CO & Architecture",
+    "topic": "Instruction Execution",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.13",
+    "subject": "Computer Networks",
+    "topic": "Ethernet",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.19",
+    "subject": "Computer Networks",
+    "topic": "LAN Technologies",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.3",
+    "subject": "Databases",
+    "topic": "Candidate Key",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.12",
+    "subject": "Databases",
+    "topic": "Joins",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.5",
+    "subject": "Digital Logic",
+    "topic": "Booths Algorithm",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.12",
+    "subject": "Digital Logic",
+    "topic": "Digital Circuits",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.17",
+    "subject": "Digital Logic",
+    "topic": "Flip Flop",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.19",
+    "subject": "Digital Logic",
+    "topic": "Functional Completeness",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.9",
+    "subject": "Operating System",
+    "topic": "File System",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.11",
+    "subject": "Operating System",
+    "topic": "IO Handling",
+    "pyqCountSource": 7,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.1",
+    "subject": "Discrete Mathematics: Combinatory",
+    "topic": "Balls In Bins",
+    "pyqCountSource": 6,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.3",
+    "subject": "Discrete Mathematics: Combinatory",
+    "topic": "Counting",
+    "pyqCountSource": 6,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.4",
+    "subject": "Discrete Mathematics: Combinatory",
+    "topic": "Generating Functions",
+    "pyqCountSource": 6,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.4",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Binomial Distribution",
+    "pyqCountSource": 6,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.9",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Exponential Distribution",
+    "pyqCountSource": 6,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.10",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Independent Events",
+    "pyqCountSource": 6,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.28",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Logarithms",
+    "pyqCountSource": 6,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.46",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Quadratic Equations",
+    "pyqCountSource": 6,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.5",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Grammatical Error",
+    "pyqCountSource": 6,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.20",
+    "subject": "Algorithms",
+    "topic": "Hashing",
+    "pyqCountSource": 6,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.22",
+    "subject": "Algorithms",
+    "topic": "Huffman Code",
+    "pyqCountSource": 6,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.11",
+    "subject": "Compiler Design",
+    "topic": "First and Follow",
+    "pyqCountSource": 6,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.15",
+    "subject": "Compiler Design",
+    "topic": "Lexical Analysis",
+    "pyqCountSource": 6,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.23",
+    "subject": "Compiler Design",
+    "topic": "Register Allocation",
+    "pyqCountSource": 6,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.1",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "AVL Tree",
+    "pyqCountSource": 6,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.5",
+    "subject": "Programming: Programming in C",
+    "topic": "Identify Function",
+    "pyqCountSource": 6,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.12",
+    "subject": "Theory of Computation",
+    "topic": "Non Determinism",
+    "pyqCountSource": 6,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.22",
+    "subject": "CO & Architecture",
+    "topic": "Memory Interfacing",
+    "pyqCountSource": 6,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.26",
+    "subject": "CO & Architecture",
+    "topic": "Speedup",
+    "pyqCountSource": 6,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.6",
+    "subject": "Computer Networks",
+    "topic": "CSMA CD",
+    "pyqCountSource": 6,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.22",
+    "subject": "Computer Networks",
+    "topic": "Network Layer",
+    "pyqCountSource": 6,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.33",
+    "subject": "Computer Networks",
+    "topic": "Stop and Wait",
+    "pyqCountSource": 6,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.17",
+    "subject": "Databases",
+    "topic": "Referential Integrity",
+    "pyqCountSource": 6,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.24",
+    "subject": "Digital Logic",
+    "topic": "Min No Gates",
+    "pyqCountSource": 6,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.14",
+    "subject": "Operating System",
+    "topic": "Interrupts",
+    "pyqCountSource": 6,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "7.12",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Poisson Distribution",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.5",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Direction Sense",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.2",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Absolute Value",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.13",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Combinatory",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.25",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Geometry",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.27",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Line Graph",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.34",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Number Series",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.40",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Pie Chart",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "10.6",
+    "subject": "General Aptitude: Spatial Aptitude",
+    "topic": "Paper Folding",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.4",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "English Grammar",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.6",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Incorrect Sentence Part",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.10",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Phrase Meaning",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.18",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Word Meaning",
+    "pyqCountSource": 5,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.13",
+    "subject": "Algorithms",
+    "topic": "Dijkstras Algorithm",
+    "pyqCountSource": 5,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.19",
+    "subject": "Algorithms",
+    "topic": "Greedy Algorithms",
+    "pyqCountSource": 5,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.36",
+    "subject": "Algorithms",
+    "topic": "Recursion",
+    "pyqCountSource": 5,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.16",
+    "subject": "Programming: Programming in C",
+    "topic": "Structure",
+    "pyqCountSource": 5,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.13",
+    "subject": "CO & Architecture",
+    "topic": "Direct Mapping",
+    "pyqCountSource": 5,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.5",
+    "subject": "Computer Networks",
+    "topic": "CRC Polynomial",
+    "pyqCountSource": 5,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.14",
+    "subject": "Computer Networks",
+    "topic": "Fragmentation",
+    "pyqCountSource": 5,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.23",
+    "subject": "Digital Logic",
+    "topic": "Memory Interfacing",
+    "pyqCountSource": 5,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.22",
+    "subject": "Operating System",
+    "topic": "Process",
+    "pyqCountSource": 5,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.8",
+    "subject": "Discrete Mathematics: Combinatory",
+    "topic": "Summation",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "2.6",
+    "subject": "Discrete Mathematics: Graph Theory",
+    "topic": "Graph Isomorphism",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "4.11",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Polynomials",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "5.2",
+    "subject": "Engineering Mathematics: Calculus",
+    "topic": "Definite Integral",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.11",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Normal Distribution",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.8",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Bar Graph",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.10",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Cartesian Coordinates",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.17",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Cost Market Price",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.30",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Maxima Minima",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.35",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Number System",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.39",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Permutation and Combination",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.49",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Sequence Series",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.51",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Speed Time Distance",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "10.8",
+    "subject": "General Aptitude: Spatial Aptitude",
+    "topic": "Patterns In Two Dimensions",
+    "pyqCountSource": 4,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.6",
+    "subject": "Algorithms",
+    "topic": "Binary Search",
+    "pyqCountSource": 4,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.29",
+    "subject": "Algorithms",
+    "topic": "Merge Sort",
+    "pyqCountSource": 4,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.44",
+    "subject": "Algorithms",
+    "topic": "Topological Sort",
+    "pyqCountSource": 4,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.19",
+    "subject": "Compiler Design",
+    "topic": "Macros",
+    "pyqCountSource": 4,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.7",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Data Structures",
+    "pyqCountSource": 4,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.9",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Infix Prefix",
+    "pyqCountSource": 4,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.10",
+    "subject": "CO & Architecture",
+    "topic": "Data Dependency",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.8",
+    "subject": "Computer Networks",
+    "topic": "Communication",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.20",
+    "subject": "Computer Networks",
+    "topic": "MAC Protocol",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.21",
+    "subject": "Computer Networks",
+    "topic": "Network Flow",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.24",
+    "subject": "Computer Networks",
+    "topic": "Network Switching",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.32",
+    "subject": "Computer Networks",
+    "topic": "Sockets",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.37",
+    "subject": "Computer Networks",
+    "topic": "UDP",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.15",
+    "subject": "Digital Logic",
+    "topic": "Finite State Machines",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.31",
+    "subject": "Digital Logic",
+    "topic": "ROM",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.36",
+    "subject": "Digital Logic",
+    "topic": "Synchronous Asynchronous Circuits",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.3",
+    "subject": "Operating System",
+    "topic": "Context Switch",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.5",
+    "subject": "Operating System",
+    "topic": "Deadlock Prevention Avoidance Detection",
+    "pyqCountSource": 4,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.1",
+    "subject": "Discrete Mathematics: Graph Theory",
+    "topic": "Counting",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "3.2",
+    "subject": "Discrete Mathematics: Mathematical Logic",
+    "topic": "Logical Reasoning",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "6.5",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Lu Decomposition",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.1",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Bayes Theorem",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.18",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Statistics",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.14",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Sequence Series",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.6",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Arithmetic Series",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.11",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Circle",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.14",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Compound Interest",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.20",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Data Interpretation",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.22",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Factors",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.45",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Profit Loss",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.52",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Statistics",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.56",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Triangles",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.59",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Work Time",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "10.4",
+    "subject": "General Aptitude: Spatial Aptitude",
+    "topic": "Image Rotation",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "10.7",
+    "subject": "General Aptitude: Spatial Aptitude",
+    "topic": "Patterns In Three Dimensions",
+    "pyqCountSource": 3,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.7",
+    "subject": "Algorithms",
+    "topic": "Binary Search Tree",
+    "pyqCountSource": 3,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.9",
+    "subject": "Algorithms",
+    "topic": "Breadth First Search",
+    "pyqCountSource": 3,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.27",
+    "subject": "Algorithms",
+    "topic": "Matrix Chain Ordering",
+    "pyqCountSource": 3,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.42",
+    "subject": "Algorithms",
+    "topic": "Strongly Connected Components",
+    "pyqCountSource": 3,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.16",
+    "subject": "Compiler Design",
+    "topic": "Linker",
+    "pyqCountSource": 3,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.17",
+    "subject": "Compiler Design",
+    "topic": "Live Variable Analysis",
+    "pyqCountSource": 3,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.25",
+    "subject": "Compiler Design",
+    "topic": "Static Single Assignment",
+    "pyqCountSource": 3,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.4",
+    "subject": "Theory of Computation",
+    "topic": "Countable Uncountable Set",
+    "pyqCountSource": 3,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.19",
+    "subject": "Theory of Computation",
+    "topic": "Regular Grammar",
+    "pyqCountSource": 3,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.2",
+    "subject": "CO & Architecture",
+    "topic": "Average Memory Access Time",
+    "pyqCountSource": 3,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.28",
+    "subject": "CO & Architecture",
+    "topic": "Virtual Memory",
+    "pyqCountSource": 3,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.4",
+    "subject": "Computer Networks",
+    "topic": "Bridges",
+    "pyqCountSource": 3,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.10",
+    "subject": "Databases",
+    "topic": "Functional Dependency",
+    "pyqCountSource": 3,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.14",
+    "subject": "Databases",
+    "topic": "Natural Join",
+    "pyqCountSource": 3,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.16",
+    "subject": "Databases",
+    "topic": "Query",
+    "pyqCountSource": 3,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.26",
+    "subject": "Databases",
+    "topic": "Tuple Relational Calculus",
+    "pyqCountSource": 3,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.11",
+    "subject": "Digital Logic",
+    "topic": "Decoder",
+    "pyqCountSource": 3,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.6",
+    "subject": "Operating System",
+    "topic": "Demand Paging",
+    "pyqCountSource": 3,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.19",
+    "subject": "Operating System",
+    "topic": "OS Protection",
+    "pyqCountSource": 3,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.21",
+    "subject": "Operating System",
+    "topic": "Precedence Graph",
+    "pyqCountSource": 3,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.5",
+    "subject": "Discrete Mathematics: Combinatory",
+    "topic": "Modular Arithmetic",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.6",
+    "subject": "Discrete Mathematics: Combinatory",
+    "topic": "Pigeonhole Principle",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "2.7",
+    "subject": "Discrete Mathematics: Graph Theory",
+    "topic": "Graph Matching",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "4.2",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Countable Uncountable Set",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "4.7",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Mathematical Induction",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "5.7",
+    "subject": "Engineering Mathematics: Calculus",
+    "topic": "Polynomials",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "6.8",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Orthonormality",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "6.11",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Statistics",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.2",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Bayesian Network",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.3",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Bernoulli Distribution",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.20",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Variance",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.1",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Age Relation",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.3",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Code Words",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.10",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Odd One",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.11",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Passage Reading",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.4",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Alligation Mixture",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.15",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Conditional Probability",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.16",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Contour Plots",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.18",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Cubes",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.36",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Number Theory",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.2",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Articles",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.3",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Comparative Forms",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.12",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Sentence Ordering",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.13",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Statement Sufficiency",
+    "pyqCountSource": 2,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.4",
+    "subject": "Algorithms",
+    "topic": "Bellman Ford",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.12",
+    "subject": "Algorithms",
+    "topic": "Depth First Search",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.14",
+    "subject": "Algorithms",
+    "topic": "Directed Acyclic Graph",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.15",
+    "subject": "Algorithms",
+    "topic": "Double Hashing",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.21",
+    "subject": "Algorithms",
+    "topic": "Heap Sort",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.24",
+    "subject": "Algorithms",
+    "topic": "Insertion Sort",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.25",
+    "subject": "Algorithms",
+    "topic": "Inversion",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.26",
+    "subject": "Algorithms",
+    "topic": "Linear Probing",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.30",
+    "subject": "Algorithms",
+    "topic": "Merging",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.33",
+    "subject": "Algorithms",
+    "topic": "Prims Algorithm",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.38",
+    "subject": "Algorithms",
+    "topic": "Selection Sort",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.2",
+    "subject": "Compiler Design",
+    "topic": "Ambiguous Grammar",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.5",
+    "subject": "Compiler Design",
+    "topic": "Basic Blocks",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.9",
+    "subject": "Compiler Design",
+    "topic": "Directed Acyclic Graph",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.10",
+    "subject": "Compiler Design",
+    "topic": "Expression Evaluation",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.18",
+    "subject": "Compiler Design",
+    "topic": "Ll Parser",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.28",
+    "subject": "Compiler Design",
+    "topic": "Variable Scope",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.11",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Priority Queue",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.3",
+    "subject": "Programming: Programming in C",
+    "topic": "Functions",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.4",
+    "subject": "Programming: Programming in C",
+    "topic": "Goto",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.12",
+    "subject": "Programming: Programming in C",
+    "topic": "Programming Paradigms",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.15",
+    "subject": "Programming: Programming in C",
+    "topic": "Strings",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.17",
+    "subject": "Programming: Programming in C",
+    "topic": "Switch Case",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.2",
+    "subject": "Theory of Computation",
+    "topic": "Context Free Grammar",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.13",
+    "subject": "Theory of Computation",
+    "topic": "Number of States",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.14",
+    "subject": "Theory of Computation",
+    "topic": "Pumping Lemma",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.17",
+    "subject": "Theory of Computation",
+    "topic": "Reduction",
+    "pyqCountSource": 2,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.4",
+    "subject": "CO & Architecture",
+    "topic": "CISC RISC Architecture",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.25",
+    "subject": "CO & Architecture",
+    "topic": "Runtime Environment",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.3",
+    "subject": "Computer Networks",
+    "topic": "Bit Stuffing",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.15",
+    "subject": "Computer Networks",
+    "topic": "Hamming Code",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.36",
+    "subject": "Computer Networks",
+    "topic": "Token Bucket",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.38",
+    "subject": "Computer Networks",
+    "topic": "Wrap Around Time",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.20",
+    "subject": "Databases",
+    "topic": "Relational Model",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.2",
+    "subject": "Digital Logic",
+    "topic": "Array Multiplier",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.7",
+    "subject": "Digital Logic",
+    "topic": "Carry Generator",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.9",
+    "subject": "Digital Logic",
+    "topic": "Combinational Circuit",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.16",
+    "subject": "Digital Logic",
+    "topic": "Fixed Point Representation",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.25",
+    "subject": "Digital Logic",
+    "topic": "Min Products of Sum Form",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.30",
+    "subject": "Digital Logic",
+    "topic": "Prime Implicants",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.34",
+    "subject": "Digital Logic",
+    "topic": "Shift Registers",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.1",
+    "subject": "Operating System",
+    "topic": "Bankers Algorithm",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.32",
+    "subject": "Operating System",
+    "topic": "Translation Lookaside Buffer",
+    "pyqCountSource": 2,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.3",
+    "subject": "Discrete Mathematics: Graph Theory",
+    "topic": "Graph Algorithms",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "2.9",
+    "subject": "Discrete Mathematics: Graph Theory",
+    "topic": "Jaccard Coefficient",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "4.5",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Identify Function",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "4.9",
+    "subject": "Discrete Mathematics: Set Theory & Algebra",
+    "topic": "Onto",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "5.8",
+    "subject": "Engineering Mathematics: Calculus",
+    "topic": "Summation",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "6.1",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Cartesian Coordinates",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "6.4",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "6.7",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Multiplicity",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "6.10",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "6.12",
+    "subject": "Engineering Mathematics: Linear Algebra",
+    "topic": "Subspace",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.5",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Chi Square Distribution",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.7",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Continuous Distribution",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.14",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Probability Density Function",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.15",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Probability Distribution",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "7.17",
+    "subject": "Engineering Mathematics: Probability",
+    "topic": "Square Invariant",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.2",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Analogy",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.4",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Coding Decoding",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.6",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Family Relationship",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.7",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Logical Inference",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.9",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Number Relations",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.12",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Round Table Arrangement",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "8.13",
+    "subject": "General Aptitude: Analytical Aptitude",
+    "topic": "Seating Arrangement",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.1",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "No Classified Topic",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.3",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Algebra",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.5",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Area",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.7",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Average",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.9",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Bayes Theorem",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.12",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Clock Time",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.19",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Currency Notes",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.21",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Digital Image Processing",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.23",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Fractions",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.26",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Graph Coloring",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.29",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Maps",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.31",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Mensuration",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.32",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Modular Arithmetic",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.33",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Number Representation",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.41",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Polynomials",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.42",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Powers",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.43",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Prime Numbers",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.47",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Radar Chart",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.50",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Shortest Path",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.53",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "System of Equations",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.54",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Tables",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "9.58",
+    "subject": "General Aptitude: Quantitative Aptitude",
+    "topic": "Volume",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "10.2",
+    "subject": "General Aptitude: Spatial Aptitude",
+    "topic": "Assembling",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "10.3",
+    "subject": "General Aptitude: Spatial Aptitude",
+    "topic": "Assembling Pieces",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "10.5",
+    "subject": "General Aptitude: Spatial Aptitude",
+    "topic": "Mirror Image",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.8",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Narrative Sequencing",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.11",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Prepositions",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "11.14",
+    "subject": "General Aptitude: Verbal Aptitude",
+    "topic": "Statements Follow",
+    "pyqCountSource": 1,
+    "volume": "volume1"
+  },
+  {
+    "topicKey": "1.5",
+    "subject": "Algorithms",
+    "topic": "Binary Heap",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.8",
+    "subject": "Algorithms",
+    "topic": "Binary Tree",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.10",
+    "subject": "Algorithms",
+    "topic": "Bubble Sort",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.11",
+    "subject": "Algorithms",
+    "topic": "Computer Science",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.28",
+    "subject": "Algorithms",
+    "topic": "Maximum Minimum",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.32",
+    "subject": "Algorithms",
+    "topic": "Number of Swap",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.41",
+    "subject": "Algorithms",
+    "topic": "Space Complexity",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.45",
+    "subject": "Algorithms",
+    "topic": "Tree Traversal",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.46",
+    "subject": "Algorithms",
+    "topic": "Uniform Hashing",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.1",
+    "subject": "Compiler Design",
+    "topic": "Abstract Syntax Tree",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.4",
+    "subject": "Compiler Design",
+    "topic": "Backpatching",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.8",
+    "subject": "Compiler Design",
+    "topic": "Compiler tokenization",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.26",
+    "subject": "Compiler Design",
+    "topic": "Symbol Table",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "2.29",
+    "subject": "Compiler Design",
+    "topic": "Viable Prefix",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.2",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Abstract Data Type",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.14",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Time Complexity",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.16",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Tree Traversal",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "3.17",
+    "subject": "Programming and DS: Data Structures",
+    "topic": "Uniform Hashing",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "4.1",
+    "subject": "Programming and DS: Programming",
+    "topic": "Output",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.1",
+    "subject": "Programming: Programming in C",
+    "topic": "Aliasing",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.10",
+    "subject": "Programming: Programming in C",
+    "topic": "Programming Constructs",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.14",
+    "subject": "Programming: Programming in C",
+    "topic": "Runtime Environment",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.18",
+    "subject": "Programming: Programming in C",
+    "topic": "Type Checking",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.19",
+    "subject": "Programming: Programming in C",
+    "topic": "Union",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "5.20",
+    "subject": "Programming: Programming in C",
+    "topic": "Variable Binding",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.6",
+    "subject": "Theory of Computation",
+    "topic": "Dpda",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.8",
+    "subject": "Theory of Computation",
+    "topic": "Finite State Machines",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.10",
+    "subject": "Theory of Computation",
+    "topic": "Medium",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "6.21",
+    "subject": "Theory of Computation",
+    "topic": "Turing Machine",
+    "pyqCountSource": 1,
+    "volume": "volume2"
+  },
+  {
+    "topicKey": "1.3",
+    "subject": "CO & Architecture",
+    "topic": "Bit Vector",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.6",
+    "subject": "CO & Architecture",
+    "topic": "Conflict Misses",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.7",
+    "subject": "CO & Architecture",
+    "topic": "Control Unit",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.9",
+    "subject": "CO & Architecture",
+    "topic": "DRAM",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.11",
+    "subject": "CO & Architecture",
+    "topic": "Data Hazards",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.14",
+    "subject": "CO & Architecture",
+    "topic": "Disk",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.15",
+    "subject": "CO & Architecture",
+    "topic": "Hazards",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.19",
+    "subject": "CO & Architecture",
+    "topic": "Instruction Set Architecture",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "1.27",
+    "subject": "CO & Architecture",
+    "topic": "Stall",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.2",
+    "subject": "Computer Networks",
+    "topic": "Arp",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.7",
+    "subject": "Computer Networks",
+    "topic": "Channel Utilization",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.10",
+    "subject": "Computer Networks",
+    "topic": "Data Communication",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.18",
+    "subject": "Computer Networks",
+    "topic": "Icmp",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.25",
+    "subject": "Computer Networks",
+    "topic": "Osi Model",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.26",
+    "subject": "Computer Networks",
+    "topic": "Probability",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.27",
+    "subject": "Computer Networks",
+    "topic": "Pure Aloha",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.29",
+    "subject": "Computer Networks",
+    "topic": "Routing Protocols",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "2.31",
+    "subject": "Computer Networks",
+    "topic": "Slotted Aloha",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.1",
+    "subject": "Databases",
+    "topic": "Armstrong Axioms",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.5",
+    "subject": "Databases",
+    "topic": "Database Design",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.7",
+    "subject": "Databases",
+    "topic": "Database Schema",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.8",
+    "subject": "Databases",
+    "topic": "Decomposition",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.13",
+    "subject": "Databases",
+    "topic": "Multivalued Dependency 4nf",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.15",
+    "subject": "Databases",
+    "topic": "Normal Forms",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.22",
+    "subject": "Databases",
+    "topic": "Safe Query",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.23",
+    "subject": "Databases",
+    "topic": "Super Key",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.24",
+    "subject": "Databases",
+    "topic": "Timestamp Ordering",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "3.27",
+    "subject": "Databases",
+    "topic": "Two Phase Locking Protocol",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.3",
+    "subject": "Digital Logic",
+    "topic": "Binary Codes",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.10",
+    "subject": "Digital Logic",
+    "topic": "Conjunctive Normal Form",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.14",
+    "subject": "Digital Logic",
+    "topic": "Dual Function",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.22",
+    "subject": "Digital Logic",
+    "topic": "Little Endian Big Endian",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.29",
+    "subject": "Digital Logic",
+    "topic": "Number System",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.32",
+    "subject": "Digital Logic",
+    "topic": "Reduction",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.33",
+    "subject": "Digital Logic",
+    "topic": "Ripple Counter Operation",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "4.35",
+    "subject": "Digital Logic",
+    "topic": "Static Hazard",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.2",
+    "subject": "Operating System",
+    "topic": "Best Fit",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.4",
+    "subject": "Operating System",
+    "topic": "DMA",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.12",
+    "subject": "Operating System",
+    "topic": "Input Output",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.13",
+    "subject": "Operating System",
+    "topic": "Inter Process Communication",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.15",
+    "subject": "Operating System",
+    "topic": "Least Recently Used",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.16",
+    "subject": "Operating System",
+    "topic": "Linked Allocation",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.18",
+    "subject": "Operating System",
+    "topic": "Multilevel Paging",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.26",
+    "subject": "Operating System",
+    "topic": "Resource Allocation Graph",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.27",
+    "subject": "Operating System",
+    "topic": "Round Robin Scheduling",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.29",
+    "subject": "Operating System",
+    "topic": "Srtf",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  },
+  {
+    "topicKey": "5.30",
+    "subject": "Operating System",
+    "topic": "System Calls",
+    "pyqCountSource": 1,
+    "volume": "volume3"
+  }
+]

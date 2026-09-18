@@ -1,0 +1,51 @@
+{
+  "topicId": "dm-set-theory-algebra-relations",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-REL-01",
+      "patternId": "REL_PROPERTY_CHECK_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Relation R on the set of integers: aRb iff a² = b². Check reflexive, symmetric, transitive.",
+      "solutionApproach": "Reflexive: a²=a² always true → yes. Symmetric: a²=b² ⟹ b²=a² → yes. Transitive: a²=b² and b²=c² ⟹ a²=c² → yes. So R is an equivalence relation.",
+      "answer": "Reflexive, Symmetric, Transitive — R is an equivalence relation."
+    },
+    {
+      "practiceId": "AI-REL-02",
+      "patternId": "REL_PROPERTY_CHECK_01",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "R on positive integers: aRb iff a is a multiple of b (a = kb for some positive integer k). Is R a partial order?",
+      "solutionApproach": "Reflexive: a=1·a, yes. Antisymmetric: a=kb and b=ma ⟹ km=1 ⟹ k=m=1 ⟹ a=b, yes. Transitive: a=kb, b=mc ⟹ a=(km)c, yes. All three hold → Partial Order. Not total order since e.g. 2 and 3 are incomparable.",
+      "answer": "Yes, R is a Partial Order (but not a Total Order)."
+    },
+    {
+      "practiceId": "AI-REL-03",
+      "patternId": "REL_COUNTING_02",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "How many reflexive AND symmetric relations exist on a 3-element set?",
+      "solutionApproach": "3 diagonal pairs forced 'in' (reflexive). Off-diagonal pairs come in 3 mirror pairs: (1,2)/(2,1), (1,3)/(3,1), (2,3)/(3,2) — each mirror pair must be both-in or both-out together (symmetric) → 3 independent binary choices → 2^3 = 8.",
+      "answer": "8"
+    },
+    {
+      "practiceId": "AI-REL-04",
+      "patternId": "REL_COMBINATION_03",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "R and S are equivalence relations on A={1,2,3} where R groups {1,2} and {3}, and S groups {1} and {2,3}. Is R∪S an equivalence relation?",
+      "solutionApproach": "R∪S contains (1,2) [from R] and (2,3) [from S], so transitivity would require (1,3) ∈ R∪S. But neither R nor S relates 1 and 3. So transitivity fails.",
+      "answer": "No — R∪S is not an equivalence relation (fails transitivity)."
+    },
+    {
+      "practiceId": "AI-REL-05",
+      "patternId": "REL_TRANSITIVE_CLOSURE_04",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "R = {(1,2),(2,3),(3,4)} on {1,2,3,4}. Find the transitive closure of R.",
+      "solutionApproach": "Paths: 1→2→3 gives (1,3); 2→3→4 gives (2,4); 1→2→3→4 gives (1,4). Closure = R ∪ {(1,3),(2,4),(1,4)}.",
+      "answer": "{(1,2),(2,3),(3,4),(1,3),(2,4),(1,4)}"
+    }
+  ]
+}

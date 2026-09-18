@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Letters/words ke pattern se code decode.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Code Words se related sawal.",
+   "thinkThis": "P3_CODE_WORDS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Sirf ek example se pattern maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:code-words",
+ "revisionLevel": "short-form"
+}

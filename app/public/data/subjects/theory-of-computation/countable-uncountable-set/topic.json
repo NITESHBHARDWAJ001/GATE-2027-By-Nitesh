@@ -1,0 +1,20 @@
+{
+ "topicId": "theory-of-computation:countable-uncountable-set",
+ "subjectId": "theory-of-computation",
+ "subject": "Theory of Computation",
+ "name": "Countable/Uncountable Sets in TOC",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 1997-2019.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  1997,
+  2014,
+  2019
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

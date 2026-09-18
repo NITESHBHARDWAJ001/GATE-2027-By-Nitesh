@@ -1,0 +1,18 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:statement-sufficiency",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Statement Sufficiency",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 2015-2015.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

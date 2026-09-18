@@ -1,0 +1,19 @@
+{
+ "overview": "Statement-response matching, coherent narrative.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Statement-response matching, coherent narrative.",
+ "hinglishExplanation": "Cause-effect chain.",
+ "formalDefinition": "Statement-response matching, coherent narrative.",
+ "importantProperties": [
+  "Response relevance."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Topic shift."
+ ],
+ "standardTechniques": [
+  "1. Match."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:narrative-sequencing"
+}

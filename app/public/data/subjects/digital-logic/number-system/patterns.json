@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_NUMBER_SYSTEM_01",
+  "name": "Number Systems (Radix) (PYQ type)",
+  "recognitionClueHinglish": "Number Systems (Radix) se related sawal.",
+  "whatShouldComeToMind": [
+   "Value of digits base r ke saath."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Place values."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.29.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Base confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

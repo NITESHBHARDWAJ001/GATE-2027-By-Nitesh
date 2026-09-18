@@ -1,0 +1,18 @@
+{
+ "topicId": "co-architecture:control-unit",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "Control Unit (Hardwired vs Microprogrammed)",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 1987-1987.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  1987
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

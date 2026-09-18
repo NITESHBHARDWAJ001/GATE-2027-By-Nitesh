@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_DRAM_01",
+  "name": "DRAM Chip Organization (PYQ type)",
+  "recognitionClueHinglish": "DRAM Chip Organization se related sawal.",
+  "whatShouldComeToMind": [
+   "Row/column addressing, chip select logic, refresh."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Capacity.",
+   "2. Address split."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.9.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Address ko non-multiplexed maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "gof onto => g onto; gof one-one => f one-one.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Onto Functions and Composition se related sawal.",
+   "thinkThis": "P3_ONTO_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Converse maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:onto",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,22 @@
+{
+ "overview": "A:B :: C:? analogies (synonym, degree, part-whole, tool-user, function), odd pair out.",
+ "whyItMatters": "9 PYQs extracted (2010-2025); P2 topic.",
+ "coreConcept": "Pehle A:B ka relation ek line me likho, phir wahi relation C:? par lagao.",
+ "hinglishExplanation": "Relation types: synonym, antonym, degree, worker-tool, place-thing, grammatical (verb form). Options me se jo relation exactly match kare wahi lo.",
+ "formalDefinition": "Pehle A:B ka relation ek line me likho, phir wahi relation C:? par lagao.",
+ "importantProperties": [
+  "Relation types: synonym, antonym, degree, function, part-whole, grammatical.",
+  "Relation ka direction consistent.",
+  "Bird:Nest::Bee:Hive (dweller-home).",
+  "Verb-noun form analogies."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Relation ulta."
+ ],
+ "standardTechniques": [
+  "Relation sentence likho."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:word-pairs"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:joins",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-JOINS-01",
+   "patternId": "P3_JOINS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "b_r=10, b_s=100, nested loop (1 block each). Cost r outer?",
+   "solutionApproach": "10 + 10*100.",
+   "answer": "1010"
+  }
+ ]
+}

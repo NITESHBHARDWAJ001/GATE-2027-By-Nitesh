@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Page table cache; TLB reach = entries x page size; EAT with hit ratio.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "TLB se related sawal.",
+   "thinkThis": "P3_TRANSLATION_LOOKASIDE_BU_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Reach ko address space samajhna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:translation-lookaside-buffer",
+ "revisionLevel": "short-form"
+}

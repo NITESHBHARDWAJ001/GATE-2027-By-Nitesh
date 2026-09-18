@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:circle",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CIRCLE-01",
+   "patternId": "P3_CIRCLE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "r=7 area (pi=22/7)?",
+   "solutionApproach": "22/7*49.",
+   "answer": "154"
+  }
+ ]
+}

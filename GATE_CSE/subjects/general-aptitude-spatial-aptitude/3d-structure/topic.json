@@ -1,0 +1,18 @@
+{
+ "topicId": "general-aptitude-spatial-aptitude:3d-structure",
+ "subjectId": "general-aptitude-spatial-aptitude",
+ "subject": "General Aptitude - Spatial Aptitude",
+ "name": "3D Structures from Views",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2026-2026.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

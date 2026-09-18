@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Function calls, static/global variables, argument evaluation order.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Functions and Evaluation Order se related sawal.",
+   "thinkThis": "P3_FUNCTIONS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Order assume nahi karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:functions",
+ "revisionLevel": "short-form"
+}

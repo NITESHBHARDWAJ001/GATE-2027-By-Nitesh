@@ -1,0 +1,23 @@
+{
+ "overview": "Hamming distance d: d-1 errors detect, floor((d-1)/2) correct.",
+ "whyItMatters": "8 PYQs extracted (1987-2017); P3 topic.",
+ "coreConcept": "Hamming distance d: d-1 errors detect, floor((d-1)/2) correct.",
+ "hinglishExplanation": "Code ki min distance se detection/correction capability.",
+ "formalDefinition": "Hamming distance d: d-1 errors detect, floor((d-1)/2) correct.",
+ "importantProperties": [
+  "Detect: d-1.",
+  "Correct: floor((d-1)/2).",
+  "Parity bit single-bit error detect.",
+  "Hamming: 2^r >= m + r + 1."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Detect aur correct ki limits mix."
+ ],
+ "standardTechniques": [
+  "1. Min distance.",
+  "2. Formula."
+ ],
+ "topicId": "computer-networks:error-detection"
+}

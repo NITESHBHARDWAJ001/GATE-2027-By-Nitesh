@@ -1,0 +1,26 @@
+{
+ "topicId": "co-architecture:instruction-format",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "Instruction Format and Expanding Opcodes",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "11 PYQs extracted, 1988-2026.",
+ "pyqCountExtracted": 11,
+ "yearsCovered": [
+  1988,
+  1992,
+  1994,
+  2014,
+  2016,
+  2018,
+  2020,
+  2024,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

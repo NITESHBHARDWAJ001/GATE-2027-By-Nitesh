@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:database-schema",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DATABA-01",
+   "patternId": "P3_DATABASE_SCHEMA_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Table ke columns schema hain ya instance?",
+   "solutionApproach": "Structure.",
+   "answer": "Schema"
+  }
+ ]
+}

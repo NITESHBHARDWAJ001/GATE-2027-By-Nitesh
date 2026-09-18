@@ -1,0 +1,66 @@
+[
+ {
+  "patternId": "HSH_TABLE_SIM_01",
+  "name": "Insert Keys and Read Final Table / Chain",
+  "recognitionClueHinglish": "Keys aur hash function diye; final table, ya kis slot par kaun.",
+  "whatShouldComeToMind": [
+   "Trace."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. h(k).",
+   "2. Collision resolve."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.8.2",
+   "3.8.3",
+   "3.8.4",
+   "3.8.5",
+   "3.8.6",
+   "3.8.7",
+   "3.8.8",
+   "3.8.9",
+   "3.8.15"
+  ],
+  "variationsObserved": [
+   "Open addressing with different probe."
+  ],
+  "commonTraps": [
+   "Wrap-around."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "HSH_ANALYSIS_02",
+  "name": "Load Factor, Collision Probability, Hash Function Properties",
+  "recognitionClueHinglish": "Load factor, uniform hashing probability, chaining vs open addressing, good hash function.",
+  "whatShouldComeToMind": [
+   "Formulas."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Formula."
+  ],
+  "formulasUsed": [
+   "alpha"
+  ],
+  "pyqExamples": [
+   "3.8.1",
+   "3.8.10",
+   "3.8.11",
+   "3.8.12",
+   "3.8.13",
+   "3.8.14"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Formula misuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ }
+]

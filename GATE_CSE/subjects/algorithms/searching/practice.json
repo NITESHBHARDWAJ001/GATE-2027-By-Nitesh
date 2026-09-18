@@ -1,0 +1,42 @@
+{
+ "topicId": "algorithms:searching",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SEARCH-01",
+   "patternId": "SRC_COMPLEXITY_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Average successful comparisons in linear search on 9 items?",
+   "solutionApproach": "(9+1)/2.",
+   "answer": "5"
+  },
+  {
+   "practiceId": "AI-SEARCH-02",
+   "patternId": "SRC_COMPLEXITY_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Array of 100 zeros then ones (unknown split). Min comparisons worst case?",
+   "solutionApproach": "Binary search ~ceil(log2 101).",
+   "answer": "7"
+  },
+  {
+   "practiceId": "AI-SEARCHIN-X03",
+   "patternId": "SRC_COMPLEXITY_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Sorted 1000 elements, worst case binary search comparisons?",
+   "solutionApproach": "floor(log2 1000)+1 = 9+1.",
+   "answer": "10"
+  },
+  {
+   "practiceId": "AI-SEARCHIN-X04",
+   "patternId": "SRC_BINARY_BUG_01",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Binary search with low=mid instead of mid+1 on 2 elements can do what?",
+   "solutionApproach": "Infinite loop.",
+   "answer": "Infinite loop"
+  }
+ ]
+}

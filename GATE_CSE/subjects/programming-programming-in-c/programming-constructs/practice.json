@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-programming-in-c:programming-constructs",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PROGRA-01",
+   "patternId": "P4_PROGRAMMING_CONSTRUCTS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Bounded for loop always terminates?",
+   "solutionApproach": "Haan.",
+   "answer": "Haan"
+  }
+ ]
+}

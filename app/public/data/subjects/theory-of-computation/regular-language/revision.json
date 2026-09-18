@@ -1,0 +1,27 @@
+{
+  "topicId": "toc-regular-language",
+  "revisionLevel": "short-form",
+  "coreIdea": "Regular = finite-state recognizable. Needs unbounded counting/matching (a^n b^n, palindrome) → NOT regular. Bounded/modular counting → IS regular.",
+  "mustRememberFormulas": [
+    "Closed under: ∪, ∩, complement, concat, star, reversal",
+    "Regular ∩ CFL = always CFL",
+    "Minimal DFA states = number of Myhill-Nerode equivalence classes",
+    "Every finite language is regular; not every subset of a regular language is regular"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "specific language defined, asked 'is it regular'", "thinkThis": "RL_CLASSIFY_01"},
+    {"seeThis": "operation (union/intersection/prefix/half) asked if it preserves regularity", "thinkThis": "RL_CLOSURE_02"},
+    {"seeThis": "'minimum DFA states' or given k-state minimal DFA, reason about L", "thinkThis": "RL_MINIMAL_STATES_03"},
+    {"seeThis": "'strongest TRUE statement' about a finite language, or subset-checking algorithm", "thinkThis": "RL_PROOF_TECHNIQUE_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Bounded/modular counting (mod k, or 'exactly k more') IS regular; unbounded matching is NOT",
+    "Every finite subset is regular ALWAYS; not every subset of an infinite regular set is regular",
+    "Infinite union of regular languages is NOT guaranteed regular — only finite unions",
+    "NFA states ≠ minimal DFA states — subset construction gives an upper bound (2^n), not the exact minimum"
+  ],
+  "highYieldPyqLessons": [
+    "Classification (14/35) and closure properties (13/35) together are ~77% of this topic — these two skills carry almost the whole topic.",
+    "This is the conceptual bedrock for all of TOC — every later topic (FA, RE, CFL, Decidability) reuses this regular-vs-not judgment repeatedly."
+  ]
+}

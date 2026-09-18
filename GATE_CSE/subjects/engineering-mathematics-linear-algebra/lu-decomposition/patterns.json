@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_LU_DECOMPOSITION_01",
+  "name": "LU Decomposition (PYQ type)",
+  "recognitionClueHinglish": "LU Decomposition se related sawal.",
+  "whatShouldComeToMind": [
+   "A = LU: L lower (unit diagonal), U upper; system solve forward/back substitution."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Eliminate.",
+   "2. L multipliers.",
+   "3. Solve."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.5.1",
+   "6.5.2",
+   "6.5.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Multipliers ka sign."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,23 @@
+{
+ "topicId": "discrete-mathematics-combinatory:generating-functions",
+ "subjectId": "discrete-mathematics-combinatory",
+ "subject": "Discrete Mathematics - Combinatory",
+ "name": "Generating Functions",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 1987-2022.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  1987,
+  2005,
+  2016,
+  2017,
+  2018,
+  2022
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

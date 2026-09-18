@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "databases__3.14.1",
+  "localId": "3.14.1",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "natural-join",
+  "topic": "Natural Join",
+  "year": 2005,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "30",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Let r be a relation instance with schema R = (A, B, C, D). We define                                            and                    . Let is lossy, which where denotes natural join. Given that the decomposition of into and one of the following is TRUE? A.                                  B.                                          C.                   D.",
+  "tagsRaw": "gatecse-2005 databases  relational-algebra  natural-join  normal",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 219
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NATURAL_JOIN_01"
+ },
+ {
+  "pyqId": "databases__3.14.2",
+  "localId": "3.14.2",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "natural-join",
+  "topic": "Natural Join",
+  "year": 2010,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "43",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "The following functional dependencies hold for relations                                   and The relation contains tuples and the relation contains                                     tuples. What is the maximum number of tuples possible in the natural join                      ? A.                                  B.                                          C.                   D.",
+  "tagsRaw": "gatecse-2010 databases  normal      natural-join",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 219
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NATURAL_JOIN_01"
+ },
+ {
+  "pyqId": "databases__3.14.3",
+  "localId": "3.14.3",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "natural-join",
+  "topic": "Natural Join",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "32",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider two relations                            with the tuples                   and                                . Assume that                         is the full natural outer join of               and . Consider the following tuples of the form Which one of the following statements is correct? A. contains                   but not .                                             B. contains all             . C. contains             but not . D. contains but not .",
+  "tagsRaw": "gatecse-2015-set2 databases normal natural-join",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 219
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NATURAL_JOIN_01"
+ }
+]

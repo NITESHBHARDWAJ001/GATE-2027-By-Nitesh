@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-and-ds-data-structures:array",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ARRAY-01",
+   "patternId": "P3_ARRAY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Lower triangular 10x10 compact size?",
+   "solutionApproach": "10*11/2.",
+   "answer": "55"
+  }
+ ]
+}

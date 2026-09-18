@@ -1,0 +1,42 @@
+{
+  "topicId": "algorithms-graph-search",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-GS-01",
+      "patternId": "GS_EDGE_CLASSIFICATION_02",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "In DFS of an UNDIRECTED graph, can you ever find a 'forward edge'?",
+      "solutionApproach": "No — in undirected graphs, DFS only ever produces tree edges and back edges. Forward and cross edges cannot occur because of how undirected traversal discovers neighbors symmetrically.",
+      "answer": "No — undirected graph DFS only has tree and back edges."
+    },
+    {
+      "practiceId": "AI-GS-02",
+      "patternId": "GS_BFS_SHORTESTPATH_03",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Does a DFS tree give the shortest path (in edges) from the source to every other vertex, same as BFS?",
+      "solutionApproach": "No — only BFS guarantees this. DFS can produce arbitrarily long paths to a vertex even if a much shorter path exists, since DFS goes deep before backtracking rather than exploring level by level.",
+      "answer": "No — this guarantee is specific to BFS, not DFS."
+    },
+    {
+      "practiceId": "AI-GS-03",
+      "patternId": "GS_EDGE_CLASSIFICATION_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A DFS forest on an undirected graph with 15 vertices has 3 separate trees. How many tree edges are there in total?",
+      "solutionApproach": "Tree edges = n - c = 15 - 3 = 12.",
+      "answer": "12"
+    },
+    {
+      "practiceId": "AI-GS-04",
+      "patternId": "GS_COMPLEXITY_DEPTH_04",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A sparse graph has V=1000 vertices and E=2000 edges, represented as an adjacency matrix. What is the DFS time complexity?",
+      "solutionApproach": "Adjacency matrix forces O(V²) regardless of actual edge count, since checking all possible neighbors of each vertex costs O(V) each. O(V²) = O(1,000,000), even though E is much smaller.",
+      "answer": "O(V²) = O(1,000,000) — adjacency matrix representation ignores edge sparsity."
+    }
+  ]
+}

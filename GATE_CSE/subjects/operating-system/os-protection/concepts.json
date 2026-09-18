@@ -1,0 +1,22 @@
+{
+ "overview": "User/kernel mode, mode switch via trap/software interrupt, signals.",
+ "whyItMatters": "3 PYQs extracted (1999-2005); P3 topic.",
+ "coreConcept": "User/kernel mode, mode switch via trap/software interrupt, signals.",
+ "hinglishExplanation": "System call software interrupt (trap) se kernel mode me jaate hain; privileged instruction se mode change karna user ke liye allowed nahi.",
+ "formalDefinition": "User/kernel mode, mode switch via trap/software interrupt, signals.",
+ "importantProperties": [
+  "System call = trap/software interrupt.",
+  "User se kernel mode sirf trap se.",
+  "Privileged instructions kernel me.",
+  "Signals handlers user process me."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "User instruction se mode change maan lena."
+ ],
+ "standardTechniques": [
+  "1. Kaun trap deta hai."
+ ],
+ "topicId": "operating-system:os-protection"
+}

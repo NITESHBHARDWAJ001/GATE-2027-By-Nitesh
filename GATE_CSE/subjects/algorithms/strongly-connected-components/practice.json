@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:strongly-connected-components",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-STRONG-01",
+   "patternId": "P3_STRONGLY_CONNECTED_COMPO_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Directed cycle 1->2->3->1 me SCC count?",
+   "solutionApproach": "Ek hi cycle.",
+   "answer": "1"
+  }
+ ]
+}

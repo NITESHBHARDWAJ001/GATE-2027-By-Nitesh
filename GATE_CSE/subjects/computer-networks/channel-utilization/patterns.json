@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_CHANNEL_UTILIZATION_01",
+  "name": "Channel Utilization (PYQ type)",
+  "recognitionClueHinglish": "Channel Utilization se related sawal.",
+  "whatShouldComeToMind": [
+   "Stop-and-wait utilization = Tt/(Tt+2Tp)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Tt, Tp."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.7.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Ack time bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

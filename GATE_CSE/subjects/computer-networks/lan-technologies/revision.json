@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Ethernet vs Token ring, slotted LAN efficiency, switch counting.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "LAN Technologies (CSMA/CD, Token Ring, Slotted) se related sawal.",
+   "thinkThis": "P3_LAN_TECHNOLOGIES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "CSMA/CD ka min frame relation bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:lan-technologies",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "databases__3.7.1",
+  "localId": "3.7.1",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "database-schema",
+  "topic": "Database Schema",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "5",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "In the context of DBMS, consider the two sets and given below. Which one of the following is the correct match from to ? A. B. C. D.",
+  "tagsRaw": "gatecse-2026-set2 databases database-schema easy one-mark          Decomposition (1)",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 208
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DATABASE_SCHEMA_01"
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.36.1",
+  "localId": "9.36.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "number-theory",
+  "topic": "Number Theory",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "If                for all real values of , which one of the following statements is true? A.                                       B.                                         C.         D.",
+  "tagsRaw": "gatecse2025-set2 quantitative-aptitude   mathematical-logic  one-mark  number-theory",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 286
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NUMBER_THEORY_01"
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:average-memory-access-time",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-AVERAG-01",
+   "patternId": "P3_AVERAGE_MEMORY_ACCESS_TI_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "H1=1, m1=0.1, H2=10, m2=0.5, Mem=100?",
+   "solutionApproach": "1+0.1(10+50).",
+   "answer": "7"
+  }
+ ]
+}

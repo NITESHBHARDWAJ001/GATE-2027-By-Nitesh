@@ -1,0 +1,18 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:age-relation",
+ "subjectId": "general-aptitude-analytical-aptitude",
+ "subject": "General Aptitude - Analytical Aptitude",
+ "name": "Age Relations",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2010-2010.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2010
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

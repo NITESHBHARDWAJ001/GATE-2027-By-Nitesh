@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_BACKPATCHING_01",
+  "name": "Backpatching (PYQ type)",
+  "recognitionClueHinglish": "Backpatching se related sawal.",
+  "whatShouldComeToMind": [
+   "Jump targets baad me fill karna; truelist/falselist."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Lists.",
+   "2. Patch."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.4.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Backpatching ko two-pass maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

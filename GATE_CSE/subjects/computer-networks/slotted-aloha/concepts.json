@@ -1,0 +1,22 @@
+{
+ "overview": "Slot me exactly ek node transmit kare to success; S=G e^-G.",
+ "whyItMatters": "1 PYQs extracted (2015-2015); P4 topic.",
+ "coreConcept": "Slot me exactly ek node transmit kare to success; S=G e^-G.",
+ "hinglishExplanation": "Nodes probability p se transmit; success = ek hi transmit.",
+ "formalDefinition": "Slot me exactly ek node transmit kare to success; S=G e^-G.",
+ "importantProperties": [
+  "Success p(1-p)^(n-1) per node.",
+  "Throughput max 1/e.",
+  "Vulnerable time = 1 slot."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Pure ALOHA formula."
+ ],
+ "standardTechniques": [
+  "1. p.",
+  "2. n."
+ ],
+ "topicId": "computer-networks:slotted-aloha"
+}

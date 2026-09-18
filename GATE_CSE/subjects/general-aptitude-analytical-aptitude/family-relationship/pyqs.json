@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.6.1",
+  "localId": "8.6.1",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "family-relationship",
+  "topic": "Family Relationship",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "4",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the relationships among                                    , and : is the brother of . is the daughter of . is the sister of . is the mother of . The following statements are made based on the relationships given above. 1. is the grandmother of . 2. is the uncle of and . 3. has only one son. 4. has only one daughter. Which one of the following options is correct? A. Both  and are true.                                                                   B. Both  and are true. C. Only  is true.                                                                        D. Only  is true.",
+  "tagsRaw": "gatecse2025-set1 analytical-aptitude logical-reasoning family-relationship one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 240
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_FAMILY_RELATIONSHIP_01"
+ }
+]

@@ -1,0 +1,42 @@
+{
+ "topicId": "db-relational-algebra",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RA-01",
+   "patternId": "RA_EVAL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "R has 5 tuples, S has 4 tuples, no common attributes. |R natural-join S|?",
+   "solutionApproach": "Bina common attribute natural join = cross product.",
+   "answer": "20"
+  },
+  {
+   "practiceId": "AI-RA-02",
+   "patternId": "RA_DIVISION_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Takes(s,c) = {(1,a),(1,b),(2,a),(3,a),(3,b)}, Course(c) = {a,b}. Takes / Course?",
+   "solutionApproach": "Students jo a aur b dono le chuke hain.",
+   "answer": "{1, 3}"
+  },
+  {
+   "practiceId": "AI-RA-03",
+   "patternId": "RA_EQUIV_EXPRESSIVE_04",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "R(A,B) with FK B referencing S(B) (primary key), |R|=10. What is |R join S|?",
+   "solutionApproach": "FK-PK join me har R tuple ek hi S tuple se match.",
+   "answer": "10"
+  },
+  {
+   "practiceId": "AI-RA-04",
+   "patternId": "RA_EVAL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "R(A) = {1,2,3}, S(A) = {2,3,4}. |R - S| and |R n S|?",
+   "solutionApproach": "R - S = {1}; intersection = {2,3}.",
+   "answer": "1 and 2"
+  }
+ ]
+}

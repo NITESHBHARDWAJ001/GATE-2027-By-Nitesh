@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:normal-forms",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NORMAL-01",
+   "patternId": "P3_NORMAL_FORMS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "R(A,B) me koi FD? Normal form?",
+   "solutionApproach": "Two attributes always BCNF.",
+   "answer": "BCNF"
+  }
+ ]
+}

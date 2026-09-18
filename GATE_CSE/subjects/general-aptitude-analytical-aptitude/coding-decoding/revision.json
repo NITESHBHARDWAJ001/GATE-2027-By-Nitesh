@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Letters ke shifts se word code.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Coding-Decoding se related sawal.",
+   "thinkThis": "P3_CODING_DECODING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Shift direction."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:coding-decoding",
+ "revisionLevel": "short-form"
+}

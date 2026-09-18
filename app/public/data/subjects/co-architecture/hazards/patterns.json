@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_HAZARDS_01",
+  "name": "Pipeline Hazards (Structural/Control) (PYQ type)",
+  "recognitionClueHinglish": "Pipeline Hazards (Structural/Control) se related sawal.",
+  "whatShouldComeToMind": [
+   "EX me memory read wale load instructions ke stall; structural aur control hazards."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Stage timing table."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.15.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Stalls ki count off-by-one."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

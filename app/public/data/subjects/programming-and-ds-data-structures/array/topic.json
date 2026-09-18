@@ -1,0 +1,27 @@
+{
+ "topicId": "programming-and-ds-data-structures:array",
+ "subjectId": "programming-and-ds-data-structures",
+ "subject": "Programming & DS - Data Structures",
+ "name": "Arrays (Data Structure View)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "13 PYQs extracted, 1993-2021.",
+ "pyqCountExtracted": 13,
+ "yearsCovered": [
+  1993,
+  1994,
+  1997,
+  1998,
+  2000,
+  2005,
+  2013,
+  2014,
+  2015,
+  2021
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

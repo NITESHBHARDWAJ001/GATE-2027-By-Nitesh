@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Random choice se quadratic ke roots ki property (counting based).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Square-Invariant Polynomial (Counting/Probability) se related sawal.",
+   "thinkThis": "P3_SQUARE_INVARIANT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Definition galat padhna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-probability:square-invariant",
+ "revisionLevel": "short-form"
+}

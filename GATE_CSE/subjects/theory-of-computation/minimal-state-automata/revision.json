@@ -1,0 +1,27 @@
+{
+  "topicId": "toc-minimal-state-automata",
+  "revisionLevel": "short-form",
+  "coreIdea": "Minimum states = number of distinct 'residual behaviors' to remember. Modular condition (div by k) = k states. Combined independent conditions = product of moduli.",
+  "mustRememberFormulas": [
+    "'divisible by k' → k states",
+    "'mod p AND mod q' (independent) → p×q states",
+    "'last k symbols matter' → O(2^k) states typically",
+    "NFA n states → minimal DFA ≤2^n (upper bound only, not exact)",
+    "Complement of L needs the SAME state count as L"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "language description, asked minimum DFA states", "thinkThis": "MSA_COMPUTE_MIN_STATES_01"},
+    {"seeThis": "existing automaton/state table, asked to minimize", "thinkThis": "MSA_MINIMIZATION_PROCEDURE_02"},
+    {"seeThis": "general 'necessarily true' claim about NFA-n-states → DFA-states relationship", "thinkThis": "MSA_NFA_DFA_BOUND_THEORY_03"}
+  ],
+  "commonTrapsQuickList": [
+    "Always verify product-construction state counts for unreachable/equivalent states — p×q is an upper bound too, not always exact",
+    "Complement needs SAME state count as original, not different",
+    "2^n is only an upper bound for NFA→DFA, no simple universal lower bound",
+    "Minimal DFA is UNIQUE for any given regular language"
+  ],
+  "highYieldPyqLessons": [
+    "State-counting (18/25) is nearly the whole topic — build fluency with modular/product/sliding-window counting until it's automatic.",
+    "This topic pairs perfectly with Regular Language's Myhill-Nerode content — study them close together."
+  ]
+}

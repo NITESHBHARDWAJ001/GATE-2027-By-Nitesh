@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Bytes over links, headers overhead, on-off traffic sources, handshake protocol.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Flow and Throughput (Segments, Links, On-Off Sources) se related sawal.",
+   "thinkThis": "P3_NETWORK_FLOW_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Overhead ignore."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:network-flow",
+ "revisionLevel": "short-form"
+}

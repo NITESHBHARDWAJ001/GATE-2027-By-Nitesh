@@ -1,0 +1,35 @@
+{
+  "topicId": "cd-syntax-directed-translation",
+  "overview": "SDT grammar productions ke saath 'semantic actions'/attributes attach karta hai — parsing ke saath-saath COMPUTATION bhi hoti hai (jaise expression VALUE, ya type-checking, ya code generation). 3 skills: given SDT se attribute VALUE compute karna, S-attributed/L-attributed classify karna, aur naya SDT design karna.",
+  "whyItMatters": "19 PYQs. Attribute-computation questions (evaluate value given rules) bahut mechanical aur high-accuracy-achievable hain.",
+  "coreConcept": "SYNTHESIZED attribute: value bottom-up flow karta hai (child se parent, jaise E.val computed from E1.val + E2.val) — LR (bottom-up) parsing ke saath naturally fit hota hai. INHERITED attribute: value TOP-DOWN ya SIDEWAYS flow karta hai (parent se child, ya left-sibling se right-sibling, jaise type declaration propagate karna). S-ATTRIBUTED SDT = sirf synthesized attributes (evaluate at REDUCE time in bottom-up parsing, easy). L-ATTRIBUTED SDT = synthesized + RESTRICTED inherited (sirf LEFT-to-right dependency allowed, no right-to-left) — thoda zyada flexible but still evaluable in a single left-to-right pass.",
+  "hinglishExplanation": "Synthesized attribute ko socho 'bachon se maa-baap tak information collect karna' — jaise 2 numbers add karke result upar bhejna. Inherited attribute 'maa-baap se bachon tak information pass karna' hai — jaise 'tum INT type ho' batana niche ke sab identifiers ko. S-attributed sirf PEHLI tarah ka flow allow karta hai (simple, bottom-up-friendly). L-attributed dono allow karta hai, but inherited attribute SIRF LEFT se aa sakta hai (apne se pehle wale sibling ya parent se), right se NAHI — isliye ek hi LEFT-TO-RIGHT pass me evaluate ho sakta hai.",
+  "formalDefinition": "Synthesized attribute of non-terminal A: computed from attributes of A's CHILDREN (and possibly terminals) in the SAME production. Inherited attribute of a symbol X (in production A→X1X2...Xn): computed from A's inherited attributes and/or attributes of symbols to X's LEFT in the same production.",
+  "importantProperties": [
+    "S-attributed SDDs are a STRICT SUBSET of L-attributed SDDs (every S-attributed is also L-attributed, since having ONLY synthesized attributes trivially satisfies the 'no right-dependency' restriction).",
+    "In BOTTOM-UP (LR) parsing, inherited attributes can be evaluated ONLY IF the SDD is L-attributed (bottom-up evaluation naturally computes things left-to-right, matching L-attributed's restriction) — NOT for arbitrary inherited attributes with right-dependencies.",
+    "S-attributed SDDs can ALWAYS be evaluated during bottom-up (LR) parsing, attaching the semantic action right after each REDUCE step — this is the simplest, most common case.",
+    "For arbitrary (non-L-attributed) inherited attributes needing right-to-left information flow, a bottom-up parser CANNOT evaluate them in one pass — would need multiple passes or a different evaluation strategy (like building the full parse tree first, then evaluating).",
+    "Annotated parse tree: draw the parse tree, compute each node's attributes bottom-up (synthesized) or top-down (inherited) following the dependency graph, respecting evaluation order constraints."
+  ],
+  "formulas": {
+    "sAttributedSubsetLAttributed": "S-attributed ⊊ L-attributed (every S-attributed SDD is also L-attributed)",
+    "bottomUpEvaluationRule": "Inherited attributes evaluable during bottom-up parsing IFF the SDD is L-attributed",
+    "sAttributedAlwaysBottomUpOK": "S-attributed SDDs are ALWAYS evaluable during bottom-up (LR) parsing, at reduce time"
+  },
+  "keyPropertiesAndIdentities": [
+    "Reading a semantic action attached to a production: it executes at the moment that production's REDUCE happens (bottom-up) or at the corresponding point during a top-down parse/tree traversal — track WHEN each action fires carefully relative to the parse order.",
+    "For 'compute the final attribute value' questions: build the annotated parse tree for the given input, evaluate attributes in DEPENDENCY order (synthesized bottom-up first if no inherited attributes depend on siblings not yet computed)."
+  ],
+  "commonPitfalls": [
+    "Assuming ALL inherited attributes can be evaluated during bottom-up parsing — only L-attributed ones (restricted, left-to-right-only dependency) can be.",
+    "Confusing 'synthesized' (child→parent) with 'inherited' (parent/left-sibling→current) attribute flow direction.",
+    "Missing the exact TIMING of semantic actions (some attached mid-production via embedded actions, not just at the very end) — track precisely when each action fires during the parse.",
+    "Computing attributes in the wrong order — always respect the actual DEPENDENCY graph (which attribute needs which other attribute's value first), not just a fixed bottom-up-then-top-down assumption."
+  ],
+  "standardTechniques": [
+    "For value-computation questions: build the parse tree for the given input first, then evaluate attributes following the dependency order given by the semantic rules (usually bottom-up for synthesized, but check for any inherited attributes that need to flow down/across first).",
+    "For S-attributed/L-attributed classification: check EVERY inherited attribute's dependency — does it EVER depend on something to its RIGHT (later sibling, or the parent's attribute that itself depends on something right)? If yes, NOT L-attributed. If all attributes are synthesized, it's S-attributed (hence also L-attributed).",
+    "For SDT-design questions: identify what information needs to flow UP (results/values — synthesized) vs DOWN/ACROSS (context like type/scope — inherited), design attributes and rules accordingly."
+  ]
+}

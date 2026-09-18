@@ -1,0 +1,18 @@
+{
+ "topicId": "digital-logic:conjunctive-normal-form",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Conjunctive Normal Form",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2007-2007.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2007
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

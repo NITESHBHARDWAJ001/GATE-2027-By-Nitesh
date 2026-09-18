@@ -1,0 +1,20 @@
+{
+ "overview": "Functions ke set par relation ki properties.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Functions ke set par relation ki properties.",
+ "hinglishExplanation": "Function properties: one-one, onto, composition.",
+ "formalDefinition": "Functions ke set par relation ki properties.",
+ "importantProperties": [
+  "Equivalence relation: reflexive, symmetric, transitive.",
+  "Composition properties."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Property mix."
+ ],
+ "standardTechniques": [
+  "1. Definitions."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:identify-function"
+}

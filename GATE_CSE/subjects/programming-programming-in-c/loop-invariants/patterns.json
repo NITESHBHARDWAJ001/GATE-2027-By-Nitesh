@@ -1,0 +1,55 @@
+[
+ {
+  "patternId": "LI_INVARIANT_01",
+  "name": "Find the Loop Invariant / Fill the Blank",
+  "recognitionClueHinglish": "Code fragment; invariant ya missing condition.",
+  "whatShouldComeToMind": [
+   "Check initial and maintenance."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Init.",
+   "2. Step."
+  ],
+  "formulasUsed": [
+   "division"
+  ],
+  "pyqExamples": [
+   "5.6.5",
+   "5.6.6",
+   "5.6.7",
+   "5.6.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Off-by-one."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "LI_ASSERTIONS_02",
+  "name": "Assertions / Equivalence of Loops (Descriptive)",
+  "recognitionClueHinglish": "Flowchart assertions, loop equivalence.",
+  "whatShouldComeToMind": [
+   "Assertions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Write assertion."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.6.1",
+   "5.6.2",
+   "5.6.3",
+   "5.6.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

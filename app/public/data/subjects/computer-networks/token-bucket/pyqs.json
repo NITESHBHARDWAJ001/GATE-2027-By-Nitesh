@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "computer-networks__2.36.1",
+  "localId": "2.36.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "token-bucket",
+  "topic": "Token Bucket",
+  "year": 2008,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "58",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "A computer on a                      network is regulated by a token bucket. The token bucket is filled at a rate of . It is initially filled to capacity with                            . What is the maximum duration for which the computer can transmit at the full                          ? A. seconds                           B. seconds                               C. seconds        D. seconds",
+  "tagsRaw": "gatecse-2008 computer-networks  token-bucket",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 157
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_TOKEN_BUCKET_01"
+ },
+ {
+  "pyqId": "computer-networks__2.36.2",
+  "localId": "2.36.2",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "token-bucket",
+  "topic": "Token Bucket",
+  "year": 2016,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "54",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "1.10:1.19",
+  "answerVerified": true,
+  "questionTextRaw": "For a host machine that uses the token bucket algorithm for congestion control, the token bucket has a capacity of                          and the maximum output rate is                        per  . Tokens arrive at a rate to sustain output at a rate of                                per             . The token bucket is currently full and the machine needs to send                              of data. The minimum time required to transmit the data is _____________                 .",
+  "tagsRaw": "gatecse-2016-set1 computer-networks  token-bucket  normal  numerical-answers",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 157
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_TOKEN_BUCKET_01"
+ }
+]

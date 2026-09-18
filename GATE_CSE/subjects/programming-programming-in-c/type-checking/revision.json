@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Static typing me compile time type check.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Static vs Dynamic Typing se related sawal.",
+   "thinkThis": "P4_TYPE_CHECKING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Static ko no-checking."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:type-checking",
+ "revisionLevel": "short-form"
+}

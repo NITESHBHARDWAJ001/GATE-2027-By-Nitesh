@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:graph-coloring",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-GRAPH--01",
+   "patternId": "P3_GRAPH_COLORING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Triangle graph chromatic?",
+   "solutionApproach": "3.",
+   "answer": "3"
+  }
+ ]
+}

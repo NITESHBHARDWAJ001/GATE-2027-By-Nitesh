@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:gaussian-elimination",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-GAUSSI-01",
+   "patternId": "P3_GAUSSIAN_ELIMINATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Gaussian elimination order?",
+   "solutionApproach": "Cubic.",
+   "answer": "O(n^3)"
+  }
+ ]
+}

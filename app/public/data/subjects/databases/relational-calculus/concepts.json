@@ -1,0 +1,23 @@
+{
+ "overview": "Tuple/domain relational calculus expressions; algebra ke equivalent; safe expressions.",
+ "whyItMatters": "13 PYQs extracted (1993-2013); P3 topic.",
+ "coreConcept": "Tuple/domain relational calculus expressions; algebra ke equivalent; safe expressions.",
+ "hinglishExplanation": "Calculus declarative hai: {t | P(t)}; safe expression finite output deta hai.",
+ "formalDefinition": "Tuple/domain relational calculus expressions; algebra ke equivalent; safe expressions.",
+ "importantProperties": [
+  "Calculus vs algebra equal expressive power (safe).",
+  "Unsafe: {t | NOT r(t)} infinite ho sakta hai.",
+  "Existential/universal quantifiers.",
+  "Query transformations equivalence check."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Unsafe expression ko valid maan lena."
+ ],
+ "standardTechniques": [
+  "1. Predicate padho.",
+  "2. Algebra me translate."
+ ],
+ "topicId": "databases:relational-calculus"
+}

@@ -1,0 +1,24 @@
+{
+ "overview": "Message ko x^r se multiply karke generator se mod 2 divide; remainder append.",
+ "whyItMatters": "5 PYQs extracted (2005-2026); P3 topic.",
+ "coreConcept": "Message ko x^r se multiply karke generator se mod 2 divide; remainder append.",
+ "hinglishExplanation": "Error detect jab error polynomial generator se divisible na ho.",
+ "formalDefinition": "Message ko x^r se multiply karke generator se mod 2 divide; remainder append.",
+ "importantProperties": [
+  "Append r zeros, mod-2 divide.",
+  "Transmitted = message + remainder.",
+  "Generator with x+1 factor odd errors detect.",
+  "Burst <= r detect."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "XOR ki jagah normal subtraction."
+ ],
+ "standardTechniques": [
+  "1. Zeros append.",
+  "2. XOR division.",
+  "3. Remainder."
+ ],
+ "topicId": "computer-networks:crc-polynomial"
+}

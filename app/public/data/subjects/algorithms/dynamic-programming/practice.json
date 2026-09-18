@@ -1,0 +1,42 @@
+{
+ "topicId": "algorithms:dynamic-programming",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DYNAMI-01",
+   "patternId": "DP_TABLE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "LCS of 'ABC' and 'AC'?",
+   "solutionApproach": "AC.",
+   "answer": "2"
+  },
+  {
+   "practiceId": "AI-DYNAMI-02",
+   "patternId": "DP_CONCEPT_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Floyd-Warshall paradigm?",
+   "solutionApproach": "Dynamic programming.",
+   "answer": "DP"
+  },
+  {
+   "practiceId": "AI-DYNAMIC--X03",
+   "patternId": "DP_TABLE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "LCS of 'ABCBDAB' and 'BDCABA'?",
+   "solutionApproach": "Standard example.",
+   "answer": "4"
+  },
+  {
+   "practiceId": "AI-DYNAMIC--X04",
+   "patternId": "DP_TABLE_01",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Subset sum: set {3,4,5}, target 9. Exists?",
+   "solutionApproach": "4+5.",
+   "answer": "Yes"
+  }
+ ]
+}

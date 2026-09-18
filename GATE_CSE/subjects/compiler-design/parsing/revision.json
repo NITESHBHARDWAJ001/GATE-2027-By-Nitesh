@@ -1,0 +1,30 @@
+{
+ "coreIdea": "Top-down leftmost derivation banata hai; bottom-up rightmost derivation ka reverse (reductions).",
+ "mustRememberFormulas": [
+  "power: LR(1) >= LALR(1) >= SLR(1)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Kaunsa parser top-down/bottom-up, kaun powerful, handle, conflicts.",
+   "thinkThis": "PRS_TYPE_01"
+  },
+  {
+   "seeThis": "Grammar ka LL(1) table entries ya conflicts.",
+   "thinkThis": "PRS_TABLE_02"
+  },
+  {
+   "seeThis": "String ke liye reductions, semantic-rule evaluation, language processing scheme.",
+   "thinkThis": "PRS_TRACE_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Epsilon rows.",
+  "Operator precedence bottom-up.",
+  "Step counting."
+ ],
+ "highYieldPyqLessons": [
+  "Concept classification recurs; table construction needs FIRST/FOLLOW."
+ ],
+ "topicId": "compiler-design:parsing",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Speedup = 1 / ((1 - f) + f/s), f = enhanced fraction, s = local speedup.",
+ "mustRememberFormulas": [
+  "amdahl: 1/((1-f)+f/s)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Fraction aur local speedup; overall speedup.",
+   "thinkThis": "SU_AMDAHL_01"
+  },
+  {
+   "seeThis": "Stages, cycles; speedup vs non-pipelined.",
+   "thinkThis": "SU_PIPELINE_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Fraction of time vs instr.",
+  "Stage overhead."
+ ],
+ "highYieldPyqLessons": [
+  "Amdahl appears in all years; identify fraction of TIME."
+ ],
+ "topicId": "co-architecture:speedup",
+ "revisionLevel": "short-form"
+}

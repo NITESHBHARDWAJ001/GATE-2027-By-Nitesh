@@ -1,0 +1,21 @@
+{
+ "overview": "A <= B: B decidable => A decidable; A undecidable => B undecidable.",
+ "whyItMatters": "2 PYQs extracted (2005-2016); P3 topic.",
+ "coreConcept": "A <= B: B decidable => A decidable; A undecidable => B undecidable.",
+ "hinglishExplanation": "Reduction se hardness propagate.",
+ "formalDefinition": "A <= B: B decidable => A decidable; A undecidable => B undecidable.",
+ "importantProperties": [
+  "A<=B, B decidable => A decidable.",
+  "A undecidable => B undecidable.",
+  "RE/recursive versions."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Direction ulta."
+ ],
+ "standardTechniques": [
+  "1. Direction check."
+ ],
+ "topicId": "theory-of-computation:reduction"
+}

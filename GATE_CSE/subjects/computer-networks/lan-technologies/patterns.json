@@ -1,0 +1,32 @@
+[
+ {
+  "patternId": "P3_LAN_TECHNOLOGIES_01",
+  "name": "LAN Technologies (CSMA/CD, Token Ring, Slotted) (PYQ type)",
+  "recognitionClueHinglish": "LAN Technologies (CSMA/CD, Token Ring, Slotted) se related sawal.",
+  "whatShouldComeToMind": [
+   "Ethernet vs Token ring, slotted LAN efficiency, switch counting."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Protocol.",
+   "2. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.19.1",
+   "2.19.2",
+   "2.19.3",
+   "2.19.4",
+   "2.19.5",
+   "2.19.6",
+   "2.19.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "CSMA/CD ka min frame relation bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

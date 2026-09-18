@@ -1,0 +1,42 @@
+{
+  "topicId": "ds-linked-list",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-LL-01",
+      "patternId": "LL_MANIPULATION_TRACE_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "List: 1→2→3→4→NULL. Given pointer p to node 2: q=p->next; p->next=q->next; free(q);  What does the list look like after?",
+      "solutionApproach": "q points to node 3. p->next=q->next means node 2's next now points to node 4 (skipping 3). Free q (node 3). Result: 1→2→4→NULL.",
+      "answer": "1→2→4→NULL (node 3 deleted)"
+    },
+    {
+      "practiceId": "AI-LL-02",
+      "patternId": "LL_COMPLEXITY_ANALYSIS_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "You're given a pointer to a node X in a singly linked list, and told X is NOT the last node. What's the worst-case time to delete X using only this pointer?",
+      "solutionApproach": "Since X is not last, use the copy-trick: copy X->next's data into X, then delete X->next (which requires only updating X->next = X->next->next). O(1).",
+      "answer": "O(1) — the copy-next-and-delete-next trick works since X is guaranteed not to be the last node."
+    },
+    {
+      "practiceId": "AI-LL-03",
+      "patternId": "LL_VS_ARRAY_TRADEOFF_03",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Why is binary search NOT efficient on a sorted singly linked list, even though the list is sorted?",
+      "solutionApproach": "Binary search needs O(1) random access to the middle element at each step. A linked list requires O(n) traversal just to REACH the middle, destroying the log n advantage — overall becomes O(n) instead of O(log n).",
+      "answer": "No random access — reaching the 'middle' element itself takes O(n) traversal, so binary search degrades to O(n) overall."
+    },
+    {
+      "practiceId": "AI-LL-04",
+      "patternId": "LL_CIRCULAR_DESIGN_04",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "For a circular singly-linked-list-based queue, why is pointing the single external pointer to the FRONT node a bad design choice?",
+      "solutionApproach": "With pointer at front, front access is O(1), but enqueue (which must reach rear to insert after it) requires traversing the ENTIRE list from front to rear = O(n). Pointing at rear instead gives O(1) for BOTH (front = rear->next).",
+      "answer": "Enqueue would need O(n) traversal to reach rear from front — pointing at REAR instead gives O(1) access to both ends."
+    }
+  ]
+}

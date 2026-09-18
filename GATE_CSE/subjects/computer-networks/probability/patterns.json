@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_PROBABILITY_01",
+  "name": "Probability in Networks (PYQ type)",
+  "recognitionClueHinglish": "Probability in Networks se related sawal.",
+  "whatShouldComeToMind": [
+   "Bit error probability, message success probability, retransmission expected count."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Success p.",
+   "2. Expected."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.26.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Independence maan lena bina check."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

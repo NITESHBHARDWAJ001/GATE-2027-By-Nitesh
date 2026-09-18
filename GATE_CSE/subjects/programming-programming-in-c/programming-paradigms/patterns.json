@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P4_PROGRAMMING_PARADIGMS_01",
+  "name": "Programming Paradigms (PYQ type)",
+  "recognitionClueHinglish": "Programming Paradigms se related sawal.",
+  "whatShouldComeToMind": [
+   "Structured, OO, functional, logic paradigms."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.12.1",
+   "5.12.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Indentation goal."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

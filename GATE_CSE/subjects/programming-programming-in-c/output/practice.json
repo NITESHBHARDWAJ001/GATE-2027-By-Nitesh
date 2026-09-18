@@ -1,0 +1,33 @@
+{
+ "topicId": "programming-programming-in-c:output",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-OUTPUT-01",
+   "patternId": "OUT_TRACE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "x=126,y=105; do{x>y?x-=y:y-=x}while(x!=y); prints?",
+   "solutionApproach": "gcd(126,105).",
+   "answer": "21"
+  },
+  {
+   "practiceId": "AI-OUTPUT-X02",
+   "patternId": "OUT_TRACE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "int x=10; while(x>3) x=x/2; printf x?",
+   "solutionApproach": "10,5,2.",
+   "answer": "2"
+  },
+  {
+   "practiceId": "AI-OUTPUT-X03",
+   "patternId": "OUT_TRACE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "static int c inside f, f called 3 times increments c and returns. Third return (c init 0)?",
+   "solutionApproach": "3.",
+   "answer": "3"
+  }
+ ]
+}

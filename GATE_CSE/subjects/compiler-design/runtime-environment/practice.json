@@ -1,0 +1,42 @@
+{
+ "topicId": "compiler-design:runtime-environment",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RUNTIM-01",
+   "patternId": "RTE_LINK_LOAD_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Modules of lengths 100,200,300 loaded from 0. Relocation constants?",
+   "solutionApproach": "Cumulative.",
+   "answer": "0,100,300"
+  },
+  {
+   "practiceId": "AI-RUNTIM-02",
+   "patternId": "RTE_ALLOC_SCOPE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Does recursion need dynamic memory (stack)?",
+   "solutionApproach": "Yes.",
+   "answer": "Yes"
+  },
+  {
+   "practiceId": "AI-RUNTIME--X03",
+   "patternId": "RTE_ALLOC_SCOPE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Which scope rule uses the call chain?",
+   "solutionApproach": "Dynamic.",
+   "answer": "Dynamic scope"
+  },
+  {
+   "practiceId": "AI-RUNTIME--X04",
+   "patternId": "RTE_LINK_LOAD_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Modules of length 50, 80, 120 loaded sequentially from 100. Relocation constants?",
+   "solutionApproach": "100,150,230.",
+   "answer": "100, 150, 230"
+  }
+ ]
+}

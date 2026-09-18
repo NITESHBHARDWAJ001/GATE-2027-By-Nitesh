@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_FINITE_STATE_MACHINES_01",
+  "name": "Finite State Machines (TOC View) (PYQ type)",
+  "recognitionClueHinglish": "Finite State Machines (TOC View) se related sawal.",
+  "whatShouldComeToMind": [
+   "Moore/Mealy output, state diagram trace."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Trace."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.8.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Moore/Mealy confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

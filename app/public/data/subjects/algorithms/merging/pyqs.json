@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "algorithms__1.30.1",
+  "localId": "1.30.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "merging",
+  "topic": "Merging",
+  "year": 1995,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1.16                                                    , we require comparisons of",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "For merging two sorted lists of sizes and into a sorted list of size A.                                        B.                                   C.                 D.",
+  "tagsRaw": "gate1995 algorithms  sorting  normal      merging",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 70
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_MERGING_01"
+ },
+ {
+  "pyqId": "algorithms__1.30.2",
+  "localId": "1.30.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "merging",
+  "topic": "Merging",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "38",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "358",
+  "answerVerified": true,
+  "questionTextRaw": "Suppose                                are sorted sequences having lengths                            respectively. They are to be merged into a single sequence by merging together two sequences at a time. The number of comparisons that will be needed in the worst case by the optimal algorithm for doing this is ____.",
+  "tagsRaw": "gatecse-2014-set2 algorithms  sorting  normal      numerical-answers  merging",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 70
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_MERGING_01"
+ }
+]

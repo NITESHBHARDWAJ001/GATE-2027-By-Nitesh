@@ -1,0 +1,37 @@
+{
+ "topicId": "os-disk-scheduling",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Disk Scheduling",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "16 PYQs extracted, tested 1989-2020. Purely mechanical head-movement computation, last P1 topic of the OS track.",
+ "pyqCountExtracted": 16,
+ "yearsCovered": [
+  1989,
+  1990,
+  1995,
+  1997,
+  1999,
+  2001,
+  2004,
+  2007,
+  2009,
+  2014,
+  2015,
+  2016,
+  2018,
+  2020
+ ],
+ "prerequisites": [
+  {
+   "topic": "Process Scheduling",
+   "subjectId": "operating-system",
+   "why": "Same idea: pick next request from a queue by a policy."
+  }
+ ],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

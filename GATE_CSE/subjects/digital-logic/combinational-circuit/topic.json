@@ -1,0 +1,19 @@
+{
+ "topicId": "digital-logic:combinational-circuit",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Combinational Circuits (Glitches)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "2 PYQs extracted, 2022-2024.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2022,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

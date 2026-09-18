@@ -1,0 +1,24 @@
+{
+ "overview": "RAW hazards, forwarding se stalls kam, stage-wise timing.",
+ "whyItMatters": "4 PYQs extracted (2005-2015); P3 topic.",
+ "coreConcept": "RAW hazards, forwarding se stalls kam, stage-wise timing.",
+ "hinglishExplanation": "Consumer ko result producer ke EX ke baad mil sakta hai (forwarding), warna WB tak stall.",
+ "formalDefinition": "RAW hazards, forwarding se stalls kam, stage-wise timing.",
+ "importantProperties": [
+  "RAW true dependency; forwarding se kam stall.",
+  "Load-use hazard me 1 stall bhi zaroori.",
+  "Bypassing sab RAW handle nahi karta.",
+  "Cycles = stages + stalls."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Forwarding ko har hazard ka ilaaj maan lena."
+ ],
+ "standardTechniques": [
+  "1. Dependency pairs.",
+  "2. Stalls.",
+  "3. Cycles."
+ ],
+ "topicId": "co-architecture:data-dependency"
+}

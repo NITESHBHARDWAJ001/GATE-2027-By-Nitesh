@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Single input change par output glitch; redundant term se remove.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Static Hazards se related sawal.",
+   "thinkThis": "P4_STATIC_HAZARD_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Hazard aur race confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:static-hazard",
+ "revisionLevel": "short-form"
+}

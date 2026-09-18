@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:communication",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-COMMUN-01",
+   "patternId": "P3_COMMUNICATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "1000 bits, 1 Mbps link: Tt?",
+   "solutionApproach": "1000/10^6.",
+   "answer": "1 ms"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_SEQUENCE_SERIES_01",
+  "name": "Sequences and Series (PYQ type)",
+  "recognitionClueHinglish": "Sequences and Series se related sawal.",
+  "whatShouldComeToMind": [
+   "Sequence ka pattern ya missing value."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Differences.",
+   "2. Ratios."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.14.1",
+   "8.14.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Ek pattern par jaldi conclude."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:code-words",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CODE-W-01",
+   "patternId": "P3_CODE_WORDS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "careless=fertaga, careful=otaga: 'ful' ka code?",
+   "solutionApproach": "Common part 'taga'.",
+   "answer": "'ota' varies; pattern match"
+  }
+ ]
+}

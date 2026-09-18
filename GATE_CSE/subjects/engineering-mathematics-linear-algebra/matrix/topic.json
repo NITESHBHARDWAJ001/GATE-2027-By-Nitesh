@@ -1,0 +1,38 @@
+{
+ "topicId": "em-la-matrix",
+ "subjectId": "engineering-mathematics-linear-algebra",
+ "subject": "Engineering Mathematics - Linear Algebra",
+ "name": "Matrices",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "24 PYQs extracted, 1987-2026; regular.",
+ "pyqCountExtracted": 24,
+ "yearsCovered": [
+  1987,
+  1988,
+  1993,
+  1994,
+  1996,
+  1997,
+  1998,
+  2001,
+  2004,
+  2006,
+  2008,
+  2015,
+  2022,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [
+  {
+   "topic": "Eigen Value",
+   "subjectId": "engineering-mathematics-linear-algebra",
+   "why": "Trace/determinant links."
+  }
+ ],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

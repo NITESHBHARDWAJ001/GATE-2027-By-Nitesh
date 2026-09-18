@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "engineering-mathematics-probability__7.15.1",
+  "localId": "7.15.1",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "probability-distribution",
+  "topic": "Probability Distribution",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "48",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "0.300:0.302",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a probability distribution given by the density function                         . The probability that lies between and , i.e.,                                             is _________. (rounded off to three decimal places)",
+  "tagsRaw": "gatecse2025-set1 probability  probability-distribution  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 219
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PROBABILITY_DISTRIBUTION_01"
+ }
+]

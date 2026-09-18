@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Map colouring basic.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Graph Coloring (Aptitude) se related sawal.",
+   "thinkThis": "P3_GRAPH_COLORING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Non-adjacent restrict."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:graph-coloring",
+ "revisionLevel": "short-form"
+}

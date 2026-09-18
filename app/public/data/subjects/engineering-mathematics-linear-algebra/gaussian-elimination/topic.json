@@ -1,0 +1,18 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:gaussian-elimination",
+ "subjectId": "engineering-mathematics-linear-algebra",
+ "subject": "Engineering Mathematics - Linear Algebra",
+ "name": "Gaussian Elimination Cost",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2025-2025.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

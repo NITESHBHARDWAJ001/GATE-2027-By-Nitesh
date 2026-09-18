@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_FACTORS_01",
+  "name": "Factors (PYQ type)",
+  "recognitionClueHinglish": "Factors se related sawal.",
+  "whatShouldComeToMind": [
+   "Number of factors, HCF, LCM."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Factorize."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.22.1",
+   "9.22.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Factors 1 aur n."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

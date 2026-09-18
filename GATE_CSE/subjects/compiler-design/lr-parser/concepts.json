@@ -1,0 +1,38 @@
+{
+  "topicId": "cd-lr-parser",
+  "overview": "LR Parser topic 3 skills me deep-dive karta hai: SLR/LALR/LR(1) power aur state-count COMPARISON theory, actual ITEM-SET construction aur conflict detection, aur bottom-up parsing TRACE (reduction steps, derivation order).",
+  "whyItMatters": "20 PYQs. Item-set construction (2019-2026 me har saal NAT-type) high-value, practice-heavy skill hai.",
+  "coreConcept": "LR parsing = bottom-up, builds RIGHTMOST derivation in REVERSE. Har step: SHIFT (input symbol stack pe push karo) ya REDUCE (stack ke top ko ek production ke RHS se match karke LHS se replace karo). Power hierarchy: SLR(1) ⊊ LALR(1) ⊊ LR(1) (canonical) — LR(1) SABSE powerful hai (sabse zyada grammars handle kar sakta hai), SLR sabse SIMPLE hai implement karna (lekin sabse kam grammars handle karta hai).",
+  "hinglishExplanation": "LR parser ko ek 'bottom-up puzzle solver' socho — ye INPUT string ke pieces ko dekh dekh kar, jab bhi koi piece kisi grammar rule ke RHS se match kare, use LHS se REPLACE karta hai (reduce), aur jab match nahi milta, agla input symbol le leta hai (shift). LR(1) sabse powerful isliye hai kyunki har 'state' me ye PRECISE lookahead symbol yaad rakhta hai (per-item lookahead) — LALR SAME states (LR(0) jaisी) use karta hai but lookaheads MERGE kar deta hai (jo kabhi-kabhi naya conflict create kar sakta hai jo LR(1) me nahi tha).",
+  "formalDefinition": "LR(1) item: [A→α·β, a] — a production with a dot marking parse progress, plus a lookahead terminal a. Canonical collection built via closure() and goto() operations starting from the augmented grammar's initial item.",
+  "importantProperties": [
+    "Power/generality hierarchy: SLR(1) ⊊ LALR(1) ⊊ Canonical LR(1) — every grammar parseable by SLR is also parseable by LALR and LR(1), but not conversely.",
+    "State-count hierarchy: LALR(1) has the SAME number of states as LR(0)/SLR(1) (LALR MERGES LR(1) states with identical cores) — LALR states ≤ Canonical LR(1) states, often MUCH fewer, while SLR and LALR states are typically EQUAL in number (built on the same LR(0) automaton).",
+    "LALR is constructed by taking the canonical LR(1) collection and MERGING states with the same 'core' (same LR(0) items, ignoring lookaheads) — this merging can occasionally INTRODUCE a new reduce-reduce conflict that wasn't present in the canonical LR(1) parser (merging is the source of LALR's slight power loss vs LR(1)).",
+    "LALR(1) has a shift-reduce conflict IFF the canonical LR(1) parser ALSO has a shift-reduce conflict — merging states never introduces NEW shift-reduce conflicts (only possibly new reduce-reduce conflicts).",
+    "LR parsers construct the RIGHTMOST derivation in REVERSE (i.e., trace a rightmost derivation backward) — this is a frequently tested direct-recall fact (contrast with LL parsers, which do leftmost derivation forward).",
+    "Maximum reduce moves for a bottom-up parser on a string with n tokens (grammar has no ε or unit productions): exactly n-1 reduces reduce the entire string down to the start symbol IF every production is binary-branching in the worst structural sense — more precisely, for a grammar with no unit/ε productions, the number of reduces is bounded by n-1 (at most one reduce 'absorbs' one token's worth of tree structure in the sparsest case)."
+  ],
+  "formulas": {
+    "lrPowerHierarchy": "SLR(1) ⊊ LALR(1) ⊊ Canonical LR(1)",
+    "lalrStateCount": "LALR(1) states = LR(0)/SLR(1) states (via merging) ≤ Canonical LR(1) states",
+    "lalrSRConflictEquivalence": "LALR(1) has shift-reduce conflict ⟺ Canonical LR(1) has shift-reduce conflict (merging never CREATES new S-R conflicts, only possibly new R-R conflicts)",
+    "maxReduceMoves": "For grammar with no ε/unit productions, parsing a string of n tokens: at most n-1 reduce moves"
+  },
+  "keyPropertiesAndIdentities": [
+    "LALR losing power relative to LR(1) is ENTIRELY due to state-merging introducing reduce-reduce conflicts — never shift-reduce conflicts. This asymmetry is a favorite exact-wording GATE trap.",
+    "'Canonical LR parser is more powerful than LALR' is the TRUE statement (not the reverse) — always double check direction when a question states a power comparison."
+  ],
+  "commonPitfalls": [
+    "Getting the power-hierarchy direction backward (claiming SLR is more powerful than LALR, or LALR more powerful than canonical LR) — memorize the CORRECT direction: LR(1) is the most powerful.",
+    "Assuming LALR merging can introduce shift-reduce conflicts — it specifically only risks NEW reduce-reduce conflicts.",
+    "Confusing LR parsers' RIGHTMOST-derivation-in-reverse with LL parsers' LEFTMOST-derivation-forward.",
+    "Miscounting item-set sizes — closure() must be applied exhaustively (add items for EVERY non-terminal immediately after a dot, recursively) before the set is complete."
+  ],
+  "standardTechniques": [
+    "For item-set construction: start with the augmented grammar's initial item [S'→·S, $], apply closure() (add items for the non-terminal right after each dot), then goto() on each grammar symbol to find successor states — repeat until the canonical collection stabilizes.",
+    "For conflict detection: within each state, check if a SHIFT action and REDUCE action are both valid on the same lookahead symbol (shift-reduce conflict), or if TWO different reduce actions are both valid on the same lookahead (reduce-reduce conflict).",
+    "For power/hierarchy questions: recall the fixed ordering SLR(1)⊊LALR(1)⊊LR(1) directly rather than re-deriving.",
+    "For bottom-up parsing trace questions: simulate shift/reduce explicitly using a stack, one input symbol at a time, counting whatever's asked (reduce steps, final derivation)."
+  ]
+}

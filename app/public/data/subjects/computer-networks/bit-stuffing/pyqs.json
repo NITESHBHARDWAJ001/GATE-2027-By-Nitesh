@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "computer-networks__2.3.1",
+  "localId": "2.3.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "bit-stuffing",
+  "topic": "Bit Stuffing",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 3,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "24",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "A bit-stuffing based framing protocol uses an                            delimiter pattern of      If the output bit-string after stuffing is                             then the input bit-string is: A.                                       B.                              C.                          D. . Assuming that bit stuffing is employed, the",
+  "tagsRaw": "gatecse-2014-set3 computer-networks  error-detection  bit-stuffing",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 111
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_BIT_STUFFING_01"
+ },
+ {
+  "pyqId": "computer-networks__2.3.2",
+  "localId": "2.3.2",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "bit-stuffing",
+  "topic": "Bit Stuffing",
+  "year": 2004,
+  "examStream": "IT",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "80",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "In a data link protocol, the frame delimiter flag is given by transmitter sends the data sequence                                 as: A.                                       B.                              C.                    D.",
+  "tagsRaw": "gateit-2004 computer-networks   network-flow  normal  bit-stuffing",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 111
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_BIT_STUFFING_01"
+ }
+]

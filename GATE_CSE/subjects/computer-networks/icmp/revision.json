@@ -1,0 +1,18 @@
+{
+ "coreIdea": "ICMP error/diagnostic messages; traceroute TTL badhake routers dhundta hai.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "ICMP and Traceroute se related sawal.",
+   "thinkThis": "P4_ICMP_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "ICMP ko transport maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:icmp",
+ "revisionLevel": "short-form"
+}

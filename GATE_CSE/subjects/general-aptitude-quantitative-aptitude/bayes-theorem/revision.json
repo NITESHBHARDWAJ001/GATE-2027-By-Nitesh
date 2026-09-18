@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Suppliers ke defect probabilities se posterior.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bayes (Aptitude) se related sawal.",
+   "thinkThis": "P4_BAYES_THEOREM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Prior mix."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:bayes-theorem",
+ "revisionLevel": "short-form"
+}

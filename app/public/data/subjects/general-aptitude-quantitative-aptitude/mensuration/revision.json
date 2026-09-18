@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Surface area and volume of solids.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Mensuration se related sawal.",
+   "thinkThis": "P3_MENSURATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "r vs d."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:mensuration",
+ "revisionLevel": "short-form"
+}

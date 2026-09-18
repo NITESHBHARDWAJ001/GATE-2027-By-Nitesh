@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Heap me malloc'd data; stack me locals; static/global data segment.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "C Runtime: Stack, Heap, Static se related sawal.",
+   "thinkThis": "P3_RUNTIME_ENVIRONMENT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Static ko heap."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:runtime-environment",
+ "revisionLevel": "short-form"
+}

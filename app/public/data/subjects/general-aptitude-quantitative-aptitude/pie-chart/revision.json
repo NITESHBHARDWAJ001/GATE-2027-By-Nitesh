@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Sector angle=(fraction)x360.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Pie Charts se related sawal.",
+   "thinkThis": "P3_PIE_CHART_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Angle vs percent."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:pie-chart",
+ "revisionLevel": "short-form"
+}

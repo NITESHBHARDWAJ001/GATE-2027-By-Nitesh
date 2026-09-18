@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Recursive => decidable; RE => semi-decidable. L aur L^c dono RE ho to L recursive.",
+ "mustRememberFormulas": [
+  "coRE: L and L^c both RE => recursive"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Recursive/RE/CFL relations, complement, union.",
+   "thinkThis": "REC_HIERARCHY_01"
+  },
+  {
+   "seeThis": "L = {<M> | ...} decidable/RE/co-RE; mapping reductions.",
+   "thinkThis": "REC_DECIDABILITY_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Complement.",
+  "Rice conditions."
+ ],
+ "highYieldPyqLessons": [
+  "Closure and decidability tables recur every 1-2 years."
+ ],
+ "topicId": "theory-of-computation:recursive-and-recursively-enumerable-languages",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Slow start me cwnd exponentially, avoidance me linearly; loss par ssthresh = cwnd/2.",
+ "mustRememberFormulas": [
+  "ssthresh: cwnd/2 on loss"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Timeout ke baad kitne RTT me window X ya kitna data.",
+   "thinkThis": "CC_CWND_TRACE_01"
+  },
+  {
+   "seeThis": "Slow start property, statements on cwnd.",
+   "thinkThis": "CC_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Doubling till ssthresh.",
+  "Exponential vs linear."
+ ],
+ "highYieldPyqLessons": [
+  "Table-based NAT questions since 2014."
+ ],
+ "topicId": "computer-networks:congestion-control",
+ "revisionLevel": "short-form"
+}

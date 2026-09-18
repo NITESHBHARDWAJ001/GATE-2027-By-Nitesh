@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-calculus:integration",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INTEGR-01",
+   "patternId": "P3_INTEGRATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "int_0^1 x dx?",
+   "solutionApproach": "x^2/2.",
+   "answer": "1/2"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "topicId": "algorithms:space-complexity",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Space Complexity of Recursive Functions",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2005-2005.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2005
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

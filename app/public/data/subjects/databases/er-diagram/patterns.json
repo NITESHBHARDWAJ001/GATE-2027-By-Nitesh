@@ -1,0 +1,66 @@
+[
+ {
+  "patternId": "ER_MIN_TABLES_01",
+  "name": "Minimum Tables from ER Diagram",
+  "recognitionClueHinglish": "ER diagram / cardinalities diye; kam se kam kitne tables.",
+  "whatShouldComeToMind": [
+   "Merge 1:N and 1:1 total; M:N separate."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Entities.",
+   "2. Relationship type.",
+   "3. Merge count."
+  ],
+  "formulasUsed": [
+   "tablesMN"
+  ],
+  "pyqExamples": [
+   "3.9.1",
+   "3.9.2",
+   "3.9.3",
+   "3.9.5",
+   "3.9.6",
+   "3.9.7",
+   "3.9.11",
+   "3.9.12"
+  ],
+  "variationsObserved": [
+   "Attribute set of a table."
+  ],
+  "commonTraps": [
+   "Extra table for 1:N."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "ER_CONCEPT_02",
+  "name": "ER Concepts (weak entity, attribute types, modeling)",
+  "recognitionClueHinglish": "Weak entity, multi-valued attribute, specification se ER.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Concept match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.9.4",
+   "3.9.8",
+   "3.9.9",
+   "3.9.10"
+  ],
+  "variationsObserved": [
+   "Weak entity ka symbol."
+  ],
+  "commonTraps": [
+   "Diamond vs double diamond."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

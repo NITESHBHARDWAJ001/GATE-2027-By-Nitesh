@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_BAYESIAN_NETWORK_01",
+  "name": "Bayesian Networks (PYQ type)",
+  "recognitionClueHinglish": "Bayesian Networks se related sawal.",
+  "whatShouldComeToMind": [
+   "Joint = product of conditionals; conditional independence graph se."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Graph.",
+   "2. Factorize."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.2.1",
+   "7.2.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Collider par conditioning."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

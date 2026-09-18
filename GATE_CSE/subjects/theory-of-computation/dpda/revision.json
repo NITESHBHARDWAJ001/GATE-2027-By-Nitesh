@@ -1,0 +1,18 @@
+{
+ "coreIdea": "DCFL examples: a^n b^n; not DCFL: palindromes (ww^R).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Deterministic PDA se related sawal.",
+   "thinkThis": "P3_DPDA_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Palindrome ko DCFL."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "theory-of-computation:dpda",
+ "revisionLevel": "short-form"
+}

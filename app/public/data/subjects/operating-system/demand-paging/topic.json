@@ -1,0 +1,19 @@
+{
+ "topicId": "operating-system:demand-paging",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Demand Paging",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 2022-2025.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  2022,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

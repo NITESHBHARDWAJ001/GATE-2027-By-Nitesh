@@ -1,0 +1,24 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:probability",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PROBAB-01",
+   "patternId": "GQP_COUNTING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "3 coins tossed. P(at least 2 heads)?",
+   "solutionApproach": "4 of 8.",
+   "answer": "1/2"
+  },
+  {
+   "practiceId": "AI-PROBABIL-X02",
+   "patternId": "GQP_COUNTING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Two dice: P(sum=8)?",
+   "solutionApproach": "5/36.",
+   "answer": "5/36"
+  }
+ ]
+}

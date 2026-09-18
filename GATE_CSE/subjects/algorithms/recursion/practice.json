@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:recursion",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RECURS-01",
+   "patternId": "P3_RECURSION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "gcd(13,8) me kitne recursive calls (sabse pehle call ko chhodkar)?",
+   "solutionApproach": "13,8 -> 8,5 -> 5,3 -> 3,2 -> 2,1 -> 1,0.",
+   "answer": "5"
+  }
+ ]
+}

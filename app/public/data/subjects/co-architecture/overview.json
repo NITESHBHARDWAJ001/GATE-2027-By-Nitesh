@@ -1,0 +1,20 @@
+{
+ "subjectId": "co-architecture",
+ "name": "CO & Architecture",
+ "sourceVolume": "volume3",
+ "sourcePdf": "filter1_volume3 (1).pdf",
+ "totalTopics": 28,
+ "totalPyqsExtracted": 251,
+ "priorityDistribution": {
+  "P1": 3,
+  "P2": 8,
+  "P3": 15,
+  "P4": 2
+ },
+ "p1Topics": [
+  "Cache Memory",
+  "Machine Instruction",
+  "Pipelining"
+ ],
+ "processingStatus": "P1_topics_complete (3/3): cache-memory, machine-instruction, pipelining"
+}

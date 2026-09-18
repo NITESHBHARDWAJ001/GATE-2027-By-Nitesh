@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_LOGICAL_INFERENCE_01",
+  "name": "Logical Inference from Conversation (PYQ type)",
+  "recognitionClueHinglish": "Logical Inference from Conversation se related sawal.",
+  "whatShouldComeToMind": [
+   "Conversation me kya necessarily true."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Literal.",
+   "2. Options check."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.7.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Assumption jodna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

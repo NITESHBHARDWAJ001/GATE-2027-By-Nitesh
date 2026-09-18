@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:network-switching",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NETWOR-01",
+   "patternId": "P3_NETWORK_SWITCHING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "2 links, packet 1000 bits, 1 Mbps, no prop: delay?",
+   "solutionApproach": "2 x 1ms.",
+   "answer": "2 ms"
+  }
+ ]
+}

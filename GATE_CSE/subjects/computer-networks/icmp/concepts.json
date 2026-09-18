@@ -1,0 +1,21 @@
+{
+ "overview": "ICMP error/diagnostic messages; traceroute TTL badhake routers dhundta hai.",
+ "whyItMatters": "1 PYQs extracted (2005-2005); P4 topic.",
+ "coreConcept": "ICMP error/diagnostic messages; traceroute TTL badhake routers dhundta hai.",
+ "hinglishExplanation": "TTL=1,2,3... probes; har router 'time exceeded' bhejta hai.",
+ "formalDefinition": "ICMP error/diagnostic messages; traceroute TTL badhake routers dhundta hai.",
+ "importantProperties": [
+  "Traceroute TTL exceeded messages.",
+  "Ping ICMP echo.",
+  "ICMP IP ke upar."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "ICMP ko transport maan lena."
+ ],
+ "standardTechniques": [
+  "1. TTL steps."
+ ],
+ "topicId": "computer-networks:icmp"
+}

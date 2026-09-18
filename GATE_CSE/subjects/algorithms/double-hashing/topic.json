@@ -1,0 +1,19 @@
+{
+ "topicId": "algorithms:double-hashing",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Double Hashing",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "2 PYQs extracted, 2020-2025.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2020,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

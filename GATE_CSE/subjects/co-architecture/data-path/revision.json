@@ -1,0 +1,22 @@
+{
+ "coreIdea": "Instruction execution ko register transfers ke sequence me todo; ek cycle me bus par ek transfer.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Data path figure; steps ya signals.",
+   "thinkThis": "DP_MICROOPS_01"
+  },
+  {
+   "seeThis": "Units ke times aur copies diye; minimum time.",
+   "thinkThis": "DP_TIMING_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Bus conflict."
+ ],
+ "highYieldPyqLessons": [
+  "Figures are often missing in extraction; check the source."
+ ],
+ "topicId": "co-architecture:data-path",
+ "revisionLevel": "short-form"
+}

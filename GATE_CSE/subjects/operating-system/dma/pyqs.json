@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "operating-system__5.4.1",
+  "localId": "5.4.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "dma",
+  "topic": "DMA",
+  "year": 2001,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "8",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "800",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a disk with the following specifications: 20 surfaces, 1000 tracks/surface, 16 sectors/track, data density 1 KB/sector, rotation speed 3000 rpm. The operating system initiates the transfer between the disk and the memory sector-wise. Once the head has been placed on the right track, the disk reads a sector in a single scan. It reads bits from the sector while the head is passing over the sector. The read bits are formed into bytes in a serial-in-parallel-out buffer and each byte is then transferred to memory. The disk writing is exactly a complementary process. For parts (C) and (D) below, assume memory read-write time = 0.1 microseconds/byte, interrupt driven transfer has an interrupt overhead = 0.4 microseconds, the DMA initialization, and termination overhead is negligible compared to the total sector transfer time. DMA requests are always granted. A. What is the total capacity of the desk? B. What is the data transfer rate? C. What is the percentage of time the CPU is required for this disk I/O for byte-wise interrupts driven transfer? D. What is the maximum percentage of time the CPU is held up for this disk I/O for cycle-stealing DMA transfer?",
+  "tagsRaw": "gatecse-2001 operating-system disk normal descriptive dma",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 378
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_DMA_01"
+ }
+]

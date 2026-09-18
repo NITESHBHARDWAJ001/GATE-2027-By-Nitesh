@@ -1,0 +1,301 @@
+[
+ {
+  "topicSlug": "logical-reasoning",
+  "name": "Logical Reasoning",
+  "pyqCountExtracted": 13,
+  "yearsCovered": [
+   2010,
+   2015,
+   2017,
+   2021,
+   2023,
+   2026
+  ],
+  "recentYearsCovered": [
+   2017,
+   2021,
+   2023,
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.8.1",
+   "general-aptitude-analytical-aptitude__8.8.2",
+   "general-aptitude-analytical-aptitude__8.8.3",
+   "general-aptitude-analytical-aptitude__8.8.4",
+   "general-aptitude-analytical-aptitude__8.8.5",
+   "general-aptitude-analytical-aptitude__8.8.6",
+   "general-aptitude-analytical-aptitude__8.8.7",
+   "general-aptitude-analytical-aptitude__8.8.8",
+   "general-aptitude-analytical-aptitude__8.8.9",
+   "general-aptitude-analytical-aptitude__8.8.10",
+   "general-aptitude-analytical-aptitude__8.8.11",
+   "general-aptitude-analytical-aptitude__8.8.12",
+   "general-aptitude-analytical-aptitude__8.8.13"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "13 PYQs extracted, 4 recent (2016+) appearances, spans 2010-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "statements-follow",
+  "name": "Statements Follow",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   2016,
+   2021,
+   2022,
+   2024
+  ],
+  "recentYearsCovered": [
+   2016,
+   2021,
+   2022,
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.15.1",
+   "general-aptitude-analytical-aptitude__8.15.2",
+   "general-aptitude-analytical-aptitude__8.15.3",
+   "general-aptitude-analytical-aptitude__8.15.4",
+   "general-aptitude-analytical-aptitude__8.15.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 2016-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "direction-sense",
+  "name": "Direction Sense",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2015,
+   2017,
+   2019,
+   2025
+  ],
+  "recentYearsCovered": [
+   2017,
+   2019,
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.5.1",
+   "general-aptitude-analytical-aptitude__8.5.2",
+   "general-aptitude-analytical-aptitude__8.5.3",
+   "general-aptitude-analytical-aptitude__8.5.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2015-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "code-words",
+  "name": "Code Words",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2015,
+   2016
+  ],
+  "recentYearsCovered": [
+   2016
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.3.1",
+   "general-aptitude-analytical-aptitude__8.3.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2015-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "passage-reading",
+  "name": "Passage Reading",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2022,
+   2023
+  ],
+  "recentYearsCovered": [
+   2022,
+   2023
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.11.1",
+   "general-aptitude-analytical-aptitude__8.11.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2022-2023 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "sequence-series",
+  "name": "Sequence Series",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2020,
+   2024
+  ],
+  "recentYearsCovered": [
+   2020,
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.14.1",
+   "general-aptitude-analytical-aptitude__8.14.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2020-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "age-relation",
+  "name": "Age Relation",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2010
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.1.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2010-2010 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "analogy",
+  "name": "Analogy",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.2.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "coding-decoding",
+  "name": "Coding Decoding",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.4.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "family-relationship",
+  "name": "Family Relationship",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.6.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "logical-inference",
+  "name": "Logical Inference",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.7.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "number-relations",
+  "name": "Number Relations",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.9.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "odd-one",
+  "name": "Odd One",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2016
+  ],
+  "recentYearsCovered": [
+   2016
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.10.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2016-2016 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "round-table-arrangement",
+  "name": "Round Table Arrangement",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2017
+  ],
+  "recentYearsCovered": [
+   2017
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.12.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2017-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "seating-arrangement",
+  "name": "Seating Arrangement",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2017
+  ],
+  "recentYearsCovered": [
+   2017
+  ],
+  "pyqIds": [
+   "general-aptitude-analytical-aptitude__8.13.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2017-2017 — moderate/occasional coverage, worth solid revision-level prep."
+ }
+]

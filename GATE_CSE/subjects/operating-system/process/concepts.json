@@ -1,0 +1,23 @@
+{
+ "overview": "Process state diagram, multiprogramming characteristics, context saved items.",
+ "whyItMatters": "5 PYQs extracted (1996-2023); P3 topic.",
+ "coreConcept": "Process state diagram, multiprogramming characteristics, context saved items.",
+ "hinglishExplanation": "States: new, ready, running, blocked, terminated; scheduler ready se running.",
+ "formalDefinition": "Process state diagram, multiprogramming characteristics, context saved items.",
+ "importantProperties": [
+  "Running -> ready (preempt), running -> blocked (I/O).",
+  "Multiprogramming: memory protection + interrupts.",
+  "Scheduler process interrupt nahi karta running process ko.",
+  "Context: PC, registers, PCB."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "State transitions galat."
+ ],
+ "standardTechniques": [
+  "1. Diagram padho.",
+  "2. Transition rule."
+ ],
+ "topicId": "operating-system:process"
+}

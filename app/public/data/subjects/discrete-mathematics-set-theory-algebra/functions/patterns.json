@@ -1,0 +1,115 @@
+[
+  {
+    "patternId": "FUNC_COUNTING_01",
+    "name": "Counting Functions (Total / One-One / Onto / Bijective / Boolean)",
+    "recognitionClueHinglish": "'How many functions', 'number of one-to-one functions', 'number of onto functions' — seedha counting poocha gaya hai between two finite sets. Sabse bada cluster hai is topic ka (14/30 PYQs).",
+    "whatShouldComeToMind": [
+      "First check: |domain|=m, |codomain|=n — and whether m<n, m=n, or m>n, since that decides WHICH formulas are even possible.",
+      "Total functions = n^m. One-one needs m≤n = P(n,m). Onto needs m≥n = inclusion-exclusion sum. Bijective needs m=n = n!.",
+      "If reverse-given (told the COUNT, asked for |A| or |B|) — set up the formula as an equation and solve."
+    ],
+    "conceptsRequired": ["Basic counting/permutations", "Inclusion-Exclusion Principle"],
+    "generalSolvingApproach": [
+      "1. Extract m=|domain|, n=|codomain|.",
+      "2. Match the question's keyword (any function / one-one / onto / bijective) to the corresponding formula.",
+      "3. For onto counting via inclusion-exclusion: Σ_{k=0}^{n} (-1)^k C(n,k)(n-k)^m — compute term by term, don't skip the alternating signs.",
+      "4. For reverse-direction questions, set formula = given count, solve for the unknown."
+    ],
+    "formulasUsed": ["totalFunctions","oneOneFunctions","ontoFunctionsInclusionExclusion","bijections","booleanFunctionsCount"],
+    "pyqExamples": ["4.3.1","4.3.3","4.3.4","4.3.5","4.3.7","4.3.8","4.3.14","4.3.16","4.3.17","4.3.18","4.3.22","4.3.23","4.3.27","4.3.28"],
+    "variationsObserved": [
+      "Codomain is itself a power set (functions INTO 2^B) — combine with power-set-size formula from Set Theory.",
+      "Probability variant: randomly pick a function from all n^m, find probability it's one-one = P(n,m)/n^m.",
+      "Constrained counting: bijections with a fixed point condition (f(x)≠x for some x, or f(1)=k) — adjust via direct casework on the constrained elements first."
+    ],
+    "commonTraps": ["Using n^m formula when the question actually asks for ONE-ONE or ONTO specifically.", "Forgetting m≤n is required for one-one to be possible at all (else answer is 0)."],
+    "edgeCases": ["m>n ⟹ zero one-one functions exist (pigeonhole).", "m<n ⟹ zero onto functions exist."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "FUNC_PROPERTY_PROOF_02",
+    "name": "Injective/Surjective/Bijective Verification & Composition Reasoning",
+    "recognitionClueHinglish": "Ek specific function di hai (formula se, jaise f(x)=x² ya piecewise) aur poocha hai one-one/onto hai ya nahi, ya f aur g compose karke banaye gaye g∘f ke baare me poocha hai — ye property-verification/composition pattern hai.",
+    "whatShouldComeToMind": [
+      "For equal-size FINITE sets: one-one ⟺ onto ⟺ bijective — check just ONE of them if |A|=|B|.",
+      "For composition g∘f: g∘f onto ⟹ g is onto (not necessarily f). g∘f one-one ⟹ f is one-one (not necessarily g). Memorize this direction — it's asymmetric and a favorite trap.",
+      "For infinite sets (like ℝ→ℝ or ℕ→ℕ), the equal-size shortcut does NOT apply — must check both properties independently."
+    ],
+    "conceptsRequired": ["Injective/surjective definitions", "Function composition"],
+    "generalSolvingApproach": [
+      "1. If domain and codomain are both finite and same size, just check ONE property (say, injectivity) and conclude bijective if it holds.",
+      "2. Otherwise, check injectivity directly: assume f(a)=f(b), derive whether a=b is forced.",
+      "3. Check surjectivity directly: for arbitrary y in codomain, can you always find x in domain with f(x)=y?",
+      "4. For composition questions, use the two memorized composition rules above rather than re-deriving from scratch each time."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.3.2","4.3.6","4.3.10","4.3.13","4.3.20","4.3.21","4.3.29"],
+    "variationsObserved": ["Descriptive/older-style explicit proof required (1988, 2001 papers) vs modern MCQ-style TRUE/FALSE.", "Inverse function computation for an explicit bijective formula."],
+    "commonTraps": ["Applying the equal-finite-size shortcut to infinite sets.", "Getting the composition-implication direction backward (assuming g∘f onto implies BOTH f and g onto — false, only g is guaranteed)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "FUNC_IMAGE_PREIMAGE_03",
+    "name": "Image/Preimage of Sets Under a Function (f(A∩B) vs f(A)∩f(B) style identities)",
+    "recognitionClueHinglish": "Question me f(A) ya f⁻¹(B) jaisi notation hai, aur A/B ke union/intersection ke saath combine karke ek identity TRUE hai ya nahi poocha hai — ye ek narrow but recurring GATE trap-pattern hai.",
+    "whatShouldComeToMind": [
+      "Preimage (f⁻¹) is 'well-behaved': distributes over BOTH ∪ and ∩ perfectly, always.",
+      "Forward image (f) is 'partially behaved': distributes over ∪ always, but only gives ⊆ (not =) over ∩ — equality needs f injective."
+    ],
+    "conceptsRequired": ["Image/preimage set-operator definitions"],
+    "generalSolvingApproach": [
+      "1. Identify whether the identity involves forward image f(·) or preimage f⁻¹(·).",
+      "2. If preimage: both ∪ and ∩ identities are TRUE, always.",
+      "3. If forward image with ∩: it's generally FALSE as an equality (only ⊆ holds) unless the question also states f is injective.",
+      "4. If forward image with ∪: it's TRUE as an equality, always."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.3.9","4.3.11","4.3.19"],
+    "variationsObserved": [],
+    "commonTraps": ["Assuming image behaves identically to preimage — it doesn't, intersection is the asymmetric case."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "FUNC_QUOTIENT_ADVANCED_04",
+    "name": "Equivalence-Classes-via-Function (kernel/quotient) & Advanced Combinatorial Counting",
+    "recognitionClueHinglish": "Function se induced equivalence relation (a~b iff f(a)=f(b)) define hoti hai, ya function ki jagah matrices/subsets ka function-jaisa counting hota hai — ye advanced/hybrid pattern hai, mostly recent (2021+) tough questions.",
+    "whatShouldComeToMind": [
+      "Every function f:A→B induces an equivalence relation on A: a~b iff f(a)=f(b). The equivalence classes are exactly the 'fibers' (preimages of single points).",
+      "If f is onto, the number of equivalence classes = |B|.",
+      "'Bijection between matrices/subsets and functions' framing — recognize the underlying set is secretly a function space in disguise."
+    ],
+    "conceptsRequired": ["Equivalence relations", "Advanced counting"],
+    "generalSolvingApproach": [
+      "1. Identify the 'disguised' function space (e.g., an m×n boolean matrix ≡ a function from {1..m}×{1..n} to {0,1}).",
+      "2. Translate the question into standard function-counting/property language.",
+      "3. Apply the relevant counting or property pattern from above."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["4.3.15","4.3.25","4.3.26"],
+    "variationsObserved": [],
+    "commonTraps": ["Not recognizing the disguised function-space framing and trying to solve from scratch."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  },
+  {
+    "patternId": "FUNC_MISC_PUZZLE_05",
+    "name": "Misc Concrete Function Puzzles (encoding schemes, functional-equation recursion, boolean identities)",
+    "recognitionClueHinglish": "Ek specific, self-contained function-based puzzle hai jo upar ke patterns me clean fit nahi hota — jaise ek prime-based encoding scheme, ya ek recursive functional equation (f(2n)=..., f(2n+1)=...), ya ek boolean-algebra identity check. Low-frequency but worth recognizing as 'read carefully, work from the given definition directly' rather than forcing a memorized formula.",
+    "whatShouldComeToMind": ["No single formula applies — read the custom definition very carefully and work forward from small concrete cases."],
+    "conceptsRequired": ["Careful reading + basic number theory/boolean algebra as needed per question"],
+    "generalSolvingApproach": ["1. Work out the function's behavior on the first few small inputs by hand.", "2. Look for a pattern before attempting the general case."],
+    "formulasUsed": [],
+    "pyqExamples": ["4.3.12","4.3.24","4.3.30"],
+    "variationsObserved": [],
+    "commonTraps": ["Trying to force-fit a memorized counting formula onto a custom-defined function."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

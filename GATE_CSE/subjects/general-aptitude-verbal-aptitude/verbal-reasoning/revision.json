@@ -1,0 +1,22 @@
+{
+ "coreIdea": "Argument ka assumption ya conclusion pehchano; option tabhi sahi jab conclusion ko support ya weaken kare.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Passage/statement; logical conclusion.",
+   "thinkThis": "VR_INFERENCE_01"
+  },
+  {
+   "seeThis": "Criminals ke statements.",
+   "thinkThis": "VR_PUZZLE_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Over-generalisation."
+ ],
+ "highYieldPyqLessons": [
+  "Deduction only; avoid outside assumptions."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:verbal-reasoning",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,20 @@
+{
+ "overview": "Primes, gcd, remainders.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Primes, gcd, remainders.",
+ "hinglishExplanation": "Prime factorization aur remainders.",
+ "formalDefinition": "Primes, gcd, remainders.",
+ "importantProperties": [
+  "gcd(a,b) Euclid.",
+  "Remainder cycles."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Rule."
+ ],
+ "standardTechniques": [
+  "1. Factor."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:number-theory"
+}

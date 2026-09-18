@@ -1,0 +1,20 @@
+{
+ "overview": "Sum of squares of k independent N(0,1): mean k, variance 2k.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Sum of squares of k independent N(0,1): mean k, variance 2k.",
+ "hinglishExplanation": "chi^2_k = sum Z_i^2.",
+ "formalDefinition": "Sum of squares of k independent N(0,1): mean k, variance 2k.",
+ "importantProperties": [
+  "Mean k, variance 2k.",
+  "Sum independent chi-squares add dof."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Variance 2k bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Dof."
+ ],
+ "topicId": "engineering-mathematics-probability:chi-square-distribution"
+}

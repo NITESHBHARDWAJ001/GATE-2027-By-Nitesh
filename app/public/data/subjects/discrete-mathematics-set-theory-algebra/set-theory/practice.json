@@ -1,0 +1,60 @@
+{
+  "topicId": "dm-set-theory-algebra-set-theory",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs. Written to drill the patterns above.",
+  "questions": [
+    {
+      "practiceId": "AI-SET-01",
+      "patternId": "SET_INCL_EXCL_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "In a class of 60 students, 25 play cricket, 20 play football, 15 play tennis. 8 play both cricket and football, 5 play both football and tennis, 6 play both cricket and tennis, 3 play all three. How many play at least one of the three sports?",
+      "solutionApproach": "|A∪B∪C| = 25+20+15 − 8−5−6 + 3 = 60−19+3 = 44.",
+      "answer": "44"
+    },
+    {
+      "practiceId": "AI-SET-02",
+      "patternId": "SET_INCL_EXCL_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Using the same data as above, how many students play EXACTLY two of the three sports?",
+      "solutionApproach": "Exactly-two = (pairwise sums) − 3×(triple) = (8+5+6) − 3×3 = 19−9 = 10.",
+      "answer": "10"
+    },
+    {
+      "practiceId": "AI-SET-03",
+      "patternId": "SET_POWERSET_02",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A set A has 7 elements. How many subsets of A have an odd number of elements?",
+      "solutionApproach": "Odd-size subsets = 2^(n-1) = 2^6 = 64.",
+      "answer": "64"
+    },
+    {
+      "practiceId": "AI-SET-04",
+      "patternId": "SET_POWERSET_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "How many subsets of a 6-element set A contain a specific fixed element x ∈ A?",
+      "solutionApproach": "x is forced 'in'; the other 5 elements are free (in/out independently) → 2^5 = 32.",
+      "answer": "32"
+    },
+    {
+      "practiceId": "AI-SET-05",
+      "patternId": "SET_ALGEBRA_IDENTITY_03",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is the statement (A − B) ∪ (B − A) = (A ∪ B) − (A ∩ B) always TRUE for any two sets A, B?",
+      "solutionApproach": "Both sides equal the symmetric difference A △ B by definition — TRUE. Verify with A={1,2,3}, B={2,3,4}: LHS = {1}∪{4} = {1,4}; RHS = {1,2,3,4}−{2,3} = {1,4}. Matches.",
+      "answer": "TRUE — this is exactly the definition of symmetric difference."
+    },
+    {
+      "practiceId": "AI-SET-06",
+      "patternId": "SET_EXTREMAL_FAMILY_05",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Let A be a 4-element set. What is the maximum number of subsets of A you can choose such that no chosen subset is a subset of another chosen subset?",
+      "solutionApproach": "This is Sperner's theorem: max antichain size = C(n, floor(n/2)) = C(4,2) = 6.",
+      "answer": "6 (e.g., all 2-element subsets of a 4-element set)"
+    }
+  ]
+}

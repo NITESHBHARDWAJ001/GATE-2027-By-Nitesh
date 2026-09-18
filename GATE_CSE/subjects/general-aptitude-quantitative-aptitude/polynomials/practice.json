@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:polynomials",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-POLYNO-01",
+   "patternId": "P3_POLYNOMIALS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "x^2-1 roots?",
+   "solutionApproach": "+-1.",
+   "answer": "1, -1"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Har algorithm kis paradigm ka hai: D&C, greedy, DP, backtracking.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Algorithm Design Techniques se related sawal.",
+   "thinkThis": "P3_ALGORITHM_DESIGN_TECHNIQ_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Paradigm confuse (Dijkstra DP nahi, greedy hai)."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:algorithm-design-techniques",
+ "revisionLevel": "short-form"
+}

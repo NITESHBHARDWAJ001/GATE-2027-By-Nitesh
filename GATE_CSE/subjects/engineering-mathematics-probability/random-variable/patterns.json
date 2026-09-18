@@ -1,0 +1,58 @@
+[
+ {
+  "patternId": "RV_CDF_PDF_01",
+  "name": "CDF/PDF/Median Computations",
+  "recognitionClueHinglish": "CDF given; probability, constant, median.",
+  "whatShouldComeToMind": [
+   "F(b)-F(a)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Use CDF."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.16.1",
+   "7.16.3",
+   "7.16.5",
+   "7.16.6",
+   "7.16.7",
+   "7.16.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Continuous vs discrete."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "RV_MOMENTS_02",
+  "name": "Mean/Variance and Distribution Facts",
+  "recognitionClueHinglish": "Transformations, iid sums, Poisson/normal statements.",
+  "whatShouldComeToMind": [
+   "Linearity."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Formula."
+  ],
+  "formulasUsed": [
+   "linear"
+  ],
+  "pyqExamples": [
+   "7.16.2",
+   "7.16.4",
+   "7.16.9",
+   "7.16.10"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Variance rules."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

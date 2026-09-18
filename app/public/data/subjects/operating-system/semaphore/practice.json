@@ -1,0 +1,51 @@
+{
+ "topicId": "operating-system:semaphore",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SEMAPH-01",
+   "patternId": "SEM_VALUE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S=5. 7 waits and 4 signals complete (none blocks). Value?",
+   "solutionApproach": "5-7+4 = 2.",
+   "answer": "2"
+  },
+  {
+   "practiceId": "AI-SEMAPH-02",
+   "patternId": "SEM_SYNC_CODE_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S initial 0, P1: A; signal(S). P2: wait(S); B. Order?",
+   "solutionApproach": "B only after A.",
+   "answer": "A before B"
+  },
+  {
+   "practiceId": "AI-SEMAPH-03",
+   "patternId": "SEM_SYNC_CODE_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Two semaphores X,Y init 1. P1: wait X, wait Y. P2: wait Y, wait X. Risk?",
+   "solutionApproach": "Circular wait.",
+   "answer": "Deadlock possible"
+  },
+  {
+   "practiceId": "AI-SEMAPHOR-X04",
+   "patternId": "SEM_VALUE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S initial 2. Operations in order: P,P,P,V. Value after all complete (the 3rd P blocks then wakes)?",
+   "solutionApproach": "2-1-1 -> 0; 3rd P blocks (value -1); V wakes it; value 0.",
+   "answer": "0"
+  },
+  {
+   "practiceId": "AI-SEMAPHOR-X05",
+   "patternId": "SEM_SYNC_CODE_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Two binary semaphores A=1,B=0. P1: wait(A); print X; signal(B). P2: wait(B); print Y; signal(A). Output order if both loop?",
+   "solutionApproach": "P1 X, then P2 Y, alternating.",
+   "answer": "X Y X Y ..."
+  }
+ ]
+}

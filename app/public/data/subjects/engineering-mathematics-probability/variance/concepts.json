@@ -1,0 +1,21 @@
+{
+ "overview": "Var(aX+b)=a^2 Var X; independent sums add.",
+ "whyItMatters": "2 PYQs extracted (2025-2026); P3 topic.",
+ "coreConcept": "Var(aX+b)=a^2 Var X; independent sums add.",
+ "hinglishExplanation": "Var(X)=E[X^2]-(EX)^2.",
+ "formalDefinition": "Var(aX+b)=a^2 Var X; independent sums add.",
+ "importantProperties": [
+  "Var(aX+b)=a^2Var(X).",
+  "Independent: Var(X+Y)=VarX+VarY.",
+  "Normal variance sigma^2."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Shift add karna."
+ ],
+ "standardTechniques": [
+  "1. Rules."
+ ],
+ "topicId": "engineering-mathematics-probability:variance"
+}

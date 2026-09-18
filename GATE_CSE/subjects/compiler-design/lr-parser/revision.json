@@ -1,0 +1,26 @@
+{
+  "topicId": "cd-lr-parser",
+  "revisionLevel": "short-form",
+  "coreIdea": "SLR(1)⊊LALR(1)⊊LR(1) in power. LALR = same states as SLR/LR(0) (merged), ≤ Canonical LR(1) states. LR parses rightmost derivation IN REVERSE.",
+  "mustRememberFormulas": [
+    "Power: SLR(1) ⊊ LALR(1) ⊊ Canonical LR(1)",
+    "LALR states = LR(0)/SLR states ≤ Canonical LR(1) states",
+    "LALR S-R conflict ⟺ Canonical LR(1) S-R conflict (merging only risks NEW reduce-reduce conflicts)",
+    "LR parser: rightmost derivation, built in reverse"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "SLR/LALR/LR power or state-count comparison claim", "thinkThis": "LR_POWER_COMPARISON_01"},
+    {"seeThis": "augmented grammar, item-set size or conflict asked", "thinkThis": "LR_ITEMSET_CONFLICT_02"},
+    {"seeThis": "specific string, asked reduce-step count or derivation type", "thinkThis": "LR_TRACE_03"}
+  ],
+  "commonTrapsQuickList": [
+    "Never reverse the power hierarchy direction — LR(1) is most powerful, SLR least",
+    "LALR merging risks NEW reduce-reduce conflicts, NEVER new shift-reduce conflicts",
+    "LR = rightmost derivation in reverse; LL = leftmost derivation forward — don't mix up",
+    "Apply closure() exhaustively — stopping early is the most common item-set construction error"
+  ],
+  "highYieldPyqLessons": [
+    "Power/state-count comparison theory (9/20) is pure memorization — get the hierarchy direction and the S-R/R-R asymmetry rock solid.",
+    "Item-set construction (8/20) has been asked as NAT questions almost every year since 2019 — practice closure()/goto() until mechanical and error-free."
+  ]
+}

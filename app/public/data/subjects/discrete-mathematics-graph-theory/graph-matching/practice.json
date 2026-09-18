@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-graph-theory:graph-matching",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-GRAPH--01",
+   "patternId": "P3_GRAPH_MATCHING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Perfect matchings K4?",
+   "solutionApproach": "3.",
+   "answer": "3"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_COMPOUND_INTEREST_01",
+  "name": "Compound Interest (PYQ type)",
+  "recognitionClueHinglish": "Compound Interest se related sawal.",
+  "whatShouldComeToMind": [
+   "A = P(1+r/n)^(nt)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. P, r, t."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.14.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Compounding period."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

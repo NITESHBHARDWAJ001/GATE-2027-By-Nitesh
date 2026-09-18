@@ -1,0 +1,19 @@
+{
+ "topicId": "algorithms:prims-algorithm",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Prim's Algorithm",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 2004-2008.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2004,
+  2008
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

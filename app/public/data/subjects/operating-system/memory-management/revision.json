@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Contiguous allocation, fragmentation, overlays, working set, variable partitions.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Memory Management se related sawal.",
+   "thinkThis": "P3_MEMORY_MANAGEMENT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Internal aur external fragmentation ulta."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:memory-management",
+ "revisionLevel": "short-form"
+}

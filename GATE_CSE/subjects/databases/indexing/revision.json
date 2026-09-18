@@ -1,0 +1,31 @@
+{
+ "coreIdea": "bf -> data blocks -> index entries -> index blocks -> levels. Dense = per record, sparse = per block.",
+ "mustRememberFormulas": [
+  "bf = floor(B/R)",
+  "b = ceil(N/bf)",
+  "fi = floor(B/(K+P))",
+  "sparse entries = data blocks"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "record size, block size, pointer size",
+   "thinkThis": "IDX_BLOCK_CALC_01"
+  },
+  {
+   "seeThis": "clustered/dense/sparse definitions",
+   "thinkThis": "IDX_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "floor for bf",
+  "ceil for blocks",
+  "sparse needs ordered file",
+  "one primary/clustering index only"
+ ],
+ "highYieldPyqLessons": [
+  "Numeric index-size questions: 1990, 1993, 2008, 2020, 2021, 2023, 2026.",
+  "Clustered and dense/sparse definitions repeatedly tested."
+ ],
+ "topicId": "db-indexing",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,21 @@
+{
+ "overview": "Har pass me minimum select karke swap; swaps O(n), comparisons O(n^2).",
+ "whyItMatters": "2 PYQs extracted (2009-2013); P4 topic.",
+ "coreConcept": "Har pass me minimum select karke swap; swaps O(n), comparisons O(n^2).",
+ "hinglishExplanation": "n-1 swaps worst case; comparisons hamesha n(n-1)/2.",
+ "formalDefinition": "Har pass me minimum select karke swap; swaps O(n), comparisons O(n^2).",
+ "importantProperties": [
+  "Swaps at most n-1.",
+  "Comparisons n(n-1)/2 always.",
+  "Not stable (swap ke wajah se)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Swaps ko O(n^2) maan lena."
+ ],
+ "standardTechniques": [
+  "1. Passes."
+ ],
+ "topicId": "algorithms:selection-sort"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:prime-numbers",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PRIME--01",
+   "patternId": "P3_PRIME_NUMBERS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Smallest prime?",
+   "solutionApproach": "2.",
+   "answer": "2"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:age-relation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-AGE-RE-01",
+   "patternId": "P4_AGE_RELATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A is 5 years older than B; B is 10. A?",
+   "solutionApproach": "10+5.",
+   "answer": "15"
+  }
+ ]
+}

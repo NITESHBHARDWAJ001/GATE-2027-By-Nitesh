@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Page fault, page table bits, replacement, effective access time.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Demand Paging se related sawal.",
+   "thinkThis": "P3_DEMAND_PAGING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Fault rate probability p ka use."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:demand-paging",
+ "revisionLevel": "short-form"
+}

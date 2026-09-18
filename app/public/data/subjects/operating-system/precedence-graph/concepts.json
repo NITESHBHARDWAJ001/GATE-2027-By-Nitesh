@@ -1,0 +1,23 @@
+{
+ "overview": "Concurrent statements ka precedence graph; parbegin/parend se kaun sa graph express ho sakta hai.",
+ "whyItMatters": "3 PYQs extracted (1989-1992); P3 topic.",
+ "coreConcept": "Concurrent statements ka precedence graph; parbegin/parend se kaun sa graph express ho sakta hai.",
+ "hinglishExplanation": "Parbegin/parend nested series-parallel graphs hi express kar sakte hain.",
+ "formalDefinition": "Concurrent statements ka precedence graph; parbegin/parend se kaun sa graph express ho sakta hai.",
+ "importantProperties": [
+  "Edge u->v: u pehle complete.",
+  "Series-parallel graph hi parbegin/parend se.",
+  "Independent nodes parallel.",
+  "Semaphores se general graph."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Har DAG ko parbegin se express karna."
+ ],
+ "standardTechniques": [
+  "1. Dependencies.",
+  "2. Parallel blocks."
+ ],
+ "topicId": "operating-system:precedence-graph"
+}

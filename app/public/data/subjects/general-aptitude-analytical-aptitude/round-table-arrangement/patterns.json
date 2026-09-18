@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_ROUND_TABLE_ARRANGEMENT_01",
+  "name": "Round Table Arrangement (PYQ type)",
+  "recognitionClueHinglish": "Round Table Arrangement se related sawal.",
+  "whatShouldComeToMind": [
+   "Circular seating constraints."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Fix.",
+   "2. Constraints."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.12.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Mirror duplicates."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

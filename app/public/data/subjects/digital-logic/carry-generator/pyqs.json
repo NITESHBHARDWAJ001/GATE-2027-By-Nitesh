@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "digital-logic__4.7.1",
+  "localId": "4.7.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "carry-generator",
+  "topic": "Carry Generator",
+  "year": 2006,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "36",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Given two three bit numbers                                    and                and the carry in, the function that represents the carry generate function when these two numbers are added is: A. B. C. D.",
+  "tagsRaw": "gatecse-2006 digital-logic  normal  carry-generator  adder",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 299
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_CARRY_GENERATOR_01"
+ },
+ {
+  "pyqId": "digital-logic__4.7.2",
+  "localId": "4.7.2",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "carry-generator",
+  "topic": "Carry Generator",
+  "year": 2007,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "35                              and the carry propagate function for",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "In a look-ahead carry generator, the carry generate function inputs and are given by: The expressions for the sum bit and the carry bit                            of the look ahead carry adder are given by: Consider a two-level logic implementation of the look-ahead carry generator. Assume that all and are available for the carry generator circuit and that the AND and OR gates can have any number of inputs. The number of AND gates and OR gates needed to implement the look-ahead carry generator for a -bit adder with and as its outputs are respectively: A.                                   B.                                  C.                   D.",
+  "tagsRaw": "gatecse-2007 digital-logic  normal   carry-generator  adder",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 301
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_CARRY_GENERATOR_01"
+ }
+]

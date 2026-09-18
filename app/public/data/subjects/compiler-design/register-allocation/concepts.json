@@ -1,0 +1,23 @@
+{
+ "overview": "Minimum registers ek expression/tree ke liye (Sethi-Ullman); interference graph colouring.",
+ "whyItMatters": "6 PYQs extracted (1997-2017); P3 topic.",
+ "coreConcept": "Minimum registers ek expression/tree ke liye (Sethi-Ullman); interference graph colouring.",
+ "hinglishExplanation": "Liveness overlap wale variables alag registers; graph colouring.",
+ "formalDefinition": "Minimum registers ek expression/tree ke liye (Sethi-Ullman); interference graph colouring.",
+ "importantProperties": [
+  "Min registers for tree: bigger subtree first.",
+  "Interference graph chromatic number = registers.",
+  "Spilling agar registers kam."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Liveness overlap ignore."
+ ],
+ "standardTechniques": [
+  "1. Live ranges.",
+  "2. Interference graph.",
+  "3. Colour."
+ ],
+ "topicId": "compiler-design:register-allocation"
+}

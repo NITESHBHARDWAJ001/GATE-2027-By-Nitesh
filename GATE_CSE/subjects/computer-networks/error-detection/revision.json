@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Hamming distance d: d-1 errors detect, floor((d-1)/2) correct.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Error Detection and Hamming Distance se related sawal.",
+   "thinkThis": "P3_ERROR_DETECTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Detect aur correct ki limits mix."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:error-detection",
+ "revisionLevel": "short-form"
+}

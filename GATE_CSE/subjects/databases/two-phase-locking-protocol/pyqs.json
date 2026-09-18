@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "databases__3.27.1",
+  "localId": "3.27.1",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "two-phase-locking-protocol",
+  "topic": "Two Phase Locking Protocol",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "17",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A;C;D",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following statements about the Two Phase Locking ( ) protocol is/are TRUE? A.      permits only serializable schedules B. With , a transaction always locks the data item being read or written just before every operation and always releases the lock just after the operation C. With , once a lock is released on any data item inside a transaction, no more locks on any data item can be obtained inside that transaction D. A deadlock is possible with",
+  "tagsRaw": "gatecse-2024-set2 databases  two-phase-locking-protocol  multiple-selects  transaction-and-concurrency  one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 271
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_TWO_PHASE_LOCKING_PROTOC_01"
+ }
+]

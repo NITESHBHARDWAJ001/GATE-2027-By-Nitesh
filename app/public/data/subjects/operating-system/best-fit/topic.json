@@ -1,0 +1,18 @@
+{
+ "topicId": "operating-system:best-fit",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Best Fit Allocation",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2026-2026.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

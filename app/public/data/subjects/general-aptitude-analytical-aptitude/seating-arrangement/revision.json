@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Square/row seating me relative positions.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Seating Arrangement se related sawal.",
+   "thinkThis": "P3_SEATING_ARRANGEMENT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Facing direction."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:seating-arrangement",
+ "revisionLevel": "short-form"
+}

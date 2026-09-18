@@ -1,0 +1,18 @@
+{
+ "topicId": "discrete-mathematics-graph-theory:graph-algorithms",
+ "subjectId": "discrete-mathematics-graph-theory",
+ "subject": "Discrete Mathematics - Graph Theory",
+ "name": "Graph Algorithms (Colorability)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2026-2026.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

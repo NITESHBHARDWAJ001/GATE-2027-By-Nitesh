@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Cube cutting, solids ka cross-section.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "3D Patterns (Cubes, Cones, Surfaces) se related sawal.",
+   "thinkThis": "P3_PATTERNS_IN_THREE_DIMENS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Hidden faces."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:patterns-in-three-dimensions",
+ "revisionLevel": "short-form"
+}

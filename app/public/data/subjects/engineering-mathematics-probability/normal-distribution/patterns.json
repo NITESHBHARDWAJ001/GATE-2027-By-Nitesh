@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_NORMAL_DISTRIBUTION_01",
+  "name": "Normal Distribution (PYQ type)",
+  "recognitionClueHinglish": "Normal Distribution se related sawal.",
+  "whatShouldComeToMind": [
+   "Mean/variance, standardization Z=(X-mu)/sigma, transformations like max(X,0)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Standardize."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.11.1",
+   "7.11.2",
+   "7.11.3",
+   "7.11.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Variance vs SD."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

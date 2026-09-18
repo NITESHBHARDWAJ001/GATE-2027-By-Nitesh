@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_PASSAGE_READING_01",
+  "name": "Passage-Based Reasoning (Numbers) (PYQ type)",
+  "recognitionClueHinglish": "Passage-Based Reasoning (Numbers) se related sawal.",
+  "whatShouldComeToMind": [
+   "Passage me diye percentages/data se calculation aur inference."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Data.",
+   "2. Calculate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.11.1",
+   "8.11.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Base galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

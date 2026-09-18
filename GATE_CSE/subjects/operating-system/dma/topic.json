@@ -1,0 +1,18 @@
+{
+ "topicId": "operating-system:dma",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "DMA (OS View)",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2001-2001.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2001
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

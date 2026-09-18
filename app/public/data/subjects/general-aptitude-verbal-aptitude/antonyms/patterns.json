@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_ANTONYMS_01",
+  "name": "Antonyms and Opposites (PYQ type)",
+  "recognitionClueHinglish": "Antonyms and Opposites se related sawal.",
+  "whatShouldComeToMind": [
+   "Word ka opposite; antonym analogy."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Meaning.",
+   "2. Opposite."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.1.1",
+   "11.1.2",
+   "11.1.3",
+   "11.1.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Synonym chun lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

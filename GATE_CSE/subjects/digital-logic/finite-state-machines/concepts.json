@@ -1,0 +1,22 @@
+{
+ "overview": "State table trace, state minimization, FSM adder.",
+ "whyItMatters": "4 PYQs extracted (1994-2009); P3 topic.",
+ "coreConcept": "State table trace, state minimization, FSM adder.",
+ "hinglishExplanation": "State table se next state/output trace; equivalent states merge.",
+ "formalDefinition": "State table trace, state minimization, FSM adder.",
+ "importantProperties": [
+  "Equivalent states merge.",
+  "Serial adder FSM: carry state.",
+  "FSM limited memory: unbounded cheezein nahi."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Equivalent states pehchanne me galti."
+ ],
+ "standardTechniques": [
+  "1. Table.",
+  "2. Trace/minimize."
+ ],
+ "topicId": "digital-logic:finite-state-machines"
+}

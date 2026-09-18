@@ -1,0 +1,30 @@
+[
+ {
+  "patternId": "P3_PROCESS_01",
+  "name": "Processes and States (PYQ type)",
+  "recognitionClueHinglish": "Processes and States se related sawal.",
+  "whatShouldComeToMind": [
+   "Process state diagram, multiprogramming characteristics, context saved items."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Diagram padho.",
+   "2. Transition rule."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.22.1",
+   "5.22.2",
+   "5.22.3",
+   "5.22.4",
+   "5.22.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "State transitions galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

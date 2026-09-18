@@ -1,0 +1,33 @@
+{
+  "topicId": "ds-stack",
+  "overview": "Stack topic 5 skills test karta hai: expression conversion (infix/postfix/prefix), push/pop sequence simulation, valid-permutation reasoning, conceptual applications, aur implementation-design questions.",
+  "whyItMatters": "19 PYQs, aur Stack ka LIFO concept Compiler Parsing, Recursion call-stack, aur balanced-parentheses jaisी real applications me har jagah use hota hai.",
+  "coreConcept": "Stack = LIFO (Last In, First Out) structure. Sirf 2 core operations: PUSH (top pe daalo) aur POP (top se nikaalo). Jo sabse aakhri me gaya, wahi sabse pehle bahar aayega — plate ka stack socho.",
+  "hinglishExplanation": "Stack ko plates ka ek dher (pile) socho — tum hamesha UPAR se hi plate rakhte ho (push) aur UPAR se hi utaarte ho (pop). Neeche ki plate tab tak nahi nikal sakte jab tak upar wali saari na hata do. Isi wajah se stack PUSH/POP sequences me output order bahut predictable hota hai agar tum LIFO discipline follow karo.",
+  "formalDefinition": "Stack supports PUSH(x) (insert x at top) and POP() (remove and return the top element), both O(1), following Last-In-First-Out order.",
+  "importantProperties": [
+    "For n elements pushed in order 1,2,...,n, a valid POP sequence is any permutation achievable by interleaving PUSH and POP — NOT all n! permutations are achievable (only Catalan-number-many, C(n) = (2n)!/((n+1)!n!)).",
+    "A permutation π is achievable via a stack iff it avoids the pattern 231 (no i<j<k with π(k)<π(i)<π(j)) — useful for quickly checking small cases.",
+    "Stack is the natural data structure for: balanced parentheses checking, infix-to-postfix conversion, postfix expression evaluation, function call/recursion tracking, undo operations, DFS (iterative version).",
+    "Postfix evaluation: scan left to right, push operands, on seeing an operator pop the top TWO operands, apply operator, push result back.",
+    "Infix to postfix conversion (Shunting Yard idea): use an operator stack; pop operators of higher-or-equal precedence before pushing a new one; parentheses force immediate resolution."
+  ],
+  "formulas": {
+    "catalanNumberValidSequences": "Number of distinct output sequences achievable by push/pop-ing n elements pushed in order = Catalan number C(n) = (2n)! / ((n+1)! n!)",
+    "twoStacksOneArray": "Two stacks growing from opposite ends of one array of size n waste space only when combined size exceeds n — more space-efficient than splitting the array in half for each stack."
+  },
+  "keyPropertiesAndIdentities": [
+    "231-pattern avoidance is the fast check for 'can this permutation be produced by a stack': if some later-popped-earlier value breaks the pattern, it's impossible.",
+    "A queue CANNOT be efficiently simulated by a single stack, but CAN be simulated using TWO stacks (one for enqueue, one for dequeue, transferring when the dequeue-stack is empty) — classic implementation-design result."
+  ],
+  "commonPitfalls": [
+    "Assuming ANY output permutation is achievable via stack push/pop — only a specific (Catalan-counted) subset is possible.",
+    "Off-by-one or wrong-order errors in postfix evaluation (popping operands in the wrong order for non-commutative operators like - and /).",
+    "Forgetting operator precedence AND associativity when converting infix to postfix (e.g., right-associativity of exponentiation ^)."
+  ],
+  "standardTechniques": [
+    "For push/pop sequence tracing: maintain an explicit stack (a simple list), process each operation literally, don't try to shortcut.",
+    "For infix-to-postfix conversion: maintain an explicit operator stack, apply the standard precedence/associativity rules mechanically.",
+    "For 'is this permutation achievable' questions: check for the 231 forbidden pattern, or simulate directly for small n."
+  ]
+}

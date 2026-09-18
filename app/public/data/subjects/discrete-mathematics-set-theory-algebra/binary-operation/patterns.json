@@ -1,0 +1,33 @@
+[
+ {
+  "patternId": "P3_BINARY_OPERATION_01",
+  "name": "Binary Operations (PYQ type)",
+  "recognitionClueHinglish": "Binary Operations se related sawal.",
+  "whatShouldComeToMind": [
+   "Commutative operations count n^(n(n+1)/2); associativity/commutativity check."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Table.",
+   "2. Test."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.1.1",
+   "4.1.2",
+   "4.1.3",
+   "4.1.4",
+   "4.1.5",
+   "4.1.6",
+   "4.1.7",
+   "4.1.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Commutative aur associative mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

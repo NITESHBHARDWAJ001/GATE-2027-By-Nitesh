@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:macros",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MACROS-01",
+   "patternId": "P3_MACROS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Macro expansion kab hota hai?",
+   "solutionApproach": "Assembly/compile time.",
+   "answer": "Compile time"
+  }
+ ]
+}

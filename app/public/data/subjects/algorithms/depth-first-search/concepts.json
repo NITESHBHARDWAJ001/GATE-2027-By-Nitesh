@@ -1,0 +1,24 @@
+{
+ "overview": "DFS traversal, discovery/finish times, edge classification, adjacency-list order.",
+ "whyItMatters": "2 PYQs extracted (2025-2026); P3 topic.",
+ "coreConcept": "DFS traversal, discovery/finish times, edge classification, adjacency-list order.",
+ "hinglishExplanation": "Stack/recursion; edges: tree, back, forward, cross. Back edge = cycle.",
+ "formalDefinition": "DFS traversal, discovery/finish times, edge classification, adjacency-list order.",
+ "importantProperties": [
+  "O(V+E).",
+  "Back edge <=> cycle (directed).",
+  "Finish-time ordering topological sort deta hai.",
+  "Adjacency-list order traversal sequence badalta hai."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Order of neighbours ignore karna."
+ ],
+ "standardTechniques": [
+  "1. Start vertex.",
+  "2. Recursive visit.",
+  "3. Time stamps."
+ ],
+ "topicId": "algorithms:depth-first-search"
+}

@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_SENTENCE_ORDERING_01",
+  "name": "Sentence Ordering (PYQ type)",
+  "recognitionClueHinglish": "Sentence Ordering se related sawal.",
+  "whatShouldComeToMind": [
+   "Sentences ko coherent order me."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Opening.",
+   "2. Links."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.12.1",
+   "11.12.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Connector ignore."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

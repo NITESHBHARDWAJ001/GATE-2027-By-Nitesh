@@ -1,0 +1,21 @@
+{
+ "overview": "Grammar se operator precedence/associativity; expression value evaluation with given rules.",
+ "whyItMatters": "9 PYQs extracted (1991-2024); P2 topic.",
+ "coreConcept": "Grammar me jo operator start symbol ke paas hota hai (upar) uski precedence kam; recursion left me ho to left associative.",
+ "hinglishExplanation": "E -> E + T | T me + left associative aur kam precedence. Right recursion (E -> T ^ E) right associative. Value evaluation me precedence phir associativity apply.",
+ "formalDefinition": "Grammar me jo operator start symbol ke paas hota hai (upar) uski precedence kam; recursion left me ho to left associative.",
+ "importantProperties": [
+  "Lower in grammar hierarchy = higher precedence.",
+  "Left recursion => left associative; right recursion => right associative.",
+  "Ambiguity ke liye precedence/assoc rules add karte hain."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Recursion direction ulta."
+ ],
+ "standardTechniques": [
+  "Parse tree draw."
+ ],
+ "topicId": "compiler-design:operator-precedence"
+}

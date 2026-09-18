@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:multiplicity",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MULTIP-01",
+   "patternId": "P3_MULTIPLICITY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Max multiplicity of eigenvalue in n x n?",
+   "solutionApproach": "Root repeat n times.",
+   "answer": "n"
+  }
+ ]
+}

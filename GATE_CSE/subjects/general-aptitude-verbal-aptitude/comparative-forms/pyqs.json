@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-verbal-aptitude__11.3.1",
+  "localId": "11.3.1",
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "subject": "General Aptitude: Verbal Aptitude",
+  "topicSlug": "comparative-forms",
+  "topic": "Comparative Forms",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "1",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Didn't you buy ____ when you went shopping? A. any paper                       B. much paper                          C. no paper            D. a few paper",
+  "tagsRaw": "gatecse-2015-set1 verbal-aptitude easy english-grammar comparative-forms",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 342
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COMPARATIVE_FORMS_01"
+ },
+ {
+  "pyqId": "general-aptitude-verbal-aptitude__11.3.2",
+  "localId": "11.3.2",
+  "subjectId": "general-aptitude-verbal-aptitude",
+  "subject": "General Aptitude: Verbal Aptitude",
+  "topicSlug": "comparative-forms",
+  "topic": "Comparative Forms",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "1",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Gauri said that she can play the keyboard __________ her sister. A. as well as                      B. as better as                         C. as nicest as       D. as worse as English Grammar (5)",
+  "tagsRaw": "gatecse-2021-set2 verbal-aptitude  comparative-forms  one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 342
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COMPARATIVE_FORMS_01"
+ }
+]

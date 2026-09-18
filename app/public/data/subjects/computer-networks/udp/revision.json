@@ -1,0 +1,18 @@
+{
+ "coreIdea": "UDP connectionless; real-time multimedia UDP, file TCP, email TCP.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "UDP and Transport Protocols se related sawal.",
+   "thinkThis": "P3_UDP_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "UDP ko reliable maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:udp",
+ "revisionLevel": "short-form"
+}

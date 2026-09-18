@@ -1,0 +1,18 @@
+{
+ "coreIdea": "FD implication, decomposition, attribute closure.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Functional Dependencies se related sawal.",
+   "thinkThis": "P3_FUNCTIONAL_DEPENDENCY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "FD ko instance se prove maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:functional-dependency",
+ "revisionLevel": "short-form"
+}

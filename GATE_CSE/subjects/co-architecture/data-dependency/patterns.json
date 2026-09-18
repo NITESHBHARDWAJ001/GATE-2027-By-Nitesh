@@ -1,0 +1,30 @@
+[
+ {
+  "patternId": "P3_DATA_DEPENDENCY_01",
+  "name": "Data Dependency and Forwarding (PYQ type)",
+  "recognitionClueHinglish": "Data Dependency and Forwarding se related sawal.",
+  "whatShouldComeToMind": [
+   "RAW hazards, forwarding se stalls kam, stage-wise timing."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Dependency pairs.",
+   "2. Stalls.",
+   "3. Cycles."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.10.1",
+   "1.10.2",
+   "1.10.3",
+   "1.10.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Forwarding ko har hazard ka ilaaj maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

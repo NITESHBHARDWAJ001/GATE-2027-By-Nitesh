@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:orthonormality",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ORTHON-01",
+   "patternId": "P3_ORTHONORMALITY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "(1,0),(0,1) orthonormal?",
+   "solutionApproach": "Dot 0, norm 1.",
+   "answer": "Haan"
+  }
+ ]
+}

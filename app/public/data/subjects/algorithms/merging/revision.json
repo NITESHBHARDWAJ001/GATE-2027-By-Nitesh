@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Sorted lists merge: m+n-1 comparisons worst case; k lists ke liye optimal merge pattern.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Merging Sorted Lists se related sawal.",
+   "thinkThis": "P4_MERGING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Best/worst comparisons mix."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:merging",
+ "revisionLevel": "short-form"
+}

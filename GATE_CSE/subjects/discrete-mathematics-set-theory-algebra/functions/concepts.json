@@ -1,0 +1,41 @@
+{
+  "topicId": "dm-set-theory-algebra-functions",
+  "overview": "Functions topic me do cheezein dominate karti hain: (1) COUNTING — kitne functions/one-one/onto possible hain, (2) PROPERTY REASONING — given ek function, one-one/onto/bijective hai ya nahi, aur composition/image-preimage identities.",
+  "whyItMatters": "Counting formulas (n^m, permutations, Stirling-based onto count) GATE me almost har saal reappear karte hain — high ROI hai inhe yaad rakhna. Property-reasoning skill Group Theory (homomorphisms) aur Algorithms (identify function) me directly reuse hoti hai.",
+  "coreConcept": "Function f: A→B ek special relation hai jisme HAR element of A ka EXACTLY ONE image B me hota hai. One-one (injective) = alag inputs → alag outputs. Onto (surjective) = har output kisi na kisi input se aata hai. Bijective = dono (one-one aur onto).",
+  "hinglishExplanation": "Function ko ek 'assignment machine' socho — har A ke element ko EK aur SIRF EK B ka element assign karta hai (do options nahi, aur khali bhi nahi chhod sakta). One-one = koi do alag inputs same output share nahi karte (no clash). Onto = B ka HAR element kisi na kisi input se cover hota hai (koi B-element chhoot na jaaye).",
+  "formalDefinition": "f: A→B is a function if every a∈A maps to exactly one b∈B. Injective: f(a1)=f(a2) ⟹ a1=a2. Surjective: ∀b∈B, ∃a∈A such that f(a)=b. Bijective: both.",
+  "importantProperties": [
+    "Total functions from an m-element set to an n-element set = n^m.",
+    "One-one (injective) functions from m-element to n-element set (m≤n) = n·(n-1)·...·(n-m+1) = P(n,m) = n!/(n-m)!.",
+    "If m>n, NO injective function can exist (Pigeonhole Principle).",
+    "Onto (surjective) functions from m-element to n-element set (m≥n) = n! × S(m,n), where S(m,n) is the Stirling number of the 2nd kind — for GATE, usually computed via inclusion-exclusion instead: Σ (-1)^k C(n,k) (n-k)^m for k=0 to n.",
+    "Bijective functions exist only when |A|=|B|=n, and there are exactly n! of them.",
+    "f(A1∩A2) ⊆ f(A1)∩f(A2) in general (NOT equal) — equality holds when f is injective.",
+    "f(A1∪A2) = f(A1)∪f(A2) always (this one IS an equality, no injectivity needed).",
+    "f⁻¹(B1∩B2) = f⁻¹(B1)∩f⁻¹(B2) and f⁻¹(B1∪B2) = f⁻¹(B1)∪f⁻¹(B2) — preimage always distributes cleanly over both ∩ and ∪, unlike forward image."
+  ],
+  "formulas": {
+    "totalFunctions": "n^m (m = |domain|, n = |codomain|)",
+    "oneOneFunctions": "P(n,m) = n! / (n-m)!  (requires m ≤ n)",
+    "ontoFunctionsInclusionExclusion": "Σ_{k=0}^{n} (-1)^k C(n,k) (n-k)^m",
+    "bijections": "n!  (only when |A|=|B|=n)",
+    "booleanFunctionsCount": "2^(2^n)  (n boolean variables → 2^n input rows → each row independently 0/1 in output)"
+  },
+  "keyPropertiesAndIdentities": [
+    "For FINITE sets of equal size: f is injective ⟺ f is surjective ⟺ f is bijective (all three are equivalent) — huge shortcut, tested repeatedly (GATE 1988 classic).",
+    "Image of intersection is a SUBSET of intersection of images — not necessarily equal (equality needs injectivity).",
+    "Preimage distributes perfectly over both union and intersection, always — no injectivity needed."
+  ],
+  "commonPitfalls": [
+    "Applying the 'equal-size sets ⟹ one-one iff onto' shortcut to sets of DIFFERENT sizes — only valid when |A|=|B| and both finite.",
+    "Assuming f(A∩B) = f(A)∩f(B) — this is false in general, a very common GATE trap option.",
+    "Forgetting the inclusion-exclusion correction terms when counting onto functions — just using n^m − (something) without the full alternating sum.",
+    "Confusing 'number of functions' (n^m) with 'number of one-one functions' (permutation, not power)."
+  ],
+  "standardTechniques": [
+    "For counting questions: identify domain size m and codomain size n FIRST, then match to the right formula (total/one-one/onto/bijective) based on what's asked and the m-vs-n relationship.",
+    "For property-verification questions (image/preimage identities): test with a tiny concrete example (2-3 element sets) rather than abstract proof.",
+    "For composition questions (g∘f onto ⟹ is g onto? is f onto?): remember g∘f onto ⟹ g MUST be onto (not necessarily f); g∘f one-one ⟹ f MUST be one-one (not necessarily g) — memorize this asymmetry."
+  ]
+}

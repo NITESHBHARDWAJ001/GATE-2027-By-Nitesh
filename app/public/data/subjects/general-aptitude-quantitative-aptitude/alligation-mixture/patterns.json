@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_ALLIGATION_MIXTURE_01",
+  "name": "Alligation and Mixtures (PYQ type)",
+  "recognitionClueHinglish": "Alligation and Mixtures se related sawal.",
+  "whatShouldComeToMind": [
+   "Mixture ka concentration; replacement problems."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Ratio."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.4.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Volume total."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

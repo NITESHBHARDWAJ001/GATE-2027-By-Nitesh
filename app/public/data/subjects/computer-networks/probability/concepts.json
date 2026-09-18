@@ -1,0 +1,22 @@
+{
+ "overview": "Bit error probability, message success probability, retransmission expected count.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Bit error probability, message success probability, retransmission expected count.",
+ "hinglishExplanation": "Message success = (1-p)^n; expected tries = 1/success.",
+ "formalDefinition": "Bit error probability, message success probability, retransmission expected count.",
+ "importantProperties": [
+  "P(no error) = (1-p)^n.",
+  "Expected transmissions 1/(1-p).",
+  "Independent bit errors."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Independence maan lena bina check."
+ ],
+ "standardTechniques": [
+  "1. Success p.",
+  "2. Expected."
+ ],
+ "topicId": "computer-networks:probability"
+}

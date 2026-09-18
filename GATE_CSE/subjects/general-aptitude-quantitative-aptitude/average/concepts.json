@@ -1,0 +1,20 @@
+{
+ "overview": "Average = sum/n; weighted average.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Average = sum/n; weighted average.",
+ "hinglishExplanation": "Sum nikalo.",
+ "formalDefinition": "Average = sum/n; weighted average.",
+ "importantProperties": [
+  "Sum = avg x n.",
+  "Weighted average."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Weights."
+ ],
+ "standardTechniques": [
+  "1. Sum."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:average"
+}

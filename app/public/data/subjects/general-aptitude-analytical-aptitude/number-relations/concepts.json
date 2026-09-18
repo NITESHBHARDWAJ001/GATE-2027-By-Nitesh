@@ -1,0 +1,21 @@
+{
+ "overview": "Grid me pattern (cross/circle counts) se relation.",
+ "whyItMatters": "1 PYQs extracted (2024-2024); P3 topic.",
+ "coreConcept": "Grid me pattern (cross/circle counts) se relation.",
+ "hinglishExplanation": "Row/column rules table me.",
+ "formalDefinition": "Grid me pattern (cross/circle counts) se relation.",
+ "importantProperties": [
+  "Counting rules.",
+  "Consistency across rows."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Figure data missing in text."
+ ],
+ "standardTechniques": [
+  "1. Rules.",
+  "2. Fill."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:number-relations"
+}

@@ -1,0 +1,20 @@
+{
+ "overview": "Sequential modules probabilities multiply/add.",
+ "whyItMatters": "1 PYQs extracted (2003-2003); P4 topic.",
+ "coreConcept": "Sequential modules probabilities multiply/add.",
+ "hinglishExplanation": "Independent stages ke probabilities multiply.",
+ "formalDefinition": "Sequential modules probabilities multiply/add.",
+ "importantProperties": [
+  "Sequential AND multiply.",
+  "Expected time addition."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Independence."
+ ],
+ "standardTechniques": [
+  "1. Stages."
+ ],
+ "topicId": "engineering-mathematics-probability:probability-density-function"
+}

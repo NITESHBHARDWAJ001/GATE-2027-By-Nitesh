@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "compiler-design__2.5.1",
+  "localId": "2.5.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "basic-blocks",
+  "topic": "Basic Blocks",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "42",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": "easy",
+  "marks": 2,
+  "answer": "6:6",
+  "answerVerified": true,
+  "questionTextRaw": "Refer to the given -address code sequence. This code sequence is split into basic blocks. The number of basic blocks is ________. (Answer in integer) 1001: i = 1 1002: j = 1 1003: t1 = 10*i 1004: t2 = t1+j 1005: t3 = 8*t2 1006: t4 = t3-88 1007: a[t4] = 0.0 1008: j = j+1 1009: if j <= 10 goto 1003 1010: i = i+1 1011: if i <= 10 goto 1002 1012: i = 1 1013: t5 = i-1 1014: t6 = 88*t5 1015: a[t6] = 1.0 1016: i = i+1 1017: if i <= 10 goto 1013",
+  "tagsRaw": "gatecse2025-set1 compiler-design three-address-code basic-blocks numerical-answers easy two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 120
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BASIC_BLOCKS_01"
+ },
+ {
+  "pyqId": "compiler-design__2.5.2",
+  "localId": "2.5.2",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "basic-blocks",
+  "topic": "Basic Blocks",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "35",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE_OR_UNVERIFIED",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": null,
+  "answerVerified": false,
+  "questionTextRaw": "Consider the control flow graph given below. Which one of the following options is the set of live variables at the exit point of each basic block? A. B. : , : d, e , : a, c, f , : C. D.",
+  "tagsRaw": "gatecse-2026-set2 compiler-design  basic-blocks  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 124
+  },
+  "formulaExtractionNote": null,
+  "patternId": "P3_BASIC_BLOCKS_01"
+ }
+]

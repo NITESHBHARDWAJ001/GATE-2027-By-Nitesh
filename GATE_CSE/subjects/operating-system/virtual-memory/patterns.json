@@ -1,0 +1,165 @@
+[
+ {
+  "patternId": "VM_PAGETABLE_SIZE_01",
+  "name": "Page Table Size / Multilevel Address Split",
+  "recognitionClueHinglish": "VA bits, PA bits, page size, PTE size di hain aur page table ka size, levels, ya kisi level ki bits poochi hain — sabse bada pattern (43 me se 18).",
+  "whatShouldComeToMind": [
+   "Offset = log2(page size); page number bits = VA - offset.",
+   "Ek page me PTE count = page size / PTE size, yahi bits per level hain."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Offset, page number, frame bits nikaalo.",
+   "2. Single level: entries x PTE size.",
+   "3. Multilevel: bits per level = log2(page size/PTE size); levels = ceil(page-number bits / bits per level).",
+   "4. Asked quantity (table size, #levels, memory for a process) compute karo."
+  ],
+  "formulasUsed": [
+   "pageTableSize",
+   "ptEntriesPerPage",
+   "levelSplit"
+  ],
+  "pyqExamples": [
+   "5.33.10",
+   "5.33.16",
+   "5.33.17",
+   "5.33.18",
+   "5.33.19",
+   "5.33.20",
+   "5.33.22",
+   "5.33.23",
+   "5.33.27",
+   "5.33.28",
+   "5.33.30",
+   "5.33.32",
+   "5.33.33",
+   "5.33.35",
+   "5.33.37",
+   "5.33.38",
+   "5.33.40",
+   "5.33.41"
+  ],
+  "variationsObserved": [
+   "Segmented paging (segment table + page tables).",
+   "Maximum page-table size ke andar page count back-solve karna."
+  ],
+  "commonTraps": [
+   "PTE me extra bits bhoolna.",
+   "Unit conversion mistakes."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "VM_EAT_02",
+  "name": "Effective Access Time (TLB, page faults)",
+  "recognitionClueHinglish": "Hit ratio, TLB time, memory time, page fault service time diye hain aur EAT poocha hai.",
+  "whatShouldComeToMind": [
+   "Probability tree banao: TLB hit / TLB miss / page fault.",
+   "Fault rate p ka weightage service time se hota hai."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har path ka time likho.",
+   "2. Har path ki probability se multiply karke sum lo.",
+   "3. Units consistent rakho."
+  ],
+  "formulasUsed": [
+   "eatPageFault",
+   "eatTLB"
+  ],
+  "pyqExamples": [
+   "5.33.3",
+   "5.33.9",
+   "5.33.13",
+   "5.33.26",
+   "5.33.29",
+   "5.33.34",
+   "5.33.36",
+   "5.33.42"
+  ],
+  "variationsObserved": [
+   "Multilevel table + TLB combined (miss pe levels+1 accesses).",
+   "Dirty page ka extra write-back time."
+  ],
+  "commonTraps": [
+   "TLB lookup time ko miss path me add karna bhool jaana.",
+   "ms vs ns."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "VM_TLB_STRUCTURE_03",
+  "name": "TLB Organization (tag bits / size)",
+  "recognitionClueHinglish": "TLB entries, associativity, VA bits di hain aur TLB tag ya size poochi hai.",
+  "whatShouldComeToMind": [
+   "Sets = entries / ways.",
+   "Tag = page number bits - set-index bits."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Page number bits nikaalo.",
+   "2. Set-index bits = log2(sets).",
+   "3. Tag bits = page number - index; entry size me tag + frame + control bits."
+  ],
+  "formulasUsed": [
+   "tlbTagBits"
+  ],
+  "pyqExamples": [
+   "5.33.21",
+   "5.33.31"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Fully associative me index bits 0."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "VM_CONCEPT_04",
+  "name": "Conceptual / Definitions",
+  "recognitionClueHinglish": "True/false ya match-the-following: virtual memory ke advantages, page table content, swap space, MMU responsibilities, hardware support.",
+  "whatShouldComeToMind": [
+   "Virtual memory protected address spaces deti hai, program ko RAM se bada hone deti hai.",
+   "Multilevel page table memory bachata hai, access time nahi."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Direct definition recall karo.",
+   "2. Har option ko definition se check karo."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.33.1",
+   "5.33.2",
+   "5.33.4",
+   "5.33.5",
+   "5.33.6",
+   "5.33.7",
+   "5.33.8",
+   "5.33.11",
+   "5.33.12",
+   "5.33.14",
+   "5.33.15",
+   "5.33.24",
+   "5.33.25",
+   "5.33.39",
+   "5.33.43"
+  ],
+  "variationsObserved": [
+   "Demand paging + LRU list simulation.",
+   "Segmented paging me segment table ka page table."
+  ],
+  "commonTraps": [
+   "'Multilevel table access time kam karta hai' galat hai — memory footprint kam karta hai."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ }
+]

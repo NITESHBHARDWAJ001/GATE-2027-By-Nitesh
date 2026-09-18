@@ -1,0 +1,63 @@
+[
+ {
+  "patternId": "DET_COMPUTE_01",
+  "name": "Compute Determinant of a Given Matrix",
+  "recognitionClueHinglish": "Numeric/structured matrix ka det.",
+  "whatShouldComeToMind": [
+   "Row ops."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Simplify.",
+   "2. Multiply."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.2.1",
+   "6.2.2",
+   "6.2.3",
+   "6.2.10",
+   "6.2.11",
+   "6.2.12"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Sign."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DET_PROPERTIES_02",
+  "name": "Determinant Properties / Relations Between Matrices",
+  "recognitionClueHinglish": "det(AB), det(kA), swap; given det find another.",
+  "whatShouldComeToMind": [
+   "Property rules."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rule.",
+   "2. Substitute."
+  ],
+  "formulasUsed": [
+   "scalar",
+   "adj"
+  ],
+  "pyqExamples": [
+   "6.2.4",
+   "6.2.5",
+   "6.2.6",
+   "6.2.7",
+   "6.2.8",
+   "6.2.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "k^n."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

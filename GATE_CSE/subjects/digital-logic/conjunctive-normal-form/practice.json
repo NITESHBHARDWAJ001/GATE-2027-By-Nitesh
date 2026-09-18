@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:conjunctive-normal-form",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CONJUN-01",
+   "patternId": "P4_CONJUNCTIVE_NORMAL_FORM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "CNF ka structure?",
+   "solutionApproach": "AND of ORs.",
+   "answer": "Product of sums"
+  }
+ ]
+}

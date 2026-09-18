@@ -1,0 +1,23 @@
+{
+ "overview": "Common attributes par equality; lossy decomposition, min/max tuples, outer join.",
+ "whyItMatters": "3 PYQs extracted (2005-2015); P3 topic.",
+ "coreConcept": "Common attributes par equality; lossy decomposition, min/max tuples, outer join.",
+ "hinglishExplanation": "Natural join common columns par match; size FD/keys se bound hota hai.",
+ "formalDefinition": "Common attributes par equality; lossy decomposition, min/max tuples, outer join.",
+ "importantProperties": [
+  "|R join S| <= |R||S|.",
+  "Common attribute key ho to <= |R| (FK case).",
+  "Full outer join me unmatched sab.",
+  "Decomposition lossless iff common attributes key of one."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Common attribute na ho to cross product."
+ ],
+ "standardTechniques": [
+  "1. Common attrs.",
+  "2. Match."
+ ],
+ "topicId": "databases:natural-join"
+}

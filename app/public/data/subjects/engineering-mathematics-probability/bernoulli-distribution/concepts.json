@@ -1,0 +1,22 @@
+{
+ "overview": "Single trial success p; mean p, variance p(1-p).",
+ "whyItMatters": "2 PYQs extracted (2025-2026); P3 topic.",
+ "coreConcept": "Single trial success p; mean p, variance p(1-p).",
+ "hinglishExplanation": "Independent Bernoulli entries ke matrices/sums.",
+ "formalDefinition": "Single trial success p; mean p, variance p(1-p).",
+ "importantProperties": [
+  "P(1)=p, P(0)=1-p.",
+  "Sum of n Bernoulli = Binomial.",
+  "E=p, Var=p(1-p)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Var me (1-p) bhoolna."
+ ],
+ "standardTechniques": [
+  "1. p.",
+  "2. Independence."
+ ],
+ "topicId": "engineering-mathematics-probability:bernoulli-distribution"
+}

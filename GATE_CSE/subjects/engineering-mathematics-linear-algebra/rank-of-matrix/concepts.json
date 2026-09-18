@@ -1,0 +1,26 @@
+{
+ "overview": "Rank = number of independent rows/columns; row echelon form, rank of products, parameter dependence.",
+ "whyItMatters": "7 PYQs extracted (1994-2021); P2 topic.",
+ "coreConcept": "Rank = non-zero rows in echelon form.",
+ "hinglishExplanation": "Row reduce karo aur non-zero rows gino. rank(AB) <= min(rank A, rank B). Outer product (column x row) ka rank 1 hota hai.",
+ "formalDefinition": "Rank = non-zero rows in echelon form.",
+ "importantProperties": [
+  "Rank = # non-zero rows in echelon form.",
+  "rank <= min(m,n).",
+  "rank(AB) <= min.",
+  "Column vector x row vector => rank 1.",
+  "Full rank square <=> det != 0.",
+  "Nullity = n - rank."
+ ],
+ "formulas": {
+  "rankNullity": "rank + nullity = n"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Parameter special values."
+ ],
+ "standardTechniques": [
+  "Echelon form."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:rank-of-matrix"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "AND of ORs; har formula ka CNF exist.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Conjunctive Normal Form se related sawal.",
+   "thinkThis": "P4_CONJUNCTIVE_NORMAL_FORM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Unique CNF maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:conjunctive-normal-form",
+ "revisionLevel": "short-form"
+}

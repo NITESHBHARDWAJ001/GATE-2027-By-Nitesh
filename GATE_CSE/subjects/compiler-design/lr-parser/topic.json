@@ -1,0 +1,20 @@
+{
+  "topicId": "cd-lr-parser",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "name": "LR Parser",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "20 PYQs extracted, tested 1992-2026. Direct deep-dive into the LR-family parsing skills previewed in the Grammar topic's Parser-Class pattern.",
+  "pyqCountExtracted": 20,
+  "yearsCovered": [1992,1998,2003,2005,2006,2008,2013,2014,2015,2017,2019,2020,2021,2022,2024,2025,2026],
+  "prerequisites": [
+    {"topic": "Grammar", "subjectId": "compiler-design", "why": "LR parsing operates on grammar classification/ambiguity concepts already established there."}
+  ],
+  "unlocks": [
+    {"topic": "Syntax Directed Translation", "subjectId": "compiler-design", "why": "Semantic actions are typically attached at reduce steps during LR parsing."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

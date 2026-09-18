@@ -1,0 +1,25 @@
+{
+ "topicId": "computer-networks:network-protocols",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "Network Protocols (ARP, DNS, DHCP, UDP/TCP usage)",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "11 PYQs extracted, 2005-2024.",
+ "pyqCountExtracted": 11,
+ "yearsCovered": [
+  2005,
+  2007,
+  2008,
+  2015,
+  2016,
+  2019,
+  2021,
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

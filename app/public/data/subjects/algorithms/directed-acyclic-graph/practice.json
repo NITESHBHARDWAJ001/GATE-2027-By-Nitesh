@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:directed-acyclic-graph",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DIRECT-01",
+   "patternId": "P3_DIRECTED_ACYCLIC_GRAPH_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "DAG me single-source shortest path best time?",
+   "solutionApproach": "Topological relax.",
+   "answer": "O(V+E)"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "overview": "Divide and conquer, greedy, aur array problems: leader element, max subarray sum, shifting arrays, coin weighing.",
+ "whyItMatters": "8 PYQs extracted (1992-2024); P2 topic.",
+ "coreConcept": "Problem ke structure se technique chuno: D&C (split-merge), greedy, DP, ya simple linear scan.",
+ "hinglishExplanation": "Chhote array problems me trick dhundo: leader ke liye right se scan (O(n)), max subarray sum divide & conquer (mid crossing) ya Kadane. Cyclic shift reversal trick se O(n).",
+ "formalDefinition": "Problem ke structure se technique chuno: D&C (split-merge), greedy, DP, ya simple linear scan.",
+ "importantProperties": [
+  "Leaders: right se left scan, O(n).",
+  "Max subarray D&C: max(left, right, crossing).",
+  "Cyclic shift: reverse three parts.",
+  "Rod cutting = DP.",
+  "Binary encoding se bag weighing (2^k coins idea)."
+ ],
+ "formulas": {
+  "leader": "scan right-to-left O(n)",
+  "maxSub": "max(L, R, crossing)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Naive O(n^2) choose karna."
+ ],
+ "standardTechniques": [
+  "Ek pass me kya track karna hai socho."
+ ],
+ "topicId": "algorithms:algorithm-design"
+}

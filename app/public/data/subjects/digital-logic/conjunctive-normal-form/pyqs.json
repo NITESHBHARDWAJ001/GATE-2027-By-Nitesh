@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "digital-logic__4.10.1",
+  "localId": "4.10.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "conjunctive-normal-form",
+  "topic": "Conjunctive Normal Form",
+  "year": 2007,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "48",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following is TRUE about formulae in Conjunctive Normal Form? A. For any formula, there is a truth assignment for which at least half the clauses evaluate to true. B. For any formula, there is a truth assignment for which all the clauses evaluate to true. C. There is a formula such that for each truth assignment, at most one-fourth of the clauses evaluate to true. D. None of the above.",
+  "tagsRaw": "gatecse-2007 digital-logic  normal  conjunctive-normal-form   canonical-normal-form",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 308
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_CONJUNCTIVE_NORMAL_FORM_01"
+ }
+]

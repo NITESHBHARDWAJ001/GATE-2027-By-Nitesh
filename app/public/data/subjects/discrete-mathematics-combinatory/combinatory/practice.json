@@ -1,0 +1,42 @@
+{
+ "topicId": "dm-combinatory",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CMB-01",
+   "patternId": "CMB_PERM_COMB_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Arrangements of letters in 'LEVEL'?",
+   "solutionApproach": "5!/(2!2!).",
+   "answer": "30"
+  },
+  {
+   "practiceId": "AI-CMB-02",
+   "patternId": "CMB_DISTRIBUTION_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Identical 10 balls into 3 distinct boxes?",
+   "solutionApproach": "C(12,2).",
+   "answer": "66"
+  },
+  {
+   "practiceId": "AI-CMB-03",
+   "patternId": "CMB_PATHS_RECURRENCE_03",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Paths (0,0)->(3,4) moving up/right?",
+   "solutionApproach": "C(7,3).",
+   "answer": "35"
+  },
+  {
+   "practiceId": "AI-CMB-04",
+   "patternId": "CMB_DERANGE_STRUCT_04",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Derangements of 4 items?",
+   "solutionApproach": "D4 = 9.",
+   "answer": "9"
+  }
+ ]
+}

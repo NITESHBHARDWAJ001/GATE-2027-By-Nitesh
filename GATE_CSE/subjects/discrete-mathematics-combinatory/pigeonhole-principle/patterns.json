@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P4_PIGEONHOLE_PRINCIPLE_01",
+  "name": "Pigeonhole Principle (PYQ type)",
+  "recognitionClueHinglish": "Pigeonhole Principle se related sawal.",
+  "whatShouldComeToMind": [
+   "n+1 objects n boxes me to koi box me >=2."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Boxes.",
+   "2. Worst case."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.6.1",
+   "1.6.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "+1 bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

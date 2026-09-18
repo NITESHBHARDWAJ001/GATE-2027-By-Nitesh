@@ -1,0 +1,21 @@
+{
+ "overview": "IP se MAC mapping, broadcast request, unicast reply, local network only.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "IP se MAC mapping, broadcast request, unicast reply, local network only.",
+ "hinglishExplanation": "ARP request broadcast, reply unicast.",
+ "formalDefinition": "IP se MAC mapping, broadcast request, unicast reply, local network only.",
+ "importantProperties": [
+  "Same subnet me MAC resolve.",
+  "ARP cache.",
+  "Reply unicast."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "ARP ko DNS samajhna."
+ ],
+ "standardTechniques": [
+  "1. Same subnet?"
+ ],
+ "topicId": "computer-networks:arp"
+}

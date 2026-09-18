@@ -1,0 +1,30 @@
+{
+  "topicId": "dm-set-theory-algebra-relations",
+  "revisionLevel": "short-form",
+  "coreIdea": "Relation = subset of A×A. Core skill: check Reflexive/Symmetric/Antisymmetric/Transitive for a given rule. Equivalence = Refl+Sym+Trans. Partial Order = Refl+Antisym+Trans.",
+  "mustRememberFormulas": [
+    "Total binary relations on n-set = 2^(n²)",
+    "Reflexive relations = 2^(n²−n)",
+    "Symmetric relations = 2^(n(n+1)/2)",
+    "Largest equivalence relation = n² pairs (A×A); smallest = n pairs (identity)",
+    "Transitive closure via Warshall's = O(n³)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "relation defined by a formula, asked which properties hold / order type", "thinkThis": "REL_PROPERTY_CHECK_01"},
+    {"seeThis": "'how many binary/reflexive/equivalence relations'", "thinkThis": "REL_COUNTING_02"},
+    {"seeThis": "R∪S or R∩S of two equivalence relations", "thinkThis": "REL_COMBINATION_03"},
+    {"seeThis": "'transitive closure' explicitly mentioned", "thinkThis": "REL_TRANSITIVE_CLOSURE_04"},
+    {"seeThis": "'find equivalence classes'", "thinkThis": "REL_EQUIV_CLASSES_05"},
+    {"seeThis": "descriptive 'prove/disprove' style claim about relations", "thinkThis": "REL_PROOF_REASONING_06"}
+  ],
+  "commonTrapsQuickList": [
+    "Symmetric ≠ opposite of Antisymmetric — test both independently",
+    "Intersection of equivalence relations is always equivalence; UNION usually is NOT",
+    "'Number of equivalence relations' (Bell number, hard) vs 'size of largest equivalence relation' (n², easy) — read carefully",
+    "'Symmetric+transitive ⟹ reflexive' proof is FLAWED for isolated elements with no related pair"
+  ],
+  "highYieldPyqLessons": [
+    "Property-checking (reflexive/symmetric/antisymmetric/transitive) is 16/38 PYQs — the single most important sub-skill in all of Discrete Math.",
+    "Always test small concrete examples first; abstract algebraic proof under exam time pressure is slower and error-prone."
+  ]
+}

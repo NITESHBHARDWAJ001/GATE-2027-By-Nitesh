@@ -1,0 +1,18 @@
+{
+ "coreIdea": "I/O transfer modes aur daisy-chain priority.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "I/O Handling (Programmed, Interrupt, DMA, Daisy Chain) se related sawal.",
+   "thinkThis": "P3_IO_HANDLING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "DMA aur interrupt-driven confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:io-handling",
+ "revisionLevel": "short-form"
+}

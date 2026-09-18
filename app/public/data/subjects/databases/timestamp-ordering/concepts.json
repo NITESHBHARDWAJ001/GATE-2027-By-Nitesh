@@ -1,0 +1,22 @@
+{
+ "overview": "Lamport timestamps, read/write timestamps, Thomas write rule.",
+ "whyItMatters": "1 PYQs extracted (2017-2017); P3 topic.",
+ "coreConcept": "Lamport timestamps, read/write timestamps, Thomas write rule.",
+ "hinglishExplanation": "Transaction ko unique timestamp; late conflicting op abort/rollback.",
+ "formalDefinition": "Lamport timestamps, read/write timestamps, Thomas write rule.",
+ "importantProperties": [
+  "Conflict serializable, deadlock-free.",
+  "Cascading rollback possible.",
+  "Thomas write rule obsolete writes ignore.",
+  "R_TS, W_TS maintain."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Recoverability guarantee maan lena."
+ ],
+ "standardTechniques": [
+  "1. TS compare."
+ ],
+ "topicId": "databases:timestamp-ordering"
+}

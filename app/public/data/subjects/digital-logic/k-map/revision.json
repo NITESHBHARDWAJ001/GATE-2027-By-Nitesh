@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Adjacent 1s ke groups (power of 2 size) banao; bada group = kam literals.",
+ "mustRememberFormulas": [
+  "groupTerm: 2^k cells => k variables eliminated"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "K-map diya; minimal expression.",
+   "thinkThis": "KM_SOP_POS_01"
+  },
+  {
+   "seeThis": "Expression ka K-map ya dusra equivalent expression.",
+   "thinkThis": "KM_FROM_EXPR_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Complement terms.",
+  "Wrap-around."
+ ],
+ "highYieldPyqLessons": [
+  "K-map images are missing in extraction: verify with source."
+ ],
+ "topicId": "digital-logic:k-map",
+ "revisionLevel": "short-form"
+}

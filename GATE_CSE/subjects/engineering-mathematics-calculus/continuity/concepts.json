@@ -1,0 +1,23 @@
+{
+ "overview": "Continuity at a point/interval, IVT, piecewise constants, continuity and differentiability.",
+ "whyItMatters": "10 PYQs extracted (1996-2026); P2 topic.",
+ "coreConcept": "f continuous at a: lim f(x) = f(a) (left, right, value teeno equal).",
+ "hinglishExplanation": "Piecewise function ke constants ke liye left limit = right limit = value. IVT: continuous f jo f(a)<0<f(b) ho to root exist.",
+ "formalDefinition": "f continuous at a: lim f(x) = f(a) (left, right, value teeno equal).",
+ "importantProperties": [
+  "Continuous: LHL = RHL = f(a).",
+  "IVT existence of roots.",
+  "Continuous on closed interval => bounded aur max/min attain.",
+  "Continuous but not differentiable: corners.",
+  "Composition of continuous functions continuous."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Value undefined at point."
+ ],
+ "standardTechniques": [
+  "Limits pehle."
+ ],
+ "topicId": "engineering-mathematics-calculus:continuity"
+}

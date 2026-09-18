@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "compiler-design__2.29.1",
+  "localId": "2.29.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "viable-prefix",
+  "topic": "Viable Prefix",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "13",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Which one of the following is TRUE at any valid state in shift-reduce parsing? A. Viable prefixes appear only at the bottom of the stack and not inside B. Viable prefixes appear only at the top of the stack and not inside C. The stack contains only a set of viable prefixes D. The stack never contains viable prefixes",
+  "tagsRaw": "gatecse-2015-set1 compiler-design  parsing    normal  viable-prefix  lr-parser",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 181
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_VIABLE_PREFIX_01"
+ }
+]

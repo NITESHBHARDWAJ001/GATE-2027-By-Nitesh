@@ -1,0 +1,19 @@
+{
+  "topicId": "toc-decidability",
+  "subjectId": "theory-of-computation",
+  "subject": "Theory of Computation",
+  "name": "Decidability",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "30 PYQs extracted, tested 1987-2025. Final capstone topic in the TOC study-order track — the boundary of what's algorithmically solvable at all.",
+  "pyqCountExtracted": 30,
+  "yearsCovered": [1987,1988,1989,1990,1995,1996,1997,1999,2000,2001,2002,2003,2007,2008,2012,2013,2014,2015,2016,2017,2018,2020,2021,2022,2025],
+  "prerequisites": [
+    {"topic": "Identify Class Language", "subjectId": "theory-of-computation", "why": "Recursive/RE classification is used throughout decidability reasoning."},
+    {"topic": "Context Free Language", "subjectId": "theory-of-computation", "why": "Many undecidable problems are ABOUT CFGs (ambiguity, equivalence, intersection-emptiness)."}
+  ],
+  "unlocks": [],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

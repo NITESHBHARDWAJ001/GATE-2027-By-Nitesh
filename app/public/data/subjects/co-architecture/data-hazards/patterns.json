@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_DATA_HAZARDS_01",
+  "name": "Data Hazards (PYQ type)",
+  "recognitionClueHinglish": "Data Hazards se related sawal.",
+  "whatShouldComeToMind": [
+   "RAW, WAR, WAW: kab pipeline me problem."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Register dependency type."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.11.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "WAR ko in-order me hazard maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Stop-and-wait utilization = Tt/(Tt+2Tp).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Channel Utilization se related sawal.",
+   "thinkThis": "P3_CHANNEL_UTILIZATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Ack time bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:channel-utilization",
+ "revisionLevel": "short-form"
+}

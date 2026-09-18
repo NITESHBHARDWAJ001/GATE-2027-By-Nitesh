@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:linked-allocation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LINKED-01",
+   "patternId": "P3_LINKED_ALLOCATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Block 512 B, pointer 4 B, file 2032 B: blocks?",
+   "solutionApproach": "usable 508.",
+   "answer": "4"
+  }
+ ]
+}

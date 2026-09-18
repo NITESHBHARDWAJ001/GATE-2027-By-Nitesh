@@ -1,0 +1,28 @@
+{
+  "topicId": "dm-mathematical-logic-propositional-logic",
+  "revisionLevel": "short-form",
+  "coreIdea": "Formula of T/F propositions combined with ∧∨¬→↔. Tautology=always T, Contradiction=always F, Satisfiable=T in ≥1 row.",
+  "mustRememberFormulas": [
+    "P→Q ≡ ¬P∨Q",
+    "Contrapositive ¬Q→¬P ≡ P→Q (equivalent); Converse Q→P and Inverse ¬P→¬Q are NOT equivalent to original",
+    "'only if' → P→Q; 'unless' → ¬Q→P; 'iff' → P↔Q",
+    "De Morgan: ¬(P∧Q)≡¬P∨¬Q, ¬(P∨Q)≡¬P∧¬Q"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "'is this a tautology/contradiction/satisfiable' or truth-value given some propositions", "thinkThis": "PL_TAUTOLOGY_CHECK_01"},
+    {"seeThis": "'which formulas are equivalent'", "thinkThis": "PL_EQUIVALENCE_02"},
+    {"seeThis": "English sentence → formula, or converse/contrapositive asked", "thinkThis": "PL_NL_TRANSLATION_03"},
+    {"seeThis": "premises given, derive conclusion / Modus Ponens / Resolution", "thinkThis": "PL_INFERENCE_VALIDITY_04"},
+    {"seeThis": "'define validity' / 'CNF/DNF' explicitly asked", "thinkThis": "PL_DEFINITIONS_NORMALFORM_05"}
+  ],
+  "commonTrapsQuickList": [
+    "'only if' → P→Q, NOT Q→P (most common translation trap)",
+    "P→Q vacuously TRUE when P is False",
+    "Converse/Inverse ≠ original; only Contrapositive is equivalent",
+    "Satisfiable (≥1 True row) ≠ Valid/tautology (ALL True rows)"
+  ],
+  "highYieldPyqLessons": [
+    "Tautology/contradiction/satisfiability checking is the dominant pattern (21/40) — with ≤3 variables just build the truth table, don't overthink algebra under time pressure.",
+    "'Only if' direction is the single most repeated translation trap across decades of GATE papers."
+  ]
+}

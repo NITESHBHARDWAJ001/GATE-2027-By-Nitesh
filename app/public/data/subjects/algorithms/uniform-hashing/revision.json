@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Har key har slot me equally likely; collision probabilities.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Simple Uniform Hashing se related sawal.",
+   "thinkThis": "P3_UNIFORM_HASHING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Independence assume karna jab nahi."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:uniform-hashing",
+ "revisionLevel": "short-form"
+}

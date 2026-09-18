@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "engineering-mathematics-probability__7.18.1",
+  "localId": "7.18.1",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "statistics",
+  "topic": "Statistics",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "22",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "15.00 : 16.00",
+  "answerVerified": true,
+  "questionTextRaw": "For a given biased coin, the probability that the outcome of a toss is a head is . This coin is tossed times. Let denote the random variable whose value is the number of times that head appeared in these       tosses. The standard deviation of (rounded to decimal place) is _________",
+  "tagsRaw": "gatecse-2021-set2 numerical-answers  probability  random-variable  one-mark  statistics",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 224
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STATISTICS_01"
+ },
+ {
+  "pyqId": "engineering-mathematics-probability__7.18.2",
+  "localId": "7.18.2",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "statistics",
+  "topic": "Statistics",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "34",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Let and be random variables, not necessarily independent, that take real values in the interval . Let and let the mean values of                                  be        , respectively. Which one of the following statements is TRUE? A.                                                                                       B. C.                                                                                       D.",
+  "tagsRaw": "gatecse-2024-set2 probability random-variable statistics two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 224
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STATISTICS_01"
+ },
+ {
+  "pyqId": "engineering-mathematics-probability__7.18.3",
+  "localId": "7.18.3",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "statistics",
+  "topic": "Statistics",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "52",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "10:10",
+  "answerVerified": true,
+  "questionTextRaw": "For a given data set                                       , where           , it is known that Let us denote                                     is       . (Answer in integer) The value of",
+  "tagsRaw": "gateda-2026 numerical-answers  two-marks  statistics",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 224
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STATISTICS_01"
+ }
+]

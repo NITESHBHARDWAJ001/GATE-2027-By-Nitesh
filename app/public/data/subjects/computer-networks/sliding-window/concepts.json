@@ -1,0 +1,30 @@
+{
+ "overview": "Flow/error control: window size, sequence numbers, link utilization, minimum bits for sequence numbers.",
+ "whyItMatters": "16 PYQs extracted (2003-2026); P2 topic.",
+ "coreConcept": "Efficiency = window x transmission time / (transmission time + 2 x propagation delay), max 1.",
+ "hinglishExplanation": "Sender window itni frames bhej sakta hai bina ack ke. Pipe bharne ke liye window >= 1 + 2a jahan a = Tp/Tt. GBN me sequence numbers >= W+1; SR me >= 2W (sender window + receiver window).",
+ "formalDefinition": "Efficiency = window x transmission time / (transmission time + 2 x propagation delay), max 1.",
+ "importantProperties": [
+  "Utilization U = min(1, W/(1+2a)), a = Tp/Tt.",
+  "GBN: send window N, receive window 1, seq numbers N+1.",
+  "SR: seq numbers >= Ws + Wr (= 2W), max window 2^(k-1).",
+  "GBN retransmits from lost frame onwards; SR only lost frame.",
+  "Min window to fully utilize = 1 + 2a.",
+  "Sequence-number bits = ceil(log2(min seq numbers))."
+ ],
+ "formulas": {
+  "util": "min(1, W/(1+2a))",
+  "a": "Tp / Tt",
+  "seqGBN": "W + 1",
+  "seqSR": "2W"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Tt aur Tp ke units.",
+  "SR window 2^k rakh dena (max 2^(k-1))."
+ ],
+ "standardTechniques": [
+  "Tt, Tp nikalo -> a -> window."
+ ],
+ "topicId": "computer-networks:sliding-window"
+}

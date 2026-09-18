@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_UNIFORM_HASHING_01",
+  "name": "Uniform Hashing (Open Addressing) (PYQ type)",
+  "recognitionClueHinglish": "Uniform Hashing (Open Addressing) se related sawal.",
+  "whatShouldComeToMind": [
+   "Expected probes: unsuccessful 1/(1-alpha), successful (1/alpha) ln(1/(1-alpha))."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. alpha.",
+   "2. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.17.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Chaining formula lagana."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

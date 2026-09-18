@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:round-table-arrangement",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ROUND--01",
+   "patternId": "P3_ROUND_TABLE_ARRANGEMENT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "4 people circular arrangements?",
+   "solutionApproach": "(4-1)!.",
+   "answer": "6"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "overview": "AP sum aur maximum sum.",
+ "whyItMatters": "2 PYQs extracted (2013-2015); P4 topic.",
+ "coreConcept": "AP sum aur maximum sum.",
+ "hinglishExplanation": "Sum = n/2 (2a+(n-1)d).",
+ "formalDefinition": "AP sum aur maximum sum.",
+ "importantProperties": [
+  "nth term a+(n-1)d.",
+  "Max sum jab terms positive tak."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "n galat."
+ ],
+ "standardTechniques": [
+  "1. a,d."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:arithmetic-series"
+}

@@ -1,0 +1,29 @@
+{
+ "overview": "Entities, relationships, cardinality (1:1, 1:N, M:N), participation, weak entities aur ER se minimum tables nikalna.",
+ "whyItMatters": "12 PYQs extracted (2004-2024); P2 topic.",
+ "coreConcept": "M:N relationship ke liye alag table; 1:N me many side me foreign key; weak entity owner ke key ke saath table banati hai.",
+ "hinglishExplanation": "ER diagram ko tables me convert karte waqt: har entity ek table, M:N relationship ek naya table, 1:N ya 1:1 me FK merge ho sakta hai (total participation ho to). Weak entity ka key = owner key + partial key.",
+ "formalDefinition": "M:N relationship ke liye alag table; 1:N me many side me foreign key; weak entity owner ke key ke saath table banati hai.",
+ "importantProperties": [
+  "Entity -> table; multi-valued attribute -> alag table.",
+  "M:N relationship -> alag table (dono keys).",
+  "1:N -> many side me FK (alag table zaroori nahi).",
+  "1:1 total participation: tables merge ho sakte hain.",
+  "Weak entity: identifying relationship, double rectangle/diamond; key = owner key + partial key.",
+  "Total participation: har entity relationship me aayegi.",
+  "Minimum tables count: merges gino."
+ ],
+ "formulas": {
+  "tablesMN": "extra table",
+  "weakKey": "owner key + partial key"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Relationship table hamesha banana.",
+  "Total participation ka merge ignore karna."
+ ],
+ "standardTechniques": [
+  "Har entity/relationship ko cardinality se classify karo."
+ ],
+ "topicId": "databases:er-diagram"
+}

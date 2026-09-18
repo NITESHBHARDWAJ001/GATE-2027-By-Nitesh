@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "databases__3.8.1",
+  "localId": "3.8.1",
+  "subjectId": "databases",
+  "subject": "Databases",
+  "topicSlug": "decomposition",
+  "topic": "Decomposition",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "If a relational decomposition is not dependency-preserving, which one of the following relational operators will be executed more frequently in order to maintain the dependencies? A. Selection                        B. Projection                     C. Join          D. Set union",
+  "tagsRaw": "gateda-2025 databases decomposition relational-algebra easy one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 209
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DECOMPOSITION_01"
+ }
+]

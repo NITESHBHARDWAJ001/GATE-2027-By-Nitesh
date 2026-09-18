@@ -1,0 +1,40 @@
+{
+ "topicId": "os-virtual-memory",
+ "overview": "Virtual Memory me 4 skills: (1) page table SIZE aur multilevel page table ka address split, (2) Effective Access Time (EAT) with TLB/page faults, (3) TLB structure (tag bits, size), (4) conceptual/definition questions.",
+ "whyItMatters": "43 PYQs; 2013 ke baad almost saare NAT-type numericals hain. Formula-driven, ek baar method clear to accuracy high.",
+ "coreConcept": "Virtual address = [page number | offset]. Page table page number ko frame number me map karta hai. Virtual space > physical memory ho sakta hai kyunki sirf zaroori pages RAM me rakhe jaate hain (demand paging); baaki disk (swap space) pe.",
+ "hinglishExplanation": "Virtual memory ek 'bada naksha' hai jo har process ko lagta hai ki poori memory uski hai. Asli RAM chhoti hai, isliye OS pages ko disk se laata hai jab zarurat ho. Page table ek 'address book' hai: virtual page se physical frame. Isi address book ki SIZE aur access-time hi zyadatar numericals ka core hai.",
+ "formalDefinition": "Page table entry count = 2^(virtual address bits - offset bits). Page table size = entries x PTE size.",
+ "importantProperties": [
+  "Offset bits = log2(page size). Page number bits = VA bits - offset bits.",
+  "Frame number bits = PA bits - offset bits; PTE mein frame bits + valid/dirty/permission bits hote hain.",
+  "Multilevel page table: sirf use hone wale hisse allocate hote hain, isliye memory bachti hai; lekin memory accesses badh jaate hain (TLB miss pe levels+1).",
+  "Ideal multilevel design me har level ka table exactly ek page me fit hona chahiye: entries per table = page size / PTE size.",
+  "Page table entry ka essential content = page frame number (virtual page number index se implicit hota hai).",
+  "Swap space disk pe hoti hai.",
+  "CPU address lines se virtual address space decide hota hai: physical memory se bada, secondary storage se chhota ya barabar."
+ ],
+ "formulas": {
+  "pageTableSize": "2^(VA bits - offset bits) x PTE size",
+  "ptEntriesPerPage": "page size / PTE size = entries in one page-sized table",
+  "levelSplit": "bits per level = log2(entries per page); levels = ceil(page-number bits / bits per level)",
+  "eatPageFault": "EAT = (1-p)*memAccess + p*faultServiceTime",
+  "eatTLB": "EAT = h*(t_tlb + t_mem) + (1-h)*(t_tlb + (levels+1)*t_mem) [+ fault terms]",
+  "tlbTagBits": "tag = VA bits - offset bits - log2(#sets)"
+ },
+ "keyPropertiesAndIdentities": [
+  "Fault rate p bahut chhota hota hai, isliye p x service time hi EAT ko dominate karta hai.",
+  "TLB fully associative ho to sets=1, tag = poora page number."
+ ],
+ "commonPitfalls": [
+  "KB/MB/GB ko 2^10/2^20/2^30 lena; ms aur ns/us ka unit mismatch.",
+  "PTE size mein extra bits (valid/dirty/permission) bhoolna.",
+  "Multilevel me levels ki bits sum = page number bits hona chahiye, top level ko remainder mil sakta hai.",
+  "TLB miss time me sirf 1 memory access add karna jab k-level table ho (k+1 accesses lagte hain)."
+ ],
+ "standardTechniques": [
+  "Hamesha pehle offset bits nikaalo, phir page-number bits, phir PTE/level split.",
+  "EAT questions me probability tree: hit/miss/fault teeno paths likho aur weighted sum lo.",
+  "Multilevel: ek page me kitni PTE fit hoti hain woh nikaalo, wahi bits per level hain."
+ ]
+}

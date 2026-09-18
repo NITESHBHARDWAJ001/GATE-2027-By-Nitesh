@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-programming-in-c:programming-paradigms",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PROGRA-01",
+   "patternId": "P4_PROGRAMMING_PARADIGMS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Structured programming ka goal?",
+   "solutionApproach": "Reason about program.",
+   "answer": "Program ka behaviour infer karna"
+  }
+ ]
+}

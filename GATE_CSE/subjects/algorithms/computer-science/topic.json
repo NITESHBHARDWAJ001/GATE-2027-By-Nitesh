@@ -1,0 +1,16 @@
+{
+ "topicId": "algorithms:computer-science",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Recurrence Relations for Running Time",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, ?-?.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

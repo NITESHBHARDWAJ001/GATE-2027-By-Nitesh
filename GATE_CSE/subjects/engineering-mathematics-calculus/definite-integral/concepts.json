@@ -1,0 +1,22 @@
+{
+ "overview": "Limits ke saath value, properties: int_a^b f = int_a^b f(a+b-x).",
+ "whyItMatters": "4 PYQs extracted (2023-2026); P3 topic.",
+ "coreConcept": "Limits ke saath value, properties: int_a^b f = int_a^b f(a+b-x).",
+ "hinglishExplanation": "Symmetry/property se integral simplify.",
+ "formalDefinition": "Limits ke saath value, properties: int_a^b f = int_a^b f(a+b-x).",
+ "importantProperties": [
+  "int_0^a f(x) = int_0^a f(a-x).",
+  "Odd function symmetric limits: 0.",
+  "Comparison/monotonicity of integrals."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Odd/even check miss."
+ ],
+ "standardTechniques": [
+  "1. Symmetry.",
+  "2. Evaluate."
+ ],
+ "topicId": "engineering-mathematics-calculus:definite-integral"
+}

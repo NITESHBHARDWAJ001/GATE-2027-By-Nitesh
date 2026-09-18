@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.3.1",
+  "localId": "8.3.1",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "code-words",
+  "topic": "Code Words",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 3,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "1",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "If          is written as             , then                 should be written as: A.                                B.                                       C.                        D.",
+  "tagsRaw": "gatecse-2015-set3 analytical-aptitude easy logical-reasoning code-words code-language",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 237
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_CODE_WORDS_01"
+ },
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.3.2",
+  "localId": "8.3.2",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "code-words",
+  "topic": "Code Words",
+  "year": 2016,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "04",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "If 'relftaga' means carefree, 'otaga' means careful and 'fertaga' means careless, which of the following could mean 'aftercare'? A. zentaga                        B. tagafer.                              C. tagazen.               D. relffer.",
+  "tagsRaw": "gatecse-2016-set1 analytical-aptitude  logical-reasoning  normal     code-words",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 237
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_CODE_WORDS_01"
+ }
+]

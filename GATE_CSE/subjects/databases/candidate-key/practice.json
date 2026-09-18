@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:candidate-key",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CANDID-01",
+   "patternId": "P3_CANDIDATE_KEY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "R(A,B,C), A is key. Superkeys count?",
+   "solutionApproach": "2^(3-1).",
+   "answer": "4"
+  }
+ ]
+}

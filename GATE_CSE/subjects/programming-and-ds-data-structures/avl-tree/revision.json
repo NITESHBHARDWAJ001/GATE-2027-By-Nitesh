@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Balance factor in {-1,0,1}; min nodes N(h)=N(h-1)+N(h-2)+1; max height ~1.44 log n.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "AVL Trees se related sawal.",
+   "thinkThis": "P3_AVL_TREE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Height definition (edges/nodes)."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-and-ds-data-structures:avl-tree",
+ "revisionLevel": "short-form"
+}

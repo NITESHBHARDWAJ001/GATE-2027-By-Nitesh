@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Data sufficiency: kya diye gaye statements se answer nikal sakta hai.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Statement Sufficiency se related sawal.",
+   "thinkThis": "P4_STATEMENT_SUFFICIENCY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Statement ke bahar assume."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:statement-sufficiency",
+ "revisionLevel": "short-form"
+}

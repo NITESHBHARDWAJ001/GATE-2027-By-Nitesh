@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-mathematical-logic:logical-reasoning",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LOGICA-01",
+   "patternId": "P3_LOGICAL_REASONING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "P->Q, ~Q. Conclusion?",
+   "solutionApproach": "Modus tollens.",
+   "answer": "~P"
+  }
+ ]
+}

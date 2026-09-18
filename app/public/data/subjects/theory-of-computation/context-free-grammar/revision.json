@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Derivations, language generated, ambiguity, string membership.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Context-Free Grammars se related sawal.",
+   "thinkThis": "P3_CONTEXT_FREE_GRAMMAR_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Language galat identify."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "theory-of-computation:context-free-grammar",
+ "revisionLevel": "short-form"
+}

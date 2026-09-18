@@ -1,0 +1,127 @@
+{
+  "methodology": "Sequence is derived from: (1) prerequisite dependencies between topics (a topic that is a foundation for others is scheduled before them, even if its own PYQ count is lower), (2) priority tier (P1 before P2 before P3/P4) within each dependency group, (3) source PYQ frequency as tiebreaker. This is a preparation-order recommendation, not an official GATE ordering.",
+  "note": "Only P1/P2 topics are sequenced explicitly below (144 topics). P3/P4 topics are revision-tier and can be slotted in after their subject's P1/P2 topics are done, or left for final revision passes.",
+  "trackOrder": [
+    {
+      "track": "Foundations (do first, across subjects — everything else leans on these)",
+      "reasonForFirst": "Discrete Math + core programming/DS concepts underpin almost every other subject's PYQs.",
+      "sequence": [
+        {"subjectId": "discrete-mathematics-set-theory-algebra", "topic": "Set Theory", "why": "Base vocabulary (sets, subsets, cardinality) used everywhere else in Discrete Math."},
+        {"subjectId": "discrete-mathematics-set-theory-algebra", "topic": "Relations", "why": "Direct prerequisite for Functions, Partial Order, Lattice, and for DBMS Functional Dependencies later."},
+        {"subjectId": "discrete-mathematics-set-theory-algebra", "topic": "Functions", "why": "Needed before Group Theory and before Algorithms' Identify Function pattern."},
+        {"subjectId": "discrete-mathematics-set-theory-algebra", "topic": "Group Theory", "why": "Builds on Functions/Relations; frequently tested in isolation too (33 PYQs)."},
+        {"subjectId": "discrete-mathematics-mathematical-logic", "topic": "Propositional Logic", "why": "Prerequisite for First Order Logic; needed for TOC decidability arguments later."},
+        {"subjectId": "discrete-mathematics-mathematical-logic", "topic": "First Order Logic", "why": "Builds directly on Propositional Logic."},
+        {"subjectId": "programming-programming-in-c", "topic": "Programming In C", "why": "Needed before Recursion/Pointers and before reading any Algorithms/DS code-tracing PYQ."},
+        {"subjectId": "programming-programming-in-c", "topic": "Recursion", "why": "Direct prerequisite for Algorithms' Recurrence Relation and Divide & Conquer."},
+        {"subjectId": "programming-programming-in-c", "topic": "Pointers", "why": "Needed before Linked List / Binary Tree pointer-based questions."},
+        {"subjectId": "algorithms", "topic": "Asymptotic Notations", "why": "Needed before every complexity-analysis question in Algorithms, DS, CO&A."},
+        {"subjectId": "algorithms", "topic": "Recurrence Relation", "why": "Needed before Divide & Conquer and MST/Sorting complexity analysis."},
+        {"subjectId": "algorithms", "topic": "Time Complexity", "why": "Applies the above two to every later Algorithms topic."}
+      ]
+    },
+    {
+      "track": "Data Structures + Algorithms core",
+      "reasonForFirst": "Builds directly on the Foundations track; itself a prerequisite for parts of DBMS (B-Tree/indexing), OS (scheduling uses queues/heaps), Compiler Design.",
+      "sequence": [
+        {"subjectId": "programming-and-ds-data-structures", "topic": "Stack", "why": "Simple base structure, prerequisite for Recursion tracing and Compiler parsing topics."},
+        {"subjectId": "programming-and-ds-data-structures", "topic": "Queue", "why": "Needed before BFS, OS process-scheduling queue models."},
+        {"subjectId": "programming-and-ds-data-structures", "topic": "Linked List", "why": "Prerequisite for many pointer-manipulation PYQs."},
+        {"subjectId": "programming-and-ds-data-structures", "topic": "Binary Tree", "why": "Highest-PYQ DS topic (53); prerequisite for BST, Binary Heap, B-Tree (DBMS)."},
+        {"subjectId": "programming-and-ds-data-structures", "topic": "Binary Search Tree", "why": "Builds on Binary Tree (36 PYQs)."},
+        {"subjectId": "programming-and-ds-data-structures", "topic": "Binary Heap", "why": "Builds on Binary Tree; prerequisite for Heap Sort, Dijkstra/Prim's priority-queue questions."},
+        {"subjectId": "algorithms", "topic": "Sorting", "why": "Uses Recurrence Relation + Binary Heap already covered."},
+        {"subjectId": "algorithms", "topic": "Quick Sort", "why": "Specific high-frequency sorting pattern (15 PYQs)."},
+        {"subjectId": "algorithms", "topic": "Graph Search", "why": "Prerequisite for MST, Shortest Path."},
+        {"subjectId": "algorithms", "topic": "Minimum Spanning Tree", "why": "Builds on Graph Search; very high frequency (35 PYQs)."},
+        {"subjectId": "algorithms", "topic": "Identify Function", "why": "Code-tracing pattern, needs Recursion + Time Complexity already done (38 PYQs, highest in Algorithms after Sorting cluster)."},
+        {"subjectId": "discrete-mathematics-graph-theory", "topic": "Graph Connectivity", "why": "Reinforces Graph Search concepts from a Discrete-Math angle (40 PYQs)."}
+      ]
+    },
+    {
+      "track": "Theory of Computation",
+      "reasonForFirst": "Self-contained dependency chain; benefits from Set Theory/Logic already done but not from DS/Algorithms.",
+      "sequence": [
+        {"subjectId": "theory-of-computation", "topic": "Regular Language", "why": "Base of the TOC chain (35 PYQs)."},
+        {"subjectId": "theory-of-computation", "topic": "Finite Automata", "why": "Direct application of Regular Language (43 PYQs, highest in TOC)."},
+        {"subjectId": "theory-of-computation", "topic": "Minimal State Automata", "why": "Builds on Finite Automata (25 PYQs)."},
+        {"subjectId": "theory-of-computation", "topic": "Regular Expression", "why": "Equivalent-power formalism to FA, taught right after (29 PYQs)."},
+        {"subjectId": "theory-of-computation", "topic": "Context Free Language", "why": "Next rung up the Chomsky hierarchy (35 PYQs)."},
+        {"subjectId": "theory-of-computation", "topic": "Pushdown Automata", "why": "Recognizer for CFL, builds directly on it (15 PYQs)."},
+        {"subjectId": "theory-of-computation", "topic": "Identify Class Language", "why": "Needs FA+CFL+PDA understanding to classify an unseen language (31 PYQs)."},
+        {"subjectId": "theory-of-computation", "topic": "Decidability", "why": "Needs Turing Machine concept; capstone of the TOC chain (30 PYQs)."}
+      ]
+    },
+    {
+      "track": "Compiler Design",
+      "reasonForFirst": "Directly reuses Theory of Computation (Grammar/CFG → Parsing) — do right after TOC.",
+      "sequence": [
+        {"subjectId": "compiler-design", "topic": "Grammar", "why": "Reuses Context Free Grammar from TOC; highest-PYQ Compiler topic (47 PYQs)."},
+        {"subjectId": "compiler-design", "topic": "LR Parser", "why": "Builds on Grammar (20 PYQs)."},
+        {"subjectId": "compiler-design", "topic": "Syntax Directed Translation", "why": "Builds on Parsing (19 PYQs)."}
+      ]
+    },
+    {
+      "track": "Computer Organization & Architecture",
+      "reasonForFirst": "Independent of the above; do alongside or after Digital Logic (shares Number Representation/Boolean Algebra base).",
+      "sequence": [
+        {"subjectId": "digital-logic", "topic": "Number Representation", "why": "Base of Digital Logic chain (57 PYQs, 2nd highest topic overall)."},
+        {"subjectId": "digital-logic", "topic": "Boolean Algebra", "why": "Needed before combinational circuit (Circuit Output) questions (34 PYQs)."},
+        {"subjectId": "co-architecture", "topic": "Machine Instruction", "why": "Base of the CO&A execution-model chain (21 PYQs)."},
+        {"subjectId": "co-architecture", "topic": "Pipelining", "why": "Builds on instruction execution model (39 PYQs)."},
+        {"subjectId": "co-architecture", "topic": "Cache Memory", "why": "Highest-PYQ topic in the entire corpus (69); needs AMAT/memory-hierarchy basics, keep this as the CO&A centerpiece."}
+      ]
+    },
+    {
+      "track": "Operating Systems",
+      "reasonForFirst": "Virtual Memory links directly to Cache Memory (CO&A) — do OS right after CO&A.",
+      "sequence": [
+        {"subjectId": "operating-system", "topic": "Process Scheduling", "why": "Base OS chain topic (49 PYQs)."},
+        {"subjectId": "operating-system", "topic": "Process Synchronization", "why": "Builds on Process Scheduling (52 PYQs, highest in OS)."},
+        {"subjectId": "operating-system", "topic": "Resource Allocation", "why": "Deadlock/allocation reasoning builds on Synchronization (27 PYQs)."},
+        {"subjectId": "operating-system", "topic": "Virtual Memory", "why": "Cross-links to CO&A Cache Memory; do after CO&A track (43 PYQs)."},
+        {"subjectId": "operating-system", "topic": "Page Replacement", "why": "Direct application of Virtual Memory (31 PYQs)."},
+        {"subjectId": "operating-system", "topic": "Disk Scheduling", "why": "Independent OS I/O topic, do last in this track (16 PYQs)."}
+      ]
+    },
+    {
+      "track": "Databases",
+      "reasonForFirst": "Relational Algebra/SQL need Set Theory (done in Foundations); Normalization needs Functional Dependency understanding built fresh here.",
+      "sequence": [
+        {"subjectId": "databases", "topic": "Relational Algebra", "why": "Base query-model topic (33 PYQs)."},
+        {"subjectId": "databases", "topic": "SQL", "why": "Practical counterpart to Relational Algebra (55 PYQs, 2nd highest in DBMS)."},
+        {"subjectId": "databases", "topic": "Database Normalization", "why": "Needs Functional Dependency reasoning; highest-PYQ DBMS topic tied with SQL (55 PYQs)."},
+        {"subjectId": "databases", "topic": "B Tree", "why": "Indexing structure, connects back to Binary Tree from DS track (32 PYQs)."},
+        {"subjectId": "databases", "topic": "Indexing", "why": "Builds directly on B-Tree (15 PYQs)."},
+        {"subjectId": "databases", "topic": "Transaction and Concurrency", "why": "Independent sub-chain, do last in DBMS (27 PYQs)."}
+      ]
+    },
+    {
+      "track": "Computer Networks",
+      "reasonForFirst": "Fairly self-contained; do after OS (shares some process/socket framing) and CO&A.",
+      "sequence": [
+        {"subjectId": "computer-networks", "topic": "Subnetting", "why": "Foundational addressing topic, needed before most Network-layer questions (21 PYQs)."},
+        {"subjectId": "computer-networks", "topic": "TCP", "why": "Transport-layer capstone, highest-PYQ CN topic in this list (20 PYQs)."}
+      ]
+    },
+    {
+      "track": "Engineering Mathematics (can run in parallel with CS-core tracks)",
+      "reasonForFirst": "Independent of CS-core subjects; do in parallel, not strictly before/after.",
+      "sequence": [
+        {"subjectId": "engineering-mathematics-linear-algebra", "topic": "Matrix", "why": "Base of Linear Algebra chain."},
+        {"subjectId": "engineering-mathematics-linear-algebra", "topic": "Eigen Value", "why": "Builds on Matrix (33 PYQs, highest in Linear Algebra)."},
+        {"subjectId": "engineering-mathematics-linear-algebra", "topic": "System of Equations", "why": "Builds on Matrix (17 PYQs)."},
+        {"subjectId": "engineering-mathematics-calculus", "topic": "Limits", "why": "Base Calculus topic (15 PYQs)."},
+        {"subjectId": "engineering-mathematics-probability", "topic": "Probability", "why": "Base Probability topic (31 PYQs, highest in the subject)."},
+        {"subjectId": "engineering-mathematics-probability", "topic": "Expectation", "why": "Builds directly on Probability (15 PYQs)."}
+      ]
+    },
+    {
+      "track": "General Aptitude (can run in parallel throughout — no CS prerequisites)",
+      "reasonForFirst": "Fully independent of CS-core; light, steady practice throughout prep rather than a dedicated block.",
+      "sequence": [
+        {"subjectId": "general-aptitude-verbal-aptitude", "topic": "Most Appropriate Word", "why": "Highest-PYQ GA topic in this list (26 PYQs) — vocabulary-driven, benefits from spaced repetition over time rather than a single pass."}
+      ]
+    }
+  ]
+}

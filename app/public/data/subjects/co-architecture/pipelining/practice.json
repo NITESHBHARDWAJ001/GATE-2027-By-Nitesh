@@ -1,0 +1,33 @@
+{
+  "topicId": "coa-pipelining",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-PIPE-01",
+      "patternId": "PIPE_TIMING_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A 5-stage pipeline has stage delays 4,6,3,5,2 ns, latch delay 1ns. Find cycle time and total time for 20 instructions.",
+      "solutionApproach": "Cycle time = max(4,6,3,5,2)+1 = 6+1 = 7ns. Total time = (5+20-1)×7 = 24×7 = 168ns.",
+      "answer": "Cycle time = 7ns; Total time for 20 instructions = 168ns"
+    },
+    {
+      "practiceId": "AI-PIPE-02",
+      "patternId": "PIPE_SPEEDUP_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Using the same pipeline as above (5 stages, cycle=7ns), what's the non-pipelined time for 20 instructions (sum of stage delays=4+6+3+5+2=20ns each), and the speedup?",
+      "solutionApproach": "Non-pipelined = 20×20 = 400ns. Pipelined = 168ns (from above). Speedup = 400/168 ≈ 2.38.",
+      "answer": "Non-pipelined = 400ns; Speedup ≈ 2.38"
+    },
+    {
+      "practiceId": "AI-PIPE-03",
+      "patternId": "PIPE_HAZARDS_03",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "I1: R1=R2+R3. I2: R4=R1+R5 (immediately after I1). What hazard is this, and how is it typically resolved?",
+      "solutionApproach": "I2 needs R1's value which I1 just computed (Read After Write on R1) — this is a RAW data hazard. Resolved via forwarding (bypass R1's EX-stage result directly to I2's EX stage, skipping the register-file write-then-read round trip) or stalling if forwarding isn't available.",
+      "answer": "RAW (data) hazard — resolved via forwarding (or stalling)."
+    }
+  ]
+}

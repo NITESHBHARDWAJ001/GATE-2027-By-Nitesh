@@ -1,0 +1,88 @@
+[
+  {
+    "patternId": "RR_SOLVE_01",
+    "name": "Solve/Evaluate a Given Recurrence Relation",
+    "recognitionClueHinglish": "Ek recurrence relation seedha di hai (T(n)=... in terms of T at smaller n) aur poocha hai iska closed-form ya asymptotic class (Θ/O) kya hai — ye is topic ka sabse bada pattern hai (36 me se 20 PYQs).",
+    "whatShouldComeToMind": [
+      "First identify the SHAPE: aT(n/b)+f(n) → Master Theorem. T(n-1)+f(n) → unroll as summation. T(n-1)+T(n-2) → Fibonacci-like, exponential.",
+      "For Master-Theorem shape, compute n^(log_b a) and compare to f(n).",
+      "If Master Theorem doesn't cleanly apply (log factors, non-matching shape), fall back to the recursion-tree method."
+    ],
+    "conceptsRequired": ["Master Theorem (3 cases)", "Recursion tree method", "Summation/series evaluation", "Substitution/induction verification"],
+    "generalSolvingApproach": [
+      "1. Write the recurrence in standard form, identify a, b, f(n) if it matches aT(n/b)+f(n).",
+      "2. If Master-Theorem-applicable: compute n^(log_b a), compare with f(n), pick the matching case.",
+      "3. If not standard shape: unroll a few levels by hand (recursion tree), spot the pattern in work-per-level and number-of-levels, sum up.",
+      "4. Sanity-check the final answer against known standard shapes (binary search=log n, merge sort=n log n, naive Fibonacci=2ⁿ) if the recurrence resembles one of them."
+    ],
+    "formulasUsed": ["masterTheorem","linearRecursionSum","arithmeticSeriesRecursion","doublingRecursion","mergeSortShape","binarySearchShape"],
+    "pyqExamples": ["1.35.1","1.35.2","1.35.3","1.35.4","1.35.9","1.35.12","1.35.13","1.35.15","1.35.17","1.35.18","1.35.21","1.35.23","1.35.27","1.35.28","1.35.29","1.35.30","1.35.31","1.35.32","1.35.35","1.35.36"],
+    "variationsObserved": [
+      "Master Theorem stated abstractly with symbolic constraints on f(n) (e.g., 'if f(n) is O(n^c) for c<log_b(a), then...') rather than a concrete f(n) — recognize which Master Theorem CASE the constraint describes.",
+      "Recurrence with a fractional/uneven split (e.g., T(n/3)+T(2n/3)+n) — needs recursion tree since it's not a plain aT(n/b) shape.",
+      "Two-variable recurrences (parameters n and m both shrinking) — extend the same tree/summation approach across both dimensions."
+    ],
+    "commonTraps": ["Force-fitting Master Theorem onto a shape it doesn't cover (unequal split sizes, extra log factors, T(n-1)+T(n-2) shape).", "Misreading which case applies by comparing f(n) to the WRONG reference exponent."],
+    "edgeCases": ["Recurrence with a log factor exactly at the Master Theorem boundary (f(n)=n^(log_b a)·log n) needs the extended/generalized Master Theorem, not the basic 3-case version."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "RR_SETUP_FROM_CODE_02",
+    "name": "Setup a Recurrence FROM an Algorithm / Recursive Code",
+    "recognitionClueHinglish": "Ek recursive algorithm/pseudocode/procedure diya hai (jaise recursive bubble sort, Towers of Hanoi, binary search) aur poocha hai ISKI recurrence relation kya banegi — ye derivation pattern hai (36 me se 12 PYQs), Pattern 01 ka 'reverse' direction.",
+    "whatShouldComeToMind": [
+      "Count: how many recursive calls does the code make per invocation, and on what REDUCED input size (n-1? n/2? n/3?).",
+      "Count: how much NON-recursive work happens per invocation (the f(n) part) — usually from loops inside the function.",
+      "Combine: T(n) = (number of calls)×T(reduced size) + (non-recursive work)."
+    ],
+    "conceptsRequired": ["Reading recursive code/pseudocode", "Loop-counting for the f(n) term"],
+    "generalSolvingApproach": [
+      "1. Find every recursive call site in the code and note its argument (how the input shrinks).",
+      "2. Count how many such calls happen per invocation.",
+      "3. Count the non-recursive work (loops, comparisons) as a function of n.",
+      "4. Assemble T(n) = a·T(shrunk n) + f(n), plus the base case.",
+      "5. Once assembled, solve using Pattern 01's techniques if the full closed-form is also asked."
+    ],
+    "formulasUsed": ["towersOfHanoiShape"],
+    "pyqExamples": ["1.35.5","1.35.6","1.35.7","1.35.8","1.35.10","1.35.16","1.35.19","1.35.20","1.35.22","1.35.24","1.35.33","1.35.34"],
+    "variationsObserved": [
+      "Combinatorial counting problems disguised as recurrences (e.g., 'number of binary strings of length n with no consecutive 1s' — set up the recurrence from a case analysis, not from code).",
+      "Matching multiple algorithms to multiple recurrence relations (one-to-one matching MCQ format)."
+    ],
+    "commonTraps": ["Miscounting the number of recursive calls (easy to miss a second/third recursive call in a busy function body).", "Forgetting to include the non-recursive per-call work (the f(n) term) when it's a loop inside the function, not just the recursive calls."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "RR_CALL_COUNT_03",
+    "name": "Recursive Invocation Count Analysis (via recurrence)",
+    "recognitionClueHinglish": "Poocha hai ek recursive function KITNI BAAR invoke hoga total (not just the time-complexity CLASS, but ideally an exact/precise count or ratio) — ye Recursion topic ke Call-Count pattern se closely related hai, yahan recurrence-based derivation ke through solve karna hai.",
+    "whatShouldComeToMind": ["Set up a recurrence for the CALL COUNT itself (not time), e.g., C(n) = C(n-1)+C(n-3)+1 for a function calling itself on n-1 and n-3.", "For flowchart-based questions, read the branching structure to identify the recurrence directly."],
+    "conceptsRequired": ["Call-count recurrence setup (same idea as time-complexity recurrence, but counting invocations)"],
+    "generalSolvingApproach": ["1. For each recursive call, note the reduced argument.", "2. Set up C(n) = sum of C(reduced-arguments) + 1 (the +1 for the current call itself).", "3. Solve via recursion tree or the ratio-based technique (e.g., characteristic equation for Fibonacci-like recurrences) if an exact asymptotic RATE (like a growth-rate exponent) is asked."],
+    "formulasUsed": [],
+    "pyqExamples": ["1.35.25","1.35.26"],
+    "variationsObserved": ["Flowchart-given recursive structure instead of code."],
+    "commonTraps": ["Confusing call-COUNT recurrence with time-complexity recurrence when the per-call work is non-constant."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "RR_COMPARATIVE_PROPERTY_04",
+    "name": "Comparative/Property Reasoning About Recurrence-Defined Functions",
+    "recognitionClueHinglish": "Ek function ek recurrence se define hoti hai, aur poocha hai uske baare me ek COMPARATIVE ya property-based statement TRUE hai ya nahi (jaise 'T(n) is always ≥ some other bound') — ye meta-reasoning pattern hai, exact solve karne ke bajaye property verify karna hai.",
+    "whatShouldComeToMind": ["Often faster to test the recurrence for small concrete n (n=1,2,3...) and check the claimed property numerically, rather than solving the full closed form."],
+    "conceptsRequired": ["Recurrence evaluation for small n", "Basic inequality reasoning"],
+    "generalSolvingApproach": ["1. Compute the recurrence's value for the first few small n by direct substitution.", "2. Test the claimed property/statement against these concrete values.", "3. If the property holds for several small cases and matches known theory, it's very likely the intended answer (GATE options are usually distinguishable this way)."],
+    "formulasUsed": [],
+    "pyqExamples": ["1.35.11","1.35.14"],
+    "variationsObserved": [],
+    "commonTraps": ["Trying to derive a full symbolic proof under time pressure when a quick small-n numeric check would settle it faster."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

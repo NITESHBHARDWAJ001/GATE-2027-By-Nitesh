@@ -1,0 +1,18 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:statements-follow",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Courses of Action (Statements Follow)",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2015-2015.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

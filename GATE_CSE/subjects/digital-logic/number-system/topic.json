@@ -1,0 +1,18 @@
+{
+ "topicId": "digital-logic:number-system",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Number Systems (Radix)",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 1988-1988.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  1988
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

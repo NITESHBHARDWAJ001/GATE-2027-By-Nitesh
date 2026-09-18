@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P4_ARITHMETIC_SERIES_01",
+  "name": "Arithmetic Series (PYQ type)",
+  "recognitionClueHinglish": "Arithmetic Series se related sawal.",
+  "whatShouldComeToMind": [
+   "AP sum aur maximum sum."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. a,d."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.6.1",
+   "9.6.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "n galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

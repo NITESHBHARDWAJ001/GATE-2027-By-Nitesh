@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:token-bucket",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TOKEN--01",
+   "patternId": "P3_TOKEN_BUCKET_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "C=10 MB, r=2 MBps, M=10 MBps: max burst?",
+   "solutionApproach": "10/(10-2).",
+   "answer": "1.25 s"
+  }
+ ]
+}

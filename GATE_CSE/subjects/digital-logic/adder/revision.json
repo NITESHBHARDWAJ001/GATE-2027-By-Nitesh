@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Half/full adder, ripple carry, carry lookahead, adder-subtractor.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Adders se related sawal.",
+   "thinkThis": "P3_ADDER_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Ripple delay linear hone ko bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:adder",
+ "revisionLevel": "short-form"
+}

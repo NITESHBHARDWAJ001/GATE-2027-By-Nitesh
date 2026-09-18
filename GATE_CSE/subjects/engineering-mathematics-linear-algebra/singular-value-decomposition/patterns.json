@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_SINGULAR_VALUE_DECOMPOSI_01",
+  "name": "Singular Value Decomposition (PYQ type)",
+  "recognitionClueHinglish": "Singular Value Decomposition se related sawal.",
+  "whatShouldComeToMind": [
+   "Singular values = sqrt of eigenvalues of A^T A; sum of squares = ||A||_F^2."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. A^T A.",
+   "2. Eigenvalues."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.10.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Eigenvalue aur singular value confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

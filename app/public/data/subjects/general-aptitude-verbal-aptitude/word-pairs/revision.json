@@ -1,0 +1,22 @@
+{
+ "coreIdea": "Pehle A:B ka relation ek line me likho, phir wahi relation C:? par lagao.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "A:B::C:?",
+   "thinkThis": "WP_ANALOGY_01"
+  },
+  {
+   "seeThis": "Kaun sa jodi galat.",
+   "thinkThis": "WP_ODD_PAIR_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Direction."
+ ],
+ "highYieldPyqLessons": [
+  "Analogy questions are quick; watch relation direction."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:word-pairs",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,22 @@
+{
+ "overview": "EX me memory read wale load instructions ke stall; structural aur control hazards.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "EX me memory read wale load instructions ke stall; structural aur control hazards.",
+ "hinglishExplanation": "Load ka data MEM/EX ke baad milta hai, isliye dependent instruction ko stall.",
+ "formalDefinition": "EX me memory read wale load instructions ke stall; structural aur control hazards.",
+ "importantProperties": [
+  "Structural: resource conflict.",
+  "Control: branch.",
+  "Load-use stall.",
+  "Forwarding paths dekho."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Stalls ki count off-by-one."
+ ],
+ "standardTechniques": [
+  "1. Stage timing table."
+ ],
+ "topicId": "co-architecture:hazards"
+}

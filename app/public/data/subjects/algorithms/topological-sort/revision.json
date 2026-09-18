@@ -1,0 +1,18 @@
+{
+ "coreIdea": "DAG ke vertices ka aisa order jisme har edge u->v me u pehle aaye.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Topological Sort se related sawal.",
+   "thinkThis": "P3_TOPOLOGICAL_SORT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Cyclic graph me topological order maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:topological-sort",
+ "revisionLevel": "short-form"
+}

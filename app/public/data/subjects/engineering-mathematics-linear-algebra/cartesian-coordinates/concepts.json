@@ -1,0 +1,20 @@
+{
+ "overview": "Points, lines, collinearity, area via determinant.",
+ "whyItMatters": "1 PYQs extracted (2007-2007); P4 topic.",
+ "coreConcept": "Points, lines, collinearity, area via determinant.",
+ "hinglishExplanation": "Triangle area = 1/2 |det|.",
+ "formalDefinition": "Points, lines, collinearity, area via determinant.",
+ "importantProperties": [
+  "No three collinear => triangle.",
+  "Distance formula."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Collinearity."
+ ],
+ "standardTechniques": [
+  "1. Points."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:cartesian-coordinates"
+}

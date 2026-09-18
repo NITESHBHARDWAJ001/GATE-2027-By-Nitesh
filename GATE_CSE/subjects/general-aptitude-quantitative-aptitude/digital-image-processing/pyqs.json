@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.21.1",
+  "localId": "9.21.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "digital-image-processing",
+  "topic": "Digital Image Processing",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "B X",
+  "answerVerified": true,
+  "questionTextRaw": "A     digital image has pixel intensities as shown in the figure. The number of pixels with        is: A.                                       B.                               C.                   D.",
+  "tagsRaw": "gateda-2025 quantitative-aptitude digital-image-processing easy one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 276
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DIGITAL_IMAGE_PROCESSING_01"
+ }
+]

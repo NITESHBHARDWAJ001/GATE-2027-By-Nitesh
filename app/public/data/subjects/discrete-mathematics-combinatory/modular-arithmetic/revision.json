@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Remainders of powers/expressions; Fermat, cycles of powers.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Modular Arithmetic se related sawal.",
+   "thinkThis": "P3_MODULAR_ARITHMETIC_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Negative remainder."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-combinatory:modular-arithmetic",
+ "revisionLevel": "short-form"
+}

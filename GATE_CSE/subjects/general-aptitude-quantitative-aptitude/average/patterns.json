@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_AVERAGE_01",
+  "name": "Average (PYQ type)",
+  "recognitionClueHinglish": "Average se related sawal.",
+  "whatShouldComeToMind": [
+   "Average = sum/n; weighted average."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sum."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.7.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Weights."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,22 @@
+{
+ "overview": "Sentences ko coherent order me.",
+ "whyItMatters": "2 PYQs extracted (2023-2024); P3 topic.",
+ "coreConcept": "Sentences ko coherent order me.",
+ "hinglishExplanation": "Opening sentence, connectors, logical flow.",
+ "formalDefinition": "Sentences ko coherent order me.",
+ "importantProperties": [
+  "Introduce topic first.",
+  "Pronoun antecedent.",
+  "Conclusion last."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Connector ignore."
+ ],
+ "standardTechniques": [
+  "1. Opening.",
+  "2. Links."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:sentence-ordering"
+}

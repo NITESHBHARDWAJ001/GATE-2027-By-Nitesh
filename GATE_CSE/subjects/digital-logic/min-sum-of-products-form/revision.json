@@ -1,0 +1,26 @@
+{
+  "topicId": "dl-min-sum-of-products-form",
+  "revisionLevel": "short-form",
+  "coreIdea": "K-map groups = powers of 2. Larger group = fewer literals. Essential PI = uniquely covers some minterm, MUST be included. Don't-cares are optional helpers.",
+  "mustRememberFormulas": [
+    "Group size must be 2^k (1,2,4,8,...)",
+    "Group of 2^k cells → term with (n-k) literals",
+    "Essential PI = only PI covering some minterm — mandatory inclusion",
+    "Don't-cares: use if helpful for bigger groups, never required to be covered"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "minterms/don't-cares given, asked minimal SOP or EPI count", "thinkThis": "SOP_KMAP_MINIMIZE_01"},
+    {"seeThis": "'is F independent of variable X' asked", "thinkThis": "SOP_INDEPENDENCE_02"},
+    {"seeThis": "self-dual check, POS form, or circuit-to-expression conversion", "thinkThis": "SOP_CONCEPTUAL_03"}
+  ],
+  "commonTrapsQuickList": [
+    "Groups must be powers of 2 — never 3, 5, 6, etc.",
+    "Always check EVERY minterm for essential-PI status before finalizing",
+    "Minimize FIRST before checking variable independence — a non-minimal expression can mislead",
+    "POS groups the 0-cells; SOP groups the 1-cells — don't mix up"
+  ],
+  "highYieldPyqLessons": [
+    "K-map minimization (12/16) is nearly the whole topic — get the essential-PI-first-then-cover-rest workflow completely automatic.",
+    "This topic directly feeds Circuit Output (combinational circuit analysis) — the same grouping skill applies there too."
+  ]
+}

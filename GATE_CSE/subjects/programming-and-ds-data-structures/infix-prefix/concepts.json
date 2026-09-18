@@ -1,0 +1,21 @@
+{
+ "overview": "Conversion with precedence/associativity using stack; postfix evaluation.",
+ "whyItMatters": "4 PYQs extracted (1997-2007); P3 topic.",
+ "coreConcept": "Conversion with precedence/associativity using stack; postfix evaluation.",
+ "hinglishExplanation": "Operator stack: higher precedence pehle output.",
+ "formalDefinition": "Conversion with precedence/associativity using stack; postfix evaluation.",
+ "importantProperties": [
+  "Postfix evaluation: operand push, operator pop 2.",
+  "Right associative ^ ke liye equal precedence par push.",
+  "Operands order same rehta hai."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Associativity ignore."
+ ],
+ "standardTechniques": [
+  "1. Stack trace."
+ ],
+ "topicId": "programming-and-ds-data-structures:infix-prefix"
+}

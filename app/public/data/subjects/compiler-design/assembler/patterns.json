@@ -1,0 +1,33 @@
+[
+ {
+  "patternId": "P3_ASSEMBLER_01",
+  "name": "Assembler (PYQ type)",
+  "recognitionClueHinglish": "Assembler se related sawal.",
+  "whatShouldComeToMind": [
+   "Two-pass assembler: pass 1 symbol table/location counter, pass 2 object code."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Activity ko pass se match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.3.1",
+   "2.3.2",
+   "2.3.3",
+   "2.3.4",
+   "2.3.5",
+   "2.3.6",
+   "2.3.7",
+   "2.3.8",
+   "2.3.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Object code pass 1 me maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

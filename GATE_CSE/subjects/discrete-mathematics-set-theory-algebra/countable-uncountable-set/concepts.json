@@ -1,0 +1,22 @@
+{
+ "overview": "N, Z, Q countable; R, power set of N uncountable; subset of countable countable.",
+ "whyItMatters": "2 PYQs extracted (1994-2018); P3 topic.",
+ "coreConcept": "N, Z, Q countable; R, power set of N uncountable; subset of countable countable.",
+ "hinglishExplanation": "Countable = bijection with subset of N.",
+ "formalDefinition": "N, Z, Q countable; R, power set of N uncountable; subset of countable countable.",
+ "importantProperties": [
+  "Q countable.",
+  "R uncountable.",
+  "Power set of N uncountable.",
+  "Subset of countable is countable."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Q ko uncountable maan lena."
+ ],
+ "standardTechniques": [
+  "1. Enumerate?"
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:countable-uncountable-set"
+}

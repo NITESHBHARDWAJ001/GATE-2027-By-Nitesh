@@ -1,0 +1,33 @@
+{
+  "topicId": "coa-machine-instruction",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-MI-01",
+      "patternId": "MI_ENCODING_02",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A 16-bit instruction has 8 distinct instruction types and 8 registers. Each instruction has exactly 2 register operands. How many bits remain for an immediate operand (if any)?",
+      "solutionApproach": "opcode bits = ⌈log2(8)⌉=3. register bits per operand = ⌈log2(8)⌉=3, ×2 operands = 6. Remaining = 16-3-6 = 7.",
+      "answer": "7 bits"
+    },
+    {
+      "practiceId": "AI-MI-02",
+      "patternId": "MI_TRACE_PROGRAM_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "MOV A,5; MOV B,3; ADD A,B; SUB B,A  — what are the final values of A and B (assume ADD A,B means A=A+B; SUB B,A means B=B-A)?",
+      "solutionApproach": "A=5,B=3. ADD A,B: A=5+3=8. SUB B,A: B=3-8=-5.",
+      "answer": "A=8, B=-5"
+    },
+    {
+      "practiceId": "AI-MI-03",
+      "patternId": "MI_TIMING_03",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A loop runs 10 times. Loop body: LOAD(2 cycles), ADD(1 cycle), STORE(2 cycles). Plus 1 setup instruction (1 cycle) before the loop. Total cycles?",
+      "solutionApproach": "Loop body per iteration = 2+1+2=5 cycles. 10 iterations = 50. Plus setup 1. Total = 51.",
+      "answer": "51 cycles"
+    }
+  ]
+}

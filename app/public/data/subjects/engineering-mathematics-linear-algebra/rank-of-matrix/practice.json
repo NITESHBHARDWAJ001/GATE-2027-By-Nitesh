@@ -1,0 +1,33 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:rank-of-matrix",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RANK-O-01",
+   "patternId": "RNK_COMPUTE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Rank of [[1,2],[2,4]]?",
+   "solutionApproach": "Rows dependent.",
+   "answer": "1"
+  },
+  {
+   "practiceId": "AI-RANK-OF--X02",
+   "patternId": "RNK_COMPUTE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Rank of [[1,2,3],[2,4,6],[1,0,1]]?",
+   "solutionApproach": "Row2=2*Row1: rank 2.",
+   "answer": "2"
+  },
+  {
+   "practiceId": "AI-RANK-OF--X03",
+   "patternId": "RNK_PROPERTIES_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A is 3x5, max rank?",
+   "solutionApproach": "min(3,5).",
+   "answer": "3"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "overview": "Token definitions se string ke tokens ki count (whitespace/comments chhod kar).",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Token definitions se string ke tokens ki count (whitespace/comments chhod kar).",
+ "hinglishExplanation": "Longest-match aur priority rules se scan.",
+ "formalDefinition": "Token definitions se string ke tokens ki count (whitespace/comments chhod kar).",
+ "importantProperties": [
+  "Whitespace/comments tokens nahi.",
+  "Longest match.",
+  "Rule order tie-break."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Comments ko tokens ginna."
+ ],
+ "standardTechniques": [
+  "1. Scan left to right."
+ ],
+ "topicId": "compiler-design:compiler-tokenization"
+}

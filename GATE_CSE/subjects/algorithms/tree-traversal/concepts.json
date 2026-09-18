@@ -1,0 +1,24 @@
+{
+ "overview": "Preorder + inorder se tree reconstruct; postorder aur level order.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Preorder + inorder se tree reconstruct; postorder aur level order.",
+ "hinglishExplanation": "Preorder ka pehla = root; inorder me root ke left/right subtrees alag.",
+ "formalDefinition": "Preorder + inorder se tree reconstruct; postorder aur level order.",
+ "importantProperties": [
+  "Pre+In ya Post+In se unique tree.",
+  "Pre+Post se unique nahi (generally).",
+  "Inorder BST me sorted.",
+  "Reconstruction recursively."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Pre+post se unique maan lena."
+ ],
+ "standardTechniques": [
+  "1. Root.",
+  "2. Inorder split.",
+  "3. Recurse."
+ ],
+ "topicId": "algorithms:tree-traversal"
+}

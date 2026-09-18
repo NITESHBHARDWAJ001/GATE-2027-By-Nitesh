@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_VARIANCE_01",
+  "name": "Variance (PYQ type)",
+  "recognitionClueHinglish": "Variance se related sawal.",
+  "whatShouldComeToMind": [
+   "Var(aX+b)=a^2 Var X; independent sums add."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rules."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.20.1",
+   "7.20.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Shift add karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

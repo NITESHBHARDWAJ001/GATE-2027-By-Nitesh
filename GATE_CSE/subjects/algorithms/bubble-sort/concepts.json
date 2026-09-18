@@ -1,0 +1,21 @@
+{
+ "overview": "Adjacent swaps; worst n(n-1)/2 swaps/comparisons; ek pass me max end me.",
+ "whyItMatters": "1 PYQs extracted (1995-1995); P4 topic.",
+ "coreConcept": "Adjacent swaps; worst n(n-1)/2 swaps/comparisons; ek pass me max end me.",
+ "hinglishExplanation": "Har pass me sabse bada element apni jagah.",
+ "formalDefinition": "Adjacent swaps; worst n(n-1)/2 swaps/comparisons; ek pass me max end me.",
+ "importantProperties": [
+  "Swaps = inversions.",
+  "Best O(n) with early exit.",
+  "Pass k ke baad last k elements sorted."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Passes ka count."
+ ],
+ "standardTechniques": [
+  "1. Pass trace."
+ ],
+ "topicId": "algorithms:bubble-sort"
+}

@@ -1,0 +1,39 @@
+{
+  "topicId": "dm-mathematical-logic-propositional-logic",
+  "overview": "Propositional Logic is subject ka sabse bada topic hai (40 PYQs). Core skill: ek formula di hai (∧,∨,¬,→,↔ use karke), uska truth-value evaluate karna, tautology/contradiction/equivalence check karna, ya English statement ko formula me convert karna.",
+  "whyItMatters": "Har saal reliably 1-2 questions guaranteed. First Order Logic isी ka extension hai, aur TOC ke decidability arguments me bhi yehi 'is this always true' reasoning reuse hoti hai.",
+  "coreConcept": "Proposition = ek statement jo TRUE ya FALSE ho sakta hai (dono nahi, aur 'maybe' bhi nahi). Connectives (∧ AND, ∨ OR, ¬ NOT, → IMPLIES, ↔ IFF) se simple propositions ko combine karke complex formulas banate hain. GATE 3 cheezein test karta hai: (1) formula ka truth-value/tautology-status, (2) do formulas equivalent hain ya nahi, (3) English ko formula me sahi tarike se translate karna.",
+  "hinglishExplanation": "Formula ko ek 'switch circuit' socho — har proposition ek switch hai (ON=True, OFF=False), aur connectives batate hain ki circuit ka output kya hoga. Tautology = wo formula jo HAR switch-combination pe hamesha ON (True) rahe. Contradiction = jo HAMESHA OFF (False) rahe. Implication P→Q ka sabse confusing part: ye SIRF False hota hai jab P=True aur Q=False; baaki har case me True hai (even jab P False ho, P→Q automatically True — 'vacuously true').",
+  "formalDefinition": "P→Q is FALSE only when P=True and Q=False; TRUE in all other 3 combinations. P↔Q is TRUE exactly when P and Q have the SAME truth value.",
+  "importantProperties": [
+    "P→Q ≡ ¬P∨Q (implication rewrite — the single most useful identity for converting → into ∧/∨/¬ form).",
+    "Contrapositive: P→Q ≡ ¬Q→¬P (always equivalent).",
+    "Converse (Q→P) and Inverse (¬P→¬Q) are NOT equivalent to the original P→Q in general — classic trap.",
+    "De Morgan's for logic: ¬(P∧Q) ≡ ¬P∨¬Q, ¬(P∨Q) ≡ ¬P∧¬Q.",
+    "'P unless Q' translates to ¬Q→P (equivalently P∨Q).",
+    "'P only if Q' translates to P→Q (NOT Q→P — a very common trap).",
+    "A formula is a tautology iff its negation is a contradiction (unsatisfiable)."
+  ],
+  "formulas": {
+    "implicationRewrite": "P→Q ≡ ¬P∨Q",
+    "contrapositive": "P→Q ≡ ¬Q→¬P",
+    "biconditional": "P↔Q ≡ (P→Q)∧(Q→P) ≡ (P∧Q)∨(¬P∧¬Q)",
+    "deMorgan": "¬(P∧Q)≡¬P∨¬Q,  ¬(P∨Q)≡¬P∧¬Q",
+    "xor": "P⊕Q ≡ (P∨Q)∧¬(P∧Q) ≡ ¬(P↔Q)"
+  },
+  "keyPropertiesAndIdentities": [
+    "n propositions → 2^n rows in a full truth table — for n≤4 this is always feasible to brute-force in exam time if algebraic simplification stalls.",
+    "'Only if' vs 'if' vs 'unless' vs 'if and only if' each map to a DIFFERENT logical form — this vocabulary mapping is tested almost every year."
+  ],
+  "commonPitfalls": [
+    "Converse/Inverse confused with Contrapositive — only the contrapositive is guaranteed equivalent to the original.",
+    "'P only if Q' mistranslated as Q→P instead of the correct P→Q.",
+    "Forgetting that P→Q is vacuously TRUE whenever P is False — leads to wrong tautology/contradiction verdicts.",
+    "Treating → as commutative or assuming P→Q ≡ Q→P (false in general)."
+  ],
+  "standardTechniques": [
+    "For tautology/contradiction/satisfiability with ≤3 variables: build the full truth table if algebraic simplification isn't immediately obvious — with 8 rows max it's fast and error-proof.",
+    "For 'which is equivalent to X' questions: rewrite X into ¬/∧/∨ form first (kill all → and ↔ using the rewrite rules), then compare.",
+    "For English-to-logic translation: identify the connective keywords FIRST (only if, unless, and, or, not, iff) before assigning propositional variables, then assemble."
+  ]
+}

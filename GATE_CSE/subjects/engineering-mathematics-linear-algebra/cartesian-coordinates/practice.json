@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:cartesian-coordinates",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CARTES-01",
+   "patternId": "P4_CARTESIAN_COORDINATES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Points (0,0),(1,0),(0,1) area?",
+   "solutionApproach": "1/2.",
+   "answer": "0.5"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-programming-in-c:type-checking",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TYPE-C-01",
+   "patternId": "P4_TYPE_CHECKING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Static typing check kab?",
+   "solutionApproach": "Compile time.",
+   "answer": "Compile time"
+  }
+ ]
+}

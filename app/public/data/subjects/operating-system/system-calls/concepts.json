@@ -1,0 +1,21 @@
+{
+ "overview": "Kaun si library functions hamesha system call karte hain.",
+ "whyItMatters": "1 PYQs extracted (2021-2021); P3 topic.",
+ "coreConcept": "Kaun si library functions hamesha system call karte hain.",
+ "hinglishExplanation": "read/write/open/fork/exec system calls; malloc/printf library functions (kabhi kabhi).",
+ "formalDefinition": "Kaun si library functions hamesha system call karte hain.",
+ "importantProperties": [
+  "File I/O, process creation system calls.",
+  "Library function conditionally system call.",
+  "Mode switch user->kernel."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Har library function ko system call maan lena."
+ ],
+ "standardTechniques": [
+  "1. Kya kernel service chahiye?"
+ ],
+ "topicId": "operating-system:system-calls"
+}

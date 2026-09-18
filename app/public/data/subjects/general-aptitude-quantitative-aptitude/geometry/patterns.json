@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_GEOMETRY_01",
+  "name": "Geometry (PYQ type)",
+  "recognitionClueHinglish": "Geometry se related sawal.",
+  "whatShouldComeToMind": [
+   "Angles, triangles, circles ki basic properties."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Draw."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.25.1",
+   "9.25.2",
+   "9.25.3",
+   "9.25.4",
+   "9.25.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Diagram misread."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,24 @@
+{
+ "overview": "Memory chips, address bits, interleaving, DRAM row/column, decoders/chip select.",
+ "whyItMatters": "6 PYQs extracted (1990-2023); P2 topic.",
+ "coreConcept": "Address bits = log2(number of addressable units). Chip select se blocks ko alag address range.",
+ "hinglishExplanation": "Word-addressable me size/word = locations, address bits = log2. Interleaving me consecutive words alag banks me, isliye parallel access. High-order bits chip select me jaate hain.",
+ "formalDefinition": "Address bits = log2(number of addressable units). Chip select se blocks ko alag address range.",
+ "importantProperties": [
+  "Address bits = log2(memory size / addressable unit).",
+  "Low-order interleaving: consecutive words in consecutive banks.",
+  "High-order: consecutive in same bank.",
+  "Chip select from high-order bits."
+ ],
+ "formulas": {
+  "addrBits": "log2(size / word)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Byte vs word."
+ ],
+ "standardTechniques": [
+  "Address map draw."
+ ],
+ "topicId": "co-architecture:memory-interfacing"
+}

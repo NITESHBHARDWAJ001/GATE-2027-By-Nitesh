@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_RATIO_PROPORTION_01",
+  "name": "Ratio and Proportion (PYQ type)",
+  "recognitionClueHinglish": "Ratio and Proportion se related sawal.",
+  "whatShouldComeToMind": [
+   "a:b = c:d => ad=bc."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Common factor."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.48.1",
+   "9.48.2",
+   "9.48.3",
+   "9.48.4",
+   "9.48.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Ratio order."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

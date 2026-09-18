@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Leaders find karo: first instruction, jump targets, jump ke baad wala.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Basic Blocks and CFG se related sawal.",
+   "thinkThis": "P3_BASIC_BLOCKS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Jump ke baad wala leader bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:basic-blocks",
+ "revisionLevel": "short-form"
+}

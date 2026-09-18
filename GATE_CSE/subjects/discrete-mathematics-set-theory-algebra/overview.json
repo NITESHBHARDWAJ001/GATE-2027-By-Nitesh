@@ -1,0 +1,21 @@
+{
+ "subjectId": "discrete-mathematics-set-theory-algebra",
+ "name": "Discrete Mathematics: Set Theory & Algebra",
+ "sourceVolume": "volume1",
+ "sourcePdf": "filter1_volume1.pdf",
+ "totalTopics": 13,
+ "totalPyqsExtracted": 173,
+ "priorityDistribution": {
+  "P1": 4,
+  "P2": 0,
+  "P3": 8,
+  "P4": 1
+ },
+ "p1Topics": [
+  "Functions",
+  "Group Theory",
+  "Relations",
+  "Set Theory"
+ ],
+ "processingStatus": "all_P1_topics_complete (4/4): set-theory, relations, functions, group-theory"
+}

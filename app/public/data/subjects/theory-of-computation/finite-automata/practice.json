@@ -1,0 +1,42 @@
+{
+  "topicId": "toc-finite-automata",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-FA-01",
+      "patternId": "FA_CONSTRUCT_02",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Construct a DFA for L = {w ∈ {0,1}* : w contains '11' as a substring}.",
+      "solutionApproach": "States: q0 (start, no progress), q1 (just saw one '1'), q2 (accepting, saw '11'). q0 on 1→q1, on 0→q0. q1 on 1→q2, on 0→q0. q2 on 0 or 1→q2 (stays accepting once found).",
+      "answer": "3-state DFA: q0→q1 on '1', q1→q2 on '1' (accept), q2 stays on any input; both q0,q1 go back to q0 on '0'."
+    },
+    {
+      "practiceId": "AI-FA-02",
+      "patternId": "FA_EQUIVALENCE_CLOSURE_03",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A DFA has states {q0,q1}, accepting={q1}, but has NO transition defined from q1 on symbol 'b'. If you swap accepting/non-accepting to find the complement, is this correct?",
+      "solutionApproach": "No — the DFA is INCOMPLETE (missing q1 on 'b'). Must first add a trap/dead state to handle the missing transition (making it a complete DFA), THEN swap accept/reject. Naive swapping on an incomplete DFA gives a wrong complement.",
+      "answer": "No — must complete the DFA (add trap state) before complementing."
+    },
+    {
+      "practiceId": "AI-FA-03",
+      "patternId": "FA_TRACE_SIMULATE_04",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "An NFA has states {q0,q1,q2}; from q0 on '0' it can go to {q0,q1}; from q1 on '1' it goes to {q2}; q2 is accepting. Does the NFA accept '01'?",
+      "solutionApproach": "Track possible-state sets: start {q0}. After '0': {q0,q1} (both reachable). After '1': from q0 on '1' — no transition defined (dead); from q1 on '1' — {q2}. Combined set: {q2}. q2 is accepting → ACCEPT.",
+      "answer": "Yes, accepted — reaches q2 via the q0→q1→q2 path."
+    },
+    {
+      "practiceId": "AI-FA-04",
+      "patternId": "FA_IDENTIFY_LANGUAGE_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A DFA has 2 states: q0(start,accepting) and q1. On '0', q0→q1 and q1→q0. On '1', both states self-loop. What language does it accept?",
+      "solutionApproach": "State tracks parity of '0' count. q0 = even count of 0's seen (accepting), q1 = odd. '1's don't affect state. Language = strings with an EVEN number of 0's.",
+      "answer": "{w : number of 0's in w is even}"
+    }
+  ]
+}

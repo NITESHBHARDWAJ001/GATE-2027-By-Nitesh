@@ -1,0 +1,31 @@
+{
+  "topicId": "dm-graph-theory-graph-connectivity",
+  "revisionLevel": "short-form",
+  "coreIdea": "Connected needs ≥n-1 edges (tree). Max simple graph edges = C(n,2). Cut vertex/bridge = never part of a cycle. Cayley: K_n has n^(n-2) spanning trees.",
+  "mustRememberFormulas": [
+    "Min edges connected = n-1; Max simple = n(n-1)/2",
+    "Max edges with k components = (n-k)(n-k+1)/2 (concentrate into one component)",
+    "Max bipartite edges = ⌊n²/4⌋",
+    "Cayley's formula: spanning trees of K_n = n^(n-2)",
+    "(A^k)[i][j] = walks of length k, i to j. Triangles = trace(A³)/6",
+    "Eulerian circuit iff connected + all degrees even"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "'max/min edges given...' constraint question", "thinkThis": "GC_EDGE_COUNTING_01"},
+    {"seeThis": "cut vertex/bridge/articulation point/vertex-removal component count", "thinkThis": "GC_STRUCTURAL_PROPERTY_02"},
+    {"seeThis": "'number of spanning trees' or MST uniqueness condition", "thinkThis": "GC_SPANNING_TREE_03"},
+    {"seeThis": "adjacency matrix powers/trace mentioned", "thinkThis": "GC_ADJACENCY_MATRIX_04"},
+    {"seeThis": "Eulerian/Hamiltonian/line graph/subset-based graph", "thinkThis": "GC_SPECIAL_STRUCTURES_05"},
+    {"seeThis": "draw adjacency list/matrix from a diagram", "thinkThis": "GC_REPRESENTATION_06"}
+  ],
+  "commonTrapsQuickList": [
+    "'Max edges with k components' concentrates edges into ONE component, not evenly split",
+    "Cut vertex/bridge is NEVER part of a cycle — check cycle membership to disprove",
+    "Cayley's formula (n^(n-2)) only applies to COMPLETE graphs, not general graphs",
+    "Hamiltonian cycles have NO simple degree-based existence test, unlike Eulerian circuits"
+  ],
+  "highYieldPyqLessons": [
+    "Edge-counting formulas (13/40) are the single highest-ROI sub-skill — a fixed formula library with direct lookup, memorize once.",
+    "This topic is the Discrete-Math mirror of Graph Search + MST — the same structural intuitions (components, cuts, trees) appear from a proof/counting angle here instead of an algorithmic one."
+  ]
+}

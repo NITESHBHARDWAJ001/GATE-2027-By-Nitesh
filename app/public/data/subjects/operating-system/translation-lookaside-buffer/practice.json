@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:translation-lookaside-buffer",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TRANSL-01",
+   "patternId": "P3_TRANSLATION_LOOKASIDE_BU_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "64 entries, 4 KB pages. TLB reach?",
+   "solutionApproach": "64*4KB.",
+   "answer": "256 KB"
+  }
+ ]
+}

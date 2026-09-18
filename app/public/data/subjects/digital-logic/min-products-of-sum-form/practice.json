@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:min-products-of-sum-form",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MIN-PR-01",
+   "patternId": "P3_MIN_PRODUCTS_OF_SUM_FORM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "POS ke liye kya group karte?",
+   "solutionApproach": "Zeros.",
+   "answer": "0s"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "digital-logic__4.16.1",
+  "localId": "4.16.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "fixed-point-representation",
+  "topic": "Fixed Point Representation",
+  "year": 2017,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "The n-bit fixed-point representation of an unsigned real number uses bits for the fraction part. Let . The range of decimal values for in this representation is A. to                                                                                 B. to C. 0 to                                                                               D. 0 to",
+  "tagsRaw": "gatecse-2017-set1 digital-logic number-representation fixed-point-representation",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 323
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_FIXED_POINT_REPRESENTATI_01"
+ },
+ {
+  "pyqId": "digital-logic__4.16.2",
+  "localId": "4.16.2",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "fixed-point-representation",
+  "topic": "Fixed Point Representation",
+  "year": 2018,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "33",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": 2,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the unsigned 8-bit fixed point binary number representation, below, where the position of the primary point is between and . Assume is the most significant bit. Some of the decimal numbers listed below cannot be represented exactly in the above representation: i. ii. iii. iv. Which one of the following statements is true? A. None of                          can be exactly represented B. Only cannot be exactly represented C. Only and cannot be exactly represented D. Only and cannot be exactly represented",
+  "tagsRaw": "gatecse-2018 digital-logic  number-representation  fixed-point-representation  normal  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 323
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_FIXED_POINT_REPRESENTATI_01"
+ }
+]

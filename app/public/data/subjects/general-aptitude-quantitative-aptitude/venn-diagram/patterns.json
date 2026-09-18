@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_VENN_DIAGRAM_01",
+  "name": "Venn Diagrams (PYQ type)",
+  "recognitionClueHinglish": "Venn Diagrams se related sawal.",
+  "whatShouldComeToMind": [
+   "Sets ke union/intersection counts."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Regions."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.57.1",
+   "9.57.2",
+   "9.57.3",
+   "9.57.4",
+   "9.57.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Double count."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

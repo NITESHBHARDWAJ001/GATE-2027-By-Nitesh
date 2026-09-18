@@ -1,0 +1,22 @@
+{
+ "overview": "Har element ko sorted prefix me sahi jagah insert; worst O(n^2), best O(n).",
+ "whyItMatters": "2 PYQs extracted (2003-2003); P4 topic.",
+ "coreConcept": "Har element ko sorted prefix me sahi jagah insert; worst O(n^2), best O(n).",
+ "hinglishExplanation": "Swaps/shifts = inversions; binary search se comparisons kam par shifts wahi.",
+ "formalDefinition": "Har element ko sorted prefix me sahi jagah insert; worst O(n^2), best O(n).",
+ "importantProperties": [
+  "Best O(n) sorted input, worst O(n^2) reversed.",
+  "Shifts = number of inversions.",
+  "Stable, in-place.",
+  "Binary search comparisons O(n log n) par shifts O(n^2)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Binary search se overall O(n log n) maan lena."
+ ],
+ "standardTechniques": [
+  "1. Inversions count."
+ ],
+ "topicId": "algorithms:insertion-sort"
+}

@@ -1,0 +1,75 @@
+[
+ {
+  "patternId": "LIM_INDETERMINATE_01",
+  "name": "Evaluate Limit via Indeterminate Form (0/0, inf/inf, L'Hopital, Standard Limits)",
+  "recognitionClueHinglish": "Trigonometric/exponential/rational expression ka limit nikaalna.",
+  "whatShouldComeToMind": [
+   "Classify form; L'Hopital or standard limit."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Direct substitute.",
+   "2. Indeterminate ho to factor/rationalise.",
+   "3. L'Hopital ya standard limit."
+  ],
+  "formulasUsed": [
+   "sinx",
+   "lhopital",
+   "expm1"
+  ],
+  "pyqExamples": [
+   "5.5.1",
+   "5.5.2",
+   "5.5.3",
+   "5.5.4",
+   "5.5.5",
+   "5.5.6",
+   "5.5.7",
+   "5.5.10",
+   "5.5.11",
+   "5.5.12",
+   "5.5.14",
+   "5.5.15"
+  ],
+  "variationsObserved": [
+   "Without series expansion condition.",
+   "Infinity limits of ratios."
+  ],
+  "commonTraps": [
+   "Non-indeterminate par L'Hopital."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "LIM_EXISTENCE_02",
+  "name": "Existence / Bounded-Function Arguments",
+  "recognitionClueHinglish": "Kya limit exist karta hai; bounded function ya inequality diya hai.",
+  "whatShouldComeToMind": [
+   "Left/right limit; squeeze."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Left aur right limit alag se.",
+   "2. Bounds se squeeze lagao."
+  ],
+  "formulasUsed": [
+   "e"
+  ],
+  "pyqExamples": [
+   "5.5.8",
+   "5.5.9",
+   "5.5.13"
+  ],
+  "variationsObserved": [
+   "x sin(1/x) type."
+  ],
+  "commonTraps": [
+   "One-sided limit ko full limit maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

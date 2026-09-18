@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "algorithms__1.45.1",
+  "localId": "1.45.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "tree-traversal",
+  "topic": "Tree Traversal",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "15",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A;B",
+  "answerVerified": true,
+  "questionTextRaw": "You are given the following Pre-order and In-order traversals of a Binary Tree                                 with nodes . Which of the following statements is/are true about the Binary Tree A. Node is the root of                                                     B. The Post-order traversal of is: C. Node has only one child                                                 D. The left subtree of node contains the node",
+  "tagsRaw": "gateda-2026 algorithms   tree-traversal  multiple-selects  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 108
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_TREE_TRAVERSAL_01"
+ }
+]

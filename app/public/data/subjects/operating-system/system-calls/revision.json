@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Kaun si library functions hamesha system call karte hain.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "System Calls se related sawal.",
+   "thinkThis": "P3_SYSTEM_CALLS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Har library function ko system call maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:system-calls",
+ "revisionLevel": "short-form"
+}

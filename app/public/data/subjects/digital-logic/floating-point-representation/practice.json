@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:floating-point-representation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-FLOATI-01",
+   "patternId": "P3_FLOATING_POINT_REPRESENT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Excess-64 stored exponent 66. Actual?",
+   "solutionApproach": "66-64.",
+   "answer": "2"
+  }
+ ]
+}

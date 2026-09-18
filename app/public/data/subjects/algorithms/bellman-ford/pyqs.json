@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "algorithms__1.4.1",
+  "localId": "1.4.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "bellman-ford",
+  "topic": "Bellman Ford",
+  "year": 2009,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "13",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following statement(s) is/are correct regarding Bellman-Ford shortest path algorithm? P: Always finds a negative weighted cycle, if one exists. Q: Finds whether any negative weighted cycle is reachable from the source. A. only                       B. only                                C. Both and          D. Neither nor",
+  "tagsRaw": "gatecse-2009 algorithms  graph-algorithms      normal  bellman-ford",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 31
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_BELLMAN_FORD_01"
+ },
+ {
+  "pyqId": "algorithms__1.4.2",
+  "localId": "1.4.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "bellman-ford",
+  "topic": "Bellman Ford",
+  "year": 2013,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "19",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "What is the time complexity of Bellman-Ford single-source shortest path algorithm on a complete graph of n vertices? A.                                                                   B. C.                                                                   D.",
+  "tagsRaw": "gatecse-2013 algorithms graph-algorithms normal bellman-ford",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 31
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_BELLMAN_FORD_01"
+ }
+]

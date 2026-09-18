@@ -1,0 +1,21 @@
+{
+ "overview": "Perfect matchings in K_2n = (2n)!/(2^n n!); path graph matchings Fibonacci.",
+ "whyItMatters": "2 PYQs extracted (2003-2026); P3 topic.",
+ "coreConcept": "Perfect matchings in K_2n = (2n)!/(2^n n!); path graph matchings Fibonacci.",
+ "hinglishExplanation": "Matching = non-adjacent edges ka set.",
+ "formalDefinition": "Perfect matchings in K_2n = (2n)!/(2^n n!); path graph matchings Fibonacci.",
+ "importantProperties": [
+  "Perfect matchings K_2n: (2n-1)!!.",
+  "Path on n vertices matchings: F(n+1)-like (Fibonacci).",
+  "Matching size <= n/2."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Ordered vs unordered pairing."
+ ],
+ "standardTechniques": [
+  "1. Recurrence."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:graph-matching"
+}

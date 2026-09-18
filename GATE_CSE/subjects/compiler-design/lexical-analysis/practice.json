@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:lexical-analysis",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LEXICA-01",
+   "patternId": "P3_LEXICAL_ANALYSIS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "printf(\"x\", y); tokens?",
+   "solutionApproach": "printf ( \"x\" , y ) ;",
+   "answer": "7"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_NUMBER_RELATIONS_01",
+  "name": "Number/Grid Relations (PYQ type)",
+  "recognitionClueHinglish": "Number/Grid Relations se related sawal.",
+  "whatShouldComeToMind": [
+   "Grid me pattern (cross/circle counts) se relation."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rules.",
+   "2. Fill."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.9.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Figure data missing in text."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

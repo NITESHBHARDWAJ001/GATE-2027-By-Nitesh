@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Divide-and-conquer recurrences ko Master theorem se solve karo.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Recurrence Relations for Running Time se related sawal.",
+   "thinkThis": "P4_COMPUTER_SCIENCE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Regularity condition."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:computer-science",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_COMBINATIONAL_CIRCUIT_01",
+  "name": "Combinational Circuits (Glitches) (PYQ type)",
+  "recognitionClueHinglish": "Combinational Circuits (Glitches) se related sawal.",
+  "whatShouldComeToMind": [
+   "Propagation delay se glitch/hazard; display encodings."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Paths delays."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.9.1",
+   "4.9.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Delay ignore."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

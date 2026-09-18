@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Operations count ~ n^3/3 multiplications.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Gaussian Elimination Cost se related sawal.",
+   "thinkThis": "P3_GAUSSIAN_ELIMINATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "n^2 maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:gaussian-elimination",
+ "revisionLevel": "short-form"
+}

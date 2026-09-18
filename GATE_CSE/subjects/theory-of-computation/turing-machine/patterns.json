@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_TURING_MACHINE_01",
+  "name": "Turing Machines (PYQ type)",
+  "recognitionClueHinglish": "Turing Machines se related sawal.",
+  "whatShouldComeToMind": [
+   "Halting, equivalences; TM variants equal power."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Model."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.21.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Multi-tape zyada powerful."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

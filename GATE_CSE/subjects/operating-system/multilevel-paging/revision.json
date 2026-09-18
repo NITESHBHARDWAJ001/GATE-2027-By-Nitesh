@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Address bits: offset + level indexes; page-table sizes.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Multilevel Paging se related sawal.",
+   "thinkThis": "P3_MULTILEVEL_PAGING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "PTE size ka unit."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:multilevel-paging",
+ "revisionLevel": "short-form"
+}

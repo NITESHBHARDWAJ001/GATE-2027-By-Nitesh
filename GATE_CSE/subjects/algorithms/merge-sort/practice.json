@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:merge-sort",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MERGE--01",
+   "patternId": "P3_MERGE_SORT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Merge sort ka recurrence?",
+   "solutionApproach": "Do halves + linear merge.",
+   "answer": "T(n)=2T(n/2)+n"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "overview": "Divisors count = product of (e_i+1); gcd conditions.",
+ "whyItMatters": "7 PYQs extracted (1991-2015); P3 topic.",
+ "coreConcept": "Divisors count = product of (e_i+1); gcd conditions.",
+ "hinglishExplanation": "Prime factorization se divisors.",
+ "formalDefinition": "Divisors count = product of (e_i+1); gcd conditions.",
+ "importantProperties": [
+  "d(n)=prod(e_i+1).",
+  "gcd/lcm relations.",
+  "Euler phi(n)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Factorization me galti."
+ ],
+ "standardTechniques": [
+  "1. Factorize.",
+  "2. Formula."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:number-theory"
+}

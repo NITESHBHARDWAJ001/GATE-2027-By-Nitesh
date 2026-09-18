@@ -1,0 +1,56 @@
+[
+ {
+  "patternId": "SU_AMDAHL_01",
+  "name": "Amdahl / Enhancement Speedup",
+  "recognitionClueHinglish": "Fraction aur local speedup; overall speedup.",
+  "whatShouldComeToMind": [
+   "Amdahl formula."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. f, s.",
+   "2. Formula."
+  ],
+  "formulasUsed": [
+   "amdahl"
+  ],
+  "pyqExamples": [
+   "1.26.3",
+   "1.26.5",
+   "1.26.6",
+   "1.26.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Fraction of time vs instr."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SU_PIPELINE_02",
+  "name": "Pipeline / Clock Speedup",
+  "recognitionClueHinglish": "Stages, cycles; speedup vs non-pipelined.",
+  "whatShouldComeToMind": [
+   "Old/new time."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Times.",
+   "2. Ratio."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.26.1",
+   "1.26.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Stage overhead."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

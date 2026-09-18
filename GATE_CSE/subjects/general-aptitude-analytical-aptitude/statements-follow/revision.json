@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Given statements se kaunsa conclusion definitely follow karta hai.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Statements and Conclusions se related sawal.",
+   "thinkThis": "P3_STATEMENTS_FOLLOW_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Real-world knowledge use karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:statements-follow",
+ "revisionLevel": "short-form"
+}

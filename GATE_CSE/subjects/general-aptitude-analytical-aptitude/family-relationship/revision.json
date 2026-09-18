@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Relations se conclusion (sister, uncle, etc.).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Family Relationships se related sawal.",
+   "thinkThis": "P3_FAMILY_RELATIONSHIP_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Gender assume karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:family-relationship",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,21 @@
+{
+ "overview": "Schema vs instance, DDL/DML, levels of abstraction matching.",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Schema vs instance, DDL/DML, levels of abstraction matching.",
+ "hinglishExplanation": "Schema structure hai (kam badalta), instance current data.",
+ "formalDefinition": "Schema vs instance, DDL/DML, levels of abstraction matching.",
+ "importantProperties": [
+  "Schema = design; instance = snapshot.",
+  "DDL define; DML manipulate.",
+  "3-level architecture: physical, logical, view."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Schema aur instance confuse."
+ ],
+ "standardTechniques": [
+  "1. Match terms."
+ ],
+ "topicId": "databases:database-schema"
+}

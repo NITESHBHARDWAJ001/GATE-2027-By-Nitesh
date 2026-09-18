@@ -1,0 +1,23 @@
+{
+ "topicId": "databases:referential-integrity",
+ "subjectId": "databases",
+ "subject": "Databases",
+ "name": "Referential Integrity and Foreign Keys",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "6 PYQs extracted, 1997-2026.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  1997,
+  2005,
+  2012,
+  2017,
+  2021,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

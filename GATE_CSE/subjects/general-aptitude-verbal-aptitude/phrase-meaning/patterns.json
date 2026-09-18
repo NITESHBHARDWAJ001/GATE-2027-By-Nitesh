@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_PHRASE_MEANING_01",
+  "name": "Phrase and Idiom Meaning (PYQ type)",
+  "recognitionClueHinglish": "Phrase and Idiom Meaning se related sawal.",
+  "whatShouldComeToMind": [
+   "Idiom/phrase ka closest meaning."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Context."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.10.1",
+   "11.10.2",
+   "11.10.3",
+   "11.10.4",
+   "11.10.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Literal meaning."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

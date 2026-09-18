@@ -1,0 +1,25 @@
+{
+ "overview": "Ethernet CSMA/CD basics, maximum cable length, switches/routers hops, frame checksum.",
+ "whyItMatters": "7 PYQs extracted (2004-2024); P2 topic.",
+ "coreConcept": "Minimum frame size >= 2 x propagation delay x bandwidth (collision detect ke liye).",
+ "hinglishExplanation": "Max cable length = (frame size / bandwidth) x speed / 2. Ethernet frame me CRC, IP header me checksum. Switch/routers ke beech har hop par naya frame.",
+ "formalDefinition": "Minimum frame size >= 2 x propagation delay x bandwidth (collision detect ke liye).",
+ "importantProperties": [
+  "Min frame time >= 2 Tp.",
+  "Max length d = Tt x v / 2.",
+  "Ethernet CRC checksum; IP header checksum.",
+  "Switch learns MAC addresses.",
+  "Binary exponential backoff."
+ ],
+ "formulas": {
+  "maxLen": "Tt x v / 2"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "2 se divide bhoolna."
+ ],
+ "standardTechniques": [
+  "Tt = frame/bandwidth."
+ ],
+ "topicId": "computer-networks:ethernet"
+}

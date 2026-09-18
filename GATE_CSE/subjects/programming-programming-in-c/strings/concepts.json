@@ -1,0 +1,21 @@
+{
+ "overview": "Null-terminated char arrays, pointer copy, strlen.",
+ "whyItMatters": "2 PYQs extracted (2004-2025); P3 topic.",
+ "coreConcept": "Null-terminated char arrays, pointer copy, strlen.",
+ "hinglishExplanation": "String end '\\0' se.",
+ "formalDefinition": "Null-terminated char arrays, pointer copy, strlen.",
+ "importantProperties": [
+  "strlen excludes '\\0'.",
+  "Pointer increment.",
+  "Copy loops."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Null terminator bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Trace pointers."
+ ],
+ "topicId": "programming-programming-in-c:strings"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "DAG par longest/shortest path, path products; topological order me DP.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Directed Acyclic Graph Algorithms se related sawal.",
+   "thinkThis": "P3_DIRECTED_ACYCLIC_GRAPH_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Dijkstra chala dena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:directed-acyclic-graph",
+ "revisionLevel": "short-form"
+}

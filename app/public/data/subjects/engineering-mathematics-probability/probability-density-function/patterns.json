@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_PROBABILITY_DENSITY_FUNC_01",
+  "name": "PDF-based Probability (PYQ type)",
+  "recognitionClueHinglish": "PDF-based Probability se related sawal.",
+  "whatShouldComeToMind": [
+   "Sequential modules probabilities multiply/add."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Stages."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.14.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Independence."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

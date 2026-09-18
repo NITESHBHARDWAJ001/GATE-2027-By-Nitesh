@@ -1,0 +1,44 @@
+{
+ "overview": "Counting principles: permutation, combination, distribution of objects, lattice paths, recurrences, derangements, inclusion-exclusion, binary strings aur matrices/structures ki counting.",
+ "whyItMatters": "18 PYQs, 1990-2026; NAT counting aur recurrence based sawal recent saalon me.",
+ "coreConcept": "Counting = multiplication principle (steps) + addition principle (cases) + complement/inclusion-exclusion. Order matter kare to permutation, warna combination.",
+ "hinglishExplanation": "Pehle socho: order matter karta hai? Repetition allowed hai? Objects identical hain ya distinct? Phir formula chuno. Complicated conditions ke liye complement (total - bad) ya recurrence banao jaise f(n) = f(n-1) + f(n-2).",
+ "formalDefinition": "nCr = n!/(r!(n-r)!); nPr = n!/(n-r)!.",
+ "importantProperties": [
+  "Arrangements of n objects with repeats: n!/(n1! n2! ...).",
+  "Identical objects into distinct boxes: C(n+k-1, k-1).",
+  "Distinct objects into distinct boxes: k^n.",
+  "Lattice path (0,0)->(m,n): C(m+n, m).",
+  "Derangements D_n = n!(1 - 1/1! + 1/2! - ...); D_n = (n-1)(D_{n-1}+D_{n-2}).",
+  "Substrings of a string of length n: n(n+1)/2 (distinct positions).",
+  "Balanced-prefix binary strings: Catalan C(2n, n)/(n+1).",
+  "Inclusion-exclusion: |A u B| = |A| + |B| - |A n B|.",
+  "Binary string with no two consecutive 1s: Fibonacci recurrence.",
+  "Even-parity matrices: free choice of (n-1) x (n-1) submatrix: 2^((n-1)^2)."
+ ],
+ "formulas": {
+  "nCr": "n!/(r!(n-r)!)",
+  "stars": "C(n+k-1, k-1)",
+  "path": "C(m+n, m)",
+  "catalan": "C(2n,n)/(n+1)",
+  "derange": "D_n = (n-1)(D_{n-1}+D_{n-2})",
+  "multiset": "n!/(n1! n2! ...)"
+ },
+ "keyPropertiesAndIdentities": [
+  "C(n,r) = C(n,n-r)",
+  "sum C(n,r) = 2^n"
+ ],
+ "commonPitfalls": [
+  "Identical vs distinct objects confuse.",
+  "Overcounting symmetric arrangements.",
+  "Leading-zero/first-digit constraints (digits problems).",
+  "Recurrence base case galat."
+ ],
+ "standardTechniques": [
+  "Slot method for digit problems (constrained position pehle).",
+  "Complement counting.",
+  "Recurrence + base cases.",
+  "Stars and bars."
+ ],
+ "topicId": "dm-combinatory"
+}

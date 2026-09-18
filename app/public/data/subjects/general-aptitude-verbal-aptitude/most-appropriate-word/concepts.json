@@ -1,0 +1,29 @@
+{
+ "overview": "Sentence completion, analogy, word intensity order, prepositions/pronouns, aur idiom/phrasal usage. Yeh vocabulary + context ka test hai.",
+ "whyItMatters": "26 PYQs, 2010-2025; General Aptitude me har saal 1-2 verbal sawal.",
+ "coreConcept": "Sentence ka tone (positive/negative), contrast words (despite, but) aur grammar (subject-verb, preposition) se sahi word chuno.",
+ "hinglishExplanation": "Pehle blank ke aage-peeche ke clues padho: kya sentence contrast dikha raha hai (despite, although) ya reason (because)? Phir options me se grammar aur meaning dono match karo. Analogy me pehle dono words ka relation batao (synonym, intensity, part-whole).",
+ "formalDefinition": "N/A (verbal reasoning).",
+ "importantProperties": [
+  "Contrast markers: despite, although, but, however -> blank opposite meaning maangta hai.",
+  "Cause markers: because, since, therefore -> same direction meaning.",
+  "Analogy relation pehle likho: synonym, antonym, degree, tool-user, place-person.",
+  "Intensity order: low -> medium -> high (e.g., walk, jog, sprint).",
+  "Commonly confused words: fair/fare, beside/besides, nearly/utterly.",
+  "Subject-verb agreement aur phrasal verbs (break down, revolve around) dekho.",
+  "Elimination: pehle grammar galat options hatao."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Sirf familiar word chun lena bina context.",
+  "Grammar (preposition/verb form) ignore karna.",
+  "Analogy me relation ulta lena."
+ ],
+ "standardTechniques": [
+  "Blank ka part of speech socho.",
+  "Context clue underline karo.",
+  "Elimination + sentence me daalkar padho."
+ ],
+ "topicId": "ga-verbal-most-appropriate-word"
+}

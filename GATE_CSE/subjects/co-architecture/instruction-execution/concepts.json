@@ -1,0 +1,24 @@
+{
+ "overview": "Fetch-decode-execute, branch offsets, flags, prefetch; execution time from instruction mix.",
+ "whyItMatters": "7 PYQs extracted (1990-2025); P2 topic.",
+ "coreConcept": "Execution time = sum(count x cycles) / frequency.",
+ "hinglishExplanation": "PC-relative branch: target = PC(next) + offset; instruction length ka dhyan. Instruction mix me weighted average CPI se time.",
+ "formalDefinition": "Execution time = sum(count x cycles) / frequency.",
+ "importantProperties": [
+  "PC next instruction ko point karta hai.",
+  "Branch offset = (target - (PC+len))/len.",
+  "CPI weighted average.",
+  "Prefetch buffer overlap se speed up."
+ ],
+ "formulas": {
+  "time": "instructions x CPI / f"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "PC value fetch ke baad."
+ ],
+ "standardTechniques": [
+  "Instruction mix table."
+ ],
+ "topicId": "co-architecture:instruction-execution"
+}

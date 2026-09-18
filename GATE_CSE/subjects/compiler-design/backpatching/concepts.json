@@ -1,0 +1,21 @@
+{
+ "overview": "Jump targets baad me fill karna; truelist/falselist.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Jump targets baad me fill karna; truelist/falselist.",
+ "hinglishExplanation": "Boolean expressions ke jumps ke incomplete targets lists me rakhkar baad me patch.",
+ "formalDefinition": "Jump targets baad me fill karna; truelist/falselist.",
+ "importantProperties": [
+  "Truelist/falselist.",
+  "Single pass me code generation."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Backpatching ko two-pass maan lena."
+ ],
+ "standardTechniques": [
+  "1. Lists.",
+  "2. Patch."
+ ],
+ "topicId": "compiler-design:backpatching"
+}

@@ -1,0 +1,28 @@
+{
+  "topicId": "ds-stack",
+  "revisionLevel": "short-form",
+  "coreIdea": "LIFO. PUSH/POP both O(1). Not every output permutation is achievable — only Catalan-number-many. Auxiliary stack trick for O(1) MIN/MAX.",
+  "mustRememberFormulas": [
+    "Postfix eval: operand→push, operator→pop 2 (watch order for -,/), compute, push result",
+    "Valid pop-sequences for n pushed elements = Catalan number C(n)",
+    "231-pattern in output = NOT achievable via stack",
+    "Two stacks in one array: grow from opposite ends (space-efficient)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "infix/postfix conversion or postfix evaluation asked", "thinkThis": "STACK_EXPR_CONVERT_01"},
+    {"seeThis": "sequence of push/pop ops or stack-based code, asked for output", "thinkThis": "STACK_SEQUENCE_TRACE_02"},
+    {"seeThis": "'which permutations are achievable' via stack", "thinkThis": "STACK_VALID_PERMUTATION_03"},
+    {"seeThis": "'best DS for X' or 'add O(1) MIN/MAX operation'", "thinkThis": "STACK_APPLICATION_CONCEPT_04"},
+    {"seeThis": "two stacks in one array, or queue-via-stack design", "thinkThis": "STACK_IMPLEMENTATION_DESIGN_05"}
+  ],
+  "commonTrapsQuickList": [
+    "Not every permutation is stack-achievable — check for the 231 pattern",
+    "Non-commutative postfix operators (-,/): pop order matters, second-popped is the left operand",
+    "Two stacks: opposite-ends-of-array growth beats a fixed 50/50 split",
+    "O(1) MIN/MAX needs an auxiliary tracking stack, not re-scanning"
+  ],
+  "highYieldPyqLessons": [
+    "Sequence-tracing (8/19) is the dominant skill — always draw the stack explicitly, never trust mental tracking beyond 2-3 ops.",
+    "2021 onward, GATE combines stack with queue or code-based implementations in the same question — practice multi-structure tracing."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+ "overview": "Bridge MAC learn karta hai, spanning tree loops rokta hai; router IP layer.",
+ "whyItMatters": "3 PYQs extracted (2004-2006); P3 topic.",
+ "coreConcept": "Bridge MAC learn karta hai, spanning tree loops rokta hai; router IP layer.",
+ "hinglishExplanation": "Bridge data link layer; broadcast forward karta hai.",
+ "formalDefinition": "Bridge MAC learn karta hai, spanning tree loops rokta hai; router IP layer.",
+ "importantProperties": [
+  "Bridge learns MAC addresses.",
+  "Spanning tree loop-free.",
+  "Router network layer; bridges broadcast domain nahi todte."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Bridge aur router same maan lena."
+ ],
+ "standardTechniques": [
+  "1. Layer."
+ ],
+ "topicId": "computer-networks:bridges"
+}

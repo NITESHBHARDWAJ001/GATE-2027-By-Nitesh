@@ -1,0 +1,21 @@
+{
+ "overview": "Letters ke shifts se word code.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Letters ke shifts se word code.",
+ "hinglishExplanation": "Letter values (A=1..Z=26) par shift.",
+ "formalDefinition": "Letters ke shifts se word code.",
+ "importantProperties": [
+  "Fixed shifts ya reverse alphabets.",
+  "Position-wise shift."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Shift direction."
+ ],
+ "standardTechniques": [
+  "1. Letter positions.",
+  "2. Shift."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:coding-decoding"
+}

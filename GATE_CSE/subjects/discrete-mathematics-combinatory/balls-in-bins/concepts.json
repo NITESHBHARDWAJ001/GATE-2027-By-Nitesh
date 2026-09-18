@@ -1,0 +1,23 @@
+{
+ "overview": "Identical balls distinct bins: C(n+k-1,k-1); binary strings no two adjacent ones.",
+ "whyItMatters": "6 PYQs extracted (1999-2022); P3 topic.",
+ "coreConcept": "Identical balls distinct bins: C(n+k-1,k-1); binary strings no two adjacent ones.",
+ "hinglishExplanation": "Stars and bars aur Fibonacci counting.",
+ "formalDefinition": "Identical balls distinct bins: C(n+k-1,k-1); binary strings no two adjacent ones.",
+ "importantProperties": [
+  "Identical n into k bins: C(n+k-1,k-1).",
+  "Distinct n into k bins: k^n.",
+  "Binary strings no two adjacent 1: Fibonacci(n+2).",
+  "Compositions of n: 2^(n-1)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Identical/distinct confuse."
+ ],
+ "standardTechniques": [
+  "1. Type.",
+  "2. Formula."
+ ],
+ "topicId": "discrete-mathematics-combinatory:balls-in-bins"
+}

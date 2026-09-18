@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:wrap-around-time",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-WRAP-A-01",
+   "patternId": "P3_WRAP_AROUND_TIME_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "32-bit seq, 8 Gbps?",
+   "solutionApproach": "2^32 / 10^9 B/s.",
+   "answer": "~4.3 s"
+  }
+ ]
+}

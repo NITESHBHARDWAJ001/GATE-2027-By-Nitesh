@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Struct layout, padding, pointer to struct, linked nodes, sizeof.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Structures in C se related sawal.",
+   "thinkThis": "P3_STRUCTURE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Padding ignore."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:structure",
+ "revisionLevel": "short-form"
+}

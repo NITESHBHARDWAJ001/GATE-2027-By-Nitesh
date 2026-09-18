@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "discrete-mathematics-graph-theory__2.1.1",
+  "localId": "2.1.1",
+  "subjectId": "discrete-mathematics-graph-theory",
+  "subject": "Discrete Mathematics: Graph Theory",
+  "topicSlug": "counting",
+  "topic": "Counting",
+  "year": 2001,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "2.15",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "How many undirected graphs (not necessarily connected) can be constructed out of a given set of vertices? A.                                 B.                      C.                      D.",
+  "tagsRaw": "gatecse-2001 graph-theory  normal  counting",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 38
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COUNTING_01"
+ },
+ {
+  "pyqId": "discrete-mathematics-graph-theory__2.1.2",
+  "localId": "2.1.2",
+  "subjectId": "discrete-mathematics-graph-theory",
+  "subject": "Discrete Mathematics: Graph Theory",
+  "topicSlug": "counting",
+  "topic": "Counting",
+  "year": 2004,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "79",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "How many graphs on labeled vertices exist which have at least                    edges ? A. B. C. D.",
+  "tagsRaw": "gatecse-2004 graph-theory combinatory normal counting",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 38
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COUNTING_01"
+ },
+ {
+  "pyqId": "discrete-mathematics-graph-theory__2.1.3",
+  "localId": "2.1.3",
+  "subjectId": "discrete-mathematics-graph-theory",
+  "subject": "Discrete Mathematics: Graph Theory",
+  "topicSlug": "counting",
+  "topic": "Counting",
+  "year": 2012,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "38",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "X",
+  "answerVerified": true,
+  "questionTextRaw": "Let be a complete undirected graph on vertices. If vertices of are labeled, then the number of distinct cycles of length in is equal to A.                                 B.                      C.                      D.",
+  "tagsRaw": "gatecse-2012 graph-theory  normal  marks-to-all  counting",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 38
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_COUNTING_01"
+ }
+]

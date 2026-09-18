@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P4_PRIMS_ALGORITHM_01",
+  "name": "Prim's Algorithm (PYQ type)",
+  "recognitionClueHinglish": "Prim's Algorithm se related sawal.",
+  "whatShouldComeToMind": [
+   "MST greedy: cut ki lightest edge chuno; edges ka sequence poochha jaata hai."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Start.",
+   "2. Min crossing edge."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.33.1",
+   "1.33.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Kruskal ki sequence maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:natural-join",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NATURA-01",
+   "patternId": "P3_NATURAL_JOIN_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "R(A,B), S(B,C) me B key of S, |R|=10. Max |R join S|?",
+   "solutionApproach": "FK-PK.",
+   "answer": "10"
+  }
+ ]
+}

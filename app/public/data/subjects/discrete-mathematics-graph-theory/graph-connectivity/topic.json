@@ -1,0 +1,21 @@
+{
+  "topicId": "dm-graph-theory-graph-connectivity",
+  "subjectId": "discrete-mathematics-graph-theory",
+  "subject": "Discrete Mathematics: Graph Theory",
+  "name": "Graph Connectivity",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "40 PYQs extracted — highest-PYQ topic in Graph Theory, tested 1987-2024 continuously. Last topic in study-order Track 2, reusing Graph Search + MST algorithmic foundations from a Discrete-Math structural-properties angle.",
+  "pyqCountExtracted": 40,
+  "yearsCovered": [1987,1988,1990,1991,1992,1993,1994,1995,1999,2002,2003,2004,2005,2006,2007,2008,2013,2014,2015,2019,2021,2022,2024],
+  "prerequisites": [
+    {"topic": "Set Theory", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "Graphs are defined via vertex/edge sets; subset-based graph constructions need set fluency."},
+    {"topic": "Graph Search", "subjectId": "algorithms", "why": "Connectivity concepts (components, articulation points) are directly computed/verified via DFS."}
+  ],
+  "unlocks": [],
+  "crossLinks": [
+    {"subjectId": "algorithms", "topic": "Minimum Spanning Tree", "note": "Spanning tree counting and uniqueness conditions here directly reuse MST's cut-property reasoning."}
+  ],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

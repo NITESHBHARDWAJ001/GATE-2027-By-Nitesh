@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Superkey = key ka koi superset; count 2^(n-k) (single key).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Super Keys se related sawal.",
+   "thinkThis": "P3_SUPER_KEY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Multiple keys me double count."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:super-key",
+ "revisionLevel": "short-form"
+}

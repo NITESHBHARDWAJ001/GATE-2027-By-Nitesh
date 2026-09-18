@@ -1,0 +1,60 @@
+[
+ {
+  "patternId": "GA_PROPERTIES_01",
+  "name": "Graph Properties / Statements (MST, cut, DAG, cycles)",
+  "recognitionClueHinglish": "True/false: MST/shortest path/topological facts.",
+  "whatShouldComeToMind": [
+   "Cut/cycle property, DAG."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Statement ko property se check."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.17.1",
+   "1.17.3",
+   "1.17.4",
+   "1.17.6",
+   "1.17.7",
+   "1.17.8",
+   "1.17.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Distinct weights assumption."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "GA_COMPLEXITY_02",
+  "name": "Complexity / Sink Detection / Algorithm Matching",
+  "recognitionClueHinglish": "Algorithm-complexity table, sink in matrix.",
+  "whatShouldComeToMind": [
+   "Complexities."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Complexity yaad.",
+   "2. Matrix trick."
+  ],
+  "formulasUsed": [
+   "bfsdfs"
+  ],
+  "pyqExamples": [
+   "1.17.2",
+   "1.17.9",
+   "1.17.10",
+   "1.17.11"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Matrix rows ka O(V^2)."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

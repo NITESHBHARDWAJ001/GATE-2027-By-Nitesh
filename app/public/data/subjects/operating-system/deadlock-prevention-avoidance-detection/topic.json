@@ -1,0 +1,21 @@
+{
+ "topicId": "operating-system:deadlock-prevention-avoidance-detection",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Deadlock Prevention/Avoidance/Detection",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 2004-2026.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  2004,
+  2018,
+  2021,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

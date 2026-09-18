@@ -1,0 +1,19 @@
+{
+ "topicId": "discrete-mathematics-combinatory:modular-arithmetic",
+ "subjectId": "discrete-mathematics-combinatory",
+ "subject": "Discrete Mathematics - Combinatory",
+ "name": "Modular Arithmetic",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "2 PYQs extracted, 2016-2019.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2016,
+  2019
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

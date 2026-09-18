@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "programming-programming-in-c__5.10.1",
+  "localId": "5.10.1",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "programming-constructs",
+  "topic": "Programming Constructs",
+  "year": 1999,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "2.5",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Given the programming constructs i. assignment ii. for loops where the loop parameter cannot be changed within the loop iii. if-then-else iv. forward go to v. arbitrary go to vi. non-recursive procedure call vii. recursive procedure/function call viii. repeat loop, which constructs will you not include in a programming language such that it should be possible to program the terminates (i.e., halting) function in the same programming language A.                                                                                  B. C.                                                                                  D.",
+  "tagsRaw": "gate1999 programming normal programming-constructs",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 275
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_PROGRAMMING_CONSTRUCTS_01"
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:fixed-point-representation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-FIXED--01",
+   "patternId": "P3_FIXED_POINT_REPRESENTATI_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "8-bit, 3 fraction bits: max?",
+   "solutionApproach": "255/8.",
+   "answer": "31.875"
+  }
+ ]
+}

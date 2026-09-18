@@ -1,0 +1,18 @@
+{
+ "coreIdea": "MST greedy: cut ki lightest edge chuno; edges ka sequence poochha jaata hai.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Prim's Algorithm se related sawal.",
+   "thinkThis": "P4_PRIMS_ALGORITHM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Kruskal ki sequence maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:prims-algorithm",
+ "revisionLevel": "short-form"
+}

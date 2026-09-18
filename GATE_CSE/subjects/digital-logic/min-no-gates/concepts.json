@@ -1,0 +1,22 @@
+{
+ "overview": "Function ko minimum gates (NAND/NOR/given) se implement.",
+ "whyItMatters": "6 PYQs extracted (1995-2017); P3 topic.",
+ "coreConcept": "Function ko minimum gates (NAND/NOR/given) se implement.",
+ "hinglishExplanation": "Boolean simplification + De Morgan se NAND/NOR conversion.",
+ "formalDefinition": "Function ko minimum gates (NAND/NOR/given) se implement.",
+ "importantProperties": [
+  "NAND-only: SOP ko double negate.",
+  "Simplify pehle.",
+  "Inverter bhi gate count."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Inverters ko count na karna."
+ ],
+ "standardTechniques": [
+  "1. Minimize.",
+  "2. Convert."
+ ],
+ "topicId": "digital-logic:min-no-gates"
+}

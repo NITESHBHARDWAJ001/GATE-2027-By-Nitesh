@@ -1,0 +1,24 @@
+{
+ "topicId": "computer-networks:csma-cd",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CSMA-C-01",
+   "patternId": "CSMA_MINFRAME_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "1 Gbps, one-way delay 25 us. Min frame?",
+   "solutionApproach": "2*25us*1e9.",
+   "answer": "50,000 bits"
+  },
+  {
+   "practiceId": "AI-CSMA-CD-X02",
+   "patternId": "CSMA_MINFRAME_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "10 Mbps, 2 km cable, speed 2e8 m/s: min frame (bits)?",
+   "solutionApproach": "Tp=10us; 2Tp=20us; *1e7.",
+   "answer": "200 bits"
+  }
+ ]
+}

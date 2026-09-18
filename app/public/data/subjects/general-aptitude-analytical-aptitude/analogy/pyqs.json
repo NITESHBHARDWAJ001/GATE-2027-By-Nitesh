@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.2.1",
+  "localId": "8.2.1",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "analogy",
+  "topic": "Analogy",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Water : : Food : Choose the and combination from the options below to form a meaningful analogy. A. = Thirst; = Hunger                                                          B. = Drink; = Hunger C. = Thirst; = Satiated                                                        D. = Wet; = Critic",
+  "tagsRaw": "gatecse-2026-set2 analytical-aptitude analogy two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 237
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ANALOGY_01"
+ }
+]

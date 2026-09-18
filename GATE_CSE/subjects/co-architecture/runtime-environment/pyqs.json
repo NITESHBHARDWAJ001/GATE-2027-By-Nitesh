@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "co-architecture__1.25.1",
+  "localId": "1.25.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "runtime-environment",
+  "topic": "Runtime Environment",
+  "year": 2001,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1.10, UGCNET-Dec2012-III: 36",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "X",
+  "answerVerified": true,
+  "questionTextRaw": "Suppose a processor does not have any stack pointer registers, which of the following statements is true? A. It cannot have subroutine call instruction B. It cannot have nested subroutines call C. Interrupts are not possible D. All subroutine calls and interrupts are possible",
+  "tagsRaw": "gatecse-2001 co-and-architecture normal ugcnetcse-dec2012-paper3 runtime-environment",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 89
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_RUNTIME_ENVIRONMENT_01"
+ },
+ {
+  "pyqId": "co-architecture__1.25.2",
+  "localId": "1.25.2",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "runtime-environment",
+  "topic": "Runtime Environment",
+  "year": 2008,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "37, ISRO2009-38",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "The use of multiple register windows with overlap causes a reduction in the number of memory accesses for: I. Function locals and parameters II. Register saves and restores III. Instruction fetches A. only                                   B. only                                  C. only    D. and Speedup (6)",
+  "tagsRaw": "gatecse-2008 co-and-architecture  normal  isro2009  runtime-environment",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 89
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_RUNTIME_ENVIRONMENT_01"
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "topicId": "engineering-mathematics-calculus:polynomials",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-POLYNO-01",
+   "patternId": "P4_POLYNOMIALS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Odd degree real polynomial: real root?",
+   "solutionApproach": "Sign change.",
+   "answer": "Haan"
+  }
+ ]
+}

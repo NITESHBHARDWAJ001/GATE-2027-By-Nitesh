@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:linker",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LINKER-01",
+   "patternId": "P3_LINKER_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "External reference kaun resolve karta hai?",
+   "solutionApproach": "Linker.",
+   "answer": "Linker"
+  }
+ ]
+}

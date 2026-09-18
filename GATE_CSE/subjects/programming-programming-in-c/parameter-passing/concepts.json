@@ -1,0 +1,23 @@
+{
+ "overview": "Call by value, reference (pointers), call by name, macros; swap examples, pointers to pointers.",
+ "whyItMatters": "12 PYQs extracted (1992-2018); P2 topic.",
+ "coreConcept": "C me sirf call-by-value; pointer pass karke reference jaisa effect.",
+ "hinglishExplanation": "Function ko argument ki copy milti hai; pointer se original change ho sakta hai, par pointer khud copy hai (usko swap karne se caller par asar nahi). Call-by-name (macro jaisa) me expression textual substitute hota hai.",
+ "formalDefinition": "C me sirf call-by-value; pointer pass karke reference jaisa effect.",
+ "importantProperties": [
+  "C: call by value.",
+  "Pointer swap local copy, caller pe asar nahi.",
+  "Pointer to pointer se pointer change hota hai.",
+  "Call by name: expression re-evaluate.",
+  "Macro swap tmp variable clash/side effect."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Pointer copy ko reference samajhna."
+ ],
+ "standardTechniques": [
+  "Stack frame draw."
+ ],
+ "topicId": "programming-programming-in-c:parameter-passing"
+}

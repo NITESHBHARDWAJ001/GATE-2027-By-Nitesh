@@ -1,0 +1,42 @@
+{
+  "topicId": "algorithms-recurrence-relation",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-RR-01",
+      "patternId": "RR_SOLVE_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Solve T(n) = 3T(n/2) + n using Master Theorem.",
+      "solutionApproach": "a=3, b=2, f(n)=n. n^(log_2 3) ≈ n^1.585. f(n)=n grows slower than n^1.585 → Case 1. T(n)=Θ(n^(log_2 3)).",
+      "answer": "T(n) = Θ(n^log₂3) ≈ Θ(n^1.585)"
+    },
+    {
+      "practiceId": "AI-RR-02",
+      "patternId": "RR_SOLVE_01",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Solve T(n) = 2T(n/2) + n log n.",
+      "solutionApproach": "a=2, b=2, n^(log_2 2)=n^1=n. f(n)=n log n is asymptotically LARGER than n but not polynomially larger (only by a log factor) — this is the boundary case NOT covered by basic Master Theorem. Use recursion tree: at depth k, work = n log(n/2^k), summed over log n levels gives T(n)=Θ(n (log n)²).",
+      "answer": "T(n) = Θ(n (log n)²) — classic 'extended Master Theorem' boundary case."
+    },
+    {
+      "practiceId": "AI-RR-03",
+      "patternId": "RR_SETUP_FROM_CODE_02",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "int f(int a[], int n) { if(n<=1) return a[0]; int m = f(a,n/2), rest_work; for(int i=0;i<n;i++) rest_work=i; return m + rest_work; }  Set up the recurrence for this function's time complexity.",
+      "solutionApproach": "One recursive call on n/2, plus O(n) loop work. T(n) = T(n/2) + O(n).",
+      "answer": "T(n) = T(n/2) + O(n)  → solves to Θ(n) by Master Theorem Case 3."
+    },
+    {
+      "practiceId": "AI-RR-04",
+      "patternId": "RR_SETUP_FROM_CODE_02",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "void h(int n) { if(n<=0) return; h(n-1); h(n-2); h(n-2); }  Set up the recurrence for the number of calls to h().",
+      "solutionApproach": "One call on n-1, two calls on n-2, plus 1 for the current call. C(n) = C(n-1) + 2C(n-2) + 1.",
+      "answer": "C(n) = C(n-1) + 2C(n-2) + 1 — exponential growth (faster than plain Fibonacci due to the extra n-2 call)."
+    }
+  ]
+}

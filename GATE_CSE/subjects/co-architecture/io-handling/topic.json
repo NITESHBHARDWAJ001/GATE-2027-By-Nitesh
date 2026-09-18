@@ -1,0 +1,23 @@
+{
+ "topicId": "co-architecture:io-handling",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "I/O Handling (Programmed, Interrupt, DMA, Daisy Chain)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "8 PYQs extracted, 1987-2011.",
+ "pyqCountExtracted": 8,
+ "yearsCovered": [
+  1987,
+  1990,
+  1996,
+  1997,
+  2008,
+  2011
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

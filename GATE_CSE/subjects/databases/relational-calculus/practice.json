@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:relational-calculus",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RELATI-01",
+   "patternId": "P3_RELATIONAL_CALCULUS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "{t | not r(t)} safe hai?",
+   "solutionApproach": "Infinite tuples.",
+   "answer": "Nahi"
+  }
+ ]
+}

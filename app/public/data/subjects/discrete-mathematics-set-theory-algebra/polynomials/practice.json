@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-set-theory-algebra:polynomials",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-POLYNO-01",
+   "patternId": "P3_POLYNOMIALS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Degree 3 ke kitne roots max?",
+   "solutionApproach": "3.",
+   "answer": "3"
+  }
+ ]
+}

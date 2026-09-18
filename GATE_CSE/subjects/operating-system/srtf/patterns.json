@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_SRTF_01",
+  "name": "SRTF Scheduling (PYQ type)",
+  "recognitionClueHinglish": "SRTF Scheduling se related sawal.",
+  "whatShouldComeToMind": [
+   "Preemptive shortest job first: arrival par remaining time compare."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har event par remaining time."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.29.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Remaining time ki jagah burst compare."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

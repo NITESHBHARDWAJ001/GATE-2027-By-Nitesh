@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_MENSURATION_01",
+  "name": "Mensuration (PYQ type)",
+  "recognitionClueHinglish": "Mensuration se related sawal.",
+  "whatShouldComeToMind": [
+   "Surface area and volume of solids."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Shape."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.31.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "r vs d."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

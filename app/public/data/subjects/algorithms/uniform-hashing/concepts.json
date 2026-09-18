@@ -1,0 +1,23 @@
+{
+ "overview": "Har key har slot me equally likely; collision probabilities.",
+ "whyItMatters": "1 PYQs extracted (2022-2022); P3 topic.",
+ "coreConcept": "Har key har slot me equally likely; collision probabilities.",
+ "hinglishExplanation": "P(do keys same slot)=1/m; expected collisions pairs = C(n,2)/m.",
+ "formalDefinition": "Har key har slot me equally likely; collision probabilities.",
+ "importantProperties": [
+  "P(collision of 2 keys)=1/m.",
+  "Expected chain length n/m.",
+  "Expected colliding pairs C(n,2)/m.",
+  "Independent hash functions ke composed probabilities."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Independence assume karna jab nahi."
+ ],
+ "standardTechniques": [
+  "1. p=1/m.",
+  "2. Linearity."
+ ],
+ "topicId": "algorithms:uniform-hashing"
+}

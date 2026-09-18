@@ -1,0 +1,19 @@
+{
+ "topicId": "algorithms:selection-sort",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Selection Sort",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 2009-2013.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  2009,
+  2013
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

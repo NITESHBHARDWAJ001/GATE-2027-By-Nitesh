@@ -1,0 +1,24 @@
+{
+ "topicId": "computer-networks:application-layer-protocols",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-APPLIC-01",
+   "patternId": "APP_PROTO_CONCEPT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Protocol pair to send then retrieve email?",
+   "solutionApproach": "SMTP, IMAP/POP3.",
+   "answer": "SMTP, POP3"
+  },
+  {
+   "practiceId": "AI-APPLICAT-X02",
+   "patternId": "APP_PROTO_CONCEPT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Protocol to retrieve mail keeping it on server?",
+   "solutionApproach": "IMAP.",
+   "answer": "IMAP"
+  }
+ ]
+}

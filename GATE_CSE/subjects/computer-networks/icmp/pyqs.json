@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "computer-networks__2.18.1",
+  "localId": "2.18.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "icmp",
+  "topic": "Icmp",
+  "year": 2005,
+  "examStream": "IT",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "26",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Traceroute reports a possible route that is taken by packets moving from some host to some other host . Which of the following options represents the technique used by traceroute to identify these hosts: A. By progressively querying routers about the next router on the path to using                       packets, starting with the first router B. By requiring each router to append the address to the                                          packet as it is forwarded to . The list of all routers en-route to is returned by in an                                      reply packet C. By ensuring that an                   reply packet is returned to by each router en-route to in the ascending order of their hop distance from D. By locally computing the shortest path from to",
+  "tagsRaw": "gateit-2005 computer-networks icmp application-layer-protocols normal",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 135
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_ICMP_01"
+ }
+]

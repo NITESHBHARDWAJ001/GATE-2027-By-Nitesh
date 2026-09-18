@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "computer-networks__2.25.1",
+  "localId": "2.25.1",
+  "subjectId": "computer-networks",
+  "subject": "Computer Networks",
+  "topicSlug": "osi-model",
+  "topic": "Osi Model",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Identify the ONE CORRECT matching between the OSI layers and their corresponding functionalities as shown. A.                                                                                B. C.                                                                                D.",
+  "tagsRaw": "gatecse2025-set1 computer-networks osi-model easy one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 142
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_OSI_MODEL_01"
+ }
+]

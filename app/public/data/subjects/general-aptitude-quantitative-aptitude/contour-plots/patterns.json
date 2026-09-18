@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_CONTOUR_PLOTS_01",
+  "name": "Contour Plots (PYQ type)",
+  "recognitionClueHinglish": "Contour Plots se related sawal.",
+  "whatShouldComeToMind": [
+   "Level curves se function behaviour."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Levels."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.16.1",
+   "9.16.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Elevation confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

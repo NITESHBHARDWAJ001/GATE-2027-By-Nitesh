@@ -1,0 +1,27 @@
+{
+ "topicId": "programming-programming-in-c:parameter-passing",
+ "subjectId": "programming-programming-in-c",
+ "subject": "Programming & DS - Programming in C",
+ "name": "Parameter Passing",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "12 PYQs extracted, 1992-2018.",
+ "pyqCountExtracted": 12,
+ "yearsCovered": [
+  1992,
+  1994,
+  2001,
+  2003,
+  2006,
+  2008,
+  2010,
+  2013,
+  2016,
+  2018
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:stall",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-STALL-01",
+   "patternId": "P3_STALL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "20% instr 2 stall, base CPI 1: CPI?",
+   "solutionApproach": "1+0.4.",
+   "answer": "1.4"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "IP se MAC mapping, broadcast request, unicast reply, local network only.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "ARP se related sawal.",
+   "thinkThis": "P3_ARP_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "ARP ko DNS samajhna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:arp",
+ "revisionLevel": "short-form"
+}

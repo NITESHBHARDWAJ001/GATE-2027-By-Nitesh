@@ -1,0 +1,25 @@
+{
+ "subjectId": "theory-of-computation",
+ "name": "Theory of Computation",
+ "sourceVolume": "volume2",
+ "sourcePdf": "filter1_volume2 (1).pdf",
+ "totalTopics": 21,
+ "totalPyqsExtracted": 293,
+ "priorityDistribution": {
+  "P1": 8,
+  "P2": 2,
+  "P3": 10,
+  "P4": 1
+ },
+ "p1Topics": [
+  "Context Free Language",
+  "Decidability",
+  "Finite Automata",
+  "Identify Class Language",
+  "Minimal State Automata",
+  "Pushdown Automata",
+  "Regular Expression",
+  "Regular Language"
+ ],
+ "processingStatus": "all_P1_topics_complete (8/8): regular-language, finite-automata, minimal-state-automata, regular-expression, context-free-language, pushdown-automata, identify-class-language, decidability"
+}

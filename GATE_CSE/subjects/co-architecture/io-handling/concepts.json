@@ -1,0 +1,23 @@
+{
+ "overview": "I/O transfer modes aur daisy-chain priority.",
+ "whyItMatters": "8 PYQs extracted (1987-2011); P3 topic.",
+ "coreConcept": "I/O transfer modes aur daisy-chain priority.",
+ "hinglishExplanation": "Programmed I/O me CPU wait; interrupt me device notify; DMA me controller memory se seedha transfer.",
+ "formalDefinition": "I/O transfer modes aur daisy-chain priority.",
+ "importantProperties": [
+  "Daisy chain: priority position se, extra lines kam.",
+  "DMA bus request CPU se higher priority pe milta hai.",
+  "Memory-mapped vs isolated I/O.",
+  "Programmed I/O me busy waiting."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "DMA aur interrupt-driven confuse."
+ ],
+ "standardTechniques": [
+  "1. Mode pehchano.",
+  "2. Property match."
+ ],
+ "topicId": "co-architecture:io-handling"
+}

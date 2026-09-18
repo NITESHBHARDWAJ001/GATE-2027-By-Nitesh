@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Recursion depth = stack space.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Space Complexity of Recursive Functions se related sawal.",
+   "thinkThis": "P4_SPACE_COMPLEXITY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Time aur space mix."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:space-complexity",
+ "revisionLevel": "short-form"
+}

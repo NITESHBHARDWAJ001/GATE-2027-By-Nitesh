@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:space-complexity",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SPACE--01",
+   "patternId": "P4_SPACE_COMPLEXITY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Linear recursion depth n space?",
+   "solutionApproach": "Stack frames.",
+   "answer": "O(n)"
+  }
+ ]
+}

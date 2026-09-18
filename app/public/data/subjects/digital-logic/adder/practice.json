@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:adder",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ADDER-01",
+   "patternId": "P3_ADDER_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "8-bit adder: full adders (ripple, first stage half)?",
+   "solutionApproach": "1 HA + 7 FA.",
+   "answer": "7 FA, 1 HA"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+[
+ {
+  "patternId": "IF_EXPAND_01",
+  "name": "Expanding Opcode Counting",
+  "recognitionClueHinglish": "Kai address-type instructions; max ya remaining instructions.",
+  "whatShouldComeToMind": [
+   "Free codes x expansion."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Level 1 free.",
+   "2. Expand."
+  ],
+  "formulasUsed": [
+   "expand"
+  ],
+  "pyqExamples": [
+   "1.18.1",
+   "1.18.2",
+   "1.18.3",
+   "1.18.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Off-by-one."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "IF_FIELD_SIZE_02",
+  "name": "Field Size / Immediate / Instruction Length",
+  "recognitionClueHinglish": "Registers, opcodes, addressing mode diye; missing field ya max immediate.",
+  "whatShouldComeToMind": [
+   "Sum of fields."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Known fields.",
+   "2. Solve."
+  ],
+  "formulasUsed": [
+   "regBits"
+  ],
+  "pyqExamples": [
+   "1.18.5",
+   "1.18.6",
+   "1.18.7",
+   "1.18.8",
+   "1.18.9",
+   "1.18.10",
+   "1.18.11"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Register class extra bit."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,22 @@
+{
+ "overview": "Throughput S = G e^(-2G), max 0.184 at G=0.5; vulnerable period 2T.",
+ "whyItMatters": "1 PYQs extracted (2021-2021); P3 topic.",
+ "coreConcept": "Throughput S = G e^(-2G), max 0.184 at G=0.5; vulnerable period 2T.",
+ "hinglishExplanation": "Pure ALOHA me vulnerable time do frame times.",
+ "formalDefinition": "Throughput S = G e^(-2G), max 0.184 at G=0.5; vulnerable period 2T.",
+ "importantProperties": [
+  "S = G e^{-2G}.",
+  "Max 18.4%.",
+  "Slotted ALOHA S = G e^{-G}, max 36.8%."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Slotted formula lagana."
+ ],
+ "standardTechniques": [
+  "1. G.",
+  "2. Formula."
+ ],
+ "topicId": "computer-networks:pure-aloha"
+}

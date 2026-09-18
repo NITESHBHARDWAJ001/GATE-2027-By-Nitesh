@@ -1,0 +1,21 @@
+{
+ "overview": "External references resolve, dynamic linking benefits.",
+ "whyItMatters": "3 PYQs extracted (1991-2004); P3 topic.",
+ "coreConcept": "External references resolve, dynamic linking benefits.",
+ "hinglishExplanation": "Link editor separate object modules ko jod kar references resolve karta hai.",
+ "formalDefinition": "External references resolve, dynamic linking benefits.",
+ "importantProperties": [
+  "Static vs dynamic linking.",
+  "Shared libraries memory bachate hain.",
+  "Undefined symbol link error."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Compiler aur linker ka kaam mix."
+ ],
+ "standardTechniques": [
+  "1. Reference kaun resolve."
+ ],
+ "topicId": "compiler-design:linker"
+}

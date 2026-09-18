@@ -1,0 +1,47 @@
+[
+  {
+    "patternId": "SOP_KMAP_MINIMIZE_01",
+    "name": "K-Map Minimization / Essential Prime Implicant Analysis",
+    "recognitionClueHinglish": "Minterms (aur don't-cares) di hain aur poocha hai minimal SOP expression kya hai, ya kitne essential prime implicants hain — is topic ka sabse bada pattern hai (16 me se 12 PYQs).",
+    "whatShouldComeToMind": ["Plot minterms and don't-cares on a K-map, find largest possible groups (powers of 2).", "Identify ESSENTIAL PIs first (minterms with only ONE possible covering group) — these MUST be in the answer.", "Cover remaining minterms with fewest additional groups."],
+    "conceptsRequired": ["K-map plotting and grouping", "Essential Prime Implicant identification"],
+    "generalSolvingApproach": ["1. Draw the K-map (size based on variable count), mark 1s and don't-cares (d).", "2. For each 1-cell, find its largest possible group(s) — powers of 2 in size, using don't-cares freely to enlarge.", "3. Identify which groups are ESSENTIAL (the ONLY group covering some specific minterm) — include all of them.", "4. Cover any still-uncovered minterms with the minimum additional (non-essential) groups.", "5. Write the final SOP: one product term per selected group, each term has (n − log2(group size)) literals."],
+    "formulasUsed": ["groupSizeRule","literalsPerGroup","essentialPIRule","dontCareUsage"],
+    "pyqExamples": ["4.26.1","4.26.2","4.26.6","4.26.7","4.26.8","4.26.9","4.26.10","4.26.11","4.26.12","4.26.13","4.26.14","4.26.15"],
+    "variationsObserved": ["Multiplexer truth-table-to-SOP conversion (select lines + data inputs → minimal SOP for the output).", "Multiple valid minimal SOPs (tie in grouping choices) — question may ask 'which of these ARE valid minimal forms' (multi-select)."],
+    "commonTraps": ["Forming invalid group sizes (not a power of 2).", "Missing an essential PI by not checking every single minterm's coverage options.", "Over-including a don't-care-only group that isn't needed to cover any actual minterm."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "SOP_INDEPENDENCE_02",
+    "name": "Function Independence from Variables",
+    "recognitionClueHinglish": "Poocha hai ek 4-variable function kitne variables se INDEPENDENT hai (ya kitne pe genuinely depend karta hai) — ye derived-property pattern hai.",
+    "whatShouldComeToMind": ["Find the minimal SOP first, check which variables appear in ZERO terms — those are the independent ones.", "Alternatively: F is independent of variable X iff F(X=0,rest) = F(X=1,rest) for ALL combinations of the rest."],
+    "conceptsRequired": ["Minimal SOP derivation (cross-link to Pattern 01)", "Variable-independence definition"],
+    "generalSolvingApproach": ["1. Derive the minimal SOP via K-map (Pattern 01's technique).", "2. Check which variables are ABSENT from every term in the minimal SOP — those are independent.", "3. Cross-verify by checking F is unchanged when flipping that variable, for a couple of test input combinations."],
+    "formulasUsed": [],
+    "pyqExamples": ["4.26.5","4.26.16"],
+    "variationsObserved": [],
+    "commonTraps": ["Concluding independence from a NON-minimal expression — always minimize first, since a redundant (non-minimal) term might falsely suggest a variable matters."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "SOP_CONCEPTUAL_03",
+    "name": "Conceptual (self-dual check, POS form, switching expression conversion)",
+    "recognitionClueHinglish": "Poocha hai function SELF-DUAL hai ya nahi, ya minimal PRODUCT-OF-SUMS form chahiye (POS, not SOP), ya kisi diagram (converter circuit) ka switching expression nikaalna hai — ye broader conceptual pattern hai.",
+    "whatShouldComeToMind": ["Self-dual test: F(x1,...,xn) = F'(x1',...,xn')? — complement ALL inputs AND check if output complements too.", "POS form: group the 0-cells (instead of 1-cells) on the K-map, each group gives a SUM term, AND them together (complementary process to SOP)."],
+    "conceptsRequired": ["Self-dual definition", "K-map-based POS derivation (dual of SOP process)"],
+    "generalSolvingApproach": ["1. For self-dual: test F against F with all inputs AND output complemented — verify equality.", "2. For POS: apply K-map grouping to the 0-cells instead of 1-cells, derive sum terms, AND them.", "3. For circuit-to-expression conversion: trace the given combinational circuit's gate logic directly to build the Boolean expression."],
+    "formulasUsed": [],
+    "pyqExamples": ["4.26.3","4.26.4"],
+    "variationsObserved": [],
+    "commonTraps": ["Confusing SOP-minimization process (group 1s) with POS-minimization (group 0s) — they're duals, don't mix up which cells to group."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

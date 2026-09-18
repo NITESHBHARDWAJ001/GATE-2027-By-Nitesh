@@ -1,0 +1,51 @@
+{
+ "topicId": "os-resource-allocation",
+ "subjectId": "operating-system",
+ "subject": "Operating System",
+ "name": "Resource Allocation",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "27 PYQs extracted, tested 1988-2022. Deadlock theory: min-resources formula, Banker's algorithm, resource allocation graphs.",
+ "pyqCountExtracted": 27,
+ "yearsCovered": [
+  1988,
+  1989,
+  1992,
+  1993,
+  1994,
+  1996,
+  1997,
+  1998,
+  2000,
+  2001,
+  2005,
+  2006,
+  2007,
+  2008,
+  2009,
+  2010,
+  2013,
+  2014,
+  2015,
+  2017,
+  2019,
+  2022
+ ],
+ "prerequisites": [
+  {
+   "topic": "Process Synchronization",
+   "subjectId": "operating-system",
+   "why": "Deadlock arises from locks/semaphores used incorrectly."
+  }
+ ],
+ "unlocks": [
+  {
+   "topic": "Disk Scheduling",
+   "subjectId": "operating-system",
+   "why": "Next OS topic in study order."
+  }
+ ],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,25 @@
+{
+ "overview": "Common subexpression, loop-invariant motion, strength reduction, dead code, basic blocks, live variables.",
+ "whyItMatters": "8 PYQs extracted (2006-2026); P2 topic.",
+ "coreConcept": "Optimization semantics preserve karte hue code ko fast/small banata hai.",
+ "hinglishExplanation": "Loop ke bahar nikalne wali cheez loop-invariant hai. CSE me repeated expression ek baar compute. Live variable analysis register allocation me use hota hai.",
+ "formalDefinition": "Optimization semantics preserve karte hue code ko fast/small banata hai.",
+ "importantProperties": [
+  "CSE, constant folding, strength reduction, dead code elimination.",
+  "Loop-invariant code motion.",
+  "Basic block: single entry, single exit.",
+  "Live variable analysis -> register allocation.",
+  "Horner's rule polynomial evaluation."
+ ],
+ "formulas": {
+  "horner": "n multiplications + n additions"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Aliasing ignore."
+ ],
+ "standardTechniques": [
+  "Expressions ko list karo."
+ ],
+ "topicId": "compiler-design:code-optimization"
+}

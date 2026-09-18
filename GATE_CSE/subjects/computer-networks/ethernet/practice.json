@@ -1,0 +1,24 @@
+{
+ "topicId": "computer-networks:ethernet",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ETHERN-01",
+   "patternId": "ETH_CALC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "10 Mbps, 1000-bit frame, speed 2e8 m/s. Max cable length?",
+   "solutionApproach": "Tt=100 us; d = 100us*2e8/2.",
+   "answer": "10 km"
+  },
+  {
+   "practiceId": "AI-ETHERNET-X02",
+   "patternId": "ETH_CALC_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Ethernet 100 Mbps, min frame 512 bits: slot time?",
+   "solutionApproach": "512/1e8.",
+   "answer": "5.12 us"
+  }
+ ]
+}

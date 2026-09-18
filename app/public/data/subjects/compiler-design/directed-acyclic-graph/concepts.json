@@ -1,0 +1,21 @@
+{
+ "overview": "Common subexpression share; minimum nodes/edges.",
+ "whyItMatters": "2 PYQs extracted (2014-2021); P3 topic.",
+ "coreConcept": "Common subexpression share; minimum nodes/edges.",
+ "hinglishExplanation": "Same operator aur same operand versions par ek hi node.",
+ "formalDefinition": "Common subexpression share; minimum nodes/edges.",
+ "importantProperties": [
+  "Common subexpression ek node.",
+  "Operand redefine hone par alag node.",
+  "Nodes = leaves + operations."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Redefinition ke baad CSE maan lena."
+ ],
+ "standardTechniques": [
+  "1. Value numbering."
+ ],
+ "topicId": "compiler-design:directed-acyclic-graph"
+}

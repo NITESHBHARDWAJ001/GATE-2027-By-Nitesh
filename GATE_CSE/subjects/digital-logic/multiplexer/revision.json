@@ -1,0 +1,24 @@
+{
+ "coreIdea": "MUX Y = sum (select minterm x data input).",
+ "mustRememberFormulas": [
+  "mux2: Y = S'I0 + S I1"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "MUX circuit ka expression ya function realize.",
+   "thinkThis": "MUX_FUNCTION_01"
+  },
+  {
+   "seeThis": "Minimum size, priority encoder, register selection.",
+   "thinkThis": "MUX_SIZE_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Select order."
+ ],
+ "highYieldPyqLessons": [
+  "MUX-as-function-generator recurs."
+ ],
+ "topicId": "digital-logic:multiplexer",
+ "revisionLevel": "short-form"
+}

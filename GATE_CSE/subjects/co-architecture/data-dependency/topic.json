@@ -1,0 +1,21 @@
+{
+ "topicId": "co-architecture:data-dependency",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "Data Dependency and Forwarding",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 2005-2015.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  2005,
+  2007,
+  2008,
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

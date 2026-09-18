@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P4_COMPUTER_SCIENCE_01",
+  "name": "Recurrence Relations for Running Time (PYQ type)",
+  "recognitionClueHinglish": "Recurrence Relations for Running Time se related sawal.",
+  "whatShouldComeToMind": [
+   "Divide-and-conquer recurrences ko Master theorem se solve karo."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. a,b,f.",
+   "2. Compare."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.11.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Regularity condition."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

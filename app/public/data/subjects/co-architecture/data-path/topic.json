@@ -1,0 +1,23 @@
+{
+ "topicId": "co-architecture:data-path",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "CPU Data Path and Microinstructions",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "7 PYQs extracted, 1990-2025.",
+ "pyqCountExtracted": 7,
+ "yearsCovered": [
+  1990,
+  2001,
+  2005,
+  2016,
+  2020,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

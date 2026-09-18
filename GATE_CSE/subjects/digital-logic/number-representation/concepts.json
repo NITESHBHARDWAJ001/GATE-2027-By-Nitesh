@@ -1,0 +1,41 @@
+{
+  "topicId": "dl-number-representation",
+  "overview": "Number Representation 4 skills test karta hai: base/radix conversion (aur unknown-radix equations), two's complement representation aur range, overflow detection (arithmetic ke baad), aur bit-counting/special numeric properties (floating point included).",
+  "whyItMatters": "57 PYQs — poore corpus ka 2nd highest-PYQ topic. Ye 'quick, mechanical, high-accuracy' topic hai — formulas clear hone ke baad bahut fast solve hota hai.",
+  "coreConcept": "Kisi bhi base-b number ko decimal me convert karne ka formula: digit × b^position, sum karo. Two's complement negative numbers represent karne ka standard tarika hai: invert all bits, add 1. Overflow tab hota hai jab result ki magnitude representable range se BAHAR chali jaaye (sirf SAME-SIGN operands add karne par possible — do opposite-sign numbers add karne se overflow KABHI nahi hota).",
+  "hinglishExplanation": "Base conversion ko ek 'counting system translation' socho — jaise Hindi se English translate karna, bas yahan numbers translate ho rahe hain ek 'counting base' se doosre me. Two's complement ka trick yaad rakho: 'sabko ulta karo (invert), phir 1 jod do' — negative number turant mil jaata hai. Overflow sirf tab hota hai jab DONO operands SAME sign ke hon (dono positive ya dono negative) aur result ki sign GALAT aa jaaye — do OPPOSITE sign wale numbers add karne se overflow kabhi possible hi nahi hai (result hamesha range ke andar rahega).",
+  "formalDefinition": "Base-b number d_n...d_1d_0 = Σ d_i × b^i. Two's complement of an n-bit number x: invert all bits, add 1 (equivalently, 2^n - x for x≠0).",
+  "importantProperties": [
+    "n-bit two's complement range: -2^(n-1) to 2^(n-1)-1 (one extra negative value compared to positive — asymmetric range, a classic trap).",
+    "n-bit sign-magnitude / 1's complement range: -(2^(n-1)-1) to 2^(n-1)-1 (SYMMETRIC, but has TWO representations of zero: +0 and -0).",
+    "Two's complement has EXACTLY ONE representation of zero (no +0/-0 distinction) — a key advantage over sign-magnitude/1's complement.",
+    "Overflow in addition (two's complement): occurs IFF the carry INTO the sign bit ≠ the carry OUT of the sign bit (the 'carry mismatch' rule) — equivalently, occurs only when adding two SAME-sign numbers and the result has the OPPOSITE sign.",
+    "Adding a POSITIVE and a NEGATIVE number (opposite signs) can NEVER cause overflow — the true result is always within range.",
+    "Sign extension: to extend a signed number to more bits, REPLICATE the sign bit (not just pad with 0s) — padding with 0s only works for extending UNSIGNED/POSITIVE numbers correctly.",
+    "For unknown-radix equations (like '44 in base x = 32 in base y'), set up the polynomial equation directly and solve algebraically — often has MULTIPLE valid (x,y) solutions, count them all when asked."
+  ],
+  "formulas": {
+    "baseToDecimal": "Σ (digit_i × base^i), summed over all digit positions",
+    "twosComplementRange": "n-bit two's complement: -2^(n-1) to 2^(n-1)-1",
+    "signMagnitudeRange": "n-bit sign-magnitude/1's complement: -(2^(n-1)-1) to 2^(n-1)-1, with two zero representations",
+    "overflowRule": "Overflow ⟺ (carry into sign bit) ≠ (carry out of sign bit); equivalently, only possible when adding SAME-sign operands and result sign flips",
+    "twosComplementOfX": "Two's complement of x (n bits) = 2^n - x (for x≠0), or equivalently invert-all-bits-then-add-1"
+  },
+  "keyPropertiesAndIdentities": [
+    "The two's complement range asymmetry (one more negative value than positive) comes from the fact that the all-1s pattern (representing -2^(n-1)) has no positive counterpart in the same n bits.",
+    "For MULTIPLICATION of two n-bit two's complement numbers, the product needs UP TO 2n bits to represent without overflow (not just n bits) — a common bit-width-sizing question."
+  ],
+  "commonPitfalls": [
+    "Forgetting the two's complement range is ASYMMETRIC (more negative numbers than positive) — off-by-one errors on the boundary values are extremely common.",
+    "Confusing the overflow rule with 'any carry out of the MSB means overflow' — the correct rule needs BOTH the carry-in and carry-out of the sign bit position, comparing them.",
+    "Padding with 0s instead of sign-extending when widening a NEGATIVE two's complement number — must replicate the sign bit.",
+    "Assuming opposite-sign addition can overflow — it mathematically cannot in two's complement.",
+    "Missing that sign-magnitude/1's complement has TWO zero representations while two's complement has only ONE — affects range/count calculations."
+  ],
+  "standardTechniques": [
+    "For base conversion: apply the positional-value formula directly (multiply each digit by base^position, sum).",
+    "For unknown-radix equations: set up algebraic equations from the positional formula, solve for the unknown base(s) — check ALL valid solutions (base must be a positive integer greater than the largest digit used).",
+    "For overflow detection: compute the actual sum in two's complement, check the sign-bit-carry-in vs carry-out condition directly (don't just eyeball the result).",
+    "For range questions: apply the exact asymmetric formula for two's complement, don't assume symmetry."
+  ]
+}

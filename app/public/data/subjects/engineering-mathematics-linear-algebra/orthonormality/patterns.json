@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_ORTHONORMALITY_01",
+  "name": "Orthonormal Vectors (PYQ type)",
+  "recognitionClueHinglish": "Orthonormal Vectors se related sawal.",
+  "whatShouldComeToMind": [
+   "Orthonormal: dot product 0 aur norm 1; Q^T Q = I."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Dot products.",
+   "2. Norm."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.8.1",
+   "6.8.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Orthogonal aur orthonormal same maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

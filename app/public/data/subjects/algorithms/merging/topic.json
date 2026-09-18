@@ -1,0 +1,19 @@
+{
+ "topicId": "algorithms:merging",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Merging Sorted Lists",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "2 PYQs extracted, 1995-2014.",
+ "pyqCountExtracted": 2,
+ "yearsCovered": [
+  1995,
+  2014
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

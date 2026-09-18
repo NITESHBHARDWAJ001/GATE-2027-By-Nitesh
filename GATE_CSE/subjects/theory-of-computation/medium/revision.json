@@ -1,0 +1,18 @@
+{
+ "coreIdea": "n_a(w), n_b(w) type languages ke properties.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Counting Symbols in Strings se related sawal.",
+   "thinkThis": "P4_MEDIUM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Regular maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "theory-of-computation:medium",
+ "revisionLevel": "short-form"
+}

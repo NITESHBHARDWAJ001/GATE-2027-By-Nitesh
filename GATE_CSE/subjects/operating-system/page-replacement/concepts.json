@@ -1,0 +1,38 @@
+{
+ "topicId": "os-page-replacement",
+ "overview": "Page Replacement me do main skills: reference string pe FIFO/LRU/Optimal simulate karke page faults count karna, aur algorithm properties (Belady's anomaly, stack algorithms). Baaki: thrashing, dirty bit, locality.",
+ "whyItMatters": "31 PYQs. Simulation mechanical hai, properties ek chhoti fixed list yaad karni hai.",
+ "coreConcept": "Page fault pe agar saare frames bhare hain to OS ek victim page choose karta hai. FIFO: sabse purana load hua page. LRU: sabse der se use hua page. Optimal (OPT): jo page future me sabse der baad use hoga. OPT practically implement nahi ho sakta (future pata nahi) — sirf benchmark hai.",
+ "hinglishExplanation": "Socho RAM ek chhoti almari hai. Nayi cheez rakhni ho aur jagah nahi, to purani cheez hatani padegi. FIFO 'sabse pehle aayi cheez hatao', LRU 'jo kaafi der se haath nahi lagayi wo hatao', OPT 'jo aage sabse der baad kaam aayegi wo hatao' (crystal ball chahiye).",
+ "formalDefinition": "Page fault count = number of references whose page is not currently in memory.",
+ "importantProperties": [
+  "Belady's anomaly (frames badhane par faults badh sakte hain) sirf FIFO me possible hai (in standard algorithms). LRU aur OPT stack algorithms hain, unme anomaly nahi hoti.",
+  "OPT faults ka minimum deta hai; koi bhi algorithm OPT se kam faults nahi kar sakta.",
+  "Dirty bit: page memory me modify hua ya nahi; sirf dirty page ko evict karte waqt disk pe likhna padta hai (unnecessary writes bachte hain).",
+  "Thrashing: process ko itne kam frames ki paging me hi time lagta hai — excessive page I/O, CPU utilization girta hai; working-set model isse rokta hai.",
+  "Locality of reference: haal hi me use hue pages ke dobara use hone ki sambhavna zyada hoti hai; isi wajah se LRU achha kaam karta hai.",
+  "Ek process ko minimum frames instruction set architecture decide karta hai (ek instruction ke sabhi operands ko ek saath memory me hona chahiye).",
+  "Zyada RAM = kam page faults, isliye performance behtar."
+ ],
+ "formulas": {
+  "faultCount": "faults = number of references that miss (hit = page already in a frame)",
+  "optRule": "Evict the page whose next use is farthest in the future",
+  "lruRule": "Evict the page whose last use is farthest in the past",
+  "stackProperty": "Stack algorithms (LRU, OPT): pages in n frames subset of pages in n+1 frames, so no Belady's anomaly"
+ },
+ "keyPropertiesAndIdentities": [
+  "Cold-start (empty frames) me pehle distinct pages ke faults compulsory hote hain.",
+  "Same reference string par LRU aur FIFO alag faults de sakte hain; poori simulation karke hi compare karo."
+ ],
+ "commonPitfalls": [
+  "LRU me hit par bhi recency update karna bhoolna.",
+  "FIFO me hit par order NAHI badalta (LRU se yehi fark hai).",
+  "OPT me 'future me kabhi use nahi hoga' wale page ko sabse pehle evict karna bhoolna.",
+  "Frame count ya initial state (empty vs pre-loaded) galat padhna."
+ ],
+ "standardTechniques": [
+  "Table banao: har reference ke liye frames ki state aur hit/fault likho.",
+  "LRU: recency list maintain karo; FIFO: queue; OPT: aage scan karke next-use dekho.",
+  "Belady/property questions me yaad rakho: FIFO anomaly-prone, LRU/OPT nahi."
+ ]
+}

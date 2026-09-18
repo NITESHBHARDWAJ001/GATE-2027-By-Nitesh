@@ -1,0 +1,42 @@
+{
+  "topicId": "algorithms-quick-sort",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-QS-01",
+      "patternId": "QS_WORST_BEST_INPUT_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Quick Sort uses the LAST element as pivot. Which input causes worst-case behavior: an already-sorted array, or a randomly shuffled array?",
+      "solutionApproach": "With last-element pivot on already-sorted input, the last (largest) element is always the pivot, giving a 0-vs-(n-1) split every time — worst case O(n²). Random shuffle gives roughly balanced splits on average.",
+      "answer": "Already-sorted array causes worst-case O(n²) behavior with last-element pivot."
+    },
+    {
+      "practiceId": "AI-QS-02",
+      "patternId": "QS_SPLIT_RATIO_COMPLEXITY_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A pivot-selection method guarantees a split where each side gets at least n/10 elements. What is the resulting worst-case complexity?",
+      "solutionApproach": "T(n) = T(n/10) + T(9n/10) + Θ(n). This is a fixed-ratio split (not depending on n), so it still resolves to Θ(n log n) — just with a larger constant than balanced 50-50 splits.",
+      "answer": "Θ(n log n) — any fixed-ratio split, even 1:9, still gives n log n."
+    },
+    {
+      "practiceId": "AI-QS-03",
+      "patternId": "QS_PROBABILITY_ANALYSIS_04",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "In randomized Quick Sort on 20 distinct elements, what is the probability the pivot in the first partition ends up at the worst possible position (index 1 or index n)?",
+      "solutionApproach": "Worst position happens iff pivot value = min or max. 2 favorable values out of 20 total. P = 2/20 = 0.1.",
+      "answer": "0.1 (2/20)"
+    },
+    {
+      "practiceId": "AI-QS-04",
+      "patternId": "QS_PARTITION_TRACE_03",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Array [3,7,1,9,2] with Lomuto partition using the LAST element (2) as pivot. What is the array after this one partition step, and what's the pivot's final index (0-indexed)?",
+      "solutionApproach": "Lomuto: i=-1. j=0(3): 3>2, no swap. j=1(7): 7>2, no swap. j=2(1): 1≤2, i=0, swap a[0],a[2] → [1,7,3,9,2]. j=3(9): 9>2, no swap. End loop, swap a[i+1]=a[1] with pivot a[4]: swap → [1,2,3,9,7]. Pivot (2) now at index 1.",
+      "answer": "[1,2,3,9,7], pivot at index 1"
+    }
+  ]
+}

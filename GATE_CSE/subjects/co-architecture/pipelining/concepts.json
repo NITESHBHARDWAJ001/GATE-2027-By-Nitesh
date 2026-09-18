@@ -1,0 +1,41 @@
+{
+  "topicId": "coa-pipelining",
+  "overview": "Pipelining GATE ka bahut high-value CO&A topic hai (39 PYQs). 4 skills: pipeline TIMING/cycle-time compute karna (biggest cluster), pipelined-vs-non-pipelined SPEEDUP comparison, HAZARDS (data/structural, forwarding, register renaming), aur BRANCH/control hazards (delayed branching).",
+  "whyItMatters": "Almost har saal 2+ questions. Timing-computation ek fixed formula-based skill hai — high accuracy achievable.",
+  "coreConcept": "Pipelining = multiple instructions ko OVERLAP karke execute karna (jaise ek assembly line) — jab instruction 1 stage 2 me hai, instruction 2 stage 1 me shuru ho sakta hai. CLOCK CYCLE TIME = MAXIMUM stage delay + inter-stage LATCH delay (sabse SLOW stage bottleneck hai, sab stages ko uska wait karna padta hai). Total time for n instructions = (k + n - 1) × cycle_time, jahan k = number of stages.",
+  "hinglishExplanation": "Pipelining ko ek 'car wash assembly line' socho — 4 stations hain (wash, rinse, dry, wax), aur jab ek car station 2 me hai, agli car station 1 me shuru ho sakti hai (wait nahi karni padti pehli car ke poora hone tak). Lekin PURI line ki speed SABSE SLOW station se decide hoti hai — agar 'wash' 10 min leta hai aur baaki sab 2 min, to HAR station effectively 10 min ka slot lega (fastest station bhi slowest ka wait karega).",
+  "formalDefinition": "Clock cycle time = max(stage delays) + latch delay. Total time for n instructions through k-stage pipeline = (k + n - 1) × cycle_time. Non-pipelined time for n instructions = n × (sum of all stage delays).",
+  "importantProperties": [
+    "Speedup = (Non-pipelined time) / (Pipelined time) = [n × Σstage_delays] / [(k+n-1) × cycle_time] — approaches k (number of stages) as n→∞ (asymptotic/ideal speedup = k).",
+    "Clock cycle time is ALWAYS bottlenecked by the SLOWEST stage (+ latch delay) — even if other stages are much faster, the pipeline clock must accommodate the slowest one.",
+    "If a stage is SPLIT into two sub-stages, the new bottleneck is the max of ALL stage delays (including the two new sub-stage halves) — splitting the SLOWEST stage typically reduces cycle time and speeds up the pipeline; splitting an already-fast stage does nothing for cycle time.",
+    "DATA HAZARDS occur when an instruction needs a result that a PRIOR instruction hasn't yet computed/written back (RAW — Read After Write) — resolved via FORWARDING (bypass the result directly from EX/MEM stage to the next instruction needing it, skipping the register-file round trip) or STALLING (insert bubbles/NOPs until the value is ready).",
+    "STRUCTURAL HAZARDS occur when two instructions need the SAME hardware resource (like a single ALU or single memory port) at the same cycle — resolved via resource duplication or stalling.",
+    "CONTROL HAZARDS occur from branch instructions (don't know the next instruction to fetch until the branch is resolved) — resolved via branch prediction, delayed branching (execute a fixed number of 'delay slot' instructions regardless of branch outcome), or stalling.",
+    "Delayed branching: the instruction(s) immediately following a branch (in the 'delay slot') execute REGARDLESS of whether the branch is taken or not — compiler tries to fill this slot with useful, order-independent work.",
+    "Register renaming resolves WAR (Write After Read) and WAW (Write After Write) hazards (name dependencies, not true data dependencies) by giving each write operation a fresh physical register — NOT used for RAW hazards (those are handled by forwarding/stalling)."
+  ],
+  "formulas": {
+    "cycleTime": "Clock cycle time = max(all stage delays) + inter-stage latch delay",
+    "pipelinedTotalTime": "Time for n instructions, k-stage pipeline = (k + n - 1) × cycle_time",
+    "nonPipelinedTotalTime": "Time for n instructions, non-pipelined = n × Σ(all stage delays)",
+    "speedupFormula": "Speedup = NonPipelinedTime / PipelinedTime; asymptotic (n→∞) speedup → k (number of stages)",
+    "branchPenaltyExtra": "Extra cycles per taken branch (no prediction/delay slot) = (stage number where branch resolves) − 1, roughly — depends on exact pipeline design"
+  },
+  "keyPropertiesAndIdentities": [
+    "The (k+n-1) formula assumes NO STALLS/HAZARDS — real pipelines with hazards need EXTRA cycles added for each stall/bubble inserted.",
+    "Register renaming specifically targets WAR/WAW (false/name dependencies) — RAW (true data dependency) hazards need forwarding or stalling instead, renaming doesn't help there."
+  ],
+  "commonPitfalls": [
+    "Forgetting to include the inter-stage LATCH delay when computing cycle time — often given as a small extra constant added to the max stage delay.",
+    "Applying the ideal (k+n-1)×cycle_time formula even when the question specifies hazards/stalls/branch penalties are present — must add the extra stall cycles explicitly in those cases.",
+    "Confusing WHICH hazard type (data/structural/control) a given scenario represents — RAW dependency = data hazard, resource conflict = structural, branch = control.",
+    "Assuming register renaming helps with RAW hazards — it specifically addresses WAR/WAW, not RAW."
+  ],
+  "standardTechniques": [
+    "For cycle-time questions: identify the maximum stage delay, add the latch delay, that's your clock cycle time.",
+    "For total-execution-time questions: apply (k+n-1)×cycle_time for the ideal case; ADD extra cycles explicitly for each stall/hazard/branch-penalty the question specifies.",
+    "For speedup questions: compute non-pipelined time and pipelined time separately, take the ratio; recall the asymptotic speedup approaches k (stage count) for large n.",
+    "For hazard-classification questions: check if it's about DATA dependency (RAW/WAR/WAW), shared HARDWARE resource (structural), or BRANCH/jump uncertainty (control) — match to the resolution technique (forwarding/stalling, renaming, or branch prediction/delay slots respectively)."
+  ]
+}

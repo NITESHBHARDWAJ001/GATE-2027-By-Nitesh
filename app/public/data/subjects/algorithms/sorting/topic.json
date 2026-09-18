@@ -1,0 +1,21 @@
+{
+  "topicId": "algorithms-sorting",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "name": "Sorting",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "22 PYQs extracted, tested 1988-2026. This is the general/comparative sorting topic (algorithm comparison, properties, lower bounds) — Quick Sort has its own dedicated P1 topic for algorithm-specific depth.",
+  "pyqCountExtracted": 22,
+  "yearsCovered": [1988,1990,1991,1992,1996,1998,1999,2000,2005,2006,2007,2016,2021,2024,2025,2026],
+  "prerequisites": [
+    {"topic": "Time Complexity", "subjectId": "algorithms", "why": "Comparing sorting algorithms needs solid comfort with complexity classification."},
+    {"topic": "Binary Heap", "subjectId": "programming-and-ds-data-structures", "why": "Heap Sort and k-way-merge-via-heap questions reuse heap operations."}
+  ],
+  "unlocks": [
+    {"topic": "Quick Sort", "subjectId": "algorithms", "why": "Quick Sort is analyzed in depth as a dedicated topic; this topic gives the comparative context."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

@@ -1,0 +1,42 @@
+{
+  "topicId": "dm-graph-theory-graph-connectivity",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-GC-01",
+      "patternId": "GC_EDGE_COUNTING_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "What is the maximum number of edges in a simple undirected graph with 10 vertices split into 3 connected components?",
+      "solutionApproach": "Concentrate edges into one component of size 10-3+1=8 vertices: C(8,2)=28. Remaining 2 vertices isolated.",
+      "answer": "28"
+    },
+    {
+      "practiceId": "AI-GC-02",
+      "patternId": "GC_EDGE_COUNTING_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "What is the maximum number of edges in a bipartite graph on 11 vertices?",
+      "solutionApproach": "⌊n²/4⌋ = ⌊121/4⌋ = ⌊30.25⌋ = 30.",
+      "answer": "30"
+    },
+    {
+      "practiceId": "AI-GC-03",
+      "patternId": "GC_SPANNING_TREE_03",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "How many distinct labeled spanning trees does K_6 (complete graph on 6 vertices) have?",
+      "solutionApproach": "Cayley's formula: n^(n-2) = 6^4 = 1296.",
+      "answer": "1296"
+    },
+    {
+      "practiceId": "AI-GC-04",
+      "patternId": "GC_ADJACENCY_MATRIX_04",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A graph's adjacency matrix A has trace(A³) = 48. How many triangles does the graph contain?",
+      "solutionApproach": "Triangles = trace(A³)/6 = 48/6 = 8.",
+      "answer": "8 triangles"
+    }
+  ]
+}

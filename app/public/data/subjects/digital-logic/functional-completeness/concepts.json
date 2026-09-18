@@ -1,0 +1,23 @@
+{
+ "overview": "NAND aur NOR akele complete; {AND,NOT},{OR,NOT} complete; XOR/half adder nahi.",
+ "whyItMatters": "7 PYQs extracted (1989-2015); P3 topic.",
+ "coreConcept": "NAND aur NOR akele complete; {AND,NOT},{OR,NOT} complete; XOR/half adder nahi.",
+ "hinglishExplanation": "Universal set: jisse NOT aur AND (ya OR) ban sake.",
+ "formalDefinition": "NAND aur NOR akele complete; {AND,NOT},{OR,NOT} complete; XOR/half adder nahi.",
+ "importantProperties": [
+  "NAND, NOR universal.",
+  "{AND, OR} complete nahi.",
+  "Half adders akele (XOR, AND) complete nahi (no constant/NOT).",
+  "Multiplexer with constants complete."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "XOR ko complete maan lena."
+ ],
+ "standardTechniques": [
+  "1. NOT banao.",
+  "2. AND/OR banao."
+ ],
+ "topicId": "digital-logic:functional-completeness"
+}

@@ -1,0 +1,45 @@
+{
+ "overview": "Normalization me 5 skills: FD inference/attribute closure, candidate key/superkey nikaalna, highest normal form determine karna, decomposition (lossless + dependency preserving) check karna, aur conceptual statements.",
+ "whyItMatters": "55 PYQs (DBMS me joint highest). Closure calculation har sub-skill ki base hai, isliye pehle wahi solid karo.",
+ "coreConcept": "Functional Dependency X -> Y ka matlab: agar do tuples ki X value same hai to Y value bhi same hogi. Attribute closure X+ = un sabhi attributes ka set jo X se determine hote hain. Candidate key = minimal set jiska closure poori relation ho. Normal forms redundancy hatane ke liye hain: 1NF (atomic), 2NF (no partial dependency), 3NF, BCNF.",
+ "hinglishExplanation": "FD ko 'roll number se naam pata chal jaata hai' jaise socho. Closure ka trick: ek set se shuru karo, jab tak koi FD lag sake (LHS closure ke andar ho) uska RHS jodte jao. Jab kuch naya na jude, ruk jao. Isi closure se key, superkey, aur FD implied hai ya nahi — sab nikal jaata hai.",
+ "formalDefinition": "X+ is the smallest set containing X closed under F. X is a superkey iff X+ = R. Candidate key = minimal superkey.",
+ "importantProperties": [
+  "Armstrong axioms: Reflexivity (Y subset of X => X->Y), Augmentation (X->Y => XZ->YZ), Transitivity (X->Y, Y->Z => X->Z). Derived: Union, Decomposition, Pseudo-transitivity.",
+  "2NF: koi non-prime attribute kisi candidate key ke PROPER subset par depend na kare (no partial dependency).",
+  "3NF: har non-trivial X->A me ya X superkey ho ya A prime attribute ho.",
+  "BCNF: har non-trivial X->A me X superkey ho. BCNF is stricter than 3NF: BCNF => 3NF => 2NF => 1NF.",
+  "Do attributes wali koi bhi relation hamesha BCNF me hoti hai.",
+  "Agar relation ke saare attributes prime hain to relation 3NF me hoti hai (par BCNF me nahi bhi ho sakti).",
+  "Agar har candidate key single attribute hai to relation 2NF me hoti hai (partial dependency possible hi nahi).",
+  "Lossless + dependency-preserving decomposition 3NF me hamesha possible hai; BCNF me hamesha possible NAHI hai.",
+  "Binary decomposition R -> R1, R2 lossless hai iff R1 intersect R2 -> R1 ya R1 intersect R2 -> R2 (common attributes kisi ek relation ki key hon).",
+  "Dependency preserving: F ke saare FDs decomposed relations ke FDs (projection) se derive ho jaayein.",
+  "Number of superkeys: agar candidate key ke bahar m attributes hain to superkeys 2^m (single key case)."
+ ],
+ "formulas": {
+  "attributeClosure": "X+ : repeat { for each FD A->B in F: if A subset of X+ then X+ = X+ union B } until no change",
+  "superkeyTest": "X superkey iff X+ = all attributes of R",
+  "losslessBinary": "R1 intersect R2 -> R1 or R1 intersect R2 -> R2",
+  "superkeyCount": "If K is the only candidate key with |K|=k and R has n attributes: 2^(n-k) superkeys",
+  "normalFormChain": "BCNF => 3NF => 2NF => 1NF"
+ },
+ "keyPropertiesAndIdentities": [
+  "Prime attribute = kisi bhi candidate key ka hissa. Non-prime = kisi key me nahi.",
+  "3NF check me key ke andar aane wala RHS attribute allowed hai; BCNF me nahi."
+ ],
+ "commonPitfalls": [
+  "Sirf ek candidate key nikaal ke ruk jaana; kai keys ho sakti hain.",
+  "3NF aur BCNF ko same maan lena.",
+  "Decomposition me sirf lossless check karna aur dependency preservation bhool jaana.",
+  "FD ko instance se 'prove' karna: instance sirf FD ko violate kar sakta hai, sabit nahi kar sakta.",
+  "Closure me FD apply karte waqt LHS ka poora subset closure me hona check na karna."
+ ],
+ "standardTechniques": [
+  "Key nikaalne ke liye: jo attributes kisi FD ke RHS me kabhi nahi aate wo key me zaroor honge; unse closure nikaalo.",
+  "Normal form: pehle saari candidate keys, phir har FD ko BCNF -> 3NF -> 2NF ke order me test karo.",
+  "Lossless: chase table ya binary common-attribute test.",
+  "Minimal cover: RHS single karo, extra LHS attributes hatao, redundant FDs hatao."
+ ],
+ "topicId": "db-database-normalization"
+}

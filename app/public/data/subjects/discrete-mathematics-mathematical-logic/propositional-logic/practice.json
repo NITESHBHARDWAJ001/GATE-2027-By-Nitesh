@@ -1,0 +1,51 @@
+{
+  "topicId": "dm-mathematical-logic-propositional-logic",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-PL-01",
+      "patternId": "PL_TAUTOLOGY_CHECK_01",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is (P∧(P→Q))→Q a tautology?",
+      "solutionApproach": "This is exactly Modus Ponens in formula form. Check: if P=T,Q=F: P→Q=F, so P∧(P→Q)=F, F→Q=T. If P=T,Q=T: P→Q=T, P∧T=T, T→T=T. If P=F: P∧(...)=F regardless, F→anything=T. All rows True.",
+      "answer": "Yes, it's a tautology (this is the formal statement of Modus Ponens)."
+    },
+    {
+      "practiceId": "AI-PL-02",
+      "patternId": "PL_EQUIVALENCE_02",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is ¬(P→Q) equivalent to P∧¬Q?",
+      "solutionApproach": "P→Q ≡ ¬P∨Q. So ¬(P→Q) ≡ ¬(¬P∨Q) ≡ P∧¬Q (De Morgan's). Yes, equivalent.",
+      "answer": "Yes — ¬(P→Q) ≡ P∧¬Q always."
+    },
+    {
+      "practiceId": "AI-PL-03",
+      "patternId": "PL_NL_TRANSLATION_03",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Translate: 'You can enter the exam hall only if you have your admit card.'",
+      "solutionApproach": "'A only if B' → A→B. Let E=can enter, C=has admit card. Translation: E→C.",
+      "answer": "E → C"
+    },
+    {
+      "practiceId": "AI-PL-04",
+      "patternId": "PL_INFERENCE_VALIDITY_04",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Given premises: (1) P→Q, (2) Q→R, (3) P. Is R derivable? Show the steps.",
+      "solutionApproach": "From (1),(3) via Modus Ponens: Q. From (2) and Q via Modus Ponens: R. Yes, derivable (this is Hypothetical Syllogism + Modus Ponens chained).",
+      "answer": "Yes — R follows in two Modus Ponens steps."
+    },
+    {
+      "practiceId": "AI-PL-05",
+      "patternId": "PL_NL_TRANSLATION_03",
+      "difficulty": "tricky-variation",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "What is the CONTRAPOSITIVE of 'If it rains, the match is cancelled'? And separately, what is its CONVERSE?",
+      "solutionApproach": "Let R=rains, C=cancelled. Original: R→C. Contrapositive (equivalent): ¬C→¬R ('If the match is not cancelled, it did not rain'). Converse (NOT equivalent): C→R ('If the match is cancelled, it rains' — could be cancelled for other reasons, so this is a different claim).",
+      "answer": "Contrapositive: ¬C→¬R (equivalent to original). Converse: C→R (NOT equivalent — classic trap)."
+    }
+  ]
+}

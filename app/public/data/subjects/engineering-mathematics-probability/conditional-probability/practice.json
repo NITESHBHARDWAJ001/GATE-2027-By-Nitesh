@@ -1,0 +1,33 @@
+{
+ "topicId": "engineering-mathematics-probability:conditional-probability",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CONDIT-01",
+   "patternId": "CPR_GIVEN_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Two coins, at least one head. P(both heads)?",
+   "solutionApproach": "{HH,HT,TH}.",
+   "answer": "1/3"
+  },
+  {
+   "practiceId": "AI-CONDITIO-X02",
+   "patternId": "CPR_BAYES_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "P(A)=0.3, P(B|A)=0.5, P(B|~A)=0.2. P(B)?",
+   "solutionApproach": "0.15+0.14.",
+   "answer": "0.29"
+  },
+  {
+   "practiceId": "AI-CONDITIO-X03",
+   "patternId": "CPR_GIVEN_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Bag 3 red 2 blue. Two draws without replacement, first red. P(second red)?",
+   "solutionApproach": "2/4.",
+   "answer": "0.5"
+  }
+ ]
+}

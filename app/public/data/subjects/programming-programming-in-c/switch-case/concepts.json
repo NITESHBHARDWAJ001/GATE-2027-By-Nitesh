@@ -1,0 +1,22 @@
+{
+ "overview": "break na ho to fall-through.",
+ "whyItMatters": "2 PYQs extracted (2012-2015); P4 topic.",
+ "coreConcept": "break na ho to fall-through.",
+ "hinglishExplanation": "Matching case se sab niche ke cases chalte hain break tak.",
+ "formalDefinition": "break na ho to fall-through.",
+ "importantProperties": [
+  "Fall-through.",
+  "default anywhere.",
+  "Integer/char only."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "break bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Match.",
+  "2. Fall-through."
+ ],
+ "topicId": "programming-programming-in-c:switch-case"
+}

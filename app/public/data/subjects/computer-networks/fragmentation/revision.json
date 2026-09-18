@@ -1,0 +1,18 @@
+{
+ "coreIdea": "MTU boundaries par fragments; total header overhead; offset/MF.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "IP Fragmentation (Multi-Network) se related sawal.",
+   "thinkThis": "P3_FRAGMENTATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Header count ek hi maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:fragmentation",
+ "revisionLevel": "short-form"
+}

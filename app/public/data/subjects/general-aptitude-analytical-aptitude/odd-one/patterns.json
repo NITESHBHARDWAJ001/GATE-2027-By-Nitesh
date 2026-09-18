@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_ODD_ONE_01",
+  "name": "Odd One Out (PYQ type)",
+  "recognitionClueHinglish": "Odd One Out se related sawal.",
+  "whatShouldComeToMind": [
+   "Group me alag property wala item."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Common property."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.10.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Surface similarity."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

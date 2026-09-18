@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Double/single integrals, substitution, by parts, properties of definite integrals.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Integration se related sawal.",
+   "thinkThis": "P3_INTEGRATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Limits change karna bhoolna (substitution)."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-calculus:integration",
+ "revisionLevel": "short-form"
+}

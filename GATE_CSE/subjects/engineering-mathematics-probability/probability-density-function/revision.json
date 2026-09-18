@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Sequential modules probabilities multiply/add.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "PDF-based Probability se related sawal.",
+   "thinkThis": "P4_PROBABILITY_DENSITY_FUNC_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Independence."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-probability:probability-density-function",
+ "revisionLevel": "short-form"
+}

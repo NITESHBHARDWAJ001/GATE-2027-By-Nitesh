@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-spatial-aptitude:patterns-in-two-dimensions",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PATTER-01",
+   "patternId": "P3_PATTERNS_IN_TWO_DIMENSIO_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Regular hexagon tile plane?",
+   "solutionApproach": "Interior 120 deg, 3 meet 360.",
+   "answer": "Haan"
+  }
+ ]
+}

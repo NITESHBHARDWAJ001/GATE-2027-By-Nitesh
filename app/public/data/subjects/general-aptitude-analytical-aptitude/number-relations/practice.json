@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:number-relations",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-NUMBER-01",
+   "patternId": "P3_NUMBER_RELATIONS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Grid puzzle me pehla step?",
+   "solutionApproach": "Constraints.",
+   "answer": "Constraints likhna"
+  }
+ ]
+}

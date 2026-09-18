@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.52.1",
+  "localId": "9.52.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "statistics",
+  "topic": "Statistics",
+  "year": 2012,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "64",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following assertions are CORRECT? P: Adding to each entry in a list adds to the mean of the list Q: Adding to each entry in a list adds to the standard deviation of the list R: Doubling each entry in a list doubles the mean of the list S: Doubling each entry in a list leaves the standard deviation of the list unchanged A. ,                                     B. ,                  C. ,                     D. ,",
+  "tagsRaw": "gatecse-2012 quantitative-aptitude  statistics  normal",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 305
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STATISTICS_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.52.2",
+  "localId": "9.52.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "statistics",
+  "topic": "Statistics",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following sample of numbers: The median of the sample is A.                                       B.                    C.                       D.",
+  "tagsRaw": "gatecse-2024-set1 quantitative-aptitude  statistics  one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 305
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_STATISTICS_01"
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-programming-in-c:strings",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-STRING-01",
+   "patternId": "P3_STRINGS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "strlen(\"abc\")?",
+   "solutionApproach": "3.",
+   "answer": "3"
+  }
+ ]
+}

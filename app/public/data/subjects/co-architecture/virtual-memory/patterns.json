@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_VIRTUAL_MEMORY_01",
+  "name": "Virtual Memory (Architecture View) (PYQ type)",
+  "recognitionClueHinglish": "Virtual Memory (Architecture View) se related sawal.",
+  "whatShouldComeToMind": [
+   "Virtual address space, page faults, two-level paging time, TLB in pipeline."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Address bits.",
+   "2. EAT."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.28.1",
+   "1.28.2",
+   "1.28.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Physical memory ko virtual limit samajhna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,21 @@
+{
+ "overview": "Max aur min ek saath: ceil(3n/2)-2 comparisons.",
+ "whyItMatters": "1 PYQs extracted (2014-2014); P4 topic.",
+ "coreConcept": "Max aur min ek saath: ceil(3n/2)-2 comparisons.",
+ "hinglishExplanation": "Pairs banao: pair ka bada max se, chhota min se compare.",
+ "formalDefinition": "Max aur min ek saath: ceil(3n/2)-2 comparisons.",
+ "importantProperties": [
+  "Optimal: ceil(3n/2)-2.",
+  "Naive: 2(n-1).",
+  "Tournament method."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "2n-2 ko optimal maan lena."
+ ],
+ "standardTechniques": [
+  "1. Pair compare."
+ ],
+ "topicId": "algorithms:maximum-minimum"
+}

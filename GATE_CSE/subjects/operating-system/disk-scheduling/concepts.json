@@ -1,0 +1,36 @@
+{
+ "topicId": "os-disk-scheduling",
+ "overview": "Disk Scheduling me head ki movement (total seek distance/time) compute karni hoti hai FCFS, SSTF, SCAN, C-SCAN, LOOK, C-LOOK ke liye; plus algorithm properties aur disk access time formula.",
+ "whyItMatters": "16 PYQs; simulation bilkul mechanical hai.",
+ "coreConcept": "Disk head ek cylinder se doosre tak jaata hai; seek time = cylinders cross kiye x time per cylinder. Algorithm decide karta hai pending requests me se agla kaunsa service ho.",
+ "hinglishExplanation": "Lift (elevator) socho: FCFS = jo pehle bola usi order me jao. SSTF = sabse paas wali manzil pehle. SCAN/LOOK = ek direction me chalte hue raaste ki saari requests nipatao, phir ulta ghoomo. C-SCAN/C-LOOK = ek hi direction me service, end par wapas shuru (circular).",
+ "formalDefinition": "Total head movement = sum of |position_i - position_{i+1}| along the servicing order (including any jump-back for circular variants, depending on question).",
+ "importantProperties": [
+  "FCFS: fair, par zyada seek. SSTF: seek kam, par starvation possible.",
+  "SCAN: end tak jaata hai; LOOK: last request tak hi jaata hai (end tak nahi).",
+  "C-SCAN/C-LOOK: sirf ek direction me serve karta hai, wapasi ka jump alag count hota hai (question padho ki count karna hai ya nahi).",
+  "SSTF me head ek direction me chalta reh sakta hai; direction change tabhi hota hai jab ek side ki requests khatam ho.",
+  "Disk access time = seek time + rotational latency (average = half rotation) + transfer time.",
+  "Best throughput ke liye nearest-cylinder-next (SSTF) achha hai."
+ ],
+ "formulas": {
+  "headMovement": "sum of absolute differences between consecutive serviced cylinders",
+  "rotationLatency": "average = (1/2) x (60/RPM) seconds",
+  "transferTime": "(1/sectors per track) x rotation time per sector read",
+  "accessTime": "seek + rotational latency + transfer"
+ },
+ "keyPropertiesAndIdentities": [
+  "SCAN vs LOOK me fark end-of-disk tak jaane ka hai; LOOK me sirf last request tak."
+ ],
+ "commonPitfalls": [
+  "SCAN me disk ke end (0 ya max) tak jaana bhool jaana.",
+  "C-LOOK ka return jump count karna ya na karna — question ke hisaab se.",
+  "Initial direction ignore karna.",
+  "Time = distance x per-cylinder time, unit conversion."
+ ],
+ "standardTechniques": [
+  "Requests ko sorted list me rakho, head position mark karo.",
+  "Servicing order likho, phir consecutive differences jodo.",
+  "SSTF: har step par current position se nearest unserviced request."
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "overview": "Distance vector vs link state, RIP/OSPF/BGP, forwarding table lookup, bridge spanning tree, transfer-time through path.",
+ "whyItMatters": "14 PYQs extracted (2005-2026); P2 topic.",
+ "coreConcept": "DV neighbours se shortest distance seekhta hai (Bellman-Ford); LS poori topology flood karta hai (Dijkstra).",
+ "hinglishExplanation": "RIP distance vector hai (hop count, max 15), OSPF link state. BGP path-vector, inter-AS. Forwarding me longest prefix match. Bridges spanning tree se loops rokte hain.",
+ "formalDefinition": "DV neighbours se shortest distance seekhta hai (Bellman-Ford); LS poori topology flood karta hai (Dijkstra).",
+ "importantProperties": [
+  "RIP: DV, hop count, UDP; OSPF: link-state, Dijkstra, IP directly.",
+  "BGP: path vector, inter-domain.",
+  "DV: count-to-infinity problem.",
+  "LS: more messages/computation, faster convergence.",
+  "Router TTL decrement karta hai, checksum recompute.",
+  "Store-and-forward path time = sum of per-link times."
+ ],
+ "formulas": {
+  "pathTime": "sum of store-and-forward delays"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "RIP ko link state maan lena."
+ ],
+ "standardTechniques": [
+  "Protocol table yaad."
+ ],
+ "topicId": "computer-networks:routing"
+}

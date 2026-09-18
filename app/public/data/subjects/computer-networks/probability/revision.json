@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Bit error probability, message success probability, retransmission expected count.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Probability in Networks se related sawal.",
+   "thinkThis": "P3_PROBABILITY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Independence maan lena bina check."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:probability",
+ "revisionLevel": "short-form"
+}

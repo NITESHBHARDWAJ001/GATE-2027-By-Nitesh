@@ -1,0 +1,22 @@
+{
+  "topicId": "dm-set-theory-algebra-functions",
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "subject": "Discrete Mathematics: Set Theory & Algebra",
+  "name": "Functions",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "30 PYQs extracted, tested 1987-2026 continuously including the new GATE DA stream (2026). Builds directly on Relations (a function is a relation with extra constraints).",
+  "pyqCountExtracted": 30,
+  "yearsCovered": [1987,1988,1989,1993,1996,1997,1998,2001,2003,2005,2006,2007,2012,2014,2015,2016,2021,2023,2024,2026],
+  "prerequisites": [
+    {"topic": "Relations", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "A function is a relation where every domain element maps to exactly one codomain element."},
+    {"topic": "Combinatory", "subjectId": "discrete-mathematics-combinatory", "why": "Counting one-one/onto functions directly reuses permutation and inclusion-exclusion counting techniques."}
+  ],
+  "unlocks": [
+    {"topic": "Group Theory", "subjectId": "discrete-mathematics-set-theory-algebra", "why": "Group homomorphisms/isomorphisms are structure-preserving functions — needs solid function vocabulary first."},
+    {"topic": "Identify Function", "subjectId": "algorithms", "why": "Code-tracing 'identify the function' pattern in Algorithms assumes comfort with function notation and properties."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

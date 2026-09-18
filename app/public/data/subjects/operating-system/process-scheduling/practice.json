@@ -1,0 +1,42 @@
+{
+  "topicId": "os-process-scheduling",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-PS-01",
+      "patternId": "PS_NUMERICAL_SIMULATION_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "P1(arrival=0,burst=5), P2(arrival=1,burst=3), P3(arrival=2,burst=1). Using non-preemptive SJF, compute average waiting time.",
+      "solutionApproach": "At t=0, only P1 ready → runs 0-5 (non-preemptive, no interruption even though P2,P3 arrive shorter). At t=5, P2(3) and P3(1) both waiting, SJF picks P3: runs 5-6. Then P2: runs 6-9. Completion: P1=5,P3=6,P2=9. TAT: P1=5-0=5,P2=9-1=8,P3=6-2=4. WT: P1=5-5=0,P2=8-3=5,P3=4-1=3. Avg WT=(0+5+3)/3=2.67.",
+      "answer": "Average waiting time ≈ 2.67 ms"
+    },
+    {
+      "practiceId": "AI-PS-02",
+      "patternId": "PS_NUMERICAL_SIMULATION_01",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Same processes as above but using SRTF (preemptive). Compute average waiting time.",
+      "solutionApproach": "t=0: P1 runs (only one). t=1: P2 arrives(rem=3) vs P1(rem=4) → P2 shorter, switch to P2. t=2: P3 arrives(rem=1) vs P2(rem=2) → P3 shorter, switch to P3. t=3: P3 done, compare P2(rem=2) vs P1(rem=4) → P2 runs. t=5: P2 done, P1 runs (rem=4). t=9: P1 done. Completion: P3=3,P2=5,P1=9. TAT: P1=9,P2=4,P3=1. WT: P1=9-5=4,P2=4-3=1,P3=1-1=0. Avg=(4+1+0)/3=1.67.",
+      "answer": "Average waiting time ≈ 1.67 ms (better than SJF, as expected for SRTF)"
+    },
+    {
+      "practiceId": "AI-PS-03",
+      "patternId": "PS_ALGO_PROPERTY_02",
+      "difficulty": "basic",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Can Round Robin scheduling cause starvation?",
+      "solutionApproach": "No — every process gets a fair, bounded turn (at most (n-1)×quantum wait before its next turn, for n processes) by design. Starvation-prone algorithms are SJF/SRTF/Priority (without aging).",
+      "answer": "No — Round Robin is starvation-free by design."
+    },
+    {
+      "practiceId": "AI-PS-04",
+      "patternId": "PS_STATE_TRANSITION_03",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Is a direct 'Waiting → Running' state transition valid?",
+      "solutionApproach": "No — a waiting process must transition to Ready first (when its I/O/event completes), then get dispatched to Running by the scheduler. Direct Waiting→Running skips the scheduling decision, which is invalid.",
+      "answer": "No, invalid — must go Waiting→Ready→Running."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_TWO_PHASE_LOCKING_PROTOC_01",
+  "name": "Two-Phase Locking (PYQ type)",
+  "recognitionClueHinglish": "Two-Phase Locking se related sawal.",
+  "whatShouldComeToMind": [
+   "Growing aur shrinking phase; conflict serializability; deadlock possible."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Lock points."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.27.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "2PL = serial samajhna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

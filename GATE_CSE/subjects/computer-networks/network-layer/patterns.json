@@ -1,0 +1,52 @@
+[
+ {
+  "patternId": "NL_LAYER_FUNCTIONS_01",
+  "name": "Layer Functionality / Matching",
+  "recognitionClueHinglish": "Kaunsa kaam kis layer ka.",
+  "whatShouldComeToMind": [
+   "Layer table."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Function.",
+   "2. Layer."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.22.1",
+   "2.22.2",
+   "2.22.4",
+   "2.22.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "NL_HOPS_CIDR_02",
+  "name": "Layer Visits / CIDR Allocation",
+  "recognitionClueHinglish": "Routers par kitni baar network layer; CIDR blocks.",
+  "whatShouldComeToMind": [
+   "Counting."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Path.",
+   "2. Count."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.22.3",
+   "2.22.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Endpoints count."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

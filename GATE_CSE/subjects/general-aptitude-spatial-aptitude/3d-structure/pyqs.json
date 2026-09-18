@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-spatial-aptitude__10.1.1",
+  "localId": "10.1.1",
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "subject": "General Aptitude: Spatial Aptitude",
+  "topicSlug": "3d-structure",
+  "topic": "3d Structure",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "In Panel of the figure below, the front view and top view of a structure are shown. Which one of the structures shown in Panel possesses the views shown in Panel A.                                  B.                       C.                D.",
+  "tagsRaw": "gatecse-2026-set1 spatial-aptitude  3d-structure  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 321
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_3D_STRUCTURE_01"
+ }
+]

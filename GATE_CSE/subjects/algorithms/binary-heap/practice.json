@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:binary-heap",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BINARY-01",
+   "patternId": "P3_BINARY_HEAP_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "n=7 heap me leaves kitne?",
+   "solutionApproach": "4..7.",
+   "answer": "4"
+  }
+ ]
+}

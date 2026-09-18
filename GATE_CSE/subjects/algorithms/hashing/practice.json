@@ -1,0 +1,42 @@
+{
+ "topicId": "algorithms:hashing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-HASHIN-01",
+   "patternId": "HSH_SIMULATE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "m=5, h(k)=k mod 5, linear probing: insert 10,15,20. Slots?",
+   "solutionApproach": "10->0,15->1,20->2.",
+   "answer": "0,1,2"
+  },
+  {
+   "practiceId": "AI-HASHIN-02",
+   "patternId": "HSH_ANALYSIS_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Worst-case search in a chained table with n keys?",
+   "solutionApproach": "All in one chain.",
+   "answer": "O(n)"
+  },
+  {
+   "practiceId": "AI-HASHING-X03",
+   "patternId": "HSH_SIMULATE_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "m=10, h=k mod 10, chaining. Keys 12,22,32,5: longest chain?",
+   "solutionApproach": "12,22,32 in slot 2.",
+   "answer": "3"
+  },
+  {
+   "practiceId": "AI-HASHING-X04",
+   "patternId": "HSH_ANALYSIS_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Load factor n=200 keys, m=50 slots?",
+   "solutionApproach": "n/m.",
+   "answer": "4"
+  }
+ ]
+}

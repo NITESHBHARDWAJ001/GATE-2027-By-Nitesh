@@ -1,0 +1,41 @@
+{
+ "overview": "TCP reliable, connection-oriented, byte-stream transport protocol hai. GATE me: 3-way handshake (seq/ack numbers), connection termination (FIN), sequence-number wraparound/window scale calculations, timeout/RTT, aur conceptual statements.",
+ "whyItMatters": "20 PYQs, 2004-2026; handshake aur seq-number/window calculations recent saalon me MSQ/NAT ke roop me.",
+ "coreConcept": "TCP har BYTE ko sequence number deta hai. Connection 3-way handshake (SYN, SYN+ACK, ACK) se khulta hai; ACK number = next expected byte.",
+ "hinglishExplanation": "Client SYN(seq=x) bhejta hai, server SYN+ACK(seq=y, ack=x+1) deta hai, client ACK(ack=y+1) bhejta hai. SYN aur FIN ek sequence number consume karte hain. Data me ACK = last received byte + 1. Sequence number ka wrap-around tab tak safe hona chahiye jab tak purana segment network me jinda ho (MSL).",
+ "formalDefinition": "Sequence space 2^32 bytes; window scale option se 16-bit window ko 2^14 tak scale kiya jaata hai.",
+ "importantProperties": [
+  "TCP full duplex, byte-stream, in-order, reliable; guaranteed minimum rate NAHI deta.",
+  "Sequence number bytes ko assign hota hai, segments ko nahi.",
+  "3-way handshake: SYN, SYN+ACK, ACK; SYN ek seq number khaata hai.",
+  "Termination: FIN se (4-way); FIN bhi ek seq number khaata hai; half-close possible.",
+  "TCP selective acknowledgement (SACK) option support karta hai.",
+  "Server crash ke baad naya connection se aane wale segments par RST milta hai.",
+  "Wraparound: 2^n sequence numbers >= rate x (MSL etc.) se n nikalo.",
+  "Window scale ki zaroorat: bandwidth x RTT (BDP) > 2^16 bytes.",
+  "Timeout RTT ke estimate se adapt hota hai (fixed nahi).",
+  "Initial sequence number ToD clock se: same seq reuse rokne ke liye."
+ ],
+ "formulas": {
+  "handshake": "SYN(x) -> SYN+ACK(y, ack=x+1) -> ACK(ack=y+1)",
+  "bdp": "BDP = bandwidth x RTT",
+  "wrap": "2^n / rate >= MSL",
+  "ackNum": "ack = next expected byte = last received + 1"
+ },
+ "keyPropertiesAndIdentities": [
+  "Data segment: seq = first byte number, next seq = seq + length.",
+  "SYN/FIN consume 1 seq number, ACK-only nahi."
+ ],
+ "commonPitfalls": [
+  "ACK number me +1 bhoolna.",
+  "Segment count ko seq number ki jagah lena.",
+  "Bits/bytes/sec unit galat.",
+  "TCP ko message-oriented samajhna."
+ ],
+ "standardTechniques": [
+  "Handshake diagram banao, har packet ka seq/ack likho.",
+  "Wraparound: time = 2^n bytes / (rate in bytes/sec) > MSL.",
+  "BDP nikaalke window scale ki need check karo."
+ ],
+ "topicId": "cn-tcp"
+}

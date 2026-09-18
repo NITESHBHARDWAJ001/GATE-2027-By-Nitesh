@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:ll-parser",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LL-PAR-01",
+   "patternId": "P3_LL_PARSER_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Left recursive grammar LL(1)?",
+   "solutionApproach": "Nahi.",
+   "answer": "Nahi"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_TIME_COMPLEXITY_01",
+  "name": "Time Complexity (Meld etc.) (PYQ type)",
+  "recognitionClueHinglish": "Time Complexity (Meld etc.) se related sawal.",
+  "whatShouldComeToMind": [
+   "Meld operation: heaps merge cost by structure."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Structure."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.14.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Binary heap meld ko log n maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

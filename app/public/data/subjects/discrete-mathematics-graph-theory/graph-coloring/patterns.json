@@ -1,0 +1,60 @@
+[
+ {
+  "patternId": "COL_CHROMATIC_01",
+  "name": "Chromatic Number of a Given Graph",
+  "recognitionClueHinglish": "Graph/cycle/bipartite ka chi.",
+  "whatShouldComeToMind": [
+   "Cliques/odd cycles."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Clique.",
+   "2. Colour."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.4.1",
+   "2.4.2",
+   "2.4.3",
+   "2.4.5",
+   "2.4.9",
+   "2.4.10",
+   "2.4.11"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Odd cycle."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "COL_BOUNDS_02",
+  "name": "Colouring Bounds and Edge Colouring",
+  "recognitionClueHinglish": "Planar bound, Delta+1, edge colouring.",
+  "whatShouldComeToMind": [
+   "Theorems."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Theorem."
+  ],
+  "formulasUsed": [
+   "greedy"
+  ],
+  "pyqExamples": [
+   "2.4.4",
+   "2.4.6",
+   "2.4.7",
+   "2.4.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Vertex vs edge."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

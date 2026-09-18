@@ -1,0 +1,23 @@
+{
+ "overview": "Level-by-level traversal, unweighted shortest path, queue.",
+ "whyItMatters": "3 PYQs extracted (2024-2026); P3 topic.",
+ "coreConcept": "Level-by-level traversal, unweighted shortest path, queue.",
+ "hinglishExplanation": "BFS source se sabhi vertices ka shortest edge-distance deta hai; O(V+E).",
+ "formalDefinition": "Level-by-level traversal, unweighted shortest path, queue.",
+ "importantProperties": [
+  "Queue use hota hai.",
+  "Unweighted graph shortest path.",
+  "BFS tree me levels = distance.",
+  "State-space search me bhi."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Weighted graph par BFS se shortest path."
+ ],
+ "standardTechniques": [
+  "1. Queue me source.",
+  "2. Dequeue, neighbours enqueue."
+ ],
+ "topicId": "algorithms:breadth-first-search"
+}

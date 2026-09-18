@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_SOCKETS_01",
+  "name": "Socket API (PYQ type)",
+  "recognitionClueHinglish": "Socket API se related sawal.",
+  "whatShouldComeToMind": [
+   "Server order: socket, bind, listen, accept; connect sends SYN; listen active->passive."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Server sequence."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.32.1",
+   "2.32.2",
+   "2.32.3",
+   "2.32.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Order galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_REDUCTION_01",
+  "name": "Reductions (Decidability) (PYQ type)",
+  "recognitionClueHinglish": "Reductions (Decidability) se related sawal.",
+  "whatShouldComeToMind": [
+   "A <= B: B decidable => A decidable; A undecidable => B undecidable."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Direction check."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.17.1",
+   "6.17.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Direction ulta."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

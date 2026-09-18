@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "co-architecture__1.19.1",
+  "localId": "1.19.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "instruction-set-architecture",
+  "topic": "Instruction Set Architecture",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "18",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Which of the following is/are part of an Instruction Set Architecture of a processor? A. The size of the cache memory                                                     B. The clock frequency of the processor C. The number of cache memory levels                                                                          D. The total number of registers",
+  "tagsRaw": "gatecse2025-set2 co-and-architecture instruction-set-architecture multiple-selects easy one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 64
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_INSTRUCTION_SET_ARCHITEC_01"
+ }
+]

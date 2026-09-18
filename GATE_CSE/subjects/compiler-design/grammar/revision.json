@@ -1,0 +1,28 @@
+{
+  "topicId": "cd-grammar",
+  "revisionLevel": "short-form",
+  "coreIdea": "Ambiguous = two parse trees for one string. Left recursion breaks LL(1); ambiguity breaks ALL LR(k). SLR(1)⊊LALR(1)⊊LR(1).",
+  "mustRememberFormulas": [
+    "Left recursion removal: A→Aα|β becomes A→βA', A'→αA'|ε",
+    "CNF derivation of length-n string: exactly 2n-1 steps",
+    "Ambiguous grammar ⟹ NOT LR(k) for any k",
+    "Operator grammar: no ε-productions, no adjacent non-terminals on RHS"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "'is this grammar ambiguous', dangling-else style", "thinkThis": "GRAM_AMBIGUITY_01"},
+    {"seeThis": "LL(1)/LR(1)/SLR/LALR classification or conflict question", "thinkThis": "GRAM_PARSER_CLASS_02"},
+    {"seeThis": "'remove left recursion' or 'eliminate ε-productions' or 'convert to CNF'", "thinkThis": "GRAM_TRANSFORMATION_03"},
+    {"seeThis": "grammar given, asked what language/strings it generates", "thinkThis": "GRAM_IDENTIFY_LANG_04"},
+    {"seeThis": "operator-grammar check, CFG-limitation question, or SDT value trace", "thinkThis": "GRAM_STRUCTURAL_PROPERTY_05"}
+  ],
+  "commonTrapsQuickList": [
+    "Left+right recursion together does NOT automatically imply ambiguous — verify directly",
+    "LL(1) ⟹ unambiguous, but unambiguous does NOT ⟹ LL(1)",
+    "Watch for INDIRECT left recursion (through another non-terminal), not just direct A→Aα",
+    "CFG cannot express context-sensitive constraints (declare-before-use) — needs semantic analysis beyond grammar"
+  ],
+  "highYieldPyqLessons": [
+    "Parser-class determination (12/47) and language-identification (12/47) are tied as the biggest sub-skills — together over half the topic.",
+    "This topic is the direct foundation for LR Parser and Syntax Directed Translation — get grammar classification fluent before moving on."
+  ]
+}

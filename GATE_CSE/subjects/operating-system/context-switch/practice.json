@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:context-switch",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CONTEX-01",
+   "patternId": "P3_CONTEXT_SWITCH_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "System call hamesha context switch karta hai?",
+   "solutionApproach": "Nahi, mode switch.",
+   "answer": "Nahi"
+  }
+ ]
+}

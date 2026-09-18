@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:little-endian-big-endian",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LITTLE-01",
+   "patternId": "P3_LITTLE_ENDIAN_BIG_ENDIAN_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "0x01020304 little me memory order?",
+   "solutionApproach": "04 03 02 01.",
+   "answer": "04 03 02 01"
+  }
+ ]
+}

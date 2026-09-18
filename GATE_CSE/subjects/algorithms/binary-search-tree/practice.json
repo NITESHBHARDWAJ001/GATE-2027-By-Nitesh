@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:binary-search-tree",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BINARY-01",
+   "patternId": "P3_BINARY_SEARCH_TREE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Insert 1,2,3 in BST. Height (edges)?",
+   "solutionApproach": "Chain.",
+   "answer": "2"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "digital-logic:decoder",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DECODE-01",
+   "patternId": "P3_DECODER_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "3-to-8 decoders se 5-to-32?",
+   "solutionApproach": "4 + 1.",
+   "answer": "5"
+  }
+ ]
+}

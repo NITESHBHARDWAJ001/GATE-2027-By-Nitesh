@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_INCORRECT_SENTENCE_PART_01",
+  "name": "Incorrect Sentence Part (PYQ type)",
+  "recognitionClueHinglish": "Incorrect Sentence Part se related sawal.",
+  "whatShouldComeToMind": [
+   "Underlined parts me se galat."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Each part."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.6.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Sahi part ko galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

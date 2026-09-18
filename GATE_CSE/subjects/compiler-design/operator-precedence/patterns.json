@@ -1,0 +1,57 @@
+[
+ {
+  "patternId": "OP_GRAMMAR_01",
+  "name": "Read Precedence/Associativity from Grammar",
+  "recognitionClueHinglish": "Grammar productions; kaun left/right associative, kaun higher.",
+  "whatShouldComeToMind": [
+   "Recursion direction."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Recursion.",
+   "2. Depth."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.20.1",
+   "2.20.2",
+   "2.20.3",
+   "2.20.4",
+   "2.20.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Direction."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "OP_EVAL_02",
+  "name": "Evaluate Expression with Given Rules",
+  "recognitionClueHinglish": "Precedence/associativity table; expression value.",
+  "whatShouldComeToMind": [
+   "Apply rules."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Higher first.",
+   "2. Same: assoc."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.20.5",
+   "2.20.7",
+   "2.20.8",
+   "2.20.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Right assoc order."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

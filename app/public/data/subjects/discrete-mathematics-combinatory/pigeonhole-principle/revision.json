@@ -1,0 +1,18 @@
+{
+ "coreIdea": "n+1 objects n boxes me to koi box me >=2.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Pigeonhole Principle se related sawal.",
+   "thinkThis": "P4_PIGEONHOLE_PRINCIPLE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "+1 bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-combinatory:pigeonhole-principle",
+ "revisionLevel": "short-form"
+}

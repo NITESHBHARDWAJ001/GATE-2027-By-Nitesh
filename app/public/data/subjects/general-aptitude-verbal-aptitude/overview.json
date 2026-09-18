@@ -1,0 +1,18 @@
+{
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "name": "General Aptitude: Verbal Aptitude",
+ "sourceVolume": "volume1",
+ "sourcePdf": "filter1_volume1.pdf",
+ "totalTopics": 19,
+ "totalPyqsExtracted": 105,
+ "priorityDistribution": {
+  "P1": 1,
+  "P2": 4,
+  "P3": 11,
+  "P4": 3
+ },
+ "p1Topics": [
+  "Most Appropriate Word"
+ ],
+ "processingStatus": "P1_topic_complete (1/1)"
+}

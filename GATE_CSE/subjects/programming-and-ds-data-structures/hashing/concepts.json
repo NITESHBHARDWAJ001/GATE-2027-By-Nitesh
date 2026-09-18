@@ -1,0 +1,27 @@
+{
+ "overview": "Hash table simulation (open addressing, linear probing, chaining), load factor, collision probability, hash function quality.",
+ "whyItMatters": "15 PYQs extracted (1996-2015); P2 topic.",
+ "coreConcept": "Load factor = n/m. Linear probing me collision par next slot (wrap-around).",
+ "hinglishExplanation": "Keys ko diye gaye order me insert karo aur hash function se slot nikalo. Collision par linear probing me (h+i) mod m. Chaining me same slot ki list me jodo. Final table ya chain length poochhi jaati hai.",
+ "formalDefinition": "Load factor = n/m. Linear probing me collision par next slot (wrap-around).",
+ "importantProperties": [
+  "Load factor alpha = n/m.",
+  "Linear probing: (h(k)+i) mod m; primary clustering.",
+  "Chaining: search worst O(n), avg 1+alpha.",
+  "Chaining ka fayda: deletion aur load factor > 1 possible.",
+  "Birthday-type: pehli collision kab (probabilistic).",
+  "Uniform hash function distribute better (m prime / uses all bits)."
+ ],
+ "formulas": {
+  "alpha": "n/m"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Wrap-around bhoolna.",
+  "Deleted slots ka probing me role."
+ ],
+ "standardTechniques": [
+  "Table draw karo, step by step insert."
+ ],
+ "topicId": "programming-and-ds-data-structures:hashing"
+}

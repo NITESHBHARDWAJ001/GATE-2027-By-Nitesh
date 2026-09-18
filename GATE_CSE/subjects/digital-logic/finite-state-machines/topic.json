@@ -1,0 +1,21 @@
+{
+ "topicId": "digital-logic:finite-state-machines",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Finite State Machines (Sequential)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 1994-2009.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  1994,
+  1995,
+  1996,
+  2009
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:ratio-proportion",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RATIO--01",
+   "patternId": "P3_RATIO_PROPORTION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "2:3 = x:12?",
+   "solutionApproach": "x=8.",
+   "answer": "8"
+  }
+ ]
+}

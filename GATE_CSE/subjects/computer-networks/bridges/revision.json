@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Bridge MAC learn karta hai, spanning tree loops rokta hai; router IP layer.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bridges (Transparent, Spanning Tree) se related sawal.",
+   "thinkThis": "P3_BRIDGES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Bridge aur router same maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:bridges",
+ "revisionLevel": "short-form"
+}

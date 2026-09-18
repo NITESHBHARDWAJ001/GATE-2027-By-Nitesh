@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "MI_TRACE_PROGRAM_01",
+    "name": "Trace Assembly Program Execution",
+    "recognitionClueHinglish": "Ek assembly language program diya hai aur poocha hai final register/memory VALUE kya hoga, ya program kya COMPUTE karta hai — is topic ka sabse bada pattern hai (21 me se 14 PYQs).",
+    "whatShouldComeToMind": ["Maintain an explicit table of register and relevant memory values, update after EVERY instruction.", "Read each instruction's semantics carefully (given as comments/documentation in the question) before tracing — don't assume standard meaning without checking."],
+    "conceptsRequired": ["Assembly instruction semantics", "Register/memory state tracking"],
+    "generalSolvingApproach": ["1. List all registers/memory locations involved with their initial values.", "2. Process each instruction in order, updating the table exactly per its documented semantics.", "3. Report the requested final value(s)."],
+    "formulasUsed": [],
+    "pyqExamples": ["1.21.1","1.21.2","1.21.3","1.21.4","1.21.5","1.21.6","1.21.9","1.21.10","1.21.11","1.21.12","1.21.16","1.21.17","1.21.19","1.21.21"],
+    "variationsObserved": ["Data-forwarding optimization questions — identify which instruction sequence can be shortened by bypassing memory round-trips.", "Latency-table-based dependency questions — track WHEN a value becomes available (not just what it becomes) for pipelined/dependent instruction sequences."],
+    "commonTraps": ["Misreading a hypothetical processor's custom instruction semantics (they often differ from standard x86/ARM conventions) — always use the EXACT semantics given in the question, never assume."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "MI_ENCODING_02",
+    "name": "Instruction Encoding / Bit-Field Sizing",
+    "recognitionClueHinglish": "Poocha hai ek fixed-width instruction word me OPCODE, REGISTER operands, aur IMMEDIATE operand ke liye kitne bits allocate honge, ya kaunsa PC value legal hai — ye bit-arithmetic pattern hai.",
+    "whatShouldComeToMind": ["opcode bits = ⌈log2(#instructions)⌉. register field bits = ⌈log2(#registers)⌉ per operand.", "Immediate bits = total width − opcode bits − (register bits × number of register operands).", "PC legality: must be aligned to instruction-size boundaries from the program's start address."],
+    "conceptsRequired": ["Bit-field allocation arithmetic"],
+    "generalSolvingApproach": ["1. Compute opcode bits and register-field bits using the ceiling-log2 formulas.", "2. Subtract from total instruction width to find remaining bits for the immediate operand.", "3. For PC legality, check the candidate address is start_address + k×(instruction size in bytes) for some integer k≥0."],
+    "formulasUsed": ["opcodeBits","registerFieldBits","immediateFieldBits"],
+    "pyqExamples": ["1.21.8","1.21.15","1.21.18"],
+    "variationsObserved": [],
+    "commonTraps": ["Forgetting to account for MULTIPLE register-operand fields (subtracting only once when an instruction has 2 or 3 register operands)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "MI_TIMING_03",
+    "name": "Clock Cycles / Timing Analysis",
+    "recognitionClueHinglish": "Poocha hai program execute karne me KITNE clock cycles lagenge, given per-instruction cycle costs (aur shayad loops/latencies) — ye timing-summation pattern hai.",
+    "whatShouldComeToMind": ["Sum (cycles per instruction type × execution count) — carefully account for LOOP repetitions, not just static instruction count.", "For latency-dependency questions, track when a value becomes AVAILABLE for the next dependent instruction, not just when the producing instruction issues."],
+    "conceptsRequired": ["Cycle-cost summation", "Loop iteration counting"],
+    "generalSolvingApproach": ["1. Identify each instruction's cycle cost from the given table.", "2. Determine how many times each instruction actually executes (accounting for loop bodies running multiple times).", "3. Sum up total cycles = Σ(cost × execution count)."],
+    "formulasUsed": ["totalClockCycles"],
+    "pyqExamples": ["1.21.7","1.21.20"],
+    "variationsObserved": [],
+    "commonTraps": ["Counting loop-body instructions only ONCE instead of accounting for all iterations."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "MI_CONCEPTUAL_04",
+    "name": "Conceptual Properties (privileged instructions, addressing modes, stack behavior)",
+    "recognitionClueHinglish": "Poocha hai ek instruction (jaise RFE) PRIVILEGED hai ya nahi, ya specific addressing-mode notation ((X)+, -(X)) ka matlab kya hai, ya stack pointer behavior — ye definitional/conceptual pattern hai.",
+    "whatShouldComeToMind": ["Instructions that affect processor MODE or handle exceptions (like RFE) are typically PRIVILEGED (kernel-mode only).", "(X)+ = auto-increment AFTER use (forward traversal); -(X) = auto-decrement BEFORE use (stack push style, or reverse traversal)."],
+    "conceptsRequired": ["Privileged instruction concept", "Auto-increment/decrement addressing mode notation"],
+    "generalSolvingApproach": ["1. For privilege questions, reason about whether the instruction could compromise system integrity if available to user programs — exception-handling and mode-switching instructions are privileged.", "2. For addressing-mode notation questions, apply the standard convention directly (+ after = increment-after-use; - before = decrement-before-use)."],
+    "formulasUsed": [],
+    "pyqExamples": ["1.21.13","1.21.14"],
+    "variationsObserved": [],
+    "commonTraps": ["Confusing which addressing mode increments/decrements BEFORE vs AFTER the memory access."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal",
+    "aiPracticePossible": false
+  }
+]

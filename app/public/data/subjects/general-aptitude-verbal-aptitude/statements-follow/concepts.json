@@ -1,0 +1,20 @@
+{
+ "overview": "Statement ke baad kaunsa action logically follow karta hai.",
+ "whyItMatters": "1 PYQs extracted (2015-2015); P4 topic.",
+ "coreConcept": "Statement ke baad kaunsa action logically follow karta hai.",
+ "hinglishExplanation": "Action problem solve karne wala aur practical ho.",
+ "formalDefinition": "Statement ke baad kaunsa action logically follow karta hai.",
+ "importantProperties": [
+  "Extreme action unlikely.",
+  "Practical/relevant."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Personal opinion."
+ ],
+ "standardTechniques": [
+  "1. Relevance."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:statements-follow"
+}

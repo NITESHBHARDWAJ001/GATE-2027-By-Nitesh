@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Polygons, tile patterns, area division.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "2D Patterns and Tilings se related sawal.",
+   "thinkThis": "P3_PATTERNS_IN_TWO_DIMENSIO_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Figure text me missing."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:patterns-in-two-dimensions",
+ "revisionLevel": "short-form"
+}

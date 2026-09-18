@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Pieces ko jodkar figure.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Assembling Puzzle Pieces se related sawal.",
+   "thinkThis": "P3_ASSEMBLING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Reflection allowed nahi."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:assembling",
+ "revisionLevel": "short-form"
+}

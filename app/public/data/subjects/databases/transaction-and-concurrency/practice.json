@@ -1,0 +1,42 @@
+{
+ "topicId": "db-transaction-and-concurrency",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TX-01",
+   "patternId": "TX_SERIALIZABILITY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S: R1(A) W2(A) W1(A). Conflict serializable?",
+   "solutionApproach": "R1(A)->W2(A): T1->T2. W2(A)->W1(A): T2->T1. Cycle exists.",
+   "answer": "No"
+  },
+  {
+   "practiceId": "AI-TX-02",
+   "patternId": "TX_RECOVERABILITY_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S: W1(A) R2(A) C2 C1. Recoverable?",
+   "solutionApproach": "T2 read T1's dirty write and committed before T1.",
+   "answer": "Not recoverable"
+  },
+  {
+   "practiceId": "AI-TX-03",
+   "patternId": "TX_LOCKING_03",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Which guarantees conflict serializability and no deadlock: 2PL or timestamp ordering?",
+   "solutionApproach": "Timestamp ordering; 2PL can deadlock.",
+   "answer": "Timestamp ordering"
+  },
+  {
+   "practiceId": "AI-TX-04",
+   "patternId": "TX_ACID_RECOVERY_04",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Money transfer must keep total balance constant. Which property?",
+   "solutionApproach": "Consistency.",
+   "answer": "Consistency"
+  }
+ ]
+}

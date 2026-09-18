@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "compiler-design__2.26.1",
+  "localId": "2.26.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "symbol-table",
+  "topic": "Symbol Table",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "2",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": 1,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Which ONE of the following statements is FALSE regarding the symbol table? A. Symbol table is responsible for keeping track of the scope of variables. B. Symbol table can be implemented using a binary search tree. C. Symbol table is not required after the parsing phase. D. Symbol table is created during the lexical analysis phase.",
+  "tagsRaw": "gatecse2025-set1 compiler-design symbol-table easy one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 179
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SYMBOL_TABLE_01"
+ }
+]

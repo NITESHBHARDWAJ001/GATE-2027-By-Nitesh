@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.30.1",
+  "localId": "9.30.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "maxima-minima",
+  "topic": "Maxima Minima",
+  "year": 2012,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "62",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE_OR_UNVERIFIED",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": null,
+  "answerVerified": false,
+  "questionTextRaw": "A political party orders an arch for the entrance to the ground in which the annual convention is being held. The profile of the arch follows the equation                           where is the height of the arch in meters. The maximum possible height of the arch is A. meters                           B. meters                  C. meters              D. meters",
+  "tagsRaw": "gatecse-2012 quantitative-aptitude  normal      maxima-minima",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 285
+  },
+  "formulaExtractionNote": null,
+  "patternId": "P3_MAXIMA_MINIMA_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.30.2",
+  "localId": "9.30.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "maxima-minima",
+  "topic": "Maxima Minima",
+  "year": 2017,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "The number of roots of                                             in the range         is A.                                          B.                               C.                       D.",
+  "tagsRaw": "gatecse-2017-set2 quantitative-aptitude     normal  maxima-minima  calculus",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 286
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_MAXIMA_MINIMA_01"
+ }
+]

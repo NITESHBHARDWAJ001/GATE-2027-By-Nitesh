@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_MODULAR_ARITHMETIC_01",
+  "name": "Modular Arithmetic (PYQ type)",
+  "recognitionClueHinglish": "Modular Arithmetic se related sawal.",
+  "whatShouldComeToMind": [
+   "Remainders of powers/expressions; Fermat, cycles of powers."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Reduce base.",
+   "2. Cycle."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.5.1",
+   "1.5.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Negative remainder."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

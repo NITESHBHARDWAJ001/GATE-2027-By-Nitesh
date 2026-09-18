@@ -1,0 +1,20 @@
+{
+  "topicId": "coa-pipelining",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "name": "Pipelining",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "39 PYQs extracted, tested 1999-2025 continuously. Builds directly on Machine Instruction — analyzes overlapping execution of instruction sequences.",
+  "pyqCountExtracted": 39,
+  "yearsCovered": [1999,2000,2001,2002,2003,2004,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2020,2021,2023,2024,2025],
+  "prerequisites": [
+    {"topic": "Machine Instruction", "subjectId": "co-architecture", "why": "Pipelining overlaps execution of the instruction stages studied there."}
+  ],
+  "unlocks": [
+    {"topic": "Cache Memory", "subjectId": "co-architecture", "why": "Cache miss stalls are a recurring ingredient in combined pipelining+memory-hierarchy numericals."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

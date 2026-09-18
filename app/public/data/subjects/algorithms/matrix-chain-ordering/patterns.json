@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_MATRIX_CHAIN_ORDERING_01",
+  "name": "Matrix Chain Multiplication (PYQ type)",
+  "recognitionClueHinglish": "Matrix Chain Multiplication se related sawal.",
+  "whatShouldComeToMind": [
+   "Matrices ka parenthesization jo scalar multiplications minimize kare."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Dimensions array p.",
+   "2. Interval DP.",
+   "3. m[1][n]."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.27.1",
+   "1.27.2",
+   "1.27.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Dimensions ka order galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

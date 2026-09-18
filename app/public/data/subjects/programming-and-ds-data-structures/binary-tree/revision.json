@@ -1,0 +1,31 @@
+{
+  "topicId": "ds-binary-tree",
+  "revisionLevel": "short-form",
+  "coreIdea": "Inorder+(Preorder or Postorder)=always unique reconstruction. n0=n2+1 for 0-or-2-children trees. Max nodes at height h = 2^(h+1)-1.",
+  "mustRememberFormulas": [
+    "Reconstruction needs Inorder + one of (Preorder/Postorder) — Pre+Post alone is NOT sufficient in general",
+    "n0=n2+1 (leaves = 2-degree nodes + 1) for 0-or-2-children trees; general: n=n0+n1+n2, n-1=n1+2n2",
+    "Max nodes height h (edges) = 2^(h+1)-1; Min = h+1",
+    "1-indexed array: parent(i)=⌊i/2⌋, left=2i, right=2i+1; level=⌊log2(i)⌋",
+    "Distinct tree shapes with n nodes = Catalan number C(n)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "two traversal sequences given, reconstruct or check uniqueness", "thinkThis": "BT_TRAVERSAL_RECONSTRUCT_01"},
+    {"seeThis": "leaf/internal/degree count relationship asked", "thinkThis": "BT_NODE_COUNT_RELATION_02"},
+    {"seeThis": "'max/min nodes for height h' or balance-constrained height bound", "thinkThis": "BT_HEIGHT_BOUNDS_03"},
+    {"seeThis": "complete tree stored in array, index formula asked", "thinkThis": "BT_ARRAY_REPRESENTATION_04"},
+    {"seeThis": "recursive C function on tree nodes, asked for output/complexity", "thinkThis": "BT_CODE_TRACE_05"},
+    {"seeThis": "AVL/balance-factor, insertion rebalancing", "thinkThis": "BT_BALANCED_OPERATIONS_06"},
+    {"seeThis": "'how many distinct trees', deletion-procedure design, BFS/DFS comparison", "thinkThis": "BT_STRUCTURE_DESIGN_07"}
+  ],
+  "commonTrapsQuickList": [
+    "Preorder+Postorder alone does NOT uniquely reconstruct a general binary tree",
+    "Height = edges vs nodes — always confirm the definition first, off-by-one everywhere otherwise",
+    "n0=n2+1 only applies when every node has 0 or 2 children",
+    "1-indexed vs 0-indexed array formulas differ — check which the question uses"
+  ],
+  "highYieldPyqLessons": [
+    "Traversal reconstruction (14/53) and node-counting (12/53) together are ~49% of this topic — master these two first for maximum ROI.",
+    "This is the single richest topic in the whole corpus (53 PYQs) — budget proportionally more practice time here than almost any other DS/Algo topic."
+  ]
+}

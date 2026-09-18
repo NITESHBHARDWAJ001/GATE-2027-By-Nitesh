@@ -1,0 +1,26 @@
+{
+ "coreIdea": "M:N relationship ke liye alag table; 1:N me many side me foreign key; weak entity owner ke key ke saath table banati hai.",
+ "mustRememberFormulas": [
+  "tablesMN: extra table",
+  "weakKey: owner key + partial key"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "ER diagram / cardinalities diye; kam se kam kitne tables.",
+   "thinkThis": "ER_MIN_TABLES_01"
+  },
+  {
+   "seeThis": "Weak entity, multi-valued attribute, specification se ER.",
+   "thinkThis": "ER_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Diamond vs double diamond.",
+  "Extra table for 1:N."
+ ],
+ "highYieldPyqLessons": [
+  "Minimum-tables counting appears in 2005, 2008, 2015, 2017, 2018."
+ ],
+ "topicId": "databases:er-diagram",
+ "revisionLevel": "short-form"
+}

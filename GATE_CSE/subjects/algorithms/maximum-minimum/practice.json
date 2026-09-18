@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:maximum-minimum",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MAXIMU-01",
+   "patternId": "P4_MAXIMUM_MINIMUM_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "n=4 max+min min comparisons?",
+   "solutionApproach": "3*4/2-2.",
+   "answer": "4"
+  }
+ ]
+}

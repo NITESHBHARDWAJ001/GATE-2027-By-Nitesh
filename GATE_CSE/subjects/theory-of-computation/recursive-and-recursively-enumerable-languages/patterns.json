@@ -1,0 +1,66 @@
+[
+ {
+  "patternId": "REC_HIERARCHY_01",
+  "name": "Class Relations and Closure Facts",
+  "recognitionClueHinglish": "Recursive/RE/CFL relations, complement, union.",
+  "whatShouldComeToMind": [
+   "Hierarchy."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Class.",
+   "2. Closure."
+  ],
+  "formulasUsed": [
+   "coRE"
+  ],
+  "pyqExamples": [
+   "6.16.1",
+   "6.16.3",
+   "6.16.5",
+   "6.16.6",
+   "6.16.7",
+   "6.16.8",
+   "6.16.9",
+   "6.16.10",
+   "6.16.13"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Complement."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "REC_DECIDABILITY_02",
+  "name": "Decidability of TM-Based Languages / Reductions",
+  "recognitionClueHinglish": "L = {<M> | ...} decidable/RE/co-RE; mapping reductions.",
+  "whatShouldComeToMind": [
+   "Rice, halting."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Property semantic?",
+   "2. Reduce."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.16.2",
+   "6.16.4",
+   "6.16.11",
+   "6.16.12",
+   "6.16.14",
+   "6.16.15",
+   "6.16.16"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Rice conditions."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "difficult",
+  "aiPracticePossible": true
+ }
+]

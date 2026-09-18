@@ -1,0 +1,33 @@
+{
+ "coreIdea": "Compare rank(A), rank([A|b]), n.",
+ "mustRememberFormulas": [
+  "unique: rank=rank_aug=n",
+  "infinite: rank=rank_aug<n",
+  "none: rank<rank_aug",
+  "null dim = n - rank"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "how many solutions",
+   "thinkThis": "SOE_RANK_TEST_01"
+  },
+  {
+   "seeThis": "for which k",
+   "thinkThis": "SOE_PARAM_02"
+  },
+  {
+   "seeThis": "solve / operations",
+   "thinkThis": "SOE_SOLVE_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Homogeneous always consistent",
+  "det=0 does not imply no solution",
+  "Check special parameter values"
+ ],
+ "highYieldPyqLessons": [
+  "Parameter-based and statement-based questions dominate 2015-2026."
+ ],
+ "topicId": "em-la-system-of-equations",
+ "revisionLevel": "short-form"
+}

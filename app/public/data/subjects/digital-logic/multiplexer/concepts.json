@@ -1,0 +1,25 @@
+{
+ "overview": "n select lines se 2^n inputs; function implementation via MUX; cascading; minimum MUX size.",
+ "whyItMatters": "14 PYQs extracted (1990-2024); P2 topic.",
+ "coreConcept": "MUX Y = sum (select minterm x data input).",
+ "hinglishExplanation": "n-variable function ko 2^(n-1):1 MUX + inverter se implement kar sakte ho (last variable data input me). Cascaded MUX me select signals ko bottom-up substitute karo.",
+ "formalDefinition": "MUX Y = sum (select minterm x data input).",
+ "importantProperties": [
+  "2^n:1 MUX needs n selects.",
+  "n-var function: 2^n:1 MUX seedha; 2^(n-1):1 MUX + inverter.",
+  "Y = S'I0 + S I1 (2:1).",
+  "MUX universal hai (NOT, AND, OR, NOR banaye ja sakte hain).",
+  "Feedback wale MUX latch/flop jaisa behave kar sakte hain."
+ ],
+ "formulas": {
+  "mux2": "Y = S'I0 + S I1"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Select order (MSB) confuse."
+ ],
+ "standardTechniques": [
+  "Equation likho."
+ ],
+ "topicId": "digital-logic:multiplexer"
+}

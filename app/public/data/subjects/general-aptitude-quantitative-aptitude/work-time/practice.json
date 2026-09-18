@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:work-time",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-WORK-T-01",
+   "patternId": "P3_WORK_TIME_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A 6 days, B 3 days together?",
+   "solutionApproach": "1/6+1/3=1/2.",
+   "answer": "2 days"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "overview": "I/O redirection: file ko stdin/stdout ke roop me.",
+ "whyItMatters": "1 PYQs extracted (1997-1997); P4 topic.",
+ "coreConcept": "I/O redirection: file ko stdin/stdout ke roop me.",
+ "hinglishExplanation": "Pipes, shared memory, message passing.",
+ "formalDefinition": "I/O redirection: file ko stdin/stdout ke roop me.",
+ "importantProperties": [
+  "Redirection: existing file ko input/output.",
+  "Pipe unidirectional."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Redirection = rename."
+ ],
+ "standardTechniques": [
+  "1. Mechanism."
+ ],
+ "topicId": "operating-system:inter-process-communication"
+}

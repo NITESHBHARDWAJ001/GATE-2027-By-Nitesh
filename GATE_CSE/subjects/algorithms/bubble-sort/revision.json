@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Adjacent swaps; worst n(n-1)/2 swaps/comparisons; ek pass me max end me.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bubble Sort se related sawal.",
+   "thinkThis": "P4_BUBBLE_SORT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Passes ka count."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:bubble-sort",
+ "revisionLevel": "short-form"
+}

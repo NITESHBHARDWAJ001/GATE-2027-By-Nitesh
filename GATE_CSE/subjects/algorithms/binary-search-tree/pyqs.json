@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "algorithms__1.7.1",
+  "localId": "1.7.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "binary-search-tree",
+  "topic": "Binary Search Tree",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "30",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Let be the set of all integers from to . Consider any order of insertion of the elements of into a binary search tree that creates a complete binary tree. Which one of the following elements can NEVER be the third element that is inserted? A.                                         B.                                      C.              D.",
+  "tagsRaw": "gatecse-2026-set1 algorithms  binary-search-tree   two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 31
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BINARY_SEARCH_TREE_01"
+ },
+ {
+  "pyqId": "algorithms__1.7.2",
+  "localId": "1.7.2",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "binary-search-tree",
+  "topic": "Binary Search Tree",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "52",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "7:7",
+  "answerVerified": true,
+  "questionTextRaw": "The following sequence corresponds to the preorder traversal of a binary search tree : The position of the element in the postorder traversal of is                                       . (answer in integer) Note: The position begins with .",
+  "tagsRaw": "gatecse-2026-set1 numerical-answers  two-marks     binary-search-tree  algorithms",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 31
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BINARY_SEARCH_TREE_01"
+ },
+ {
+  "pyqId": "algorithms__1.7.3",
+  "localId": "1.7.3",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "binary-search-tree",
+  "topic": "Binary Search Tree",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "39",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A;C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a binary search tree (BST) with leaf nodes                                    . Given any node , the key present in the node is denoted as                         . All the keys present in the given BST are distinct. The keys belong to the set of real numbers. For a node , let                           denote the node that is its inorder successor. If a node    does not have an inorder successor, then is             . As there are no duplicates, if                            is not  , then . Corresponding to every leaf node that has a non-NULL                                               , a new key with the following property is to be inserted into the BST. Let represent the list of all such new keys to be inserted into the BST. Which of the following statements is/are true? A. cannot have any duplicates B. will have at least one element C. After inserting all keys from , the height of the BST can increase at most by one D. Number of nodes in the BST will double after inserting all keys from",
+  "tagsRaw": "gatecse-2026-set2 algorithms  binary-search-tree   multiple-selects    two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 31
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BINARY_SEARCH_TREE_01"
+ }
+]

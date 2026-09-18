@@ -1,0 +1,43 @@
+{
+ "overview": "Matrix algebra ke basic ideas: determinant, rank, inverse, singular/non-singular, symmetric counting, trace, null space, orthogonal/projection matrices, LU factorization.",
+ "whyItMatters": "24 PYQs, 1987-2026; recent saalon me MSQ 'always correct' statements common hain.",
+ "coreConcept": "Square matrix A invertible <=> det(A) != 0 <=> full rank <=> rows/columns linearly independent <=> Ax=0 ka sirf trivial solution.",
+ "hinglishExplanation": "Matrix ke bahut saare properties ek hi baat ke different chehre hain: singular = determinant 0 = rows dependent = null space non-trivial. Isliye statement check karte waqt in equivalences ko use karo. Counting questions me free entries gino: n x n symmetric 0/1 matrix ke liye 2^(n(n+1)/2).",
+ "formalDefinition": "rank(A) = number of linearly independent rows = dimension of column space.",
+ "importantProperties": [
+  "Singular <=> det = 0 <=> rows (columns) linearly dependent.",
+  "det(AB) = det(A)det(B); det(A^T) = det(A); det(kA) = k^n det(A); det(A^-1) = 1/det(A).",
+  "Row swap det ka sign badalta hai; row addition det nahi badalti; scaling det ko scale karti hai.",
+  "rank(A) + nullity(A) = number of columns (rank-nullity theorem).",
+  "(AB)^-1 = B^-1 A^-1; (AB)^T = B^T A^T.",
+  "trace(AB) = trace(BA); trace = sum of diagonal = sum of eigenvalues.",
+  "Symmetric n x n matrices with 0/1 entries: 2^(n(n+1)/2).",
+  "Orthogonal matrix: Q^T Q = I, norm-preserving, det = +/-1.",
+  "Projection matrix: P^2 = P.",
+  "Sum of two singular matrices non-singular ho sakti hai aur two non-singular ka sum singular ho sakta hai.",
+  "AB = I (square) => BA = I, dono inverse hain."
+ ],
+ "formulas": {
+  "detProduct": "det(AB) = det A det B",
+  "detScalar": "det(kA) = k^n det A",
+  "rankNullity": "rank + nullity = n",
+  "inverse": "A^-1 = adj(A)/det(A)",
+  "symCount": "2^(n(n+1)/2)"
+ },
+ "keyPropertiesAndIdentities": [
+  "Elementary row operations rank preserve karte hain.",
+  "Nilpotent/idempotent conditions se invertibility decide karo."
+ ],
+ "commonPitfalls": [
+  "det(A+B) = det A + det B maan lena (galat).",
+  "det(kA) = k det A (n dimension ka power bhoolna).",
+  "AB = BA maan lena (matrices generally commute nahi karte).",
+  "Null space vector ke saath det ke conclusion."
+ ],
+ "standardTechniques": [
+  "Row operations se det/rank/inverse.",
+  "Statement 'ALWAYS true' me chhota counter-example try karo.",
+  "Trace/eigenvalue link use karo."
+ ],
+ "topicId": "em-la-matrix"
+}

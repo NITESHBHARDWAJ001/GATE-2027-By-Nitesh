@@ -1,0 +1,70 @@
+[
+ {
+  "patternId": "KM_SOP_POS_01",
+  "name": "Minimal SOP / POS from K-map",
+  "recognitionClueHinglish": "K-map diya; minimal expression.",
+  "whatShouldComeToMind": [
+   "Grouping."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. 1s ya 0s.",
+   "2. Groups.",
+   "3. Terms."
+  ],
+  "formulasUsed": [
+   "groupTerm"
+  ],
+  "pyqExamples": [
+   "4.21.1",
+   "4.21.2",
+   "4.21.3",
+   "4.21.4",
+   "4.21.5",
+   "4.21.6",
+   "4.21.7",
+   "4.21.8",
+   "4.21.9",
+   "4.21.10",
+   "4.21.12",
+   "4.21.13",
+   "4.21.14",
+   "4.21.15"
+  ],
+  "variationsObserved": [
+   "Don't cares."
+  ],
+  "commonTraps": [
+   "Wrap-around."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "KM_FROM_EXPR_02",
+  "name": "Expression to K-map / Literal Count",
+  "recognitionClueHinglish": "Expression ka K-map ya dusra equivalent expression.",
+  "whatShouldComeToMind": [
+   "Fill map."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Minterms.",
+   "2. Map."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.21.11",
+   "4.21.16",
+   "4.21.17"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Complement terms."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:tuple-relational-calculus",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TUPLE--01",
+   "patternId": "P3_TUPLE_RELATIONAL_CALCULU_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "{t | R(t) and t.A > 5}?",
+   "solutionApproach": "Selection.",
+   "answer": "sigma_{A>5}(R)"
+  }
+ ]
+}

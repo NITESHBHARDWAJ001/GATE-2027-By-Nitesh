@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "engineering-mathematics-probability__7.17.1",
+  "localId": "7.17.1",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "square-invariant",
+  "topic": "Square Invariant",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "54",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "0.5:0.5",
+  "answerVerified": true,
+  "questionTextRaw": "A quadratic polynomial                                           over complex numbers is said to be square invariant if we choose one at random.                                    . Suppose from the set of all square invariant quadratic polynomials The probability that the roots of the chosen polynomial are equal is __________. (rounded off to one decimal place)",
+  "tagsRaw": "gatecse2025-set2 probability  square-invariant    numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 219
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SQUARE_INVARIANT_01"
+ }
+]

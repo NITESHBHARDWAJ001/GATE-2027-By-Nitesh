@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:bit-vector",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BIT-VE-01",
+   "patternId": "P3_BIT_VECTOR_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "1 M blocks bitmap size?",
+   "solutionApproach": "10^6 bits / 8.",
+   "answer": "125 KB"
+  }
+ ]
+}

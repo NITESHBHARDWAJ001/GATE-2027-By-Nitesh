@@ -1,0 +1,18 @@
+{
+ "coreIdea": "1D/2D arrays, triangular matrix compact storage, linear-time algorithms.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Arrays (Data Structure View) se related sawal.",
+   "thinkThis": "P3_ARRAY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Index base (0/1)."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-and-ds-data-structures:array",
+ "revisionLevel": "short-form"
+}

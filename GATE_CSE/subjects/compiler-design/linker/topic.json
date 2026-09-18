@@ -1,0 +1,20 @@
+{
+ "topicId": "compiler-design:linker",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Linker",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 1991-2004.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  1991,
+  2003,
+  2004
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

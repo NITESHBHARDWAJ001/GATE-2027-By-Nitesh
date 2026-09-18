@@ -1,0 +1,26 @@
+{
+ "overview": "Linear/binary search analysis, erroneous binary search code, comparison counts, bitonic search, transition point.",
+ "whyItMatters": "8 PYQs extracted (1996-2025); P2 topic.",
+ "coreConcept": "Sorted array me binary search O(log n); infinite loop/overflow/edge bugs GATE me common hain.",
+ "hinglishExplanation": "Binary search bug me low/high update ka dhyaan (mid+1/mid-1). Sequential search average successful (n+1)/2 comparisons. Bitonic array me peak binary search se.",
+ "formalDefinition": "Sorted array me binary search O(log n); infinite loop/overflow/edge bugs GATE me common hain.",
+ "importantProperties": [
+  "Linear avg successful: (n+1)/2.",
+  "Binary search: floor(log2 n)+1 comparisons worst.",
+  "Erroneous code: low=mid ya high=mid se infinite loop.",
+  "0s followed by 1s: first 1 by binary search.",
+  "Bitonic search: peak find karo, phir dono taraf binary search."
+ ],
+ "formulas": {
+  "linear": "(n+1)/2",
+  "binary": "floor(log2 n)+1"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Loop invariant/termination miss."
+ ],
+ "standardTechniques": [
+  "Chhote array par trace."
+ ],
+ "topicId": "algorithms:searching"
+}

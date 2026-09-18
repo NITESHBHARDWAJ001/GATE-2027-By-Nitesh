@@ -1,0 +1,25 @@
+{
+ "overview": "DMA controller data transfer bina CPU ke; burst vs cycle stealing; CPU time percentage stolen.",
+ "whyItMatters": "8 PYQs extracted (2004-2024); P2 topic.",
+ "coreConcept": "DMA memory bus cycles steal karke transfer karta hai; CPU sirf setup aur completion interrupt handle karta hai.",
+ "hinglishExplanation": "Cycle stealing me ek word transfer karke bus wapas CPU ko. Burst me poora block. Percentage CPU time = (DMA cycles per byte / total cycles) x 100.",
+ "formalDefinition": "DMA memory bus cycles steal karke transfer karta hai; CPU sirf setup aur completion interrupt handle karta hai.",
+ "importantProperties": [
+  "Burst mode: block transfer, CPU blocked.",
+  "Cycle stealing: ek word/cycle, CPU thoda slow.",
+  "DMA highest throughput for bulk disk transfers.",
+  "Data count register bits = max transfer size.",
+  "Number of transfers = data / data count capacity."
+ ],
+ "formulas": {
+  "stolenPercent": "DMA cycles / total cycles x 100"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Word vs byte."
+ ],
+ "standardTechniques": [
+  "Rate = data/rate approach."
+ ],
+ "topicId": "co-architecture:dma"
+}

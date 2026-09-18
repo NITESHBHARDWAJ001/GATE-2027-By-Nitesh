@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "operating-system__5.29.1",
+  "localId": "5.29.1",
+  "subjectId": "operating-system",
+  "subject": "Operating System",
+  "topicSlug": "srtf",
+  "topic": "Srtf",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "16",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A;B;D",
+  "answerVerified": true,
+  "questionTextRaw": "Processes                           arrive in that order at times                           , and 8 milliseconds respectively, and have execution times of                      , and 9 milliseconds respectively. Shortest Remaining Time First (SRTF) algorithm is used as the CPU scheduling policy. Ignore context switching times. Which ONE of the following correctly gives the average turnaround time of the four processes in milliseconds? A.                                  B.                                        C.                D.",
+  "tagsRaw": "gatecse2025-set2 operating-system srtf process-scheduling average-turnaround-time one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 452
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SRTF_01"
+ }
+]

@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:microprogramming",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MICROP-01",
+   "patternId": "P3_MICROPROGRAMMING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Field with 3 micro-operations or none: bits?",
+   "solutionApproach": "4 options.",
+   "answer": "2 bits"
+  }
+ ]
+}

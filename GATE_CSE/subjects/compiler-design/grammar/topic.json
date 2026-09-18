@@ -1,0 +1,21 @@
+{
+  "topicId": "cd-grammar",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "name": "Grammar",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "47 PYQs extracted — highest-PYQ topic in Compiler Design, tested 1988-2025. First study-order topic since it reuses Context Free Grammar directly from TOC.",
+  "pyqCountExtracted": 47,
+  "yearsCovered": [1988,1990,1991,1992,1994,1995,1996,1997,1998,1999,2001,2003,2004,2005,2006,2007,2008,2010,2016,2017,2019,2021,2024,2025],
+  "prerequisites": [
+    {"topic": "Context Free Language", "subjectId": "theory-of-computation", "why": "Compiler Design's Grammar topic is CFG applied specifically to programming language syntax and parsing."}
+  ],
+  "unlocks": [
+    {"topic": "LR Parser", "subjectId": "compiler-design", "why": "LR parsing table construction directly builds on grammar classification (LL/LR/ambiguity) skills here."},
+    {"topic": "Syntax Directed Translation", "subjectId": "compiler-design", "why": "SDT attaches semantic actions to grammar productions — needs grammar structure fluency first."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

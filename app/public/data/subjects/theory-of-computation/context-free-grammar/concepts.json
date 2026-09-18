@@ -1,0 +1,22 @@
+{
+ "overview": "Derivations, language generated, ambiguity, string membership.",
+ "whyItMatters": "2 PYQs extracted (2025-2026); P3 topic.",
+ "coreConcept": "Derivations, language generated, ambiguity, string membership.",
+ "hinglishExplanation": "Productions se language identify.",
+ "formalDefinition": "Derivations, language generated, ambiguity, string membership.",
+ "importantProperties": [
+  "Leftmost/rightmost derivations.",
+  "Ambiguity.",
+  "Language of grammar."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Language galat identify."
+ ],
+ "standardTechniques": [
+  "1. Derive strings.",
+  "2. Guess language."
+ ],
+ "topicId": "theory-of-computation:context-free-grammar"
+}

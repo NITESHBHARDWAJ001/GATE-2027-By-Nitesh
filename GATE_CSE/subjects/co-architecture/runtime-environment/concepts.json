@@ -1,0 +1,20 @@
+{
+ "overview": "Register windows overlap se procedure call/return me memory accesses kam.",
+ "whyItMatters": "2 PYQs extracted (2001-2008); P4 topic.",
+ "coreConcept": "Register windows overlap se procedure call/return me memory accesses kam.",
+ "hinglishExplanation": "Parameters overlapping registers se pass, stack memory access bachta hai.",
+ "formalDefinition": "Register windows overlap se procedure call/return me memory accesses kam.",
+ "importantProperties": [
+  "Stack pointer na ho to recursion/nested calls me dikkat.",
+  "Overlapped windows memory traffic ghatate hain."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Windows ko memory badhane wala maan lena."
+ ],
+ "standardTechniques": [
+  "1. Call overhead."
+ ],
+ "topicId": "co-architecture:runtime-environment"
+}

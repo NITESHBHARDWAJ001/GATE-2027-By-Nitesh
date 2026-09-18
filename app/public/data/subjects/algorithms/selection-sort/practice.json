@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:selection-sort",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SELECT-01",
+   "patternId": "P4_SELECTION_SORT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Selection sort worst swaps n elements?",
+   "solutionApproach": "Per pass ek.",
+   "answer": "n-1"
+  }
+ ]
+}

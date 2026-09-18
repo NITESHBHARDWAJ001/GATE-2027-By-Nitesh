@@ -1,0 +1,62 @@
+[
+ {
+  "patternId": "MUX_FUNCTION_01",
+  "name": "Output Function / Realization with MUX",
+  "recognitionClueHinglish": "MUX circuit ka expression ya function realize.",
+  "whatShouldComeToMind": [
+   "MUX equation."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Equation.",
+   "2. Substitute."
+  ],
+  "formulasUsed": [
+   "mux2"
+  ],
+  "pyqExamples": [
+   "4.27.1",
+   "4.27.3",
+   "4.27.4",
+   "4.27.6",
+   "4.27.8",
+   "4.27.9",
+   "4.27.10",
+   "4.27.11",
+   "4.27.12",
+   "4.27.13"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Select order."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "MUX_SIZE_02",
+  "name": "MUX Size / Encoder / Selection",
+  "recognitionClueHinglish": "Minimum size, priority encoder, register selection.",
+  "whatShouldComeToMind": [
+   "Counting."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Bits.",
+   "2. Size."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.27.2",
+   "4.27.5",
+   "4.27.7",
+   "4.27.14"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

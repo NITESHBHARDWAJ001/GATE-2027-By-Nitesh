@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Value of digits base r ke saath.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Number Systems (Radix) se related sawal.",
+   "thinkThis": "P4_NUMBER_SYSTEM_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Base confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:number-system",
+ "revisionLevel": "short-form"
+}

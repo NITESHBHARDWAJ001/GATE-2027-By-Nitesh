@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_HEAP_SORT_01",
+  "name": "Heap Sort (PYQ type)",
+  "recognitionClueHinglish": "Heap Sort se related sawal.",
+  "whatShouldComeToMind": [
+   "Build heap O(n), n extract-max O(n log n); in-place, unstable."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Build max-heap.",
+   "2. Swap root-last.",
+   "3. Heapify."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.21.1",
+   "1.21.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Build-heap ko O(n log n) maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

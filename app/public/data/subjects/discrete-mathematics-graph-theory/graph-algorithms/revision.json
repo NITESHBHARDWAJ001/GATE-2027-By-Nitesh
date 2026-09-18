@@ -1,0 +1,18 @@
+{
+ "coreIdea": "k-colorability: proper colouring exist karta hai ya nahi; greedy bound.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Graph Algorithms (Colorability) se related sawal.",
+   "thinkThis": "P3_GRAPH_ALGORITHMS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Planar ko 3-colourable maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:graph-algorithms",
+ "revisionLevel": "short-form"
+}

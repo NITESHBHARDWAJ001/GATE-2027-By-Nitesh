@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "digital-logic__4.35.1",
+  "localId": "4.35.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "static-hazard",
+  "topic": "Static Hazard",
+  "year": 2006,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "38",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "difficult",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Consider a Boolean function                                          . Suppose that exactly one of its inputs is allowed to change at a time. If the function happens to be true for two input vectors                                                                     and , we would like the function to remain true as the input changes from to ( and differ in    exactly                      one      bit             position)                 without        becoming  false               momentarily.  Let . Which of the following cube covers of will ensure that the required property is satisfied? A. B. C. D.",
+  "tagsRaw": "gatecse-2006 digital-logic  min-sum-of-products-form      difficult  static-hazard",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 359
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_STATIC_HAZARD_01"
+ }
+]

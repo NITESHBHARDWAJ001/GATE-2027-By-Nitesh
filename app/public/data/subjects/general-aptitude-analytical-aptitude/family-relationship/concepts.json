@@ -1,0 +1,22 @@
+{
+ "overview": "Relations se conclusion (sister, uncle, etc.).",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Relations se conclusion (sister, uncle, etc.).",
+ "hinglishExplanation": "Family tree draw.",
+ "formalDefinition": "Relations se conclusion (sister, uncle, etc.).",
+ "importantProperties": [
+  "Brother/sister same parents.",
+  "Daughter's brother = son.",
+  "Gender assumptions careful."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Gender assume karna."
+ ],
+ "standardTechniques": [
+  "1. Tree.",
+  "2. Relation."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:family-relationship"
+}

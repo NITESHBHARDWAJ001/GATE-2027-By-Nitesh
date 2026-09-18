@@ -1,0 +1,22 @@
+{
+ "overview": "Array access pattern se page reference string banakar LRU faults.",
+ "whyItMatters": "1 PYQs extracted (2023-2023); P3 topic.",
+ "coreConcept": "Array access pattern se page reference string banakar LRU faults.",
+ "hinglishExplanation": "Row-major array me consecutive elements same page me; page numbers nikalo.",
+ "formalDefinition": "Array access pattern se page reference string banakar LRU faults.",
+ "importantProperties": [
+  "Row-major: address = base + (i*cols + j)*size.",
+  "Page number = address / page size.",
+  "LRU: sabse purani use wala replace."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Column-major maan lena."
+ ],
+ "standardTechniques": [
+  "1. Reference string.",
+  "2. LRU."
+ ],
+ "topicId": "operating-system:least-recently-used"
+}

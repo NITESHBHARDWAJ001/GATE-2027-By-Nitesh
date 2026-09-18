@@ -1,0 +1,20 @@
+{
+ "overview": "ISA me kya aata hai: instructions, registers, addressing modes, data types; cache size nahi.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "ISA me kya aata hai: instructions, registers, addressing modes, data types; cache size nahi.",
+ "hinglishExplanation": "ISA programmer-visible interface hai; organization implementation detail.",
+ "formalDefinition": "ISA me kya aata hai: instructions, registers, addressing modes, data types; cache size nahi.",
+ "importantProperties": [
+  "ISA: opcodes, registers, addressing modes, word size.",
+  "Cache size/pipeline depth organization hain."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Organization ko ISA me ginna."
+ ],
+ "standardTechniques": [
+  "1. Programmer-visible?"
+ ],
+ "topicId": "co-architecture:instruction-set-architecture"
+}

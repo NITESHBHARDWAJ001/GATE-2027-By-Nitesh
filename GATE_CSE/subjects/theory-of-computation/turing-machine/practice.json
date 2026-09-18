@@ -1,0 +1,15 @@
+{
+ "topicId": "theory-of-computation:turing-machine",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TURING-01",
+   "patternId": "P3_TURING_MACHINE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Multi-tape TM more powerful?",
+   "solutionApproach": "Same.",
+   "answer": "Nahi"
+  }
+ ]
+}

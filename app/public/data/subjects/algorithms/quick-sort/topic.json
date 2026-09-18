@@ -1,0 +1,19 @@
+{
+  "topicId": "algorithms-quick-sort",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "name": "Quick Sort",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "15 PYQs extracted, tested 1987-2026, dedicated deep-dive topic (Sorting topic covers general comparison; this covers Quick Sort's specific recurrence/pivot analysis in depth).",
+  "pyqCountExtracted": 15,
+  "yearsCovered": [1987,1989,1992,1996,2001,2006,2008,2009,2014,2015,2019],
+  "prerequisites": [
+    {"topic": "Sorting", "subjectId": "algorithms", "why": "General sorting comparison context (stability, in-place, complexity table)."},
+    {"topic": "Recurrence Relation", "subjectId": "algorithms", "why": "Quick Sort's complexity analysis is entirely recurrence-based, depending on the pivot's split ratio."}
+  ],
+  "unlocks": [],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

@@ -1,0 +1,110 @@
+[
+ {
+  "patternId": "MAT_DET_RANK_01",
+  "name": "Determinant, Rank and Singularity Properties",
+  "recognitionClueHinglish": "Matrix ke det/rank/singular/inverse/null space ke statements ya calculation.",
+  "whatShouldComeToMind": [
+   "Invertible <=> det != 0 <=> full rank."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Equivalent conditions ko map karo.",
+   "2. Row operations se det/rank compute karo.",
+   "3. Counter-example."
+  ],
+  "formulasUsed": [
+   "detProduct",
+   "detScalar",
+   "rankNullity"
+  ],
+  "pyqExamples": [
+   "6.6.1",
+   "6.6.9",
+   "6.6.10",
+   "6.6.12",
+   "6.6.14",
+   "6.6.15",
+   "6.6.18",
+   "6.6.19",
+   "6.6.24",
+   "6.6.13"
+  ],
+  "variationsObserved": [
+   "Null-space vector diya to det 0."
+  ],
+  "commonTraps": [
+   "det(A+B) misuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "MAT_INVERSE_ALGEBRA_02",
+  "name": "Inverse, Products, Trace and Algebraic Identities",
+  "recognitionClueHinglish": "Inverse nikaalo ya identities (A^2 = I, AB, trace, commute) par conclusion.",
+  "whatShouldComeToMind": [
+   "Algebraic manipulation with identities."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Given identity likho.",
+   "2. Multiply/factor karke inverse ya trace nikaalo."
+  ],
+  "formulasUsed": [
+   "inverse"
+  ],
+  "pyqExamples": [
+   "6.6.3",
+   "6.6.4",
+   "6.6.5",
+   "6.6.6",
+   "6.6.7",
+   "6.6.8",
+   "6.6.16",
+   "6.6.17",
+   "6.6.21",
+   "6.6.22",
+   "6.6.23"
+  ],
+  "variationsObserved": [
+   "A^2 = A projection ke properties."
+  ],
+  "commonTraps": [
+   "Non-commutativity."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "MAT_COUNTING_SPECIAL_03",
+  "name": "Counting and Special Matrices (Symmetric, Orthogonal, LU)",
+  "recognitionClueHinglish": "Symmetric 0/1 matrices ki count, orthogonal, LU/permutation factorization.",
+  "whatShouldComeToMind": [
+   "Free entries / structure."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Free entries gino.",
+   "2. Multiplication principle."
+  ],
+  "formulasUsed": [
+   "symCount"
+  ],
+  "pyqExamples": [
+   "6.6.2",
+   "6.6.11",
+   "6.6.20"
+  ],
+  "variationsObserved": [
+   "Norm-preserving => orthogonal."
+  ],
+  "commonTraps": [
+   "Diagonal entries alag se count."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

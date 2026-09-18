@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Table lookups aur calculations.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Tables se related sawal.",
+   "thinkThis": "P3_TABLES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Wrong row."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:tables",
+ "revisionLevel": "short-form"
+}

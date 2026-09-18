@@ -1,0 +1,42 @@
+{
+ "topicId": "db-indexing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-IX-01",
+   "patternId": "IDX_BLOCK_CALC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "N=10000 records, R=100 B, B=1024 B. Data blocks (unspanned)?",
+   "solutionApproach": "bf = floor(1024/100) = 10; blocks = 10000/10.",
+   "answer": "1000"
+  },
+  {
+   "practiceId": "AI-IX-02",
+   "patternId": "IDX_BLOCK_CALC_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Above file, primary sparse index, key=10 B, pointer=6 B. Index blocks?",
+   "solutionApproach": "fi = floor(1024/16)=64; entries = 1000 data blocks; blocks = ceil(1000/64).",
+   "answer": "16"
+  },
+  {
+   "practiceId": "AI-IX-03",
+   "patternId": "IDX_CONCEPT_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Can a sparse index be built on an unordered file field?",
+   "solutionApproach": "No: sparse index needs the file ordered on that field.",
+   "answer": "No"
+  },
+  {
+   "practiceId": "AI-IX-04",
+   "patternId": "IDX_CONCEPT_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Is a hash index dense or sparse?",
+   "solutionApproach": "Every key has an entry: dense.",
+   "answer": "Dense"
+  }
+ ]
+}

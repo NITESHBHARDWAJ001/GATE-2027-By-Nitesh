@@ -1,0 +1,22 @@
+{
+  "topicId": "algorithms-graph-search",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "name": "Graph Search",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "23 PYQs extracted, tested 1989-2025 continuously including new DA stream. Prerequisite for Minimum Spanning Tree in study order.",
+  "pyqCountExtracted": 23,
+  "yearsCovered": [1989,2000,2001,2003,2006,2008,2014,2015,2016,2017,2018,2023,2024,2025],
+  "prerequisites": [
+    {"topic": "Queue", "subjectId": "programming-and-ds-data-structures", "why": "BFS is built directly on a queue."},
+    {"topic": "Stack", "subjectId": "programming-and-ds-data-structures", "why": "DFS's recursive call stack (or an explicit stack for iterative DFS) mirrors Stack's LIFO discipline."}
+  ],
+  "unlocks": [
+    {"topic": "Minimum Spanning Tree", "subjectId": "algorithms", "why": "Prim's algorithm is essentially a modified graph search (like Dijkstra's), reusing the same traversal skeleton."},
+    {"topic": "Graph Connectivity", "subjectId": "discrete-mathematics-graph-theory", "why": "DFS/BFS are the standard tools for testing and reasoning about connectivity."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

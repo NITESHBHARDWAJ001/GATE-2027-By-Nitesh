@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "digital-logic__4.25.1",
+  "localId": "4.25.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "min-products-of-sum-form",
+  "topic": "Min Products of Sum Form",
+  "year": 1990,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "5-a",
+  "sourceType": "GATE_PYQ",
+  "questionType": "DESCRIPTIVE",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "N/A",
+  "answerVerified": false,
+  "questionTextRaw": "Find the minimum product of sums of the following expression",
+  "tagsRaw": "gate1990 digital-logic     boolean-algebra  min-products-of-sum-form    canonical-normal-form  descriptive",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 341
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_MIN_PRODUCTS_OF_SUM_FORM_01"
+ },
+ {
+  "pyqId": "digital-logic__4.25.2",
+  "localId": "4.25.2",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "min-products-of-sum-form",
+  "topic": "Min Products of Sum Form",
+  "year": 2017,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "28",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Given                                                                                                       ; where represents the 'don't-care' condition in Karnaugh maps. Which of the following is a minimum product-of-sums (POS) form of ? A.                                                                                       B. C.                                                                                       D.",
+  "tagsRaw": "gatecse-2017-set2 digital-logic min-products-of-sum-form",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 341
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_MIN_PRODUCTS_OF_SUM_FORM_01"
+ }
+]

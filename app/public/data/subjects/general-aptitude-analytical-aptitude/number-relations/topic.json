@@ -1,0 +1,18 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:number-relations",
+ "subjectId": "general-aptitude-analytical-aptitude",
+ "subject": "General Aptitude - Analytical Aptitude",
+ "name": "Number/Grid Relations",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2024-2024.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2024
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

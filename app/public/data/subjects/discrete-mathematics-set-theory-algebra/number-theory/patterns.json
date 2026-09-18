@@ -1,0 +1,32 @@
+[
+ {
+  "patternId": "P3_NUMBER_THEORY_01",
+  "name": "Number Theory (Divisors, GCD) (PYQ type)",
+  "recognitionClueHinglish": "Number Theory (Divisors, GCD) se related sawal.",
+  "whatShouldComeToMind": [
+   "Divisors count = product of (e_i+1); gcd conditions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Factorize.",
+   "2. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.8.1",
+   "4.8.2",
+   "4.8.3",
+   "4.8.4",
+   "4.8.5",
+   "4.8.6",
+   "4.8.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Factorization me galti."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

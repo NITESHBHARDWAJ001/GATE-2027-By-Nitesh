@@ -1,0 +1,44 @@
+{
+ "overview": "B-tree / B+ tree disk-based index structures hain. GATE me 4 tarah ke sawal: (1) node ka order/max keys nikaalna block size se, (2) insertion/deletion/split ka result ya count, (3) height / nodes accessed, (4) conceptual statements (B vs B+).",
+ "whyItMatters": "32 PYQs, 1989 se 2026 tak lagatar; order-calculation NAT/MCQ har 2-3 saal me aata hai.",
+ "coreConcept": "B+ tree: sab data pointers leaf me, leaves linked (range query fast), internal nodes sirf routing keys. B-tree: internal nodes me bhi data pointers. Dono height-balanced hain.",
+ "hinglishExplanation": "Disk se ek block padhna bahut mehenga hai, isliye tree ko 'mota aur chhota' banate hain: ek node = ek disk block, aur us block me jitne keys/pointers aa sakein utne rakhte hain. Order nikaalne ke liye block size ko sab fields ke total size se compare karo: p*(block ptr) + (p-1)*(key) <= block size.",
+ "formalDefinition": "B+ tree of order p: internal node max p tree pointers, max p-1 keys, min ceil(p/2) pointers (root min 2). Leaf: max p_leaf (key, record ptr) pairs, min ceil(p_leaf/2).",
+ "importantProperties": [
+  "Non-leaf order p: p*P_b + (p-1)*K <= B  (P_b block pointer, K key size, B block size).",
+  "B+ tree leaf order: p_leaf*(K + P_r) + P_b <= B (ek next-leaf pointer).",
+  "B-tree node me record pointer bhi hota hai: p*P_b + (p-1)*(K + P_r) <= B.",
+  "Min children (non-root internal) = ceil(p/2); min keys = ceil(p/2) - 1. Max keys = p - 1.",
+  "Root ko half-full hone ki zaroorat nahi (min 2 children).",
+  "Leaf-level linked list ki wajah se B+ tree me range query fast.",
+  "Height h: max keys ~ p^h - 1 wale kaam ke liye, min children per level ceil(p/2) se min entries nikalte hain.",
+  "Search me nodes accessed = height (+1 record access).",
+  "Insertion me overflow par split; median parent me jaata hai (B+ me leaf split par key copy hoti hai, internal split par move).",
+  "Deletion me underflow par borrow (redistribute) ya merge.",
+  "Ek insert se maximum splits = height (root tak), naye nodes = height + 1 (naya root bhi)."
+ ],
+ "formulas": {
+  "internalOrder": "p*Pb + (p-1)*K <= B",
+  "leafOrder": "p_leaf*(K+Pr) + Pb <= B",
+  "bTreeOrder": "p*Pb + (p-1)*(K+Pr) <= B",
+  "minChildren": "ceil(p/2)",
+  "maxSplitsOnInsert": "height of tree (levels)",
+  "maxNewNodes": "height + 1"
+ },
+ "keyPropertiesAndIdentities": [
+  "p sabse bada integer jo inequality satisfy kare (floor lena).",
+  "Order ki definitions books me alag hoti hain: question ki definition follow karo."
+ ],
+ "commonPitfalls": [
+  "Key size aur record pointer ko B+ internal node me galat jodna (internal me record pointer nahi).",
+  "Order (pointers) aur keys (order - 1) me confuse.",
+  "Leaf split me key copy vs internal split me move ka farak bhoolna.",
+  "Root ki minimum occupancy alag hoti hai."
+ ],
+ "standardTechniques": [
+  "Inequality likhkar p ka max integer nikaalo.",
+  "Insertion me: leaf me daalo -> overflow -> split -> parent update -> repeat.",
+  "Range query me: search karke pehle leaf par jao, phir leaf links follow karo."
+ ],
+ "topicId": "db-b-tree"
+}

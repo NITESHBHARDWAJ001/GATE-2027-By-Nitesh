@@ -1,0 +1,20 @@
+{
+ "overview": "Square/row seating me relative positions.",
+ "whyItMatters": "1 PYQs extracted (2017-2017); P3 topic.",
+ "coreConcept": "Square/row seating me relative positions.",
+ "hinglishExplanation": "Diagram draw, opposite/next relations.",
+ "formalDefinition": "Square/row seating me relative positions.",
+ "importantProperties": [
+  "Square table: opposite pairs.",
+  "Left/right facing centre."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Facing direction."
+ ],
+ "standardTechniques": [
+  "1. Diagram."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:seating-arrangement"
+}

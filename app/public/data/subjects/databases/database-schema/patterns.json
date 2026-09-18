@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_DATABASE_SCHEMA_01",
+  "name": "Database Schema and Concepts (PYQ type)",
+  "recognitionClueHinglish": "Database Schema and Concepts se related sawal.",
+  "whatShouldComeToMind": [
+   "Schema vs instance, DDL/DML, levels of abstraction matching."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Match terms."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.7.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Schema aur instance confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

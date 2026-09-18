@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "GS_VALID_ORDER_01",
+    "name": "Valid DFS/BFS Traversal Order Identification",
+    "recognitionClueHinglish": "Ek graph diya hai aur candidate sequences di hain — poocha hai kaunsi sequence(s) VALID DFS (ya BFS) traversal order ho sakti hain.",
+    "whatShouldComeToMind": ["Simulate DFS/BFS explicitly on the graph, respecting the standard rule (visit neighbors in some consistent order, usually numeric/alphabetic unless stated), and compare against each candidate.", "For DFS: once you go deep down a branch, you CANNOT jump to an unrelated branch before backtracking — check this constraint against each candidate directly."],
+    "conceptsRequired": ["DFS/BFS algorithm mechanics"],
+    "generalSolvingApproach": ["1. Draw the graph clearly.", "2. For DFS: try to actually execute DFS from the stated start vertex, and see if the candidate sequence is ACHIEVABLE by some valid choice of neighbor-visit order at each step.", "3. For BFS: verify the candidate respects level-by-level order (all vertices at distance k appear before any vertex at distance k+1)."],
+    "formulasUsed": [],
+    "pyqExamples": ["1.18.2","1.18.5","1.18.7","1.18.12","1.18.13","1.18.23"],
+    "variationsObserved": ["BFS on a tree specifically, asking for max/min possible position of a vertex at a known distance — combinatorial counting on top of the traversal itself."],
+    "commonTraps": ["Assuming only ONE unique DFS/BFS order exists — multiple valid orders are usually possible depending on neighbor-visiting choices, unless the question fixes that order explicitly."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "GS_EDGE_CLASSIFICATION_02",
+    "name": "DFS Edge Classification & Structural Properties",
+    "recognitionClueHinglish": "Poocha hai edges ko TREE/BACK/FORWARD/CROSS classify karo, ya discovery/finish times ke baare me statement TRUE hai ya nahi, ya connected components ki count nikaalni hai from DFS forest — ye is topic ka sabse bada pattern hai (23 me se 11 PYQs).",
+    "whatShouldComeToMind": ["For UNDIRECTED graphs: only TREE and BACK edges exist, no forward/cross.", "Use the discovery/finish time interval rules to classify any given edge in a directed graph.", "Connected components = n - (tree edge count) relationship."],
+    "conceptsRequired": ["DFS discovery/finish time intervals", "Tree/back/forward/cross edge definitions", "Undirected-graph DFS simplification"],
+    "generalSolvingApproach": ["1. Run DFS explicitly (mentally or on paper), recording discovery time d[v] and finish time f[v] for each vertex.", "2. For each non-tree edge (u,v), apply the interval rules: nested opposite direction = back edge, nested same direction = forward edge, disjoint = cross edge.", "3. Remember: if the graph is UNDIRECTED, skip forward/cross entirely — those categories are impossible there.", "4. For connected-components questions, count the number of DFS/BFS tree roots needed, or apply n-c=tree-edges."],
+    "formulasUsed": ["backEdgeInterval","forwardEdgeInterval","crossEdgeInterval","forestEdgeCount"],
+    "pyqExamples": ["1.18.1","1.18.3","1.18.6","1.18.14","1.18.15","1.18.16","1.18.17","1.18.19","1.18.20","1.18.21","1.18.22"],
+    "variationsObserved": ["DFS tree = BFS tree (same tree from both algorithms) — a strong structural constraint implying specific graph properties (usually means the graph itself has a very restricted structure, like being a tree or having uniform edge patterns).", "'First new unvisited vertex' style questions about ancestor-descendant relationships in the DFS tree — reason via discovery-time ordering."],
+    "commonTraps": ["Trying to find forward/cross edges in an undirected graph — they don't exist there.", "Mixing up back-edge and forward-edge interval conditions (which one is 'nested going up' vs 'nested going down')."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "GS_BFS_SHORTESTPATH_03",
+    "name": "BFS Shortest-Path Tree Properties",
+    "recognitionClueHinglish": "BFS tree ke baare me poocha hai ki ye kis cheez ko correctly compute karta hai, ya distance/level relationships ke baare me claim TRUE hai ya nahi — ye BFS-specific property pattern hai.",
+    "whatShouldComeToMind": ["BFS tree gives shortest path (by EDGE COUNT) from source to every vertex, in an UNWEIGHTED graph — this is BFS's headline property, DFS does NOT share it.", "Any non-tree edge in a BFS traversal connects vertices whose BFS-levels differ by AT MOST 1 (can't 'skip' levels)."],
+    "conceptsRequired": ["BFS level/distance correspondence", "BFS tree shortest-path guarantee"],
+    "generalSolvingApproach": ["1. For 'what does the BFS tree compute' questions: default answer is shortest path FROM THE SOURCE (not between every pair — that needs BFS from every vertex, or a different algorithm entirely).", "2. For level-difference claims about non-tree edges, verify against the 'at most 1 level difference' property.", "3. For algorithms BUILT on BFS (like double-BFS to find tree diameter), trace the described procedure step by step on the given graph."],
+    "formulasUsed": [],
+    "pyqExamples": ["1.18.4","1.18.9","1.18.11","1.18.18"],
+    "variationsObserved": ["Double-BFS technique (BFS from arbitrary vertex to find a farthest vertex, then BFS again from there) — used for finding tree/graph diameter, a specific composed-algorithm application."],
+    "commonTraps": ["Confusing 'BFS gives shortest path from ONE source' with 'BFS gives all-pairs shortest paths' — it's only single-source."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "GS_COMPLEXITY_DEPTH_04",
+    "name": "DFS/BFS Time Complexity & Recursion Depth Analysis",
+    "recognitionClueHinglish": "Poocha hai DFS/BFS ki time complexity kya hai (given representation: adjacency list vs matrix), ya DFS ki maximum possible recursion depth kya hogi — ye complexity-analysis pattern hai.",
+    "whatShouldComeToMind": ["Adjacency LIST: O(V+E). Adjacency MATRIX: O(V²) regardless of actual edge sparsity.", "Maximum DFS recursion depth = length of the longest possible root-to-deepest-vertex path the DFS could take, which depends on the graph's structure and the ORDER in which neighbors are explored."],
+    "conceptsRequired": ["Representation-dependent complexity", "DFS call-stack depth reasoning"],
+    "generalSolvingApproach": ["1. Check which representation (list or matrix) the question specifies, apply the corresponding complexity directly.", "2. For max recursion depth questions: think about the WORST-CASE neighbor-exploration order that would make DFS go as deep as possible before backtracking — often means finding the longest possible simple path DFS could be forced to trace."],
+    "formulasUsed": ["dfsBfsComplexityList","dfsBfsComplexityMatrix"],
+    "pyqExamples": ["1.18.8","1.18.10"],
+    "variationsObserved": [],
+    "commonTraps": ["Using O(V+E) blindly even when the question specifies an adjacency MATRIX representation."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  }
+]

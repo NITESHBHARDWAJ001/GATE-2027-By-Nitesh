@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_NETWORK_SWITCHING_01",
+  "name": "Packet/Circuit Switching (PYQ type)",
+  "recognitionClueHinglish": "Packet/Circuit Switching se related sawal.",
+  "whatShouldComeToMind": [
+   "Store-and-forward end-to-end delay; packet vs circuit switching."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Hops.",
+   "2. Delay."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.24.1",
+   "2.24.2",
+   "2.24.3",
+   "2.24.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Hops count galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

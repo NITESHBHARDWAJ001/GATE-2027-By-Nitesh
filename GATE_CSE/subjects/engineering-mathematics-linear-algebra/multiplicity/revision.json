@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Algebraic multiplicity <= n; geometric <= algebraic.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Eigenvalue Multiplicity se related sawal.",
+   "thinkThis": "P3_MULTIPLICITY_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Distinct eigenvalue maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:multiplicity",
+ "revisionLevel": "short-form"
+}

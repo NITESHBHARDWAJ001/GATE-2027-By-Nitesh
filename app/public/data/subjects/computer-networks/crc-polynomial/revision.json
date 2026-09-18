@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Message ko x^r se multiply karke generator se mod 2 divide; remainder append.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "CRC (Polynomial Division) se related sawal.",
+   "thinkThis": "P3_CRC_POLYNOMIAL_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "XOR ki jagah normal subtraction."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:crc-polynomial",
+ "revisionLevel": "short-form"
+}

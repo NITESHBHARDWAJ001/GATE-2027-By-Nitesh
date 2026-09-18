@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-combinatory:pigeonhole-principle",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PIGEON-01",
+   "patternId": "P4_PIGEONHOLE_PRINCIPLE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Kitne cards nikalen to same suit ke 2 pakka (4 suits)?",
+   "solutionApproach": "4+1.",
+   "answer": "5"
+  }
+ ]
+}

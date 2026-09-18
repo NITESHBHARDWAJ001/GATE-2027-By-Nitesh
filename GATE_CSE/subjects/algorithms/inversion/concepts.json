@@ -1,0 +1,23 @@
+{
+ "overview": "Inversion = pair i<j, a[i]>a[j]; insertion sort ke swaps = inversions.",
+ "whyItMatters": "2 PYQs extracted (2003-2025); P3 topic.",
+ "coreConcept": "Inversion = pair i<j, a[i]>a[j]; insertion sort ke swaps = inversions.",
+ "hinglishExplanation": "Average inversions in random permutation = n(n-1)/4; max n(n-1)/2.",
+ "formalDefinition": "Inversion = pair i<j, a[i]>a[j]; insertion sort ke swaps = inversions.",
+ "importantProperties": [
+  "Insertion sort swaps = number of inversions.",
+  "Sorted: 0 inversions; reversed: n(n-1)/2.",
+  "Random average: n(n-1)/4.",
+  "Merge sort se O(n log n) me count."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Adjacent-swaps aur inversions ko confuse."
+ ],
+ "standardTechniques": [
+  "1. Pairs check.",
+  "2. Formula."
+ ],
+ "topicId": "algorithms:inversion"
+}

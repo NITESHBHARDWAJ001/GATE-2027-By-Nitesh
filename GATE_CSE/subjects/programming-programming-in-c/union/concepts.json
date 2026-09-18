@@ -1,0 +1,20 @@
+{
+ "overview": "Union members same memory share; size largest member.",
+ "whyItMatters": "1 PYQs extracted (2000-2000); P4 topic.",
+ "coreConcept": "Union members same memory share; size largest member.",
+ "hinglishExplanation": "Union ka size max member ke barabar (alignment ke saath).",
+ "formalDefinition": "Union members same memory share; size largest member.",
+ "importantProperties": [
+  "sizeof(union)=max member.",
+  "Ek time par ek member valid."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Sum of sizes."
+ ],
+ "standardTechniques": [
+  "1. Largest member."
+ ],
+ "topicId": "programming-programming-in-c:union"
+}

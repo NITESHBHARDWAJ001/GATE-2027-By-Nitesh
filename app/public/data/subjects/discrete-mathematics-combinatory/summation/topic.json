@@ -1,0 +1,21 @@
+{
+ "topicId": "discrete-mathematics-combinatory:summation",
+ "subjectId": "discrete-mathematics-combinatory",
+ "subject": "Discrete Mathematics - Combinatory",
+ "name": "Summations",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 1989-2015.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  1989,
+  1994,
+  2008,
+  2015
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

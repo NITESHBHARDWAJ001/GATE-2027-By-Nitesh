@@ -1,0 +1,22 @@
+{
+ "overview": "Growing aur shrinking phase; conflict serializability; deadlock possible.",
+ "whyItMatters": "1 PYQs extracted (2024-2024); P3 topic.",
+ "coreConcept": "Growing aur shrinking phase; conflict serializability; deadlock possible.",
+ "hinglishExplanation": "Ek baar unlock kiya to naya lock nahi.",
+ "formalDefinition": "Growing aur shrinking phase; conflict serializability; deadlock possible.",
+ "importantProperties": [
+  "2PL => conflict serializable.",
+  "Deadlock possible.",
+  "Strict 2PL: X locks commit tak.",
+  "2PL serial schedules hi nahi deta (more concurrency)."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "2PL = serial samajhna."
+ ],
+ "standardTechniques": [
+  "1. Lock points."
+ ],
+ "topicId": "databases:two-phase-locking-protocol"
+}

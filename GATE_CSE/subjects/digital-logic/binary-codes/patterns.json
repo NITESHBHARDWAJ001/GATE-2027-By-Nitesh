@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_BINARY_CODES_01",
+  "name": "Gray Code (PYQ type)",
+  "recognitionClueHinglish": "Gray Code se related sawal.",
+  "whatShouldComeToMind": [
+   "Consecutive values me sirf ek bit alag."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. XOR."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.3.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Conversion direction."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,20 @@
+{
+ "overview": "Sets ke union/intersection counts.",
+ "whyItMatters": "5 PYQs extracted (2010-2024); P3 topic.",
+ "coreConcept": "Sets ke union/intersection counts.",
+ "hinglishExplanation": "|AuB|=|A|+|B|-|AnB|.",
+ "formalDefinition": "Sets ke union/intersection counts.",
+ "importantProperties": [
+  "Inclusion-exclusion.",
+  "3-set formula."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Double count."
+ ],
+ "standardTechniques": [
+  "1. Regions."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:venn-diagram"
+}

@@ -1,0 +1,27 @@
+{
+  "topicId": "dl-boolean-algebra",
+  "revisionLevel": "short-form",
+  "coreIdea": "Algebra with {0,1}. De Morgan's is king. NAND/NOR are commutative but NOT associative. Total n-var functions = 2^(2^n).",
+  "mustRememberFormulas": [
+    "De Morgan's: (A+B)'=A'B', (AB)'=A'+B'",
+    "XOR: A⊕A=0, A⊕1=A'. XNOR: A⊙B=(A⊕B)'",
+    "Absorption: A+AB=A. Consensus: AB+A'C+BC=AB+A'C",
+    "Total n-variable Boolean functions = 2^(2^n)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "expression given, asked to simplify or check equivalence of options", "thinkThis": "BA_SIMPLIFY_EQUIV_01"},
+    {"seeThis": "multiple Boolean equations given, find variable values", "thinkThis": "BA_SIMULTANEOUS_EQUATIONS_02"},
+    {"seeThis": "custom operator defined, asked to evaluate an expression using it", "thinkThis": "BA_CUSTOM_OPERATOR_03"},
+    {"seeThis": "'commutative but not associative' or function-counting question", "thinkThis": "BA_PROPERTIES_LAWS_04"}
+  ],
+  "commonTrapsQuickList": [
+    "NAND and NOR are commutative but NOT associative — the classic trap answer",
+    "XOR ≠ XNOR — don't mix up 'exactly one true' vs 'both same'",
+    "Consensus term (BC in AB+A'C+BC) is redundant, often mistakenly kept",
+    "For ≤4 variables, truth-table comparison beats risky algebra under time pressure"
+  ],
+  "highYieldPyqLessons": [
+    "Simplification/equivalence (17/34) is exactly half the topic — build both algebraic identity fluency AND the truth-table-verification habit as a reliable fallback.",
+    "This topic pairs directly with Circuit Output and Min SOP Form — the same simplification skill is reused in circuit analysis."
+  ]
+}

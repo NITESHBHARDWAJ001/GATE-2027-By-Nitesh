@@ -1,0 +1,22 @@
+{
+  "topicId": "ds-binary-heap",
+  "subjectId": "programming-and-ds-data-structures",
+  "subject": "Programming and DS: Data Structures",
+  "name": "Binary Heap",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "30 PYQs extracted, tested 1990-2025. Sixth and final Data Structures topic in study order — reuses Binary Tree's array-representation pattern with a different invariant.",
+  "pyqCountExtracted": 30,
+  "yearsCovered": [1990,1996,1999,2001,2003,2004,2005,2006,2007,2009,2011,2014,2015,2016,2018,2019,2020,2021,2023,2024,2025],
+  "prerequisites": [
+    {"topic": "Binary Tree", "subjectId": "programming-and-ds-data-structures", "why": "Heap array-representation formulas (parent/child index) are the same as complete binary tree array representation."}
+  ],
+  "unlocks": [
+    {"topic": "Heap Sort", "subjectId": "algorithms", "why": "Heap Sort is a direct application of build-heap + repeated extract-max."},
+    {"topic": "Minimum Spanning Tree", "subjectId": "algorithms", "why": "Prim's algorithm uses a min-heap as its priority queue."},
+    {"topic": "Dijkstra's Algorithm", "subjectId": "algorithms", "why": "Dijkstra's shortest path also uses a min-heap priority queue."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

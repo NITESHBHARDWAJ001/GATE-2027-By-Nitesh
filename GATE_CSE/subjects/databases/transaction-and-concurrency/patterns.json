@@ -1,0 +1,146 @@
+[
+ {
+  "patternId": "TX_SERIALIZABILITY_01",
+  "name": "Conflict Serializability / Precedence Graph",
+  "recognitionClueHinglish": "Schedule di hai; conflict serializable hai ya nahi, ya kaunsa serial order equivalent hai.",
+  "whatShouldComeToMind": [
+   "Precedence graph aur cycle detection."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har item ke liye conflicting pairs list karo.",
+   "2. Edge Ti -> Tj banao.",
+   "3. Cycle => not serializable.",
+   "4. Topological order = serial order."
+  ],
+  "formulasUsed": [
+   "conflict",
+   "csTest",
+   "numSerialSchedules"
+  ],
+  "pyqExamples": [
+   "3.25.2",
+   "3.25.4",
+   "3.25.7",
+   "3.25.8",
+   "3.25.14",
+   "3.25.23",
+   "3.25.27"
+  ],
+  "variationsObserved": [
+   "Kitne serializable schedules possible.",
+   "Interleaved schedule ka equivalent serial order."
+  ],
+  "commonTraps": [
+   "RR conflict maan lena.",
+   "Edge direction galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "TX_RECOVERABILITY_02",
+  "name": "Recoverable / Cascadeless / Strict and Rollback",
+  "recognitionClueHinglish": "Schedule me abort/commit hai; recoverable hai ya nahi, ya kaunse transactions rollback honge.",
+  "whatShouldComeToMind": [
+   "Dirty read + commit order."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Kaun kis se dirty read karta hai dekho.",
+   "2. Reader ka commit writer ke baad hai kya.",
+   "3. Abort par cascading rollback list banao."
+  ],
+  "formulasUsed": [
+   "hierarchy"
+  ],
+  "pyqExamples": [
+   "3.25.3",
+   "3.25.11",
+   "3.25.15",
+   "3.25.19",
+   "3.25.20"
+  ],
+  "variationsObserved": [
+   "Kaunse transactions cascade me rollback honge."
+  ],
+  "commonTraps": [
+   "Cascadeless aur recoverable ko ek maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "TX_LOCKING_03",
+  "name": "2PL, Strict 2PL, Timestamp Ordering, Locking Granularity",
+  "recognitionClueHinglish": "Kaunsa protocol serializability/deadlock-freedom/recoverability deta hai; locking scheme strict 2PL satisfy karti hai ya nahi.",
+  "whatShouldComeToMind": [
+   "2PL phases aur protocol guarantees ki table."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Lock/unlock sequence me growing-then-shrinking check.",
+   "2. Strict 2PL: X locks commit tak.",
+   "3. Protocol properties yaad se match karo."
+  ],
+  "formulasUsed": [
+   "hierarchy"
+  ],
+  "pyqExamples": [
+   "3.25.6",
+   "3.25.13",
+   "3.25.16",
+   "3.25.21",
+   "3.25.22",
+   "3.25.26",
+   "3.25.1"
+  ],
+  "variationsObserved": [
+   "Ordered locking se deadlock-free banana.",
+   "Row vs page vs table concurrency.",
+   "Phantom / range query issues."
+  ],
+  "commonTraps": [
+   "2PL ko deadlock-free maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "TX_ACID_RECOVERY_04",
+  "name": "ACID Properties and Log-Based Recovery",
+  "recognitionClueHinglish": "Property ka naam pehchano ya log + checkpoint se REDO/UNDO lists nikaalo.",
+  "whatShouldComeToMind": [
+   "Atomicity/Consistency/Isolation/Durability ke definitions; checkpoint recovery."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Scenario ko ACID property se match karo.",
+   "2. Log me last checkpoint dhundo.",
+   "3. Committed => redo, uncommitted => undo."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.25.5",
+   "3.25.9",
+   "3.25.10",
+   "3.25.12",
+   "3.25.17",
+   "3.25.18",
+   "3.25.24",
+   "3.25.25"
+  ],
+  "variationsObserved": [
+   "Crash during recovery."
+  ],
+  "commonTraps": [
+   "Consistency aur Isolation confuse karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ }
+]

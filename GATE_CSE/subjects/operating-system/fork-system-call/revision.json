@@ -1,0 +1,30 @@
+{
+ "coreIdea": "Each fork() doubles the number of processes (parent + child both continue after it).",
+ "mustRememberFormulas": [
+  "processes: 2^k after k unconditional forks",
+  "children: 2^k - 1"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "fork() sequence ya loop; kitne processes ya children.",
+   "thinkThis": "FRK_COUNT_01"
+  },
+  {
+   "seeThis": "Code me printf, wait; total prints ya output.",
+   "thinkThis": "FRK_OUTPUT_02"
+  },
+  {
+   "seeThis": "System call vs function call.",
+   "thinkThis": "FRK_MODE_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Address vs value samajhna.",
+  "Total vs new children."
+ ],
+ "highYieldPyqLessons": [
+  "Counting questions repeat with small variations (2004, 2008, 2012, 2019)."
+ ],
+ "topicId": "operating-system:fork-system-call",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,33 @@
+{
+ "coreIdea": "Linearity always works; indicators turn counts into probabilities; recursion for waiting.",
+ "mustRememberFormulas": [
+  "E[aX+bY]=aEX+bEY",
+  "Var=E[X^2]-(EX)^2",
+  "E[I]=P",
+  "geometric mean 1/p"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "expected number of ... in random structure",
+   "thinkThis": "EXP_LINEARITY_01"
+  },
+  {
+   "seeThis": "distribution given",
+   "thinkThis": "EXP_DIRECT_PMF_02"
+  },
+  {
+   "seeThis": "expected throws until",
+   "thinkThis": "EXP_WAITING_TIME_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "E[XY] needs independence",
+  "Var uses squares",
+  "1 + in recursion"
+ ],
+ "highYieldPyqLessons": [
+  "Linearity of expectation is the hero of most numeric questions."
+ ],
+ "topicId": "em-prob-expectation",
+ "revisionLevel": "short-form"
+}

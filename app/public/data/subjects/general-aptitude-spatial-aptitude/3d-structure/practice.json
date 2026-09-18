@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-spatial-aptitude:3d-structure",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-3D-STR-01",
+   "patternId": "P3_3D_STRUCTURE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Top view 2 rows x 2 cols, height 1?",
+   "solutionApproach": "4 cubes.",
+   "answer": "4"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:depth-first-search",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DEPTH--01",
+   "patternId": "P3_DEPTH_FIRST_SEARCH_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "DFS me back edge kya batati hai?",
+   "solutionApproach": "Ancestor tak wapas edge.",
+   "answer": "Cycle"
+  }
+ ]
+}

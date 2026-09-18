@@ -1,0 +1,27 @@
+{
+ "topicId": "co-architecture:interrupts",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "Interrupts",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "10 PYQs extracted, 1987-2026.",
+ "pyqCountExtracted": 10,
+ "yearsCovered": [
+  1987,
+  1995,
+  1998,
+  2002,
+  2005,
+  2009,
+  2020,
+  2023,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

@@ -1,0 +1,23 @@
+{
+ "overview": "Max instances, safe state, resource ordering, wait-die/wound-wait.",
+ "whyItMatters": "4 PYQs extracted (2004-2026); P3 topic.",
+ "coreConcept": "Max instances, safe state, resource ordering, wait-die/wound-wait.",
+ "hinglishExplanation": "n processes, har ek max k resources chahta hai: deadlock-free iff R >= n(k-1)+1.",
+ "formalDefinition": "Max instances, safe state, resource ordering, wait-die/wound-wait.",
+ "importantProperties": [
+  "Deadlock-free min resources = n(k-1)+1.",
+  "Prevention: mutual exclusion, hold&wait, no preemption, circular wait me se ek todo.",
+  "Avoidance: safe state (Banker's).",
+  "Timestamp schemes wait-die, wound-wait."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "+1 bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Worst case har ko k-1.",
+  "2. +1."
+ ],
+ "topicId": "operating-system:deadlock-prevention-avoidance-detection"
+}

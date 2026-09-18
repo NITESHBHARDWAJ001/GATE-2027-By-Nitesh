@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_DEMAND_PAGING_01",
+  "name": "Demand Paging (PYQ type)",
+  "recognitionClueHinglish": "Demand Paging se related sawal.",
+  "whatShouldComeToMind": [
+   "Page fault, page table bits, replacement, effective access time."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Reference string trace."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.6.1",
+   "5.6.2",
+   "5.6.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Fault rate probability p ka use."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

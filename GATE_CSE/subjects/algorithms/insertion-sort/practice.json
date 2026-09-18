@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:insertion-sort",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INSERT-01",
+   "patternId": "P4_INSERTION_SORT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Insertion sort on reversed array of 4 elements: inversions?",
+   "solutionApproach": "4*3/2.",
+   "answer": "6"
+  }
+ ]
+}

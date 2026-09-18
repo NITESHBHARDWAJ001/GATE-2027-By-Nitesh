@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:double-hashing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DOUBLE-01",
+   "patternId": "P3_DOUBLE_HASHING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "m=7, h1=k mod 7, h2=1+(k mod 5). Key 15 collide ho to next slot?",
+   "solutionApproach": "h1=1, h2=1: 2.",
+   "answer": "Slot 2"
+  }
+ ]
+}

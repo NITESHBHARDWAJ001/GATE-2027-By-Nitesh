@@ -1,0 +1,20 @@
+{
+ "subjectId": "programming-programming-in-c",
+ "name": "Programming: Programming in C",
+ "sourceVolume": "volume2",
+ "sourcePdf": "filter1_volume2 (1).pdf",
+ "totalTopics": 20,
+ "totalPyqsExtracted": 131,
+ "priorityDistribution": {
+  "P1": 3,
+  "P2": 5,
+  "P3": 4,
+  "P4": 8
+ },
+ "p1Topics": [
+  "Pointers",
+  "Programming In C",
+  "Recursion"
+ ],
+ "processingStatus": "all_P1_topics_complete (3/3): programming-in-c, recursion, pointers"
+}

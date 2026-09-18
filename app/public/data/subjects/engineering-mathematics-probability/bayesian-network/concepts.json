@@ -1,0 +1,22 @@
+{
+ "overview": "Joint = product of conditionals; conditional independence graph se.",
+ "whyItMatters": "2 PYQs extracted (2024-2024); P3 topic.",
+ "coreConcept": "Joint = product of conditionals; conditional independence graph se.",
+ "hinglishExplanation": "P(X1..Xn) = prod P(Xi | parents).",
+ "formalDefinition": "Joint = product of conditionals; conditional independence graph se.",
+ "importantProperties": [
+  "Factorization by parents.",
+  "d-separation conditional independence.",
+  "Chain, fork, collider."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Collider par conditioning."
+ ],
+ "standardTechniques": [
+  "1. Graph.",
+  "2. Factorize."
+ ],
+ "topicId": "engineering-mathematics-probability:bayesian-network"
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:uniform-hashing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-UNIFOR-01",
+   "patternId": "P3_UNIFORM_HASHING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "10 keys, 100 slots. Expected colliding pairs?",
+   "solutionApproach": "45/100.",
+   "answer": "0.45"
+  }
+ ]
+}

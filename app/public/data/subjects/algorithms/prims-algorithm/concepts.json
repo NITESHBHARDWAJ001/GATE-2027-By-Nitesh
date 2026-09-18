@@ -1,0 +1,22 @@
+{
+ "overview": "MST greedy: cut ki lightest edge chuno; edges ka sequence poochha jaata hai.",
+ "whyItMatters": "2 PYQs extracted (2004-2008); P4 topic.",
+ "coreConcept": "MST greedy: cut ki lightest edge chuno; edges ka sequence poochha jaata hai.",
+ "hinglishExplanation": "Ek vertex se shuru, har baar tree se bahar jaane wali minimum edge add karo.",
+ "formalDefinition": "MST greedy: cut ki lightest edge chuno; edges ka sequence poochha jaata hai.",
+ "importantProperties": [
+  "O(E log V) heap se.",
+  "Har step par edge tree ko connected rakhe.",
+  "Valid Prim sequence: har edge current tree se attached."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Kruskal ki sequence maan lena."
+ ],
+ "standardTechniques": [
+  "1. Start.",
+  "2. Min crossing edge."
+ ],
+ "topicId": "algorithms:prims-algorithm"
+}

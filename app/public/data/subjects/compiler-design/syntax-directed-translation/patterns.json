@@ -1,0 +1,47 @@
+[
+  {
+    "patternId": "SDT_COMPUTE_VALUE_01",
+    "name": "Compute Attribute Value / Output via Given SDT",
+    "recognitionClueHinglish": "Ek SDT/translation scheme di hai aur poocha hai specific input ke liye final attribute VALUE (ya printed output sequence) kya hoga — is topic ka sabse bada pattern hai (19 me se 10 PYQs).",
+    "whatShouldComeToMind": ["Build the parse tree for the given input first.", "Evaluate attributes following the dependency order (synthesized bottom-up typically, unless inherited attributes are involved needing top-down/left-to-right flow).", "For bottom-up (LR) parsing with embedded actions: actions fire exactly at the corresponding REDUCE step, in the order reduces happen."],
+    "conceptsRequired": ["Parse tree construction", "Attribute dependency evaluation order"],
+    "generalSolvingApproach": ["1. Parse the given input string with the grammar, building the parse tree (or simulating the shift-reduce sequence if bottom-up).", "2. Evaluate each node's attribute(s) following the semantic rules, respecting dependency order (a rule needs its RHS attributes computed first).", "3. Report the requested final value (usually the start symbol's synthesized attribute, or the sequence of printed actions in order)."],
+    "formulasUsed": [],
+    "pyqExamples": ["2.27.2","2.27.3","2.27.4","2.27.5","2.27.8","2.27.9","2.27.10","2.27.14","2.27.15","2.27.16"],
+    "variationsObserved": ["Print-action-sequence questions (postfix/prefix-style output) — track the ORDER actions fire relative to shift/reduce steps, not just the final numeric value.", "Multiple SDT variants (SDD1 vs SDD2) for the SAME grammar, compared for correctness/output difference."],
+    "commonTraps": ["Evaluating attributes in an arbitrary order instead of the actual DEPENDENCY-respecting order — always check what each rule needs before computing it.", "Missing embedded semantic actions that fire MID-production, not just at the end."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "SDT_CLASSIFY_02",
+    "name": "S-Attributed vs L-Attributed Classification",
+    "recognitionClueHinglish": "Poocha hai ek SDD S-ATTRIBUTED hai ya L-ATTRIBUTED (ya neither), ya bottom-up parsing me inherited attributes evaluate ho sakte hain ya nahi — ye classification pattern hai.",
+    "whatShouldComeToMind": ["S-attributed = ONLY synthesized attributes.", "L-attributed = synthesized + inherited attributes that depend ONLY on the LEFT (earlier siblings or the parent) — never on something to the right.", "Bottom-up (LR) parsing can evaluate inherited attributes ONLY if the SDD is L-attributed."],
+    "conceptsRequired": ["Synthesized vs inherited attribute definitions", "Left-to-right dependency check"],
+    "generalSolvingApproach": ["1. Check if ANY attribute is inherited — if none, it's S-attributed (and automatically also L-attributed).", "2. For each inherited attribute, trace its dependency: does it EVER need a value from something to its RIGHT (a later sibling, or a parent attribute that itself needs a later value)? If yes, NOT L-attributed.", "3. Determine bottom-up-evaluability directly from the L-attributed classification result."],
+    "formulasUsed": ["sAttributedSubsetLAttributed","bottomUpEvaluationRule","sAttributedAlwaysBottomUpOK"],
+    "pyqExamples": ["2.27.7","2.27.12","2.27.17","2.27.18"],
+    "variationsObserved": ["Multiple rules given for comparison, asked to classify EACH one independently as S-attributed/L-attributed/neither."],
+    "commonTraps": ["Assuming ANY inherited attribute automatically disqualifies L-attributed status — only RIGHT-dependent inherited attributes do; LEFT-dependent inherited attributes are fine for L-attributed."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "SDT_DESIGN_03",
+    "name": "Design/Write SDT Rules for a Given Task",
+    "recognitionClueHinglish": "Poocha hai ek specific task (symbol table me type add karna, type-checking, code generation) ke liye semantic rules likho — design pattern hai.",
+    "whatShouldComeToMind": ["Identify what needs to flow UP (results — synthesized) vs DOWN/ACROSS (context like declared type — inherited).", "For symbol-table/type-declaration tasks: type info usually flows DOWN from a type-keyword node to each identifier (inherited attribute)."],
+    "conceptsRequired": ["Synthesized/inherited attribute design", "Common compiler-task attribute patterns (type propagation, code generation)"],
+    "generalSolvingApproach": ["1. Identify the grammar's structure and what information each part of the task needs.", "2. Design attributes: synthesized for bottom-up-computed results (expression values, generated code fragments), inherited for top-down/across context (type declarations, scope info).", "3. Write semantic rules attached to each relevant production, ensuring the dependency order is well-defined (no circular dependencies)."],
+    "formulasUsed": [],
+    "pyqExamples": ["2.27.1","2.27.6","2.27.11","2.27.13","2.27.19"],
+    "variationsObserved": ["Repeat-until loop code-generation SDT (attaching 'code' attributes representing generated instruction sequences) — think of 'code' as a synthesized string-concatenation attribute built up from sub-statements."],
+    "commonTraps": ["Not permitted to REWRITE the grammar (a common constraint) — must design semantic rules that work with the EXISTING production structure, not a modified one."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

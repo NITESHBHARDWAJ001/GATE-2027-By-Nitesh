@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Reflexive, antisymmetric, transitive; Hasse edges, chains, antichains.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Partial Orders and Hasse Diagrams se related sawal.",
+   "thinkThis": "P3_PARTIAL_ORDER_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Strict order ko partial (reflexive) maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:partial-order",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Word ka context me closest meaning chuno; extreme intensity mismatch se bacho.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Word ka synonym ya non-synonym pair.",
+   "thinkThis": "SYN_MEANING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Antonym."
+ ],
+ "highYieldPyqLessons": [
+  "Build a GATE vocabulary list from PYQs."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:synonyms",
+ "revisionLevel": "short-form"
+}

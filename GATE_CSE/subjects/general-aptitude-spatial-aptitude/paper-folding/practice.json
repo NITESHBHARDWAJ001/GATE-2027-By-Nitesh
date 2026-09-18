@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-spatial-aptitude:paper-folding",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PAPER--01",
+   "patternId": "P3_PAPER_FOLDING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Paper 3 baar half fold: layers?",
+   "solutionApproach": "2^3.",
+   "answer": "8"
+  }
+ ]
+}

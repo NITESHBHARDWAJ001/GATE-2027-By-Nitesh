@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P4_MERGING_01",
+  "name": "Merging Sorted Lists (PYQ type)",
+  "recognitionClueHinglish": "Merging Sorted Lists se related sawal.",
+  "whatShouldComeToMind": [
+   "Sorted lists merge: m+n-1 comparisons worst case; k lists ke liye optimal merge pattern."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sizes.",
+   "2. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.30.1",
+   "1.30.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Best/worst comparisons mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

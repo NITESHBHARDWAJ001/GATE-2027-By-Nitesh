@@ -1,0 +1,28 @@
+{
+ "topicId": "engineering-mathematics-linear-algebra:determinant",
+ "subjectId": "engineering-mathematics-linear-algebra",
+ "subject": "Engineering Mathematics - Linear Algebra",
+ "name": "Determinants",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "12 PYQs extracted, 1997-2026.",
+ "pyqCountExtracted": 12,
+ "yearsCovered": [
+  1997,
+  2000,
+  2004,
+  2005,
+  2013,
+  2014,
+  2019,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

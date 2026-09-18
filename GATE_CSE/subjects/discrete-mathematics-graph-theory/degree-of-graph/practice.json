@@ -1,0 +1,33 @@
+{
+ "topicId": "discrete-mathematics-graph-theory:degree-of-graph",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DEGREE-01",
+   "patternId": "DEG_SEQUENCE_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Can (3,3,3,1) be graphic? (n=4)",
+   "solutionApproach": "Havel-Hakimi: remove a 3 -> (2,2,0); remove a 2 -> (1,-1): invalid.",
+   "answer": "No"
+  },
+  {
+   "practiceId": "AI-DEGREE-O-X02",
+   "patternId": "DEG_SEQUENCE_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Simple graph with 6 vertices, all degree 3: edges?",
+   "solutionApproach": "sum=18, E=9.",
+   "answer": "9"
+  },
+  {
+   "practiceId": "AI-DEGREE-O-X03",
+   "patternId": "DEG_SEQUENCE_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Can a simple graph have degree sequence (3,3,3,1)?",
+   "solutionApproach": "Havel-Hakimi: (2,2,0) -> (1,-1) invalid.",
+   "answer": "No"
+  }
+ ]
+}

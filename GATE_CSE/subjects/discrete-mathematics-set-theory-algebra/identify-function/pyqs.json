@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "discrete-mathematics-set-theory-algebra__4.5.1",
+  "localId": "4.5.1",
+  "subjectId": "discrete-mathematics-set-theory-algebra",
+  "subject": "Discrete Mathematics: Set Theory & Algebra",
+  "topicSlug": "identify-function",
+  "topic": "Identify Function",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "39",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": 2,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "any two functions,                  is the set of non-negative integers. Let be the set of functions from to itself. For , we define for every number in . Which of the following is/are CORRECT about the mathematical structure        ? A.   is an Abelian group. B.   is an Abelian monoid. C.   is a non-Abelian group. D.   is a non-Abelian monoid.",
+  "tagsRaw": "gatecse2025-set1 set-theory&algebra identify-function group-theory multiple-selects easy two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 104
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_IDENTIFY_FUNCTION_01"
+ }
+]

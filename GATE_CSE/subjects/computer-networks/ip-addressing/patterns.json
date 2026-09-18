@@ -1,0 +1,55 @@
+[
+ {
+  "patternId": "IPA_COUNT_01",
+  "name": "Networks / Hosts / Address Counting",
+  "recognitionClueHinglish": "Class ya mask; number of networks/hosts.",
+  "whatShouldComeToMind": [
+   "Powers of two."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Bits.",
+   "2. Count."
+  ],
+  "formulasUsed": [
+   "hosts"
+  ],
+  "pyqExamples": [
+   "2.16.2",
+   "2.16.3",
+   "2.16.4",
+   "2.16.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "-2."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "IPA_CONCEPT_02",
+  "name": "Address Facts / Prefix for Range / Protocol Field",
+  "recognitionClueHinglish": "Multiple IPs, prefix of range, DNS lookup steps.",
+  "whatShouldComeToMind": [
+   "Facts."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Fact."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.16.1",
+   "2.16.5",
+   "2.16.6",
+   "2.16.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

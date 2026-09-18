@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_INTER_PROCESS_COMMUNICAT_01",
+  "name": "IPC and I/O Redirection (PYQ type)",
+  "recognitionClueHinglish": "IPC and I/O Redirection se related sawal.",
+  "whatShouldComeToMind": [
+   "I/O redirection: file ko stdin/stdout ke roop me."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Mechanism."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.13.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Redirection = rename."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

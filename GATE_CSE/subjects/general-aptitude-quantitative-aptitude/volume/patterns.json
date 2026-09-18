@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_VOLUME_01",
+  "name": "Volume (PYQ type)",
+  "recognitionClueHinglish": "Volume se related sawal.",
+  "whatShouldComeToMind": [
+   "Solids ke volumes."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Dimensions."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.58.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Units cubed."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

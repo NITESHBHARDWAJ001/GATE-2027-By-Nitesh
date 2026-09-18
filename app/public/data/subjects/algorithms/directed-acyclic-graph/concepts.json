@@ -1,0 +1,23 @@
+{
+ "overview": "DAG par longest/shortest path, path products; topological order me DP.",
+ "whyItMatters": "2 PYQs extracted (2021-2026); P3 topic.",
+ "coreConcept": "DAG par longest/shortest path, path products; topological order me DP.",
+ "hinglishExplanation": "DAG me shortest/longest path O(V+E) topological order relax karke; negative edges bhi theek.",
+ "formalDefinition": "DAG par longest/shortest path, path products; topological order me DP.",
+ "importantProperties": [
+  "Topological order me edges relax.",
+  "Longest path DAG me polynomial.",
+  "Negative weights allowed (no cycles).",
+  "Path 'length' definition (sum/product) question dekho."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Dijkstra chala dena."
+ ],
+ "standardTechniques": [
+  "1. Topo order.",
+  "2. DP relax."
+ ],
+ "topicId": "algorithms:directed-acyclic-graph"
+}

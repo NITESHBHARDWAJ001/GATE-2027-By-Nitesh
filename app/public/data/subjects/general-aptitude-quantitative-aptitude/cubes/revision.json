@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Cube surface, painted-face counts, volume.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Cubes se related sawal.",
+   "thinkThis": "P3_CUBES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Edge vs face."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:cubes",
+ "revisionLevel": "short-form"
+}

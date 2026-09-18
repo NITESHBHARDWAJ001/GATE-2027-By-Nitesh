@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "compiler-design__2.28.1",
+  "localId": "2.28.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "variable-scope",
+  "topic": "Variable Scope",
+  "year": 1987,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1-xix",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Study the following program written in a block-structured language: Var x, y:interger; procedure P(n:interger); begin x:=(n+2)/(n-3); end; procedure Q                        __(1) Var x, y:interger; begin x:=3; y:=4; P(y); Write(x) end; begin                              __(2) x:=7; y:=8; Q; Write(x); end. What will be printed by the write statements marked                                          and in the program if the variables are statically scoped? A.                                        B.                               C.                                     D. None of the above.",
+  "tagsRaw": "gate1987 compiler-design  variable-scope  runtime-environment",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 181
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_VARIABLE_SCOPE_01"
+ },
+ {
+  "pyqId": "compiler-design__2.28.2",
+  "localId": "2.28.2",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "variable-scope",
+  "topic": "Variable Scope",
+  "year": 1987,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1-xx",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "For the program given below what will be printed by the write statements marked and in the program if the variables are dynamically scoped? Var x, y:interger; procedure P(n:interger); begin x := (n+2)/(n-3); end; procedure Q Var x, y:interger; begin x:=3; y:=4; P(y);                           __(1) Write(x);                         __(2) end; begin x:=7; y:=8; Q; Write(x); end. A.                                        B.                                    C.                          D. None of the above",
+  "tagsRaw": "gate1987 compiler-design  variable-scope    runtime-environment",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 181
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_VARIABLE_SCOPE_01"
+ }
+]

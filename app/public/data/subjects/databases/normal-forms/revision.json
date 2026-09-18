@@ -1,0 +1,18 @@
+{
+ "coreIdea": "1NF..BCNF conditions; ER se relational schema ki normal form.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Normal Forms (with ER Mapping) se related sawal.",
+   "thinkThis": "P3_NORMAL_FORMS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "3NF aur BCNF confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:normal-forms",
+ "revisionLevel": "short-form"
+}

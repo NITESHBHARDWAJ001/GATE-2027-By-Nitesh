@@ -1,0 +1,21 @@
+{
+ "overview": "X ->> Y; FD implies MVD; 4NF me nontrivial MVD ka LHS superkey.",
+ "whyItMatters": "1 PYQs extracted (2007-2007); P4 topic.",
+ "coreConcept": "X ->> Y; FD implies MVD; 4NF me nontrivial MVD ka LHS superkey.",
+ "hinglishExplanation": "Har FD ek MVD bhi hai, par ulta nahi.",
+ "formalDefinition": "X ->> Y; FD implies MVD; 4NF me nontrivial MVD ka LHS superkey.",
+ "importantProperties": [
+  "FD => MVD.",
+  "Complementation rule.",
+  "4NF BCNF se strict."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "MVD => FD maan lena."
+ ],
+ "standardTechniques": [
+  "1. Rules."
+ ],
+ "topicId": "databases:multivalued-dependency-4nf"
+}

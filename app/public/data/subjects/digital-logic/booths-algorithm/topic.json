@@ -1,0 +1,24 @@
+{
+ "topicId": "digital-logic:booths-algorithm",
+ "subjectId": "digital-logic",
+ "subject": "Digital Logic",
+ "name": "Booth's Algorithm",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "7 PYQs extracted, 1990-2025.",
+ "pyqCountExtracted": 7,
+ "yearsCovered": [
+  1990,
+  1996,
+  1999,
+  2005,
+  2006,
+  2008,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

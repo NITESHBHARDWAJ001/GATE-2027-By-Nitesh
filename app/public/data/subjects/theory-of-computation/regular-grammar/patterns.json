@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_REGULAR_GRAMMAR_01",
+  "name": "Regular Grammars (PYQ type)",
+  "recognitionClueHinglish": "Regular Grammars se related sawal.",
+  "whatShouldComeToMind": [
+   "Right/left linear grammar = regular language; Myhill-Nerode classes."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Grammar to NFA."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "6.19.1",
+   "6.19.2",
+   "6.19.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Mixed linear grammar regular maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

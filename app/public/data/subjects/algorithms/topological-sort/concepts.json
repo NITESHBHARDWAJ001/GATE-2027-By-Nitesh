@@ -1,0 +1,24 @@
+{
+ "overview": "DAG ke vertices ka aisa order jisme har edge u->v me u pehle aaye.",
+ "whyItMatters": "4 PYQs extracted (2007-2024); P3 topic.",
+ "coreConcept": "DAG ke vertices ka aisa order jisme har edge u->v me u pehle aaye.",
+ "hinglishExplanation": "Indegree-0 vertex pick karo (Kahn) ya DFS finishing times reverse. Number of orderings alag-alag choices se.",
+ "formalDefinition": "DAG ke vertices ka aisa order jisme har edge u->v me u pehle aaye.",
+ "importantProperties": [
+  "Sirf DAG ke liye.",
+  "Unique order tabhi jab consecutive vertices ke beech edge ho (Hamiltonian path).",
+  "Time O(V+E).",
+  "Valid ordering check: har edge ka source pehle."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Cyclic graph me topological order maan lena."
+ ],
+ "standardTechniques": [
+  "1. Indegree-0 vertices.",
+  "2. Choices count.",
+  "3. Multiply."
+ ],
+ "topicId": "algorithms:topological-sort"
+}

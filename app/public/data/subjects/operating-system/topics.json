@@ -1,0 +1,1123 @@
+[
+ {
+  "topicSlug": "process-synchronization",
+  "name": "Process Synchronization",
+  "pyqCountExtracted": 52,
+  "yearsCovered": [
+   1987,
+   1988,
+   1990,
+   1991,
+   1993,
+   1994,
+   1995,
+   1996,
+   1997,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2024
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2024
+  ],
+  "pyqIds": [
+   "operating-system__5.24.1",
+   "operating-system__5.24.2",
+   "operating-system__5.24.3",
+   "operating-system__5.24.4",
+   "operating-system__5.24.5",
+   "operating-system__5.24.6",
+   "operating-system__5.24.7",
+   "operating-system__5.24.8",
+   "operating-system__5.24.9",
+   "operating-system__5.24.10",
+   "operating-system__5.24.11",
+   "operating-system__5.24.12",
+   "operating-system__5.24.13",
+   "operating-system__5.24.14",
+   "operating-system__5.24.15",
+   "operating-system__5.24.16",
+   "operating-system__5.24.17",
+   "operating-system__5.24.18",
+   "operating-system__5.24.19",
+   "operating-system__5.24.20",
+   "operating-system__5.24.21",
+   "operating-system__5.24.22",
+   "operating-system__5.24.23",
+   "operating-system__5.24.24",
+   "operating-system__5.24.25",
+   "operating-system__5.24.26",
+   "operating-system__5.24.27",
+   "operating-system__5.24.28",
+   "operating-system__5.24.29",
+   "operating-system__5.24.30",
+   "operating-system__5.24.31",
+   "operating-system__5.24.32",
+   "operating-system__5.24.33",
+   "operating-system__5.24.34",
+   "operating-system__5.24.35",
+   "operating-system__5.24.36",
+   "operating-system__5.24.37",
+   "operating-system__5.24.38",
+   "operating-system__5.24.39",
+   "operating-system__5.24.40",
+   "operating-system__5.24.41",
+   "operating-system__5.24.42",
+   "operating-system__5.24.43",
+   "operating-system__5.24.44",
+   "operating-system__5.24.45",
+   "operating-system__5.24.46",
+   "operating-system__5.24.47",
+   "operating-system__5.24.48",
+   "operating-system__5.24.49",
+   "operating-system__5.24.50",
+   "operating-system__5.24.51",
+   "operating-system__5.24.52"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "52 PYQs extracted, tested in 5 recent GATE cycles (2016+), spans 1987-2024 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "process-scheduling",
+  "name": "Process Scheduling",
+  "pyqCountExtracted": 49,
+  "yearsCovered": [
+   1988,
+   1990,
+   1993,
+   1995,
+   1996,
+   1998,
+   2002,
+   2003,
+   2004,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2016,
+   2017,
+   2019,
+   2020,
+   2021,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2019,
+   2020,
+   2021,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "pyqIds": [
+   "operating-system__5.23.1",
+   "operating-system__5.23.2",
+   "operating-system__5.23.3",
+   "operating-system__5.23.4",
+   "operating-system__5.23.5",
+   "operating-system__5.23.6",
+   "operating-system__5.23.7",
+   "operating-system__5.23.8",
+   "operating-system__5.23.9",
+   "operating-system__5.23.10",
+   "operating-system__5.23.11",
+   "operating-system__5.23.12",
+   "operating-system__5.23.13",
+   "operating-system__5.23.14",
+   "operating-system__5.23.15",
+   "operating-system__5.23.16",
+   "operating-system__5.23.17",
+   "operating-system__5.23.18",
+   "operating-system__5.23.19",
+   "operating-system__5.23.20",
+   "operating-system__5.23.21",
+   "operating-system__5.23.22",
+   "operating-system__5.23.23",
+   "operating-system__5.23.24",
+   "operating-system__5.23.25",
+   "operating-system__5.23.26",
+   "operating-system__5.23.27",
+   "operating-system__5.23.28",
+   "operating-system__5.23.29",
+   "operating-system__5.23.30",
+   "operating-system__5.23.31",
+   "operating-system__5.23.32",
+   "operating-system__5.23.33",
+   "operating-system__5.23.34",
+   "operating-system__5.23.35",
+   "operating-system__5.23.36",
+   "operating-system__5.23.37",
+   "operating-system__5.23.38",
+   "operating-system__5.23.39",
+   "operating-system__5.23.40",
+   "operating-system__5.23.41",
+   "operating-system__5.23.42",
+   "operating-system__5.23.43",
+   "operating-system__5.23.44",
+   "operating-system__5.23.45",
+   "operating-system__5.23.46",
+   "operating-system__5.23.47",
+   "operating-system__5.23.48",
+   "operating-system__5.23.49"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "49 PYQs extracted, tested in 9 recent GATE cycles (2016+), spans 1988-2026 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "virtual-memory",
+  "name": "Virtual Memory",
+  "pyqCountExtracted": 43,
+  "yearsCovered": [
+   1989,
+   1990,
+   1991,
+   1994,
+   1995,
+   1996,
+   1998,
+   1999,
+   2000,
+   2001,
+   2002,
+   2003,
+   2004,
+   2006,
+   2008,
+   2009,
+   2011,
+   2013,
+   2014,
+   2015,
+   2016,
+   2018,
+   2019,
+   2020,
+   2023,
+   2024
+  ],
+  "recentYearsCovered": [
+   2016,
+   2018,
+   2019,
+   2020,
+   2023,
+   2024
+  ],
+  "pyqIds": [
+   "operating-system__5.33.1",
+   "operating-system__5.33.2",
+   "operating-system__5.33.3",
+   "operating-system__5.33.4",
+   "operating-system__5.33.5",
+   "operating-system__5.33.6",
+   "operating-system__5.33.7",
+   "operating-system__5.33.8",
+   "operating-system__5.33.9",
+   "operating-system__5.33.10",
+   "operating-system__5.33.11",
+   "operating-system__5.33.12",
+   "operating-system__5.33.13",
+   "operating-system__5.33.14",
+   "operating-system__5.33.15",
+   "operating-system__5.33.16",
+   "operating-system__5.33.17",
+   "operating-system__5.33.18",
+   "operating-system__5.33.19",
+   "operating-system__5.33.20",
+   "operating-system__5.33.21",
+   "operating-system__5.33.22",
+   "operating-system__5.33.23",
+   "operating-system__5.33.24",
+   "operating-system__5.33.25",
+   "operating-system__5.33.26",
+   "operating-system__5.33.27",
+   "operating-system__5.33.28",
+   "operating-system__5.33.29",
+   "operating-system__5.33.30",
+   "operating-system__5.33.31",
+   "operating-system__5.33.32",
+   "operating-system__5.33.33",
+   "operating-system__5.33.34",
+   "operating-system__5.33.35",
+   "operating-system__5.33.36",
+   "operating-system__5.33.37",
+   "operating-system__5.33.38",
+   "operating-system__5.33.39",
+   "operating-system__5.33.40",
+   "operating-system__5.33.41",
+   "operating-system__5.33.42",
+   "operating-system__5.33.43"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "43 PYQs extracted, tested in 6 recent GATE cycles (2016+), spans 1989-2024 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "page-replacement",
+  "name": "Page Replacement",
+  "pyqCountExtracted": 31,
+  "yearsCovered": [
+   1993,
+   1994,
+   1995,
+   1997,
+   2001,
+   2002,
+   2004,
+   2005,
+   2007,
+   2008,
+   2009,
+   2010,
+   2012,
+   2014,
+   2015,
+   2016,
+   2017,
+   2021,
+   2025
+  ],
+  "recentYearsCovered": [
+   2016,
+   2017,
+   2021,
+   2025
+  ],
+  "pyqIds": [
+   "operating-system__5.20.1",
+   "operating-system__5.20.2",
+   "operating-system__5.20.3",
+   "operating-system__5.20.4",
+   "operating-system__5.20.5",
+   "operating-system__5.20.6",
+   "operating-system__5.20.7",
+   "operating-system__5.20.8",
+   "operating-system__5.20.9",
+   "operating-system__5.20.10",
+   "operating-system__5.20.11",
+   "operating-system__5.20.12",
+   "operating-system__5.20.13",
+   "operating-system__5.20.14",
+   "operating-system__5.20.15",
+   "operating-system__5.20.16",
+   "operating-system__5.20.17",
+   "operating-system__5.20.18",
+   "operating-system__5.20.19",
+   "operating-system__5.20.20",
+   "operating-system__5.20.21",
+   "operating-system__5.20.22",
+   "operating-system__5.20.23",
+   "operating-system__5.20.24",
+   "operating-system__5.20.25",
+   "operating-system__5.20.26",
+   "operating-system__5.20.27",
+   "operating-system__5.20.28",
+   "operating-system__5.20.29",
+   "operating-system__5.20.30",
+   "operating-system__5.20.31"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "31 PYQs extracted, tested in 4 recent GATE cycles (2016+), spans 1993-2025 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "disk",
+  "name": "Disk",
+  "pyqCountExtracted": 30,
+  "yearsCovered": [
+   1990,
+   1993,
+   1995,
+   1996,
+   1997,
+   1998,
+   1999,
+   2001,
+   2003,
+   2004,
+   2005,
+   2007,
+   2008,
+   2009,
+   2011,
+   2012,
+   2013,
+   2014,
+   2015,
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "operating-system__5.7.1",
+   "operating-system__5.7.2",
+   "operating-system__5.7.3",
+   "operating-system__5.7.4",
+   "operating-system__5.7.5",
+   "operating-system__5.7.6",
+   "operating-system__5.7.7",
+   "operating-system__5.7.8",
+   "operating-system__5.7.9",
+   "operating-system__5.7.10",
+   "operating-system__5.7.11",
+   "operating-system__5.7.12",
+   "operating-system__5.7.13",
+   "operating-system__5.7.14",
+   "operating-system__5.7.15",
+   "operating-system__5.7.16",
+   "operating-system__5.7.17",
+   "operating-system__5.7.18",
+   "operating-system__5.7.19",
+   "operating-system__5.7.20",
+   "operating-system__5.7.21",
+   "operating-system__5.7.22",
+   "operating-system__5.7.23",
+   "operating-system__5.7.24",
+   "operating-system__5.7.25",
+   "operating-system__5.7.26",
+   "operating-system__5.7.27",
+   "operating-system__5.7.28",
+   "operating-system__5.7.29",
+   "operating-system__5.7.30"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "30 PYQs extracted (high historical frequency), spans 1990-2024, but only 1 recent (2016+) appearances — still high priority, watch recency."
+ },
+ {
+  "topicSlug": "resource-allocation",
+  "name": "Resource Allocation",
+  "pyqCountExtracted": 27,
+  "yearsCovered": [
+   1988,
+   1989,
+   1992,
+   1993,
+   1994,
+   1996,
+   1997,
+   1998,
+   2000,
+   2001,
+   2005,
+   2006,
+   2007,
+   2008,
+   2009,
+   2010,
+   2013,
+   2014,
+   2015,
+   2017,
+   2019,
+   2022
+  ],
+  "recentYearsCovered": [
+   2017,
+   2019,
+   2022
+  ],
+  "pyqIds": [
+   "operating-system__5.25.1",
+   "operating-system__5.25.2",
+   "operating-system__5.25.3",
+   "operating-system__5.25.4",
+   "operating-system__5.25.5",
+   "operating-system__5.25.6",
+   "operating-system__5.25.7",
+   "operating-system__5.25.8",
+   "operating-system__5.25.9",
+   "operating-system__5.25.10",
+   "operating-system__5.25.11",
+   "operating-system__5.25.12",
+   "operating-system__5.25.13",
+   "operating-system__5.25.14",
+   "operating-system__5.25.15",
+   "operating-system__5.25.16",
+   "operating-system__5.25.17",
+   "operating-system__5.25.18",
+   "operating-system__5.25.19",
+   "operating-system__5.25.20",
+   "operating-system__5.25.21",
+   "operating-system__5.25.22",
+   "operating-system__5.25.23",
+   "operating-system__5.25.24",
+   "operating-system__5.25.25",
+   "operating-system__5.25.26",
+   "operating-system__5.25.27"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "27 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1988-2022 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "disk-scheduling",
+  "name": "Disk Scheduling",
+  "pyqCountExtracted": 16,
+  "yearsCovered": [
+   1989,
+   1990,
+   1995,
+   1997,
+   1999,
+   2001,
+   2004,
+   2007,
+   2009,
+   2014,
+   2015,
+   2016,
+   2018,
+   2020
+  ],
+  "recentYearsCovered": [
+   2016,
+   2018,
+   2020
+  ],
+  "pyqIds": [
+   "operating-system__5.8.1",
+   "operating-system__5.8.2",
+   "operating-system__5.8.3",
+   "operating-system__5.8.4",
+   "operating-system__5.8.5",
+   "operating-system__5.8.6",
+   "operating-system__5.8.7",
+   "operating-system__5.8.8",
+   "operating-system__5.8.9",
+   "operating-system__5.8.10",
+   "operating-system__5.8.11",
+   "operating-system__5.8.12",
+   "operating-system__5.8.13",
+   "operating-system__5.8.14",
+   "operating-system__5.8.15",
+   "operating-system__5.8.16"
+  ],
+  "priority": "P1",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "16 PYQs extracted, tested in 3 recent GATE cycles (2016+), spans 1989-2020 — high frequency and consistently recent."
+ },
+ {
+  "topicSlug": "semaphore",
+  "name": "Semaphore",
+  "pyqCountExtracted": 11,
+  "yearsCovered": [
+   1990,
+   1992,
+   1998,
+   2006,
+   2008,
+   2016,
+   2020,
+   2021,
+   2022,
+   2023,
+   2026
+  ],
+  "recentYearsCovered": [
+   2016,
+   2020,
+   2021,
+   2022,
+   2023,
+   2026
+  ],
+  "pyqIds": [
+   "operating-system__5.28.1",
+   "operating-system__5.28.2",
+   "operating-system__5.28.3",
+   "operating-system__5.28.4",
+   "operating-system__5.28.5",
+   "operating-system__5.28.6",
+   "operating-system__5.28.7",
+   "operating-system__5.28.8",
+   "operating-system__5.28.9",
+   "operating-system__5.28.10",
+   "operating-system__5.28.11"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "11 PYQs extracted, 6 recent (2016+) appearances, spans 1990-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "threads",
+  "name": "Threads",
+  "pyqCountExtracted": 10,
+  "yearsCovered": [
+   2004,
+   2007,
+   2011,
+   2014,
+   2017,
+   2021,
+   2024
+  ],
+  "recentYearsCovered": [
+   2017,
+   2021,
+   2024
+  ],
+  "pyqIds": [
+   "operating-system__5.31.1",
+   "operating-system__5.31.2",
+   "operating-system__5.31.3",
+   "operating-system__5.31.4",
+   "operating-system__5.31.5",
+   "operating-system__5.31.6",
+   "operating-system__5.31.7",
+   "operating-system__5.31.8",
+   "operating-system__5.31.9",
+   "operating-system__5.31.10"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "10 PYQs extracted, 3 recent (2016+) appearances, spans 2004-2024 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "memory-management",
+  "name": "Memory Management",
+  "pyqCountExtracted": 9,
+  "yearsCovered": [
+   1992,
+   1995,
+   1996,
+   1998,
+   2006,
+   2007,
+   2014,
+   2015,
+   2020
+  ],
+  "recentYearsCovered": [
+   2020
+  ],
+  "pyqIds": [
+   "operating-system__5.17.1",
+   "operating-system__5.17.2",
+   "operating-system__5.17.3",
+   "operating-system__5.17.4",
+   "operating-system__5.17.5",
+   "operating-system__5.17.6",
+   "operating-system__5.17.7",
+   "operating-system__5.17.8",
+   "operating-system__5.17.9"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "9 PYQs extracted, spans 1992-2020 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "fork-system-call",
+  "name": "Fork System Call",
+  "pyqCountExtracted": 8,
+  "yearsCovered": [
+   2004,
+   2005,
+   2008,
+   2012,
+   2019,
+   2023,
+   2024,
+   2026
+  ],
+  "recentYearsCovered": [
+   2019,
+   2023,
+   2024,
+   2026
+  ],
+  "pyqIds": [
+   "operating-system__5.10.1",
+   "operating-system__5.10.2",
+   "operating-system__5.10.3",
+   "operating-system__5.10.4",
+   "operating-system__5.10.5",
+   "operating-system__5.10.6",
+   "operating-system__5.10.7",
+   "operating-system__5.10.8"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "8 PYQs extracted, 4 recent (2016+) appearances, spans 2004-2026 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "file-system",
+  "name": "File System",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   2002,
+   2004,
+   2008,
+   2017,
+   2019,
+   2021,
+   2022
+  ],
+  "recentYearsCovered": [
+   2017,
+   2019,
+   2021,
+   2022
+  ],
+  "pyqIds": [
+   "operating-system__5.9.1",
+   "operating-system__5.9.2",
+   "operating-system__5.9.3",
+   "operating-system__5.9.4",
+   "operating-system__5.9.5",
+   "operating-system__5.9.6",
+   "operating-system__5.9.7"
+  ],
+  "priority": "P2",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "7 PYQs extracted, 4 recent (2016+) appearances, spans 2002-2022 — moderately frequent and recently active."
+ },
+ {
+  "topicSlug": "io-handling",
+  "name": "IO Handling",
+  "pyqCountExtracted": 7,
+  "yearsCovered": [
+   1996,
+   1998,
+   2004,
+   2005,
+   2006,
+   2018
+  ],
+  "recentYearsCovered": [
+   2018
+  ],
+  "pyqIds": [
+   "operating-system__5.11.1",
+   "operating-system__5.11.2",
+   "operating-system__5.11.3",
+   "operating-system__5.11.4",
+   "operating-system__5.11.5",
+   "operating-system__5.11.6",
+   "operating-system__5.11.7"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "7 PYQs extracted, spans 1996-2018 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "interrupts",
+  "name": "Interrupts",
+  "pyqCountExtracted": 6,
+  "yearsCovered": [
+   1993,
+   1997,
+   1998,
+   1999,
+   2001,
+   2011
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "operating-system__5.14.1",
+   "operating-system__5.14.2",
+   "operating-system__5.14.3",
+   "operating-system__5.14.4",
+   "operating-system__5.14.5",
+   "operating-system__5.14.6"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "6 PYQs extracted, spans 1993-2011 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "process",
+  "name": "Process",
+  "pyqCountExtracted": 5,
+  "yearsCovered": [
+   1996,
+   2001,
+   2002,
+   2006,
+   2023
+  ],
+  "recentYearsCovered": [
+   2023
+  ],
+  "pyqIds": [
+   "operating-system__5.22.1",
+   "operating-system__5.22.2",
+   "operating-system__5.22.3",
+   "operating-system__5.22.4",
+   "operating-system__5.22.5"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "5 PYQs extracted, spans 1996-2023 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "context-switch",
+  "name": "Context Switch",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   1999,
+   2000,
+   2011,
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "operating-system__5.3.1",
+   "operating-system__5.3.2",
+   "operating-system__5.3.3",
+   "operating-system__5.3.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 1999-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "deadlock-prevention-avoidance-detection",
+  "name": "Deadlock Prevention Avoidance Detection",
+  "pyqCountExtracted": 4,
+  "yearsCovered": [
+   2004,
+   2018,
+   2021,
+   2026
+  ],
+  "recentYearsCovered": [
+   2018,
+   2021,
+   2026
+  ],
+  "pyqIds": [
+   "operating-system__5.5.1",
+   "operating-system__5.5.2",
+   "operating-system__5.5.3",
+   "operating-system__5.5.4"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "4 PYQs extracted, spans 2004-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "demand-paging",
+  "name": "Demand Paging",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   2022,
+   2025
+  ],
+  "recentYearsCovered": [
+   2022,
+   2025
+  ],
+  "pyqIds": [
+   "operating-system__5.6.1",
+   "operating-system__5.6.2",
+   "operating-system__5.6.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 2022-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "os-protection",
+  "name": "OS Protection",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1999,
+   2001,
+   2005
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "operating-system__5.19.1",
+   "operating-system__5.19.2",
+   "operating-system__5.19.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 1999-2005 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "precedence-graph",
+  "name": "Precedence Graph",
+  "pyqCountExtracted": 3,
+  "yearsCovered": [
+   1989,
+   1991,
+   1992
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "operating-system__5.21.1",
+   "operating-system__5.21.2",
+   "operating-system__5.21.3"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "3 PYQs extracted, spans 1989-1992 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "bankers-algorithm",
+  "name": "Bankers Algorithm",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2018,
+   2026
+  ],
+  "recentYearsCovered": [
+   2018,
+   2026
+  ],
+  "pyqIds": [
+   "operating-system__5.1.1",
+   "operating-system__5.1.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2018-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "translation-lookaside-buffer",
+  "name": "Translation Lookaside Buffer",
+  "pyqCountExtracted": 2,
+  "yearsCovered": [
+   2022,
+   2026
+  ],
+  "recentYearsCovered": [
+   2022,
+   2026
+  ],
+  "pyqIds": [
+   "operating-system__5.32.1",
+   "operating-system__5.32.2"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "2 PYQs extracted, spans 2022-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "best-fit",
+  "name": "Best Fit",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2026
+  ],
+  "recentYearsCovered": [
+   2026
+  ],
+  "pyqIds": [
+   "operating-system__5.2.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2026-2026 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "dma",
+  "name": "DMA",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2001
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "operating-system__5.4.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 2001-2001 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "input-output",
+  "name": "Input Output",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "operating-system__5.12.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "inter-process-communication",
+  "name": "Inter Process Communication",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   1997
+  ],
+  "recentYearsCovered": [],
+  "pyqIds": [
+   "operating-system__5.13.1"
+  ],
+  "priority": "P4",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "Only 1 PYQ(s) extracted in source, spans 1997-1997 — long-tail topic, revision-only unless it's a known prerequisite."
+ },
+ {
+  "topicSlug": "least-recently-used",
+  "name": "Least Recently Used",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2023
+  ],
+  "recentYearsCovered": [
+   2023
+  ],
+  "pyqIds": [
+   "operating-system__5.15.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2023-2023 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "linked-allocation",
+  "name": "Linked Allocation",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "operating-system__5.16.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "multilevel-paging",
+  "name": "Multilevel Paging",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "operating-system__5.18.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "resource-allocation-graph",
+  "name": "Resource Allocation Graph",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "operating-system__5.26.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "round-robin-scheduling",
+  "name": "Round Robin Scheduling",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2022
+  ],
+  "recentYearsCovered": [
+   2022
+  ],
+  "pyqIds": [
+   "operating-system__5.27.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2022-2022 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "srtf",
+  "name": "Srtf",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2025
+  ],
+  "recentYearsCovered": [
+   2025
+  ],
+  "pyqIds": [
+   "operating-system__5.29.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2025-2025 — moderate/occasional coverage, worth solid revision-level prep."
+ },
+ {
+  "topicSlug": "system-calls",
+  "name": "System Calls",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2021
+  ],
+  "recentYearsCovered": [
+   2021
+  ],
+  "pyqIds": [
+   "operating-system__5.30.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2021-2021 — moderate/occasional coverage, worth solid revision-level prep."
+ }
+]

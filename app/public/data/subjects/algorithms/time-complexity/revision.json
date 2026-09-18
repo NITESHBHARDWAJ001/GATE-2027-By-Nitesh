@@ -1,0 +1,27 @@
+{
+  "topicId": "algorithms-time-complexity",
+  "revisionLevel": "short-form",
+  "coreIdea": "Loop-count as summations; nested loops multiply; log-dividing/multiplying loops = Θ(log n). Comparison-bound problems = recall classical tight results.",
+  "mustRememberFormulas": [
+    "Triangular nested loop (i to n) is still Θ(n²), half the constant of full n×n",
+    "Max-finding: n-1 comparisons (tight). Max+Min together: ⌈3n/2⌉-2 (tight, beats naive 2n)",
+    "Comparison sort lower bound: Ω(n log n)",
+    "Exponentiation by squaring: x^n in O(log n) multiplications, not O(n)"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "loop-heavy code, asked for time complexity/operation count", "thinkThis": "TC_LOOP_DERIVE_01"},
+    {"seeThis": "'minimum comparisons needed' for a classic task", "thinkThis": "TC_COMPARISON_BOUND_02"},
+    {"seeThis": "recursive function, asked for time complexity", "thinkThis": "TC_RECURSIVE_COMPLEXITY_03"},
+    {"seeThis": "numeric algorithm (exponentiation, roots, matrix layout)", "thinkThis": "TC_NUMERIC_ALGO_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Triangular nested loops are Θ(n²), not a lower class",
+    "Don't confuse an achievable comparison count (upper bound) with the PROVEN minimum (tight lower bound)",
+    "x^n needs O(log n) multiplications via squaring, not O(n)",
+    "Naive doubling-recursive functions (calling themselves twice) are exponential — memoization fixes it to polynomial"
+  ],
+  "highYieldPyqLessons": [
+    "Comparison-bound problems (10/31) are the single biggest sub-skill — build a mental library of classical tight bounds (max, max+min, sorting) rather than re-deriving each time.",
+    "Loop-derivation (7/31) rewards writing an explicit summation over eyeballing — always write Σ before answering."
+  ]
+}

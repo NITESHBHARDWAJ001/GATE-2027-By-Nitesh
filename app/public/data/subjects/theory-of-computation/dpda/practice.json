@@ -1,0 +1,15 @@
+{
+ "topicId": "theory-of-computation:dpda",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DPDA-01",
+   "patternId": "P3_DPDA_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "ww^R DPDA?",
+   "solutionApproach": "Guess middle.",
+   "answer": "Nahi"
+  }
+ ]
+}

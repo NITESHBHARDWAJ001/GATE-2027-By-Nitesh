@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:profit-loss",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PROFIT-01",
+   "patternId": "P3_PROFIT_LOSS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "CP 80, SP 100 profit%?",
+   "solutionApproach": "20/80.",
+   "answer": "25%"
+  }
+ ]
+}

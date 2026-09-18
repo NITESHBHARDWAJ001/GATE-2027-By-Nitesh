@@ -1,0 +1,40 @@
+{
+ "topicId": "em-prob-probability",
+ "subjectId": "engineering-mathematics-probability",
+ "subject": "Engineering Mathematics - Probability",
+ "name": "Probability",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "31 PYQs extracted, 1995-2026; regular.",
+ "pyqCountExtracted": 31,
+ "yearsCovered": [
+  1995,
+  1996,
+  1997,
+  1998,
+  2001,
+  2004,
+  2005,
+  2008,
+  2010,
+  2011,
+  2014,
+  2016,
+  2018,
+  2021,
+  2024,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [
+  {
+   "topic": "Expectation",
+   "subjectId": "engineering-mathematics-probability",
+   "why": "Expected value builds on probability."
+  }
+ ],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

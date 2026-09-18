@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Minimum frame size >= 2 x propagation delay x bandwidth (collision detect ke liye).",
+ "mustRememberFormulas": [
+  "maxLen: Tt x v / 2"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Bandwidth, frame size; max length ya min frame.",
+   "thinkThis": "ETH_CALC_01"
+  },
+  {
+   "seeThis": "Statements, frames across segments.",
+   "thinkThis": "ETH_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Checksum layers.",
+  "Round trip."
+ ],
+ "highYieldPyqLessons": [
+  "CSMA/CD numerics overlap with the csma-cd topic."
+ ],
+ "topicId": "computer-networks:ethernet",
+ "revisionLevel": "short-form"
+}

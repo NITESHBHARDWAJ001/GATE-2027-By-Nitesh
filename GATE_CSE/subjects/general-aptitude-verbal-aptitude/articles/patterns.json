@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_ARTICLES_01",
+  "name": "Articles (a, an, the) (PYQ type)",
+  "recognitionClueHinglish": "Articles (a, an, the) se related sawal.",
+  "whatShouldComeToMind": [
+   "Definite/indefinite article."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Specific?"
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.2.1",
+   "11.2.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Spelling vs sound."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

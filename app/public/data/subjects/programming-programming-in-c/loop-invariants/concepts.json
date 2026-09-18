@@ -1,0 +1,25 @@
+{
+ "overview": "Loop invariant, pre/post conditions, division by repeated subtraction, exponentiation, digit reversal.",
+ "whyItMatters": "8 PYQs extracted (1987-2017); P2 topic.",
+ "coreConcept": "Invariant = loop ke har iteration ke start me true condition.",
+ "hinglishExplanation": "Loop ke baad invariant + termination condition se postcondition milti hai. e.g., division: x = q*y + r with r >= 0 invariant; exp by squaring: X^Y = res * a^b.",
+ "formalDefinition": "Invariant = loop ke har iteration ke start me true condition.",
+ "importantProperties": [
+  "Invariant: initialization, maintenance, termination.",
+  "Division loop: x = q*y + r.",
+  "Exp by squaring: X^Y = res*a^b.",
+  "Digit reverse: n_orig = rev*10^k + n (roughly).",
+  "Postcondition = invariant AND negated guard."
+ ],
+ "formulas": {
+  "division": "x = q*y + r"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Invariant post-loop guard ke saath combine bhoolna."
+ ],
+ "standardTechniques": [
+  "Initial values substitute karo."
+ ],
+ "topicId": "programming-programming-in-c:loop-invariants"
+}

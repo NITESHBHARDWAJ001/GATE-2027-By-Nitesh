@@ -1,0 +1,18 @@
+{
+ "topicId": "computer-networks:icmp",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "ICMP and Traceroute",
+ "language": "hinglish",
+ "priority": "P4",
+ "priorityEvidence": "1 PYQs extracted, 2005-2005.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2005
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

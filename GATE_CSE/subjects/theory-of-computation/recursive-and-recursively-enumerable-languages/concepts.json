@@ -1,0 +1,26 @@
+{
+ "overview": "REC vs RE, closure, complement, Turing machine problems (halting, emptiness), reductions.",
+ "whyItMatters": "16 PYQs extracted (1990-2021); P2 topic.",
+ "coreConcept": "Recursive => decidable; RE => semi-decidable. L aur L^c dono RE ho to L recursive.",
+ "hinglishExplanation": "Agar L recursive hai to complement bhi recursive. RE languages complement ke under closed nahi hain. Reductions me undecidability aage propagate hoti hai: A <= B aur B decidable to A decidable.",
+ "formalDefinition": "Recursive => decidable; RE => semi-decidable. L aur L^c dono RE ho to L recursive.",
+ "importantProperties": [
+  "Recursive closed under complement, union, intersection.",
+  "RE closed under union, intersection, not under complement.",
+  "L and L^c both RE => L recursive.",
+  "Halting problem undecidable but RE.",
+  "Rice theorem: nontrivial semantic properties undecidable.",
+  "Mapping reduction A<=B: B decidable => A decidable."
+ ],
+ "formulas": {
+  "coRE": "L and L^c both RE => recursive"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Complement RE maan lena."
+ ],
+ "standardTechniques": [
+  "Class diagram."
+ ],
+ "topicId": "theory-of-computation:recursive-and-recursively-enumerable-languages"
+}

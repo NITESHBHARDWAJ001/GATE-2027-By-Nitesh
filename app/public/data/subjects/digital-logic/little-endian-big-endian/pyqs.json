@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "digital-logic__4.22.1",
+  "localId": "4.22.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "little-endian-big-endian",
+  "topic": "Little Endian Big Endian",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "44",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MSQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A;D",
+  "answerVerified": true,
+  "questionTextRaw": "If the numerical value of a -byte unsigned integer on a little endian computer is more than that on a big endian computer, which of the following choices represent(s) the unsigned integer on a little endian computer? A.                                        B.  C.                            D.",
+  "tagsRaw": "gatecse-2021-set2 multiple-selects  digital-logic  number-representation  little-endian-big-endian  two-marks",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 337
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LITTLE_ENDIAN_BIG_ENDIAN_01"
+ }
+]

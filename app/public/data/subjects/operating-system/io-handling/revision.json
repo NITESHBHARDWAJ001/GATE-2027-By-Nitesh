@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Spooled devices, interrupt/I/O privilege, device controllers.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "I/O Handling and Spooling se related sawal.",
+   "thinkThis": "P3_IO_HANDLING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Terminal ko spooled maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:io-handling",
+ "revisionLevel": "short-form"
+}

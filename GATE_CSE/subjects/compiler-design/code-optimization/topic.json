@@ -1,0 +1,23 @@
+{
+ "topicId": "compiler-design:code-optimization",
+ "subjectId": "compiler-design",
+ "subject": "Compiler Design",
+ "name": "Code Optimization",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "8 PYQs extracted, 2006-2026.",
+ "pyqCountExtracted": 8,
+ "yearsCovered": [
+  2006,
+  2008,
+  2014,
+  2021,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

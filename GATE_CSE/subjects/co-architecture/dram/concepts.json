@@ -1,0 +1,23 @@
+{
+ "overview": "Row/column addressing, chip select logic, refresh.",
+ "whyItMatters": "1 PYQs extracted (2019-2019); P3 topic.",
+ "coreConcept": "Row/column addressing, chip select logic, refresh.",
+ "hinglishExplanation": "DRAM address multiplexed (row then column); refresh zaroori.",
+ "formalDefinition": "Row/column addressing, chip select logic, refresh.",
+ "importantProperties": [
+  "Rows x columns x width = capacity.",
+  "Address pins = row + column bits (multiplexed).",
+  "Chip select address ke high bits se.",
+  "Refresh capacitors ke liye."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Address ko non-multiplexed maan lena."
+ ],
+ "standardTechniques": [
+  "1. Capacity.",
+  "2. Address split."
+ ],
+ "topicId": "co-architecture:dram"
+}

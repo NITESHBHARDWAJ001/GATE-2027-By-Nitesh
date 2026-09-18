@@ -1,0 +1,47 @@
+[
+  {
+    "patternId": "LR_POWER_COMPARISON_01",
+    "name": "SLR/LALR/LR(1) Power & State-Count Comparison Theory",
+    "recognitionClueHinglish": "Poocha hai SLR/LALR/Canonical-LR ke beech POWER comparison (kaunsa zyada grammars handle karta hai), ya state-count relationship, ya conflict-equivalence claims — is topic ka sabse bada pattern hai (20 me se 9 PYQs).",
+    "whatShouldComeToMind": ["Power: SLR(1) ⊊ LALR(1) ⊊ LR(1) — canonical LR(1) is MOST powerful, SLR is LEAST (but simplest to implement).", "State count: LALR = same as SLR/LR(0) (via merging) ≤ Canonical LR(1) (often far fewer).", "LALR S-R conflict ⟺ Canonical LR(1) S-R conflict (merging only risks NEW R-R conflicts, never new S-R)."],
+    "conceptsRequired": ["LR-family power hierarchy", "State-merging mechanics", "Conflict-type asymmetry"],
+    "generalSolvingApproach": ["1. Identify exactly what's being compared: power (which grammars are parseable) or state count or conflict existence.", "2. Apply the FIXED hierarchy directly: LR(1) most powerful, SLR least (but same/fewer states than LR(1)).", "3. For conflict-equivalence claims, remember the S-R vs R-R asymmetry (S-R conflicts transfer exactly; R-R conflicts can be NEW in LALR)."],
+    "formulasUsed": ["lrPowerHierarchy","lalrStateCount","lalrSRConflictEquivalence"],
+    "pyqExamples": ["2.14.2","2.14.3","2.14.4","2.14.6","2.14.10","2.14.11","2.14.14","2.14.17","2.14.19"],
+    "variationsObserved": ["'Every LR(1) grammar is unambiguous but not every unambiguous grammar is LR(1)' style nested TRUE/FALSE claims — verify each sub-claim independently against the hierarchy facts."],
+    "commonTraps": ["Reversing the power-hierarchy direction (a very common wrong-answer trap in MCQ options designed to catch this)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "LR_ITEMSET_CONFLICT_02",
+    "name": "LR Item-Set Construction & Conflict Detection",
+    "recognitionClueHinglish": "Ek augmented grammar di hai aur poocha hai specific item-set (jaise I_k) me kitne items hain, ya us set me shift-reduce/reduce-reduce conflict hai ya nahi — is topic ka doosra bada pattern hai (20 me se 8 PYQs), aur 2019 ke baad almost har saal NAT-type me poocha ja raha hai.",
+    "whatShouldComeToMind": ["Apply closure() exhaustively: for every item with a dot before a non-terminal, add items for ALL of that non-terminal's productions (with dot at start).", "Apply goto() by advancing the dot past a specific symbol across all items in a state, then closure() the result.", "Check for conflicts: shift-reduce (both a shift action AND reduce action valid on same lookahead), reduce-reduce (two different reduces both valid on same lookahead)."],
+    "conceptsRequired": ["closure() and goto() operations", "Conflict identification"],
+    "generalSolvingApproach": ["1. Start from the augmented grammar's initial item.", "2. Apply closure() completely (don't stop early — every newly added non-terminal-starting item may itself need further closure).", "3. Apply goto() on the relevant symbol to reach the target state (repeat closure() on the result).", "4. Count items or check for conflicts as asked."],
+    "formulasUsed": [],
+    "pyqExamples": ["2.14.1","2.14.5","2.14.7","2.14.9","2.14.15","2.14.16","2.14.18","2.14.20"],
+    "variationsObserved": ["Comparing TWO item sets for MERGE-ABILITY (do they have the same LR(0) core, differing only in lookaheads?) — check core equality first, then reason about merge-induced conflicts.", "Directly counting total shift-reduce conflicts across an entire canonical collection (sum across all states)."],
+    "commonTraps": ["Stopping closure() too early (missing a transitively-required item) — always iterate until no more items can be added.", "Confusing which two items belong in the SAME set (they must be reachable via the same goto() path from the start)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "LR_TRACE_03",
+    "name": "Bottom-Up Parser Derivation Trace",
+    "recognitionClueHinglish": "Ek specific string di hai aur poocha hai bottom-up parser (LR) kitne REDUCE steps lega ise parse karne me, ya LR parser kis derivation TYPE use karta hai — direct tracing/recall pattern.",
+    "whatShouldComeToMind": ["LR parsers build the RIGHTMOST derivation in REVERSE — memorize this direction directly.", "For counting reduce moves: simulate the shift-reduce process explicitly on the given string with the given grammar."],
+    "conceptsRequired": ["Shift-reduce parsing simulation", "Rightmost-derivation-reverse fact"],
+    "generalSolvingApproach": ["1. For derivation-type questions: directly recall 'rightmost derivation in reverse'.", "2. For reduce-count questions: simulate the parse (shift symbols onto a stack, reduce whenever the top matches a production RHS) explicitly, counting each reduce action."],
+    "formulasUsed": ["maxReduceMoves"],
+    "pyqExamples": ["2.14.8","2.14.12","2.14.13"],
+    "variationsObserved": [],
+    "commonTraps": ["Confusing LR's rightmost-derivation-in-reverse with LL's leftmost-derivation-forward when asked directly."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P4_SLOTTED_ALOHA_01",
+  "name": "Slotted ALOHA (PYQ type)",
+  "recognitionClueHinglish": "Slotted ALOHA se related sawal.",
+  "whatShouldComeToMind": [
+   "Slot me exactly ek node transmit kare to success; S=G e^-G."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. p.",
+   "2. n."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.31.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Pure ALOHA formula."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,42 @@
+{
+  "topicId": "toc-identify-class-language",
+  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+  "questions": [
+    {
+      "practiceId": "AI-ICL-01",
+      "patternId": "ICL_DIRECT_CLASSIFY_01",
+      "difficulty": "moderate",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "A PDA's stack can hold at MOST 5 symbols at any time (hard-capped). What class of languages does it accept?",
+      "solutionApproach": "A stack capped at a CONSTANT size has only finitely many possible contents — this collapses to a finite number of distinguishable 'configurations', same power as a finite automaton. Class = Regular.",
+      "answer": "Regular — bounded stack size collapses PDA power to finite-automaton power."
+    },
+    {
+      "practiceId": "AI-ICL-02",
+      "patternId": "ICL_COMBINED_CLASSIFY_02",
+      "difficulty": "gate-level",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "L1 = {a^n b^n c^m : n,m≥0} (CFL). L2 = {a^m b^n c^n : n,m≥0} (CFL). Is L1∩L2 guaranteed CFL?",
+      "solutionApproach": "No — CFL∩CFL has NO general guarantee. L1∩L2 = {a^n b^n c^n} which is CONTEXT-SENSITIVE, not CFL. This is the classic demonstration of CFL's non-closure under intersection, now viewed through the hierarchy lens.",
+      "answer": "No — L1∩L2 = {a^n b^n c^n}, which escapes CFL entirely into context-sensitive territory."
+    },
+    {
+      "practiceId": "AI-ICL-03",
+      "patternId": "ICL_CROSS_CLOSURE_03",
+      "difficulty": "tough",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "L is Recursively Enumerable but NOT Recursive. Is complement(L) Recursively Enumerable?",
+      "solutionApproach": "No — this is the exact boundary case. If BOTH L and complement(L) were RE, then L would be Recursive (a known theorem: L is Recursive iff both L and complement(L) are RE). Since L is RE-but-not-Recursive, complement(L) CANNOT be RE.",
+      "answer": "No — complement(L) is NOT RE (otherwise L would be Recursive, contradiction)."
+    },
+    {
+      "practiceId": "AI-ICL-04",
+      "patternId": "ICL_DIRECT_CLASSIFY_01",
+      "difficulty": "tricky-variation",
+      "sourceType": "AI_GENERATED_PRACTICE",
+      "question": "Classify L = {a^n b^n c^n : n≥0}.",
+      "solutionApproach": "Not regular (unbounded matching), not CFL (needs 3-way simultaneous matching, single stack insufficient — provable via CFL pumping lemma). It IS context-sensitive (a linear-bounded automaton can verify it) and Recursive (decidable — an algorithm can always check and halt).",
+      "answer": "Context-Sensitive (and Recursive), but NOT Context-Free and NOT Regular."
+    }
+  ]
+}

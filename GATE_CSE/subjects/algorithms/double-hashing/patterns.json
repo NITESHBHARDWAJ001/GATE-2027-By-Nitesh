@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_DOUBLE_HASHING_01",
+  "name": "Double Hashing (PYQ type)",
+  "recognitionClueHinglish": "Double Hashing se related sawal.",
+  "whatShouldComeToMind": [
+   "h(k,i) = (h1(k) + i*h2(k)) mod m; h2 nonzero aur m ke saath coprime."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. h1, h2 nikalo.",
+   "2. i=0,1,2 probe."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.15.1",
+   "1.15.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "h2 = 0 ya m ka factor."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

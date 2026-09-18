@@ -1,0 +1,22 @@
+{
+ "overview": "Variable live: aage kahin use ho aur beech me redefine na ho; backward dataflow.",
+ "whyItMatters": "3 PYQs extracted (2015-2023); P3 topic.",
+ "coreConcept": "Variable live: aage kahin use ho aur beech me redefine na ho; backward dataflow.",
+ "hinglishExplanation": "OUT[B] = union IN[succ]; IN[B] = use U (OUT - def).",
+ "formalDefinition": "Variable live: aage kahin use ho aur beech me redefine na ho; backward dataflow.",
+ "importantProperties": [
+  "Backward analysis.",
+  "IN = use U (OUT - def).",
+  "Register allocation me use."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Forward direction lena."
+ ],
+ "standardTechniques": [
+  "1. Last block.",
+  "2. Backward iterate."
+ ],
+ "topicId": "compiler-design:live-variable-analysis"
+}

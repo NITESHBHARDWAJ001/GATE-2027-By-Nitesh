@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:maxima-minima",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MAXIMA-01",
+   "patternId": "P3_MAXIMA_MINIMA_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Min of x^2-4x+5?",
+   "solutionApproach": "x=2.",
+   "answer": "1"
+  }
+ ]
+}

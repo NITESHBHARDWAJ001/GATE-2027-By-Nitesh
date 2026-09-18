@@ -1,0 +1,23 @@
+{
+ "overview": "Lossless join aur dependency preservation; non-preserving par constraint check ke liye join.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Lossless join aur dependency preservation; non-preserving par constraint check ke liye join.",
+ "hinglishExplanation": "Lossless iff R1 n R2 -> R1 ya R2. Dependency preserved iff FDs union of projections se imply ho.",
+ "formalDefinition": "Lossless join aur dependency preservation; non-preserving par constraint check ke liye join.",
+ "importantProperties": [
+  "Lossless: common attrs key of R1 or R2.",
+  "Not dependency preserving => FD check ke liye join karna padta hai.",
+  "BCNF lossless par dependency preserving nahi guarantee.",
+  "3NF dono guarantee."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Lossless aur dependency preserving confuse."
+ ],
+ "standardTechniques": [
+  "1. Common attrs.",
+  "2. FD projection."
+ ],
+ "topicId": "databases:decomposition"
+}

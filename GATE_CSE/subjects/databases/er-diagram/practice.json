@@ -1,0 +1,42 @@
+{
+ "topicId": "databases:er-diagram",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ER-DIA-01",
+   "patternId": "ER_MIN_TABLES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "E1-R-E2 is M:N. Minimum tables?",
+   "solutionApproach": "E1, E2, R.",
+   "answer": "3"
+  },
+  {
+   "practiceId": "AI-ER-DIA-02",
+   "patternId": "ER_MIN_TABLES_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "E1-R-E2 is 1:N with total participation of E2. Minimum tables?",
+   "solutionApproach": "R merges with E2.",
+   "answer": "2"
+  },
+  {
+   "practiceId": "AI-ER-DIAGR-X03",
+   "patternId": "ER_MIN_TABLES_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "E1 (1) - R - (N) E2, partial participation, R has no attributes. Minimum tables?",
+   "solutionApproach": "FK in E2 table.",
+   "answer": "2"
+  },
+  {
+   "practiceId": "AI-ER-DIAGR-X04",
+   "patternId": "ER_CONCEPT_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Which entity has no key of its own: strong or weak?",
+   "solutionApproach": "Weak.",
+   "answer": "Weak entity"
+  }
+ ]
+}

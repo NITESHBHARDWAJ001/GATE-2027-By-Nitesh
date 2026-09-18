@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:arithmetic-series",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ARITHM-01",
+   "patternId": "P4_ARITHMETIC_SERIES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "AP 1..10 sum?",
+   "solutionApproach": "55.",
+   "answer": "55"
+  }
+ ]
+}

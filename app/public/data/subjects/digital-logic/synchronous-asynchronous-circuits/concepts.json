@@ -1,0 +1,21 @@
+{
+ "overview": "Synchronous clock se; races/hazards se bachna; counter design.",
+ "whyItMatters": "4 PYQs extracted (1991-2003); P3 topic.",
+ "coreConcept": "Synchronous clock se; races/hazards se bachna; counter design.",
+ "hinglishExplanation": "Synchronous ka fayda: race/glitch se bachna aur design easy.",
+ "formalDefinition": "Synchronous clock se; races/hazards se bachna; counter design.",
+ "importantProperties": [
+  "Sync: common clock.",
+  "Async: faster par race problems.",
+  "Counter design: state table -> excitation."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Async ko safer maan lena."
+ ],
+ "standardTechniques": [
+  "1. State diagram."
+ ],
+ "topicId": "digital-logic:synchronous-asynchronous-circuits"
+}

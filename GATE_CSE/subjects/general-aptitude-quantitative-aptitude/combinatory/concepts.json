@@ -1,0 +1,20 @@
+{
+ "overview": "Basic counting: arrangements, selections.",
+ "whyItMatters": "3 PYQs extracted (2010-2017); P3 topic.",
+ "coreConcept": "Basic counting: arrangements, selections.",
+ "hinglishExplanation": "Multiplication rule.",
+ "formalDefinition": "Basic counting: arrangements, selections.",
+ "importantProperties": [
+  "Multiplication rule.",
+  "Complement counting."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Overcount."
+ ],
+ "standardTechniques": [
+  "1. Steps."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:combinatory"
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "patternId": "FOL_TRANSLATION_01",
+    "name": "English ↔ FOL Translation (both directions)",
+    "recognitionClueHinglish": "English statement diya hai ('every teacher is liked by some student', 'none of my friends are perfect') aur formula me convert karna hai — YA reverse: ek formula diya hai (jaise Fool(x,y,z)) aur uska English meaning poocha hai. Ye is topic ka sabse bada pattern hai (35 me se 15 PYQs).",
+    "whatShouldComeToMind": [
+      "'All A are B' → ∀x(A(x)→B(x)). 'Some A are B' → ∃x(A(x)∧B(x)). Never mix these two templates up.",
+      "Multiple quantifiers: read the English left-to-right to figure out nesting order (e.g., 'every teacher is liked by SOME student' → ∀x(Teacher(x)→∃y(Student(y)∧Likes(y,x))) — the ∃ is INSIDE the ∀ because 'some student' can depend on which teacher).",
+      "For reverse-translation (formula→English), read quantifiers outside-in and narrate what each one claims."
+    ],
+    "conceptsRequired": ["Quantifier-keyword templates", "Nested quantifier ordering"],
+    "generalSolvingApproach": [
+      "1. Identify all the predicates needed (e.g., Teacher(x), Student(y), Likes(y,x)).",
+      "2. Identify the quantifier keywords in order they appear in the English sentence.",
+      "3. Build the formula outside-in, matching 'all→with implication' and 'some→with conjunction' templates.",
+      "4. Double check nesting order — does the 'some' depend on the outer variable, or is it a single fixed witness for everyone?",
+      "5. For reverse direction: peel quantifiers from outside in, narrating 'for every X such that..., there is/isn't a Y such that...'."
+    ],
+    "formulasUsed": ["allTranslation","someTranslation","noneTranslation"],
+    "pyqExamples": ["3.1.1","3.1.6","3.1.7","3.1.8","3.1.9","3.1.10","3.1.11","3.1.13","3.1.14","3.1.15","3.1.16","3.1.18","3.1.19","3.1.27","3.1.29"],
+    "variationsObserved": [
+      "'Exactly one' claims (e.g., 'everyone has exactly one mother') — needs an extra ∀z(Mother(z,x)→z=y) uniqueness clause alongside the existence clause.",
+      "Comparative statements ('some boys are taller than ALL girls') — nested ∀ inside ∃, order matters critically.",
+      "Multi-predicate compound statements ('tigers and lions attack if hungry or threatened') — build up the antecedent/consequent separately before combining."
+    ],
+    "commonTraps": ["Using ∧ instead of → inside a ∀ (or vice versa for ∃) — THE most common FOL translation error on GATE.", "Getting nested-quantifier order backward, which changes the claim's strength (∀∃ vs ∃∀)."],
+    "edgeCases": ["'Exactly one' and 'at most one' require an explicit uniqueness sub-clause, not just an existence clause."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "FOL_QUANTIFIER_EQUIV_02",
+    "name": "Quantifier Equivalence, Validity & Negation Identities",
+    "recognitionClueHinglish": "Ek quantified formula diya hai aur poocha hai ye VALID/tautology hai ya nahi, ya do formulas equivalent hain ya nahi, ya negation kya hoga — ye identity-manipulation pattern hai (35 me se 14 PYQs, dusra bada cluster).",
+    "whatShouldComeToMind": [
+      "¬∀x P(x) ≡ ∃x¬P(x); ¬∃x P(x) ≡ ∀x¬P(x) — apply repeatedly for nested quantifiers, one layer at a time.",
+      "∀x∃y P(x,y) is generally NOT equivalent to ∃y∀x P(x,y) — the second is strictly stronger (implies the first, not conversely). This exact non-equivalence is asked almost every 2-3 years.",
+      "Same-type adjacent quantifiers (∀x∀y or ∃x∃y) CAN be freely swapped."
+    ],
+    "conceptsRequired": ["Negation-of-quantifier rules", "∀∃ vs ∃∀ non-equivalence", "Domain reasoning for validity"],
+    "generalSolvingApproach": [
+      "1. If negation is involved, push ¬ inward one quantifier-layer at a time, flipping ∀↔∃ and applying propositional De Morgan's at the innermost connective.",
+      "2. If asked about ∀∃ vs ∃∀ equivalence: default assumption is NOT equivalent unless proven otherwise — try to construct a concrete 2-element domain counterexample.",
+      "3. If asked for VALIDITY (true in every domain/interpretation): test with the smallest possible domain (1 or 2 elements) first — many invalid formulas fail even there.",
+      "4. For 'which is NOT valid/NOT equivalent' (odd-one-out style), check each option against the identities above rather than assuming."
+    ],
+    "formulasUsed": ["negateUniversal","negateExistential"],
+    "pyqExamples": ["3.1.3","3.1.4","3.1.12","3.1.17","3.1.20","3.1.21","3.1.24","3.1.25","3.1.30","3.1.31","3.1.32","3.1.33","3.1.34","3.1.35"],
+    "variationsObserved": ["Formula involves a specific relation R(x,y) over a stated domain (e.g., integers with < relation) — combine identity rules with domain-specific facts.", "Formula with equality/inequality among quantified variables (needs-equality flavored validity)."],
+    "commonTraps": ["Assuming ∀x∃y P(x,y) ≡ ∃y∀x P(x,y) — false in general, the direction of implication only goes one way (∃y∀x ⟹ ∀x∃y).", "Forgetting to flip the inner connective (∧↔∨) when pushing negation through, in addition to flipping the quantifier."],
+    "edgeCases": ["Empty domain edge cases can make ∀-statements vacuously true and ∃-statements false — GATE questions usually state 'non-empty domain' explicitly to avoid this."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "FOL_MODEL_INTERPRETATION_03",
+    "name": "Models, Interpretations & Satisfiability of FOL Sentences",
+    "recognitionClueHinglish": "'Does it have a finite model', 'give an interpretation that satisfies', ya ek formula ke liye specific domain (naturals, integers) diya hai aur poocha hai satisfy hoti hai ya nahi — ye advanced model-theoretic pattern hai, GATE ka sabse tough FOL type.",
+    "whatShouldComeToMind": [
+      "An interpretation = a concrete domain + concrete meaning assigned to each predicate/function symbol.",
+      "To show SATISFIABLE: just construct ONE interpretation where the formula comes out true.",
+      "To show a claim is TRUE for 'which sets satisfy this formula' style questions: test the formula against EACH candidate set directly as its domain."
+    ],
+    "conceptsRequired": ["Model/interpretation definition", "Domain-specific predicate reasoning"],
+    "generalSolvingApproach": [
+      "1. Identify exactly what the formula's predicates mean once a concrete domain is chosen.",
+      "2. Try small/simple domains first (naturals, or a tiny finite set) to test satisfiability or find a counterexample.",
+      "3. For 'which of these sets/domains satisfy φ', substitute each candidate domain into φ and evaluate directly."
+    ],
+    "formulasUsed": [],
+    "pyqExamples": ["3.1.2","3.1.5","3.1.22","3.1.23","3.1.26","3.1.28"],
+    "variationsObserved": ["Implied-sentences question: given φ, which of a list of other sentences are logically IMPLIED by φ (not just equivalent) — check each candidate independently."],
+    "commonTraps": ["Confusing 'φ is satisfiable' (some model makes it true) with 'φ is valid' (every model makes it true) — these require very different justification styles."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

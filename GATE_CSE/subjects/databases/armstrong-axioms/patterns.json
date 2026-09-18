@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_ARMSTRONG_AXIOMS_01",
+  "name": "Armstrong's Axioms (PYQ type)",
+  "recognitionClueHinglish": "Armstrong's Axioms se related sawal.",
+  "whatShouldComeToMind": [
+   "Reflexivity, augmentation, transitivity aur derived rules (union, decomposition)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rule choose."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.1.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Decomposition LHS par lagana (galat)."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

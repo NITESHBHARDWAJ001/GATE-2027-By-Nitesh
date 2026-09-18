@@ -1,0 +1,30 @@
+[
+ {
+  "patternId": "P3_STRUCTURE_01",
+  "name": "Structures in C (PYQ type)",
+  "recognitionClueHinglish": "Structures in C se related sawal.",
+  "whatShouldComeToMind": [
+   "Struct layout, padding, pointer to struct, linked nodes, sizeof."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Layout.",
+   "2. Trace."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.16.1",
+   "5.16.2",
+   "5.16.3",
+   "5.16.4",
+   "5.16.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Padding ignore."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

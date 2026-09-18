@@ -1,0 +1,26 @@
+{
+ "overview": "Slow start, congestion avoidance (AIMD), ssthresh, timeout/duplicate ACK behaviour, cwnd evolution.",
+ "whyItMatters": "9 PYQs extracted (2005-2026); P2 topic.",
+ "coreConcept": "Slow start me cwnd exponentially, avoidance me linearly; loss par ssthresh = cwnd/2.",
+ "hinglishExplanation": "Slow start me har RTT cwnd double. ssthresh tak pahunchne ke baad har RTT +1 MSS. Timeout par cwnd = 1 MSS aur ssthresh = cwnd/2. Effective window = min(cwnd, receiver window).",
+ "formalDefinition": "Slow start me cwnd exponentially, avoidance me linearly; loss par ssthresh = cwnd/2.",
+ "importantProperties": [
+  "Slow start: cwnd doubles per RTT.",
+  "Congestion avoidance: +1 MSS per RTT.",
+  "Timeout: ssthresh = cwnd/2, cwnd = 1 MSS.",
+  "3 duplicate ACKs (fast recovery): cwnd = ssthresh.",
+  "Sending window = min(cwnd, rwnd).",
+  "Transmission rounds cwnd table se."
+ ],
+ "formulas": {
+  "ssthresh": "cwnd/2 on loss"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Slow start ko linear maan lena."
+ ],
+ "standardTechniques": [
+  "Round-by-round table."
+ ],
+ "topicId": "computer-networks:congestion-control"
+}

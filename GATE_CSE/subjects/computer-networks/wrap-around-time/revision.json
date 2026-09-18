@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Counter/sequence kab wrap: 2^n / rate.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Sequence/Timestamp Wrap-Around Time se related sawal.",
+   "thinkThis": "P3_WRAP_AROUND_TIME_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Bits vs bytes."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:wrap-around-time",
+ "revisionLevel": "short-form"
+}

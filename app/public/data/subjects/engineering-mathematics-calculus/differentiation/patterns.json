@@ -1,0 +1,60 @@
+[
+ {
+  "patternId": "DIF_PIECEWISE_01",
+  "name": "Parameters for Differentiability / Non-differentiable Points",
+  "recognitionClueHinglish": "Piecewise/abs function; parameter ya points.",
+  "whatShouldComeToMind": [
+   "Match value and slope."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Continuity.",
+   "2. Derivative."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.3.6",
+   "5.3.7",
+   "5.3.8",
+   "5.3.3",
+   "5.3.9"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Corner points."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DIF_RULES_02",
+  "name": "Derivative Computations and Properties",
+  "recognitionClueHinglish": "Derivative value, degree, approximation formula, second-derivative conditions.",
+  "whatShouldComeToMind": [
+   "Rules."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Differentiate."
+  ],
+  "formulasUsed": [
+   "secondDeriv"
+  ],
+  "pyqExamples": [
+   "5.3.1",
+   "5.3.2",
+   "5.3.4",
+   "5.3.5",
+   "5.3.10",
+   "5.3.11"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Arithmetic."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

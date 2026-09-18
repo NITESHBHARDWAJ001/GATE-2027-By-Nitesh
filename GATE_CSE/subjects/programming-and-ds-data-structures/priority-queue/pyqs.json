@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "programming-and-ds-data-structures__3.11.1",
+  "localId": "3.11.1",
+  "subjectId": "programming-and-ds-data-structures",
+  "subject": "Programming and DS: Data Structures",
+  "topicSlug": "priority-queue",
+  "topic": "Priority Queue",
+  "year": 1997,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "4.7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "A priority queue is used to implement a stack that stores characters. PUSH (C) is implemented as INSERT                           where is an appropriate integer key chosen by the implementation. POP is implemented as DELETEMIN . For a sequence of operations, the keys chosen are in A. non-increasing order                                                                B. non-decreasing order C. strictly increasing order                                                           D. strictly decreasing order",
+  "tagsRaw": "gate1997 data-structures  stack  normal       priority-queue",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 239
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PRIORITY_QUEUE_01"
+ },
+ {
+  "pyqId": "programming-and-ds-data-structures__3.11.2",
+  "localId": "3.11.2",
+  "subjectId": "programming-and-ds-data-structures",
+  "subject": "Programming and DS: Data Structures",
+  "topicSlug": "priority-queue",
+  "topic": "Priority Queue",
+  "year": 2023,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "36",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Let be a priority queue for maintaining a set of elements. Suppose is implemented using a max-heap data structure. The operation                                                          extracts and deletes the maximum element from . The operation                                   inserts a new element in . The properties of a max-heap are preserved at the end of each of these operations. When contains elements, which one of the following statements about the worst case running time of these two operations is A. Both                                             and                                run in   . B. Both                                             and                                run in          . C.                                            runs in D.                                            runs in          whereas                           runs in             . whereas                           runs in                   .",
+  "tagsRaw": "gatecse-2023 data-structures  priority-queue  time-complexity  binary-heap  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 239
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_PRIORITY_QUEUE_01"
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "algorithms__1.11.1",
+  "localId": "1.11.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "computer-science",
+  "topic": "Computer Science",
+  "year": null,
+  "examStream": null,
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "The \"Master Theorem\" (Algorithms)",
+  "sourceType": "AI_GENERATED_OR_PRACTICE",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": null,
+  "marks": null,
+  "answer": "TBA",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following recurrence relation describing the running time of an algorithm: What is the asymptotic tight bound                                ? A.                                                                                  B. C.                                                                                  D. algorithms master-theorem  recurrence-relation  computer-science  gate-preparation",
+  "tagsRaw": null,
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 35
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_COMPUTER_SCIENCE_01"
+ }
+]

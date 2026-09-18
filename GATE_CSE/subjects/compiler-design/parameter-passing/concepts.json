@@ -1,0 +1,23 @@
+{
+ "overview": "Call by value, reference, name, copy-restore; results alag ho sakte hain.",
+ "whyItMatters": "14 PYQs extracted (1988-2016); P3 topic.",
+ "coreConcept": "Call by value, reference, name, copy-restore; results alag ho sakte hain.",
+ "hinglishExplanation": "Call-by-name expression har use par re-evaluate; reference address pass.",
+ "formalDefinition": "Call by value, reference, name, copy-restore; results alag ho sakte hain.",
+ "importantProperties": [
+  "Value: copy.",
+  "Reference: alias.",
+  "Name: textual substitution (side effects).",
+  "Copy-restore: exit par copy back."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Name vs reference results same maan lena."
+ ],
+ "standardTechniques": [
+  "1. Mode.",
+  "2. Trace with aliasing."
+ ],
+ "topicId": "compiler-design:parameter-passing"
+}

@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "co-architecture__1.9.1",
+  "localId": "1.9.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "dram",
+  "topic": "DRAM",
+  "year": 2019,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "2",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "The chip select logic for a certain DRAM chip in a memory system design is shown below. Assume that the memory system has address lines denoted by to . What is the range of address (in hexadecimal) of the memory system that can get enabled by the chip select (CS) signal? A. C800 to CFFF                                                            B. CA00 to CAFF C. C800 to C8FF                                                            D. DA00 to DFFF",
+  "tagsRaw": "gatecse-2019 co-and-architecture dram memory-interfacing one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 51
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DRAM_01"
+ }
+]

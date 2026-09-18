@@ -1,0 +1,21 @@
+{
+ "overview": "Moore/Mealy output, state diagram trace.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Moore/Mealy output, state diagram trace.",
+ "hinglishExplanation": "Output sequence trace.",
+ "formalDefinition": "Moore/Mealy output, state diagram trace.",
+ "importantProperties": [
+  "Mealy output transition par.",
+  "Moore state par.",
+  "Trace."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Moore/Mealy confuse."
+ ],
+ "standardTechniques": [
+  "1. Trace."
+ ],
+ "topicId": "theory-of-computation:finite-state-machines"
+}

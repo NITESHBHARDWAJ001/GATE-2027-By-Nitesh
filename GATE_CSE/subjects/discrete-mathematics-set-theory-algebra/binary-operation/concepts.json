@@ -1,0 +1,22 @@
+{
+ "overview": "Commutative operations count n^(n(n+1)/2); associativity/commutativity check.",
+ "whyItMatters": "8 PYQs extracted (1989-2015); P3 topic.",
+ "coreConcept": "Commutative operations count n^(n(n+1)/2); associativity/commutativity check.",
+ "hinglishExplanation": "Operation table symmetric to commutative.",
+ "formalDefinition": "Commutative operations count n^(n(n+1)/2); associativity/commutativity check.",
+ "importantProperties": [
+  "Commutative ops on n-set: n^(n(n+1)/2).",
+  "All ops: n^(n^2).",
+  "Associative non-commutative: subtraction-jaise (integers), string concat."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Commutative aur associative mix."
+ ],
+ "standardTechniques": [
+  "1. Table.",
+  "2. Test."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:binary-operation"
+}

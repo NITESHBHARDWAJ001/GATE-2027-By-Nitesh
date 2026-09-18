@@ -1,0 +1,18 @@
+{
+ "topicId": "co-architecture:instruction-set-architecture",
+ "subjectId": "co-architecture",
+ "subject": "Computer Organization & Architecture",
+ "name": "Instruction Set Architecture",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "1 PYQs extracted, 2025-2025.",
+ "pyqCountExtracted": 1,
+ "yearsCovered": [
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

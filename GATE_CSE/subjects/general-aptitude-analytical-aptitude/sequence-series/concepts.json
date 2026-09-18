@@ -1,0 +1,22 @@
+{
+ "overview": "Sequence ka pattern ya missing value.",
+ "whyItMatters": "2 PYQs extracted (2020-2024); P3 topic.",
+ "coreConcept": "Sequence ka pattern ya missing value.",
+ "hinglishExplanation": "Difference/ratio pattern dekho.",
+ "formalDefinition": "Sequence ka pattern ya missing value.",
+ "importantProperties": [
+  "AP: constant difference.",
+  "GP: constant ratio.",
+  "Alternating patterns."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Ek pattern par jaldi conclude."
+ ],
+ "standardTechniques": [
+  "1. Differences.",
+  "2. Ratios."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:sequence-series"
+}

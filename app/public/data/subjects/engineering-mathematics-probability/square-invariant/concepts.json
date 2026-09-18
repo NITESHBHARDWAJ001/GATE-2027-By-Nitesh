@@ -1,0 +1,21 @@
+{
+ "overview": "Random choice se quadratic ke roots ki property (counting based).",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Random choice se quadratic ke roots ki property (counting based).",
+ "hinglishExplanation": "Definition se conditions likh kar count.",
+ "formalDefinition": "Random choice se quadratic ke roots ki property (counting based).",
+ "importantProperties": [
+  "Definition padho.",
+  "Casework."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Definition galat padhna."
+ ],
+ "standardTechniques": [
+  "1. Conditions.",
+  "2. Count."
+ ],
+ "topicId": "engineering-mathematics-probability:square-invariant"
+}

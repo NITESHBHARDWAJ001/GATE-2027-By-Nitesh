@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Sample mean, MLE of bias, covariance of dependent variables.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Statistics (Estimation, Mean/Variance) se related sawal.",
+   "thinkThis": "P3_STATISTICS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Independence assume karna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-probability:statistics",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_DATA_STRUCTURES_01",
+  "name": "Data Structures (Graphs Representations & Matching) (PYQ type)",
+  "recognitionClueHinglish": "Data Structures (Graphs Representations & Matching) se related sawal.",
+  "whatShouldComeToMind": [
+   "Graph representation choice, edge counting, matching structures to operations."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Density."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.7.1",
+   "3.7.2",
+   "3.7.3",
+   "3.7.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Sparse par matrix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

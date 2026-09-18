@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_SEATING_ARRANGEMENT_01",
+  "name": "Seating Arrangement (PYQ type)",
+  "recognitionClueHinglish": "Seating Arrangement se related sawal.",
+  "whatShouldComeToMind": [
+   "Square/row seating me relative positions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Diagram."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.13.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Facing direction."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

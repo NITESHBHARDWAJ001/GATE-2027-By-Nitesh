@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Inorder/preorder/postorder match; unique reconstruction.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Tree Traversals (Data Structure View) se related sawal.",
+   "thinkThis": "P3_TREE_TRAVERSAL_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Order confuse."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-and-ds-data-structures:tree-traversal",
+ "revisionLevel": "short-form"
+}

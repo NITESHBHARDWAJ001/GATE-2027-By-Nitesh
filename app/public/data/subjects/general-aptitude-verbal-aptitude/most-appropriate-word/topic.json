@@ -1,0 +1,30 @@
+{
+ "topicId": "ga-verbal-most-appropriate-word",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Most Appropriate Word",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "26 PYQs extracted, 2010-2025; regular.",
+ "pyqCountExtracted": 26,
+ "yearsCovered": [
+  2010,
+  2011,
+  2012,
+  2014,
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

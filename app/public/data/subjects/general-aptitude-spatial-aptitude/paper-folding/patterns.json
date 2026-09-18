@@ -1,0 +1,30 @@
+[
+ {
+  "patternId": "P3_PAPER_FOLDING_01",
+  "name": "Paper Folding and Cutting (PYQ type)",
+  "recognitionClueHinglish": "Paper Folding and Cutting se related sawal.",
+  "whatShouldComeToMind": [
+   "Fold ke baad cut ka unfolded pattern ya layers/area."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Fold steps.",
+   "2. Reverse."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "10.6.1",
+   "10.6.2",
+   "10.6.3",
+   "10.6.4",
+   "10.6.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Unfold order."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

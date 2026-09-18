@@ -1,0 +1,33 @@
+{
+  "topicId": "ds-linked-list",
+  "overview": "Linked List topic me 3 bade skills hain: (1) node-manipulation code trace karna (pointers reassign ho rahe hain, resulting list kya banegi), (2) insertion/deletion ki complexity samajhna (pointer-given vs search-needed cases), (3) linked-list vs array trade-offs jaanna.",
+  "whyItMatters": "24 PYQs, aur Trees/Graphs jaisी advanced structures isi 'node + pointer' mental model par based hain.",
+  "coreConcept": "Linked List = nodes ki chain, har node me DATA + NEXT pointer (agle node ka address). Array se bada difference: CONTIGUOUS memory nahi chahiye, aur INSERTION/DELETION O(1) hai AGAR pointer already mil chuka hai (position dhoondhna O(n) hai, but ek baar mil gaya to modify O(1)).",
+  "hinglishExplanation": "Linked list ko ek 'treasure hunt chain' socho — har clue (node) tumhe agle clue ka address deta hai, khud pura map nahi. Isliye BEECH me kahin insert/delete karna sirf 2-3 pointers change karke ho jaata hai (fast), LEKIN us jagah tak PAHUNCHNE ke liye tumhe chain follow karni padti hai shuru se (slow, O(n)) — array me jaise directly index[5] pe kood sakte the, yahan nahi kood sakte.",
+  "formalDefinition": "A linked list node contains data and a pointer to the next node. Singly linked: one 'next' pointer. Doubly linked: 'next' AND 'prev' pointers. Circular: last node points back to first.",
+  "importantProperties": [
+    "Insert/Delete GIVEN a pointer to the target position: O(1) for the pointer-manipulation itself, but O(n) to delete a node in a SINGLY linked list if you're only given a pointer to the node itself (not its predecessor) — need the predecessor to update its 'next' (the classic exception: you CAN fake O(1) deletion by copying the next node's data into the current node and deleting the next node instead — works unless it's the LAST node).",
+    "In a DOUBLY linked list, deletion given just the node's own pointer IS truly O(1) (use prev pointer directly, no predecessor search needed) — this is the single biggest singly-vs-doubly trade-off tested.",
+    "Searching/finding a position by VALUE is always O(n) for any linked list (no random access) — this is why 'binary search on a linked list' doesn't give the usual O(log n) speedup.",
+    "Concatenating two lists in O(1) needs a pointer to the TAIL of the first list (or use a circular doubly linked list where the tail is always reachable in O(1) from the head)."
+  ],
+  "formulas": {
+    "searchWorstCase": "O(n) — no random access, must traverse from head",
+    "insertDeleteWithPointer": "O(1) once you HAVE the correct pointer(s); O(n) to find that pointer by value in a singly linked list",
+    "concatenationTime": "O(1) with a tail pointer or circular list; O(n) without one (must traverse to find the end)"
+  },
+  "keyPropertiesAndIdentities": [
+    "'Delete node given ONLY a pointer to it' (not the head, not the predecessor) in a SINGLY linked list: fake it in O(1) by copying next node's data into this node and deleting the next node — FAILS if the given node is the LAST node (no next node to copy from), in which case true O(n) traversal from head is needed.",
+    "Binary search NEEDS random access (jump to the middle) — a linked list can't do this in O(1), so 'binary search on a linked list' is NOT efficient, despite the sorted order."
+  ],
+  "commonPitfalls": [
+    "Assuming deletion given a node pointer is always O(1) in a SINGLY linked list — it's the special copy-and-delete-next trick, and it fails for the last node.",
+    "Confusing 'insertion is O(1)' (true, once you have the position) with 'inserting a value in sorted order is O(1)' (false — finding the right position is O(n)).",
+    "Assuming linked lists support efficient binary search (they don't — no random access)."
+  ],
+  "standardTechniques": [
+    "For code-tracing questions: draw the actual node boxes with arrows, and update the arrows step by step as each pointer-reassignment statement executes — never trust mental tracking for 3+ pointer reassignments.",
+    "For complexity questions: separate 'the pointer manipulation itself' (always O(1)) from 'finding the right pointer/position' (O(n) unless already given) — this distinction resolves most trick questions.",
+    "For singly vs doubly vs circular comparison questions: identify exactly which operation is being asked about and recall the specific trade-off for THAT operation (don't generalize 'doubly is always better')."
+  ]
+}

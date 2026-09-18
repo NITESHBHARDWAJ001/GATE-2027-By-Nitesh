@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_UNION_01",
+  "name": "Union in C (PYQ type)",
+  "recognitionClueHinglish": "Union in C se related sawal.",
+  "whatShouldComeToMind": [
+   "Union members same memory share; size largest member."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Largest member."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.19.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Sum of sizes."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

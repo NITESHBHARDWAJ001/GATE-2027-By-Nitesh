@@ -1,0 +1,23 @@
+{
+ "overview": "Poset jisme har pair ka lub aur glb ho; complement, distributive lattices.",
+ "whyItMatters": "10 PYQs extracted (1988-2017); P3 topic.",
+ "coreConcept": "Poset jisme har pair ka lub aur glb ho; complement, distributive lattices.",
+ "hinglishExplanation": "Divisibility lattice: lub = LCM, glb = GCD.",
+ "formalDefinition": "Poset jisme har pair ka lub aur glb ho; complement, distributive lattices.",
+ "importantProperties": [
+  "Lattice: lub, glb exist.",
+  "Complement: a v b = 1, a ^ b = 0.",
+  "Distributive, bounded, complemented.",
+  "(N, divides): join LCM, meet GCD."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Every poset lattice maan lena."
+ ],
+ "standardTechniques": [
+  "1. Hasse diagram.",
+  "2. lub/glb."
+ ],
+ "topicId": "discrete-mathematics-set-theory-algebra:lattice"
+}

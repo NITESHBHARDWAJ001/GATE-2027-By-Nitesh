@@ -1,0 +1,28 @@
+{
+ "overview": "Single precision: 1 sign, 8 exponent (bias 127), 23 fraction; decode/encode, compare, multiply.",
+ "whyItMatters": "14 PYQs extracted (2008-2026); P2 topic.",
+ "coreConcept": "Value = (-1)^s x 1.f x 2^(e - 127) for normalized numbers.",
+ "hinglishExplanation": "Hex ko 32 bits me todo: pehla bit sign, agle 8 exponent, baaki 23 mantissa. Exponent - 127 actual power, mantissa ke aage hidden 1. Compare karne ke liye sign, phir exponent, phir fraction.",
+ "formalDefinition": "Value = (-1)^s x 1.f x 2^(e - 127) for normalized numbers.",
+ "importantProperties": [
+  "Single: 1/8/23, bias 127.",
+  "Double: 1/11/52, bias 1023.",
+  "Normalized value = (-1)^s (1.f) 2^(e-127).",
+  "e=0: denormal/zero; e=255: infinity/NaN.",
+  "Largest positive: exponent 254, fraction all 1s.",
+  "Product: exponents add (minus bias), mantissas multiply.",
+  "Positive floats bitwise integer order me compare hote hain."
+ ],
+ "formulas": {
+  "value": "(-1)^s x 1.f x 2^(e-127)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Hidden 1 bhoolna.",
+  "Bias subtract bhoolna."
+ ],
+ "standardTechniques": [
+  "Bits ko S|E|F me alag likho."
+ ],
+ "topicId": "digital-logic:ieee-representation"
+}

@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Density se interval probability aur moments.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Probability Density Functions se related sawal.",
+   "thinkThis": "P3_PROBABILITY_DISTRIBUTION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Density ko probability maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-probability:probability-distribution",
+ "revisionLevel": "short-form"
+}

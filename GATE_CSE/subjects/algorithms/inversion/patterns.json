@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_INVERSION_01",
+  "name": "Inversions (PYQ type)",
+  "recognitionClueHinglish": "Inversions se related sawal.",
+  "whatShouldComeToMind": [
+   "Inversion = pair i<j, a[i]>a[j]; insertion sort ke swaps = inversions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Pairs check.",
+   "2. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.25.1",
+   "1.25.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Adjacent-swaps aur inversions ko confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

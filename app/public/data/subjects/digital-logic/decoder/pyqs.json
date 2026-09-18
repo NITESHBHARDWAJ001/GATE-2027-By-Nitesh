@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "digital-logic__4.11.1",
+  "localId": "4.11.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "decoder",
+  "topic": "Decoder",
+  "year": 2007,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "8, ISRO2011-31                                       line decoder without",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "How many -to- line decoders with an enable input are needed to construct a -to- using any other logic gates? A.                                  B.                               C.                    D.",
+  "tagsRaw": "gatecse-2007 digital-logic  normal  isro2011      decoder",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 316
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DECODER_01"
+ },
+ {
+  "pyqId": "digital-logic__4.11.2",
+  "localId": "4.11.2",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "decoder",
+  "topic": "Decoder",
+  "year": 2020,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "20",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "1034",
+  "answerVerified": true,
+  "questionTextRaw": "If there are input lines and output lines for a decoder that is used to uniquely address a byte addressable KB RAM, then the minimum value of                            is ________ .",
+  "tagsRaw": "gatecse-2020 numerical-answers  digital-logic     decoder  one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 316
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DECODER_01"
+ },
+ {
+  "pyqId": "digital-logic__4.11.3",
+  "localId": "4.11.3",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "decoder",
+  "topic": "Decoder",
+  "year": 2008,
+  "examStream": "IT",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "What Boolean function does the circuit below realize? A.                                                                         B. C.                                                                         D.",
+  "tagsRaw": "gateit-2008 digital-logic circuit-output decoder normal       Digital Circuits (7)",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 316
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DECODER_01"
+ }
+]

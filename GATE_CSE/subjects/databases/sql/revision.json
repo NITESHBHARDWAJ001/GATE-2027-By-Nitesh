@@ -1,0 +1,39 @@
+{
+ "coreIdea": "Evaluation order FROM -> WHERE -> GROUP BY -> HAVING -> SELECT. NULL = unknown. Aggregates skip NULLs (except COUNT(*)).",
+ "mustRememberFormulas": [
+  "|r x s| = |r| x |s|",
+  "x NOT IN (subquery with NULL) never TRUE",
+  "x > ALL(empty)=TRUE, x > ANY(empty)=FALSE",
+  "COUNT(*) counts NULL rows, COUNT(col) does not"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "instance + query, asked output / tuple count",
+   "thinkThis": "SQL_OUTPUT_TRACE_01"
+  },
+  {
+   "seeThis": "'what does this query list' or equivalence",
+   "thinkThis": "SQL_SEMANTICS_02"
+  },
+  {
+   "seeThis": "write a query for a requirement",
+   "thinkThis": "SQL_WRITE_QUERY_03"
+  },
+  {
+   "seeThis": "true/false about SQL features",
+   "thinkThis": "SQL_CONCEPTS_04"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "NOT IN with NULL returns nothing",
+  "Join multiplicity affects aggregates",
+  "WHERE cannot hold aggregates; use HAVING",
+  "SQL results are multisets"
+ ],
+ "highYieldPyqLessons": [
+  "Output tracing (21/55) is NAT-heavy since 2015: run the pipeline step by step.",
+  "Second-highest and division style queries recur."
+ ],
+ "topicId": "db-sql",
+ "revisionLevel": "short-form"
+}

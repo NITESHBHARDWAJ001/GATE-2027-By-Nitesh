@@ -1,0 +1,42 @@
+{
+ "topicId": "em-la-matrix",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MAT-01",
+   "patternId": "MAT_DET_RANK_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "3x3 matrix A has det 4. det(2A)?",
+   "solutionApproach": "2^3 * 4.",
+   "answer": "32"
+  },
+  {
+   "practiceId": "AI-MAT-02",
+   "patternId": "MAT_COUNTING_SPECIAL_03",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Number of 4x4 symmetric matrices with entries 0 or 1?",
+   "solutionApproach": "Free entries = 4*5/2 = 10.",
+   "answer": "1024"
+  },
+  {
+   "practiceId": "AI-MAT-03",
+   "patternId": "MAT_INVERSE_ALGEBRA_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A^2 = I. Inverse of A?",
+   "solutionApproach": "A*A = I so A^-1 = A.",
+   "answer": "A"
+  },
+  {
+   "practiceId": "AI-MAT-04",
+   "patternId": "MAT_DET_RANK_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Row swap effect on determinant?",
+   "solutionApproach": "Sign flips.",
+   "answer": "Multiplied by -1"
+  }
+ ]
+}

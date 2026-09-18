@@ -1,0 +1,24 @@
+{
+ "overview": "Har algorithm kis paradigm ka hai: D&C, greedy, DP, backtracking.",
+ "whyItMatters": "9 PYQs extracted (1990-2017); P3 topic.",
+ "coreConcept": "Har algorithm kis paradigm ka hai: D&C, greedy, DP, backtracking.",
+ "hinglishExplanation": "Quick/merge sort divide and conquer; Kruskal/Prim/Huffman greedy; LCS/knapsack/Floyd-Warshall DP; N-queens backtracking.",
+ "formalDefinition": "Har algorithm kis paradigm ka hai: D&C, greedy, DP, backtracking.",
+ "importantProperties": [
+  "Quick sort, merge sort, binary search: divide and conquer.",
+  "Kruskal, Prim, Dijkstra, Huffman: greedy.",
+  "LCS, matrix-chain, Floyd-Warshall: dynamic programming.",
+  "Backtracking: N-queens, subset search."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Paradigm confuse (Dijkstra DP nahi, greedy hai)."
+ ],
+ "standardTechniques": [
+  "1. Subproblems overlap? DP.",
+  "2. Local best choice safe? Greedy.",
+  "3. Independent halves? D&C."
+ ],
+ "topicId": "algorithms:algorithm-design-techniques"
+}

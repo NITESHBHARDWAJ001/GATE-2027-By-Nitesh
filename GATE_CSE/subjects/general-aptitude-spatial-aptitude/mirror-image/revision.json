@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Line of symmetry ke liye squares add.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Mirror Images / Symmetry se related sawal.",
+   "thinkThis": "P3_MIRROR_IMAGE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Vertical vs horizontal axis."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:mirror-image",
+ "revisionLevel": "short-form"
+}

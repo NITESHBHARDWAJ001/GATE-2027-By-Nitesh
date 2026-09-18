@@ -1,0 +1,42 @@
+{
+ "topicId": "db-b-tree",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BT-01",
+   "patternId": "BT_ORDER_CALC_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Block = 512 B, key = 8 B, block pointer = 6 B. Max order p of a B+ internal node?",
+   "solutionApproach": "6p + 8(p-1) <= 512 -> 14p <= 520 -> p <= 37.14.",
+   "answer": "37"
+  },
+  {
+   "practiceId": "AI-BT-02",
+   "patternId": "BT_ORDER_CALC_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Block = 1024 B, key = 10 B, record ptr = 8 B, block ptr = 8 B. Leaf order of B+ tree?",
+   "solutionApproach": "p(10+8) + 8 <= 1024 -> 18p <= 1016 -> p = 56.",
+   "answer": "56"
+  },
+  {
+   "practiceId": "AI-BT-03",
+   "patternId": "BT_INSERT_DELETE_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A B+ tree has 3 levels. Max number of new nodes created by one insertion?",
+   "solutionApproach": "Every level splits plus a new root: height + 1.",
+   "answer": "4"
+  },
+  {
+   "practiceId": "AI-BT-04",
+   "patternId": "BT_CONCEPT_04",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "In a B+ tree of order p, min pointers in a non-root internal node?",
+   "solutionApproach": "ceil(p/2).",
+   "answer": "ceil(p/2)"
+  }
+ ]
+}

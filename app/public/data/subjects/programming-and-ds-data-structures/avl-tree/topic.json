@@ -1,0 +1,23 @@
+{
+ "topicId": "programming-and-ds-data-structures:avl-tree",
+ "subjectId": "programming-and-ds-data-structures",
+ "subject": "Programming & DS - Data Structures",
+ "name": "AVL Trees",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "6 PYQs extracted, 1988-2020.",
+ "pyqCountExtracted": 6,
+ "yearsCovered": [
+  1988,
+  1996,
+  1998,
+  2008,
+  2009,
+  2020
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

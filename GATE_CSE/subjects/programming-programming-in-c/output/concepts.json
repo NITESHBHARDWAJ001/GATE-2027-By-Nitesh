@@ -1,0 +1,23 @@
+{
+ "overview": "Static variables, integer division, control flow, gcd loops, function calls; trace and print.",
+ "whyItMatters": "8 PYQs extracted (2022-2026); P2 topic.",
+ "coreConcept": "Program ko line-by-line trace karo, variable values table me likho.",
+ "hinglishExplanation": "Static local variable calls ke beech value retain karta hai. Integer division truncate hota hai. Loop conditions ke off-by-one dhyan se dekho. Euclid-type loops (x-y) gcd dete hain.",
+ "formalDefinition": "Program ko line-by-line trace karo, variable values table me likho.",
+ "importantProperties": [
+  "static var value retain.",
+  "Integer division truncates.",
+  "x>y ? x-=y : y-=x loop = gcd.",
+  "Char arithmetic ASCII.",
+  "Function return value vs printf."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Static reinitialization maan lena."
+ ],
+ "standardTechniques": [
+  "Trace table."
+ ],
+ "topicId": "programming-programming-in-c:output"
+}

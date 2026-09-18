@@ -1,0 +1,24 @@
+{
+ "topicId": "co-architecture:data-path",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DATA-P-01",
+   "patternId": "DP_MICROOPS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Fetch step sequence?",
+   "solutionApproach": "PC->MAR; read; MDR->IR; PC+1.",
+   "answer": "As stated"
+  },
+  {
+   "practiceId": "AI-DATA-PAT-X02",
+   "patternId": "DP_TIMING_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Single-bus datapath: can two register transfers happen in one cycle?",
+   "solutionApproach": "One bus.",
+   "answer": "No"
+  }
+ ]
+}

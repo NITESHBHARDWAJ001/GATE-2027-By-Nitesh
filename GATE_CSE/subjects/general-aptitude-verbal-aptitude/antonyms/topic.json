@@ -1,0 +1,20 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:antonyms",
+ "subjectId": "general-aptitude-verbal-aptitude",
+ "subject": "General Aptitude - Verbal Aptitude",
+ "name": "Antonyms and Opposites",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 2011-2026.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  2011,
+  2014,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

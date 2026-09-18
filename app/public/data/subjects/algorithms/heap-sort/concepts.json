@@ -1,0 +1,24 @@
+{
+ "overview": "Build heap O(n), n extract-max O(n log n); in-place, unstable.",
+ "whyItMatters": "2 PYQs extracted (2013-2024); P3 topic.",
+ "coreConcept": "Build heap O(n), n extract-max O(n log n); in-place, unstable.",
+ "hinglishExplanation": "Array ko max-heap banao, root ko end me swap, heap size ghatao, heapify.",
+ "formalDefinition": "Build heap O(n), n extract-max O(n log n); in-place, unstable.",
+ "importantProperties": [
+  "Build-heap O(n).",
+  "Total O(n log n) worst case.",
+  "Heapified array ke first elements = largest elements ki structure.",
+  "Not stable, in-place."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Build-heap ko O(n log n) maan lena."
+ ],
+ "standardTechniques": [
+  "1. Build max-heap.",
+  "2. Swap root-last.",
+  "3. Heapify."
+ ],
+ "topicId": "algorithms:heap-sort"
+}

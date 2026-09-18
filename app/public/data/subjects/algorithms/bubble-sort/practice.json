@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:bubble-sort",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-BUBBLE-01",
+   "patternId": "P4_BUBBLE_SORT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Bubble sort (3,2,1) passes 1 ke baad?",
+   "solutionApproach": "3 last.",
+   "answer": "2,1,3"
+  }
+ ]
+}

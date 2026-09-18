@@ -1,0 +1,39 @@
+{
+ "topicId": "db-transaction-and-concurrency",
+ "subjectId": "databases",
+ "subject": "Databases",
+ "name": "Transactions and Concurrency Control",
+ "language": "hinglish",
+ "priority": "P1",
+ "priorityEvidence": "27 PYQs extracted, 1999-2026, regular appearances.",
+ "pyqCountExtracted": 27,
+ "yearsCovered": [
+  1999,
+  2003,
+  2004,
+  2005,
+  2006,
+  2007,
+  2008,
+  2010,
+  2012,
+  2015,
+  2016,
+  2019,
+  2021,
+  2024,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [
+  {
+   "topic": "Conflict Serializable",
+   "subjectId": "databases",
+   "why": "Detailed PYQs on precedence graphs."
+  }
+ ],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

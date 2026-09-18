@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_MAC_PROTOCOL_01",
+  "name": "MAC Protocols (Slotted, TDM, Ethernet) (PYQ type)",
+  "recognitionClueHinglish": "MAC Protocols (Slotted, TDM, Ethernet) se related sawal.",
+  "whatShouldComeToMind": [
+   "Slotted protocols me success probability, TDM utilization, min frame size."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Formula."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.20.1",
+   "2.20.2",
+   "2.20.3",
+   "2.20.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Jam signal ignore."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

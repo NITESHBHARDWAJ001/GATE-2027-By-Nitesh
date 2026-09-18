@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:icmp",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ICMP-01",
+   "patternId": "P4_ICMP_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Traceroute kya use karta hai?",
+   "solutionApproach": "TTL exceeded.",
+   "answer": "ICMP time exceeded"
+  }
+ ]
+}

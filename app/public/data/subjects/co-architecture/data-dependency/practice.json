@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:data-dependency",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-DATA-D-01",
+   "patternId": "P3_DATA_DEPENDENCY_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Load ke turant baad use karne wale instruction par forwarding ke saath stall?",
+   "solutionApproach": "Load-use.",
+   "answer": "1 stall"
+  }
+ ]
+}

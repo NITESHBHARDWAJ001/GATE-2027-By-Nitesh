@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_DUAL_FUNCTION_01",
+  "name": "Self-Dual Functions (PYQ type)",
+  "recognitionClueHinglish": "Self-Dual Functions se related sawal.",
+  "whatShouldComeToMind": [
+   "Dual f^d = complement of f(complement inputs); self-dual: f^d=f."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Half of table free."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.14.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Count formula."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

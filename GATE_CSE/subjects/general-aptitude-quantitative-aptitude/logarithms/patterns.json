@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_LOGARITHMS_01",
+  "name": "Logarithms (PYQ type)",
+  "recognitionClueHinglish": "Logarithms se related sawal.",
+  "whatShouldComeToMind": [
+   "log rules: log(ab)=log a+log b."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rule."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.28.1",
+   "9.28.2",
+   "9.28.3",
+   "9.28.4",
+   "9.28.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Base confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

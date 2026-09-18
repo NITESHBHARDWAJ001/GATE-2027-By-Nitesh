@@ -1,0 +1,22 @@
+{
+ "overview": "Store-and-forward end-to-end delay; packet vs circuit switching.",
+ "whyItMatters": "4 PYQs extracted (2004-2015); P3 topic.",
+ "coreConcept": "Store-and-forward end-to-end delay; packet vs circuit switching.",
+ "hinglishExplanation": "Delay = hops x Tt + propagation; packet switching bandwidth utilization achha.",
+ "formalDefinition": "Store-and-forward end-to-end delay; packet vs circuit switching.",
+ "importantProperties": [
+  "Packet switching statistical multiplexing.",
+  "Circuit: setup, fixed path.",
+  "Pipelining of packets total time."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Hops count galat."
+ ],
+ "standardTechniques": [
+  "1. Hops.",
+  "2. Delay."
+ ],
+ "topicId": "computer-networks:network-switching"
+}

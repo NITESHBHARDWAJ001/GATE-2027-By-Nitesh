@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Circular seating constraints.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Round Table Arrangement se related sawal.",
+   "thinkThis": "P3_ROUND_TABLE_ARRANGEMENT_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Mirror duplicates."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:round-table-arrangement",
+ "revisionLevel": "short-form"
+}

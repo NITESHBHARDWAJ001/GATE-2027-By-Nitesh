@@ -1,0 +1,15 @@
+{
+ "topicId": "discrete-mathematics-graph-theory:jaccard-coefficient",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-JACCAR-01",
+   "patternId": "P3_JACCARD_COEFFICIENT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A,B tree edge sets 3 edges, share 1: J?",
+   "solutionApproach": "1/5.",
+   "answer": "0.2"
+  }
+ ]
+}

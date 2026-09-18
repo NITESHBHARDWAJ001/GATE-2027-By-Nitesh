@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_LINKER_01",
+  "name": "Linker (PYQ type)",
+  "recognitionClueHinglish": "Linker se related sawal.",
+  "whatShouldComeToMind": [
+   "External references resolve, dynamic linking benefits."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Reference kaun resolve."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.16.1",
+   "2.16.2",
+   "2.16.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Compiler aur linker ka kaam mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

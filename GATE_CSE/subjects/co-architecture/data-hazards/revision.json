@@ -1,0 +1,18 @@
+{
+ "coreIdea": "RAW, WAR, WAW: kab pipeline me problem.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Data Hazards se related sawal.",
+   "thinkThis": "P3_DATA_HAZARDS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "WAR ko in-order me hazard maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "co-architecture:data-hazards",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,23 @@
+{
+ "overview": "h(k,i) = (h1(k) + i*h2(k)) mod m; h2 nonzero aur m ke saath coprime.",
+ "whyItMatters": "2 PYQs extracted (2020-2025); P3 topic.",
+ "coreConcept": "h(k,i) = (h1(k) + i*h2(k)) mod m; h2 nonzero aur m ke saath coprime.",
+ "hinglishExplanation": "Probe sequence key-dependent hoti hai, isliye clustering kam.",
+ "formalDefinition": "h(k,i) = (h1(k) + i*h2(k)) mod m; h2 nonzero aur m ke saath coprime.",
+ "importantProperties": [
+  "h(k,i) = (h1 + i h2) mod m.",
+  "h2(k) != 0 aur gcd(h2, m)=1 (m prime achha).",
+  "Primary/secondary clustering kam.",
+  "Probe order slot by slot trace karo."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "h2 = 0 ya m ka factor."
+ ],
+ "standardTechniques": [
+  "1. h1, h2 nikalo.",
+  "2. i=0,1,2 probe."
+ ],
+ "topicId": "algorithms:double-hashing"
+}

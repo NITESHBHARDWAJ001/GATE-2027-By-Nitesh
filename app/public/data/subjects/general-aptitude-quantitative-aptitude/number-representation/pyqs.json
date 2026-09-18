@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.33.1",
+  "localId": "9.33.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "number-representation",
+  "topic": "Number Representation",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "2",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "The product of the digits of a three-digit number is . The sum of the digits of this three-digit number is A.                                          B.                               C.                       D. Answer key                                                       Number Series (5) 9.34 Practice Test: Test 1 (10Q)",
+  "tagsRaw": "gateda-2026 quantitative-aptitude one-mark number-representation",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 286
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_NUMBER_REPRESENTATION_01"
+ }
+]

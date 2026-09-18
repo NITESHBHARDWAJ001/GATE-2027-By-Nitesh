@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_SPEED_TIME_DISTANCE_01",
+  "name": "Speed, Time, Distance (PYQ type)",
+  "recognitionClueHinglish": "Speed, Time, Distance se related sawal.",
+  "whatShouldComeToMind": [
+   "d = s x t; average speed = total d / total t."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Total d, t."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.51.1",
+   "9.51.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Average of speeds."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

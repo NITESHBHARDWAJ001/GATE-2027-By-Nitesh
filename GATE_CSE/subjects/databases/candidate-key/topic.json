@@ -1,0 +1,22 @@
+{
+ "topicId": "databases:candidate-key",
+ "subjectId": "databases",
+ "subject": "Databases",
+ "name": "Candidate Keys",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "7 PYQs extracted, 1994-2026.",
+ "pyqCountExtracted": 7,
+ "yearsCovered": [
+  1994,
+  2005,
+  2011,
+  2014,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

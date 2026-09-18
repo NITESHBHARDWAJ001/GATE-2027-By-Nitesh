@@ -1,0 +1,37 @@
+{
+  "topicId": "dm-mathematical-logic-first-order-logic",
+  "overview": "FOL, Propositional Logic ka upgrade hai — ab statements ke andar VARIABLES aur QUANTIFIERS (∀ for all, ∃ there exists) aa jaate hain. GATE mainly 2 skills test karta hai: (1) English statement ko FOL formula me translate karna (ya reverse), (2) quantifier-involving identities/validity check karna.",
+  "whyItMatters": "35 PYQs, bahut consistent recency (2023,2025,2026 tak). Translation skill bahut mechanical hai ek baar keywords (all/some/none/exactly one) ka mapping yaad ho jaye.",
+  "coreConcept": "∀x P(x) = 'for EVERY x, P(x) is true' (AND-like across all x). ∃x P(x) = 'there EXISTS at least one x for which P(x) is true' (OR-like across all x). Order of quantifiers MATTERS when mixed (∀x∃y ≠ ∃y∀x in general) — ye sabse common trap hai.",
+  "hinglishExplanation": "∀ (upside-down A, 'for All') ko socho ek 'universal check' — HAR element ko pass hona chahiye. ∃ (backwards E, 'Exists') ek 'kam se kam ek milna chahiye' check hai. '∀x∃y P(x,y)' ka matlab: 'har x ke liye, KOI (x pe depend karta hua) y milega' — jaise 'har insaan ki ek maa hai' (each person's mother can be DIFFERENT). '∃y∀x P(x,y)' ka matlab: 'EK hi y hai jo SABHI x ke liye kaam karta hai' — jaise 'ek insaan hai jo sabko jaanta hai' (SAME person for everyone) — bahut stronger claim, order badalne se meaning badal jaata hai.",
+  "formalDefinition": "∀x P(x): true iff P(a) is true for every a in the domain. ∃x P(x): true iff P(a) is true for at least one a in the domain.",
+  "importantProperties": [
+    "¬∀x P(x) ≡ ∃x ¬P(x)  (negating 'all' gives 'exists a counterexample').",
+    "¬∃x P(x) ≡ ∀x ¬P(x)  (negating 'exists' gives 'none').",
+    "∀x∃y P(x,y) is WEAKER than ∃y∀x P(x,y) — the latter implies the former, not vice versa. Swapping ∀∃ order can change truth value.",
+    "∀x∀y and ∃x∃y (SAME quantifier repeated) CAN be freely swapped — order doesn't matter when both are ∀ or both are ∃.",
+    "'Some A are B' → ∃x(A(x)∧B(x)) — uses AND, not implication.",
+    "'All A are B' → ∀x(A(x)→B(x)) — uses IMPLICATION, not AND (classic trap: using ∧ here over-restricts to only-A-elements domain)."
+  ],
+  "formulas": {
+    "negateUniversal": "¬∀x P(x) ≡ ∃x ¬P(x)",
+    "negateExistential": "¬∃x P(x) ≡ ∀x ¬P(x)",
+    "allTranslation": "'All A are B' → ∀x(A(x)→B(x))",
+    "someTranslation": "'Some A are B' → ∃x(A(x)∧B(x))",
+    "noneTranslation": "'No A are B' → ∀x(A(x)→¬B(x))  ≡  ¬∃x(A(x)∧B(x))"
+  },
+  "keyPropertiesAndIdentities": [
+    "The single biggest translation trap: using ∧ instead of → inside a ∀ (should be 'All A are B' = ∀x(A(x)→B(x)), NOT ∀x(A(x)∧B(x)) which would wrongly claim EVERY element in the domain is an A).",
+    "The single biggest translation trap in the other direction: using → instead of ∧ inside an ∃ ('Some A are B' = ∃x(A(x)∧B(x)), NOT ∃x(A(x)→B(x)) which is nearly always trivially true)."
+  ],
+  "commonPitfalls": [
+    "Swapping ∀x∃y and ∃y∀x carelessly — these are NOT equivalent, always check which is stronger.",
+    "Using ∧ inside ∀ or → inside ∃ (the mirror-image translation trap above).",
+    "Forgetting to flip the connective (∧↔∨, and →'s structure) when pushing a negation through nested quantifiers — must flip BOTH the quantifier type AND the inner connective."
+  ],
+  "standardTechniques": [
+    "For translation: identify the quantifier keyword (all/every/some/none/exactly one) FIRST, then pick the ∀-with-→ or ∃-with-∧ template accordingly.",
+    "For negation-of-nested-quantifiers: push ¬ inward one quantifier at a time, flipping ∀↔∃ and applying De Morgan's to the innermost connective at the very end.",
+    "For validity/equivalence of quantified formulas: test with a tiny concrete domain (2-3 elements) and enumerate — often faster than abstract manipulation."
+  ]
+}

@@ -1,0 +1,30 @@
+[
+ {
+  "patternId": "P3_STATEMENTS_FOLLOW_01",
+  "name": "Statements and Conclusions (PYQ type)",
+  "recognitionClueHinglish": "Statements and Conclusions se related sawal.",
+  "whatShouldComeToMind": [
+   "Given statements se kaunsa conclusion definitely follow karta hai."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Venn.",
+   "2. Har conclusion check."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.15.1",
+   "8.15.2",
+   "8.15.3",
+   "8.15.4",
+   "8.15.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Real-world knowledge use karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

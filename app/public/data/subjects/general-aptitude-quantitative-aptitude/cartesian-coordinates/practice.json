@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:cartesian-coordinates",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CARTES-01",
+   "patternId": "P3_CARTESIAN_COORDINATES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "(0,0),(3,4) distance?",
+   "solutionApproach": "5.",
+   "answer": "5"
+  }
+ ]
+}

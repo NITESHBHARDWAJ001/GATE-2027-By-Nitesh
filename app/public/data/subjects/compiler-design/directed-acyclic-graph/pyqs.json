@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "compiler-design__2.9.1",
+  "localId": "2.9.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "directed-acyclic-graph",
+  "topic": "Directed Acyclic Graph",
+  "year": 2014,
+  "examStream": "CSE",
+  "set": 3,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "34",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the basic block given below. a=b+c c=a+d d=b+c e=d-b a=e+b The minimum number of nodes and edges present in the DAG representation of the above basic block respectively are A. and                             B. and                                             C. and  D. and",
+  "tagsRaw": "gatecse-2014-set3 compiler-design  code-optimization  directed-acyclic-graph  normal",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 130
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DIRECTED_ACYCLIC_GRAPH_01"
+ },
+ {
+  "pyqId": "compiler-design__2.9.2",
+  "localId": "2.9.2",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "directed-acyclic-graph",
+  "topic": "Directed Acyclic Graph",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "50",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "6:6",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the following code segment: a = b + c; e = a + 1; d = b + c; f = d + 1; g = e + f; In a compiler, this code segment is represented internally as a directed acyclic graph                                     . The number of nodes in the      is _____________",
+  "tagsRaw": "gatecse-2021-set1 compiler-design  code-optimization  directed-acyclic-graph  numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 130
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DIRECTED_ACYCLIC_GRAPH_01"
+ }
+]

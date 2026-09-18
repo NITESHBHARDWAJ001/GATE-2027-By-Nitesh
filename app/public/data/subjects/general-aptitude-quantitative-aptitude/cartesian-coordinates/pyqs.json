@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.10.1",
+  "localId": "9.10.1",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "cartesian-coordinates",
+  "topic": "Cartesian Coordinates",
+  "year": 2020,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "9",
+  "sourceType": "GATE_PYQ",
+  "questionType": "UNKNOWN",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A 0.4895 : 0.4897",
+  "answerVerified": true,
+  "questionTextRaw": "Two straight lines are drawn perpendicular to each other in                                      plane. If  and are the acute angles the straight lines make with the axis, then                                     is ________. A.                                  B.                                          C.                          D.",
+  "tagsRaw": "gatecse-2020 quantitative-aptitude  geometry  cartesian-coordinates  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 268
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_CARTESIAN_COORDINATES_01"
+ },
+ {
+  "pyqId": "general-aptitude-quantitative-aptitude__9.10.2",
+  "localId": "9.10.2",
+  "subjectId": "general-aptitude-quantitative-aptitude",
+  "subject": "General Aptitude: Quantitative Aptitude",
+  "topicSlug": "cartesian-coordinates",
+  "topic": "Cartesian Coordinates",
+  "year": 2022,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "2",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "A function  is defined in the interval                                  on the axis as Which one of the following is the area under the curve for the interval                                on the axis? A.                                  B.                                          C.                          D.",
+  "tagsRaw": "gatecse-2022 quantitative-aptitude cartesian-coordinates area one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 268
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_CARTESIAN_COORDINATES_01"
+ }
+]

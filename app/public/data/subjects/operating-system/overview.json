@@ -1,0 +1,23 @@
+{
+ "subjectId": "operating-system",
+ "name": "Operating System",
+ "sourceVolume": "volume3",
+ "sourcePdf": "filter1_volume3 (1).pdf",
+ "totalTopics": 33,
+ "totalPyqsExtracted": 343,
+ "priorityDistribution": {
+  "P1": 6,
+  "P2": 5,
+  "P3": 20,
+  "P4": 2
+ },
+ "p1Topics": [
+  "Disk Scheduling",
+  "Page Replacement",
+  "Process Scheduling",
+  "Process Synchronization",
+  "Resource Allocation",
+  "Virtual Memory"
+ ],
+ "processingStatus": "all_P1_topics_complete (6/6)"
+}

@@ -1,0 +1,20 @@
+{
+ "overview": "Minute hand 6 deg/min, hour hand 0.5 deg/min.",
+ "whyItMatters": "1 PYQs extracted (2014-2014); P4 topic.",
+ "coreConcept": "Minute hand 6 deg/min, hour hand 0.5 deg/min.",
+ "hinglishExplanation": "Relative speed 5.5 deg/min.",
+ "formalDefinition": "Minute hand 6 deg/min, hour hand 0.5 deg/min.",
+ "importantProperties": [
+  "Angle = |30H - 5.5M|.",
+  "Overlap every 65 5/11 min."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Reflex angle."
+ ],
+ "standardTechniques": [
+  "1. Formula."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:clock-time"
+}

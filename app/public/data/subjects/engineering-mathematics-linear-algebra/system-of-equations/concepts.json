@@ -1,0 +1,37 @@
+{
+ "overview": "Ax = b ka solution: unique, infinite ya none — rank of A aur augmented matrix [A|b] se decide hota hai. Homogeneous Ax = 0 ka non-trivial solution det(A) = 0 hone par.",
+ "whyItMatters": "17 PYQs, 1996-2026; parameter-based 'kitne values par infinite/no solution' recent saalon me common hai.",
+ "coreConcept": "Rank test: rank(A) = rank([A|b]) = n => unique; rank(A) = rank([A|b]) < n => infinite; rank(A) < rank([A|b]) => no solution (n = number of unknowns).",
+ "hinglishExplanation": "Row-reduce karke echelon form banao. Agar koi row 0 = non-zero jaisi aa jaye to inconsistent (no solution). Free variables jitne, utne parameters, yaani infinite solutions. Square system me unique solution tabhi jab det(A) != 0.",
+ "formalDefinition": "Consistent iff rank(A) = rank([A|b]).",
+ "importantProperties": [
+  "Unique: rank(A)=rank([A|b])=n.",
+  "Infinite: rank(A)=rank([A|b])<n.",
+  "None: rank(A)<rank([A|b]).",
+  "Homogeneous Ax=0 hamesha consistent; trivial solution x=0.",
+  "Homogeneous me non-trivial solution <=> rank(A) < n <=> det = 0 (square).",
+  "Homogeneous solution space ki dimension = n - rank(A).",
+  "m < n (kam equations) wala consistent system infinite solutions deta hai.",
+  "Ax=b ke do solutions ka difference Ax=0 ka solution hota hai.",
+  "Gaussian elimination operations ~ n^3/3 multiplications."
+ ],
+ "formulas": {
+  "rankTest": "rank(A) vs rank([A|b]) vs n",
+  "nullDim": "n - rank(A)",
+  "gaussOps": "approx (n^3)/3 multiplications"
+ },
+ "keyPropertiesAndIdentities": [
+  "Square A: det A != 0 <=> unique solution for every b.",
+  "Parameter ke saath: det = 0 par rank alag check karo."
+ ],
+ "commonPitfalls": [
+  "Sirf det dekhkar 'no solution' bol dena (infinite bhi ho sakta hai).",
+  "Augmented rank check bhoolna.",
+  "Parameter ki special values miss karna."
+ ],
+ "standardTechniques": [
+  "Augmented matrix banao, row reduce.",
+  "Parameter wale sawal me det = 0 se special values nikaalo, phir har case me consistency."
+ ],
+ "topicId": "em-la-system-of-equations"
+}

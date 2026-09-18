@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:area",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-AREA-01",
+   "patternId": "P3_AREA_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Rectangle 5x4 area?",
+   "solutionApproach": "20.",
+   "answer": "20"
+  }
+ ]
+}

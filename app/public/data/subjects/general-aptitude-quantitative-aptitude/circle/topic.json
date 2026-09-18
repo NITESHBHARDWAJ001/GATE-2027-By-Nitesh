@@ -1,0 +1,20 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:circle",
+ "subjectId": "general-aptitude-quantitative-aptitude",
+ "subject": "General Aptitude - Quantitative Aptitude",
+ "name": "Circle",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 2018-2026.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  2018,
+  2020,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

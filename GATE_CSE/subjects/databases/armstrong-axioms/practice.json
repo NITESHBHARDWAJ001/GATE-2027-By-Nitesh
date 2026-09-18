@@ -1,0 +1,15 @@
+{
+ "topicId": "databases:armstrong-axioms",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ARMSTR-01",
+   "patternId": "P3_ARMSTRONG_AXIOMS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A->B, A->C => A->BC kaunsa rule?",
+   "solutionApproach": "Union.",
+   "answer": "Union rule"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "topicId": "databases:functional-dependency",
+ "subjectId": "databases",
+ "subject": "Databases",
+ "name": "Functional Dependencies",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "3 PYQs extracted, 2025-2026.",
+ "pyqCountExtracted": 3,
+ "yearsCovered": [
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

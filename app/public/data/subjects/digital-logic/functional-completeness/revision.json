@@ -1,0 +1,18 @@
+{
+ "coreIdea": "NAND aur NOR akele complete; {AND,NOT},{OR,NOT} complete; XOR/half adder nahi.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Functional Completeness se related sawal.",
+   "thinkThis": "P3_FUNCTIONAL_COMPLETENESS_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "XOR ko complete maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "digital-logic:functional-completeness",
+ "revisionLevel": "short-form"
+}

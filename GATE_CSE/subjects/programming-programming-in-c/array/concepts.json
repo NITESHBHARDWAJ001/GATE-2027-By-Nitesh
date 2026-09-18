@@ -1,0 +1,27 @@
+{
+ "overview": "1D/2D/3D array indexing, address arithmetic, strings, pointer to arrays, output prediction.",
+ "whyItMatters": "13 PYQs extracted (2002-2022); P2 topic.",
+ "coreConcept": "a[i] = *(a+i); 2D row-major: a[i][j] at base + (i*cols + j)*size.",
+ "hinglishExplanation": "Pointer arithmetic element-size ke units me hota hai. Strings null-terminated. Multi-dimensional arrays row-major me store hote hain. p + p[3] - p[1] jaise expressions me char ki ASCII value use hoti hai.",
+ "formalDefinition": "a[i] = *(a+i); 2D row-major: a[i][j] at base + (i*cols + j)*size.",
+ "importantProperties": [
+  "a[i] == *(a+i).",
+  "Row-major: base + (i*cols + j)*size.",
+  "Pointer + n = n elements aage.",
+  "Array name pointer decay.",
+  "String literal null-terminated.",
+  "sizeof array vs pointer."
+ ],
+ "formulas": {
+  "rowMajor": "base + (i*cols + j)*size"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Byte vs element step.",
+  "Null terminator."
+ ],
+ "standardTechniques": [
+  "Memory diagram."
+ ],
+ "topicId": "programming-programming-in-c:array"
+}

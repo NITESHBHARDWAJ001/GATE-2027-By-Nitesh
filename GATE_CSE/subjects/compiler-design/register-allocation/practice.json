@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:register-allocation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-REGIST-01",
+   "patternId": "P3_REGISTER_ALLOCATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Live ranges a[1-3], b[2-4], c[4-5]: min registers?",
+   "solutionApproach": "a,b overlap; c sirf b se.",
+   "answer": "2"
+  }
+ ]
+}

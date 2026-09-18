@@ -1,0 +1,42 @@
+{
+ "topicId": "computer-networks:sliding-window",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-SLIDIN-01",
+   "patternId": "SW_UTIL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Tt=1 ms, Tp=10 ms. Min window for 100% util?",
+   "solutionApproach": "1+2*10.",
+   "answer": "21"
+  },
+  {
+   "practiceId": "AI-SLIDIN-02",
+   "patternId": "SW_SEQBITS_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "GBN window 7. Min seq numbers?",
+   "solutionApproach": "W+1.",
+   "answer": "8"
+  },
+  {
+   "practiceId": "AI-SLIDING--X03",
+   "patternId": "SW_UTIL_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Tt=2 ms, Tp=9 ms. Min window for full utilization?",
+   "solutionApproach": "1+2*4.5=10.",
+   "answer": "10"
+  },
+  {
+   "practiceId": "AI-SLIDING--X04",
+   "patternId": "SW_SEQBITS_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Selection repeat, window 8: seq numbers needed?",
+   "solutionApproach": "2W.",
+   "answer": "16"
+  }
+ ]
+}

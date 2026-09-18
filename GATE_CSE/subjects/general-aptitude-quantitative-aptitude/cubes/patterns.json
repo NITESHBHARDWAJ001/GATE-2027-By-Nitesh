@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_CUBES_01",
+  "name": "Cubes (PYQ type)",
+  "recognitionClueHinglish": "Cubes se related sawal.",
+  "whatShouldComeToMind": [
+   "Cube surface, painted-face counts, volume."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. n."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.18.1",
+   "9.18.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Edge vs face."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

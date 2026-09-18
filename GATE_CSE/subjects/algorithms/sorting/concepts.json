@@ -1,0 +1,41 @@
+{
+  "topicId": "algorithms-sorting",
+  "overview": "Ye topic sorting algorithms ko COMPARE karta hai — kaunsa fastest hai kis scenario me, kaunsa stable/in-place hai, aur theoretical lower bounds kya hain. Ek fixed comparison-table yaad karna is topic ka 80% solve kar deta hai.",
+  "whyItMatters": "22 PYQs, aur ye ek 'memorize the table' topic hai — ek baar complexity/stability/in-place table solid ho jaaye to almost sab questions fast solve ho jaate hain.",
+  "coreConcept": "Har sorting algorithm ke 3 core attributes yaad rakho: (1) Time complexity — best/average/worst case, (2) Stable hai ya nahi (equal elements ka relative order preserve karta hai?), (3) In-place hai ya nahi (O(1) extra space?).",
+  "hinglishExplanation": "Stability ko socho — agar do students ki same marks hain (jaise dono 85), stable sort unka ORIGINAL relative order maintain karega (jo pehle tha wahi pehle rahega), unstable sort guarantee nahi deta. In-place ka matlab — extra bada array/buffer nahi chahiye, original array ke andar hi swap karke sort ho jaata hai.",
+  "formalDefinition": "Comparison-based sorting worst-case lower bound = Ω(n log n) (proven via decision-tree argument: n! possible orderings, each comparison narrows by factor 2, so ≥log2(n!)=Θ(n log n) comparisons needed).",
+  "importantProperties": [
+    "THE COMPARISON TABLE (memorize this cold):",
+    "Bubble Sort: Best O(n) [with early-exit optimization], Avg/Worst O(n²), Stable=YES, In-place=YES.",
+    "Insertion Sort: Best O(n), Avg/Worst O(n²), Stable=YES, In-place=YES. Best for nearly-sorted data.",
+    "Selection Sort: Best/Avg/Worst all O(n²) (always scans fully regardless of input), Stable=NO (standard version), In-place=YES. Minimum number of SWAPS among all sorts (at most n-1 swaps).",
+    "Merge Sort: Best/Avg/Worst all O(n log n), Stable=YES, In-place=NO (needs O(n) auxiliary array).",
+    "Quick Sort: Best/Avg O(n log n), Worst O(n²) [bad pivot choices, e.g. already-sorted input with naive pivot], Stable=NO, In-place=YES (O(log n) stack space).",
+    "Heap Sort: Best/Avg/Worst all O(n log n), Stable=NO, In-place=YES.",
+    "Radix Sort: O(d·(n+b)) where d=number of digits, b=base — LINEAR when d is a constant independent of n. Stable=YES (required for correctness, uses stable counting sort per digit).",
+    "Counting Sort: O(n+k) where k=range of values — linear when k=O(n). Stable=YES."
+  ],
+  "formulas": {
+    "comparisonSortLowerBound": "Ω(n log n) worst case, proven via decision tree (n! leaves, height ≥ log2(n!) = Θ(n log n))",
+    "kSortedListsMerge": "Merging k sorted lists of total n elements using a min-heap: O(n log k)",
+    "radixSortComplexity": "O(d(n+b)) — linear in n when d (digit count) is O(1)",
+    "minSwapsSelectionSort": "Selection sort needs at most n-1 swaps — provably the minimum among common comparison sorts for worst-case swap count"
+  },
+  "keyPropertiesAndIdentities": [
+    "'Which sort needs FEWEST swaps' → Selection Sort (at most n-1, since it does exactly one swap per pass, only when needed).",
+    "'Which sort has BEST worst-case guarantee' → Merge Sort or Heap Sort (both Θ(n log n) worst case, unlike Quick Sort's O(n²) worst case).",
+    "If array is ALREADY sorted: Insertion Sort and Bubble Sort (with early-exit) run in O(n); Selection Sort still O(n²) regardless (no early exit possible by design); naive Quick Sort (bad pivot) can degrade to O(n²) on already-sorted input."
+  ],
+  "commonPitfalls": [
+    "Assuming Quick Sort is always O(n log n) — its WORST case is O(n²) (bad pivot selection, e.g. consistently picking the smallest/largest element as pivot on sorted/reverse-sorted input).",
+    "Assuming Selection Sort is stable — the standard implementation is NOT stable (can reorder equal elements).",
+    "Confusing 'minimum comparisons' theory (Ω(n log n) lower bound, a THEORETICAL result) with 'which specific algorithm achieves the fewest comparisons on THIS specific array' (a concrete different question).",
+    "Forgetting Radix/Counting sort achieve LINEAR time by NOT being comparison-based — they don't violate the Ω(n log n) comparison-sort lower bound because they don't compare elements pairwise."
+  ],
+  "standardTechniques": [
+    "Memorize the comparison table above as a literal grid — most questions are direct lookups once it's memorized.",
+    "For 'best algorithm for scenario X' questions, match the scenario's special structure (already sorted? small range of values? need stability? need worst-case guarantee?) to the table's relevant column.",
+    "For k-sorted-lists-merge questions, recognize the min-heap-based k-way merge technique giving O(n log k)."
+  ]
+}

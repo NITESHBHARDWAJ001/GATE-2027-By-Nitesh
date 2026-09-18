@@ -1,0 +1,26 @@
+{
+ "topicId": "engineering-mathematics-calculus:integration",
+ "subjectId": "engineering-mathematics-calculus",
+ "subject": "Engineering Mathematics - Calculus",
+ "name": "Integration",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "11 PYQs extracted, 1993-2018.",
+ "pyqCountExtracted": 11,
+ "yearsCovered": [
+  1993,
+  1998,
+  2000,
+  2005,
+  2009,
+  2011,
+  2014,
+  2015,
+  2018
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

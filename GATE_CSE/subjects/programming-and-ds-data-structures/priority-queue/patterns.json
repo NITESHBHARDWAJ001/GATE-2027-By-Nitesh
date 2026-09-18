@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_PRIORITY_QUEUE_01",
+  "name": "Priority Queue (PYQ type)",
+  "recognitionClueHinglish": "Priority Queue se related sawal.",
+  "whatShouldComeToMind": [
+   "Heap implementation: insert/delete-min O(log n); stack via priority queue."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Implementation.",
+   "2. Cost."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "3.11.1",
+   "3.11.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Complexities ulta."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

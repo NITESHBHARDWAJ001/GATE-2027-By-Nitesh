@@ -1,0 +1,60 @@
+[
+ {
+  "patternId": "CPH_ERROR_PHASE_01",
+  "name": "Which Phase Detects the Error / Does the Task",
+  "recognitionClueHinglish": "Code snippet me error ka phase.",
+  "whatShouldComeToMind": [
+   "Phase responsibilities."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Error type.",
+   "2. Phase."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.7.1",
+   "2.7.3",
+   "2.7.10",
+   "2.7.13",
+   "2.7.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Semantic vs syntax."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CPH_MATCH_CONCEPT_02",
+  "name": "Matching and Statements about Phases",
+  "recognitionClueHinglish": "Match lists, front/back end statements.",
+  "whatShouldComeToMind": [
+   "Facts."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.7.2",
+   "2.7.4",
+   "2.7.5",
+   "2.7.6",
+   "2.7.7",
+   "2.7.9",
+   "2.7.11",
+   "2.7.12"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Symbol table use."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

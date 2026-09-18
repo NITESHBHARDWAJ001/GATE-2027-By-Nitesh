@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_PATTERNS_IN_THREE_DIMENS_01",
+  "name": "3D Patterns (Cubes, Cones, Surfaces) (PYQ type)",
+  "recognitionClueHinglish": "3D Patterns (Cubes, Cones, Surfaces) se related sawal.",
+  "whatShouldComeToMind": [
+   "Cube cutting, solids ka cross-section."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Visualize."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "10.7.1",
+   "10.7.2",
+   "10.7.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Hidden faces."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

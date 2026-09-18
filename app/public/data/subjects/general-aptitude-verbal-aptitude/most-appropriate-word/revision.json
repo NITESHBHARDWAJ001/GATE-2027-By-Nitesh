@@ -1,0 +1,28 @@
+{
+ "coreIdea": "Use context clues, contrast/cause markers, and analogy relation.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "blank in sentence",
+   "thinkThis": "VERB_CONTEXT_FILL_01"
+  },
+  {
+   "seeThis": "grammar-based options",
+   "thinkThis": "VERB_GRAMMAR_USAGE_02"
+  },
+  {
+   "seeThis": "A:B::C:?",
+   "thinkThis": "VERB_ANALOGY_INTENSITY_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Read contrast words",
+  "Check grammar first",
+  "Relation before options"
+ ],
+ "highYieldPyqLessons": [
+  "2024 me intensity-order analogies naye pattern ke roop me."
+ ],
+ "topicId": "ga-verbal-most-appropriate-word",
+ "revisionLevel": "short-form"
+}

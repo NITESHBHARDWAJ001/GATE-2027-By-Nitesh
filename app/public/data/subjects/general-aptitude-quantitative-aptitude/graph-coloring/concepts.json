@@ -1,0 +1,19 @@
+{
+ "overview": "Map colouring basic.",
+ "whyItMatters": "1 PYQs extracted (2024-2024); P3 topic.",
+ "coreConcept": "Map colouring basic.",
+ "hinglishExplanation": "Adjacent alag colour.",
+ "formalDefinition": "Map colouring basic.",
+ "importantProperties": [
+  "Planar 4 colours."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Non-adjacent restrict."
+ ],
+ "standardTechniques": [
+  "1. Adjacency."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:graph-coloring"
+}

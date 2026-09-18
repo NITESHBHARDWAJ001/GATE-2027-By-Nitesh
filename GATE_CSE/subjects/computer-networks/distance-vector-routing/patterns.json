@@ -1,0 +1,55 @@
+[
+ {
+  "patternId": "DV_UPDATE_01",
+  "name": "Compute Routing Table Entries after Updates",
+  "recognitionClueHinglish": "Topology, weights; table entry ya updated cost.",
+  "whatShouldComeToMind": [
+   "Bellman-Ford."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Neighbour vectors.",
+   "2. Min."
+  ],
+  "formulasUsed": [
+   "bf"
+  ],
+  "pyqExamples": [
+   "2.11.1",
+   "2.11.2",
+   "2.11.3",
+   "2.11.4",
+   "2.11.5",
+   "2.11.6",
+   "2.11.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Old vs new vector."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DV_CONCEPT_02",
+  "name": "Count-to-Infinity",
+  "recognitionClueHinglish": "Problem attribute.",
+  "whatShouldComeToMind": [
+   "DV problem."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Fact."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.11.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

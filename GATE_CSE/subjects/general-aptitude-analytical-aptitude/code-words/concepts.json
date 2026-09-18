@@ -1,0 +1,22 @@
+{
+ "overview": "Letters/words ke pattern se code decode.",
+ "whyItMatters": "2 PYQs extracted (2015-2016); P3 topic.",
+ "coreConcept": "Letters/words ke pattern se code decode.",
+ "hinglishExplanation": "Letter-position shift ya common syllable matching.",
+ "formalDefinition": "Letters/words ke pattern se code decode.",
+ "importantProperties": [
+  "Common substring same meaning.",
+  "Position shifts (+1, -1).",
+  "Elimination."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Sirf ek example se pattern maan lena."
+ ],
+ "standardTechniques": [
+  "1. Compare words.",
+  "2. Pattern."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:code-words"
+}

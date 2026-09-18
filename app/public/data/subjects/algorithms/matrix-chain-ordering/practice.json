@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:matrix-chain-ordering",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MATRIX-01",
+   "patternId": "P3_MATRIX_CHAIN_ORDERING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A(10x30), B(30x5), C(5x60): (AB)C ka cost?",
+   "solutionApproach": "10*30*5 + 10*5*60.",
+   "answer": "4500"
+  }
+ ]
+}

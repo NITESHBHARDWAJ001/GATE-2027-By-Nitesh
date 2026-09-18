@@ -1,0 +1,15 @@
+{
+ "topicId": "theory-of-computation:reduction",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-REDUCT-01",
+   "patternId": "P3_REDUCTION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A<=B and A undecidable: B?",
+   "solutionApproach": "Undecidable.",
+   "answer": "Undecidable"
+  }
+ ]
+}

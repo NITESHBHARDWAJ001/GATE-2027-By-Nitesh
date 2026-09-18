@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Union members same memory share; size largest member.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Union in C se related sawal.",
+   "thinkThis": "P4_UNION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Sum of sizes."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:union",
+ "revisionLevel": "short-form"
+}

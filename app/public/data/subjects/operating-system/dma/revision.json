@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Disk transfer with DMA: CPU time per block.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "DMA (OS View) se related sawal.",
+   "thinkThis": "P4_DMA_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Units."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:dma",
+ "revisionLevel": "short-form"
+}

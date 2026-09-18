@@ -1,0 +1,32 @@
+{
+ "overview": "Semaphore = shared integer with atomic wait (P) and signal (V). Counting vs binary. GATE me: final semaphore value, mutual exclusion / ordering with semaphores, output of concurrent code, monitor with semaphores.",
+ "whyItMatters": "11 PYQs extracted (1990-2026); P2 topic.",
+ "coreConcept": "wait(s): s--, block if negative (or wait till s>0). signal(s): s++, wake a waiting process.",
+ "hinglishExplanation": "Semaphore ek counter hai. wait matlab 'ek resource lo', signal matlab 'ek resource wapas do'. Final value = initial - (#wait) + (#signal), jab tak koi block na ho. Binary semaphore mutex jaisa kaam karta hai; ordering ke liye semaphore 0 se shuru karke signal/wait pair banao.",
+ "formalDefinition": "wait(s): s--, block if negative (or wait till s>0). signal(s): s++, wake a waiting process.",
+ "importantProperties": [
+  "Final value = initial - #wait + #signal (blocked processes ko alag se dekho).",
+  "Semaphore operations atomic hote hain (OS/hardware support se).",
+  "Binary semaphore initial 1 => mutual exclusion.",
+  "Semaphore initial 0 => ordering / signaling.",
+  "Deadlock ho sakta hai agar wait ka order alag ho.",
+  "Counting semaphore N resources ko manage karta hai.",
+  "Monitor condition variables semaphore se implement kar sakte hain."
+ ],
+ "formulas": {
+  "finalValue": "init - waits + signals",
+  "mutex": "init 1; wait; CS; signal"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Blocked wait ko complete maan lena.",
+  "Kaunse process pehle chalega ka interleaving ignore.",
+  "Semaphore init value galat padhna."
+ ],
+ "standardTechniques": [
+  "Har process ka trace likho.",
+  "Deadlock ke liye circular wait check.",
+  "Possible outputs ke liye interleavings enumerate."
+ ],
+ "topicId": "operating-system:semaphore"
+}

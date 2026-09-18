@@ -1,0 +1,15 @@
+{
+ "topicId": "co-architecture:runtime-environment",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RUNTIM-01",
+   "patternId": "P4_RUNTIME_ENVIRONMENT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Register windows ka fayda?",
+   "solutionApproach": "Kam memory accesses.",
+   "answer": "Fewer memory accesses per call"
+  }
+ ]
+}

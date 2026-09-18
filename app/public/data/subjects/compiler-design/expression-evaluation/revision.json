@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Bina function calls ke expression ek stack se evaluate; expression tree me minimum registers.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Expression Evaluation and Stacks se related sawal.",
+   "thinkThis": "P4_EXPRESSION_EVALUATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Do stacks maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "compiler-design:expression-evaluation",
+ "revisionLevel": "short-form"
+}

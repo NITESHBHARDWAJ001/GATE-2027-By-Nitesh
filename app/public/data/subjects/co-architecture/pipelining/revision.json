@@ -1,0 +1,27 @@
+{
+  "topicId": "coa-pipelining",
+  "revisionLevel": "short-form",
+  "coreIdea": "Cycle time = max(stage delays)+latch. Total time (n instr, k stages) = (k+n-1)×cycle_time. Speedup→k asymptotically. RAW=data hazard(forwarding), WAR/WAW=renaming, resource conflict=structural.",
+  "mustRememberFormulas": [
+    "Cycle time = max(all stage delays) + latch delay",
+    "Pipelined total = (k+n-1) × cycle_time",
+    "Non-pipelined total = n × Σ(all stage delays)",
+    "Speedup = NonPipelined/Pipelined, asymptotic → k"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "stage delays given, asked cycle time or total execution time", "thinkThis": "PIPE_TIMING_01"},
+    {"seeThis": "pipelined vs non-pipelined comparison, or two designs compared", "thinkThis": "PIPE_SPEEDUP_02"},
+    {"seeThis": "instruction sequence, register overlap, hazard type or forwarding asked", "thinkThis": "PIPE_HAZARDS_03"},
+    {"seeThis": "delayed branching, delay slot instruction safety", "thinkThis": "PIPE_BRANCH_HAZARD_04"}
+  ],
+  "commonTrapsQuickList": [
+    "Don't forget the latch delay when computing cycle time",
+    "(k+n-1) formula is IDEAL — add extra cycles explicitly for stated stalls/branch penalties",
+    "Register renaming solves WAR/WAW, NOT RAW — RAW needs forwarding/stalling",
+    "Delay-slot instruction executes UNCONDITIONALLY, regardless of branch outcome"
+  ],
+  "highYieldPyqLessons": [
+    "Timing computation (18/39) is the single biggest sub-skill in all of CO&A after Cache Memory — the formulas are simple, practice until automatic.",
+    "Hazard classification (11/39) rewards knowing the RAW/WAR/WAW distinction cold, plus matching each to its correct resolution technique."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:phrase-meaning",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PHRASE-01",
+   "patternId": "P3_PHRASE_MEANING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "'Beat around the bush'?",
+   "solutionApproach": "Avoid main point.",
+   "answer": "Avoid the point"
+  }
+ ]
+}

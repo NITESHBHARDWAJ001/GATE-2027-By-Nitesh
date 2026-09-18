@@ -1,0 +1,22 @@
+{
+ "topicId": "programming-programming-in-c:output",
+ "subjectId": "programming-programming-in-c",
+ "subject": "Programming & DS - Programming in C",
+ "name": "Output of C Programs",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "8 PYQs extracted, 2022-2026.",
+ "pyqCountExtracted": 8,
+ "yearsCovered": [
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

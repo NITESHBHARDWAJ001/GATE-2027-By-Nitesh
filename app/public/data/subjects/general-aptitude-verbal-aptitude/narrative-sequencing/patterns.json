@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_NARRATIVE_SEQUENCING_01",
+  "name": "Narrative Sequencing / Matching Responses (PYQ type)",
+  "recognitionClueHinglish": "Narrative Sequencing / Matching Responses se related sawal.",
+  "whatShouldComeToMind": [
+   "Statement-response matching, coherent narrative."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Match."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.8.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Topic shift."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

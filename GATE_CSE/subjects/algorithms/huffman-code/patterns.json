@@ -1,0 +1,58 @@
+[
+ {
+  "patternId": "HUF_BUILD_01",
+  "name": "Build Huffman Tree / Codes / Average Length",
+  "recognitionClueHinglish": "Frequencies diye; codes, average length ya total bits.",
+  "whatShouldComeToMind": [
+   "Greedy merging."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sort.",
+   "2. Merge two min.",
+   "3. Codes read."
+  ],
+  "formulasUsed": [
+   "total",
+   "avg"
+  ],
+  "pyqExamples": [
+   "1.22.1",
+   "1.22.2",
+   "1.22.3",
+   "1.22.4",
+   "1.22.6"
+  ],
+  "variationsObserved": [
+   "Fibonacci frequencies."
+  ],
+  "commonTraps": [
+   "Ties."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "HUF_CONSTRAINTS_02",
+  "name": "Code Assignment with Constraints",
+  "recognitionClueHinglish": "Prefix condition ke saath string ka minimum encoding.",
+  "whatShouldComeToMind": [
+   "Optimal prefix code."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Frequencies.",
+   "2. Huffman."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.22.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

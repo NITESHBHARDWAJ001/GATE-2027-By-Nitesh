@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "engineering-mathematics-linear-algebra__6.4.1",
+  "localId": "6.4.1",
+  "subjectId": "engineering-mathematics-linear-algebra",
+  "subject": "Engineering Mathematics: Linear Algebra",
+  "topicSlug": "gaussian-elimination",
+  "topic": "Gaussian Elimination",
+  "year": 2025,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "2                                                    upper",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "The number of additions and multiplications involved in performing Gaussian elimination on any triangular matrix is of the order A.                                       B.                            C.                             D.",
+  "tagsRaw": "gateda-2025 linear-algebra  matrix  gaussian-elimination  one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 172
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_GAUSSIAN_ELIMINATION_01"
+ }
+]

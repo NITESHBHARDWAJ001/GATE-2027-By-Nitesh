@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_LINE_GRAPH_01",
+  "name": "Line Graphs (PYQ type)",
+  "recognitionClueHinglish": "Line Graphs se related sawal.",
+  "whatShouldComeToMind": [
+   "Trend reading, growth rate."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Points."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.27.1",
+   "9.27.2",
+   "9.27.3"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Scale."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

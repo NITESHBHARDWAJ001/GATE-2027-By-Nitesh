@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_SUMMATION_01",
+  "name": "Summation / Series Value (PYQ type)",
+  "recognitionClueHinglish": "Summation / Series Value se related sawal.",
+  "whatShouldComeToMind": [
+   "Series ka closed form ya value (integer answer)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Pattern."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.8.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Range off-by-one."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

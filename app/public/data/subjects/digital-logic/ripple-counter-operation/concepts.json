@@ -1,0 +1,22 @@
+{
+ "overview": "n-bit ripple counter: last FF frequency = f/2^n; mod 2^n.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "n-bit ripple counter: last FF frequency = f/2^n; mod 2^n.",
+ "hinglishExplanation": "Har flip-flop frequency half karta hai.",
+ "formalDefinition": "n-bit ripple counter: last FF frequency = f/2^n; mod 2^n.",
+ "importantProperties": [
+  "Last FF frequency = f/2^n.",
+  "Period = 2^n x clock period.",
+  "Asynchronous, delay accumulate."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Bits count."
+ ],
+ "standardTechniques": [
+  "1. n.",
+  "2. Divide."
+ ],
+ "topicId": "digital-logic:ripple-counter-operation"
+}

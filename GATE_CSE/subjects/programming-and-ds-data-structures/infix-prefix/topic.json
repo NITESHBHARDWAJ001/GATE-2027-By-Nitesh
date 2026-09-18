@@ -1,0 +1,21 @@
+{
+ "topicId": "programming-and-ds-data-structures:infix-prefix",
+ "subjectId": "programming-and-ds-data-structures",
+ "subject": "Programming & DS - Data Structures",
+ "name": "Infix, Prefix, Postfix",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 1997-2007.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  1997,
+  1998,
+  2004,
+  2007
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

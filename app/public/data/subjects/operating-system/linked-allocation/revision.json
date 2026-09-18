@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Har block me next pointer; usable data = block - pointer.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Linked File Allocation se related sawal.",
+   "thinkThis": "P3_LINKED_ALLOCATION_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Pointer overhead ignore."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "operating-system:linked-allocation",
+ "revisionLevel": "short-form"
+}

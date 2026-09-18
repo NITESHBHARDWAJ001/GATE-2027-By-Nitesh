@@ -1,0 +1,15 @@
+{
+ "topicId": "algorithms:computer-science",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-COMPUT-01",
+   "patternId": "P4_COMPUTER_SCIENCE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "T(n)=2T(n/2)+n?",
+   "solutionApproach": "Case 2.",
+   "answer": "Theta(n log n)"
+  }
+ ]
+}

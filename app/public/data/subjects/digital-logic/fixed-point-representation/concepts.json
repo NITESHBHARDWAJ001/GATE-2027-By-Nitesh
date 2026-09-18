@@ -1,0 +1,21 @@
+{
+ "overview": "Range aur resolution: n bits, f fraction bits: step 2^-f, max 2^(n-f) - 2^-f.",
+ "whyItMatters": "2 PYQs extracted (2017-2018); P3 topic.",
+ "coreConcept": "Range aur resolution: n bits, f fraction bits: step 2^-f, max 2^(n-f) - 2^-f.",
+ "hinglishExplanation": "Fraction bits resolution decide.",
+ "formalDefinition": "Range aur resolution: n bits, f fraction bits: step 2^-f, max 2^(n-f) - 2^-f.",
+ "importantProperties": [
+  "Resolution 2^-f.",
+  "Max unsigned = (2^n - 1)/2^f."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Signed vs unsigned."
+ ],
+ "standardTechniques": [
+  "1. f.",
+  "2. Value/2^f."
+ ],
+ "topicId": "digital-logic:fixed-point-representation"
+}

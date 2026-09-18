@@ -1,0 +1,58 @@
+[
+ {
+  "patternId": "NC_ARITHMETIC_01",
+  "name": "Averages, Powers, Equations",
+  "recognitionClueHinglish": "Numbers, cubes, marks equations.",
+  "whatShouldComeToMind": [
+   "Algebra."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Equation.",
+   "2. Solve."
+  ],
+  "formulasUsed": [
+   "ap"
+  ],
+  "pyqExamples": [
+   "9.37.1",
+   "9.37.2",
+   "9.37.3",
+   "9.37.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Units."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "NC_COUNTING_GRAPH_02",
+  "name": "Tournaments, Credits, Graph Reading",
+  "recognitionClueHinglish": "Games count, credits combos, max function.",
+  "whatShouldComeToMind": [
+   "Counting/graph."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Model."
+  ],
+  "formulasUsed": [
+   "knockout"
+  ],
+  "pyqExamples": [
+   "9.37.5",
+   "9.37.6",
+   "9.37.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Data missing in extraction."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

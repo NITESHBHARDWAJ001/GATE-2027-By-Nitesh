@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-spatial-aptitude__10.3.1",
+  "localId": "10.3.1",
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "subject": "General Aptitude: Spatial Aptitude",
+  "topicSlug": "assembling-pieces",
+  "topic": "Assembling Pieces",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "A jigsaw puzzle has pieces. One of the pieces is shown above. Which one of the given options for the missing piece when assembled will form a rectangle? The piece can be moved, rotated or flipped to assemble with the above piece. A.                                                                     B. C.                                                                           D. Image Rotation (3)",
+  "tagsRaw": "gatecse-2021-set2 spatial-aptitude assembling-pieces two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 321
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ASSEMBLING_PIECES_01"
+ }
+]

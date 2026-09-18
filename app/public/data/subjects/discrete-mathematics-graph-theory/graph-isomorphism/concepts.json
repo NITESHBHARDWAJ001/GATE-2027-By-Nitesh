@@ -1,0 +1,22 @@
+{
+ "overview": "Invariants: degree sequence, edges; self-complementary: n = 4k or 4k+1.",
+ "whyItMatters": "4 PYQs extracted (2012-2022); P3 topic.",
+ "coreConcept": "Invariants: degree sequence, edges; self-complementary: n = 4k or 4k+1.",
+ "hinglishExplanation": "Self-complementary graph me edges = n(n-1)/4.",
+ "formalDefinition": "Invariants: degree sequence, edges; self-complementary: n = 4k or 4k+1.",
+ "importantProperties": [
+  "Isomorphic => same degree sequence.",
+  "Self-complementary: n(n-1)/4 integer.",
+  "Cycle C_n isomorphic to complement only n=5.",
+  "Petersen graph properties."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Same degree sequence ko sufficient maan lena."
+ ],
+ "standardTechniques": [
+  "1. Invariants."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:graph-isomorphism"
+}

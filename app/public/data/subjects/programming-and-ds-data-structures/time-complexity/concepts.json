@@ -1,0 +1,21 @@
+{
+ "overview": "Meld operation: heaps merge cost by structure.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Meld operation: heaps merge cost by structure.",
+ "hinglishExplanation": "Binary heap meld O(n); binomial/leftist O(log n).",
+ "formalDefinition": "Meld operation: heaps merge cost by structure.",
+ "importantProperties": [
+  "Binary heap meld O(n).",
+  "Leftist heap meld O(log n).",
+  "Fibonacci heap O(1) amortized."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Binary heap meld ko log n maan lena."
+ ],
+ "standardTechniques": [
+  "1. Structure."
+ ],
+ "topicId": "programming-and-ds-data-structures:time-complexity"
+}

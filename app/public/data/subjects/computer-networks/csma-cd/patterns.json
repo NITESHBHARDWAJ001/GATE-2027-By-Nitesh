@@ -1,0 +1,53 @@
+[
+ {
+  "patternId": "CSMA_MINFRAME_01",
+  "name": "Minimum Frame Size / Slot Time",
+  "recognitionClueHinglish": "Bandwidth, distance, speed; min frame.",
+  "whatShouldComeToMind": [
+   "2 Tp B."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Tp.",
+   "2. Formula."
+  ],
+  "formulasUsed": [
+   "minFrame"
+  ],
+  "pyqExamples": [
+   "2.6.1",
+   "2.6.2",
+   "2.6.3",
+   "2.6.5",
+   "2.6.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Units."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CSMA_CONCEPT_02",
+  "name": "CSMA/CD Statements",
+  "recognitionClueHinglish": "Kaunsa network CSMA/CD use karta hai.",
+  "whatShouldComeToMind": [
+   "Definitions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Fact."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.6.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

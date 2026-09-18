@@ -1,0 +1,31 @@
+[
+ {
+  "patternId": "P3_MIN_NO_GATES_01",
+  "name": "Minimum Number of Gates (PYQ type)",
+  "recognitionClueHinglish": "Minimum Number of Gates se related sawal.",
+  "whatShouldComeToMind": [
+   "Function ko minimum gates (NAND/NOR/given) se implement."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Minimize.",
+   "2. Convert."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.24.1",
+   "4.24.2",
+   "4.24.3",
+   "4.24.4",
+   "4.24.5",
+   "4.24.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Inverters ko count na karna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,39 @@
+{
+  "topicId": "algorithms-minimum-spanning-tree",
+  "overview": "MST GATE ka bahut high-yield topic hai (35 PYQs). 6 skills: actual MST weight/structure compute karna, distinct-MST count karna, MST ki theoretical properties (cut/cycle property) verify karna, Kruskal's ka valid edge-addition order check karna, algorithm complexity, aur edge-weight transformation ka MST pe effect.",
+  "whyItMatters": "Almost har saal 2+ questions. MST properties (cut property, cycle property) discrete-math-jaisी proof reasoning bhi test karte hain, isliye conceptual depth zaroori hai.",
+  "coreConcept": "MST = ek connected weighted undirected graph ka spanning tree (n-1 edges, sab vertices connected, no cycle) jiska TOTAL EDGE WEIGHT minimum ho. Do standard algorithms: KRUSKAL'S (edges ko weight se sort karo, ek-ek add karo agar cycle na bane — Union-Find se check), PRIM'S (ek vertex se shuru karo, hamesha current tree se sabse sasta connecting edge add karo — jaise Dijkstra's).",
+  "hinglishExplanation": "MST ko socho 'sabse sasta tarika sab cities ko roads se connect karne ka, bina kisi extra/redundant road ke'. Kruskal's ka approach: sabse sasti roads pehle consider karo, jab tak wo cycle na banaye (already-connected cities ko phir se connect na kare) tab tak add karte jao. Prim's ka approach: ek city se shuru karo, hamesha 'abhi tak ke network se BAAHAR jaane wali sabse sasti road' add karo.",
+  "formalDefinition": "MST of a connected weighted undirected graph G=(V,E): a spanning tree T (V, E'⊆E, |E'|=|V|-1, acyclic, connects all vertices) minimizing Σ weight(e) for e∈E'.",
+  "importantProperties": [
+    "CUT PROPERTY: for any cut (partition of vertices into two sets), the MINIMUM weight edge crossing the cut is ALWAYS part of SOME MST. This is the theoretical foundation both Kruskal's and Prim's rely on.",
+    "CYCLE PROPERTY: for any cycle in the graph, the MAXIMUM weight edge in that cycle is NEVER in the MST (unless there's a tie) — equivalently, that edge can always be safely excluded.",
+    "If ALL edge weights are DISTINCT, the MST is UNIQUE. If weights can repeat, MULTIPLE MSTs may exist (any tie-breaking choice among equal-weight edges at a decision point can yield an alternative valid MST).",
+    "The GLOBAL MINIMUM weight edge in the graph is ALWAYS included in every MST (special case of cut property, using the cut that isolates one endpoint).",
+    "The GLOBAL MAXIMUM weight edge is NOT necessarily excluded — it's only guaranteed excluded if it's the max weight edge in SOME CYCLE (if removing it would disconnect the graph, it must stay).",
+    "If every edge weight is increased by the SAME constant, the MST edge SET does NOT change (relative order of all edges is preserved) — but the MST's TOTAL weight increases by (constant × (n-1)), since exactly n-1 edges are in any spanning tree.",
+    "If every edge weight is SCALED by the same positive constant (multiplied), the MST edge set also does NOT change (relative order preserved) — but if weights are individually SQUARED (a non-linear transformation), the relative order CAN change, so the MST set MIGHT change too."
+  ],
+  "formulas": {
+    "kruskalComplexity": "O(E log E) [sorting edges] or O(E log V) [equivalent, since E≤V²] — plus near-O(E) Union-Find operations",
+    "primComplexity": "O(E log V) with a binary heap priority queue; O(V²) with a simple array-based implementation (better for dense graphs)",
+    "mstWeightAfterUniformIncrease": "New MST weight = Old MST weight + (n-1)×c, when every edge weight increases by constant c (MST edge SET unchanged)",
+    "addEdgeUpdateComplexity": "Adding a new edge to an existing MST and updating it: O(V) or O(E) depending on implementation — need to check if new edge creates a cycle and if so remove the max-weight edge in that cycle"
+  },
+  "keyPropertiesAndIdentities": [
+    "Distinct edge weights ⟹ UNIQUE MST — this if-and-only-if-style fact is tested constantly; the converse (MST unique ⟹ weights distinct) is NOT guaranteed though (a graph CAN have a unique MST even with some tied weights, if the ties don't affect any MST-relevant decision).",
+    "'Second-smallest edge is always in every MST' is FALSE in general (unlike the smallest edge) — only the GLOBAL MINIMUM edge has this unconditional guarantee."
+  ],
+  "commonPitfalls": [
+    "Assuming the maximum-weight edge is NEVER in the MST — it's only excluded if it's the max in some CYCLE; if it's a bridge (removing it disconnects the graph), it MUST be included regardless of its weight.",
+    "Confusing 'unique MST' with 'MST exists' — uniqueness requires distinct weights (or at least no tie-affecting-choice), existence just requires the graph to be connected.",
+    "For uniform-weight-increase questions, forgetting the total weight change is (n-1)×increase, not just 'increase' — since exactly n-1 edges are affected.",
+    "Assuming squaring or other non-linear weight transformations preserve the MST — only strictly monotonic LINEAR transformations (adding a constant, or multiplying by a positive constant) are guaranteed to preserve the MST edge set."
+  ],
+  "standardTechniques": [
+    "For direct weight/structure computation: run Kruskal's (sort edges, add if no cycle, using a mental Union-Find) or Prim's (grow from a vertex, always take cheapest connecting edge) explicitly on the given graph.",
+    "For counting-distinct-MSTs questions: identify EVERY point in the algorithm where a TIE occurs between edges of equal weight that are both viable choices — the number of independent tie-breaking choices multiplies to give the total MST count.",
+    "For theoretical TRUE/FALSE claims: check against cut property (min edge crossing any cut is in SOME MST) and cycle property (max edge in any cycle is NOT in the MST, unless it's a bridge) as the two governing facts.",
+    "For Kruskal's edge-order validity: simulate the algorithm's actual sorted-edge-processing order and compare against each candidate sequence."
+  ]
+}

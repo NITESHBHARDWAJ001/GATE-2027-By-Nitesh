@@ -1,0 +1,33 @@
+{
+ "topicId": "co-architecture:instruction-execution",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INSTRU-01",
+   "patternId": "IE_CALC_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "1e6 instr, CPI 2, 1 GHz. Time?",
+   "solutionApproach": "2e6 cycles / 1e9.",
+   "answer": "2 ms"
+  },
+  {
+   "practiceId": "AI-INSTRUCT-X02",
+   "patternId": "IE_CALC_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "10^8 instr, CPI 1.5, 2 GHz. Execution time?",
+   "solutionApproach": "1.5e8/2e9.",
+   "answer": "75 ms"
+  },
+  {
+   "practiceId": "AI-INSTRUCT-X03",
+   "patternId": "IE_CALC_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "PC-relative branch at 1000, instr length 4, target 1024. Offset (bytes)?",
+   "solutionApproach": "1024-(1000+4).",
+   "answer": "20"
+  }
+ ]
+}

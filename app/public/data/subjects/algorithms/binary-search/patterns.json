@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_BINARY_SEARCH_01",
+  "name": "Binary Search (PYQ type)",
+  "recognitionClueHinglish": "Binary Search se related sawal.",
+  "whatShouldComeToMind": [
+   "Sorted array me O(log n) search; worst-case comparisons floor(log2 n)+1."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. n ko halve karte jao jab tak 1.",
+   "2. Steps gino."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.6.1",
+   "1.6.2",
+   "1.6.3",
+   "1.6.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Unsorted array par lagana."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

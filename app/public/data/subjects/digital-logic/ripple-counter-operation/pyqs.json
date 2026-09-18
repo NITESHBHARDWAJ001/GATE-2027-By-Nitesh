@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "digital-logic__4.33.1",
+  "localId": "4.33.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "ripple-counter-operation",
+  "topic": "Ripple Counter Operation",
+  "year": 2025,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "24                                   microseconds, then the",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "250:250",
+  "answerVerified": true,
+  "questionTextRaw": "In a -bit ripple counter, if the period of the waveform at the last flip-flop is frequency of the ripple counter in kHz is _________. (Answer in integer)",
+  "tagsRaw": "gatecse2025-set2 digital-logic  ripple-counter-operation  numerical-answers  one-mark",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 359
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_RIPPLE_COUNTER_OPERATION_01"
+ }
+]

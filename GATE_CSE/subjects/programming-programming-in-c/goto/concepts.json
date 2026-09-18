@@ -1,0 +1,20 @@
+{
+ "overview": "Unrestricted goto program structure aur verification mushkil banata.",
+ "whyItMatters": "2 PYQs extracted (1989-1994); P4 topic.",
+ "coreConcept": "Unrestricted goto program structure aur verification mushkil banata.",
+ "hinglishExplanation": "Control flow tangled ho jata.",
+ "formalDefinition": "Unrestricted goto program structure aur verification mushkil banata.",
+ "importantProperties": [
+  "Verification difficult.",
+  "Structured programming avoids goto."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Performance argument."
+ ],
+ "standardTechniques": [
+  "1. Readability."
+ ],
+ "topicId": "programming-programming-in-c:goto"
+}

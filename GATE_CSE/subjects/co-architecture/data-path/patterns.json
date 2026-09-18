@@ -1,0 +1,53 @@
+[
+ {
+  "patternId": "DP_MICROOPS_01",
+  "name": "Micro-operation Sequences / Control Signals",
+  "recognitionClueHinglish": "Data path figure; steps ya signals.",
+  "whatShouldComeToMind": [
+   "Sequential register transfers."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Steps.",
+   "2. Signals."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.12.1",
+   "1.12.2",
+   "1.12.3",
+   "1.12.4",
+   "1.12.6",
+   "1.12.7"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Bus conflict."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "DP_TIMING_02",
+  "name": "Functional Unit Scheduling / Time",
+  "recognitionClueHinglish": "Units ke times aur copies diye; minimum time.",
+  "whatShouldComeToMind": [
+   "Schedule."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Dependencies.",
+   "2. Parallelism."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.12.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

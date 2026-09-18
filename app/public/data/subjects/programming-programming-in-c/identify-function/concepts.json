@@ -1,0 +1,22 @@
+{
+ "overview": "Short C snippets ki functionality ya output: side effects, swap/sort loops, equivalence of statements.",
+ "whyItMatters": "6 PYQs extracted (1995-2019); P2 topic.",
+ "coreConcept": "Snippet ko chhote input par execute karke pattern pehchano.",
+ "hinglishExplanation": "Side effects wale function (var parameters) ka order of evaluation matter karta hai. Bubble sort jaisi loops ko chhote array par trace karo. If-else equivalent single expression: x = 1 - x.",
+ "formalDefinition": "Snippet ko chhote input par execute karke pattern pehchano.",
+ "importantProperties": [
+  "Chhote input par simulate.",
+  "Side effects aur evaluation order.",
+  "Swap via temp.",
+  "Toggle: x = 1 - x ya x = !x."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Side-effect order."
+ ],
+ "standardTechniques": [
+  "Small example."
+ ],
+ "topicId": "programming-programming-in-c:identify-function"
+}

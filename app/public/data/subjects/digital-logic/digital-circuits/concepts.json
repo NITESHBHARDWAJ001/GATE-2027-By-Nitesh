@@ -1,0 +1,21 @@
+{
+ "overview": "Gate networks se function nikalna, equivalence, XOR equivalences.",
+ "whyItMatters": "7 PYQs extracted (1996-2026); P3 topic.",
+ "coreConcept": "Gate networks se function nikalna, equivalence, XOR equivalences.",
+ "hinglishExplanation": "Truth table se verify karo ki circuit kis gate ke equivalent hai.",
+ "formalDefinition": "Gate networks se function nikalna, equivalence, XOR equivalences.",
+ "importantProperties": [
+  "3-input XOR = odd parity.",
+  "Buffers delay dete hain.",
+  "Complement-only-once expressions."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Simplification skip karke guess."
+ ],
+ "standardTechniques": [
+  "1. Truth table."
+ ],
+ "topicId": "digital-logic:digital-circuits"
+}

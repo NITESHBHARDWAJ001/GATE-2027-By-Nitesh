@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Perfect matchings in K_2n = (2n)!/(2^n n!); path graph matchings Fibonacci.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Graph Matching se related sawal.",
+   "thinkThis": "P3_GRAPH_MATCHING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Ordered vs unordered pairing."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-graph-theory:graph-matching",
+ "revisionLevel": "short-form"
+}

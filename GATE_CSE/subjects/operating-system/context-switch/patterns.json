@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_CONTEXT_SWITCH_01",
+  "name": "Context Switch (PYQ type)",
+  "recognitionClueHinglish": "Context Switch se related sawal.",
+  "whatShouldComeToMind": [
+   "Kya save hota hai, kab hota hai, overhead cost."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Kya process badla?"
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.3.1",
+   "5.3.2",
+   "5.3.3",
+   "5.3.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Har interrupt ko context switch maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

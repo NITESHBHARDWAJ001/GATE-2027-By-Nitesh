@@ -1,0 +1,24 @@
+{
+ "coreIdea": "D(x,y) = min over neighbours v of c(x,v) + D(v,y).",
+ "mustRememberFormulas": [
+  "bf: D(x,y)=min_v c(x,v)+D(v,y)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Topology, weights; table entry ya updated cost.",
+   "thinkThis": "DV_UPDATE_01"
+  },
+  {
+   "seeThis": "Problem attribute.",
+   "thinkThis": "DV_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Old vs new vector."
+ ],
+ "highYieldPyqLessons": [
+  "Topology figures may be blank; check the source."
+ ],
+ "topicId": "computer-networks:distance-vector-routing",
+ "revisionLevel": "short-form"
+}

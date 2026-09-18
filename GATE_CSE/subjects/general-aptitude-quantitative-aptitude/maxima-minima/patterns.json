@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_MAXIMA_MINIMA_01",
+  "name": "Maxima/Minima (Aptitude) (PYQ type)",
+  "recognitionClueHinglish": "Maxima/Minima (Aptitude) se related sawal.",
+  "whatShouldComeToMind": [
+   "Simple optimization: AM-GM, quadratic vertex."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Vertex."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.30.1",
+   "9.30.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Range restrict."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

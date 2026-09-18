@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Definite/indefinite article.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Articles (a, an, the) se related sawal.",
+   "thinkThis": "P3_ARTICLES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Spelling vs sound."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:articles",
+ "revisionLevel": "short-form"
+}

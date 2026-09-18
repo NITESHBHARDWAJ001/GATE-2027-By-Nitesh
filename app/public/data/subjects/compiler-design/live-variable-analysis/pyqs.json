@@ -1,0 +1,83 @@
+[
+ {
+  "pyqId": "compiler-design__2.17.1",
+  "localId": "2.17.1",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "live-variable-analysis",
+  "topic": "Live Variable Analysis",
+  "year": 2015,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "50",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "A variable is said to be live at a statement in a program if the following three conditions hold simultaneously: i. There exists a statement that uses ii. There is a path from to in the flow graph corresponding to the program iii. The path has no intervening assignment to including at and The variables which are live both at the statement in basic block and at the statement in basic block of the above control flow graph are A.                                 B.                              C.                          D.",
+  "tagsRaw": "gatecse-2015-set1 compiler-design  live-variable-analysis  normal",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 155
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LIVE_VARIABLE_ANALYSIS_01"
+ },
+ {
+  "pyqId": "compiler-design__2.17.2",
+  "localId": "2.17.2",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "live-variable-analysis",
+  "topic": "Live Variable Analysis",
+  "year": 2021,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "38",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "For a statement in a program, in the context of liveness analysis, the following sets are defined: : the set of variables used in : the set of variables that are live at the entry of : the set of variables that are live at the exit of Consider a basic block that consists of two statements, followed by . Which one of the following statements is correct? A. B. C. D.",
+  "tagsRaw": "gatecse-2021-set2 code-optimization  live-variable-analysis  compiler-design  two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 156
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LIVE_VARIABLE_ANALYSIS_01"
+ },
+ {
+  "pyqId": "compiler-design__2.17.3",
+  "localId": "2.17.3",
+  "subjectId": "compiler-design",
+  "subject": "Compiler Design",
+  "topicSlug": "live-variable-analysis",
+  "topic": "Live Variable Analysis",
+  "year": 2023,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "27",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Consider the control flow graph shown. Which one of the following choices correctly lists the set of live variables at the exit point of each basic block? A.                                                                                       B. C.                                                                                       D.",
+  "tagsRaw": "gatecse-2023 compiler-design live-variable-analysis two-marks",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 156
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_LIVE_VARIABLE_ANALYSIS_01"
+ }
+]

@@ -1,0 +1,25 @@
+{
+ "overview": "Thread = lightweight process. User-level vs kernel-level threads, kya shared hai kya nahi, aur multithreaded code ka result.",
+ "whyItMatters": "10 PYQs extracted (2004-2024); P2 topic.",
+ "coreConcept": "Threads of a process share code, data (globals), heap, open files, address space; each has its own stack, registers, program counter.",
+ "hinglishExplanation": "Thread process ke andar chalne wala chhota execution unit hai. Memory (heap, globals) share hoti hai, lekin har thread ka apna stack aur registers hote hain. User-level threads ka context switch tez, par ek blocked to sab blocked. Kernel threads OS schedule karta hai.",
+ "formalDefinition": "Threads of a process share code, data (globals), heap, open files, address space; each has its own stack, registers, program counter.",
+ "importantProperties": [
+  "Shared: code, global data, heap, files, address space, signal handlers.",
+  "Private: stack, registers, PC, thread id.",
+  "User-level thread switch fast (no kernel), but one blocking call blocks the entire process.",
+  "Kernel threads: true parallelism on multiprocessors, switch slower.",
+  "Thread ke liye chhota data structure => 'light weight'."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Program counter/stack ko shared maan lena.",
+  "User threads ko multiple cores par parallel maan lena."
+ ],
+ "standardTechniques": [
+  "Shared vs private ki list yaad rakho.",
+  "Race condition ke liye shared variable dhundo."
+ ],
+ "topicId": "operating-system:threads"
+}

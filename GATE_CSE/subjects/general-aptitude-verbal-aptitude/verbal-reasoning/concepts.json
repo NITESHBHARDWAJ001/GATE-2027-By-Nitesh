@@ -1,0 +1,23 @@
+{
+ "overview": "Statement/argument ke logical implications, critical reasoning, weakening/strengthening, criminals-statements puzzle.",
+ "whyItMatters": "11 PYQs extracted (2012-2021); P2 topic.",
+ "coreConcept": "Argument ka assumption ya conclusion pehchano; option tabhi sahi jab conclusion ko support ya weaken kare.",
+ "hinglishExplanation": "Text me claim aur evidence alag karo. 'Logically follows' me sirf jo statement se deduce ho. Truth-teller/liar puzzles me har person ka case table banao.",
+ "formalDefinition": "Argument ka assumption ya conclusion pehchano; option tabhi sahi jab conclusion ko support ya weaken kare.",
+ "importantProperties": [
+  "Premise vs conclusion.",
+  "Logically implied vs merely consistent.",
+  "Assumption: unstated but required.",
+  "Truth-teller puzzles: case analysis.",
+  "Extreme claims galat."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Common-sense ko premise banana."
+ ],
+ "standardTechniques": [
+  "Argument ko premises/conclusion me todo."
+ ],
+ "topicId": "general-aptitude-verbal-aptitude:verbal-reasoning"
+}

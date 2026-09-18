@@ -1,0 +1,15 @@
+{
+ "topicId": "programming-programming-in-c:structure",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-STRUCT-01",
+   "patternId": "P3_STRUCTURE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "struct{char a; int b;} sizeof (4-byte int)?",
+   "solutionApproach": "Padding 3.",
+   "answer": "8"
+  }
+ ]
+}

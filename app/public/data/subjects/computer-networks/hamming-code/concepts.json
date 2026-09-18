@@ -1,0 +1,22 @@
+{
+ "overview": "Parity bits positions 2^i; syndrome se error position.",
+ "whyItMatters": "2 PYQs extracted (1994-2021); P3 topic.",
+ "coreConcept": "Parity bits positions 2^i; syndrome se error position.",
+ "hinglishExplanation": "Check bits r: 2^r >= m + r + 1.",
+ "formalDefinition": "Parity bits positions 2^i; syndrome se error position.",
+ "importantProperties": [
+  "Parity bits at positions 1,2,4,8.",
+  "Syndrome = error position.",
+  "Single-bit correct."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Position count 0 se."
+ ],
+ "standardTechniques": [
+  "1. Parity check.",
+  "2. Syndrome."
+ ],
+ "topicId": "computer-networks:hamming-code"
+}

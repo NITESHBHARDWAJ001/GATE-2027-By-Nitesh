@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "co-architecture__1.14.1",
+  "localId": "1.14.1",
+  "subjectId": "co-architecture",
+  "subject": "CO & Architecture",
+  "topicSlug": "disk",
+  "topic": "Disk",
+  "year": 2026,
+  "examStream": "CSE",
+  "set": 1,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "49",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": null,
+  "answerVerified": false,
+  "questionTextRaw": "Consider a hard disk with a rotational speed of                                         rpm. The time to move the read/write head from a track to its adjacent track is millisecond. Initially, the head is on track . The number of sectors per track is . The sector size is             bytes. It is necessary to transfer data from randomly located sectors in each of the following tracks in the order:                         and . The total time for the data transfer (in milliseconds) from the hard disk is                                  . (rounded off to one decimal place)",
+  "tagsRaw": "gatecse-2026-set1 numerical-answers operating-system two-marks disk  Hazards (1)",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 56
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_DISK_01"
+ }
+]

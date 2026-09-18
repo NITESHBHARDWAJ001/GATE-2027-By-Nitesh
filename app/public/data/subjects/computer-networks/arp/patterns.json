@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_ARP_01",
+  "name": "ARP (PYQ type)",
+  "recognitionClueHinglish": "ARP se related sawal.",
+  "whatShouldComeToMind": [
+   "IP se MAC mapping, broadcast request, unicast reply, local network only."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Same subnet?"
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.2.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "ARP ko DNS samajhna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

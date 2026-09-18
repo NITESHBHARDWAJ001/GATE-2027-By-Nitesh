@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Multiple names same memory location ke liye.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Aliasing se related sawal.",
+   "thinkThis": "P4_ALIASING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Copy maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "programming-programming-in-c:aliasing",
+ "revisionLevel": "short-form"
+}

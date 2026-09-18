@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-analytical-aptitude:logical-inference",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-LOGICA-01",
+   "patternId": "P3_LOGICAL_INFERENCE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "'Everyone who came stayed.' Someone left? Can we infer?",
+   "solutionApproach": "Not given.",
+   "answer": "Nahi"
+  }
+ ]
+}

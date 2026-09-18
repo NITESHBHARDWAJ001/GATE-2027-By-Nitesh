@@ -1,0 +1,33 @@
+{
+  "topicId": "prog-c-recursion",
+  "overview": "Recursion me ek hi mool skill hai — recursive calls ka 'call tree' banao aur base-case se upar tak values resolve karo. GATE isko 4 tareeke se test karta hai: return-value tracing, static-variable-plus-recursion, call-count counting, aur print-statement-order.",
+  "whyItMatters": "19 PYQs, aur ye Recurrence Relation (Algorithms) ka seedha foundation hai — call-count analysis == recurrence solving.",
+  "coreConcept": "Recursive function apne aap ko chhote input pe call karta hai jab tak base case na aa jaaye. Call tree draw karo: root = original call, har node ke children = uske andar ke recursive calls. Base case se values 'return path' pe upar propagate hoti hain.",
+  "hinglishExplanation": "Recursion ko ek 'matryoshka doll' (Russian nesting doll) socho — har doll apne andar ek chhoti doll call karti hai, jab tak sabse chhoti doll (base case) na mil jaaye. Phir andar se bahar tak, har doll apna kaam karke result upar pass karti hai. Call STACK is process ko track karta hai — jab tak koi call 'return' nahi karti, uske upar wali call wait karti hai.",
+  "formalDefinition": "A recursive function calls itself (directly or indirectly) with a smaller/simpler input, with a base case that stops the recursion.",
+  "importantProperties": [
+    "Every correct recursive function needs: (1) a base case that terminates recursion, (2) a recursive case that makes progress toward the base case.",
+    "Statements BEFORE the recursive call execute in the 'going down' order (root to leaf); statements AFTER the recursive call execute in the 'coming back up' order (leaf to root, i.e., REVERSED).",
+    "Static/global variables inside a recursive function are SHARED across all levels of the recursion — one variable, updated by every call, not a fresh copy per call.",
+    "Recursive call-count often satisfies a recurrence relation (e.g., T(n)=2T(n-1)+c for doubling recursion like naive Fibonacci or the classic 'call itself twice' pattern)."
+  ],
+  "formulas": {
+    "linearRecursionCalls": "For f(n) that calls f(n-1) once: total calls = n+1 (n recursive calls + 1 initial).",
+    "doublingRecursionCalls": "For f(n) that calls itself twice per level (like abc(s+1) twice, or naive Fibonacci): total calls ≈ O(2^n) — grows exponentially, exact count solves via T(n)=2T(n-1)+1."
+  },
+  "keyPropertiesAndIdentities": [
+    "'Before recursive call' code prints in ORIGINAL order; 'after recursive call' code prints in REVERSED order — this single fact explains almost every 'output order' recursion PYQ.",
+    "A static variable declared inside a recursive function persists and is MODIFIED by every recursive call — treat it as one shared global, not per-call-local."
+  ],
+  "commonPitfalls": [
+    "Treating a static/global variable used inside recursion as if each call gets its own fresh copy.",
+    "Forgetting that code AFTER the recursive call executes in reverse (leaf-to-root) order — commonly mis-traced.",
+    "Miscounting the base case call itself when asked 'total number of calls including the first'.",
+    "Not tracing far enough down before values start returning — jumping to conclusions before reaching the actual base case."
+  ],
+  "standardTechniques": [
+    "Draw the call tree explicitly for small n (don't trust mental shortcuts) — write f(4)→f(3)→f(2)→f(1)→base, then resolve values bottom-up.",
+    "For 'before vs after recursive call' output-order questions, mark each printf as BEFORE or AFTER the recursive call first, then trace: before-code in forward order, after-code in reverse order.",
+    "For call-count questions, set up a small recurrence T(n) based on how many times the function calls itself per invocation, and either solve it directly or compute it for the specific small n asked."
+  ]
+}

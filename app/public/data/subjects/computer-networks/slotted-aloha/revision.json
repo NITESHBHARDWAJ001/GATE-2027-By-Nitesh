@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Slot me exactly ek node transmit kare to success; S=G e^-G.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Slotted ALOHA se related sawal.",
+   "thinkThis": "P4_SLOTTED_ALOHA_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Pure ALOHA formula."
+ ],
+ "highYieldPyqLessons": [
+  "P4 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "computer-networks:slotted-aloha",
+ "revisionLevel": "short-form"
+}

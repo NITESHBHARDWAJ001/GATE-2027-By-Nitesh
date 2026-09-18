@@ -1,0 +1,60 @@
+[
+ {
+  "patternId": "FS_ALLOC_01",
+  "name": "Allocation Schemes (Concept)",
+  "recognitionClueHinglish": "Contiguous/linked/indexed comparison; kaunsa scheme fragmentation-free.",
+  "whatShouldComeToMind": [
+   "Comparison table."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har scheme ka property."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.9.1",
+   "5.9.2",
+   "5.9.3",
+   "5.9.5"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Linked = fast random access maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "FS_INODE_CALC_02",
+  "name": "Inode / File Size and Block Access Calculations",
+  "recognitionClueHinglish": "Inode pointers, block size; max file size ya blocks accessed.",
+  "whatShouldComeToMind": [
+   "P and levels."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. P.",
+   "2. Levels.",
+   "3. Total."
+  ],
+  "formulasUsed": [
+   "pointersPerBlock",
+   "maxFile"
+  ],
+  "pyqExamples": [
+   "5.9.4",
+   "5.9.6",
+   "5.9.7"
+  ],
+  "variationsObserved": [
+   "Contiguous vs linked update cost."
+  ],
+  "commonTraps": [
+   "Level count."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

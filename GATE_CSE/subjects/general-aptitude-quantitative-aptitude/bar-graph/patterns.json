@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_BAR_GRAPH_01",
+  "name": "Bar Graphs (PYQ type)",
+  "recognitionClueHinglish": "Bar Graphs se related sawal.",
+  "whatShouldComeToMind": [
+   "Bar chart se data read/percent."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Values.",
+   "2. Calculate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "9.8.1",
+   "9.8.2",
+   "9.8.3",
+   "9.8.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Scale."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,31 @@
+{
+ "overview": "Operand kaise specify hota hai: immediate, direct, indirect, register, indexed, based, relative, auto-increment. Position-independent code aur high-level construct ke saath matching.",
+ "whyItMatters": "19 PYQs extracted (1987-2026); P2 topic.",
+ "coreConcept": "Effective address (EA) = operand ka address, mode ke rule se banta hai.",
+ "hinglishExplanation": "Relative mode (PC + offset) position-independent code ke liye best hai kyunki code ke saath hi move ho jaata hai. Indexed/base modes arrays aur structs ke liye. Immediate constants ke liye. Indirect pointers ke liye.",
+ "formalDefinition": "Effective address (EA) = operand ka address, mode ke rule se banta hai.",
+ "importantProperties": [
+  "Immediate: operand instruction me.",
+  "Direct/absolute: address instruction me.",
+  "Indirect: address ka address.",
+  "Register: operand register me.",
+  "Indexed: EA = base + index register (arrays).",
+  "Based: base register + displacement (relocation, structs).",
+  "Relative: EA = PC + offset (position independent, branches).",
+  "Auto-increment/decrement: stack, array traversal.",
+  "Relocation without change: relative/base-register modes."
+ ],
+ "formulas": {
+  "indexed": "EA = A + Xi",
+  "relative": "EA = PC + offset"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "PC ki value (next instruction) use karna bhoolna.",
+  "Indirect me extra memory access ignore."
+ ],
+ "standardTechniques": [
+  "EA formula likho phir memory se value uthao."
+ ],
+ "topicId": "co-architecture:addressing-modes"
+}

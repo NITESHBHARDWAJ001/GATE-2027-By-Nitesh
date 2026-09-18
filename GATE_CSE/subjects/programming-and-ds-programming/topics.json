@@ -1,0 +1,19 @@
+[
+ {
+  "topicSlug": "output",
+  "name": "Output",
+  "pyqCountExtracted": 1,
+  "yearsCovered": [
+   2024
+  ],
+  "recentYearsCovered": [
+   2024
+  ],
+  "pyqIds": [
+   "programming-and-ds-programming__4.1.1"
+  ],
+  "priority": "P3",
+  "status": "PATTERN_COMPLETE",
+  "priorityEvidence": "1 PYQs extracted, spans 2024-2024 — moderate/occasional coverage, worth solid revision-level prep."
+ }
+]

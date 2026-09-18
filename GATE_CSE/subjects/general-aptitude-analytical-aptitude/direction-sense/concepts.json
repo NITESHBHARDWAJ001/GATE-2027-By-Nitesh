@@ -1,0 +1,22 @@
+{
+ "overview": "Distances/directions ya rows me positions se relation nikalna.",
+ "whyItMatters": "4 PYQs extracted (2015-2025); P3 topic.",
+ "coreConcept": "Distances/directions ya rows me positions se relation nikalna.",
+ "hinglishExplanation": "Coordinate plane par draw karo: north = +y, east = +x.",
+ "formalDefinition": "Distances/directions ya rows me positions se relation nikalna.",
+ "importantProperties": [
+  "Displacement = Pythagoras.",
+  "Left/right turn face direction par depend.",
+  "Row arrangement: constraints table."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Turn direction galat."
+ ],
+ "standardTechniques": [
+  "1. Draw.",
+  "2. Coordinates."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:direction-sense"
+}

@@ -1,0 +1,26 @@
+{
+ "topicId": "engineering-mathematics-calculus:continuity",
+ "subjectId": "engineering-mathematics-calculus",
+ "subject": "Engineering Mathematics - Calculus",
+ "name": "Continuity",
+ "language": "hinglish",
+ "priority": "P2",
+ "priorityEvidence": "10 PYQs extracted, 1996-2026.",
+ "pyqCountExtracted": 10,
+ "yearsCovered": [
+  1996,
+  1998,
+  2007,
+  2013,
+  2014,
+  2015,
+  2021,
+  2024,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

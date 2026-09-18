@@ -1,0 +1,154 @@
+[
+ {
+  "patternId": "RA_MIN_RESOURCES_01",
+  "name": "Minimum Resources for Deadlock-Free / Max Processes",
+  "recognitionClueHinglish": "n processes, har ek ko max k units, total R units — minimum R ya maximum n poochha hai (27 me se 7).",
+  "whatShouldComeToMind": [
+   "R >= n(k-1)+1.",
+   "Worst case: har process ek unit kam par atka ho."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har process ki max demand likho.",
+   "2. Worst-case: har ko (demand-1) units allocate karo.",
+   "3. Total worst-case + 1 = minimum resources.",
+   "4. Ulta: n_max = floor((R-1)/(k-1))."
+  ],
+  "formulasUsed": [
+   "deadlockFreeMinR",
+   "maxProcesses"
+  ],
+  "pyqExamples": [
+   "5.25.3",
+   "5.25.4",
+   "5.25.7",
+   "5.25.9",
+   "5.25.12",
+   "5.25.20",
+   "5.25.21"
+  ],
+  "variationsObserved": [
+   "Alag alag max demands: sum(ki-1)+1.",
+   "'Could lead to deadlock' wale option ka ulta reasoning."
+  ],
+  "commonTraps": [
+   "k-1 ki jagah k use karna.",
+   "Floor/ceiling galat lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "RA_BANKERS_02",
+  "name": "Banker's Algorithm / Safe State",
+  "recognitionClueHinglish": "Allocation, Max (ya Need) aur Available table diya hai; safe state, safe sequence, ya request grant hogi ya nahi poochha hai.",
+  "whatShouldComeToMind": [
+   "Need = Max - Alloc.",
+   "Work >= Need wala process finish karo, Work me uska Alloc jodo."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Need matrix banao.",
+   "2. Work=Available se shuru karo.",
+   "3. Koi bhi process jiska Need <= Work ho use finish karo, Work += Alloc.",
+   "4. Sab finish to safe, warna unsafe.",
+   "5. Request ho to pehle tentative grant karke safety check karo."
+  ],
+  "formulasUsed": [
+   "bankerNeed",
+   "safeSequenceRule"
+  ],
+  "pyqExamples": [
+   "5.25.1",
+   "5.25.6",
+   "5.25.14",
+   "5.25.16",
+   "5.25.19",
+   "5.25.23"
+  ],
+  "variationsObserved": [
+   "Kaunsa request (ya kaunsa process pehle) safe sequence deta hai — options ko ek ek test karo.",
+   "Non-preemptive allocation policy ke saath multiple resource types."
+  ],
+  "commonTraps": [
+   "Need ki jagah Max compare karna.",
+   "Work update me Alloc add karna bhool jaana."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "RA_DETECTION_SCENARIO_03",
+  "name": "Deadlock Detection: RAG, Lock Scenarios, Wait-for",
+  "recognitionClueHinglish": "Resource allocation graph ya processes ke request/release sequences diye hain aur deadlock possible hai ya nahi, ya kaunse process deadlock me hain.",
+  "whatShouldComeToMind": [
+   "Single instance: RAG cycle = deadlock.",
+   "Lock/semaphore code me interleaving se circular wait bana kar dekho."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har process kya hold karta hai aur kya maang raha hai likho.",
+   "2. Wait-for graph banao, cycle dhundo.",
+   "3. Multi-instance me cycle ke baad bhi check karo ki koi process finish ho sakta hai ya nahi."
+  ],
+  "formulasUsed": [
+   "coffman"
+  ],
+  "pyqExamples": [
+   "5.25.2",
+   "5.25.5",
+   "5.25.11",
+   "5.25.13",
+   "5.25.17",
+   "5.25.18",
+   "5.25.24",
+   "5.25.26"
+  ],
+  "variationsObserved": [
+   "Priority/timestamp based request logic me deadlock ya starvation.",
+   "Semaphores ke saath 3 processes ka code segment."
+  ],
+  "commonTraps": [
+   "Multi-instance me cycle ko hamesha deadlock maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "RA_PREVENTION_THEORY_04",
+  "name": "Prevention / Avoidance Theory & Coffman Conditions",
+  "recognitionClueHinglish": "Kaunsi scheme valid prevention hai, kaunsa statement galat hai, necessary conditions kaun si hain.",
+  "whatShouldComeToMind": [
+   "Prevention = ek Coffman condition todna; avoidance = safe state check.",
+   "Resource ordering circular wait todta hai."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har option ko dekho ki kaunsi condition tod raha hai.",
+   "2. Prevention vs avoidance ki definition se mismatch pakdo."
+  ],
+  "formulasUsed": [
+   "coffman"
+  ],
+  "pyqExamples": [
+   "5.25.8",
+   "5.25.10",
+   "5.25.15",
+   "5.25.22",
+   "5.25.25",
+   "5.25.27"
+  ],
+  "variationsObserved": [
+   "Sab release karke hi nayi request: deadlock nahi par starvation possible."
+  ],
+  "commonTraps": [
+   "Prevention aur avoidance ko ek doosre ki jagah likhna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy to normal",
+  "aiPracticePossible": true
+ }
+]

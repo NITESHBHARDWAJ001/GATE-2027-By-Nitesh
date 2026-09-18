@@ -1,0 +1,42 @@
+{
+ "topicId": "em-prob-expectation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-EXP-01",
+   "patternId": "EXP_DIRECT_PMF_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Fair die. E[X]?",
+   "solutionApproach": "(1+..+6)/6.",
+   "answer": "3.5"
+  },
+  {
+   "practiceId": "AI-EXP-02",
+   "patternId": "EXP_LINEARITY_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "In a random permutation of n items, expected number of fixed points?",
+   "solutionApproach": "n indicators each 1/n.",
+   "answer": "1"
+  },
+  {
+   "practiceId": "AI-EXP-03",
+   "patternId": "EXP_WAITING_TIME_03",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Fair coin: expected tosses until first head?",
+   "solutionApproach": "1/p = 2.",
+   "answer": "2"
+  },
+  {
+   "practiceId": "AI-EXP-04",
+   "patternId": "EXP_DIRECT_PMF_02",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "E[X]=3, E[X^2]=11. Var?",
+   "solutionApproach": "11 - 9.",
+   "answer": "2"
+  }
+ ]
+}

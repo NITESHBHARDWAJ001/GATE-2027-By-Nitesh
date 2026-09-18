@@ -1,0 +1,25 @@
+{
+ "overview": "Non-negative weights ke liye single-source shortest path; greedy, priority queue.",
+ "whyItMatters": "5 PYQs extracted (1996-2008); P3 topic.",
+ "coreConcept": "Non-negative weights ke liye single-source shortest path; greedy, priority queue.",
+ "hinglishExplanation": "Har step par sabse chhoti tentative distance wala vertex finalize karo aur uske neighbours relax karo.",
+ "formalDefinition": "Non-negative weights ke liye single-source shortest path; greedy, priority queue.",
+ "importantProperties": [
+  "O(V^2) array, O((V+E) log V) binary heap, O(E + V log V) Fibonacci heap.",
+  "Negative edges par fail hota hai.",
+  "Unweighted graph par BFS queue linear time deti hai.",
+  "Undirected positive weights par bhi chalta hai."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Negative weights par use karna."
+ ],
+ "standardTechniques": [
+  "1. dist[s]=0, baaki inf.",
+  "2. Min-dist unvisited vertex choose.",
+  "3. Neighbours relax.",
+  "4. Repeat."
+ ],
+ "topicId": "algorithms:dijkstras-algorithm"
+}

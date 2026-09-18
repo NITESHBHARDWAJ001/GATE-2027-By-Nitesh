@@ -1,0 +1,22 @@
+{
+ "overview": "Degree/arity, cardinality, keys, constraints, foreign keys.",
+ "whyItMatters": "2 PYQs extracted (2023-2025); P3 topic.",
+ "coreConcept": "Degree/arity, cardinality, keys, constraints, foreign keys.",
+ "hinglishExplanation": "Degree = attributes ki count; cardinality = tuples ki count.",
+ "formalDefinition": "Degree/arity, cardinality, keys, constraints, foreign keys.",
+ "importantProperties": [
+  "Degree = columns; cardinality = rows.",
+  "Primary key unique + NOT NULL.",
+  "Foreign key referencing constraint.",
+  "Relation = set of tuples."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Degree/cardinality ulta."
+ ],
+ "standardTechniques": [
+  "1. Define terms."
+ ],
+ "topicId": "databases:relational-model"
+}

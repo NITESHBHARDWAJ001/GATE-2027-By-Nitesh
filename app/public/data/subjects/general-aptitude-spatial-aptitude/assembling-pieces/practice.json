@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-spatial-aptitude:assembling-pieces",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-ASSEMB-01",
+   "patternId": "P3_ASSEMBLING_PIECES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Jigsaw piece me convex knob ke saath kaun jodta?",
+   "solutionApproach": "Concave.",
+   "answer": "Concave slot"
+  }
+ ]
+}

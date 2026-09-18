@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "engineering-mathematics-probability__7.2.1",
+  "localId": "7.2.1",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "bayesian-network",
+  "topic": "Bayesian Network",
+  "year": 2024,
+  "examStream": "DS&AI",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "14",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Consider five random variables                                  , and whose joint distribution satisfies: Which ONE of the following statements is FALSE? A. is conditionally independent of given B. is conditionally independent of given C. and are conditionally independent given D. and are conditionally independent given",
+  "tagsRaw": "gate-ds-ai-2024 probability  random-variable  bayesian-network  one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 202
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BAYESIAN_NETWORK_01"
+ },
+ {
+  "pyqId": "engineering-mathematics-probability__7.2.2",
+  "localId": "7.2.2",
+  "subjectId": "engineering-mathematics-probability",
+  "subject": "Engineering Mathematics: Probability",
+  "topicSlug": "bayesian-network",
+  "topic": "Bayesian Network",
+  "year": 2024,
+  "examStream": "DS&AI",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "54",
+  "sourceType": "GATE_PYQ",
+  "questionType": "NAT",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "0.125 0.61",
+  "answerVerified": true,
+  "questionTextRaw": "Given the following Bayesian Network consisting of four Bernoulli random variables and the associated conditional probability tables: The value of                                                                          (rounded off to three decimal places).",
+  "tagsRaw": "gate-ds-ai-2024 probability  bayesian-network        numerical-answers  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 202
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_BAYESIAN_NETWORK_01"
+ }
+]

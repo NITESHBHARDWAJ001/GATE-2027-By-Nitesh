@@ -1,0 +1,21 @@
+{
+ "topicId": "algorithms:merge-sort",
+ "subjectId": "algorithms",
+ "subject": "Algorithms",
+ "name": "Merge Sort",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 1999-2026.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  1999,
+  2012,
+  2015,
+  2026
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

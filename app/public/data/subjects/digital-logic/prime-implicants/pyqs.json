@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "digital-logic__4.30.1",
+  "localId": "4.30.1",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "prime-implicants",
+  "topic": "Prime Implicants",
+  "year": 1997,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "5.1",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "Let                                                be a switching function. Which one of the following is valid? A. is a prime implicant of                                                                  B. is a minterm of C. is an implicant of                                                                       D. is a prime implicant of",
+  "tagsRaw": "gate1997 digital-logic     normal  k-map  prime-implicants",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 357
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_PRIME_IMPLICANTS_01"
+ },
+ {
+  "pyqId": "digital-logic__4.30.2",
+  "localId": "4.30.2",
+  "subjectId": "digital-logic",
+  "subject": "Digital Logic",
+  "topicSlug": "prime-implicants",
+  "topic": "Prime Implicants",
+  "year": 2004,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "59",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "Which are the essential prime implicants of the following Boolean function? A. and                                    B. and                                        C. only.  D. and ROM (4)",
+  "tagsRaw": "gatecse-2004 digital-logic  normal  prime-implicants",
+  "source": {
+   "file": "filter1_volume3 (1).pdf",
+   "approxPdfPage": 357
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_PRIME_IMPLICANTS_01"
+ }
+]

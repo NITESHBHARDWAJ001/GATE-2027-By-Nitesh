@@ -1,0 +1,15 @@
+{
+ "topicId": "operating-system:inter-process-communication",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-INTER--01",
+   "patternId": "P4_INTER_PROCESS_COMMUNICAT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "I/O redirection kya?",
+   "solutionApproach": "Use file as stdin/stdout.",
+   "answer": "File ko standard I/O banana"
+  }
+ ]
+}

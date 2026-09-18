@@ -1,0 +1,25 @@
+{
+ "coreIdea": "Probability = favourable/total; independent events multiply; 'at least' complement.",
+ "mustRememberFormulas": [
+  "complement: 1 - P(none)"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Dice, socks, chocolates, digits; favourable/total.",
+   "thinkThis": "GQP_COUNTING_01"
+  },
+  {
+   "seeThis": "Die rolled many times, sunny/cloudy days.",
+   "thinkThis": "GQP_REPEATED_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Ordered vs unordered.",
+  "Ordering of outcomes."
+ ],
+ "highYieldPyqLessons": [
+  "Aptitude probability matches basic patterns from Eng Maths."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:probability",
+ "revisionLevel": "short-form"
+}

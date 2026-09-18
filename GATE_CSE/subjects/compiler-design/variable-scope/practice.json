@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:variable-scope",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-VARIAB-01",
+   "patternId": "P4_VARIABLE_SCOPE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "x global, f defines local x calls g which prints x. Static vs dynamic?",
+   "solutionApproach": "Static global, dynamic f's x.",
+   "answer": "Alag output"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "subjectId": "engineering-mathematics-linear-algebra",
+ "name": "Engineering Mathematics: Linear Algebra",
+ "sourceVolume": "volume1",
+ "sourcePdf": "filter1_volume1.pdf",
+ "totalTopics": 13,
+ "totalPyqsExtracted": 110,
+ "priorityDistribution": {
+  "P1": 3,
+  "P2": 3,
+  "P3": 6,
+  "P4": 1
+ },
+ "p1Topics": [
+  "Eigen Value",
+  "Matrix",
+  "System of Equations"
+ ],
+ "processingStatus": "all_P1_topics_complete (3/3)"
+}

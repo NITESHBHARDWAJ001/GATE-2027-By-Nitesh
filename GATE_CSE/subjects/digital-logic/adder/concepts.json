@@ -1,0 +1,23 @@
+{
+ "overview": "Half/full adder, ripple carry, carry lookahead, adder-subtractor.",
+ "whyItMatters": "9 PYQs extracted (1988-2016); P3 topic.",
+ "coreConcept": "Half/full adder, ripple carry, carry lookahead, adder-subtractor.",
+ "hinglishExplanation": "n-bit ripple adder = 1 half + (n-1) full adders; lookahead carry parallel generate karta hai.",
+ "formalDefinition": "Half/full adder, ripple carry, carry lookahead, adder-subtractor.",
+ "importantProperties": [
+  "Half adder: S=A xor B, C=AB.",
+  "Full adder: S=A xor B xor Cin.",
+  "Adder/subtractor: XOR se B ko conditionally invert, Cin=1.",
+  "Carry lookahead: G=AB, P=A xor B; C_{i+1}=G_i + P_i C_i."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Ripple delay linear hone ko bhoolna."
+ ],
+ "standardTechniques": [
+  "1. Bits.",
+  "2. Adders count."
+ ],
+ "topicId": "digital-logic:adder"
+}

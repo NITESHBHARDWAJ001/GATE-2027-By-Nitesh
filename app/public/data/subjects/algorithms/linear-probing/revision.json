@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Open addressing me collision par agla slot (wrap-around).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Linear Probing se related sawal.",
+   "thinkThis": "P3_LINEAR_PROBING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Wrap-around bhoolna."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "algorithms:linear-probing",
+ "revisionLevel": "short-form"
+}

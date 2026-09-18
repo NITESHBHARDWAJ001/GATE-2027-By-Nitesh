@@ -1,0 +1,30 @@
+{
+ "coreIdea": "Statement ke sirf necessarily true consequences lo; 'if P then Q' ka contrapositive 'if not Q then not P' equivalent hai.",
+ "mustRememberFormulas": [
+  "contra: P -> Q == ~Q -> ~P"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "'When X, Y' type statements; kaunsa conclusion necessarily true.",
+   "thinkThis": "LR_CONDITIONAL_01"
+  },
+  {
+   "seeThis": "Heights, portfolios, labelled boxes.",
+   "thinkThis": "LR_PUZZLE_ORDERING_02"
+  },
+  {
+   "seeThis": "Missing tiles, grid numbers, event reasoning.",
+   "thinkThis": "LR_PATTERN_FIGURE_03"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Converse.",
+  "Missing case.",
+  "Visual data missing in extraction."
+ ],
+ "highYieldPyqLessons": [
+  "Figure questions may be blank in extraction; use source."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:logical-reasoning",
+ "revisionLevel": "short-form"
+}

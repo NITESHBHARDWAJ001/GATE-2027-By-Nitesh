@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:osi-model",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-OSI-MO-01",
+   "patternId": "P3_OSI_MODEL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Routing kis layer ka kaam?",
+   "solutionApproach": "Network.",
+   "answer": "Network"
+  }
+ ]
+}

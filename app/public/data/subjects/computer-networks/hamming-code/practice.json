@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:hamming-code",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-HAMMIN-01",
+   "patternId": "P3_HAMMING_CODE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "m=4 data bits: r?",
+   "solutionApproach": "2^r >= 5+r.",
+   "answer": "3"
+  }
+ ]
+}

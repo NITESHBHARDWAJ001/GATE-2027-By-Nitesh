@@ -1,0 +1,107 @@
+[
+ {
+  "patternId": "TCP_HANDSHAKE_01",
+  "name": "Three-Way Handshake and Connection Termination",
+  "recognitionClueHinglish": "SYN, SYN-ACK, ACK ke seq/ack values, packet loss, FIN, server crash.",
+  "whatShouldComeToMind": [
+   "SYN/FIN 1 seq consume karte hain."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Packets ko order me likho.",
+   "2. Har direction me seq/ack values.",
+   "3. Loss / crash scenario me state change socho."
+  ],
+  "formulasUsed": [
+   "handshake",
+   "ackNum"
+  ],
+  "pyqExamples": [
+   "2.35.6",
+   "2.35.7",
+   "2.35.8",
+   "2.35.10",
+   "2.35.13",
+   "2.35.14",
+   "2.35.15",
+   "2.35.20"
+  ],
+  "variationsObserved": [
+   "Web page ka packet sequence (DNS, ARP, TCP).",
+   "Loss of ACK / SYN-ACK."
+  ],
+  "commonTraps": [
+   "ack = x + 1 bhoolna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "TCP_SEQ_WINDOW_CALC_02",
+  "name": "Sequence Number / Window Scale / Wraparound Calculation",
+  "recognitionClueHinglish": "Bandwidth, RTT, MSL diye hain; seq-number bits ya window scaling ki need poochhi hai.",
+  "whatShouldComeToMind": [
+   "Sequence space, MSL, BDP."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Rate ko bytes/sec me karo.",
+   "2. Wraparound time >= MSL.",
+   "3. n = ceil(log2(...))."
+  ],
+  "formulasUsed": [
+   "bdp",
+   "wrap"
+  ],
+  "pyqExamples": [
+   "2.35.1",
+   "2.35.4",
+   "2.35.11",
+   "2.35.12",
+   "2.35.19"
+  ],
+  "variationsObserved": [
+   "Design new protocol ke sequence field size."
+  ],
+  "commonTraps": [
+   "Bits vs bytes."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "TCP_CONCEPTS_03",
+  "name": "TCP Properties, Timeout and Service Statements",
+  "recognitionClueHinglish": "TCP ke baare me true/false: full duplex, byte stream, ordering, congestion, timeout, SMTP over TCP, MTU/fragmentation.",
+  "whatShouldComeToMind": [
+   "TCP = reliable, ordered, byte-stream, full-duplex, adaptive timeout; rate guarantee nahi."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Har statement ko TCP properties se check karo."
+  ],
+  "formulasUsed": [
+   "ackNum"
+  ],
+  "pyqExamples": [
+   "2.35.2",
+   "2.35.3",
+   "2.35.5",
+   "2.35.9",
+   "2.35.16",
+   "2.35.17",
+   "2.35.18"
+  ],
+  "variationsObserved": [
+   "Email ke liye transport protocol."
+  ],
+  "commonTraps": [
+   "Segments ko numbered maan lena (bytes numbered hote hain)."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

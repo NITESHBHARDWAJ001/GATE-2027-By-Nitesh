@@ -1,0 +1,15 @@
+{
+ "topicId": "compiler-design:parameter-passing",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PARAME-01",
+   "patternId": "P3_PARAMETER_PASSING_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "swap(i,a[i]) reference vs name results alag ho sakte?",
+   "solutionApproach": "Haan.",
+   "answer": "Haan"
+  }
+ ]
+}

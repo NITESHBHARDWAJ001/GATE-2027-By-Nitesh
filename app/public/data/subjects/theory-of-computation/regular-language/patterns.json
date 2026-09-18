@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "RL_CLASSIFY_01",
+    "name": "Regular vs Non-Regular Classification",
+    "recognitionClueHinglish": "Ek specific language define ki gayi hai (set-builder notation ya description se) aur poocha hai ye REGULAR hai ya nahi — is topic ka sabse bada pattern hai (35 me se 14 PYQs).",
+    "whatShouldComeToMind": ["Does recognizing this language need UNBOUNDED counting/matching (like a^n b^n, equal count of two symbols, palindromes)? → likely NOT regular.", "Can you construct a DFA/regex directly without needing to 'remember' an unbounded count? → likely regular.", "Regular ∩ CFL = always CFL — useful shortcut for intersection-classification questions."],
+    "conceptsRequired": ["DFA constructibility intuition", "Pumping Lemma / Myhill-Nerode for non-regularity proofs"],
+    "generalSolvingApproach": ["1. Try to directly construct a DFA or regex — if straightforward, it's regular (constructive proof).", "2. If it seems to require unbounded memory (counting, matching, comparing), suspect non-regular.", "3. Confirm non-regularity via Pumping Lemma (find a string that can't be pumped without leaving the language) or Myhill-Nerode (exhibit infinitely many pairwise-distinguishable strings).", "4. For SET-OPERATION-derived languages (L1∩L2, L1∪L2 where one/both might be non-regular), use known closure facts (e.g., Regular∩CFL=CFL) rather than re-deriving from scratch."],
+    "formulasUsed": ["regularIntersectCFLisCFL","myhillNerodeStates"],
+    "pyqExamples": ["6.20.5","6.20.10","6.20.11","6.20.12","6.20.14","6.20.16","6.20.18","6.20.19","6.20.20","6.20.21","6.20.24","6.20.30","6.20.31","6.20.35"],
+    "variationsObserved": ["Language defined via occurrence-COUNT comparisons between symbols (n_a(w) vs n_b(w) relationships) — classic pumping-lemma-non-regular territory unless the comparison is BOUNDED (like 'exactly 2 more a's than b's' which IS regular, vs 'MORE a's than b's' unboundedly which is NOT).", "Multiple candidate languages given, asked which subset is regular — classify each independently."],
+    "commonTraps": ["Assuming any language with a 'count' condition is automatically non-regular — BOUNDED/modular counting (like 'number of a's is even', or 'exactly 3 more a's than b's') IS regular; only UNBOUNDED exact matching is not."],
+    "edgeCases": ["Modular counting conditions (mod k) are ALWAYS regular, since a DFA can track count-mod-k with finitely many states."],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "RL_CLOSURE_02",
+    "name": "Closure Property Verification",
+    "recognitionClueHinglish": "Poocha hai ek OPERATION (union, intersection, complement, reversal, subset, prefix/suffix/half construction) regularity PRESERVE karta hai ya nahi — ye is topic ka doosra bada pattern hai (35 me se 13 PYQs).",
+    "whatShouldComeToMind": ["Standard closures (always preserve regularity): union, intersection, complement, concatenation, Kleene star, reversal.", "NOT guaranteed: arbitrary subset of an infinite regular language, some 'half'/'square-root'-style length-based constructions can break regularity in edge cases."],
+    "conceptsRequired": ["Standard closure property list", "Counterexample construction for non-preserved operations"],
+    "generalSolvingApproach": ["1. Check if the operation is one of the STANDARD closed operations (∪,∩,complement,concat,star,reversal) — if so, answer preserved/TRUE directly.", "2. If it's a less-standard construction (half, quotient, some custom transform), try to construct a counterexample: take a known regular L, apply the operation, check if the result requires unbounded memory.", "3. For 'is every SUBSET of a regular set regular' — FALSE (counterexample: a*b* is regular, a^n b^n is a non-regular subset)."],
+    "formulasUsed": ["closureUnderStandardOps"],
+    "pyqExamples": ["6.20.1","6.20.2","6.20.3","6.20.6","6.20.7","6.20.13","6.20.15","6.20.17","6.20.26","6.20.28","6.20.32","6.20.33","6.20.34"],
+    "variationsObserved": ["'Every FINITE subset of a non-regular set is regular' — TRUE (finite sets are always regular, regardless of the superset's regularity).", "Infinite union of regular/finite languages — NOT guaranteed regular (only FINITE unions are guaranteed closed)."],
+    "commonTraps": ["Confusing 'every finite subset is regular' (always TRUE) with 'every subset is regular' (FALSE in general).", "Assuming infinite union of regular languages stays regular — only finite unions are guaranteed."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "RL_MINIMAL_STATES_03",
+    "name": "Minimal DFA State-Count Reasoning",
+    "recognitionClueHinglish": "Poocha hai ek language ke minimal DFA me KITNE STATES chahiye, ya diya hai ki minimal DFA me k states hain aur poocha hai language ke baare me kya conclude kar sakte hain — ye Myhill-Nerode application pattern hai.",
+    "whatShouldComeToMind": ["Minimal states = number of Myhill-Nerode equivalence classes = maximum set of PAIRWISE DISTINGUISHABLE strings you can find.", "Two strings x,y are distinguishable if some suffix z exists such that exactly ONE of xz, yz is in L."],
+    "conceptsRequired": ["Myhill-Nerode theorem", "Distinguishability testing"],
+    "generalSolvingApproach": ["1. Try to find the maximum set of strings that are PAIRWISE distinguishable (for each pair, find a suffix that puts exactly one into L).", "2. That count is the minimum DFA state count.", "3. For 'given k states, what can be said about L' (reverse direction): reason about what k equivalence classes could represent structurally (e.g., k=2 often means a simple parity/membership-in-Σ check)."],
+    "formulasUsed": ["myhillNerodeStates"],
+    "pyqExamples": ["6.20.9","6.20.22","6.20.23","6.20.25","6.20.27","6.20.29"],
+    "variationsObserved": ["NFA-to-DFA state-count relationship questions (an NFA with n states corresponds to a DFA with AT MOST 2^n states via subset construction, but the MINIMAL DFA could need fewer).", "'Order of a language' defined via a custom function — translate the custom definition into the standard minimal-state framework."],
+    "commonTraps": ["Assuming NFA states directly equal minimal DFA states — the subset construction gives an UPPER bound (2^n), not the exact minimal count."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "RL_PROOF_TECHNIQUE_04",
+    "name": "Pumping Lemma / Algorithmic Decision-Procedure Reasoning",
+    "recognitionClueHinglish": "Poocha hai ek finite/regular language ke baare me strongest TRUE classification (decidable? Turing-recognizable? context-sensitive?), ya do automata ka LANGUAGE-SUBSET check karne ka algorithm design karna hai — ye meta/algorithmic pattern hai.",
+    "whatShouldComeToMind": ["Every FINITE language is trivially regular (hence also context-free, context-sensitive, decidable, Turing-recognizable) — pick the STRONGEST/most specific TRUE classification when asked.", "L1⊆L2 for two DFAs is DECIDABLE — check if L1∩complement(L2) is empty (constructible and testable via automata operations)."],
+    "conceptsRequired": ["Chomsky hierarchy strength ordering", "Automata-based decidability of language-containment"],
+    "generalSolvingApproach": ["1. For 'strongest TRUE statement about a finite language': identify the MOST RESTRICTIVE class it belongs to (regular, being the strongest common claim for ALL finite languages).", "2. For algorithmic subset-checking: construct the automaton for L1∩complement(L2), check emptiness (a decidable procedure via reachability of an accepting state) — L1⊆L2 iff this intersection is empty."],
+    "formulasUsed": [],
+    "pyqExamples": ["6.20.4","6.20.8"],
+    "variationsObserved": [],
+    "commonTraps": ["Picking a weaker-but-still-true statement instead of the STRONGEST true one when the question specifically asks for the strongest."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": false
+  }
+]

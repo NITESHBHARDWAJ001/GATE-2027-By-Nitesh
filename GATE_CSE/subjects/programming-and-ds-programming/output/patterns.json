@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_OUTPUT_01",
+  "name": "Programming Output (Pointers/Strings) (PYQ type)",
+  "recognitionClueHinglish": "Programming Output (Pointers/Strings) se related sawal.",
+  "whatShouldComeToMind": [
+   "Pointer traversal se string length jaisi functions."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Trace."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.1.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Off-by-one."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

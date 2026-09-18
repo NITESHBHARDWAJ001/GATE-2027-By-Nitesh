@@ -1,0 +1,23 @@
+{
+ "coreIdea": "Grammar me jo operator start symbol ke paas hota hai (upar) uski precedence kam; recursion left me ho to left associative.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Grammar productions; kaun left/right associative, kaun higher.",
+   "thinkThis": "OP_GRAMMAR_01"
+  },
+  {
+   "seeThis": "Precedence/associativity table; expression value.",
+   "thinkThis": "OP_EVAL_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Direction.",
+  "Right assoc order."
+ ],
+ "highYieldPyqLessons": [
+  "NAT evaluation questions need careful associativity."
+ ],
+ "topicId": "compiler-design:operator-precedence",
+ "revisionLevel": "short-form"
+}

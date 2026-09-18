@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Sequence ka pattern ya missing value.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Sequences and Series se related sawal.",
+   "thinkThis": "P3_SEQUENCE_SERIES_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Ek pattern par jaldi conclude."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-analytical-aptitude:sequence-series",
+ "revisionLevel": "short-form"
+}

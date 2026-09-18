@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.14.1",
+  "localId": "8.14.1",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "sequence-series",
+  "topic": "Sequence Series",
+  "year": 2020,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "7",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 2,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "If    ,          ,                     , then                           ________ A.                                     B.                                          C.                           D.",
+  "tagsRaw": "gatecse-2020 analytical-aptitude    logical-reasoning  sequence-series  two-marks",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 246
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SEQUENCE_SERIES_01"
+ },
+ {
+  "pyqId": "general-aptitude-analytical-aptitude__8.14.2",
+  "localId": "8.14.2",
+  "subjectId": "general-aptitude-analytical-aptitude",
+  "subject": "General Aptitude: Analytical Aptitude",
+  "topicSlug": "sequence-series",
+  "topic": "Sequence Series",
+  "year": 2024,
+  "examStream": "CSE",
+  "set": 2,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "5",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "In the sequence                                           , a possible value of is A.                                     B.                                          C.                               D. two",
+  "tagsRaw": "gatecse-2024-set2 analytical-aptitude  sequence-series    one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 246
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_SEQUENCE_SERIES_01"
+ }
+]

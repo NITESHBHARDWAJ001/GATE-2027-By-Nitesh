@@ -1,0 +1,21 @@
+{
+ "overview": "Static typing me compile time type check.",
+ "whyItMatters": "1 PYQs extracted (2003-2003); P4 topic.",
+ "coreConcept": "Static typing me compile time type check.",
+ "hinglishExplanation": "Dynamic me run time.",
+ "formalDefinition": "Static typing me compile time type check.",
+ "importantProperties": [
+  "Static: types compile time.",
+  "Dynamic: run time.",
+  "Type errors early in static."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Static ko no-checking."
+ ],
+ "standardTechniques": [
+  "1. Time."
+ ],
+ "topicId": "programming-programming-in-c:type-checking"
+}

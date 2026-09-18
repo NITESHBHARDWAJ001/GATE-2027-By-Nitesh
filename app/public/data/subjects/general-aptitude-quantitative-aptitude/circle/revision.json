@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Area pi r^2, circumference 2 pi r.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Circle se related sawal.",
+   "thinkThis": "P3_CIRCLE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Diameter vs radius."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:circle",
+ "revisionLevel": "short-form"
+}

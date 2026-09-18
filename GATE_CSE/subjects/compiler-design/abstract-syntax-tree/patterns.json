@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_ABSTRACT_SYNTAX_TREE_01",
+  "name": "AST vs CFG (PYQ type)",
+  "recognitionClueHinglish": "AST vs CFG se related sawal.",
+  "whatShouldComeToMind": [
+   "AST program ki syntactic structure, CFG execution flow."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Structure."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.1.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Dono ko same maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

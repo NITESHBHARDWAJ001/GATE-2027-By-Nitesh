@@ -1,0 +1,21 @@
+{
+ "overview": "Graph representation choice, edge counting, matching structures to operations.",
+ "whyItMatters": "4 PYQs extracted (1997-2024); P3 topic.",
+ "coreConcept": "Graph representation choice, edge counting, matching structures to operations.",
+ "hinglishExplanation": "Adjacency list sparse, matrix dense.",
+ "formalDefinition": "Graph representation choice, edge counting, matching structures to operations.",
+ "importantProperties": [
+  "Matrix O(V^2) space; list O(V+E).",
+  "Edge existence O(1) matrix.",
+  "Match structure to operation."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Sparse par matrix."
+ ],
+ "standardTechniques": [
+  "1. Density."
+ ],
+ "topicId": "programming-and-ds-data-structures:data-structures"
+}

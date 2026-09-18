@@ -1,0 +1,53 @@
+[
+ {
+  "patternId": "SAW_EFF_01",
+  "name": "Efficiency / Throughput / Timeout Calculations",
+  "recognitionClueHinglish": "Bit rate, delay, frame size; efficiency.",
+  "whatShouldComeToMind": [
+   "Tt/(Tt+2Tp)."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Tt, Tp.",
+   "2. U."
+  ],
+  "formulasUsed": [
+   "eff"
+  ],
+  "pyqExamples": [
+   "2.33.1",
+   "2.33.2",
+   "2.33.3",
+   "2.33.5",
+   "2.33.6"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Ack Tt."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "SAW_CONCEPT_02",
+  "name": "When Is Stop-and-Wait Adequate",
+  "recognitionClueHinglish": "Scenario analysis.",
+  "whatShouldComeToMind": [
+   "Small delay."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Tp << Tt."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "2.33.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "easy",
+  "aiPracticePossible": true
+ }
+]

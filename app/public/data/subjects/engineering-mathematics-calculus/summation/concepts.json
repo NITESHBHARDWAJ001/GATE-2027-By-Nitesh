@@ -1,0 +1,21 @@
+{
+ "overview": "Series ka closed form ya value (integer answer).",
+ "whyItMatters": "1 PYQs extracted (2026-2026); P3 topic.",
+ "coreConcept": "Series ka closed form ya value (integer answer).",
+ "hinglishExplanation": "Standard sums se evaluate.",
+ "formalDefinition": "Series ka closed form ya value (integer answer).",
+ "importantProperties": [
+  "Arithmetic/geometric series.",
+  "Telescoping.",
+  "Sum of squares."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Range off-by-one."
+ ],
+ "standardTechniques": [
+  "1. Pattern."
+ ],
+ "topicId": "engineering-mathematics-calculus:summation"
+}

@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_GRAMMATICAL_ERROR_01",
+  "name": "Grammatical Error Spotting (PYQ type)",
+  "recognitionClueHinglish": "Grammatical Error Spotting se related sawal.",
+  "whatShouldComeToMind": [
+   "Sahi/galat sentence."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Each option."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "11.5.1",
+   "11.5.2",
+   "11.5.3",
+   "11.5.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Correct sentence ko galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

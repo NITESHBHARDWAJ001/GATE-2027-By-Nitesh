@@ -1,0 +1,63 @@
+[
+ {
+  "patternId": "CPR_BAYES_01",
+  "name": "Bayes / Total Probability / Test Accuracy",
+  "recognitionClueHinglish": "Box selection, disease test, weather.",
+  "whatShouldComeToMind": [
+   "Total + Bayes."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Partition.",
+   "2. Bayes."
+  ],
+  "formulasUsed": [
+   "bayes"
+  ],
+  "pyqExamples": [
+   "7.6.4",
+   "7.6.5",
+   "7.6.9",
+   "7.6.10",
+   "7.6.13",
+   "7.6.14",
+   "7.6.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Prior."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CPR_GIVEN_02",
+  "name": "Given-that Direct Conditioning / Event Identities",
+  "recognitionClueHinglish": "Given at least one head; without replacement; identity statements.",
+  "whatShouldComeToMind": [
+   "Reduced space."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Reduced space."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.6.1",
+   "7.6.2",
+   "7.6.3",
+   "7.6.6",
+   "7.6.7",
+   "7.6.11",
+   "7.6.12"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Wrong denominator."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

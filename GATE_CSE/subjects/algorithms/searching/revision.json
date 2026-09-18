@@ -1,0 +1,26 @@
+{
+ "coreIdea": "Sorted array me binary search O(log n); infinite loop/overflow/edge bugs GATE me common hain.",
+ "mustRememberFormulas": [
+  "linear: (n+1)/2",
+  "binary: floor(log2 n)+1"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Binary search code erroneous; kab galat.",
+   "thinkThis": "SRC_BINARY_BUG_01"
+  },
+  {
+   "seeThis": "Average comparisons, random search, 0-1 arrays, bitonic, BFS/DFS statements.",
+   "thinkThis": "SRC_COMPLEXITY_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Random-search expected value.",
+  "Termination ignore."
+ ],
+ "highYieldPyqLessons": [
+  "Code-analysis questions test termination; trace with 2-element arrays."
+ ],
+ "topicId": "algorithms:searching",
+ "revisionLevel": "short-form"
+}

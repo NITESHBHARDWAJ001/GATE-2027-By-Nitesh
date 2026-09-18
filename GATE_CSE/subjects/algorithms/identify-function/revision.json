@@ -1,0 +1,29 @@
+{
+  "topicId": "algorithms-identify-function",
+  "revisionLevel": "short-form",
+  "coreIdea": "Recognize the SHAPE of code first (GCD, power, binary conversion, rotation, transpose) before tracing. General-formula questions reward pattern-matching; specific-value questions reward direct tracing.",
+  "mustRememberFormulas": [
+    "Subtraction-loop (m!=n, subtract smaller): GCD(m,n)",
+    "Recursive squaring (x*=x, n/=2): x^n in O(log n)",
+    "Recursive call BEFORE print, divide by 2: prints binary (MSB first)",
+    "Three reversals (0..k, k+1..n, 0..n): rotates array left by k+1",
+    "Nested A[i][j]↔A[j][i]: matrix transpose"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "recursive code, asked 'what function does this compute' (general)", "thinkThis": "IF_RECURSIVE_MATH_IDENTIFY_01"},
+    {"seeThis": "specific input given, asked exact numeric output", "thinkThis": "IF_EXACT_TRACE_02"},
+    {"seeThis": "iterative loop building a value, asked what it approximates for large n", "thinkThis": "IF_APPROXIMATION_IDENTIFY_03"},
+    {"seeThis": "array/matrix index manipulation, asked overall transformation", "thinkThis": "IF_ARRAY_TRANSFORM_IDENTIFY_04"},
+    {"seeThis": "short simple non-recursive snippet", "thinkThis": "IF_SIMPLE_TRACE_05"}
+  ],
+  "commonTrapsQuickList": [
+    "Don't brute-force trace when a general formula is asked — recognize the shape first",
+    "Recursive-call-before-print = MSB first; after-print = LSB first",
+    "Matrix transpose loops need i<j guard, else double-swap can undo itself",
+    "For 'exact output' questions, direct tracing IS the fastest approach — don't over-search for shortcuts"
+  ],
+  "highYieldPyqLessons": [
+    "General-formula identification (15/38) is the single biggest sub-skill and the most time-saving once mastered — build a mental library of the ~6 recurring shapes (GCD, power, binary conversion, rotation, transpose, merge).",
+    "This topic is the 'capstone' of the DS+Algorithms track — it draws on Recursion, Pointers, and Programming-In-C all at once."
+  ]
+}

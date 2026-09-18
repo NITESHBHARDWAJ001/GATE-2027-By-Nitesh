@@ -1,0 +1,42 @@
+{
+ "topicId": "os-resource-allocation",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RA-01",
+   "patternId": "RA_MIN_RESOURCES_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "5 processes each need at most 3 units of a resource. Minimum total units to guarantee no deadlock?",
+   "solutionApproach": "n(k-1)+1 = 5*2+1 = 11.",
+   "answer": "11"
+  },
+  {
+   "practiceId": "AI-RA-02",
+   "patternId": "RA_MIN_RESOURCES_01",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "12 tape drives, each process needs at most 4. Maximum number of processes for deadlock-free operation?",
+   "solutionApproach": "R >= n(k-1)+1 so 12 >= 3n+1, n <= 3.67, so n=3.",
+   "answer": "3"
+  },
+  {
+   "practiceId": "AI-RA-03",
+   "patternId": "RA_BANKERS_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Available=(1), P1 alloc 2 max 3, P2 alloc 3 max 5, P3 alloc 4 max 6 (single resource). Safe?",
+   "solutionApproach": "Need: P1=1,P2=2,P3=2. Work=1: P1 finishes, Work=3; P2 (2) finishes, Work=6; P3 finishes. Safe: P1,P2,P3.",
+   "answer": "Safe, sequence P1,P2,P3"
+  },
+  {
+   "practiceId": "AI-RA-04",
+   "patternId": "RA_PREVENTION_THEORY_04",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Does requesting resources only in increasing numbered order prevent deadlock?",
+   "solutionApproach": "It breaks circular wait, one of the four Coffman conditions.",
+   "answer": "Yes"
+  }
+ ]
+}

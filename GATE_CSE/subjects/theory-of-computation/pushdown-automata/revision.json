@@ -1,0 +1,25 @@
+{
+  "topicId": "toc-pushdown-automata",
+  "revisionLevel": "short-form",
+  "coreIdea": "PDA = FA + one stack (LIFO). Final-state and empty-stack acceptance are equivalent in power. DPDA is STRICTLY WEAKER than NPDA (unlike DFA=NFA).",
+  "mustRememberFormulas": [
+    "Final-state acceptance ≡ empty-stack acceptance (mutually convertible)",
+    "DCFL ⊊ CFL — non-determinism genuinely adds power for PDA",
+    "Complement of a CFL is always recursive (decidable), even though NOT always CFL"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "language description, asked to construct a PDA", "thinkThis": "PDA_CONSTRUCT_01"},
+    {"seeThis": "PDA diagram given, asked what language it accepts or to trace a string", "thinkThis": "PDA_IDENTIFY_TRACE_02"},
+    {"seeThis": "acceptance-mode equivalence or DPDA-vs-NPDA power claim", "thinkThis": "PDA_THEORY_03"}
+  ],
+  "commonTrapsQuickList": [
+    "DPDA ≠ NPDA in power (unlike DFA=NFA) — this is THE key PDA trap",
+    "Track full stack CONTENTS during tracing, not just stack height",
+    "Complement-of-CFL-is-recursive (TRUE) ≠ complement-of-CFL-is-CFL (FALSE)",
+    "Push/pop order: leftmost pushed symbol ends up on top of stack last"
+  ],
+  "highYieldPyqLessons": [
+    "Identify/trace-from-PDA (9/15) is the dominant skill — always track state AND full stack together, never shortcut.",
+    "Study this tightly paired with Context Free Language — PDA is CFL's machine model, same relationship as FA↔Regular."
+  ]
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P4_CONJUNCTIVE_NORMAL_FORM_01",
+  "name": "Conjunctive Normal Form (PYQ type)",
+  "recognitionClueHinglish": "Conjunctive Normal Form se related sawal.",
+  "whatShouldComeToMind": [
+   "AND of ORs; har formula ka CNF exist."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Distribute."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.10.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Unique CNF maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

@@ -1,0 +1,22 @@
+{
+ "overview": "Mean/variance, standardization Z=(X-mu)/sigma, transformations like max(X,0).",
+ "whyItMatters": "4 PYQs extracted (2008-2026); P3 topic.",
+ "coreConcept": "Mean/variance, standardization Z=(X-mu)/sigma, transformations like max(X,0).",
+ "hinglishExplanation": "Symmetric bell curve; P(X<mu)=0.5.",
+ "formalDefinition": "Mean/variance, standardization Z=(X-mu)/sigma, transformations like max(X,0).",
+ "importantProperties": [
+  "68-95-99.7 rule.",
+  "Y=max(X,0) with X~N(0,s^2): E[Y]=s/sqrt(2 pi).",
+  "Linear transform normal rehta hai.",
+  "Standardization."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Variance vs SD."
+ ],
+ "standardTechniques": [
+  "1. Standardize."
+ ],
+ "topicId": "engineering-mathematics-probability:normal-distribution"
+}

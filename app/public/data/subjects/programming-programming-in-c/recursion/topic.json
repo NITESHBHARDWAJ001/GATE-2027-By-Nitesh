@@ -1,0 +1,21 @@
+{
+  "topicId": "prog-c-recursion",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "name": "Recursion",
+  "language": "hinglish",
+  "priority": "P1",
+  "priorityEvidence": "19 PYQs extracted, tested 1991-2026 continuously, strong recent presence. Direct extension of the general Programming In C code-tracing skill, with an extra call-stack dimension.",
+  "pyqCountExtracted": 19,
+  "yearsCovered": [1991,1994,2000,2001,2002,2004,2005,2007,2014,2015,2016,2017,2018,2020,2025,2026],
+  "prerequisites": [
+    {"topic": "Programming In C", "subjectId": "programming-programming-in-c", "why": "Recursion tracing needs the same variable-table dry-run skill, plus a call stack."},
+    {"topic": "Recurrence Relation", "subjectId": "algorithms", "why": "Analyzing HOW MANY times a recursive function is called is literally solving a recurrence relation."}
+  ],
+  "unlocks": [
+    {"topic": "Recurrence Relation", "subjectId": "algorithms", "why": "Recursive call-count/time-complexity analysis directly feeds into recurrence relation setup and solving."}
+  ],
+  "crossLinks": [],
+  "status": "PATTERN_COMPLETE",
+  "notesVersion": "1.0"
+}

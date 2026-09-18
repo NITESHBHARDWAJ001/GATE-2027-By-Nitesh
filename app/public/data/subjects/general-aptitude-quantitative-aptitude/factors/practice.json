@@ -1,0 +1,15 @@
+{
+ "topicId": "general-aptitude-quantitative-aptitude:factors",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-FACTOR-01",
+   "patternId": "P3_FACTORS_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Factors of 12?",
+   "solutionApproach": "1,2,3,4,6,12.",
+   "answer": "6"
+  }
+ ]
+}

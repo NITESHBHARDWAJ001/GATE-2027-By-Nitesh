@@ -1,0 +1,27 @@
+[
+ {
+  "patternId": "P3_CODE_WORDS_01",
+  "name": "Code Words (PYQ type)",
+  "recognitionClueHinglish": "Code Words se related sawal.",
+  "whatShouldComeToMind": [
+   "Letters/words ke pattern se code decode."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Compare words.",
+   "2. Pattern."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "8.3.1",
+   "8.3.2"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Sirf ek example se pattern maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

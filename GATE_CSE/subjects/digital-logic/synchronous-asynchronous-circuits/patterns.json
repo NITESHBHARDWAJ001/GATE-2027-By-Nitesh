@@ -1,0 +1,28 @@
+[
+ {
+  "patternId": "P3_SYNCHRONOUS_ASYNCHRONOUS_01",
+  "name": "Synchronous vs Asynchronous Circuits (PYQ type)",
+  "recognitionClueHinglish": "Synchronous vs Asynchronous Circuits se related sawal.",
+  "whatShouldComeToMind": [
+   "Synchronous clock se; races/hazards se bachna; counter design."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. State diagram."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.36.1",
+   "4.36.2",
+   "4.36.3",
+   "4.36.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Async ko safer maan lena."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

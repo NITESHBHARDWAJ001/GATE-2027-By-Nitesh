@@ -1,0 +1,56 @@
+[
+ {
+  "patternId": "CNF_MINTERM_OPS_01",
+  "name": "Minterm List of a Combined Circuit",
+  "recognitionClueHinglish": "F1,F2,F3 minterms; combined circuit ka minterm list.",
+  "whatShouldComeToMind": [
+   "Set ops."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Sets.",
+   "2. Operate."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.6.1",
+   "4.6.2",
+   "4.6.3",
+   "4.6.4",
+   "4.6.6",
+   "4.6.7",
+   "4.6.9",
+   "4.6.10"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "XOR."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CNF_COUNTS_02",
+  "name": "Prime Implicants / Gate Count",
+  "recognitionClueHinglish": "Prime implicants ya NOR gates count.",
+  "whatShouldComeToMind": [
+   "K-map / minimization."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Groups.",
+   "2. Count."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.6.5",
+   "4.6.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

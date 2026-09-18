@@ -1,0 +1,21 @@
+{
+ "topicId": "computer-networks:network-flow",
+ "subjectId": "computer-networks",
+ "subject": "Computer Networks",
+ "name": "Flow and Throughput (Segments, Links, On-Off Sources)",
+ "language": "hinglish",
+ "priority": "P3",
+ "priorityEvidence": "4 PYQs extracted, 1992-2017.",
+ "pyqCountExtracted": 4,
+ "yearsCovered": [
+  1992,
+  2004,
+  2006,
+  2017
+ ],
+ "prerequisites": [],
+ "unlocks": [],
+ "crossLinks": [],
+ "status": "PATTERN_COMPLETE",
+ "notesVersion": "1.0"
+}

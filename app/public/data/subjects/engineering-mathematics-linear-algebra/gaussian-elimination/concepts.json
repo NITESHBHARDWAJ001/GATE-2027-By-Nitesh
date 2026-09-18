@@ -1,0 +1,21 @@
+{
+ "overview": "Operations count ~ n^3/3 multiplications.",
+ "whyItMatters": "1 PYQs extracted (2025-2025); P3 topic.",
+ "coreConcept": "Operations count ~ n^3/3 multiplications.",
+ "hinglishExplanation": "Forward elimination O(n^3), back substitution O(n^2).",
+ "formalDefinition": "Operations count ~ n^3/3 multiplications.",
+ "importantProperties": [
+  "Multiplications ~ n^3/3.",
+  "Additions ~ n^3/3.",
+  "Pivoting stability."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "n^2 maan lena."
+ ],
+ "standardTechniques": [
+  "1. Sum over columns."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:gaussian-elimination"
+}

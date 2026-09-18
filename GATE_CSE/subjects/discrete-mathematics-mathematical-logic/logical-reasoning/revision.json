@@ -1,0 +1,18 @@
+{
+ "coreIdea": "If-then statements, truth-teller/liar, valid inferences.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Logical Reasoning (Inference) se related sawal.",
+   "thinkThis": "P3_LOGICAL_REASONING_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Converse ko valid inference maan lena."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "discrete-mathematics-mathematical-logic:logical-reasoning",
+ "revisionLevel": "short-form"
+}

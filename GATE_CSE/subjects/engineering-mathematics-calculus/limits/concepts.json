@@ -1,0 +1,39 @@
+{
+ "overview": "Limit ka matlab: x kisi value ke paas jaaye to f(x) kis value ke paas jaata hai. GATE me indeterminate forms (0/0, inf/inf), standard limits (sin x / x, (1+1/x)^x), L'Hopital rule aur squeeze/bounded-function arguments aate hain.",
+ "whyItMatters": "15 PYQs, 1993-2025; almost sabhi NAT/MCQ me ek hi calculation-type sawal.",
+ "coreConcept": "Pehle direct substitution try karo. Agar 0/0 ya inf/inf aaye to L'Hopital rule (numerator aur denominator ka alag alag derivative) ya standard limit use karo.",
+ "hinglishExplanation": "Limit nikaalna = value ke 'kareeb jaana', value par pahunchna nahi. Substitute karke dekho: agar seedha number mil gaya to wahi answer. 0/0 ya inf/inf form indeterminate hai, tab derivative lagao. x -> infinity par bade powers jeetate hain; dono taraf se limit barabar ho tabhi exist karta hai.",
+ "formalDefinition": "lim f(x) = L agar left-hand aur right-hand limits dono L hon.",
+ "importantProperties": [
+  "Standard: lim sin x / x = 1 (x->0), lim (1 - cos x)/x^2 = 1/2, lim (e^x - 1)/x = 1, lim ln(1+x)/x = 1.",
+  "lim (1 + 1/x)^x = e (x->inf); lim (1 + x)^(1/x) = e (x->0).",
+  "L'Hopital: 0/0 ya inf/inf par lim f/g = lim f'/g'.",
+  "Bounded function x vanishing function = 0 (e.g., x sin(1/x) -> 0).",
+  "Squeeze theorem: g <= f <= h aur lim g = lim h = L to lim f = L.",
+  "x -> inf: polynomial ratio me highest power ka ratio.",
+  "Limit exist karta hai <=> left = right.",
+  "Rationalise karo jab square roots ka difference aaye (inf - inf)."
+ ],
+ "formulas": {
+  "sinx": "lim sin x / x = 1",
+  "cosx": "lim (1-cos x)/x^2 = 1/2",
+  "e": "lim (1+1/n)^n = e",
+  "lhopital": "lim f/g = lim f'/g'",
+  "expm1": "lim (e^x - 1)/x = 1"
+ },
+ "keyPropertiesAndIdentities": [
+  "Taylor series bhi kaam karta hai (par kabhi kabhi question 'without power series' bolta hai).",
+  "Exponent form: 1^inf => e^(lim g(x)(f(x)-1))."
+ ],
+ "commonPitfalls": [
+  "Determinate form par bhi L'Hopital lagana.",
+  "Left/right limit alag hone par exist maan lena.",
+  "inf - inf ko 0 samajhna."
+ ],
+ "standardTechniques": [
+  "Substitute -> classify form.",
+  "Rationalise / factor / standard limit / L'Hopital.",
+  "1^inf form: exponent method."
+ ],
+ "topicId": "em-calc-limits"
+}

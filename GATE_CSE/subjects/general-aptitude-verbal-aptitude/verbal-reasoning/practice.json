@@ -1,0 +1,24 @@
+{
+ "topicId": "general-aptitude-verbal-aptitude:verbal-reasoning",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-VERBAL-01",
+   "patternId": "VR_INFERENCE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "'All A are B.' x is A. Conclusion?",
+   "solutionApproach": "x is B.",
+   "answer": "x is B"
+  },
+  {
+   "practiceId": "AI-VERBAL-R-X02",
+   "patternId": "VR_INFERENCE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "'Some A are B' implies 'all A are B'?",
+   "solutionApproach": "No.",
+   "answer": "No"
+  }
+ ]
+}

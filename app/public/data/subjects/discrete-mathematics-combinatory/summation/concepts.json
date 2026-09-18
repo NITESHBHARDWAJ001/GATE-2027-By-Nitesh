@@ -1,0 +1,23 @@
+{
+ "overview": "Standard sums, substrings count n(n+1)/2, induction-free identities.",
+ "whyItMatters": "4 PYQs extracted (1989-2015); P3 topic.",
+ "coreConcept": "Standard sums, substrings count n(n+1)/2, induction-free identities.",
+ "hinglishExplanation": "Sum 1..n = n(n+1)/2; squares n(n+1)(2n+1)/6.",
+ "formalDefinition": "Standard sums, substrings count n(n+1)/2, induction-free identities.",
+ "importantProperties": [
+  "sum i = n(n+1)/2.",
+  "sum i^2 = n(n+1)(2n+1)/6.",
+  "Geometric sum (r^(n+1)-1)/(r-1).",
+  "Substrings = n(n+1)/2."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Bounds off-by-one."
+ ],
+ "standardTechniques": [
+  "1. Pattern.",
+  "2. Formula."
+ ],
+ "topicId": "discrete-mathematics-combinatory:summation"
+}

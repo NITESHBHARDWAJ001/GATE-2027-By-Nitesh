@@ -1,0 +1,26 @@
+[
+ {
+  "patternId": "P3_CONFLICT_MISSES_01",
+  "name": "Conflict Misses (PYQ type)",
+  "recognitionClueHinglish": "Conflict Misses se related sawal.",
+  "whatShouldComeToMind": [
+   "Set-associative cache me same set ke blocks ki competition se misses."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Set map.",
+   "2. LRU trace."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "1.6.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Compulsory ko conflict ginna."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

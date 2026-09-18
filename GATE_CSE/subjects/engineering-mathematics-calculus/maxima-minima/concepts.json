@@ -1,0 +1,26 @@
+{
+ "overview": "Function ke local/global maxima-minima, critical points, monotonicity, roots count.",
+ "whyItMatters": "14 PYQs extracted (1987-2026); P2 topic.",
+ "coreConcept": "Critical point: f'(x)=0. f''>0 => local min, f''<0 => local max. Closed interval par global extrema critical points aur endpoints par.",
+ "hinglishExplanation": "Pehle derivative nikalo aur 0 karo. Second derivative sign se nature. Closed interval me endpoints bhi compare karo. Increasing everywhere <=> f' >= 0 sab jagah.",
+ "formalDefinition": "Critical point: f'(x)=0. f''>0 => local min, f''<0 => local max. Closed interval par global extrema critical points aur endpoints par.",
+ "importantProperties": [
+  "f'(c)=0 critical point; f''(c)>0 min, <0 max.",
+  "Closed interval: compare critical points aur endpoints.",
+  "Increasing everywhere: f' >= 0.",
+  "Rolle/IVT se roots ki existence.",
+  "f'=0 aur f''=0 to test inconclusive."
+ ],
+ "formulas": {
+  "secondTest": "f''>0 min, f''<0 max"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Endpoints bhoolna.",
+  "f'=0 ko hamesha extremum maan lena."
+ ],
+ "standardTechniques": [
+  "f' ka sign chart banao."
+ ],
+ "topicId": "engineering-mathematics-calculus:maxima-minima"
+}

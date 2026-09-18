@@ -1,0 +1,56 @@
+[
+ {
+  "pyqId": "programming-programming-in-c__5.12.1",
+  "localId": "5.12.1",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "programming-paradigms",
+  "topic": "Programming Paradigms",
+  "year": 2004,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "1",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "easy",
+  "marks": null,
+  "answer": "C",
+  "answerVerified": true,
+  "questionTextRaw": "The goal of structured programming is to: A. have well indented programs B. be able to infer the flow of control from the compiled code C. be able to infer the flow of control from the program text D. avoid the use of GOTO statements",
+  "tagsRaw": "gatecse-2004 programming easy programming-paradigms",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 305
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_PROGRAMMING_PARADIGMS_01"
+ },
+ {
+  "pyqId": "programming-programming-in-c__5.12.2",
+  "localId": "5.12.2",
+  "subjectId": "programming-programming-in-c",
+  "subject": "Programming: Programming in C",
+  "topicSlug": "programming-paradigms",
+  "topic": "Programming Paradigms",
+  "year": 2004,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "90",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": "normal",
+  "marks": null,
+  "answer": "D",
+  "answerVerified": true,
+  "questionTextRaw": "Choose the best matching between the programming styles in Group 1 and their characteristics in Group 2. A.                                                                             B. C.                                                                             D.",
+  "tagsRaw": "gatecse-2004 programming normal programming-paradigms match-the-following",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 305
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P4_PROGRAMMING_PARADIGMS_01"
+ }
+]

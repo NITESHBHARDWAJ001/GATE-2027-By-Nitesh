@@ -1,0 +1,31 @@
+{
+  "topicId": "algorithms-sorting",
+  "revisionLevel": "short-form",
+  "coreIdea": "Memorize the comparison table: Best/Avg/Worst complexity + Stable? + In-place? for each of Bubble/Insertion/Selection/Merge/Quick/Heap/Radix/Counting sort.",
+  "mustRememberFormulas": [
+    "Bubble/Insertion: O(n) best (sorted input), O(n²) avg/worst, stable, in-place",
+    "Selection: O(n²) always, NOT stable, in-place, fewest swaps (≤n-1)",
+    "Merge: O(n log n) always, stable, NOT in-place",
+    "Quick: O(n log n) avg, O(n²) worst, NOT stable, in-place",
+    "Heap: O(n log n) always, NOT stable, in-place",
+    "Radix/Counting: O(n) linear when range/digits bounded, stable",
+    "Comparison-sort lower bound: Ω(n log n) = ⌈log2(n!)⌉"
+  ],
+  "patternRecognitionTable": [
+    {"seeThis": "'which algorithm is best/fastest for scenario X'", "thinkThis": "SORT_ALGO_COMPARE_01"},
+    {"seeThis": "'minimum comparisons needed to sort n elements'", "thinkThis": "SORT_LOWERBOUND_02"},
+    {"seeThis": "'what does stable/in-place mean'", "thinkThis": "SORT_PROPERTY_DEFINITION_03"},
+    {"seeThis": "specific array, asked passes/swaps/comparisons for a NAMED algorithm", "thinkThis": "SORT_PASS_TRACE_04"},
+    {"seeThis": "special-structure input (bounded range, few distinct values), design optimal sort", "thinkThis": "SORT_DESIGN_OPTIMAL_05"}
+  ],
+  "commonTrapsQuickList": [
+    "Quick Sort's WORST case is O(n²), not O(n log n) — check which case is asked",
+    "Selection Sort is NOT stable (standard version)",
+    "Ω(n log n) only applies to comparison-based sorting — Counting/Radix sort can beat it with bounded range",
+    "Stable ≠ in-place — independent properties"
+  ],
+  "highYieldPyqLessons": [
+    "Algorithm comparison (10/22) is pure memorization+lookup — the comparison table pays for itself immediately, memorize it once, use forever.",
+    "This topic pairs directly with the dedicated Quick Sort topic — study both together for the fullest picture of sorting on GATE."
+  ]
+}

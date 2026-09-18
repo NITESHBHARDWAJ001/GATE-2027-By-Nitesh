@@ -1,0 +1,132 @@
+[
+ {
+  "patternId": "CMB_PERM_COMB_01",
+  "name": "Arrangements, Digits and Selection Counting",
+  "recognitionClueHinglish": "Numbers/strings/rows me arrangements, distinct digits, even numbers, non-decreasing digits.",
+  "whatShouldComeToMind": [
+   "Slot method / nCr / repeats."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Constraint wali position pehle.",
+   "2. Baaki multiply karo.",
+   "3. Repeats ke liye divide."
+  ],
+  "formulasUsed": [
+   "nCr",
+   "multiset"
+  ],
+  "pyqExamples": [
+   "1.2.1",
+   "1.2.3",
+   "1.2.5",
+   "1.2.7",
+   "1.2.12",
+   "1.2.6",
+   "1.2.8"
+  ],
+  "variationsObserved": [
+   "Non-decreasing digits = stars and bars."
+  ],
+  "commonTraps": [
+   "Leading zero."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CMB_DISTRIBUTION_02",
+  "name": "Distribution of Objects into Boxes/People",
+  "recognitionClueHinglish": "Identical/distinct balls, flowers divide.",
+  "whatShouldComeToMind": [
+   "Stars and bars / k^n."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Objects identical? boxes distinct?",
+   "2. Formula lagao."
+  ],
+  "formulasUsed": [
+   "stars"
+  ],
+  "pyqExamples": [
+   "1.2.4",
+   "1.2.18"
+  ],
+  "variationsObserved": [
+   "Do log me flowers baantna."
+  ],
+  "commonTraps": [
+   "Identical/distinct mix."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CMB_PATHS_RECURRENCE_03",
+  "name": "Lattice Paths, Catalan and Recurrences",
+  "recognitionClueHinglish": "Robot path, balanced prefixes, pennants, strings with restrictions.",
+  "whatShouldComeToMind": [
+   "Recurrence / Catalan / binomial paths."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Last step/last symbol par cases.",
+   "2. Recurrence likho.",
+   "3. Base cases se compute."
+  ],
+  "formulasUsed": [
+   "path",
+   "catalan"
+  ],
+  "pyqExamples": [
+   "1.2.2",
+   "1.2.9",
+   "1.2.10",
+   "1.2.11",
+   "1.2.15"
+  ],
+  "variationsObserved": [
+   "Ternary strings with adjacent equal symbols."
+  ],
+  "commonTraps": [
+   "Base case galat."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal to difficult",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "CMB_DERANGE_STRUCT_04",
+  "name": "Derangements, Inclusion-Exclusion, Structured Matrices",
+  "recognitionClueHinglish": "No character in original place; matrices with parity conditions; set/function counting.",
+  "whatShouldComeToMind": [
+   "Derangement formula, inclusion-exclusion, free-cell counting."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Constraint type pehchano.",
+   "2. Inclusion-exclusion ya free cells."
+  ],
+  "formulasUsed": [
+   "derange"
+  ],
+  "pyqExamples": [
+   "1.2.13",
+   "1.2.14",
+   "1.2.16",
+   "1.2.17"
+  ],
+  "variationsObserved": [
+   "Repeated letters ke saath derangement."
+  ],
+  "commonTraps": [
+   "Identical letters ka adjustment."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "difficult",
+  "aiPracticePossible": true
+ }
+]

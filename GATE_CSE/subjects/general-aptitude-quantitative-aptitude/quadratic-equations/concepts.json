@@ -1,0 +1,21 @@
+{
+ "overview": "ax^2+bx+c=0: roots, discriminant.",
+ "whyItMatters": "4 PYQs extracted (2014-2022); P3 topic.",
+ "coreConcept": "ax^2+bx+c=0: roots, discriminant.",
+ "hinglishExplanation": "Discriminant D=b^2-4ac.",
+ "formalDefinition": "ax^2+bx+c=0: roots, discriminant.",
+ "importantProperties": [
+  "Roots sum -b/a, product c/a.",
+  "D<0: complex roots."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Sign errors."
+ ],
+ "standardTechniques": [
+  "1. D.",
+  "2. Roots."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:quadratic-equations"
+}

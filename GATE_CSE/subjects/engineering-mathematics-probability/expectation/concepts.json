@@ -1,0 +1,42 @@
+{
+ "overview": "Expected value E[X] = sum x p(x) (ya integral). Linearity of expectation sabse powerful tool hai. Variance, conditional expectation aur indicator-variable technique yahan aate hain.",
+ "whyItMatters": "15 PYQs, 1999-2026; recent saalon me NAT + MCQ.",
+ "coreConcept": "E[X+Y] = E[X] + E[Y] hamesha (independent hona zaroori nahi). Complex count ko indicator random variables ke sum me todo.",
+ "hinglishExplanation": "Expected value = long-run average. Agar 'kitne items' ka expected count chahiye to har item ke liye indicator variable I_i banao (1 agar item condition satisfy kare) aur E[sum I_i] = sum P(I_i = 1). 'Kitni baar tak' jaise waiting-time sawal recursion/states se solve karo: E = 1 + sum p * E(next state).",
+ "formalDefinition": "E[X] = sum x P(X=x); Var(X) = E[X^2] - (E[X])^2.",
+ "importantProperties": [
+  "Linearity: E[aX + bY + c] = aE[X] + bE[Y] + c.",
+  "Var(X) = E[X^2] - E[X]^2 >= 0.",
+  "Independent X,Y: E[XY] = E[X]E[Y]; Var(X+Y) = Var X + Var Y.",
+  "Indicator: E[I_A] = P(A).",
+  "E[E[X|Y]] = E[X] (tower property).",
+  "Geometric (success p): E = 1/p.",
+  "Binomial(n,p): mean np, variance np(1-p).",
+  "Standard normal: E[Z] = 0, E[Z^2] = 1.",
+  "E[X] sample point ki value hone ki zaroorat nahi (mean value possible outcomes me na ho sakta hai).",
+  "Waiting time recursion: E = 1 + sum p_i E_i."
+ ],
+ "formulas": {
+  "expect": "E[X] = sum x P(x)",
+  "var": "Var X = E[X^2] - (E X)^2",
+  "linearity": "E[aX+bY] = aE X + bE Y",
+  "indicator": "E[I] = P(event)",
+  "geometric": "E = 1/p",
+  "tower": "E[E[X|Y]] = E[X]"
+ },
+ "keyPropertiesAndIdentities": [
+  "E[X^2] >= (E[X])^2 (Jensen).",
+  "Cov = E[XY] - E[X]E[Y]."
+ ],
+ "commonPitfalls": [
+  "E[XY] = E[X]E[Y] bina independence maan lena.",
+  "Variance me square bhoolna.",
+  "Recursion ka '1 +' step bhoolna."
+ ],
+ "standardTechniques": [
+  "Indicator + linearity.",
+  "State recursion for waiting time.",
+  "Direct sum over pmf/integral over pdf."
+ ],
+ "topicId": "em-prob-expectation"
+}

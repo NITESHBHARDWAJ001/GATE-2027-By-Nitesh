@@ -1,0 +1,26 @@
+{
+ "coreIdea": "Schedule conflict serializable hai iff precedence graph acyclic hai.",
+ "mustRememberFormulas": [
+  "test: precedence graph acyclic",
+  "serial: n! serial schedules"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Schedule(s) di hai; serializable hai ya nahi.",
+   "thinkThis": "CS_GRAPH_01"
+  },
+  {
+   "seeThis": "Do transactions ke operations; kitne interleavings serializable.",
+   "thinkThis": "CS_COUNT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Overcounting.",
+  "RR edge."
+ ],
+ "highYieldPyqLessons": [
+  "Precedence-graph question appears almost every year (2014, 2021, 2024, 2025)."
+ ],
+ "topicId": "databases:conflict-serializable",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "general-aptitude-spatial-aptitude__10.2.1",
+  "localId": "10.2.1",
+  "subjectId": "general-aptitude-spatial-aptitude",
+  "subject": "General Aptitude: Spatial Aptitude",
+  "topicSlug": "assembling",
+  "topic": "Assembling",
+  "year": 2026,
+  "examStream": "DA",
+  "set": null,
+  "isGeneralAptitudeCrossListed": true,
+  "sourceQuestionNo": "3",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "A",
+  "answerVerified": true,
+  "questionTextRaw": "The four pieces of a puzzle are shown in the figure below. Which one of the figures labelled as                , and S can be constructed by using each of the four pieces only once without overlaps? A.                                        B.        C.                     D.",
+  "tagsRaw": "gateda-2026 spatial-aptitude  assembling  one-mark",
+  "source": {
+   "file": "filter1_volume1.pdf",
+   "approxPdfPage": 321
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_ASSEMBLING_01"
+ }
+]

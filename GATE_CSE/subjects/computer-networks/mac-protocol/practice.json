@@ -1,0 +1,15 @@
+{
+ "topicId": "computer-networks:mac-protocol",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-MAC-PR-01",
+   "patternId": "P3_MAC_PROTOCOL_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Two hosts, each p=0.5 slotted. P(success of host1)?",
+   "solutionApproach": "0.5*0.5.",
+   "answer": "0.25"
+  }
+ ]
+}

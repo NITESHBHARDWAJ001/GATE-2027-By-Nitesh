@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Front/top view se structure count.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "3D Structures from Views se related sawal.",
+   "thinkThis": "P3_3D_STRUCTURE_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Hidden cubes."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "general-aptitude-spatial-aptitude:3d-structure",
+ "revisionLevel": "short-form"
+}

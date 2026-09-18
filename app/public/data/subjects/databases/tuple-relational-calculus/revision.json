@@ -1,0 +1,18 @@
+{
+ "coreIdea": "TRC expressions ke tuple counts, meaning, safe/unsafe.",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Tuple Relational Calculus se related sawal.",
+   "thinkThis": "P3_TUPLE_RELATIONAL_CALCULU_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Quantifier scope."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "databases:tuple-relational-calculus",
+ "revisionLevel": "short-form"
+}

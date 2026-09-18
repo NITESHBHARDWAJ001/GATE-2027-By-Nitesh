@@ -1,0 +1,28 @@
+{
+ "overview": "Determinant computation, properties (row ops, product, transpose), determinant of special matrices.",
+ "whyItMatters": "12 PYQs extracted (1997-2026); P2 topic.",
+ "coreConcept": "det(AB)=det A det B; row swap sign flip; row addition no change; scalar multiply row scales.",
+ "hinglishExplanation": "Row operations se triangular banao; det = diagonal product (sign adjust). Special structure (cyclic, all-ones + diag) me eigenvalue trick.",
+ "formalDefinition": "det(AB)=det A det B; row swap sign flip; row addition no change; scalar multiply row scales.",
+ "importantProperties": [
+  "det(AB)=detA detB.",
+  "det(A^T)=det A.",
+  "det(kA)=k^n det A.",
+  "Row swap: sign flip; add multiple: same.",
+  "Triangular: product of diagonal.",
+  "det=0 <=> singular.",
+  "det(A^-1)=1/detA, det(adjA)=detA^(n-1)."
+ ],
+ "formulas": {
+  "scalar": "det(kA)=k^n detA",
+  "adj": "det(adjA)=detA^(n-1)"
+ },
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "det(A+B)=detA+detB."
+ ],
+ "standardTechniques": [
+  "Triangularize."
+ ],
+ "topicId": "engineering-mathematics-linear-algebra:determinant"
+}

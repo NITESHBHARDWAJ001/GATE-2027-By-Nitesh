@@ -1,0 +1,19 @@
+{
+ "overview": "|x|<a => -a<x<a.",
+ "whyItMatters": "2 PYQs extracted (2014-2017); P3 topic.",
+ "coreConcept": "|x|<a => -a<x<a.",
+ "hinglishExplanation": "Distance from zero.",
+ "formalDefinition": "|x|<a => -a<x<a.",
+ "importantProperties": [
+  "|x|=a => x=+-a."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "Two cases."
+ ],
+ "standardTechniques": [
+  "1. Cases."
+ ],
+ "topicId": "general-aptitude-quantitative-aptitude:absolute-value"
+}

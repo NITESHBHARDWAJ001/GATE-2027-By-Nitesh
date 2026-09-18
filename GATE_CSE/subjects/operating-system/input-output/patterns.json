@@ -1,0 +1,25 @@
+[
+ {
+  "patternId": "P3_INPUT_OUTPUT_01",
+  "name": "I/O Wait and Program Behaviour (PYQ type)",
+  "recognitionClueHinglish": "I/O Wait and Program Behaviour se related sawal.",
+  "whatShouldComeToMind": [
+   "Multiprogramming me I/O par process blocked, CPU dusre ko."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. State transitions."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "5.12.1"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Blocked aur ready confuse."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

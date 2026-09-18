@@ -1,0 +1,18 @@
+{
+ "coreIdea": "Limits ke saath value, properties: int_a^b f = int_a^b f(a+b-x).",
+ "mustRememberFormulas": [],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Definite Integrals se related sawal.",
+   "thinkThis": "P3_DEFINITE_INTEGRAL_01"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Odd/even check miss."
+ ],
+ "highYieldPyqLessons": [
+  "P3 topic: compact single-pattern note. Extracted text may miss figures/equations; check the source PDF."
+ ],
+ "topicId": "engineering-mathematics-calculus:definite-integral",
+ "revisionLevel": "short-form"
+}

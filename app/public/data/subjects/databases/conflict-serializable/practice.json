@@ -1,0 +1,51 @@
+{
+ "topicId": "databases:conflict-serializable",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-CONFLI-01",
+   "patternId": "CS_GRAPH_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S: R1(A) W2(A) W1(A). Serializable?",
+   "solutionApproach": "T1->T2 and T2->T1: cycle.",
+   "answer": "No"
+  },
+  {
+   "practiceId": "AI-CONFLI-02",
+   "patternId": "CS_GRAPH_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S: R1(A) R2(A) W1(B) W2(B). Serializable? Equivalent serial?",
+   "solutionApproach": "Only WW on B: T1->T2.",
+   "answer": "Yes, T1 then T2"
+  },
+  {
+   "practiceId": "AI-CONFLICT-X03",
+   "patternId": "CS_GRAPH_01",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S: R1(X) W2(X) W1(X) R2(Y) W1(Y). Conflict serializable?",
+   "solutionApproach": "R1(X)->W2(X): T1->T2; W2(X)->W1(X): T2->T1: cycle.",
+   "answer": "No"
+  },
+  {
+   "practiceId": "AI-CONFLICT-X04",
+   "patternId": "CS_GRAPH_01",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "S: R1(A) W1(A) R2(A) W2(A) R1(B) W1(B). Conflict serializable? Equivalent serial order?",
+   "solutionApproach": "A conflicts: T1->T2; B only T1; acyclic.",
+   "answer": "Yes, T1 then T2"
+  },
+  {
+   "practiceId": "AI-CONFLICT-X05",
+   "patternId": "CS_COUNT_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Two transactions with 2 operations each: total interleavings?",
+   "solutionApproach": "C(4,2).",
+   "answer": "6"
+  }
+ ]
+}

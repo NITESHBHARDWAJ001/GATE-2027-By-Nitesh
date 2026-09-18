@@ -1,0 +1,29 @@
+[
+ {
+  "pyqId": "algorithms__1.46.1",
+  "localId": "1.46.1",
+  "subjectId": "algorithms",
+  "subject": "Algorithms",
+  "topicSlug": "uniform-hashing",
+  "topic": "Uniform Hashing",
+  "year": 2022,
+  "examStream": "CSE",
+  "set": null,
+  "isGeneralAptitudeCrossListed": false,
+  "sourceQuestionNo": "6",
+  "sourceType": "GATE_PYQ",
+  "questionType": "MCQ",
+  "difficultySourceTag": null,
+  "marks": 1,
+  "answer": "B",
+  "answerVerified": true,
+  "questionTextRaw": "Suppose we are given keys, hash table slots, and two simple uniform hash functions and Further suppose our hashing scheme uses for the odd keys and for the even keys. What is the expected number of keys in a slot? A.                                       B.                          C.                         D.",
+  "tagsRaw": "gatecse-2022 algorithms  hashing  uniform-hashing  one-mark",
+  "source": {
+   "file": "filter1_volume2 (1).pdf",
+   "approxPdfPage": 108
+  },
+  "formulaExtractionNote": "Equations/math symbols may be missing from questionTextRaw due to PDF text-extraction limits (images/MathType not OCR'd). Verify against source PDF page before publishing as a solved PYQ.",
+  "patternId": "P3_UNIFORM_HASHING_01"
+ }
+]

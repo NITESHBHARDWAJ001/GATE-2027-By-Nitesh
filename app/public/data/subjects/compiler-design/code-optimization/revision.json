@@ -1,0 +1,24 @@
+{
+ "coreIdea": "Optimization semantics preserve karte hue code ko fast/small banata hai.",
+ "mustRememberFormulas": [
+  "horner: n multiplications + n additions"
+ ],
+ "patternRecognitionTable": [
+  {
+   "seeThis": "Code me kaun si optimization; redundant expressions.",
+   "thinkThis": "OPT_TRANSFORM_01"
+  },
+  {
+   "seeThis": "Why on IR, basic blocks, live variables.",
+   "thinkThis": "OPT_CONCEPT_02"
+  }
+ ],
+ "commonTrapsQuickList": [
+  "Aliasing."
+ ],
+ "highYieldPyqLessons": [
+  "Code-segment analysis needs careful tracing."
+ ],
+ "topicId": "compiler-design:code-optimization",
+ "revisionLevel": "short-form"
+}

@@ -1,0 +1,23 @@
+{
+ "overview": "NFA=DFA power; NPDA > DPDA; NTM = DTM; conversions.",
+ "whyItMatters": "6 PYQs extracted (1992-2011); P3 topic.",
+ "coreConcept": "NFA=DFA power; NPDA > DPDA; NTM = DTM; conversions.",
+ "hinglishExplanation": "Non-determinism FA aur TM me power nahi badhata; PDA me badhata hai.",
+ "formalDefinition": "NFA=DFA power; NPDA > DPDA; NTM = DTM; conversions.",
+ "importantProperties": [
+  "NFA = DFA.",
+  "DPDA < NPDA.",
+  "NTM = DTM (power).",
+  "NFA->DFA exponential states."
+ ],
+ "formulas": {},
+ "keyPropertiesAndIdentities": [],
+ "commonPitfalls": [
+  "PDA me equal maan lena."
+ ],
+ "standardTechniques": [
+  "1. Model.",
+  "2. Recall."
+ ],
+ "topicId": "theory-of-computation:non-determinism"
+}

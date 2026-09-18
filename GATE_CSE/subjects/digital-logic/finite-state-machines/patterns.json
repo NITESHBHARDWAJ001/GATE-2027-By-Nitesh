@@ -1,0 +1,29 @@
+[
+ {
+  "patternId": "P3_FINITE_STATE_MACHINES_01",
+  "name": "Finite State Machines (Sequential) (PYQ type)",
+  "recognitionClueHinglish": "Finite State Machines (Sequential) se related sawal.",
+  "whatShouldComeToMind": [
+   "State table trace, state minimization, FSM adder."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Table.",
+   "2. Trace/minimize."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "4.15.1",
+   "4.15.2",
+   "4.15.3",
+   "4.15.4"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Equivalent states pehchanne me galti."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]

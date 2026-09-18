@@ -1,0 +1,62 @@
+[
+  {
+    "patternId": "RE_TRANSLATION_01",
+    "name": "Translate Language Description → Regular Expression",
+    "recognitionClueHinglish": "English/set-builder me language description di hai (jaise 'strings with two consecutive 0s and two consecutive 1s', 'binary numbers divisible by 3') aur regex likhna hai — is topic ka sabse bada pattern hai (29 me se 11 PYQs).",
+    "whatShouldComeToMind": ["Break the description into independent sub-conditions, build sub-patterns for each, combine with concatenation/union/star.", "For 'divisible by k' in binary — this needs a specific per-digit-processing DFA-style regex construction (via state-elimination from the mod-k DFA), not a simple direct pattern."],
+    "conceptsRequired": ["Regex construction from structural description", "Sub-pattern decomposition"],
+    "generalSolvingApproach": ["1. Identify distinct required SUB-PATTERNS in the description (e.g., 'contains 00' AND 'contains 11', in any order/position).", "2. Build a regex for each sub-pattern separately.", "3. Combine using union (for 'either/or' requirements), concatenation (for 'followed by'), with Σ* wildcards filling in 'anything else can appear here'.", "4. Test the assembled regex against a few example strings (both matching and non-matching) to verify."],
+    "formulasUsed": [],
+    "pyqExamples": ["6.18.1","6.18.5","6.18.7","6.18.10","6.18.13","6.18.17","6.18.18","6.18.19","6.18.22","6.18.26","6.18.29"],
+    "variationsObserved": ["Programming-language identifier lexical token definition (letter followed by letters/digits) — direct concatenation of character-class union and star.", "Divisibility-by-3-in-binary — requires understanding the underlying mod-3 DFA structure first, then converting to regex."],
+    "commonTraps": ["Forgetting Σ* 'wildcard' segments needed to allow arbitrary content around a required substring pattern.", "Missing edge cases like the empty string or single-character strings when the pattern requires 'two consecutive' something."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "RE_FA_CONVERSION_02",
+    "name": "Regex ↔ Finite Automaton Conversion",
+    "recognitionClueHinglish": "Ek automaton (state diagram) diya hai aur poocha hai equivalent regex kya hai, ya regex diya hai aur automaton banana hai — ye two-way conversion pattern hai.",
+    "whatShouldComeToMind": ["FA→Regex: state elimination method — remove states one at a time, updating remaining edges with regex expressions capturing the eliminated paths.", "Regex→FA: Thompson's construction — build small NFA fragments for each regex piece (single symbol, union, concatenation, star), combine via ε-transitions."],
+    "conceptsRequired": ["State elimination method", "Thompson's construction"],
+    "generalSolvingApproach": ["1. For FA→Regex: pick a non-start/non-accept state to eliminate, redirect its incoming/outgoing edges through a combined regex expression (incoming · self-loop* · outgoing), repeat until only start/accept states remain, read off the final regex.", "2. For Regex→FA: parse the regex's structure (identify the outermost operation — union, concat, or star), build sub-automata recursively for each piece, combine via the standard Thompson's templates."],
+    "formulasUsed": [],
+    "pyqExamples": ["6.18.4","6.18.15","6.18.20","6.18.21","6.18.27"],
+    "variationsObserved": ["Multiple candidate regexes given, asked which ones ALL correctly represent a given automaton (multi-correct verification, not single conversion)."],
+    "commonTraps": ["Losing self-loop terms during state elimination — a state's self-loop must be captured as a Kleene-star factor in the combined path expression."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "RE_EQUIVALENCE_03",
+    "name": "Regex Identity/Equivalence Verification",
+    "recognitionClueHinglish": "Do (ya zyada) regexes diye hain aur poocha hai ye EQUIVALENT hain ya nahi (same language represent karte hain) — is topic ka doosra bada pattern hai (29 me se 8 PYQs).",
+    "whatShouldComeToMind": ["Apply standard identities directly: (r*)*=r*, r*r*=r*, εr=r, ∅r=∅, ∅*=ε.", "If identities don't immediately resolve it, TEST concrete strings against both regexes — if any string matches one but not the other, they're NOT equivalent."],
+    "conceptsRequired": ["Standard regex algebraic identities", "String-testing verification technique"],
+    "generalSolvingApproach": ["1. Try to simplify both regexes using known identities first.", "2. If still unclear, test several concrete strings (including edge cases: empty string, single character, strings with repeated patterns) against both — a single mismatch disproves equivalence.", "3. For a definitive proof (not just testing), consider converting both to minimal DFAs and checking structural equality."],
+    "formulasUsed": ["starIdempotent","starConcatSelf","epsilonIdentity","emptySetAnnihilator","starOfEmptySet","plusVsStar"],
+    "pyqExamples": ["6.18.2","6.18.3","6.18.6","6.18.9","6.18.11","6.18.12","6.18.25","6.18.28"],
+    "variationsObserved": ["Comparing regex-defined language relationships (L1⊆L2? L1∩L2=∅?) rather than pure equivalence — test membership of specific strings in both."],
+    "commonTraps": ["Assuming visually similar regexes (like (a|b)* vs a*b*) are equivalent without checking — a*b* is much more restrictive (only a's then b's) compared to (a|b)* (any order)."],
+    "edgeCases": [],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  },
+  {
+    "patternId": "RE_MEMBERSHIP_COUNTING_04",
+    "name": "Membership / Counting Questions",
+    "recognitionClueHinglish": "Poocha hai ek specific string regex ke language me hai ya nahi, ya length ≤n ke kitne strings match karte hain, ya SHORTEST string jo language me NAHI hai — ye direct evaluation pattern hai.",
+    "whatShouldComeToMind": ["For membership: try to construct/derive the given string from the regex structure directly (does it match the pattern piece by piece?).", "For 'shortest string not in language': start checking from length 0 upward (empty string, then length 1, then 2...) until finding one that doesn't match."],
+    "conceptsRequired": ["Direct regex matching", "Systematic small-case enumeration"],
+    "generalSolvingApproach": ["1. For membership questions, break the target string into pieces matching the regex's structure (concatenation boundaries, which star-repetitions account for which substrings).", "2. For counting-up-to-length-n questions, enumerate systematically by length or convert to automaton and use matrix-power counting.", "3. For shortest-non-member questions, check strings in increasing length order starting from ε."],
+    "formulasUsed": [],
+    "pyqExamples": ["6.18.8","6.18.14","6.18.16","6.18.23","6.18.24"],
+    "variationsObserved": ["Comparing TWO regex-defined languages, counting strings in neither (set-difference-style counting) — enumerate all strings up to the length bound, classify each against both regexes."],
+    "commonTraps": ["Missing the empty string as a candidate when searching for 'shortest string not in language' — always check ε first."],
+    "edgeCases": ["Empty string membership — always verify explicitly whether ε matches the given regex."],
+    "difficultyRangeSourceTagged": "normal to difficult",
+    "aiPracticePossible": true
+  }
+]

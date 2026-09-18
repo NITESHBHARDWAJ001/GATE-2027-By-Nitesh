@@ -1,0 +1,59 @@
+[
+ {
+  "patternId": "UNI_GEOMETRIC_01",
+  "name": "Geometric Probability / Expected Length",
+  "recognitionClueHinglish": "Meeting, stick, points in rectangle.",
+  "whatShouldComeToMind": [
+   "Area ratio."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Region.",
+   "2. Ratio."
+  ],
+  "formulasUsed": [
+   "mean",
+   "var"
+  ],
+  "pyqExamples": [
+   "7.19.1",
+   "7.19.3",
+   "7.19.5",
+   "7.19.6",
+   "7.19.9",
+   "7.19.10",
+   "7.19.11"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [
+   "Region setup."
+  ],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ },
+ {
+  "patternId": "UNI_DISCRETE_SYMMETRY_02",
+  "name": "Uniform on Finite Sets / Permutations",
+  "recognitionClueHinglish": "Random strings, permutations, vectors.",
+  "whatShouldComeToMind": [
+   "Symmetry / counting."
+  ],
+  "conceptsRequired": [],
+  "generalSolvingApproach": [
+   "1. Count."
+  ],
+  "formulasUsed": [],
+  "pyqExamples": [
+   "7.19.2",
+   "7.19.4",
+   "7.19.7",
+   "7.19.8"
+  ],
+  "variationsObserved": [],
+  "commonTraps": [],
+  "edgeCases": [],
+  "difficultyRangeSourceTagged": "normal",
+  "aiPracticePossible": true
+ }
+]
