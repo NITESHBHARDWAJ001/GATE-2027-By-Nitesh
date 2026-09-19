@@ -1,5 +1,5 @@
 # MAC Layer: ALOHA, CSMA/CD, Ethernet, Bridges/Switches, Wireless
-<!-- topics: computer-networks/csma-cd, computer-networks/ethernet, computer-networks/pure-aloha, computer-networks/slotted-aloha, computer-networks/mac-protocol, computer-networks/lan-technologies, computer-networks/bridges -->
+<!-- topics: computer-networks/csma-cd, computer-networks/ethernet, computer-networks/pure-aloha, computer-networks/slotted-aloha, computer-networks/mac-protocol, computer-networks/lan-technologies, computer-networks/bridges, computer-networks/probability -->
 
 ## 1. Multiple Access (shared medium)
 
@@ -100,6 +100,12 @@ Collision detect wireless me mushkil (hidden terminal) ⇒ **Collision Avoidance
 5. **Collision/broadcast domain count** (hubs, switches, routers).
 
 **Domain count example:** 1 router, 2 switches, 5 hubs...: **broadcast domains = router ke ports ki sankhya**; **collision domains = switch/router ports + hub-groups**.
+
+## Extra: Probability in networks
+- **Slotted ALOHA / CSMA:** n stations, har ek probability p se transmit: **P(exactly one transmits) = n·p·(1−p)ⁿ⁻¹** (success). Max at p = 1/n ⇒ ≈ 1/e ≈ 0.368.
+- **Packet loss p:** expected sends until success = **1/(1−p)**; geometric distribution.
+- **Independent link failures:** path up = product of (1 − pᵢ); parallel paths = 1 − Π pᵢ.
+
 
 ## 10. Quick Revision
 - Pure ALOHA max 18.4% (vulnerable 2Tₜ); slotted 36.8% (Tₜ).

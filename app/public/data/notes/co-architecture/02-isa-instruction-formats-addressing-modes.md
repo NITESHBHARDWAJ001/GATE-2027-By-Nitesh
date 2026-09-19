@@ -1,5 +1,5 @@
 # ISA, Instruction Formats aur Addressing Modes
-<!-- topics: co-architecture/addressing-modes, co-architecture/instruction-format, co-architecture/machine-instruction, co-architecture/instruction-set-architecture, co-architecture/cisc-risc-architecture -->
+<!-- topics: co-architecture/addressing-modes, co-architecture/instruction-format, co-architecture/machine-instruction, co-architecture/instruction-set-architecture, co-architecture/cisc-risc-architecture, co-architecture/runtime-environment -->
 
 ## 1. ISA (Instruction Set Architecture)
 
@@ -91,6 +91,12 @@ Operand **kahan hai** aur **effective address (EA)** kaise banta hai.
 - **Flags:** Z, C, S, O (overflow), P. **Conditional branch** flags check karti hai (flags conditional jump se **change nahi** hote).
 - **Stack**: **SP** register; PUSH: SP−−, M[SP] ← x (stack neeche badhta, typical). **CALL** return address stack par push, **RET** pop.
 - **Register windows** (SPARC): overlapping windows → procedure call me memory accesses kam.
+
+## Extra: Stack Pointer aur Register Windows
+- **Stack pointer (SP)** stack ka current top address rakhta; call par return address/locals push, return par pop. Stack **downward grow** (high → low address) commonly.
+- **Register windows (SPARC/RISC):** har procedure call par **naya register window** (overlapping in/out registers) ⇒ parameters registers me pass, **memory accesses kam**, call/return fast. Deep recursion par windows khatam ⇒ **overflow trap** (memory me spill).
+- **Fayda:** procedure call overhead kam; **nuksan:** bade register file, context switch costly.
+
 
 ## 6. Quick Revision
 - Register bits = log₂ #regs. Instruction bits = opcode + operands.

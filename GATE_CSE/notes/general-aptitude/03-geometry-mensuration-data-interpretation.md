@@ -1,5 +1,5 @@
 # Quant III: Geometry, Mensuration, Coordinates aur Data Interpretation
-<!-- topics: general-aptitude-quantitative-aptitude/geometry, general-aptitude-quantitative-aptitude/triangles, general-aptitude-quantitative-aptitude/circle, general-aptitude-quantitative-aptitude/area, general-aptitude-quantitative-aptitude/mensuration, general-aptitude-quantitative-aptitude/volume, general-aptitude-quantitative-aptitude/cubes, general-aptitude-quantitative-aptitude/cartesian-coordinates, general-aptitude-quantitative-aptitude/data-interpretation, general-aptitude-quantitative-aptitude/bar-graph, general-aptitude-quantitative-aptitude/line-graph, general-aptitude-quantitative-aptitude/pie-chart, general-aptitude-quantitative-aptitude/tables, general-aptitude-quantitative-aptitude/tabular-data, general-aptitude-quantitative-aptitude/statistics, general-aptitude-quantitative-aptitude/maps, general-aptitude-quantitative-aptitude/contour-plots -->
+<!-- topics: general-aptitude-quantitative-aptitude/geometry, general-aptitude-quantitative-aptitude/triangles, general-aptitude-quantitative-aptitude/circle, general-aptitude-quantitative-aptitude/area, general-aptitude-quantitative-aptitude/mensuration, general-aptitude-quantitative-aptitude/volume, general-aptitude-quantitative-aptitude/cubes, general-aptitude-quantitative-aptitude/cartesian-coordinates, general-aptitude-quantitative-aptitude/data-interpretation, general-aptitude-quantitative-aptitude/bar-graph, general-aptitude-quantitative-aptitude/line-graph, general-aptitude-quantitative-aptitude/pie-chart, general-aptitude-quantitative-aptitude/tables, general-aptitude-quantitative-aptitude/tabular-data, general-aptitude-quantitative-aptitude/statistics, general-aptitude-quantitative-aptitude/maps, general-aptitude-quantitative-aptitude/contour-plots, general-aptitude-quantitative-aptitude/digital-image-processing, general-aptitude-quantitative-aptitude/graph-coloring, general-aptitude-quantitative-aptitude/number-representation, general-aptitude-quantitative-aptitude/shortest-path -->
 
 ## 1. Basic Geometry
 
@@ -103,6 +103,13 @@ GATE DI: **table, bar graph, line graph, pie chart, mixed** — calculations app
 4. **Coordinates, distance, line.**
 5. **Bar/pie/table based percent and ratio** (2 marks).
 6. **Mean/median.**
+
+## Extra: Misc quant (image, graph, number-representation, shortest path)
+- **Digital image:** image = pixel grid; **size = rows × cols × bits/pixel**. 100×100, 8-bit ⇒ 10,000 bytes. **Grayscale 8-bit: 256 levels.** RGB 24-bit.
+- **Graph colouring (aptitude level):** adjacent regions alag colour; **map 4-colour theorem**; **triangle (K₃) needs 3**, bipartite/even cycle 2, odd cycle 3, Kₙ needs n.
+- **Number representation:** binary 101 = 5; base-b conversion: repeated division; **hex 2A = 42**; place value.
+- **Shortest path (grid/graph):** lattice path right/up from (0,0) to (m,n): **C(m+n, m)**; weighted graph: chhote paths compare karo (Dijkstra idea); BFS for equal weights.
+
 
 ## 9. Quick Revision
 - Circle πr², 2πr; sector θ/360; triangle ½bh; equilateral √3a²/4.

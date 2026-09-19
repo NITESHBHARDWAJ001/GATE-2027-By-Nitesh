@@ -1,5 +1,5 @@
 # Pushdown Automata, DCFL, CFL Closure aur Pumping Lemma
-<!-- topics: theory-of-computation/pushdown-automata, theory-of-computation/dpda, theory-of-computation/context-free-language, theory-of-computation/closure-property -->
+<!-- topics: theory-of-computation/pushdown-automata, theory-of-computation/dpda, theory-of-computation/context-free-language, theory-of-computation/closure-property, theory-of-computation/medium -->
 
 ## 1. PDA (Pushdown Automaton)
 
@@ -116,6 +116,11 @@ L CFL ⇒ ∃ p s.t. har z ∈ L, |z| ≥ p ko **z = uvwxy**:
 | Balanced parentheses | DCFL |
 | {w : n_a = n_b} | DCFL |
 | Palindromes over {a,b} | CFL not DCFL |
+
+## Extra: Counting symbols in strings
+- **{w : n_a(w) = n_b(w)}** regular **nahi** (unbounded counting) par **CFL** hai (stack me count). **n_a(w) mod k = r** type conditions **regular** (k states).
+- **n_a = n_b = n_c** CFL nahi (CSL). **n_a(w) ≥ n_b(w) prefixwise** ⇒ Dyck-like CFL.
+- **Example:** {w ∈ {a,b}* : n_a(w) mod 3 = 1} ⇒ 3-state DFA.
 
 ## 9. Quick Revision
 - PDA = FA + stack; DPDA ≠ NPDA; DCFL ⊊ CFL.

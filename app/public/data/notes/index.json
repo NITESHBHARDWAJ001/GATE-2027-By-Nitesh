@@ -154,6 +154,40 @@
      "programming-and-ds-data-structures/binary-search-tree"
     ],
     "minutes": 4
+   },
+   {
+    "id": "11-c-extras-scope-structs-strings-and-ds-views",
+    "file": "11-c-extras-scope-structs-strings-and-ds-views.md",
+    "title": "C Extras: Structures, Unions, Strings, Scope, Switch, goto aur Leftover DS/Algo Views",
+    "topics": [
+     "programming-programming-in-c/structure",
+     "programming-programming-in-c/union",
+     "programming-programming-in-c/strings",
+     "programming-programming-in-c/functions",
+     "programming-programming-in-c/switch-case",
+     "programming-programming-in-c/goto",
+     "programming-programming-in-c/aliasing",
+     "programming-programming-in-c/variable-binding",
+     "programming-programming-in-c/type-checking",
+     "programming-programming-in-c/programming-paradigms",
+     "programming-programming-in-c/programming-constructs",
+     "programming-programming-in-c/runtime-environment",
+     "programming-and-ds-programming/output",
+     "algorithms/recursion",
+     "algorithms/binary-heap",
+     "algorithms/binary-search-tree",
+     "algorithms/binary-tree",
+     "algorithms/tree-traversal",
+     "algorithms/directed-acyclic-graph",
+     "algorithms/number-of-swap",
+     "algorithms/uniform-hashing",
+     "programming-and-ds-data-structures/uniform-hashing",
+     "programming-and-ds-data-structures/abstract-data-type",
+     "programming-and-ds-data-structures/data-structures",
+     "programming-and-ds-data-structures/time-complexity",
+     "co-architecture/runtime-environment"
+    ],
+    "minutes": 10
    }
   ]
  },
@@ -188,7 +222,8 @@
      "operating-system/context-switch",
      "operating-system/threads",
      "operating-system/fork-system-call",
-     "operating-system/input-output"
+     "operating-system/input-output",
+     "operating-system/inter-process-communication"
     ],
     "minutes": 6
    },
@@ -436,9 +471,10 @@
      "co-architecture/instruction-format",
      "co-architecture/machine-instruction",
      "co-architecture/instruction-set-architecture",
-     "co-architecture/cisc-risc-architecture"
+     "co-architecture/cisc-risc-architecture",
+     "co-architecture/runtime-environment"
     ],
-    "minutes": 5
+    "minutes": 6
    },
    {
     "id": "03-cpu-datapath-control-performance",
@@ -575,7 +611,8 @@
      "theory-of-computation/pushdown-automata",
      "theory-of-computation/dpda",
      "theory-of-computation/context-free-language",
-     "theory-of-computation/closure-property"
+     "theory-of-computation/closure-property",
+     "theory-of-computation/medium"
     ],
     "minutes": 6
    },
@@ -770,7 +807,8 @@
      "computer-networks/slotted-aloha",
      "computer-networks/mac-protocol",
      "computer-networks/lan-technologies",
-     "computer-networks/bridges"
+     "computer-networks/bridges",
+     "computer-networks/probability"
     ],
     "minutes": 6
    },
@@ -796,7 +834,8 @@
      "computer-networks/distance-vector-routing",
      "computer-networks/arp",
      "computer-networks/routing-protocols",
-     "computer-networks/network-protocols"
+     "computer-networks/network-protocols",
+     "computer-networks/icmp"
     ],
     "minutes": 6
    },
@@ -1134,7 +1173,9 @@
      "engineering-mathematics-probability/independent-events",
      "engineering-mathematics-probability/bayes-theorem",
      "engineering-mathematics-probability/bayesian-network",
-     "general-aptitude-quantitative-aptitude/probability"
+     "general-aptitude-quantitative-aptitude/probability",
+     "engineering-mathematics-probability/square-invariant",
+     "general-aptitude-quantitative-aptitude/bayes-theorem"
     ],
     "minutes": 6
    },
@@ -1278,9 +1319,13 @@
      "general-aptitude-quantitative-aptitude/tabular-data",
      "general-aptitude-quantitative-aptitude/statistics",
      "general-aptitude-quantitative-aptitude/maps",
-     "general-aptitude-quantitative-aptitude/contour-plots"
+     "general-aptitude-quantitative-aptitude/contour-plots",
+     "general-aptitude-quantitative-aptitude/digital-image-processing",
+     "general-aptitude-quantitative-aptitude/graph-coloring",
+     "general-aptitude-quantitative-aptitude/number-representation",
+     "general-aptitude-quantitative-aptitude/shortest-path"
     ],
-    "minutes": 6
+    "minutes": 7
    },
    {
     "id": "04-verbal-ability-grammar-vocabulary",

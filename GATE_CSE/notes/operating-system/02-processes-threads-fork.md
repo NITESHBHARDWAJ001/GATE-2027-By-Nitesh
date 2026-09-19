@@ -1,5 +1,5 @@
 # Processes, Threads, Context Switch aur fork()
-<!-- topics: operating-system/process, operating-system/context-switch, operating-system/threads, operating-system/fork-system-call, operating-system/input-output -->
+<!-- topics: operating-system/process, operating-system/context-switch, operating-system/threads, operating-system/fork-system-call, operating-system/input-output, operating-system/inter-process-communication -->
 
 ## 1. Process kya hai?
 
@@ -132,3 +132,11 @@ Total 3 processes.
 1. `fork(); fork(); printf("A");` kitni "A"? *(4)*
 2. `int a=5; if(fork()==0){a+=5; printf("%d",a);} else {wait(NULL); printf("%d",a);}` Output? *(10 phir 5)*
 3. Kya ULT multiprocessor par parallel chal sakte hain? *(Nahi.)*
+
+## Extra: IPC aur I/O Redirection
+- **IPC (Inter-Process Communication):** processes ke beech data share/sync — **pipes** (unidirectional, parent-child), **named pipes (FIFO)**, **message queues**, **shared memory** (sabse fast, sync khud karni), **sockets** (network), **signals**, **semaphores**.
+- **Shared memory vs message passing:** shared memory me kernel sirf setup karta (fast, race conditions); message passing me har send/receive kernel se (slow, safe).
+- **Pipe:** `pipe(fd)`; `fd[0]` read end, `fd[1]` write end; fork ke baad dono processes ke paas dono ends.
+- **I/O redirection:** shell `cmd > file` stdout ko file se jodta (fd 1), `< file` stdin (fd 0), `>>` append, `|` pipe (ek ka stdout dusre ka stdin). Internally `dup2()` se fd replace.
+- **Example:** `ls | wc -l` ⇒ ls ka output wc ka input; `2>&1` stderr ko stdout me.
+

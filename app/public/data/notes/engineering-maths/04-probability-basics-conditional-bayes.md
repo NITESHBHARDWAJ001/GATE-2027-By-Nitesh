@@ -1,5 +1,5 @@
 # Probability I: Basics, Conditional Probability, Independence aur Bayes
-<!-- topics: engineering-mathematics-probability/probability, engineering-mathematics-probability/conditional-probability, engineering-mathematics-probability/independent-events, engineering-mathematics-probability/bayes-theorem, engineering-mathematics-probability/bayesian-network, general-aptitude-quantitative-aptitude/probability -->
+<!-- topics: engineering-mathematics-probability/probability, engineering-mathematics-probability/conditional-probability, engineering-mathematics-probability/independent-events, engineering-mathematics-probability/bayes-theorem, engineering-mathematics-probability/bayesian-network, general-aptitude-quantitative-aptitude/probability, engineering-mathematics-probability/square-invariant, general-aptitude-quantitative-aptitude/bayes-theorem -->
 
 ## 1. Basic definitions
 
@@ -100,6 +100,12 @@ P(+) = 0.99×0.01 + 0.05×0.99 = 0.0099 + 0.0495 = 0.0594.
 4. **Independence/exclusive statements.**
 5. **Union/intersection bounds.**
 6. **Sequential with tie/geometric.**
+
+## Extra: Definition-based counting (square-invariant type)
+Jab "polynomial/function ki property" di ho (jaise p(x) = p(x²)-type), **pehle condition ko equations me translate karo**, phir unknown coefficients/choices gino.
+**Example:** p(x) = a + bx + cx², p(x) = p(−x) ⇒ b = 0 (even function): free choices sirf a, c. Count = (choices of a) × (choices of c).
+**Tip:** constraint se free variables kam karo, phir multiplication principle.
+
 
 ## 9. Quick Revision
 - P(A∪B) = P(A)+P(B)−P(A∩B); complement 1−P.
