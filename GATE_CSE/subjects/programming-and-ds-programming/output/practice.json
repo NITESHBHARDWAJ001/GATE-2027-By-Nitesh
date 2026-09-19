@@ -7,7 +7,7 @@
    "patternId": "P3_OUTPUT_01",
    "difficulty": "basic",
    "sourceType": "AI_GENERATED_PRACTICE",
-   "question": "char *a=\"abc\"; while(*b)b++; b-a?",
+   "question": "char *a=\"abc\"; char *b=a; while(*b) b++; What is b-a?",
    "solutionApproach": "Length.",
    "answer": "3"
   }

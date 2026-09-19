@@ -7,9 +7,9 @@
    "patternId": "P3_CODE_WORDS_01",
    "difficulty": "basic",
    "sourceType": "AI_GENERATED_PRACTICE",
-   "question": "careless=fertaga, careful=otaga: 'ful' ka code?",
-   "solutionApproach": "Common part 'taga'.",
-   "answer": "'ota' varies; pattern match"
+   "question": "careless=fertaga, careful=otaga. What is the code for 'care', and for 'less'?",
+   "solutionApproach": "Common word 'care' shares common code 'taga'; remaining parts: less=fer, ful=o.",
+   "answer": "care = taga, less = fer (and ful = o)"
   }
  ]
 }

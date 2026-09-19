@@ -1,0 +1,1 @@
+{ "title": "Compiler Design (CD)", "emoji": "🛠️", "order": 6, "description": "Phases, lexical analysis, FIRST/FOLLOW, LL(1), LR parsers, SDT, intermediate code, runtime environment, optimization with solved parsing tables.", "topicSubjectIds": ["compiler-design"] }

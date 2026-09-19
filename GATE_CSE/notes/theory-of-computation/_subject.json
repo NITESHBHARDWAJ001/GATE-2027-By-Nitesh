@@ -1,0 +1,1 @@
+{ "title": "Theory of Computation (TOC)", "emoji": "🔁", "order": 5, "description": "DFA/NFA, regular languages, CFG/PDA, Turing machines, decidability, closure properties and pumping lemmas with solved examples.", "topicSubjectIds": ["theory-of-computation"] }

@@ -1,42 +1,42 @@
 {
-  "topicId": "toc-regular-expression",
-  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
-  "questions": [
-    {
-      "practiceId": "AI-RE-01",
-      "patternId": "RE_TRANSLATION_01",
-      "difficulty": "basic",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "Write a regex for binary strings that start with '1' and end with '0'.",
-      "solutionApproach": "Start with 1, anything in between, end with 0: 1(0|1)*0. Must also handle the exact-length-2 case '10' — covered since (0|1)* allows zero repetitions.",
-      "answer": "1(0|1)*0"
-    },
-    {
-      "practiceId": "AI-RE-02",
-      "patternId": "RE_EQUIVALENCE_03",
-      "difficulty": "moderate",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "Are (a*b*)* and (a|b)* equivalent?",
-      "solutionApproach": "Yes — both generate ALL strings over {a,b}. (a*b*)* can produce any interleaving because you can take zero a's/b's in various 'rounds' to interleave arbitrarily. Test: 'aba' — (a|b)* clearly matches. (a*b*)*: round1='a'(a*b* with a*=a,b*=ε), round2='b'(a*=ε,b*=b), round3='a'(a*=a,b*=ε) → 'aba' matches too.",
-      "answer": "Yes, equivalent — both equal Σ* for Σ={a,b}."
-    },
-    {
-      "practiceId": "AI-RE-03",
-      "patternId": "RE_MEMBERSHIP_COUNTING_04",
-      "difficulty": "gate-level",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "What is the shortest binary string NOT matched by the regex (0|1)*11(0|1)*  (contains '11')?",
-      "solutionApproach": "Check ε (no '11', doesn't match — but is it 'not in language'? Yes, ε has no '11' substring). Check length 0: ε qualifies as shortest NOT-matching string.",
-      "answer": "ε (empty string) — shortest string not containing '11'."
-    },
-    {
-      "practiceId": "AI-RE-04",
-      "patternId": "RE_FA_CONVERSION_02",
-      "difficulty": "tough",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "A DFA has 2 states: q0(start,accept) and q1. On 'a': q0→q1, q1→q0. On 'b': both self-loop. Find the equivalent regex.",
-      "solutionApproach": "This tracks parity of 'a' count (accept = even). Regex for even number of a's, with any number of b's anywhere: b*(ab*ab*)*.",
-      "answer": "b*(ab*ab*)*"
-    }
-  ]
+ "topicId": "toc-regular-expression",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-RE-01",
+   "patternId": "RE_TRANSLATION_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Write a regex for binary strings that start with '1' and end with '0'.",
+   "solutionApproach": "Start with 1, anything in between, end with 0: 1(0|1)*0. Must also handle the exact-length-2 case '10' — covered since (0|1)* allows zero repetitions.",
+   "answer": "1(0|1)*0"
+  },
+  {
+   "practiceId": "AI-RE-02",
+   "patternId": "RE_EQUIVALENCE_03",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Are (a*b*)* and (a|b)* equivalent?",
+   "solutionApproach": "Yes — both generate ALL strings over {a,b}. (a*b*)* can produce any interleaving because you can take zero a's/b's in various 'rounds' to interleave arbitrarily. Test: 'aba' — (a|b)* clearly matches. (a*b*)*: round1='a'(a*b* with a*=a,b*=ε), round2='b'(a*=ε,b*=b), round3='a'(a*=a,b*=ε) → 'aba' matches too.",
+   "answer": "Yes, equivalent — both equal Σ* for Σ={a,b}."
+  },
+  {
+   "practiceId": "AI-RE-03",
+   "patternId": "RE_MEMBERSHIP_COUNTING_04",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "What is the shortest binary string NOT matched by the regex (0|1)*11(0|1)*  (contains '11')?",
+   "solutionApproach": "The language is strings containing '11'. The empty string has no '11', so it is not matched; length 0 is the minimum possible, so the answer is ε.",
+   "answer": "ε (empty string) — shortest string not containing '11'."
+  },
+  {
+   "practiceId": "AI-RE-04",
+   "patternId": "RE_FA_CONVERSION_02",
+   "difficulty": "tough",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A DFA has 2 states: q0(start,accept) and q1. On 'a': q0→q1, q1→q0. On 'b': both self-loop. Find the equivalent regex.",
+   "solutionApproach": "This tracks parity of 'a' count (accept = even). Regex for even number of a's, with any number of b's anywhere: b*(ab*ab*)*.",
+   "answer": "b*(ab*ab*)*"
+  }
+ ]
 }

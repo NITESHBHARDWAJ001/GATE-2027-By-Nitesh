@@ -8,7 +8,7 @@
    "difficulty": "basic",
    "sourceType": "AI_GENERATED_PRACTICE",
    "question": "3 frames, reference string 1,2,3,4,1,2,5,1,2,3,4,5. FIFO page faults?",
-   "solutionApproach": "Faults on first eight references except hits at the 8th and 9th (1,2 still in memory) and the last 5: 12 references - 3 hits = 9 faults. Classic Belady example.",
+   "solutionApproach": "FIFO, 3 frames: refs 1,2,3,4,1,2,5 all fault (7 faults); next 1 and 2 hit; 3 and 4 fault (9 faults); last 5 hits. Total 9 faults, 3 hits. Classic Belady example.",
    "answer": "9"
   },
   {

@@ -1,42 +1,42 @@
 {
-  "topicId": "ds-stack",
-  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
-  "questions": [
-    {
-      "practiceId": "AI-STK-01",
-      "patternId": "STACK_EXPR_CONVERT_01",
-      "difficulty": "basic",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "Convert infix A+B*C to postfix.",
-      "solutionApproach": "* has higher precedence than +. B*C first: BC*. Then A+: A BC* +.",
-      "answer": "ABC*+"
-    },
-    {
-      "practiceId": "AI-STK-02",
-      "patternId": "STACK_EXPR_CONVERT_01",
-      "difficulty": "moderate",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "Evaluate postfix expression: 6 3 2 * -",
-      "solutionApproach": "Push 6, push 3, push 2. See *: pop 2,3 → 3*2=6, push 6. Stack: 6,6. See -: pop 6,6 → 6-6=0 (second-popped minus first-popped: 6-6). Wait — pop order: last pushed popped first. Stack after * is [6(orig),6(result)]. Pop top=6(result), pop next=6(orig): compute second_popped - first_popped = 6-6=0.",
-      "answer": "0"
-    },
-    {
-      "practiceId": "AI-STK-03",
-      "patternId": "STACK_VALID_PERMUTATION_03",
-      "difficulty": "gate-level",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "Input pushed in order 1,2,3,4. Is the output sequence 3,4,2,1 achievable via stack push/pop?",
-      "solutionApproach": "Simulate: push1,push2,push3,pop(3)✓,push4,pop(4)✓,pop(2)✓,pop(1)✓. Sequence 3,4,2,1 achieved successfully.",
-      "answer": "Yes, achievable: push 1,2,3; pop→3; push 4; pop→4; pop→2; pop→1."
-    },
-    {
-      "practiceId": "AI-STK-04",
-      "patternId": "STACK_APPLICATION_CONCEPT_04",
-      "difficulty": "tough",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "How would you design a stack that supports PUSH, POP, and GETMIN, all in O(1) time?",
-      "solutionApproach": "Maintain a second auxiliary stack that tracks the minimum seen so far at each level. On PUSH(x): push x onto main stack; push min(x, auxTop) onto aux stack. On POP: pop both stacks together. GETMIN: just peek aux stack's top.",
-      "answer": "Use a parallel auxiliary 'min-tracking' stack, pushed/popped in sync with the main stack — GETMIN = peek aux stack top, O(1)."
-    }
-  ]
+ "topicId": "ds-stack",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-STK-01",
+   "patternId": "STACK_EXPR_CONVERT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Convert infix A+B*C to postfix.",
+   "solutionApproach": "* has higher precedence than +. B*C first: BC*. Then A+: A BC* +.",
+   "answer": "ABC*+"
+  },
+  {
+   "practiceId": "AI-STK-02",
+   "patternId": "STACK_EXPR_CONVERT_01",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Evaluate postfix expression: 6 3 2 * -",
+   "solutionApproach": "Push 6,3,2. '*' pops 2 and 3, pushes 3*2=6. Stack: 6,6. '-' pops b=6 (top), a=6, pushes a-b = 0. Result 0 (that is 6 - (3*2)).",
+   "answer": "0"
+  },
+  {
+   "practiceId": "AI-STK-03",
+   "patternId": "STACK_VALID_PERMUTATION_03",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Input pushed in order 1,2,3,4. Is the output sequence 3,4,2,1 achievable via stack push/pop?",
+   "solutionApproach": "Simulate: push1,push2,push3,pop(3)✓,push4,pop(4)✓,pop(2)✓,pop(1)✓. Sequence 3,4,2,1 achieved successfully.",
+   "answer": "Yes, achievable: push 1,2,3; pop→3; push 4; pop→4; pop→2; pop→1."
+  },
+  {
+   "practiceId": "AI-STK-04",
+   "patternId": "STACK_APPLICATION_CONCEPT_04",
+   "difficulty": "tough",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "How would you design a stack that supports PUSH, POP, and GETMIN, all in O(1) time?",
+   "solutionApproach": "Maintain a second auxiliary stack that tracks the minimum seen so far at each level. On PUSH(x): push x onto main stack; push min(x, auxTop) onto aux stack. On POP: pop both stacks together. GETMIN: just peek aux stack's top.",
+   "answer": "Use a parallel auxiliary 'min-tracking' stack, pushed/popped in sync with the main stack — GETMIN = peek aux stack top, O(1)."
+  }
+ ]
 }

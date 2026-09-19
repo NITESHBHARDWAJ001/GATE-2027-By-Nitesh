@@ -1,0 +1,1 @@
+{ "title": "Digital Logic (DL)", "emoji": "🔌", "order": 8, "description": "Boolean algebra, K-map, combinational circuits (adders, MUX, decoders), flip-flops, counters, FSM design and timing with solved examples.", "topicSubjectIds": ["digital-logic"] }

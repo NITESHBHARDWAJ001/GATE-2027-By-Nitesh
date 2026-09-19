@@ -1,42 +1,42 @@
 {
-  "topicId": "algorithms-time-complexity",
-  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
-  "questions": [
-    {
-      "practiceId": "AI-TC-01",
-      "patternId": "TC_LOOP_DERIVE_01",
-      "difficulty": "basic",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "for(i=1;i<=n;i++) for(j=1;j<=i;j++) printf(\"*\");  How many stars are printed in total?",
-      "solutionApproach": "Triangular loop: Σ(i=1 to n) i = n(n+1)/2 = Θ(n²).",
-      "answer": "n(n+1)/2, i.e., Θ(n²)"
-    },
-    {
-      "practiceId": "AI-TC-02",
-      "patternId": "TC_COMPARISON_BOUND_02",
-      "difficulty": "gate-level",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "What is the minimum number of comparisons needed to find both the maximum AND minimum of an unsorted array of 10 elements?",
-      "solutionApproach": "Using paired comparison: ⌈3n/2⌉-2 = ⌈15⌉-2 = 15-2 = 13.",
-      "answer": "13 comparisons"
-    },
-    {
-      "practiceId": "AI-TC-03",
-      "patternId": "TC_NUMERIC_ALGO_04",
-      "difficulty": "moderate",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "Using exponentiation by squaring, how many multiplications are needed (at most) to compute x^13?",
-      "solutionApproach": "13 in binary = 1101 (4 bits). Method needs about (number of bits - 1) squarings + (number of 1-bits - 1) extra multiplications ≈ 3 squarings + 2 extra multiplies = 5, definitely O(log n) not O(n)=13.",
-      "answer": "O(log n) ≈ 5-6 multiplications, far fewer than the naive 12."
-    },
-    {
-      "practiceId": "AI-TC-04",
-      "patternId": "TC_RECURSIVE_COMPLEXITY_03",
-      "difficulty": "tough",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "int f(int n) { if(n<=1) return n; return f(n-1)+f(n-1); }  What is the time complexity, and how would you make it polynomial?",
-      "solutionApproach": "T(n)=2T(n-1)+O(1) → Θ(2ⁿ), exponential (doubling recursion shape). Fix: memoize results (store f(k) in an array as computed) → reduces to O(n) since each unique subproblem is solved only once.",
-      "answer": "Θ(2ⁿ) as written; O(n) with memoization."
-    }
-  ]
+ "topicId": "algorithms-time-complexity",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-TC-01",
+   "patternId": "TC_LOOP_DERIVE_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "for(i=1;i<=n;i++) for(j=1;j<=i;j++) printf(\"*\");  How many stars are printed in total?",
+   "solutionApproach": "Triangular loop: Σ(i=1 to n) i = n(n+1)/2 = Θ(n²).",
+   "answer": "n(n+1)/2, i.e., Θ(n²)"
+  },
+  {
+   "practiceId": "AI-TC-02",
+   "patternId": "TC_COMPARISON_BOUND_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "What is the minimum number of comparisons needed to find both the maximum AND minimum of an unsorted array of 10 elements?",
+   "solutionApproach": "Using paired comparison: ⌈3n/2⌉-2 = ⌈15⌉-2 = 15-2 = 13.",
+   "answer": "13 comparisons"
+  },
+  {
+   "practiceId": "AI-TC-03",
+   "patternId": "TC_NUMERIC_ALGO_04",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Using exponentiation by squaring, how many multiplications are needed (at most) to compute x^13?",
+   "solutionApproach": "13 = 1101 in binary. Squarings: x^2, x^4, x^8 (3). Multiplies: x * x^4 * x^8 (2). Total 5.",
+   "answer": "5 multiplications (O(log n)), far fewer than the naive 12."
+  },
+  {
+   "practiceId": "AI-TC-04",
+   "patternId": "TC_RECURSIVE_COMPLEXITY_03",
+   "difficulty": "tough",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "int f(int n) { if(n<=1) return n; return f(n-1)+f(n-1); }  What is the time complexity, and how would you make it polynomial?",
+   "solutionApproach": "T(n)=2T(n-1)+O(1) → Θ(2ⁿ), exponential (doubling recursion shape). Fix: memoize results (store f(k) in an array as computed) → reduces to O(n) since each unique subproblem is solved only once.",
+   "answer": "Θ(2ⁿ) as written; O(n) with memoization."
+  }
+ ]
 }

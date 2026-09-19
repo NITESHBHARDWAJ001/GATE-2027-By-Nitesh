@@ -8,8 +8,8 @@
    "difficulty": "basic",
    "sourceType": "AI_GENERATED_PRACTICE",
    "question": "Data 0111111 stuffed?",
-   "solutionApproach": "Five 1s ke baad 0.",
-   "answer": "011111011"
+   "solutionApproach": "Data 0 1 1 1 1 1 1. After five consecutive 1s insert a 0: 0 11111 [0] 1 = 01111101.",
+   "answer": "01111101"
   }
  ]
 }

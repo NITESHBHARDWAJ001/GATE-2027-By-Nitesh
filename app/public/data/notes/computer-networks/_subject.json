@@ -1,0 +1,1 @@
+{ "title": "Computer Networks (CN)", "emoji": "🌐", "order": 7, "description": "Layers, data link (framing, CRC, sliding window), MAC/Ethernet, IP addressing/subnetting, routing, TCP/UDP, congestion, application protocols with solved numericals.", "topicSubjectIds": ["computer-networks"] }

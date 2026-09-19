@@ -519,5 +519,848 @@
     "minutes": 4
    }
   ]
+ },
+ {
+  "key": "theory-of-computation",
+  "order": 5,
+  "title": "Theory of Computation (TOC)",
+  "emoji": "🔁",
+  "description": "DFA/NFA, regular languages, CFG/PDA, Turing machines, decidability, closure properties and pumping lemmas with solved examples.",
+  "topicSubjectIds": [
+   "theory-of-computation"
+  ],
+  "chapters": [
+   {
+    "id": "01-dfa-nfa-basics",
+    "file": "01-dfa-nfa-basics.md",
+    "title": "Finite Automata: DFA, NFA, ε-NFA, Conversion aur Minimization",
+    "topics": [
+     "theory-of-computation/finite-automata",
+     "theory-of-computation/minimal-state-automata",
+     "theory-of-computation/non-determinism",
+     "theory-of-computation/number-of-states",
+     "theory-of-computation/finite-state-machines"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "02-regular-expressions-languages-pumping",
+    "file": "02-regular-expressions-languages-pumping.md",
+    "title": "Regular Expressions, Regular Languages, Closure aur Pumping Lemma",
+    "topics": [
+     "theory-of-computation/regular-language",
+     "theory-of-computation/regular-expression",
+     "theory-of-computation/regular-grammar",
+     "theory-of-computation/pumping-lemma",
+     "theory-of-computation/closure-property"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "03-context-free-grammars",
+    "file": "03-context-free-grammars.md",
+    "title": "Context-Free Grammars, Parse Trees, Ambiguity aur Normal Forms",
+    "topics": [
+     "theory-of-computation/context-free-language",
+     "theory-of-computation/context-free-grammar",
+     "theory-of-computation/identify-class-language"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "04-pda-cfl-properties",
+    "file": "04-pda-cfl-properties.md",
+    "title": "Pushdown Automata, DCFL, CFL Closure aur Pumping Lemma",
+    "topics": [
+     "theory-of-computation/pushdown-automata",
+     "theory-of-computation/dpda",
+     "theory-of-computation/context-free-language",
+     "theory-of-computation/closure-property"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "05-turing-machines-recursive-re",
+    "file": "05-turing-machines-recursive-re.md",
+    "title": "Turing Machines, Recursive aur Recursively Enumerable Languages",
+    "topics": [
+     "theory-of-computation/recursive-and-recursively-enumerable-languages",
+     "theory-of-computation/turing-machine",
+     "theory-of-computation/countable-uncountable-set",
+     "theory-of-computation/identify-class-language"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "06-decidability-reductions-rice",
+    "file": "06-decidability-reductions-rice.md",
+    "title": "Decidability, Undecidability, Reductions aur Rice's Theorem",
+    "topics": [
+     "theory-of-computation/decidability",
+     "theory-of-computation/reduction",
+     "theory-of-computation/recursive-and-recursively-enumerable-languages"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "07-toc-formula-sheet-and-traps",
+    "file": "07-toc-formula-sheet-and-traps.md",
+    "title": "TOC: Master Tables, Closure Chart, Traps aur GATE Strategy",
+    "topics": [
+     "theory-of-computation/closure-property",
+     "theory-of-computation/decidability",
+     "theory-of-computation/regular-language",
+     "theory-of-computation/context-free-language",
+     "theory-of-computation/identify-class-language"
+    ],
+    "minutes": 4
+   }
+  ]
+ },
+ {
+  "key": "compiler-design",
+  "order": 6,
+  "title": "Compiler Design (CD)",
+  "emoji": "🛠️",
+  "description": "Phases, lexical analysis, FIRST/FOLLOW, LL(1), LR parsers, SDT, intermediate code, runtime environment, optimization with solved parsing tables.",
+  "topicSubjectIds": [
+   "compiler-design"
+  ],
+  "chapters": [
+   {
+    "id": "01-compiler-phases-lexical-analysis",
+    "file": "01-compiler-phases-lexical-analysis.md",
+    "title": "Compiler Phases, Lexical Analysis aur Symbol Table",
+    "topics": [
+     "compiler-design/compilation-phases",
+     "compiler-design/lexical-analysis",
+     "compiler-design/compiler-tokenization",
+     "compiler-design/symbol-table",
+     "compiler-design/assembler",
+     "compiler-design/macros",
+     "compiler-design/linker"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "02-top-down-parsing-first-follow-ll1",
+    "file": "02-top-down-parsing-first-follow-ll1.md",
+    "title": "Top-Down Parsing: FIRST, FOLLOW aur LL(1)",
+    "topics": [
+     "compiler-design/parsing",
+     "compiler-design/first-and-follow",
+     "compiler-design/ll-parser",
+     "compiler-design/grammar",
+     "compiler-design/ambiguous-grammar"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "03-bottom-up-lr-parsers",
+    "file": "03-bottom-up-lr-parsers.md",
+    "title": "Bottom-Up Parsing: Shift-Reduce, LR(0), SLR(1), LALR(1), CLR(1)",
+    "topics": [
+     "compiler-design/lr-parser",
+     "compiler-design/parsing",
+     "compiler-design/viable-prefix",
+     "compiler-design/operator-precedence"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "04-syntax-directed-translation",
+    "file": "04-syntax-directed-translation.md",
+    "title": "Syntax Directed Translation (SDT): Attributes, SDD, Evaluation",
+    "topics": [
+     "compiler-design/syntax-directed-translation",
+     "compiler-design/abstract-syntax-tree",
+     "compiler-design/expression-evaluation"
+    ],
+    "minutes": 4
+   },
+   {
+    "id": "05-intermediate-code-runtime-environment",
+    "file": "05-intermediate-code-runtime-environment.md",
+    "title": "Intermediate Code, Runtime Environment, Scope aur Parameter Passing",
+    "topics": [
+     "compiler-design/intermediate-code",
+     "compiler-design/runtime-environment",
+     "compiler-design/variable-scope",
+     "compiler-design/backpatching",
+     "compiler-design/static-single-assignment",
+     "compiler-design/parameter-passing"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "06-code-optimization-and-generation",
+    "file": "06-code-optimization-and-generation.md",
+    "title": "Code Optimization, Data-Flow Analysis aur Code Generation",
+    "topics": [
+     "compiler-design/code-optimization",
+     "compiler-design/live-variable-analysis",
+     "compiler-design/basic-blocks",
+     "compiler-design/directed-acyclic-graph",
+     "compiler-design/register-allocation"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "07-compiler-formula-sheet-and-traps",
+    "file": "07-compiler-formula-sheet-and-traps.md",
+    "title": "Compiler Design: Master Tables, Traps aur GATE Strategy",
+    "topics": [
+     "compiler-design/parsing",
+     "compiler-design/lr-parser",
+     "compiler-design/first-and-follow",
+     "compiler-design/syntax-directed-translation",
+     "compiler-design/code-optimization"
+    ],
+    "minutes": 3
+   }
+  ]
+ },
+ {
+  "key": "computer-networks",
+  "order": 7,
+  "title": "Computer Networks (CN)",
+  "emoji": "🌐",
+  "description": "Layers, data link (framing, CRC, sliding window), MAC/Ethernet, IP addressing/subnetting, routing, TCP/UDP, congestion, application protocols with solved numericals.",
+  "topicSubjectIds": [
+   "computer-networks"
+  ],
+  "chapters": [
+   {
+    "id": "01-network-basics-layers-delays",
+    "file": "01-network-basics-layers-delays.md",
+    "title": "Networks Basics: Layers, Switching, Delays aur Bandwidth",
+    "topics": [
+     "computer-networks/network-layer",
+     "computer-networks/osi-model",
+     "computer-networks/network-switching",
+     "computer-networks/communication",
+     "computer-networks/data-communication"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "02-data-link-error-flow-control",
+    "file": "02-data-link-error-flow-control.md",
+    "title": "Data Link Layer: Framing, Error Detection, Stop-and-Wait, Sliding Window",
+    "topics": [
+     "computer-networks/bit-stuffing",
+     "computer-networks/error-detection",
+     "computer-networks/crc-polynomial",
+     "computer-networks/hamming-code",
+     "computer-networks/stop-and-wait",
+     "computer-networks/sliding-window",
+     "computer-networks/channel-utilization",
+     "computer-networks/wrap-around-time"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "03-mac-ethernet-switching",
+    "file": "03-mac-ethernet-switching.md",
+    "title": "MAC Layer: ALOHA, CSMA/CD, Ethernet, Bridges/Switches, Wireless",
+    "topics": [
+     "computer-networks/csma-cd",
+     "computer-networks/ethernet",
+     "computer-networks/pure-aloha",
+     "computer-networks/slotted-aloha",
+     "computer-networks/mac-protocol",
+     "computer-networks/lan-technologies",
+     "computer-networks/bridges"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "04-ip-addressing-subnetting-cidr",
+    "file": "04-ip-addressing-subnetting-cidr.md",
+    "title": "IP Addressing, Subnetting, VLSM, CIDR aur Forwarding",
+    "topics": [
+     "computer-networks/subnetting",
+     "computer-networks/ip-addressing",
+     "computer-networks/network-layer"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "05-ip-datagram-icmp-arp-routing",
+    "file": "05-ip-datagram-icmp-arp-routing.md",
+    "title": "IP Datagram, Fragmentation, ICMP, ARP/DHCP/NAT aur Routing Algorithms",
+    "topics": [
+     "computer-networks/ip-packet",
+     "computer-networks/fragmentation",
+     "computer-networks/routing",
+     "computer-networks/distance-vector-routing",
+     "computer-networks/arp",
+     "computer-networks/routing-protocols",
+     "computer-networks/network-protocols"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "06-transport-udp-tcp-congestion",
+    "file": "06-transport-udp-tcp-congestion.md",
+    "title": "Transport Layer: UDP, TCP, Flow aur Congestion Control, Sockets",
+    "topics": [
+     "computer-networks/tcp",
+     "computer-networks/udp",
+     "computer-networks/congestion-control",
+     "computer-networks/token-bucket",
+     "computer-networks/sockets",
+     "computer-networks/network-flow"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "07-application-layer-dns-http-email",
+    "file": "07-application-layer-dns-http-email.md",
+    "title": "Application Layer: DNS, HTTP, Email (SMTP/POP/IMAP), FTP aur Security Basics",
+    "topics": [
+     "computer-networks/application-layer-protocols",
+     "computer-networks/network-protocols"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "08-cn-formula-sheet-and-traps",
+    "file": "08-cn-formula-sheet-and-traps.md",
+    "title": "Computer Networks: Formula Sheet, Comparison Tables aur GATE Traps",
+    "topics": [
+     "computer-networks/sliding-window",
+     "computer-networks/subnetting",
+     "computer-networks/tcp",
+     "computer-networks/csma-cd",
+     "computer-networks/routing"
+    ],
+    "minutes": 4
+   }
+  ]
+ },
+ {
+  "key": "digital-logic",
+  "order": 8,
+  "title": "Digital Logic (DL)",
+  "emoji": "🔌",
+  "description": "Boolean algebra, K-map, combinational circuits (adders, MUX, decoders), flip-flops, counters, FSM design and timing with solved examples.",
+  "topicSubjectIds": [
+   "digital-logic"
+  ],
+  "chapters": [
+   {
+    "id": "01-boolean-algebra-gates-canonical-forms",
+    "file": "01-boolean-algebra-gates-canonical-forms.md",
+    "title": "Boolean Algebra, Logic Gates aur Canonical Forms",
+    "topics": [
+     "digital-logic/boolean-algebra",
+     "digital-logic/canonical-normal-form",
+     "digital-logic/functional-completeness",
+     "digital-logic/dual-function",
+     "digital-logic/reduction",
+     "digital-logic/conjunctive-normal-form",
+     "digital-logic/min-no-gates"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "02-kmap-minimization",
+    "file": "02-kmap-minimization.md",
+    "title": "K-Map aur Minimization: SOP, POS, Don't Care, Prime Implicants, Quine–McCluskey",
+    "topics": [
+     "digital-logic/k-map",
+     "digital-logic/min-sum-of-products-form",
+     "digital-logic/min-products-of-sum-form",
+     "digital-logic/prime-implicants",
+     "digital-logic/static-hazard"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "03-combinational-circuits",
+    "file": "03-combinational-circuits.md",
+    "title": "Combinational Circuits: Adders, Subtractors, MUX, Decoder, Encoder, ROM/PLA",
+    "topics": [
+     "digital-logic/adder",
+     "digital-logic/multiplexer",
+     "digital-logic/decoder",
+     "digital-logic/rom",
+     "digital-logic/combinational-circuit",
+     "digital-logic/digital-circuits",
+     "digital-logic/circuit-output",
+     "digital-logic/array-multiplier",
+     "digital-logic/carry-generator",
+     "digital-logic/memory-interfacing"
+    ],
+    "minutes": 8
+   },
+   {
+    "id": "04-latches-flip-flops",
+    "file": "04-latches-flip-flops.md",
+    "title": "Sequential Circuits: Latches aur Flip-Flops (SR, D, JK, T)",
+    "topics": [
+     "digital-logic/flip-flop",
+     "digital-logic/synchronous-asynchronous-circuits"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "05-counters-registers-fsm-timing",
+    "file": "05-counters-registers-fsm-timing.md",
+    "title": "Counters, Shift Registers, FSM Design (Moore/Mealy) aur Timing",
+    "topics": [
+     "digital-logic/digital-counter",
+     "digital-logic/shift-registers",
+     "digital-logic/ripple-counter-operation",
+     "digital-logic/finite-state-machines",
+     "digital-logic/synchronous-asynchronous-circuits",
+     "digital-logic/circuit-output"
+    ],
+    "minutes": 8
+   },
+   {
+    "id": "06-number-systems-codes",
+    "file": "06-number-systems-codes.md",
+    "title": "Number Systems, Complements, Codes aur Representation (Digital Logic view)",
+    "topics": [
+     "digital-logic/number-representation",
+     "digital-logic/number-system",
+     "digital-logic/binary-codes",
+     "digital-logic/fixed-point-representation",
+     "digital-logic/floating-point-representation",
+     "digital-logic/ieee-representation",
+     "digital-logic/little-endian-big-endian"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "07-dl-formula-sheet-and-traps",
+    "file": "07-dl-formula-sheet-and-traps.md",
+    "title": "Digital Logic: Formula Sheet, Tables aur GATE Traps",
+    "topics": [
+     "digital-logic/boolean-algebra",
+     "digital-logic/k-map",
+     "digital-logic/flip-flop",
+     "digital-logic/digital-counter",
+     "digital-logic/multiplexer"
+    ],
+    "minutes": 4
+   }
+  ]
+ },
+ {
+  "key": "discrete-maths",
+  "order": 9,
+  "title": "Discrete Mathematics (DM)",
+  "emoji": "♾️",
+  "description": "Propositional & first-order logic, sets, relations, functions, groups, graph theory, combinatorics, number theory, recurrences and induction with solved GATE-style examples.",
+  "topicSubjectIds": [
+   "discrete-mathematics-mathematical-logic",
+   "discrete-mathematics-set-theory-algebra",
+   "discrete-mathematics-graph-theory",
+   "discrete-mathematics-combinatory"
+  ],
+  "chapters": [
+   {
+    "id": "01-propositional-logic",
+    "file": "01-propositional-logic.md",
+    "title": "Propositional Logic: Connectives, Equivalences, Normal Forms, Inference",
+    "topics": [
+     "discrete-mathematics-mathematical-logic/propositional-logic",
+     "discrete-mathematics-mathematical-logic/logical-reasoning"
+    ],
+    "minutes": 8
+   },
+   {
+    "id": "02-first-order-logic",
+    "file": "02-first-order-logic.md",
+    "title": "First-Order Logic (Predicate Logic): Quantifiers, Translation, Validity",
+    "topics": [
+     "discrete-mathematics-mathematical-logic/first-order-logic",
+     "discrete-mathematics-mathematical-logic/logical-reasoning"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "03-sets-relations-posets-lattices",
+    "file": "03-sets-relations-posets-lattices.md",
+    "title": "Sets, Relations, Equivalence, Partial Orders (Posets) aur Lattices",
+    "topics": [
+     "discrete-mathematics-set-theory-algebra/set-theory",
+     "discrete-mathematics-set-theory-algebra/relations",
+     "discrete-mathematics-set-theory-algebra/partial-order",
+     "discrete-mathematics-set-theory-algebra/lattice",
+     "discrete-mathematics-set-theory-algebra/countable-uncountable-set"
+    ],
+    "minutes": 8
+   },
+   {
+    "id": "04-functions",
+    "file": "04-functions.md",
+    "title": "Functions: One-One, Onto, Bijection, Composition, Counting",
+    "topics": [
+     "discrete-mathematics-set-theory-algebra/functions",
+     "discrete-mathematics-set-theory-algebra/onto",
+     "discrete-mathematics-set-theory-algebra/identify-function"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "05-groups-algebraic-structures",
+    "file": "05-groups-algebraic-structures.md",
+    "title": "Algebraic Structures: Semigroup, Monoid, Group, Ring, Field",
+    "topics": [
+     "discrete-mathematics-set-theory-algebra/group-theory",
+     "discrete-mathematics-set-theory-algebra/binary-operation"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "06-graph-theory",
+    "file": "06-graph-theory.md",
+    "title": "Graph Theory: Basics, Degree, Connectivity, Trees, Euler/Hamilton, Planarity, Colouring, Matching",
+    "topics": [
+     "discrete-mathematics-graph-theory/graph-connectivity",
+     "discrete-mathematics-graph-theory/degree-of-graph",
+     "discrete-mathematics-graph-theory/graph-coloring",
+     "discrete-mathematics-graph-theory/graph-planarity",
+     "discrete-mathematics-graph-theory/graph-isomorphism",
+     "discrete-mathematics-graph-theory/graph-matching",
+     "discrete-mathematics-graph-theory/counting",
+     "discrete-mathematics-graph-theory/graph-algorithms",
+     "discrete-mathematics-graph-theory/jaccard-coefficient"
+    ],
+    "minutes": 9
+   },
+   {
+    "id": "07-combinatorics-counting",
+    "file": "07-combinatorics-counting.md",
+    "title": "Combinatorics: Counting Principles, Permutations, Combinations, Inclusion–Exclusion",
+    "topics": [
+     "discrete-mathematics-combinatory/combinatory",
+     "discrete-mathematics-combinatory/counting",
+     "discrete-mathematics-combinatory/balls-in-bins",
+     "discrete-mathematics-combinatory/pigeonhole-principle"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "08-recurrence-generating-functions-induction-number-theory",
+    "file": "08-recurrence-generating-functions-induction-number-theory.md",
+    "title": "Recurrences, Generating Functions, Induction, Summations aur Number Theory",
+    "topics": [
+     "discrete-mathematics-combinatory/recurrence-relation",
+     "discrete-mathematics-combinatory/generating-functions",
+     "discrete-mathematics-combinatory/summation",
+     "discrete-mathematics-combinatory/modular-arithmetic",
+     "discrete-mathematics-set-theory-algebra/mathematical-induction",
+     "discrete-mathematics-set-theory-algebra/number-theory",
+     "discrete-mathematics-set-theory-algebra/polynomials"
+    ],
+    "minutes": 10
+   },
+   {
+    "id": "09-dm-formula-sheet-and-traps",
+    "file": "09-dm-formula-sheet-and-traps.md",
+    "title": "Discrete Mathematics: Formula Sheet, Tables aur GATE Traps",
+    "topics": [
+     "discrete-mathematics-set-theory-algebra/relations",
+     "discrete-mathematics-set-theory-algebra/group-theory",
+     "discrete-mathematics-graph-theory/graph-connectivity",
+     "discrete-mathematics-combinatory/combinatory",
+     "discrete-mathematics-mathematical-logic/propositional-logic"
+    ],
+    "minutes": 4
+   }
+  ]
+ },
+ {
+  "key": "engineering-maths",
+  "order": 10,
+  "title": "Engineering Mathematics (EM)",
+  "emoji": "📐",
+  "description": "Linear algebra (matrices, rank, eigenvalues), probability and distributions, calculus (limits, differentiation, optimization, integration) with solved GATE-style examples.",
+  "topicSubjectIds": [
+   "engineering-mathematics-linear-algebra",
+   "engineering-mathematics-probability",
+   "engineering-mathematics-calculus"
+  ],
+  "chapters": [
+   {
+    "id": "01-matrices-determinants",
+    "file": "01-matrices-determinants.md",
+    "title": "Linear Algebra I: Matrices aur Determinants",
+    "topics": [
+     "engineering-mathematics-linear-algebra/matrix",
+     "engineering-mathematics-linear-algebra/determinant",
+     "engineering-mathematics-linear-algebra/cartesian-coordinates"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "02-rank-systems-vector-spaces",
+    "file": "02-rank-systems-vector-spaces.md",
+    "title": "Linear Algebra II: Rank, System of Equations, Vector Spaces, LU, Gaussian Elimination",
+    "topics": [
+     "engineering-mathematics-linear-algebra/rank-of-matrix",
+     "engineering-mathematics-linear-algebra/system-of-equations",
+     "engineering-mathematics-linear-algebra/vector-space",
+     "engineering-mathematics-linear-algebra/subspace",
+     "engineering-mathematics-linear-algebra/lu-decomposition",
+     "engineering-mathematics-linear-algebra/gaussian-elimination"
+    ],
+    "minutes": 8
+   },
+   {
+    "id": "03-eigenvalues-diagonalization-svd",
+    "file": "03-eigenvalues-diagonalization-svd.md",
+    "title": "Eigenvalues, Eigenvectors, Diagonalization, Orthonormality aur SVD",
+    "topics": [
+     "engineering-mathematics-linear-algebra/eigen-value",
+     "engineering-mathematics-linear-algebra/multiplicity",
+     "engineering-mathematics-linear-algebra/orthonormality",
+     "engineering-mathematics-linear-algebra/singular-value-decomposition"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "04-probability-basics-conditional-bayes",
+    "file": "04-probability-basics-conditional-bayes.md",
+    "title": "Probability I: Basics, Conditional Probability, Independence aur Bayes",
+    "topics": [
+     "engineering-mathematics-probability/probability",
+     "engineering-mathematics-probability/conditional-probability",
+     "engineering-mathematics-probability/independent-events",
+     "engineering-mathematics-probability/bayes-theorem",
+     "engineering-mathematics-probability/bayesian-network",
+     "general-aptitude-quantitative-aptitude/probability"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "05-random-variables-distributions-expectation",
+    "file": "05-random-variables-distributions-expectation.md",
+    "title": "Probability II: Random Variables, Distributions, Expectation aur Variance",
+    "topics": [
+     "engineering-mathematics-probability/random-variable",
+     "engineering-mathematics-probability/expectation",
+     "engineering-mathematics-probability/variance",
+     "engineering-mathematics-probability/binomial-distribution",
+     "engineering-mathematics-probability/poisson-distribution",
+     "engineering-mathematics-probability/normal-distribution",
+     "engineering-mathematics-probability/uniform-distribution",
+     "engineering-mathematics-probability/exponential-distribution",
+     "engineering-mathematics-probability/bernoulli-distribution",
+     "engineering-mathematics-probability/chi-square-distribution",
+     "engineering-mathematics-probability/continuous-distribution",
+     "engineering-mathematics-probability/probability-distribution",
+     "engineering-mathematics-probability/probability-density-function",
+     "engineering-mathematics-probability/statistics"
+    ],
+    "minutes": 8
+   },
+   {
+    "id": "06-calculus-limits-continuity-differentiation",
+    "file": "06-calculus-limits-continuity-differentiation.md",
+    "title": "Calculus I: Limits, Continuity aur Differentiation",
+    "topics": [
+     "engineering-mathematics-calculus/limits",
+     "engineering-mathematics-calculus/continuity",
+     "engineering-mathematics-calculus/differentiation",
+     "engineering-mathematics-calculus/polynomials"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "07-calculus-maxima-minima-integration",
+    "file": "07-calculus-maxima-minima-integration.md",
+    "title": "Calculus II: Maxima–Minima, Integration aur Definite Integrals",
+    "topics": [
+     "engineering-mathematics-calculus/maxima-minima",
+     "engineering-mathematics-calculus/integration",
+     "engineering-mathematics-calculus/definite-integral",
+     "engineering-mathematics-calculus/summation"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "08-em-formula-sheet-and-traps",
+    "file": "08-em-formula-sheet-and-traps.md",
+    "title": "Engineering Mathematics: Formula Sheet, Tables aur GATE Traps",
+    "topics": [
+     "engineering-mathematics-linear-algebra/eigen-value",
+     "engineering-mathematics-linear-algebra/system-of-equations",
+     "engineering-mathematics-probability/probability",
+     "engineering-mathematics-probability/expectation",
+     "engineering-mathematics-calculus/limits"
+    ],
+    "minutes": 4
+   }
+  ]
+ },
+ {
+  "key": "general-aptitude",
+  "order": 11,
+  "title": "General Aptitude (GA)",
+  "emoji": "🧠",
+  "description": "15 marks in every GATE paper: arithmetic, algebra, geometry, data interpretation, verbal ability, logical/analytical reasoning and spatial questions with shortcuts and solved examples.",
+  "topicSubjectIds": [
+   "general-aptitude-quantitative-aptitude",
+   "general-aptitude-verbal-aptitude",
+   "general-aptitude-analytical-aptitude",
+   "general-aptitude-spatial-aptitude"
+  ],
+  "chapters": [
+   {
+    "id": "01-numbers-percentage-ratio-profit",
+    "file": "01-numbers-percentage-ratio-profit.md",
+    "title": "Quant I: Number System, Percentage, Ratio, Profit-Loss aur Interest",
+    "topics": [
+     "general-aptitude-quantitative-aptitude/number-system",
+     "general-aptitude-quantitative-aptitude/number-theory",
+     "general-aptitude-quantitative-aptitude/prime-numbers",
+     "general-aptitude-quantitative-aptitude/factors",
+     "general-aptitude-quantitative-aptitude/fractions",
+     "general-aptitude-quantitative-aptitude/percentage",
+     "general-aptitude-quantitative-aptitude/ratio-proportion",
+     "general-aptitude-quantitative-aptitude/profit-loss",
+     "general-aptitude-quantitative-aptitude/cost-market-price",
+     "general-aptitude-quantitative-aptitude/compound-interest",
+     "general-aptitude-quantitative-aptitude/average",
+     "general-aptitude-quantitative-aptitude/alligation-mixture",
+     "general-aptitude-quantitative-aptitude/powers",
+     "general-aptitude-quantitative-aptitude/logarithms",
+     "general-aptitude-quantitative-aptitude/absolute-value"
+    ],
+    "minutes": 7
+   },
+   {
+    "id": "02-time-work-speed-clock-algebra",
+    "file": "02-time-work-speed-clock-algebra.md",
+    "title": "Quant II: Time-Work, Speed-Distance, Clock, Algebra, Series aur Counting",
+    "topics": [
+     "general-aptitude-quantitative-aptitude/work-time",
+     "general-aptitude-quantitative-aptitude/speed-time-distance",
+     "general-aptitude-quantitative-aptitude/clock-time",
+     "general-aptitude-quantitative-aptitude/quadratic-equations",
+     "general-aptitude-quantitative-aptitude/polynomials",
+     "general-aptitude-quantitative-aptitude/functions",
+     "general-aptitude-quantitative-aptitude/number-series",
+     "general-aptitude-quantitative-aptitude/arithmetic-series",
+     "general-aptitude-quantitative-aptitude/sequence-series",
+     "general-aptitude-quantitative-aptitude/permutation-and-combination",
+     "general-aptitude-quantitative-aptitude/combinatory",
+     "general-aptitude-quantitative-aptitude/probability",
+     "general-aptitude-quantitative-aptitude/venn-diagram",
+     "general-aptitude-quantitative-aptitude/maxima-minima"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "03-geometry-mensuration-data-interpretation",
+    "file": "03-geometry-mensuration-data-interpretation.md",
+    "title": "Quant III: Geometry, Mensuration, Coordinates aur Data Interpretation",
+    "topics": [
+     "general-aptitude-quantitative-aptitude/geometry",
+     "general-aptitude-quantitative-aptitude/triangles",
+     "general-aptitude-quantitative-aptitude/circle",
+     "general-aptitude-quantitative-aptitude/area",
+     "general-aptitude-quantitative-aptitude/mensuration",
+     "general-aptitude-quantitative-aptitude/volume",
+     "general-aptitude-quantitative-aptitude/cubes",
+     "general-aptitude-quantitative-aptitude/cartesian-coordinates",
+     "general-aptitude-quantitative-aptitude/data-interpretation",
+     "general-aptitude-quantitative-aptitude/bar-graph",
+     "general-aptitude-quantitative-aptitude/line-graph",
+     "general-aptitude-quantitative-aptitude/pie-chart",
+     "general-aptitude-quantitative-aptitude/tables",
+     "general-aptitude-quantitative-aptitude/tabular-data",
+     "general-aptitude-quantitative-aptitude/statistics",
+     "general-aptitude-quantitative-aptitude/maps",
+     "general-aptitude-quantitative-aptitude/contour-plots"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "04-verbal-ability-grammar-vocabulary",
+    "file": "04-verbal-ability-grammar-vocabulary.md",
+    "title": "Verbal I: Grammar, Vocabulary, Sentence Correction aur Word Usage",
+    "topics": [
+     "general-aptitude-verbal-aptitude/english-grammar",
+     "general-aptitude-verbal-aptitude/tenses",
+     "general-aptitude-verbal-aptitude/articles",
+     "general-aptitude-verbal-aptitude/prepositions",
+     "general-aptitude-verbal-aptitude/comparative-forms",
+     "general-aptitude-verbal-aptitude/grammatical-error",
+     "general-aptitude-verbal-aptitude/incorrect-sentence-part",
+     "general-aptitude-verbal-aptitude/most-appropriate-word",
+     "general-aptitude-verbal-aptitude/word-pairs",
+     "general-aptitude-verbal-aptitude/word-meaning",
+     "general-aptitude-verbal-aptitude/synonyms",
+     "general-aptitude-verbal-aptitude/antonyms",
+     "general-aptitude-verbal-aptitude/phrase-meaning"
+    ],
+    "minutes": 8
+   },
+   {
+    "id": "05-verbal-reasoning-passages-sentence-ordering",
+    "file": "05-verbal-reasoning-passages-sentence-ordering.md",
+    "title": "Verbal II: Passage Reading, Sentence Ordering, Verbal Reasoning aur Inference",
+    "topics": [
+     "general-aptitude-verbal-aptitude/passage-reading",
+     "general-aptitude-verbal-aptitude/sentence-ordering",
+     "general-aptitude-verbal-aptitude/narrative-sequencing",
+     "general-aptitude-verbal-aptitude/verbal-reasoning",
+     "general-aptitude-verbal-aptitude/statement-sufficiency",
+     "general-aptitude-verbal-aptitude/statements-follow",
+     "general-aptitude-analytical-aptitude/passage-reading",
+     "general-aptitude-analytical-aptitude/statements-follow",
+     "general-aptitude-analytical-aptitude/logical-inference"
+    ],
+    "minutes": 5
+   },
+   {
+    "id": "06-analytical-reasoning-and-spatial",
+    "file": "06-analytical-reasoning-and-spatial.md",
+    "title": "Analytical Reasoning aur Spatial Aptitude",
+    "topics": [
+     "general-aptitude-analytical-aptitude/logical-reasoning",
+     "general-aptitude-analytical-aptitude/seating-arrangement",
+     "general-aptitude-analytical-aptitude/round-table-arrangement",
+     "general-aptitude-analytical-aptitude/direction-sense",
+     "general-aptitude-analytical-aptitude/family-relationship",
+     "general-aptitude-analytical-aptitude/age-relation",
+     "general-aptitude-analytical-aptitude/coding-decoding",
+     "general-aptitude-analytical-aptitude/code-words",
+     "general-aptitude-analytical-aptitude/analogy",
+     "general-aptitude-analytical-aptitude/odd-one",
+     "general-aptitude-analytical-aptitude/sequence-series",
+     "general-aptitude-analytical-aptitude/number-relations",
+     "general-aptitude-spatial-aptitude/paper-folding",
+     "general-aptitude-spatial-aptitude/mirror-image",
+     "general-aptitude-spatial-aptitude/image-rotation",
+     "general-aptitude-spatial-aptitude/3d-structure",
+     "general-aptitude-spatial-aptitude/assembling",
+     "general-aptitude-spatial-aptitude/assembling-pieces",
+     "general-aptitude-spatial-aptitude/patterns-in-two-dimensions",
+     "general-aptitude-spatial-aptitude/patterns-in-three-dimensions"
+    ],
+    "minutes": 6
+   },
+   {
+    "id": "07-ga-formula-sheet-and-strategy",
+    "file": "07-ga-formula-sheet-and-strategy.md",
+    "title": "GA: Formula Sheet, Shortcuts, Traps aur Exam Strategy",
+    "topics": [
+     "general-aptitude-quantitative-aptitude/percentage",
+     "general-aptitude-quantitative-aptitude/work-time",
+     "general-aptitude-quantitative-aptitude/speed-time-distance",
+     "general-aptitude-verbal-aptitude/english-grammar",
+     "general-aptitude-analytical-aptitude/logical-reasoning"
+    ],
+    "minutes": 3
+   }
+  ]
  }
 ]

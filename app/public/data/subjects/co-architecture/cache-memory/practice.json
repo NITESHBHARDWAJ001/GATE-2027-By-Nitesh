@@ -1,60 +1,60 @@
 {
-  "topicId": "co-architecture-cache-memory",
-  "disclaimer": "AI-GENERATED PRACTICE — these are NOT real GATE PYQs. They are written by Claude to drill the patterns above, modeled on the style/difficulty of the real PYQs in pyqs.json. Do not cite these as GATE questions.",
-  "questions": [
-    {
-      "practiceId": "AI-CACHE-01",
-      "patternId": "CACHE_ADDR_SPLIT_01",
-      "difficulty": "basic",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "A byte-addressable machine has a 32-bit address. It has a 64 KB direct-mapped cache with a block size of 32 bytes. Find the number of bits in the TAG, LINE (index), and WORD (offset) fields.",
-      "solutionApproach": "offset = log2(32) = 5 bits. #lines = 64KB/32B = 2048 = 2^11 → index = 11 bits. tag = 32 − 5 − 11 = 16 bits.",
-      "answer": "TAG = 16 bits, LINE = 11 bits, WORD = 5 bits"
-    },
-    {
-      "practiceId": "AI-CACHE-02",
-      "patternId": "CACHE_ADDR_SPLIT_01",
-      "difficulty": "moderate",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "Same machine as above, but now the cache is 4-way set-associative instead of direct-mapped, with the same total cache size and block size. Find the new SET index width and TAG width.",
-      "solutionApproach": "#lines unchanged = 2048. #sets = 2048/4 = 512 = 2^9 → set index = 9 bits. tag = 32 − 5 − 9 = 18 bits.",
-      "answer": "SET = 9 bits, TAG = 18 bits (associativity increase always shrinks index bits and grows tag bits, for fixed cache size)"
-    },
-    {
-      "practiceId": "AI-CACHE-03",
-      "patternId": "CACHE_AMAT_HIERARCHY_02",
-      "difficulty": "gate-level",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "A system has L1 (hit time 1 ns, local miss rate 8%) and L2 (hit time 8 ns, local miss rate 25%) caches, and main memory access time 100 ns. Compute the AMAT.",
-      "solutionApproach": "Work backward: AMAT_L2 = 8 + 0.25×100 = 33 ns. AMAT_L1 = 1 + 0.08×33 = 3.64 ns.",
-      "answer": "AMAT = 3.64 ns"
-    },
-    {
-      "practiceId": "AI-CACHE-04",
-      "patternId": "CACHE_LRU_TRACE_03",
-      "difficulty": "moderate",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "A fully associative cache with 3 lines (initially empty) uses LRU. Reference sequence (block numbers): 1, 2, 3, 1, 4, 2, 5. How many misses occur?",
-      "solutionApproach": "1(miss,[1]) 2(miss,[1,2]) 3(miss,[1,2,3],full) 1(hit,reorder→[2,3,1]) 4(miss,evict LRU=2→[3,1,4]) 2(miss,evict LRU=3→[1,4,2]) 5(miss,evict LRU=1→[4,2,5]). Misses = 1,2,3,4,2,5 → 6 misses, 1 hit.",
-      "answer": "6 misses (out of 7 references)"
-    },
-    {
-      "practiceId": "AI-CACHE-05",
-      "patternId": "CACHE_LOOP_LOCALITY_04",
-      "difficulty": "tough",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "A 100x100 array of 4-byte integers is stored row-major. Cache block size = 32 bytes, direct-mapped, large enough to ignore conflict misses. Compare cache misses for row-major traversal (i outer, j inner) vs column-major traversal (j outer, i inner) over the full array.",
-      "solutionApproach": "Elements per block = 32/4 = 8. Row-major: consecutive j accesses hit 7 out of every 8 → misses ≈ 10000/8 = 1250. Column-major: consecutive i accesses jump 400 bytes each time (never same block) → every access is a miss ≈ 10000.",
-      "answer": "Row-major ≈ 1250 misses; Column-major ≈ 10000 misses (8x more) — demonstrates why loop order matters."
-    },
-    {
-      "practiceId": "AI-CACHE-06",
-      "patternId": "CACHE_CONCEPTUAL_POLICY_05",
-      "difficulty": "tricky-variation",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "Which of the following is/are TRUE? (MSQ style) (A) Write-back caches require a dirty bit. (B) Write-through caches never need a dirty bit. (C) A write-back cache always generates less memory bus traffic than a write-through cache for a given workload. (D) Inclusion property requires that every block in L2 also be present in L1.",
-      "solutionApproach": "(A) True — need to track which lines differ from memory. (B) True — memory is always up to date. (C) True generally (fewer writes propagate) — mark true for a standard workload. (D) FALSE — inclusion is the other way: L1 ⊆ L2, not L2 ⊆ L1. This is the classic reversal trap.",
-      "answer": "A, B, C are true; D is false (reversed direction — classic GATE trap)."
-    }
-  ]
+ "topicId": "co-architecture-cache-memory",
+ "disclaimer": "AI-GENERATED PRACTICE — these are NOT real GATE PYQs. They are written by Claude to drill the patterns above, modeled on the style/difficulty of the real PYQs in pyqs.json. Do not cite these as GATE questions.",
+ "questions": [
+  {
+   "practiceId": "AI-CACHE-01",
+   "patternId": "CACHE_ADDR_SPLIT_01",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A byte-addressable machine has a 32-bit address. It has a 64 KB direct-mapped cache with a block size of 32 bytes. Find the number of bits in the TAG, LINE (index), and WORD (offset) fields.",
+   "solutionApproach": "offset = log2(32) = 5 bits. #lines = 64KB/32B = 2048 = 2^11 → index = 11 bits. tag = 32 − 5 − 11 = 16 bits.",
+   "answer": "TAG = 16 bits, LINE = 11 bits, WORD = 5 bits"
+  },
+  {
+   "practiceId": "AI-CACHE-02",
+   "patternId": "CACHE_ADDR_SPLIT_01",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Same machine as above, but now the cache is 4-way set-associative instead of direct-mapped, with the same total cache size and block size. Find the new SET index width and TAG width.",
+   "solutionApproach": "#lines unchanged = 2048. #sets = 2048/4 = 512 = 2^9 → set index = 9 bits. tag = 32 − 5 − 9 = 18 bits.",
+   "answer": "SET = 9 bits, TAG = 18 bits (associativity increase always shrinks index bits and grows tag bits, for fixed cache size)"
+  },
+  {
+   "practiceId": "AI-CACHE-03",
+   "patternId": "CACHE_AMAT_HIERARCHY_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A system has L1 (hit time 1 ns, local miss rate 8%) and L2 (hit time 8 ns, local miss rate 25%) caches, and main memory access time 100 ns. Compute the AMAT.",
+   "solutionApproach": "Work backward: AMAT_L2 = 8 + 0.25×100 = 33 ns. AMAT_L1 = 1 + 0.08×33 = 3.64 ns.",
+   "answer": "AMAT = 3.64 ns"
+  },
+  {
+   "practiceId": "AI-CACHE-04",
+   "patternId": "CACHE_LRU_TRACE_03",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A fully associative cache with 3 lines (initially empty) uses LRU. Reference sequence (block numbers): 1, 2, 3, 1, 4, 2, 5. How many misses occur?",
+   "solutionApproach": "1(miss,[1]) 2(miss,[1,2]) 3(miss,[1,2,3],full) 1(hit,reorder→[2,3,1]) 4(miss,evict LRU=2→[3,1,4]) 2(miss,evict LRU=3→[1,4,2]) 5(miss,evict LRU=1→[4,2,5]). Misses = 1,2,3,4,2,5 → 6 misses, 1 hit.",
+   "answer": "6 misses (out of 7 references)"
+  },
+  {
+   "practiceId": "AI-CACHE-05",
+   "patternId": "CACHE_LOOP_LOCALITY_04",
+   "difficulty": "tough",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A 100x100 array of 4-byte integers is stored row-major. Cache block = 32 bytes, direct-mapped, and the cache is too small to hold the 100 blocks of one column (so blocks are evicted before being reused). Compare cache misses for row-major traversal (i outer, j inner) vs column-major traversal (j outer, i inner).",
+   "solutionApproach": "Elements per block = 32/4 = 8. Row-major: consecutive j accesses hit 7 out of every 8 → misses ≈ 10000/8 = 1250. Column-major: consecutive i accesses jump 400 bytes each time (never same block) → every access is a miss ≈ 10000.",
+   "answer": "Row-major ≈ 1250 misses; Column-major ≈ 10000 misses (8x more) — demonstrates why loop order matters."
+  },
+  {
+   "practiceId": "AI-CACHE-06",
+   "patternId": "CACHE_CONCEPTUAL_POLICY_05",
+   "difficulty": "tricky-variation",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "Which of the following is/are TRUE? (MSQ style) (A) Write-back caches require a dirty bit. (B) Write-through caches never need a dirty bit. (C) A write-back cache always generates less memory bus traffic than a write-through cache for a given workload. (D) Inclusion property requires that every block in L2 also be present in L1.",
+   "solutionApproach": "(A) True: dirty bit tracks lines that differ from memory. (B) True: memory always updated. (C) False: 'always' is wrong; write-back usually reduces traffic but writes a whole block on eviction and can generate more traffic for some workloads. (D) False: inclusion means every block in L1 is also in L2 (L1 ⊆ L2), not the reverse.",
+   "answer": "A and B are TRUE; C and D are FALSE."
+  }
+ ]
 }

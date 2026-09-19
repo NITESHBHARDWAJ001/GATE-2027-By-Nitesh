@@ -1,42 +1,42 @@
 {
-  "topicId": "prog-c-programming-in-c",
-  "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
-  "questions": [
-    {
-      "practiceId": "AI-PC-01",
-      "patternId": "PC_STATIC_VAR_01",
-      "difficulty": "moderate",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "int counter() { static int c = 0; c++; return c; } int main() { int i, s=0; for(i=0;i<4;i++) s += counter(); printf(\"%d\", s); }  What is printed?",
-      "solutionApproach": "Calls return 1,2,3,4 in sequence (static persists). Sum = 1+2+3+4 = 10.",
-      "answer": "10"
-    },
-    {
-      "practiceId": "AI-PC-02",
-      "patternId": "PC_OUTPUT_TRACE_02",
-      "difficulty": "gate-level",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "int main() { int i=5, j; j = i++ + ++i; printf(\"%d %d\", i, j); }  What is printed? (assume left-to-right evaluation for this exercise)",
-      "solutionApproach": "i++ uses 5, then i becomes 6. ++i makes i=7, uses 7. j = 5+7=12. Final i=7.",
-      "answer": "7 12 (note: real compilers may vary since C doesn't guarantee evaluation order here — GATE avoids truly ambiguous cases; this is a simplified drill)"
-    },
-    {
-      "practiceId": "AI-PC-03",
-      "patternId": "PC_OUTPUT_TRACE_02",
-      "difficulty": "moderate",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "unsigned int a = 3, b = 5; printf(\"%u\", a-b);  What gets printed (assume 32-bit unsigned int)?",
-      "solutionApproach": "3-5 = -2 mathematically, but unsigned wraps: -2 mod 2^32 = 4294967294.",
-      "answer": "4294967294"
-    },
-    {
-      "practiceId": "AI-PC-04",
-      "patternId": "PC_COMPILE_TYPE_03",
-      "difficulty": "basic",
-      "sourceType": "AI_GENERATED_PRACTICE",
-      "question": "A C program calls a function foo(int) before defining it, with no prototype declared. What happens?",
-      "solutionApproach": "In older C standards, this is allowed with implicit-int assumption (compiler assumes it returns int); modern compilers (C99+) issue a warning or error for implicit declarations depending on strictness flags. It's a common source of subtle bugs, not necessarily a hard failure.",
-      "answer": "Typically compiles with a warning (implicit declaration) rather than failing outright, though strict/modern compilers may error."
-    }
-  ]
+ "topicId": "prog-c-programming-in-c",
+ "disclaimer": "AI-GENERATED PRACTICE — not real GATE PYQs.",
+ "questions": [
+  {
+   "practiceId": "AI-PC-01",
+   "patternId": "PC_STATIC_VAR_01",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "int counter() { static int c = 0; c++; return c; } int main() { int i, s=0; for(i=0;i<4;i++) s += counter(); printf(\"%d\", s); }  What is printed?",
+   "solutionApproach": "Calls return 1,2,3,4 in sequence (static persists). Sum = 1+2+3+4 = 10.",
+   "answer": "10"
+  },
+  {
+   "practiceId": "AI-PC-02",
+   "patternId": "PC_OUTPUT_TRACE_02",
+   "difficulty": "gate-level",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "int main() { int i=5, j; j = i++ + 2; printf(\"%d %d\", i, j); }  What is printed?",
+   "solutionApproach": "i++ yields 5 then i becomes 6; j = 5 + 2 = 7.",
+   "answer": "6 7"
+  },
+  {
+   "practiceId": "AI-PC-03",
+   "patternId": "PC_OUTPUT_TRACE_02",
+   "difficulty": "moderate",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "unsigned int a = 3, b = 5; printf(\"%u\", a-b);  What gets printed (assume 32-bit unsigned int)?",
+   "solutionApproach": "3-5 = -2 mathematically, but unsigned wraps: -2 mod 2^32 = 4294967294.",
+   "answer": "4294967294"
+  },
+  {
+   "practiceId": "AI-PC-04",
+   "patternId": "PC_COMPILE_TYPE_03",
+   "difficulty": "basic",
+   "sourceType": "AI_GENERATED_PRACTICE",
+   "question": "A C program calls a function foo(int) before defining it, with no prototype declared. What happens?",
+   "solutionApproach": "In older C standards, this is allowed with implicit-int assumption (compiler assumes it returns int); modern compilers (C99+) issue a warning or error for implicit declarations depending on strictness flags. It's a common source of subtle bugs, not necessarily a hard failure.",
+   "answer": "Typically compiles with a warning (implicit declaration) rather than failing outright, though strict/modern compilers may error."
+  }
+ ]
 }
